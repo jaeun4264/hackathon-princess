@@ -1,0 +1,164 @@
+[
+  {
+    "id": "sample-p1-netflix-7",
+    "date": "2026-07-15",
+    "amount": 13500,
+    "currency": "KRW",
+    "raw_name": "넷플릭스",
+    "payment_method": "card",
+    "source": "sample"
+  },
+  {
+    "id": "sample-p1-netflix-8",
+    "date": "2026-08-15",
+    "amount": 13500,
+    "currency": "KRW",
+    "raw_name": "넷플릭스",
+    "payment_method": "card",
+    "source": "sample"
+  },
+  {
+    "id": "sample-p1-netflix-9",
+    "date": "2026-09-15",
+    "amount": 13500,
+    "currency": "KRW",
+    "raw_name": "넷플릭스",
+    "payment_method": "card",
+    "source": "sample"
+  },
+  {
+    "id": "sample-p1-icloud-7",
+    "date": "2026-07-15",
+    "amount": 1100,
+    "currency": "KRW",
+    "raw_name": "Apple",
+    "payment_method": "apple",
+    "source": "sample"
+  },
+  {
+    "id": "sample-p1-icloud-8",
+    "date": "2026-08-15",
+    "amount": 1100,
+    "currency": "KRW",
+    "raw_name": "Apple",
+    "payment_method": "apple",
+    "source": "sample"
+  },
+  {
+    "id": "sample-p1-icloud-9",
+    "date": "2026-09-15",
+    "amount": 1100,
+    "currency": "KRW",
+    "raw_name": "Apple",
+    "payment_method": "apple",
+    "source": "sample"
+  },
+  {
+    "id": "sample-p1-daglo-7",
+    "date": "2026-07-15",
+    "amount": 14900,
+    "currency": "KRW",
+    "raw_name": "다글로",
+    "payment_method": "card",
+    "source": "sample"
+  },
+  {
+    "id": "sample-p1-daglo-8",
+    "date": "2026-08-15",
+    "amount": 14900,
+    "currency": "KRW",
+    "raw_name": "다글로",
+    "payment_method": "card",
+    "source": "sample"
+  },
+  {
+    "id": "sample-p1-daglo-9",
+    "date": "2026-09-15",
+    "amount": 14900,
+    "currency": "KRW",
+    "raw_name": "다글로",
+    "payment_method": "card",
+    "source": "sample"
+  },
+  {
+    "id": "sample-p1-kakao_emoticon_plus-7",
+    "date": "2026-07-15",
+    "amount": 6900,
+    "currency": "KRW",
+    "raw_name": "카카오페이",
+    "payment_method": "kakaopay",
+    "source": "sample"
+  },
+  {
+    "id": "sample-p1-kakao_emoticon_plus-8",
+    "date": "2026-08-15",
+    "amount": 6900,
+    "currency": "KRW",
+    "raw_name": "카카오페이",
+    "payment_method": "kakaopay",
+    "source": "sample"
+  },
+  {
+    "id": "sample-p1-kakao_emoticon_plus-9",
+    "date": "2026-09-15",
+    "amount": 6900,
+    "currency": "KRW",
+    "raw_name": "카카오페이",
+    "payment_method": "kakaopay",
+    "source": "sample"
+  },
+  {
+    "id": "sample-p1-goodnotes-7",
+    "date": "2026-07-15",
+    "amount": 50500,
+    "currency": "KRW",
+    "raw_name": "굿노트",
+    "payment_method": "card",
+    "source": "sample"
+  },
+  {
+    "id": "sample-p1-oneoff-1",
+    "date": "2026-07-02",
+    "amount": 1700,
+    "currency": "KRW",
+    "raw_name": "가상 편의점",
+    "payment_method": "card",
+    "source": "sample"
+  },
+  {
+    "id": "sample-p1-oneoff-2",
+    "date": "2026-07-08",
+    "amount": 3300,
+    "currency": "KRW",
+    "raw_name": "가상 배달",
+    "payment_method": "card",
+    "source": "sample"
+  },
+  {
+    "id": "sample-p1-oneoff-3",
+    "date": "2026-08-05",
+    "amount": 6100,
+    "currency": "KRW",
+    "raw_name": "가상 교통",
+    "payment_method": "card",
+    "source": "sample"
+  },
+  {
+    "id": "sample-p1-oneoff-4",
+    "date": "2026-08-21",
+    "amount": 8400,
+    "currency": "KRW",
+    "raw_name": "가상 편의점",
+    "payment_method": "card",
+    "source": "sample"
+  },
+  {
+    "id": "sample-p1-oneoff-5",
+    "date": "2026-09-26",
+    "amount": 12200,
+    "currency": "KRW",
+    "raw_name": "가상 배달",
+    "payment_method": "card",
+    "source": "sample"
+  }
+]

@@ -1,0 +1,101 @@
+[
+  {
+    "id": "sample-p3-netflix-7",
+    "date": "2026-07-15",
+    "amount": 13500,
+    "currency": "KRW",
+    "raw_name": "넷플릭스",
+    "payment_method": "card",
+    "source": "sample"
+  },
+  {
+    "id": "sample-p3-netflix-8",
+    "date": "2026-08-15",
+    "amount": 13500,
+    "currency": "KRW",
+    "raw_name": "넷플릭스",
+    "payment_method": "card",
+    "source": "sample"
+  },
+  {
+    "id": "sample-p3-netflix-9",
+    "date": "2026-09-15",
+    "amount": 13500,
+    "currency": "KRW",
+    "raw_name": "넷플릭스",
+    "payment_method": "card",
+    "source": "sample"
+  },
+  {
+    "id": "sample-p3-naver_plus-7",
+    "date": "2026-07-15",
+    "amount": 4900,
+    "currency": "KRW",
+    "raw_name": "네이버플러스 멤버십",
+    "payment_method": "card",
+    "source": "sample"
+  },
+  {
+    "id": "sample-p3-naver_plus-8",
+    "date": "2026-08-15",
+    "amount": 4900,
+    "currency": "KRW",
+    "raw_name": "네이버플러스 멤버십",
+    "payment_method": "card",
+    "source": "sample"
+  },
+  {
+    "id": "sample-p3-naver_plus-9",
+    "date": "2026-09-15",
+    "amount": 4900,
+    "currency": "KRW",
+    "raw_name": "네이버플러스 멤버십",
+    "payment_method": "card",
+    "source": "sample"
+  },
+  {
+    "id": "sample-p3-oneoff-1",
+    "date": "2026-07-02",
+    "amount": 1700,
+    "currency": "KRW",
+    "raw_name": "가상 편의점",
+    "payment_method": "card",
+    "source": "sample"
+  },
+  {
+    "id": "sample-p3-oneoff-2",
+    "date": "2026-07-08",
+    "amount": 3300,
+    "currency": "KRW",
+    "raw_name": "가상 배달",
+    "payment_method": "card",
+    "source": "sample"
+  },
+  {
+    "id": "sample-p3-oneoff-3",
+    "date": "2026-08-05",
+    "amount": 6100,
+    "currency": "KRW",
+    "raw_name": "가상 교통",
+    "payment_method": "card",
+    "source": "sample"
+  },
+  {
+    "id": "sample-p3-oneoff-4",
+    "date": "2026-08-21",
+    "amount": 8400,
+    "currency": "KRW",
+    "raw_name": "가상 편의점",
+    "payment_method": "card",
+    "source": "sample"
+  },
+  {
+    "id": "sample-p3-oneoff-5",
+    "date": "2026-09-26",
+    "amount": 12200,
+    "currency": "KRW",
+    "raw_name": "가상 배달",
+    "payment_method": "card",
+    "source": "sample"
+  }
+]
