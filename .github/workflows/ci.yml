@@ -1,0 +1,33 @@
+name: Fixed Cost CI
+
+on:
+  push:
+    paths:
+      - "fixed-cost/**"
+      - ".github/workflows/ci.yml"
+  pull_request:
+    paths:
+      - "fixed-cost/**"
+      - ".github/workflows/ci.yml"
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  check:
+    runs-on: ubuntu-latest
+    defaults:
+      run:
+        working-directory: fixed-cost
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: "lts/*"
+          cache: npm
+          cache-dependency-path: fixed-cost/package-lock.json
+      - run: npm ci
+      - run: npm run typecheck
+      - run: npm run lint
+      - run: npm run test
