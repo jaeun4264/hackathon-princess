@@ -1,0 +1,13 @@
+{
+  "_note": "개발용 가상 기준 사례이며 실제 개인정보가 아니에요. Transaction[]이 아닌 subscriptions 별도 형식이에요. Claude Pro·지니뮤직의 원화 금액과 역산한 티빙 가격은 미확인이라 null이에요. 확인일·가격을 추측하지 않아요.",
+  "subscriptions": [
+    { "service_id": "claude_pro", "display_name": "Claude Pro", "amount": null, "interval": "monthly", "usage": "often" },
+    { "service_id": "daglo", "display_name": "다글로", "amount": 14900, "interval": "monthly", "usage": "often" },
+    { "service_id": "genie_music", "display_name": "지니뮤직", "amount": null, "interval": "monthly", "usage": "often" },
+    { "service_id": "goodnotes", "display_name": "굿노트", "amount": 50500, "interval": "yearly", "usage": "often" },
+    { "service_id": "kakao_emoticon_plus", "display_name": "카카오톡 이모티콘 플러스", "amount": 6900, "interval": "monthly", "usage": "sometimes" },
+    { "service_id": "netflix", "display_name": "넷플릭스", "amount": 13500, "interval": "monthly", "usage": "rarely" },
+    { "service_id": "tving", "display_name": "티빙", "amount": null, "interval": "monthly", "usage": "rarely" },
+    { "service_id": "icloud", "display_name": "아이클라우드", "amount": 1100, "interval": "monthly", "usage": "rarely" }
+  ]
+}

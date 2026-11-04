@@ -1,0 +1,18 @@
+{
+  "_mock": true,
+  "messages": [
+    { "id": "mock-mail-01", "received_at": "2026-07-01T01:00:00Z", "from_name": "가상 서비스", "from_domain": "receipts.example.invalid", "subject": "[MOCK] 영수증", "text": "개발용 가상 메일. 결제 금액 ₩6,900" },
+    { "id": "mock-mail-02", "received_at": "2026-07-02T01:00:00Z", "from_name": "가상 클라우드", "from_domain": "receipts.example.invalid", "subject": "[MOCK] receipt", "text": "개발용 가상 메일. 1,100원" },
+    { "id": "mock-mail-03", "received_at": "2026-07-03T01:00:00Z", "from_name": "가상 AI 도구", "from_domain": "receipts.example.invalid", "subject": "[MOCK] invoice", "text": "개발용 가상 메일. KRW 14,900" },
+    { "id": "mock-mail-04", "received_at": "2026-07-04T01:00:00Z", "from_name": "가상 외화 서비스", "from_domain": "receipts.example.invalid", "subject": "[MOCK] payment", "text": "개발용 가상 외화 영수증. USD $20.00" },
+    { "id": "mock-mail-05", "received_at": "2026-07-05T01:00:00Z", "from_name": "가상 서비스", "from_domain": "receipts.example.invalid", "subject": "[MOCK] 영수증", "text": "개발용 가상 메일. 금액 정보 없음" },
+    { "id": "mock-mail-06", "received_at": "2026-07-06T01:00:00Z", "from_name": "가상 광고", "from_domain": "ads.example.invalid", "subject": "[MOCK] 광고 특가", "text": "이번 주 추천 상품 6,900원" },
+    { "id": "mock-mail-01", "received_at": "2026-07-01T01:00:00Z", "from_name": "가상 서비스", "from_domain": "receipts.example.invalid", "subject": "[MOCK] 영수증", "text": "개발용 가상 메일. 결제 금액 ₩6,900" },
+    { "id": "mock-mail-08", "received_at": "2026-07-08T01:00:00Z", "from_name": "가상 영상 서비스", "from_domain": "receipts.example.invalid", "subject": "[MOCK] 영수증", "text": "HTML 태그를 제거한 가상 본문\n결제 금액 13,500원\n개인정보 자리 표시" },
+    { "id": "mock-mail-09", "received_at": "2026-08-31T16:00:00Z", "from_name": "가상 멤버십", "from_domain": "receipts.example.invalid", "subject": "[MOCK] 영수증", "text": "개발용 가상 메일. 4,900원" },
+    { "id": "mock-mail-10", "received_at": "2026-07-10T01:00:00Z", "from_name": "가상 서비스", "from_domain": "receipts.example.invalid", "subject": "[MOCK] 영수증", "text": "개발용 음수 금액 테스트. ₩-6,900" },
+    { "id": "mock-mail-11", "received_at": "2026-07-11T01:00:00Z", "from_name": "가상 서비스", "from_domain": "receipts.example.invalid", "subject": "[MOCK] 영수증", "text": "개발용 소수 금액 테스트. KRW 6,900.5" },
+    { "id": "mock-mail-12", "received_at": "2026-07-12T01:00:00Z", "from_name": "가상 서비스", "from_domain": "receipts.example.invalid", "subject": "[MOCK] 영수증", "text": "가상 부분 금액 1,000원과 다른 금액 2,000원. 어느 것이 합계인지 모름" },
+    { "id": "mock-mail-13", "received_at": "2026-07-13T01:00:00Z", "from_name": "가상 멤버십", "from_domain": "billing.example.invalid", "subject": "[MOCK] 문서", "text": "개발용 4,900원" }
+  ]
+}
