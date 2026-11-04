@@ -1,0 +1,14 @@
+{
+  "_mock": true,
+  "transactions": [
+    { "id": "sample-netflix-1", "date": "2026-01-31", "amount": 13500, "currency": "KRW", "raw_name": "(주) 넷플릭스 2026.01.31", "payment_method": "card", "source": "sample" },
+    { "id": "sample-netflix-2", "date": "2026-02-28", "amount": 13500, "currency": "KRW", "raw_name": "넷플릭스 2026.02.28", "payment_method": "card", "source": "sample" },
+    { "id": "sample-netflix-3", "date": "2026-03-31", "amount": 13500, "currency": "KRW", "raw_name": "넷플릭스 2026.03.31", "payment_method": "card", "source": "sample" },
+    { "id": "sample-goodnotes", "date": "2024-02-29", "amount": 50500, "currency": "KRW", "raw_name": "굿노트", "payment_method": "apple", "source": "sample" },
+    { "id": "sample-store-1", "date": "2026-01-02", "amount": 3000, "currency": "KRW", "raw_name": "가상 편의점", "payment_method": "card", "source": "sample" },
+    { "id": "sample-store-2", "date": "2026-01-06", "amount": 5200, "currency": "KRW", "raw_name": "가상 편의점", "payment_method": "card", "source": "sample" },
+    { "id": "sample-store-3", "date": "2026-01-20", "amount": 7900, "currency": "KRW", "raw_name": "가상 편의점", "payment_method": "card", "source": "sample" },
+    { "id": "sample-store-4", "date": "2026-02-03", "amount": 4200, "currency": "KRW", "raw_name": "가상 편의점", "payment_method": "card", "source": "sample" },
+    { "id": "sample-store-5", "date": "2026-03-10", "amount": 10500, "currency": "KRW", "raw_name": "가상 편의점", "payment_method": "card", "source": "sample" }
+  ]
+}
