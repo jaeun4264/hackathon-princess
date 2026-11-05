@@ -1,6 +1,7 @@
 import { loadCatalog } from "../catalog";
 import { InterpretRequestSchema } from "../rules/interpret";
-import { interpretItems, unknownInterpretation } from "./interpret";
+import { resolveInterpretItems, unknownResolution } from "./interpret";
+import { interpretationResponse } from "./interpret-resolution";
 import { createRateLimiter } from "./limits";
 import type { Catalog } from "../types";
 import type { LlmClient } from "./types";
@@ -61,12 +62,12 @@ export function createInterpretHandler(options: {
     const quota = requestLimiter.reserve(Number.MAX_SAFE_INTEGER, ip);
     if (quota !== "ok") return errorResponse("rate_limit", "요청이 많아요. 잠시 후 다시 시도해 주세요", 429);
     try {
-      const results = await interpretItems(parsed.data.items, {
+      const resolutions = await resolveInterpretItems(parsed.data.items, {
         catalog: (options.getCatalog ?? loadCatalog)(), llm: options.llm, context: { ip },
       });
-      return Response.json({ results });
+      return Response.json(interpretationResponse(resolutions));
     } catch {
-      return Response.json({ results: parsed.data.items.map((item) => unknownInterpretation(item.key)) });
+      return Response.json(interpretationResponse(parsed.data.items.map((item) => unknownResolution(item.key))));
     }
   };
 }

@@ -43,7 +43,7 @@ it("별칭 정규화·3자 이상 부분 일치·짧은 별칭 정확 일치를 
   expect(matchAlias("(주) 넷플릭스 2026.01.31", loadCatalog()).map((service) => service.id)).toEqual(["netflix"]);
   expect(matchAlias("카카오톡 이모티콘 플러스 자동결제", loadCatalog()).map((service) => service.id)).toEqual(["kakao_emoticon_plus"]);
   expect(matchAlias("티빙", loadCatalog()).map((service) => service.id)).toEqual(["tving"]);
-  expect(matchAlias("티빙 자동결제", loadCatalog())).toEqual([]);
+  expect(matchAlias("티빙 자동결제", loadCatalog()).map((service) => service.id)).toEqual(["tving"]);
   expect(matchAlias("12345", loadCatalog())).toEqual([]);
 });
 
@@ -59,19 +59,19 @@ it("명확한 별칭은 AI 호출 없이 카탈로그 결과를 반환해요", a
   expect(response.status).toBe(200);
   expect((await response.json()).results).toEqual([{
     key: "mock-kakao", service_id: "netflix", category: "영상", confidence: 1,
-    reason: "결제 표기가 카탈로그의 서비스 별칭과 일치해요", source: "catalog", needs_check: false,
+    reason: "결제 표기에 유일한 등록 서비스명이 명시되어 있어요", source: "catalog", needs_check: false,
   }]);
   expect(mock.requests).toEqual([]);
 });
 
-it("중복 별칭은 금액·주기로 하나만 맞을 때 카탈로그에서 구분해요", async () => {
+it("중복 별칭을 금액·주기만으로 확정하지 않아요", async () => {
   const catalog = loadCatalog();
   catalog.services[0].aliases = ["공통 서비스"];
   catalog.services.find((service) => service.id === "daglo")!.aliases = ["공통 서비스"];
-  const mock = mockLlm();
+  const mock = mockLlm([{ ...good, service_id: "daglo" }]);
   const result = await interpretItems([{ ...base, raw_name: "공통 서비스", amount: 14900 }], { catalog, llm: mock.client });
-  expect(result[0]).toMatchObject({ service_id: "daglo", source: "catalog", confidence: 1 });
-  expect(mock.requests).toHaveLength(0);
+  expect(result[0]).toMatchObject({ service_id: null, source: "ai", needs_check: true });
+  expect(mock.requests).toHaveLength(1);
 });
 
 it("별칭과 가격까지 중복되면 임의로 첫 서비스를 고르지 않아요", async () => {
@@ -89,8 +89,8 @@ it("카카오페이 6,900원을 후보 안의 등록된 서비스로만 해석�
   const mock = mockLlm();
   const response = await handler(mock.client)(request());
   const result = (await response.json()).results[0];
-  expect(result).toEqual({ key: "mock-kakao", service_id: "kakao_emoticon_plus", category: "메신저", confidence: 0.82,
-    reason: "선택한 후보의 등록 요금과 입력 금액·주기가 일치해 추정했어요", source: "ai", needs_check: false });
+  expect(result).toEqual({ key: "mock-kakao", service_id: null, category: "기타", confidence: 0.82,
+    reason: "AI가 후보를 추정했지만 실제 서비스는 확인되지 않았어요. 직접 확인해 주세요", source: "ai", needs_check: true });
   expect(InterpretResultSchema.parse(result)).toEqual(result);
   expect(mock.requests).toHaveLength(1);
 });
@@ -102,7 +102,7 @@ it.each(["invented_service", "netflix", "카카오톡 이모티콘 플러스", "
   expect(JSON.stringify(result)).not.toContain("invented_service");
 });
 
-it.each([[0.5, 0.5, true], [0.7, 0.7, false], [-1, 0, true], [2, 1, false]])(
+it.each([[0.5, 0.5, true], [0.7, 0.7, true], [-1, 0, true], [2, 1, true]])(
   "확신도 %s를 범위·확인 기준에 맞춰 처리해요", async (confidence, expected, needs_check) => {
     const mock = mockLlm([{ ...good, confidence }]);
     expect((await interpretItems([base], { catalog: loadCatalog(), llm: mock.client }))[0]).toMatchObject({ confidence: expected, needs_check });
@@ -112,21 +112,21 @@ it.each([[0.5, 0.5, true], [0.7, 0.7, false], [-1, 0, true], [2, 1, false]])(
 it("가격이 미확인된 후보는 높은 확신도라도 확인이 필요해요", async () => {
   const mock = mockLlm([{ ...good, service_id: "tving", confidence: 0.99 }]);
   const result = (await interpretItems([base], { catalog: loadCatalog(), llm: mock.client }))[0];
-  expect(result).toMatchObject({ service_id: "tving", category: "영상", source: "ai", needs_check: true });
-  expect(result.reason).toContain("등록 가격이 없어");
+  expect(result).toMatchObject({ service_id: null, category: "기타", source: "ai", needs_check: true });
+  expect(result.reason).toContain("실제 서비스는 확인되지 않았어요");
 });
 
 it("AI 분류·설명 속 근거 없는 가격을 응답에 넣지 않아요", async () => {
   const mock = mockLlm([{ ...good, category: "허구의 분류", reason: "999999원 추가 결제가 확인됐어요" }]);
   const result = (await interpretItems([base], { catalog: loadCatalog(), llm: mock.client }))[0];
-  expect(result.category).toBe("메신저");
+  expect(result.category).toBe("기타");
   expect(result.reason).not.toContain("999999");
   expect(result.reason).not.toContain("추가 결제");
 });
 
 it("AI 근거가 비어 있으면 명세의 기본 문구를 사용해요", async () => {
   const mock = mockLlm([{ ...good, reason: "" }]);
-  expect((await interpretItems([base], { catalog: loadCatalog(), llm: mock.client }))[0].reason).toBe("결제 수단 이름만 보여서 금액과 주기로 추정했어요");
+  expect((await interpretItems([base], { catalog: loadCatalog(), llm: mock.client }))[0].reason).toBe("AI가 후보를 추정했지만 실제 서비스는 확인되지 않았어요. 직접 확인해 주세요");
 });
 
 it.each([{ ...good, confidence: "0.8" }, { ...good, amount: 999999 }, { service_name: "가상 서비스" }, null])(
@@ -187,7 +187,9 @@ it("B4 타임아웃은 500이 아니라 200 unknown으로 이어져요", async (
   const response = await pending;
   expect(signal?.aborted).toBe(true);
   expect(response.status).toBe(200);
-  expect((await response.json()).results[0]).toMatchObject({ source: "unknown", needs_check: true });
+  const body = await response.json();
+  expect(body.results[0]).toMatchObject({ source: "unknown", service_id: null, needs_check: true });
+  expect(body.resolutions[0]).toMatchObject({ suggested_service_id: null, confirmed_service_id: null, needs_check: true });
 });
 
 it("LLM 예외와 카탈로그 오류의 본문을 출력하지 않아요", async () => {
@@ -273,9 +275,11 @@ it("B3 샘플 → B2 후보 → B5 API를 같은 계약으로 연결해요", asy
   const items = candidates.map(({ key, raw_name, amount, interval, payment_method }) => InterpretItemSchema.parse({ key, raw_name, amount, interval, payment_method }));
   const mock = mockLlm([{ ...good, service_id: "icloud" }, good]);
   const response = await handler(mock.client)(request(items));
-  const results = InterpretResultSchema.array().parse((await response.json()).results);
+  const body = await response.json();
+  const results = InterpretResultSchema.array().parse(body.results);
   expect(results).toHaveLength(5);
-  expect(new Set(results.map((result) => result.service_id))).toEqual(new Set(["icloud", "goodnotes", "netflix", "daglo", "kakao_emoticon_plus"]));
-  expect(results.every((result) => !result.needs_check)).toBe(true);
+  expect(new Set(results.map((result) => result.service_id))).toEqual(new Set([null, "goodnotes", "netflix", "daglo"]));
+  expect(new Set(body.resolutions.map((result: { suggested_service_id: string | null }) => result.suggested_service_id))).toEqual(new Set(["icloud", "goodnotes", "netflix", "daglo", "kakao_emoticon_plus"]));
+  expect(results.filter((result) => result.needs_check)).toHaveLength(2);
   expect(mock.requests).toHaveLength(2);
 });

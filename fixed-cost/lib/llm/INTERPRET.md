@@ -1,32 +1,37 @@
-# B5 결제처 해석
+# B5 결제처 해석: 후보와 확정 분리
 
-`POST /api/interpret`는 기존 개발 가이드의 `{ items: [{ key, raw_name, amount, interval, payment_method }] }`를 받고 같은 순서·key의 `{ results: InterpretResult[] }`를 돌려줘요. 기존 타입·API 필드·B1 스키마·카탈로그·B2~B4 코드는 바꾸지 않았어요. B6 이후 기능도 없어요.
+요청은 기존 `POST /api/interpret`의 `{ items: [{ key, raw_name, amount, interval, payment_method }] }`예요. B1 공유 타입·스키마와 B2~B4는 변경하지 않았어요.
 
-## 처리 순서
+## 응답 계약
 
-1. JSON 요청과 실제 UTF-8 본문 20KB 이하, 항목 최대 50개를 검증해요. 계약 밖 필드(메일 원문·날짜·source·클라이언트 후보 등)는 거부해요.
-2. B2 `normalize`로 별칭을 비교해요. 정확 일치 또는 길이 3자 이상 별칭의 부분 일치가 대상이에요. 여러 별칭 서비스가 있으면 등록 금액·주기로 하나만 일치할 때 선택하고, 그렇지 않으면 AI 단계로 넘겨요.
-3. 후보는 주기가 같고 가격이 입력과 같거나 null인 요금제가 있는 카탈로그 서비스뿐이에요. 후보가 없으면 모델을 부르지 않아요.
-4. B4 `LlmClient.callJson`을 통해 후보 id 중 하나 또는 `unknown`만 고르게 해요. 사용자 데이터 안의 지시는 무시하도록 시스템 메시지와 JSON 데이터를 분리해요. 결제 항목의 key·날짜·메일·개인 프로필·카탈로그의 출처 메타데이터는 모델에 보내지 않아요.
-5. JSON·Zod 검증 후 후보 소속과 실제 카탈로그 id를 다시 확인해요. 표시 이름을 id 대신 반환해도 거부해요. 분류는 카탈로그 값을 사용해요.
-6. 응답 confidence는 0~1로 자르고, 0.7 미만이면 `needs_check: true`예요. 가격 null 후보도 높은 확신도만으로 확정하지 않고 사용자 확인으로 남겨요.
-7. 원문 AI 설명을 그대로 내보내면 새 가격·결제 사실을 만들 수 있어, 설명은 코드가 실제 입력·카탈로그로 확인한 문구로 구성해요. 근거 문자열이 비어 있으면 가이드의 기본 문구를 사용해요. 서비스 이름·추가 금액 필드는 응답 계약에 추가하지 않아요.
-8. 같은 `(raw_name, amount, interval, payment_method)`는 요청 내에서만 캐시해요. 캐시 결과에도 각 항목의 key와 원래 순서를 유지해요.
+- `results: InterpretResult[]`: 기존 엄격 스키마 그대로예요. `service_id`는 **확정된 ID만** 담아요. 미확정은 null, category는 기타, needs_check는 true예요.
+- `resolutions: MerchantResolution[]`: 같은 순서·key의 상세 결과예요. 기존 필드에 `suggested_service_id`, `confirmed_service_id`를 추가해요. B5 전용 `lib/llm/interpret-resolution.ts`가 검증해요.
+- `suggested_service_id`: 검증된 카탈로그 후보 ID예요. AI의 자유 텍스트 서비스명과 달라요. 후보가 없거나 잘못된 응답이면 null이에요.
+- `confirmed_service_id`: 결제 표기에 유일한 등록 서비스명·ID·별칭이 명시된 경우에만 채워요. `service_id`와 같아요. 이때 suggested도 같은 ID예요.
+- `confidence`: AI 추정의 확신도(0~1)예요. 높은 값도 확정 근거가 아니에요. 명시적 카탈로그 매칭은 1이에요.
+- `source`: catalog(명시적 표기 매칭), ai(미확정 후보), unknown(해석 불가)이에요.
 
-AI가 unknown·후보 밖 id·없는 서비스 이름을 반환하거나, 키 누락·타임아웃·형식 오류·예외가 발생하면 HTTP 200과 `service_id:null`, `category:'기타'`, `confidence:0`, `source:'unknown'`, `needs_check:true`를 반환해요. 사용자 확인 화면이 이어서 처리하도록 표시할 뿐 실제 구독을 확정·수정하지 않아요.
+예: 카카오페이 6,900원에 Mock이 이모티콘 플러스를 제안하면 results.service_id=null, resolutions.suggested_service_id=kakao_emoticon_plus, resolutions.confirmed_service_id=null, source=ai, needs_check=true예요.
 
-## 요청 한도와 개인정보
+## 처리 순서와 안전 기준
 
-잘못된 JSON·형식·20KB 초과·51개 이상은 400 `{ error: { code, message } }`, API 요청의 분당 한도 초과는 429예요. 본문·응답·예외 원문을 기록하지 않고, 오류 응답에도 원문을 포함하지 않아요. B4의 로그는 기존처럼 경로·상태·지연만 남겨요.
+1. JSON·UTF-8 본문 20KB·최대 50개·계약 밖 필드 거부를 유지해요.
+2. 카탈로그 이름·ID·별칭의 명시적 매칭을 검사해요. 카카오페이·네이버페이·토스페이·PAYCO·Apple·Google 같은 대행 표기만으로는 확정하지 않아요. 금액에 관계없이 같아요. 실제 서비스명이 함께 있거나 구체적인 등록 상품명이라면 매칭할 수 있어요. 중복 별칭은 가격만으로 확정하지 않아요.
+3. AI 후보는 기존처럼 같은 주기의 동일 금액 또는 가격 null 요금제를 가진 등록 서비스예요. 가격 필터는 후보 축소 용도이며 확정 근거가 아니에요.
+4. B4 callJson과 엄격 응답 검증을 재사용해요. 후보 안의 실제 카탈로그 ID만 허용하고, 서비스 표시 이름·없는 ID·후보 밖 ID는 거부해요.
+5. AI 결과는 확신도·가격 일치와 무관하게 항상 미확정이에요. 원문 AI 설명·분류를 사실처럼 내보내지 않아요. 미확정 분류는 기타, 설명은 확인이 필요하다는 고정 문구예요.
+6. 실패·타임아웃·unknown·잘못된 구조는 두 ID가 null인 안전한 HTTP 200 결과예요. 요청 내 중복 캐시는 key와 순서를 유지하고 요청 간 공유하지 않아요.
 
-기본 요청 한도는 전체 공유 버킷의 분당 20회예요. 신뢰할 수 없는 `x-forwarded-for`를 임의로 IP로 채택하지 않아요. 배포 환경에서 검증된 IP를 얻는 방법이 확정되면 `createInterpretHandler({ getClientIp })`에 서버 측 함수를 연결할 수 있어요. 기본 공유 한도는 여러 사용자를 함께 제한한다는 제약이 있어요. B4와 마찬가지로 메모리는 서버리스 인스턴스 사이에서 공유되지 않아요.
+카탈로그 매칭은 제공된 결제 표기와 서비스의 연결을 뜻해요. 실제 계정 보유·활성 구독 상태를 별도로 검증했다는 뜻은 아니에요. 독립적인 외부 증거를 검증하는 계약이나 사용자 확인 저장 기능은 아직 없어요. 클라이언트가 보내는 임의의 confirmed 플래그를 신뢰하지 않아요.
 
-B4 내부 모델 한도는 기존 `callJson` 계약상 `null`로 전달되므로 사용자 확인 결과로 바꿔요. API 요청 한도의 429와 구분해요. 서버 전용 환경 변수 이름은 기존 B4와 같고 실제 환경 파일·키·제공업체 설정은 변경하지 않았어요.
+## 기존 소비자 및 프론트엔드 후속 작업
 
-Syntitan 새 주소·인증·SDK·모델은 추가하지 않았고 실제 유료 API도 호출하지 않았어요. B4의 제공업체 주입 방식과 Mock을 그대로 재사용해요.
+기존 interpretItems 함수와 results 항목은 B1 strict 스키마로 계속 파싱돼요. 의미는 안전하게 강화되어 AI 추정 ID가 기존 service_id에 들어가지 않아요. 응답 최상위에는 resolutions가 추가됐으므로 최상위 객체 전체를 strict로 검사하는 외부 소비자는 이 필드를 허용해야 해요. 현재 저장소에는 구현된 프론트엔드 API 소비 경로가 없고, 기존 API·테스트·샘플 경로를 확인했어요.
 
-## 검증과 재현
+향후 프론트엔드는 resolutions의 후보를 '추정·확인 필요'로 표시하고 확정 구독 목록은 confirmed_service_id 또는 기존 results.service_id로만 구성해야 해요. 사용자 확인·수정 화면과 저장, 서버가 검증하는 독립 증거 계약은 후속 작업이에요. 이번 B5에는 추가하지 않았어요.
 
-`tests/interpret.test.ts`에서 정상 별칭·AI 추정·모호함·없는 id·후보 밖 id·낮은 확신도·미확인 가격·잘못된 응답·B4 타임아웃·입력 및 바이트 한도·429·요청 내 캐시를 검사해요. B3 샘플 → B2 후보 → B5 API 통합도 포함해요.
+## 개인정보·한도·검증
 
-`node node_modules/tsx/dist/cli.mjs tests/examples/interpret.ts`로 가상 입력과 실제 Mock 출력을 재현할 수 있어요. 실제 Gmail·개인정보·API 키를 사용하지 않아요.
+메일·토큰·프로필·결제일 등 계약 밖 정보는 AI에 보내지 않고 본문·응답·오류 원문을 로그에 남기지 않아요. 기존 분당 공유 20회 한도와 B4 서버 전용 환경변수·Mock 제공업체 주입을 유지해요. Syntitan 사양을 추측하거나 유료 API를 호출하지 않아요.
+
+`tests/interpret.test.ts`는 기존 B3→B2→B5 통합·잘못된 응답·타임아웃·한도·캐시를 검사해요. `tests/interpret-resolution.test.ts`는 결제 수단×금액 조합, 명시적 서비스 문맥, 높은 AI 확신도, 잘못된 ID, 구계약 호환성, 임의 확정 플래그 거부를 검사해요. `node node_modules/tsx/dist/cli.mjs tests/examples/interpret.ts`로 가상 입력과 실제 Mock 응답을 재현해요.
