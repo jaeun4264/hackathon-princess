@@ -42,6 +42,16 @@ OUTLET_BY_DOMAIN = {
     "ohmynews.com": "오마이뉴스", "pressian.com": "프레시안", "nocutnews.co.kr": "노컷뉴스",
     "mediatoday.co.kr": "미디어오늘", "sisain.co.kr": "시사IN", "zdnet.co.kr": "지디넷코리아",
     "etnews.com": "전자신문", "dt.co.kr": "디지털타임스", "inews24.com": "아이뉴스24",
+    # 11/5 첫 수집에서 자주 나온 곳
+    "newspim.com": "뉴스핌", "newscj.com": "천지일보", "kukinews.com": "쿠키뉴스",
+    "wikitree.co.kr": "위키트리", "newdaily.co.kr": "뉴데일리", "breaknews.com": "브레이크뉴스",
+    "ajunews.com": "아주경제", "etoday.co.kr": "이투데이", "dailian.co.kr": "데일리안",
+    "asiatoday.co.kr": "아시아투데이", "metroseoul.co.kr": "메트로신문", "viva100.com": "브릿지경제",
+    "pennmike.com": "펜앤마이크", "weekly.hankooki.com": "주간한국", "fntimes.com": "한국금융신문",
+    "kyeongin.com": "경인일보", "kyeonggi.com": "경기일보", "incheonnews.com": "인천뉴스",
+    "kwangju.co.kr": "광주일보", "jnilbo.com": "전남일보", "namdonews.com": "남도일보",
+    "jndn.com": "전남매일", "gjdream.com": "광주드림", "m-i.kr": "매일일보",
+    "enewstoday.co.kr": "이뉴스투데이", "cnbnews.com": "CNB뉴스", "newsclaim.co.kr": "뉴스클레임",
 }
 
 TAG = re.compile(r"<[^>]+>")
