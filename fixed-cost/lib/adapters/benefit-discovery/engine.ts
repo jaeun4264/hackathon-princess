@@ -9,6 +9,7 @@ import type { MerchantResolution } from "../../llm/interpret-resolution";
 import { emptyCandidate, extractBenefits } from "./extract";
 import { officialUrl } from "./network";
 import { verifyBenefit } from "./verify";
+import { publicBenefitQuery } from "./query";
 import type { BenefitCandidate, DiscoveryOptions, DiscoveryReport, OfficialSource, PageEvidence } from "./types";
 
 export const SEARCH_TIMEOUT_MS = 8000;
@@ -38,7 +39,7 @@ export function createBenefitDiscovery(options: DiscoveryOptions) {
         let hits: Awaited<ReturnType<DiscoveryOptions["search"]["search"]>>;
         const controller = new AbortController(); let timer: ReturnType<typeof setTimeout> | undefined;
         try {
-          hits = await Promise.race([options.search.search({ query: `${service.name} 학생 할인 학교 라이선스 구독 요금제 혜택`, country: input.country,
+          hits = await Promise.race([options.search.search({ query: publicBenefitQuery(service.name), country: input.country,
             officialDomains: [...source.hosts], signal: controller.signal }), new Promise<never>((_, reject) => {
             timer = setTimeout(() => { controller.abort(); reject(new Error("search_timeout")); }, SEARCH_TIMEOUT_MS);
           })]);
