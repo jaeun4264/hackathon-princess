@@ -1,16 +1,4 @@
-# 뉴스 편향도 분석 전용 (루트 .gitignore와 함께 적용돼요)
-
-# 비밀 키 (절대 GitHub에 올리지 않기!)
 .env
-.env.*
-!.env.example
-
-# 수집한 기사 원문 (저작권 때문에 올리지 않음) — 라벨링 표·본문도 이 안에 있어요
 data/raw/
-
-# 파이썬 캐시 / 가상환경 / 테스트
 __pycache__/
-*.pyc
-.venv/
-venv/
 .pytest_cache/
