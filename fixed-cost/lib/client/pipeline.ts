@@ -1,0 +1,107 @@
+// 파이프라인 1~2단계 (FRONTEND.md 4부 2절).
+// 결제 내역 → 정기 결제 찾기(브라우저) → /api/interpret(계약 필드만) → buildSubscriptions → store.
+import * as api from "../api-client";
+import { loadCatalog } from "../catalog";
+import { buildSubscriptions, detectSubscriptionCandidates, monthlyEquivalent } from "../rules";
+import type { Catalog, Interval, Subscription, Transaction } from "../types";
+import { useAppStore } from "./store";
+
+export type PipelineStage = "detecting" | "interpreting";
+export const STAGE_LABEL: Record<PipelineStage, string> = {
+  detecting: "구독을 찾는 중",
+  interpreting: "서비스를 확인하는 중",
+};
+
+const INTERPRET_BATCH = 50; // 계약: 항목 50개 이하
+
+export interface AnalyzeResult {
+  subscriptions: Subscription[];
+  suggestedServiceIds: Record<string, string | null>;
+  degraded: boolean;
+}
+
+export async function analyzeTransactions(
+  transactions: Transaction[],
+  options: { catalog?: Catalog; apiOptions?: api.ApiOptions; onStage?: (stage: PipelineStage) => void } = {},
+): Promise<AnalyzeResult> {
+  const catalog = options.catalog ?? loadCatalog();
+  options.onStage?.("detecting");
+  const candidates = detectSubscriptionCandidates(transactions, catalog);
+  options.onStage?.("interpreting");
+
+  let degraded = false;
+  const results: Awaited<ReturnType<typeof api.interpret>>["results"] = [];
+  const suggestedServiceIds: Record<string, string | null> = {};
+  for (let start = 0; start < candidates.length; start += INTERPRET_BATCH) {
+    const batch = candidates.slice(start, start + INTERPRET_BATCH).map((cand) => ({
+      key: cand.key, raw_name: cand.raw_name, amount: cand.amount, interval: cand.interval, payment_method: cand.payment_method,
+    }));
+    const response = await api.interpret(batch, options.apiOptions);
+    degraded ||= response.degraded;
+    results.push(...response.results);
+    Object.assign(suggestedServiceIds, response.suggestedServiceIds);
+  }
+
+  const subscriptions = buildSubscriptions(candidates, results, catalog);
+  // 후보 서비스가 카탈로그에 없으면 보여 주지 않아요. 이미 확정된 구독에는 후보를 따로 두지 않아요.
+  const known = new Set(catalog.services.map((service) => service.id));
+  const suggestions: Record<string, string | null> = {};
+  for (const sub of subscriptions) {
+    const suggested = suggestedServiceIds[sub.id] ?? null;
+    suggestions[sub.id] = sub.service_id === null && suggested !== null && known.has(suggested) ? suggested : null;
+  }
+  return { subscriptions, suggestedServiceIds: suggestions, degraded };
+}
+
+/** 결제 내역을 store에 넣고 분석까지. phase: empty → interpreting → confirming. */
+export async function runInterpret(
+  transactions: Transaction[],
+  options: { store?: typeof useAppStore; apiOptions?: api.ApiOptions; catalog?: Catalog; onStage?: (stage: PipelineStage) => void } = {},
+): Promise<AnalyzeResult> {
+  const store = (options.store ?? useAppStore).getState();
+  store.loadTransactions(transactions);
+  store.setPhase("interpreting");
+  try {
+    const result = await analyzeTransactions(transactions, options);
+    const latest = (options.store ?? useAppStore).getState();
+    latest.setSubscriptions(result.subscriptions, result.suggestedServiceIds);
+    latest.setPhase(result.subscriptions.length > 0 ? "confirming" : "empty");
+    return result;
+  } catch (error) {
+    (options.store ?? useAppStore).getState().setPhase("empty");
+    throw error;
+  }
+}
+
+// ---------- 직접 추가 ----------
+export interface ManualInput {
+  name: string;
+  amount: number;
+  interval: Interval;
+  serviceId: string | null;
+}
+
+/** 사용자가 직접 넣은 구독. 사용자가 고른 값이라 확인 필요가 아니에요. 사용 정도는 S1에서 받아요. */
+export function createManualSubscription(input: ManualInput, catalog: Catalog = loadCatalog(), id = `manual-${Date.now().toString(36)}-${Math.random().toString(36).slice(2, 8)}`): Subscription {
+  const service = input.serviceId ? catalog.services.find((entry) => entry.id === input.serviceId) : undefined;
+  const name = input.name.trim() || service?.name || "";
+  if (!name) throw new Error("이름을 넣어 주세요");
+  if (!Number.isSafeInteger(input.amount) || input.amount <= 0) throw new Error("금액을 원 단위 숫자로 넣어 주세요");
+  return {
+    id,
+    service_id: service?.id ?? null,
+    display_name: service?.name ?? name,
+    category: service?.category ?? "기타",
+    raw_name: name,
+    amount: input.amount,
+    interval: input.interval,
+    monthly_amount: monthlyEquivalent(input.amount, input.interval),
+    next_date: null,
+    usage: null,
+    confidence: 1,
+    interpret_source: "user",
+    needs_check: false,
+    user_confirmed: true,
+    evidence_transaction_ids: [],
+  };
+}

@@ -3,7 +3,7 @@ export function Skeleton({ lines = 3, label = "불러오는 중이에요" }: { l
   return (
     <div role="status" aria-label={label} className="space-y-3 px-4 py-4">
       {Array.from({ length: lines }, (_, index) => (
-        <div key={index} className="h-14 animate-pulse rounded-xl bg-line motion-reduce:animate-none" />
+        <div key={index} className="h-14 rounded-[10px] bg-rule" />
       ))}
       <span className="sr-only">{label}</span>
     </div>

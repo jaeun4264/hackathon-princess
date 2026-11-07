@@ -8,3 +8,6 @@ coverage/
 playwright-report/
 test-results/
 .npm-cache/
+
+# taste-skill 작업 파일 (스크린샷·방향 시트)
+.taste-skill/

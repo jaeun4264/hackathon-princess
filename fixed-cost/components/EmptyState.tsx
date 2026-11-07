@@ -15,7 +15,7 @@ export function EmptyState({
   onAction?: () => void;
 }) {
   const buttonClass =
-    "mt-6 inline-flex min-h-11 items-center justify-center rounded-xl bg-accent px-5 text-base font-semibold text-accent-fg";
+    "mt-6 inline-flex min-h-11 items-center justify-center rounded-[10px] bg-primary px-5 text-base font-semibold text-primary-fg";
   return (
     <section className="flex flex-col items-center px-6 py-16 text-center">
       <h2 className="text-lg font-bold">{title}</h2>
