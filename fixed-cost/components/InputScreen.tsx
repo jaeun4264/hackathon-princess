@@ -82,7 +82,12 @@ export function InputScreen() {
     const monthlyTotal = result.subscriptions.reduce((sum, sub) => sum + sub.monthly_amount, 0);
     const next: Report = { source, found: result.subscriptions.length, monthlyTotal, degraded: result.degraded, ...extra };
     const skippedMail = next.gmail ? next.gmail.foreign + next.gmail.noAmount + next.gmail.converted : 0;
-    // 알려 줄 게 있으면 이 화면에서 요약을 보여 주고, 없으면 바로 구독 확인으로 가요.
+    // 샘플 체험(시연 /?demo=1 포함)은 AI가 실패해도 멈추지 않고 바로 구독 확인으로 가요 (카드마다 '확인 필요'로 보여요).
+    if (source === "sample" && next.found > 0) {
+      router.push("/confirm");
+      return;
+    }
+    // 그 밖에는 알려 줄 게 있으면 이 화면에서 요약을 보여 주고, 없으면 바로 구독 확인으로 가요.
     if (next.found === 0 || next.degraded || skippedMail > 0 || (next.csvSkipped?.length ?? 0) > 0) setReport(next);
     else router.push("/confirm");
   }
