@@ -70,15 +70,18 @@ export function BottomSheet({
         aria-modal="true"
         aria-labelledby={titleId}
         tabIndex={-1}
-        className="relative max-h-[85dvh] w-full max-w-[480px] overflow-y-auto rounded-t-2xl bg-surface px-4 pb-6 pt-3 shadow-xl outline-none"
+        // 시트는 화면 위에 떠 있는 대화상자라 그림자를 둬요. taste-skill-ignore
+        className="relative max-h-[85dvh] w-full max-w-[480px] overflow-y-auto rounded-t-[20px] bg-surface px-4 pb-6 pt-3 shadow-xl outline-none"
       >
         <div className="mx-auto mb-3 h-1.5 w-10 rounded-full bg-line" aria-hidden="true" />
         <div className="mb-4 flex items-center justify-between">
-          <h2 id={titleId} className="text-lg font-bold">
+          <h2 id={titleId} className="text-xl font-semibold">
             {title}
           </h2>
-          <button type="button" onClick={onClose} className="min-h-11 min-w-11 rounded-lg text-muted" aria-label="시트 닫기">
-            ✕
+          <button type="button" onClick={onClose} className="flex min-h-11 min-w-11 items-center justify-center rounded-[10px] text-muted hover:bg-ground" aria-label="시트 닫기">
+            <svg width="18" height="18" viewBox="0 0 18 18" fill="none" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" aria-hidden="true">
+              <path d="M4 4l10 10M14 4L4 14" />
+            </svg>
           </button>
         </div>
         {children}

@@ -2,9 +2,9 @@
 // localStorage가 막혀 있어도(사생활 보호 모드 등) 메모리로 계속 동작해요.
 import { create } from "zustand";
 import { createJSONStorage, persist, type StateStorage } from "zustand/middleware";
-import { loadCatalog } from "../catalog";
+import { appCatalog } from "./app-catalog";
 import { buildSuggestions } from "../rules";
-import type { BenefitResult, Subscription, Suggestion, Transaction, Usage, UserProfile } from "../types";
+import type { BenefitResult, Catalog, Subscription, Suggestion, Transaction, Usage, UserProfile } from "../types";
 
 export type Phase = "empty" | "interpreting" | "confirming" | "ready";
 export type ActionStatus = Suggestion["action_status"];
@@ -18,16 +18,27 @@ export interface AppData {
   suggestions: Suggestion[];
   /** 구독 id → AI·별칭이 추정한 후보 서비스 id (B5 resolutions). 사용자가 확인하기 전에는 service_id에 넣지 않아요. */
   suggestedServiceIds: Record<string, string | null>;
+  /** 구독 id → T1 해석 근거 한 줄 (계약의 Subscription에는 없어서 따로 보관). S3에 보여 줘요. */
+  interpretReasons: Record<string, string>;
   sessionId: string;
   phase: Phase;
+  /** 홈에 처음 들어왔을 때 discovery 집계를 한 번만 보내려고 기록해요. */
+  discoverySent: boolean;
 }
 
+export type AnalysisStatus = "idle" | "running" | "done";
+
 export interface AppState extends AppData {
+  /** 혜택 판정·제안 문장 만들기 진행 상태 (저장하지 않아요) */
+  analysisStatus: AnalysisStatus;
+  analysisDegraded: boolean;
+  setAnalysis: (status: AnalysisStatus, degraded?: boolean) => void;
+  markDiscoverySent: () => void;
   setProfile: (profile: UserProfile) => void;
   /** 새 결제 내역으로 바꾸고 이전 분석 결과는 비워요. */
   loadTransactions: (transactions: Transaction[]) => void;
   setPhase: (phase: Phase) => void;
-  setSubscriptions: (subscriptions: Subscription[], suggestedServiceIds?: Record<string, string | null>) => void;
+  setSubscriptions: (subscriptions: Subscription[], suggestedServiceIds?: Record<string, string | null>, interpretReasons?: Record<string, string>) => void;
   addSubscription: (subscription: Subscription) => void;
   updateSubscription: (id: string, patch: Partial<Omit<Subscription, "id">>) => void;
   removeSubscription: (id: string) => void;
@@ -37,7 +48,7 @@ export interface AppState extends AppData {
   setBenefitResults: (results: BenefitResult[]) => void;
   mergeBenefitResults: (results: BenefitResult[]) => void;
   /** 규칙(buildSuggestions)으로 제안을 다시 만들어요. 이미 체크한 실행 상태와 받은 문장은 유지해요. */
-  rebuildSuggestions: (today: string) => void;
+  rebuildSuggestions: (today: string, catalog?: Catalog) => void;
   setSuggestions: (suggestions: Suggestion[]) => void;
   addSuggestion: (suggestion: Suggestion) => void;
   setSuggestionMessage: (id: string, message: string, source: Suggestion["message_source"]) => void;
@@ -58,7 +69,7 @@ function randomId(): string {
 }
 
 function initialData(sessionId: string = randomId()): AppData {
-  return { profile: null, transactions: [], subscriptions: [], benefitResults: [], suggestions: [], suggestedServiceIds: {}, sessionId, phase: "empty" };
+  return { profile: null, transactions: [], subscriptions: [], benefitResults: [], suggestions: [], suggestedServiceIds: {}, interpretReasons: {}, sessionId, phase: "empty", discoverySent: false };
 }
 
 /** localStorage를 감싸 모든 접근을 try/catch. 실패하면 메모리 저장소로 넘어가요. */
@@ -105,15 +116,22 @@ export function createAppStore(storage: StateStorage = createSafeStorage()) {
     persist(
       (set, get) => ({
         ...initialData(),
+        analysisStatus: "idle",
+        analysisDegraded: false,
+
+        setAnalysis: (analysisStatus, degraded) =>
+          set(degraded === undefined ? { analysisStatus } : { analysisStatus, analysisDegraded: degraded }),
+
+        markDiscoverySent: () => set({ discoverySent: true }),
 
         setProfile: (profile) => set({ profile }),
 
         loadTransactions: (transactions) =>
-          set({ transactions, subscriptions: [], benefitResults: [], suggestions: [], suggestedServiceIds: {}, phase: "empty" }),
+          set({ transactions, subscriptions: [], benefitResults: [], suggestions: [], suggestedServiceIds: {}, interpretReasons: {}, phase: "empty" }),
 
         setPhase: (phase) => set({ phase }),
 
-        setSubscriptions: (subscriptions, suggestedServiceIds = {}) => set({ subscriptions, suggestedServiceIds }),
+        setSubscriptions: (subscriptions, suggestedServiceIds = {}, interpretReasons = {}) => set({ subscriptions, suggestedServiceIds, interpretReasons }),
 
         addSubscription: (subscription) => set({ subscriptions: [...get().subscriptions, subscription] }),
 
@@ -144,11 +162,11 @@ export function createAppStore(storage: StateStorage = createSafeStorage()) {
           set({ benefitResults: [...get().benefitResults.filter((entry) => !incoming.has(key(entry))), ...results] });
         },
 
-        rebuildSuggestions: (today) => {
+        rebuildSuggestions: (today, catalog) => {
           const previous = new Map(get().suggestions.map((entry) => [entry.id, entry]));
           let next: Suggestion[];
           try {
-            next = buildSuggestions({ subs: get().subscriptions, benefitResults: get().benefitResults, catalog: loadCatalog(), today });
+            next = buildSuggestions({ subs: get().subscriptions, benefitResults: get().benefitResults, catalog: catalog ?? appCatalog(), today });
           } catch {
             // 규칙이 입력을 거부하면(예: 확인 안 된 구독) 제안 없이 계속 진행해요.
             next = [];
@@ -179,7 +197,7 @@ export function createAppStore(storage: StateStorage = createSafeStorage()) {
           }),
 
         // "내 데이터 지우기". sessionId도 새로 만들어 이전 집계와 연결되지 않게 해요.
-        resetAll: () => set(initialData()),
+        resetAll: () => set({ ...initialData(), analysisStatus: "idle", analysisDegraded: false }),
       }),
       {
         name: STORE_KEY,
@@ -192,7 +210,9 @@ export function createAppStore(storage: StateStorage = createSafeStorage()) {
           benefitResults: state.benefitResults,
           suggestions: state.suggestions,
           suggestedServiceIds: state.suggestedServiceIds,
+          interpretReasons: state.interpretReasons,
           sessionId: state.sessionId,
+          discoverySent: state.discoverySent,
           // 해석 도중 새로 고침하면 다시 시작할 수 있게 interpreting은 저장하지 않아요.
           phase: state.phase === "interpreting" ? "empty" : state.phase,
         }),

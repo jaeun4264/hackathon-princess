@@ -1,24 +1,65 @@
 {
   "_mock": true,
-  "_note": "프론트 개발용 가짜 T2 응답. id는 data/catalog/benefits.mock.json의 mock 혜택이에요. 목록에 없는 id는 unknown으로 돌려줘요.",
+  "_note": "프론트 개발용 가짜 T2 응답. id는 lib/mocks/catalog-benefits.json의 mock 혜택이에요. when이 있으면 사용자 정보가 맞을 때만 그 응답을 써요(위에서부터). 목록에 없는 id는 unknown.",
   "results": [
     {
-      "kind": "benefit", "id": "mock_student_discount", "eligible": "yes",
-      "quoted_conditions": ["[MOCK] 가상 학생 인증을 완료한 경우에만 적용하는 테스트 조건이에요."],
-      "missing_info": [], "reason": "[MOCK] 재학생이고 학생 인증이 가능해서 받을 수 있어요.",
-      "source_url": "https://example.invalid/mock/student-discount", "checked_at": "2000-01-01", "stale": true, "validation": "ok"
+      "kind": "benefit",
+      "id": "mock_unknown_price",
+      "when": {
+        "school_email": true
+      },
+      "eligible": "yes",
+      "quoted_conditions": [
+        "[MOCK] 가상 자격 정보가 부족하면 추가 확인이 필요한 테스트 조건이에요."
+      ],
+      "missing_info": [],
+      "reason": "[MOCK] 학교 이메일로 인증할 수 있어서 받을 수 있어요.",
+      "source_url": "https://example.invalid/mock/unknown-price",
+      "checked_at": "2000-01-01",
+      "stale": true,
+      "validation": "ok"
     },
     {
-      "kind": "benefit", "id": "mock_school_license", "eligible": "no",
-      "quoted_conditions": ["[MOCK] 가상 테스트 학교의 재학생에게만 제공하는 테스트 조건이에요."],
-      "missing_info": [], "reason": "[MOCK] 가상 테스트 학교 재학생만 받을 수 있어요.",
-      "source_url": "https://example.invalid/mock/school-license", "checked_at": "2000-01-01", "stale": true, "validation": "ok"
+      "kind": "benefit",
+      "id": "mock_student_discount",
+      "eligible": "yes",
+      "quoted_conditions": [
+        "[MOCK] 가상 학생 인증을 완료한 경우에만 적용하는 테스트 조건이에요."
+      ],
+      "missing_info": [],
+      "reason": "[MOCK] 재학생이고 학생 인증이 가능해서 받을 수 있어요.",
+      "source_url": "https://example.invalid/mock/student-discount",
+      "checked_at": "2000-01-01",
+      "stale": true,
+      "validation": "ok"
     },
     {
-      "kind": "benefit", "id": "mock_unknown_price", "eligible": "unknown",
-      "quoted_conditions": [], "missing_info": ["school_email"],
+      "kind": "benefit",
+      "id": "mock_school_license",
+      "eligible": "no",
+      "quoted_conditions": [
+        "[MOCK] 가상 테스트 학교의 재학생에게만 제공하는 테스트 조건이에요."
+      ],
+      "missing_info": [],
+      "reason": "[MOCK] 가상 테스트 학교 재학생만 받을 수 있어요.",
+      "source_url": "https://example.invalid/mock/school-license",
+      "checked_at": "2000-01-01",
+      "stale": true,
+      "validation": "ok"
+    },
+    {
+      "kind": "benefit",
+      "id": "mock_unknown_price",
+      "eligible": "unknown",
+      "quoted_conditions": [],
+      "missing_info": [
+        "school_email"
+      ],
       "reason": "[MOCK] 학교 이메일 인증이 되는지 알아야 판단할 수 있어요.",
-      "source_url": "https://example.invalid/mock/unknown-price", "checked_at": "2000-01-01", "stale": true, "validation": "ok"
+      "source_url": "https://example.invalid/mock/unknown-price",
+      "checked_at": "2000-01-01",
+      "stale": true,
+      "validation": "ok"
     }
   ]
 }

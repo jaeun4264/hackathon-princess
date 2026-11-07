@@ -10,10 +10,9 @@ export function ErrorBanner({
   tone?: "warning" | "danger";
   action?: ReactNode;
 }) {
-  const colors = tone === "danger" ? "bg-danger-bg text-danger" : "bg-warning-bg text-warning";
+  const colors = tone === "danger" ? "bg-danger-bg text-danger" : "border border-warning-line bg-warning-bg text-warning";
   return (
-    <div role="status" className={`flex items-center gap-2 px-4 py-2 text-sm ${colors}`}>
-      <span aria-hidden="true">{tone === "danger" ? "⚠" : "ⓘ"}</span>
+    <div role="status" className={`flex items-center gap-2 rounded-[10px] px-4 py-2.5 text-sm ${colors}`}>
       <p className="flex-1">{children}</p>
       {action}
     </div>

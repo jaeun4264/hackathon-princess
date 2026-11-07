@@ -111,7 +111,7 @@
 - 프론트의 `found_count`(몰랐던 구독·혜택을 발견한 수) 정의는 제가 정한 가정이에요: "거의 안 씀으로 표시된 구독 수 + 판정이 yes인 혜택·묶음 수". 성공 지표(10명 중 6명 발견)의 "발견"을 팀이 어떻게 셀지 정한 뒤 FRONTEND.md 4부(프론트 명세) 7절을 고쳐요.
 - 금액 허용 오차 3%, 확신도 기준 0.7, 서버리스에서의 메모리 캐시·한도 카운터 동작은 모두 가정이고, 평가·배포에서 확인이 필요해요.
 - Gmail: 검증 전 새 사용자 100명 한도와 정식 출시 시 검증·보안 평가는 Google 도움말로 확인했어요. 테스트 단계의 테스트 사용자 등록 방식, 브라우저에서 Gmail API를 바로 부르는 방식(토큰 방식)의 세부 동작, 한국 서비스들이 실제로 영수증 메일을 보내는지는 **직접 확인하지 못했어요.** 0단계 뒤 테스트 계정 하나로 먼저 확인해요.
-- Gmail 검색어(`newer_than:6m` + 도메인·키워드)와 외화 영수증을 건너뛰는 규칙은 제 제안이에요.
+- Gmail 검색어(`newer_than:6m` + 도메인·키워드)는 제 제안이에요. 외화 영수증은 11/7 결정으로 공개 환율(유럽중앙은행 기준, Frankfurter)로 환산하고 '확인 필요'로 표시해요. 환율을 못 받으면 예전처럼 건너뛰어요.
 
 ---
 
@@ -205,6 +205,10 @@ export interface Transaction {
   raw_name: string;          // 영수증 발신자·명세서에 찍힌 표기 그대로 (예: '카카오페이')
   payment_method: string;    // 예: 'kakaopay', 'apple', 'card'
   source: 'sample' | 'csv' | 'gmail' | 'manual';
+  // 외화 영수증을 환율로 환산했을 때만 있어요 (세 필드가 함께). amount는 환산한 원화(추정)이고 카드 청구액과 다를 수 있어요.
+  original_currency?: 'USD' | 'EUR' | 'JPY' | 'GBP';
+  original_amount?: number;  // 영수증의 원래 금액 (예: 20.00)
+  fx_date?: string;          // 환산에 쓴 환율 기준일 'YYYY-MM-DD'
 }
 
 export interface UserProfile {
@@ -528,7 +532,7 @@ interface InputAdapter { id: 'sample' | 'csv' | 'gmail' | 'capture'; load(input:
 - `csv`: 헤더 `date, amount, raw_name, payment_method`를 기본으로 하고, 한글 헤더(`일자, 금액, 가맹점, 결제수단`)도 인식. 금액의 `,` `원` 제거, 날짜 `2025.11.03` / `2025-11-03` / `25/11/03` 인식. 파싱 못 한 줄은 버리지 말고 `{ skipped: [{line, reason}] }`로 같이 돌려줘요.
 - `gmail` (**주 입력 방식, 11/4 팀 결정**): `parseGmailMessages(messages: GmailMessageLite[], catalog): GmailParseResult`. 순수 함수라 브라우저에서 돌아요. 메일을 가져오는 일(로그인·Gmail API 호출)은 프론트의 `lib/client/gmail.ts`가 하고, 이 함수는 **받은 메일을 결제 항목으로 바꾸기만** 해요.
   - 영수증인지: `from_domain`이 카탈로그 `email_domains`에 있거나, 제목·본문에 영수증 키워드(`영수증`, `결제`, `receipt`, `invoice`, `payment`)가 있을 때만. 아니면 `not_receipt`.
-  - 금액: `₩6,900`, `6,900원`, `KRW 6,900` 형태만 원화로 읽어요. `$`, `USD`, `US$` 등 외화만 있으면 **환산하지 않고** `foreign_currency`로 건너뛰어요(사용자가 S1에서 직접 입력). 금액을 못 찾으면 `no_amount`.
+  - 금액: `₩6,900`, `6,900원`, `KRW 6,900` 형태를 원화로 읽어요. 원화 없이 외화(`$`·`USD`·`€`·`¥`·`£` 등) 금액 하나만 있으면, **환율(`options.fx`)을 받았을 때만** `Math.round(외화 × 환율)`로 환산하고 `original_currency`·`original_amount`·`fx_date`를 함께 넣어요(11/7 결정). 환율이 없거나 외화 금액이 여럿이면 `foreign_currency`로 건너뛰어요. 환산 금액은 카드 청구액(수수료 포함)과 다를 수 있어 프론트가 '확인 필요'로 보여 줘요. 금액을 못 찾으면 `no_amount`.
   - 날짜: `received_at`을 Asia/Seoul 날짜(`YYYY-MM-DD`)로.
   - `raw_name` = `from_name`, `payment_method` = 발신 도메인으로 알 수 있으면 `apple` / `google_play` / `kakaopay` / `naverpay`, 아니면 `unknown`. `source` = `'gmail'`.
   - 같은 `id`는 한 번만(`duplicate`).

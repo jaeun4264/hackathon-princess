@@ -29,7 +29,14 @@ export const TransactionSchema = z.strictObject({
   raw_name: requiredText,
   payment_method: requiredText,
   source: z.enum(["sample", "csv", "gmail", "manual"]),
-});
+  // 외화 영수증을 환산했을 때만, 세 필드가 함께 있어요.
+  original_currency: z.enum(["USD", "EUR", "JPY", "GBP"]).optional(),
+  original_amount: z.number().positive().optional(),
+  fx_date: date.optional(),
+}).refine((value) => {
+  const present = [value.original_currency, value.original_amount, value.fx_date].filter((field) => field !== undefined).length;
+  return present === 0 || present === 3;
+}, { path: ["original_currency"], message: "외화 환산 정보는 통화·원래 금액·환율 기준일이 함께 있어야 해요" });
 
 export const GmailParseResultSchema = z.strictObject({
   transactions: z.array(TransactionSchema),

@@ -31,6 +31,10 @@ export interface Transaction {
   raw_name: string;          // 영수증 발신자·명세서에 찍힌 표기 그대로 (예: '카카오페이')
   payment_method: string;    // 예: 'kakaopay', 'apple', 'card'
   source: 'sample' | 'csv' | 'gmail' | 'manual';
+  // 외화 영수증을 환율로 환산했을 때만 있어요 (세 필드가 함께). amount는 환산한 원화(추정)이고 카드 청구액과 다를 수 있어요.
+  original_currency?: 'USD' | 'EUR' | 'JPY' | 'GBP';
+  original_amount?: number;  // 영수증의 원래 금액 (예: 20.00)
+  fx_date?: string;          // 환산에 쓴 환율 기준일 'YYYY-MM-DD'
 }
 
 export interface UserProfile {

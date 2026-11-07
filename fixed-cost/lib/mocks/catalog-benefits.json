@@ -1,0 +1,39 @@
+{
+  "_mock": true,
+  "_note": "프론트 모의 모드 전용. data/catalog/benefits.mock.json(백엔드 개발용 가짜 혜택)과 같은 내용이에요. 실제 모드에서는 쓰지 않아요.",
+  "benefits": [
+    {
+      "id": "mock_student_discount",
+      "service_id": "netflix",
+      "kind": "student_discount",
+      "school": null,
+      "conditions": "[MOCK] 가상 학생 인증을 완료한 경우에만 적용하는 테스트 조건이에요.",
+      "benefit_text": "[MOCK] 실제로 제공되지 않는 개발용 학생 할인이에요.",
+      "price_after_monthly": 1000,
+      "source_url": "https://example.invalid/mock/student-discount",
+      "checked_at": "2000-01-01"
+    },
+    {
+      "id": "mock_school_license",
+      "service_id": "goodnotes",
+      "kind": "school_license",
+      "school": "가상 테스트 학교",
+      "conditions": "[MOCK] 가상 테스트 학교의 재학생에게만 제공하는 테스트 조건이에요.",
+      "benefit_text": "[MOCK] 실제로 제공되지 않는 개발용 학교 라이선스예요.",
+      "price_after_monthly": 0,
+      "source_url": "https://example.invalid/mock/school-license",
+      "checked_at": "2000-01-01"
+    },
+    {
+      "id": "mock_unknown_price",
+      "service_id": "daglo",
+      "kind": "student_discount",
+      "school": null,
+      "conditions": "[MOCK] 가상 자격 정보가 부족하면 추가 확인이 필요한 테스트 조건이에요.",
+      "benefit_text": "[MOCK] 가격이 미정인 개발용 혜택이에요.",
+      "price_after_monthly": null,
+      "source_url": "https://example.invalid/mock/unknown-price",
+      "checked_at": "2000-01-01"
+    }
+  ]
+}

@@ -1,15 +1,6 @@
-"use client";
-import { PageHeader } from "@/components/PageHeader";
-import { Skeleton } from "@/components/Skeleton";
-import { useRequireUsage } from "@/lib/client/guards";
+import { HomeScreen } from "@/components/HomeScreen";
 
-// S2 홈 — F4에서 채워요.
+// S2 홈 (/home)
 export default function HomePage() {
-  const ready = useRequireUsage();
-  return (
-    <main className="flex-1">
-      <PageHeader title="홈" />
-      {ready ? null : <Skeleton />}
-    </main>
-  );
+  return <HomeScreen />;
 }

@@ -27,12 +27,21 @@ describe("모의 모드", () => {
   });
 
   it("benefits: yes / no / unknown을 돌려줘요", async () => {
-    const response = await benefits(profile, [
+    const response = await benefits({ ...profile, school_email: false }, [
       { kind: "benefit", id: "mock_student_discount" },
       { kind: "benefit", id: "mock_school_license" },
       { kind: "benefit", id: "mock_unknown_price" },
     ], { mock: true, mockDelayMs: 0 });
     expect(response.results.map((entry) => entry.eligible)).toEqual(["yes", "no", "unknown"]);
+  });
+
+  it("benefits: 정보를 채우면(학교 이메일 예) 모의 판정이 unknown → yes로 바뀌어요", async () => {
+    const target = [{ kind: "benefit" as const, id: "mock_unknown_price" }];
+    const before = await benefits({ ...profile, school_email: false }, target, { mock: true, mockDelayMs: 0 });
+    const after = await benefits({ ...profile, school_email: true }, target, { mock: true, mockDelayMs: 0 });
+    expect(before.results[0]).toMatchObject({ eligible: "unknown", missing_info: ["school_email"] });
+    expect(after.results[0]).toMatchObject({ eligible: "yes", validation: "ok" });
+    expect(after.results[0]).not.toHaveProperty("when");
   });
 
   it("message: 숫자 없는 문장을 돌려줘요", async () => {

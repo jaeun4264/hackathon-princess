@@ -188,8 +188,15 @@ export async function benefits(
   if (isMockMode(options)) {
     await delay(options);
     const results = targets.flatMap((target) => {
-      const found = benefitsMock.results.find((entry) => entry.kind === target.kind && entry.id === target.id);
-      return found ? [BenefitResultSchema.parse(found)] : unknownBenefits([target], options);
+      // when이 있으면 사용자 정보가 맞을 때만 그 응답 (모의 모드에서 "질문에 답하면 판정이 바뀌는" 흐름을 보려고)
+      const found = (benefitsMock.results as (Record<string, unknown> & { kind: string; id: string; when?: Partial<UserProfile> })[]).find(
+        (entry) => entry.kind === target.kind && entry.id === target.id &&
+          Object.entries(entry.when ?? {}).every(([field, value]) => user[field as keyof UserProfile] === value),
+      );
+      if (!found) return unknownBenefits([target], options);
+      const { when: _when, ...result } = found;
+      void _when;
+      return [BenefitResultSchema.parse(result)];
     });
     return { results, degraded: false };
   }
