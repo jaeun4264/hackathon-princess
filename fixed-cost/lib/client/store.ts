@@ -18,6 +18,8 @@ export interface AppData {
   suggestions: Suggestion[];
   /** 구독 id → AI·별칭이 추정한 후보 서비스 id (B5 resolutions). 사용자가 확인하기 전에는 service_id에 넣지 않아요. */
   suggestedServiceIds: Record<string, string | null>;
+  /** 구독 id → T1 해석 근거 한 줄 (계약의 Subscription에는 없어서 따로 보관). S3에 보여 줘요. */
+  interpretReasons: Record<string, string>;
   sessionId: string;
   phase: Phase;
   /** 홈에 처음 들어왔을 때 discovery 집계를 한 번만 보내려고 기록해요. */
@@ -36,7 +38,7 @@ export interface AppState extends AppData {
   /** 새 결제 내역으로 바꾸고 이전 분석 결과는 비워요. */
   loadTransactions: (transactions: Transaction[]) => void;
   setPhase: (phase: Phase) => void;
-  setSubscriptions: (subscriptions: Subscription[], suggestedServiceIds?: Record<string, string | null>) => void;
+  setSubscriptions: (subscriptions: Subscription[], suggestedServiceIds?: Record<string, string | null>, interpretReasons?: Record<string, string>) => void;
   addSubscription: (subscription: Subscription) => void;
   updateSubscription: (id: string, patch: Partial<Omit<Subscription, "id">>) => void;
   removeSubscription: (id: string) => void;
@@ -67,7 +69,7 @@ function randomId(): string {
 }
 
 function initialData(sessionId: string = randomId()): AppData {
-  return { profile: null, transactions: [], subscriptions: [], benefitResults: [], suggestions: [], suggestedServiceIds: {}, sessionId, phase: "empty", discoverySent: false };
+  return { profile: null, transactions: [], subscriptions: [], benefitResults: [], suggestions: [], suggestedServiceIds: {}, interpretReasons: {}, sessionId, phase: "empty", discoverySent: false };
 }
 
 /** localStorage를 감싸 모든 접근을 try/catch. 실패하면 메모리 저장소로 넘어가요. */
@@ -125,11 +127,11 @@ export function createAppStore(storage: StateStorage = createSafeStorage()) {
         setProfile: (profile) => set({ profile }),
 
         loadTransactions: (transactions) =>
-          set({ transactions, subscriptions: [], benefitResults: [], suggestions: [], suggestedServiceIds: {}, phase: "empty" }),
+          set({ transactions, subscriptions: [], benefitResults: [], suggestions: [], suggestedServiceIds: {}, interpretReasons: {}, phase: "empty" }),
 
         setPhase: (phase) => set({ phase }),
 
-        setSubscriptions: (subscriptions, suggestedServiceIds = {}) => set({ subscriptions, suggestedServiceIds }),
+        setSubscriptions: (subscriptions, suggestedServiceIds = {}, interpretReasons = {}) => set({ subscriptions, suggestedServiceIds, interpretReasons }),
 
         addSubscription: (subscription) => set({ subscriptions: [...get().subscriptions, subscription] }),
 
@@ -208,6 +210,7 @@ export function createAppStore(storage: StateStorage = createSafeStorage()) {
           benefitResults: state.benefitResults,
           suggestions: state.suggestions,
           suggestedServiceIds: state.suggestedServiceIds,
+          interpretReasons: state.interpretReasons,
           sessionId: state.sessionId,
           discoverySent: state.discoverySent,
           // 해석 도중 새로 고침하면 다시 시작할 수 있게 interpreting은 저장하지 않아요.

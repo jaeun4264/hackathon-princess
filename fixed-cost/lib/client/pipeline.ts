@@ -18,6 +18,8 @@ const INTERPRET_BATCH = 50; // 계약: 항목 50개 이하
 export interface AnalyzeResult {
   subscriptions: Subscription[];
   suggestedServiceIds: Record<string, string | null>;
+  /** 구독 id → 해석 근거 한 줄 (T1 reason) */
+  reasons: Record<string, string>;
   degraded: boolean;
 }
 
@@ -54,7 +56,9 @@ export async function analyzeTransactions(
     const suggested = suggestedServiceIds[sub.id] ?? null;
     suggestions[sub.id] = sub.service_id === null && suggested !== null && known.has(suggested) ? suggested : null;
   }
-  return { subscriptions, suggestedServiceIds: suggestions, degraded };
+  const reasons: Record<string, string> = {};
+  for (const result of results) if (result.reason.trim()) reasons[result.key] = result.reason.trim();
+  return { subscriptions, suggestedServiceIds: suggestions, reasons, degraded };
 }
 
 /** 결제 내역을 store에 넣고 분석까지. phase: empty → interpreting → confirming. */
@@ -68,7 +72,7 @@ export async function runInterpret(
   try {
     const result = await analyzeTransactions(transactions, options);
     const latest = (options.store ?? useAppStore).getState();
-    latest.setSubscriptions(result.subscriptions, result.suggestedServiceIds);
+    latest.setSubscriptions(result.subscriptions, result.suggestedServiceIds, result.reasons);
     latest.setPhase(result.subscriptions.length > 0 ? "confirming" : "empty");
     return result;
   } catch (error) {
