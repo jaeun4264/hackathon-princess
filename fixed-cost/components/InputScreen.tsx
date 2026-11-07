@@ -42,8 +42,10 @@ const CSV_REASON: Record<string, string> = {
 type Report = {
   source: "sample" | "gmail" | "csv";
   found: number;
+  /** 찾은 구독의 월 환산 합계 (규칙이 계산한 monthly_amount의 합) */
+  monthlyTotal: number;
   degraded: boolean;
-  gmail?: { mailCount: number; foreign: number; noAmount: number; converted: number; fxDate: string | null };
+  gmail?: { mailCount: number; foreign: number; noAmount: number; converted: number; fxDate: string | null; fxAvailable: boolean };
   csvSkipped?: { line: number; reason: string }[];
 };
 type Failure = { title: string; detail: string };
@@ -77,7 +79,8 @@ export function InputScreen() {
   async function analyze(transactions: Transaction[], source: Report["source"], extra: Partial<Report> = {}) {
     const result = await runInterpret(transactions, { onStage: (stage: PipelineStage) => setBusy(STAGE_LABEL[stage]) });
     setBusy(null);
-    const next: Report = { source, found: result.subscriptions.length, degraded: result.degraded, ...extra };
+    const monthlyTotal = result.subscriptions.reduce((sum, sub) => sum + sub.monthly_amount, 0);
+    const next: Report = { source, found: result.subscriptions.length, monthlyTotal, degraded: result.degraded, ...extra };
     const skippedMail = next.gmail ? next.gmail.foreign + next.gmail.noAmount + next.gmail.converted : 0;
     // 알려 줄 게 있으면 이 화면에서 요약을 보여 주고, 없으면 바로 구독 확인으로 가요.
     if (next.found === 0 || next.degraded || skippedMail > 0 || (next.csvSkipped?.length ?? 0) > 0) setReport(next);
@@ -114,7 +117,7 @@ export function InputScreen() {
       }
       setBusy("결제 정리 중");
       await analyze(result.transactions, "gmail", {
-        gmail: { mailCount: result.mailCount, foreign: skipped.foreign, noAmount: skipped.noAmount, converted: result.converted, fxDate: result.fxDate },
+        gmail: { mailCount: result.mailCount, foreign: skipped.foreign, noAmount: skipped.noAmount, converted: result.converted, fxDate: result.fxDate, fxAvailable: result.fxAvailable },
       });
     } catch (error) {
       setBusy(null);
@@ -139,7 +142,7 @@ export function InputScreen() {
       const { transactions, skipped } = parseCsv(await file.text());
       if (transactions.length === 0) {
         setBusy(null);
-        setReport({ source: "csv", found: 0, degraded: false, csvSkipped: skipped });
+        setReport({ source: "csv", found: 0, monthlyTotal: 0, degraded: false, csvSkipped: skipped });
         return;
       }
       await analyze(transactions, "csv", { csvSkipped: skipped });
@@ -309,6 +312,12 @@ function ReportPanel({ report, onManual, onRetry }: { report: Report; onManual: 
         <h2 className="text-xl font-semibold">
           {report.found > 0 ? <>구독 <span className="num">{report.found}개</span>를 찾았어요</> : "정기 결제를 찾지 못했어요"}
         </h2>
+        {report.found > 0 ? (
+          <p className="mt-2 text-base">
+            매달 <span className="num text-[28px] font-semibold leading-tight">{won(report.monthlyTotal)}</span>
+            <span className="block text-sm text-muted">연간 결제는 12로 나눠 더했어요. 확인 화면에서 고칠 수 있어요.</span>
+          </p>
+        ) : null}
 
         {report.gmail ? (
           <ul className="mt-3 space-y-1.5 text-sm text-muted">
@@ -318,8 +327,13 @@ function ReportPanel({ report, onManual, onRetry }: { report: Report; onManual: 
                 외화 영수증 <span className="num">{report.gmail.converted}</span>통은 <span className="num">{report.gmail.fxDate}</span> {FX_SOURCE_LABEL}로 원화로 바꿨어요. 카드 청구액과 다를 수 있어 &apos;확인 필요&apos;로 표시했어요.
               </li>
             ) : null}
-            {report.gmail.foreign > 0 ? <li>외화 영수증 <span className="num">{report.gmail.foreign}</span>통은 환율을 받지 못해 건너뛰었어요. 금액을 직접 추가해 주세요.</li> : null}
-            {report.gmail.noAmount > 0 ? <li>금액을 읽지 못한 메일이 <span className="num">{report.gmail.noAmount}</span>통 있어요.</li> : null}
+            {report.gmail.foreign > 0 ? (
+              <li>
+                외화 영수증 <span className="num">{report.gmail.foreign}</span>통은{" "}
+                {report.gmail.fxAvailable ? "결제 금액이 어느 것인지 알 수 없어 건너뛰었어요." : "환율을 받지 못해 건너뛰었어요."} 필요하면 직접 추가해 주세요.
+              </li>
+            ) : null}
+            {report.gmail.noAmount > 0 ? <li>결제 금액을 찾지 못한 메일 <span className="num">{report.gmail.noAmount}</span>통은 건너뛰었어요.</li> : null}
             {skippedMail > 0 || report.found === 0 ? <li>영수증이 없는 구독(카카오톡 알림 등)은 직접 추가해 주세요.</li> : null}
           </ul>
         ) : null}

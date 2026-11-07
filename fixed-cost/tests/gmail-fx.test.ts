@@ -53,3 +53,30 @@ describe("Gmail 외화 영수증", () => {
     expect(TransactionSchema.safeParse({ ...base, original_currency: "USD", original_amount: 20, fx_date: "2026-11-06" }).success).toBe(true);
   });
 });
+
+describe("금액이 여러 개인 영수증", () => {
+  const krw = (id: string, text: string): GmailMessageLite => ({ ...mail(id, text), subject: "[MOCK] 영수증" });
+  it.each([
+    ["상품 금액 10,000원\n부가세 1,000원\n합계 11,000원", 11000],
+    ["판매가 ₩9,900 할인 ₩-1,000 총 결제 금액 ₩8,900", 8900],
+    ["이용료 13,500원 (부가세 1,227원 포함) 결제 금액 13,500원", 13500],
+  ])("합계 라벨 뒤 금액을 골라요: %s", (text, expected) => {
+    const result = parseGmailMessages([krw("a", text)], catalog);
+    expect(result.transactions[0]?.amount).toBe(expected);
+  });
+
+  it("Subtotal은 합계로 보지 않고 Total을 골라요 (외화)", () => {
+    const [tx] = parseGmailMessages([mail("a", "Subtotal $18.18\nTax $1.82\nTotal $20.00")], catalog, { fx }).transactions;
+    expect(tx).toMatchObject({ original_amount: 20, amount: 27175 });
+  });
+
+  it("합계 라벨이 없으면 여전히 추측하지 않아요", () => {
+    const result = parseGmailMessages([krw("a", "가상 부분 금액 1,000원과 다른 금액 2,000원")], catalog);
+    expect(result.skipped).toEqual([{ message_id: "a", reason: "no_amount" }]);
+  });
+
+  it("같은 순위 라벨이 서로 다른 금액을 가리키면 건너뛰어요", () => {
+    const result = parseGmailMessages([krw("a", "1월 합계 5,000원 / 2월 합계 6,000원")], catalog);
+    expect(result.skipped).toEqual([{ message_id: "a", reason: "no_amount" }]);
+  });
+});

@@ -244,11 +244,13 @@ export type GmailImportResult = GmailParseResult & {
   /** 환율로 환산한 외화 영수증 수와 환율 기준일 */
   converted: number;
   fxDate: string | null;
+  /** 환율을 받았는지. 받았는데도 건너뛴 외화는 금액을 특정하지 못한 것이에요. */
+  fxAvailable: boolean;
 };
 
 function withFx(result: GmailParseResult, mailCount: number, fx: FxRates | null): GmailImportResult {
   const converted = result.transactions.filter((tx) => tx.original_currency !== undefined).length;
-  return { ...result, mailCount, converted, fxDate: converted > 0 && fx ? fx.date : null };
+  return { ...result, mailCount, converted, fxDate: converted > 0 && fx ? fx.date : null, fxAvailable: fx !== null };
 }
 
 /** Gmail에서 영수증을 읽어 결제 항목으로 바꿔요. 메일 원문은 이 함수가 끝나면 사라져요. */

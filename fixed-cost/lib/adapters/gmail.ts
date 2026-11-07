@@ -24,17 +24,52 @@ export function buildGmailQuery(catalog: GmailCatalog): string {
   return `newer_than:6m {${[...senders, "영수증", "결제", "receipt", "invoice", "payment"].join(" ")}}`;
 }
 
+type AmountHit<T> = { index: number; value: T; key: string };
+
+// 금액이 여러 개(상품가·부가세·합계 등)일 때 결제 금액을 가리키는 말. 앞쪽일수록 우선해요.
+// 'Subtotal'·'소계'는 일부러 넣지 않아요 (\btotal은 Subtotal 안에서 맞지 않아요).
+const TOTAL_LABELS: RegExp[] = [
+  /총\s*결제\s*금액/gu, /최종\s*결제\s*금액/gu, /결제\s*금액/gu, /청구\s*금액/gu, /결제된\s*금액/gu,
+  /\b(?:amount\s+(?:paid|charged)|total\s+(?:paid|charged|due))\b/giu, /\bgrand\s+total\b/giu, /\border\s+total\b/giu,
+  /합\s*계/gu, /총\s*(?:금액|액)/gu, /\btotal\b/giu,
+];
+const LABEL_WINDOW = 40; // 라벨 뒤 이 글자 수 안에 오는 첫 금액만 봐요 (줄을 넘지 않게)
+
+/**
+ * 금액 후보 중 결제 금액 하나를 골라요.
+ * 1) 서로 다른 금액이 하나뿐이면 그것. 2) 아니면 합계 라벨 바로 뒤의 금액(우선순위 높은 라벨부터).
+ * 같은 순위 라벨이 서로 다른 금액을 가리키면 추측하지 않아요(null).
+ */
+function pickAmount<T>(text: string, hits: AmountHit<T>[]): T | null {
+  const distinct = new Map(hits.map((hit) => [hit.key, hit.value]));
+  if (distinct.size === 1) return [...distinct.values()][0];
+  if (distinct.size === 0) return null;
+  for (const label of TOTAL_LABELS) {
+    const chosen = new Map<string, T>();
+    for (const match of text.matchAll(label)) {
+      const end = (match.index ?? 0) + match[0].length;
+      const lineEnd = text.indexOf("\n", end);
+      const limit = Math.min(end + LABEL_WINDOW, lineEnd === -1 ? Infinity : lineEnd);
+      const next = hits.filter((hit) => hit.index >= end && hit.index < limit).sort((a, b) => a.index - b.index)[0];
+      if (next) chosen.set(next.key, next.value);
+    }
+    if (chosen.size === 1) return [...chosen.values()][0];
+    if (chosen.size > 1) return null;
+  }
+  return null;
+}
+
 function extractWon(text: string): number | null {
-  const amounts = new Set<number>();
+  const hits: AmountHit<number>[] = [];
   const patterns = [/(?:₩|\bKRW)\s*([+-]?\d[\d,]*(?:\.\d+)?)/giu, /(?:^|[^\d.,+\-])([+-]?\d[\d,]*(?:\.\d+)?)\s*원/gu];
   for (const pattern of patterns) {
     for (const match of text.matchAll(pattern)) {
       const amount = parseWonAmount(match[1]);
-      if (amount !== null) amounts.add(amount);
+      const index = (match.index ?? 0) + match[0].indexOf(match[1]);
+      if (amount !== null) hits.push({ index, value: amount, key: String(amount) });
     }
   }
-  // 합계와 부분 금액 중 어느 것인지 알 수 없으면 추측하지 않아요.
-  return amounts.size === 1 ? [...amounts][0] : null;
+  return pickAmount(text, hits);
 }
 
 export const FOREIGN_CURRENCIES = ["USD", "EUR", "JPY", "GBP"] as const;
@@ -61,18 +96,18 @@ function parseForeignNumber(raw: string, currency: ForeignCurrency): number | nu
   return Number.isFinite(value) && value > 0 ? value : null;
 }
 
-/** 외화 금액 하나만 분명할 때만 돌려줘요 (여러 통화·여러 금액이면 추측하지 않아요). */
+/** 외화 결제 금액. 하나뿐이거나 합계 라벨 바로 뒤에 있을 때만 돌려줘요 (여러 통화가 섞여도 라벨이 가리키면 그것). */
 function extractForeign(text: string): { currency: ForeignCurrency; amount: number } | null {
-  const found = new Map<string, { currency: ForeignCurrency; amount: number }>();
+  const hits: AmountHit<{ currency: ForeignCurrency; amount: number }>[] = [];
   for (const currency of FOREIGN_CURRENCIES) {
     for (const pattern of foreignPatterns[currency]) {
       for (const match of text.matchAll(pattern)) {
         const amount = parseForeignNumber(match[1], currency);
-        if (amount !== null) found.set(`${currency}:${amount}`, { currency, amount });
+        if (amount !== null) hits.push({ index: match.index ?? 0, value: { currency, amount }, key: `${currency}:${amount}` });
       }
     }
   }
-  return found.size === 1 ? [...found.values()][0] : null;
+  return pickAmount(text, hits);
 }
 
 function paymentMethod(sender: string, services: CatalogService[]): string {
