@@ -2,9 +2,9 @@
 // localStorage가 막혀 있어도(사생활 보호 모드 등) 메모리로 계속 동작해요.
 import { create } from "zustand";
 import { createJSONStorage, persist, type StateStorage } from "zustand/middleware";
-import { loadCatalog } from "../catalog";
+import { appCatalog } from "./app-catalog";
 import { buildSuggestions } from "../rules";
-import type { BenefitResult, Subscription, Suggestion, Transaction, Usage, UserProfile } from "../types";
+import type { BenefitResult, Catalog, Subscription, Suggestion, Transaction, Usage, UserProfile } from "../types";
 
 export type Phase = "empty" | "interpreting" | "confirming" | "ready";
 export type ActionStatus = Suggestion["action_status"];
@@ -48,7 +48,7 @@ export interface AppState extends AppData {
   setBenefitResults: (results: BenefitResult[]) => void;
   mergeBenefitResults: (results: BenefitResult[]) => void;
   /** 규칙(buildSuggestions)으로 제안을 다시 만들어요. 이미 체크한 실행 상태와 받은 문장은 유지해요. */
-  rebuildSuggestions: (today: string) => void;
+  rebuildSuggestions: (today: string, catalog?: Catalog) => void;
   setSuggestions: (suggestions: Suggestion[]) => void;
   addSuggestion: (suggestion: Suggestion) => void;
   setSuggestionMessage: (id: string, message: string, source: Suggestion["message_source"]) => void;
@@ -162,11 +162,11 @@ export function createAppStore(storage: StateStorage = createSafeStorage()) {
           set({ benefitResults: [...get().benefitResults.filter((entry) => !incoming.has(key(entry))), ...results] });
         },
 
-        rebuildSuggestions: (today) => {
+        rebuildSuggestions: (today, catalog) => {
           const previous = new Map(get().suggestions.map((entry) => [entry.id, entry]));
           let next: Suggestion[];
           try {
-            next = buildSuggestions({ subs: get().subscriptions, benefitResults: get().benefitResults, catalog: loadCatalog(), today });
+            next = buildSuggestions({ subs: get().subscriptions, benefitResults: get().benefitResults, catalog: catalog ?? appCatalog(), today });
           } catch {
             // 규칙이 입력을 거부하면(예: 확인 안 된 구독) 제안 없이 계속 진행해요.
             next = [];

@@ -4,6 +4,7 @@ import * as api from "../api-client";
 import { loadCatalog } from "../catalog";
 import { buildSubscriptions, detectSubscriptionCandidates, monthlyEquivalent } from "../rules";
 import type { Catalog, Interval, Subscription, Transaction } from "../types";
+import { appCatalog } from "./app-catalog";
 import { benefitTargets } from "./derive";
 import { useAppStore } from "./store";
 
@@ -99,7 +100,7 @@ export async function runAnalysis(
   options: { store?: typeof useAppStore; apiOptions?: api.ApiOptions; catalog?: Catalog; today: string },
 ): Promise<{ degraded: boolean }> {
   const store = options.store ?? useAppStore;
-  const catalog = options.catalog ?? loadCatalog();
+  const catalog = options.catalog ?? appCatalog(options.apiOptions?.mock);
   store.getState().setAnalysis("running", false);
   let degraded = false;
   try {
@@ -110,7 +111,7 @@ export async function runAnalysis(
       degraded ||= response.degraded;
       store.getState().setBenefitResults(response.results);
     }
-    store.getState().rebuildSuggestions(options.today);
+    store.getState().rebuildSuggestions(options.today, catalog);
 
     // 제안 문장: 아직 AI 문장이 아닌 것만, 차례대로 (무료 모델 호출 수를 아끼려고 동시에 보내지 않아요)
     for (const suggestion of store.getState().suggestions) {
