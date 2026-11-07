@@ -6,8 +6,8 @@ import type { InputAdapter } from "./types";
 
 const samples = [
   { id: "persona-1", name: "구독 많은 학생", description: "등록된 서비스 5개와 단발 결제가 섞인 3개월 가상 내역", transactions: persona1 },
-  { id: "persona-2", name: "AI 도구 중심 학생", description: "등록된 다글로·클라우드·노트 구독 3개. 미등록 AI 서비스는 제외", transactions: persona2 },
-  { id: "persona-3", name: "OTT 중심 학생", description: "등록된 넷플릭스·멤버십 구독 2개. 미확인 OTT 가격은 제외", transactions: persona3 },
+  { id: "persona-2", name: "AI 도구 중심 학생", description: "등록된 다글로·클라우드·노트·노션·Google AI Plus 구독 5개. 미등록 AI 서비스는 제외", transactions: persona2 },
+  { id: "persona-3", name: "OTT 중심 학생", description: "등록된 넷플릭스·멤버십·스포티파이·애플뮤직 구독 4개. 미확인 OTT 가격은 제외", transactions: persona3 },
 ];
 
 export function listSamples() {

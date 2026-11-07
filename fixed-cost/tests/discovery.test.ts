@@ -1,6 +1,9 @@
 import { afterEach, beforeEach, expect, it, vi } from "vitest";
 import { request as nativeRequest } from "node:https";
 import { loadCatalog } from "../lib/catalog";
+
+// 실제 카탈로그 혜택과 섞이지 않도록 혜택이 빈 카탈로그로 검증해요
+const discoveryCatalog = () => ({ ...loadCatalog(), benefits: [] });
 import { createBenefitDiscovery, confirmedServiceIds, SEARCH_TIMEOUT_MS } from "../lib/adapters/benefit-discovery/engine";
 import { createSecurePageFetcher, isPublicAddress, officialUrl, PAGE_MAX_BYTES, PAGE_TIMEOUT_MS } from "../lib/adapters/benefit-discovery/network";
 import { extractBenefits } from "../lib/adapters/benefit-discovery/extract";
@@ -19,7 +22,7 @@ vi.mock("node:https", () => ({ request: vi.fn(() => { throw new Error("실제 HT
 function setup(page = mockPage()) {
   const search = { search: vi.fn(async () => [{ url: MOCK_OFFICIAL_URL, snippet: "가상 허위 검색 요약 0원" }]) };
   const pages = createSecurePageFetcher({ resolve: async () => [{ address: "8.8.8.8", family: 4 }], transport: async () => mockResponse(page.html), now: () => new Date(page.fetched_at) });
-  return { search, pages, engine: createBenefitDiscovery({ catalog: loadCatalog(), sources: [mockSource], search, pages }) };
+  return { search, pages, engine: createBenefitDiscovery({ catalog: discoveryCatalog(), sources: [mockSource], search, pages }) };
 }
 const network = vi.fn(() => { throw new Error("실제 네트워크 금지"); });
 beforeEach(() => { network.mockClear(); vi.mocked(nativeRequest).mockClear(); vi.stubGlobal("fetch", network); });
@@ -58,13 +61,13 @@ it("공식 페이지에 혜택이 없으면 검색 요약의 할인은 무시해
   const report = await engine.discover(input); expect(report.verified).toEqual([]); expect(report.candidates[0].issues).toContain("unsupported_page");
 });
 it("검색 실패와 검색 결과 없음은 구분해요", async () => {
-  const options = { catalog: loadCatalog(), sources: [mockSource], pages: setup().pages };
+  const options = { catalog: discoveryCatalog(), sources: [mockSource], pages: setup().pages };
   expect((await createBenefitDiscovery({ ...options, search: { search: async () => { throw new Error("가상 비공개 오류"); } } }).discover(input)).status).toBe("search_failed");
   expect((await createBenefitDiscovery({ ...options, search: { search: async () => [] } }).discover(input)).status).toBe("no_results");
 });
 it("등록하지 않은 공식 도메인은 추측하지 않고 검색을 보류해요", async () => {
   const { search, pages } = setup();
-  const engine = createBenefitDiscovery({ catalog: loadCatalog(), sources: [], search, pages });
+  const engine = createBenefitDiscovery({ catalog: discoveryCatalog(), sources: [], search, pages });
   expect((await engine.discover(input)).status).toBe("unconfigured"); expect(search.search).not.toHaveBeenCalled();
 });
 it("미등록 서비스 ID를 검색하지 않아요", async () => {
@@ -95,7 +98,7 @@ it("일반 요금제는 검증 레코드로 분리하고 B1 학생 할인으로 
 });
 it("검색 타임아웃은 실패 상태이며 signal을 취소해요", async () => {
   vi.useFakeTimers(); let signal: AbortSignal | undefined;
-  const engine = createBenefitDiscovery({ catalog: loadCatalog(), sources: [mockSource], pages: setup().pages,
+  const engine = createBenefitDiscovery({ catalog: discoveryCatalog(), sources: [mockSource], pages: setup().pages,
     search: { search: async (request) => { signal = request.signal; return new Promise(() => {}); } } });
   const pending = engine.discover(input); await vi.advanceTimersByTimeAsync(SEARCH_TIMEOUT_MS);
   expect((await pending).status).toBe("search_failed"); expect(signal?.aborted).toBe(true);
@@ -138,12 +141,12 @@ it("페이지 요청 전체 타임아웃에는 DNS 대기도 포함돼요", asyn
 });
 it("추출값을 변조해도 본문과 대조해 거부해요", () => {
   const page = mockPage(); const [candidate] = extractBenefits(page, "netflix"); candidate.quotes.conditions = "없는 가상 조건";
-  expect(verifyBenefit(candidate, page, mockSource, loadCatalog(), "KR", DISCOVERY_TODAY).issues).toContain("quote_conditions");
+  expect(verifyBenefit(candidate, page, mockSource, discoveryCatalog(), "KR", DISCOVERY_TODAY).issues).toContain("quote_conditions");
 });
 it("B5 AI 후보는 검색하지 않고 확정 ID만 자동 탐색 입력에 사용해요", async () => {
   const mock = createMockProvider([{ text: JSON.stringify({ service_id: "netflix", confidence: 0.99, category: "영상", reason: "가상 추정" }) }]);
   const results = await resolveInterpretItems([{ key: "mock", raw_name: "카카오페이", amount: 13500, interval: "monthly", payment_method: "card" }],
-    { catalog: loadCatalog(), llm: createLlmClient({ provider: mock.provider, dailyCap: 10, logger: () => {} }) });
+    { catalog: discoveryCatalog(), llm: createLlmClient({ provider: mock.provider, dailyCap: 10, logger: () => {} }) });
   const ids = confirmedServiceIds(results); expect(ids).toEqual([]);
   const discovery = setup(); expect((await discovery.engine.discover({ ...input, confirmed_service_ids: ids })).status).toBe("no_results"); expect(discovery.search.search).not.toHaveBeenCalled();
 });
@@ -171,7 +174,7 @@ it("학교 라이선스의 학교명도 본문에서 확인해야 해요", async
 });
 it("공식 페이지끼리 같은 혜택의 가격이 충돌하면 어느 쪽도 승격하지 않아요", async () => {
   const second = mockProduct(); second.offers.price = "2000"; second.offers.priceSpecification.description = "월 2,000 KRW VAT 포함";
-  const engine = createBenefitDiscovery({ catalog: loadCatalog(), sources: [mockSource],
+  const engine = createBenefitDiscovery({ catalog: discoveryCatalog(), sources: [mockSource],
     search: { search: async () => [{ url: MOCK_OFFICIAL_URL }, { url: `${MOCK_OFFICIAL_URL}-second` }] },
     pages: { fetch: async (url) => mockPage(url.endsWith("second") ? second : mockProduct(), undefined, url) } });
   const report = await engine.discover(input); expect(report.verified).toEqual([]);
@@ -184,10 +187,10 @@ it("국가 KR을 통화 KRW의 부분 문자열로 검증하지 않아요", asyn
 });
 it("필드를 바꾼 후보는 올바른 원문 인용이 남아 있어도 검증하지 않아요", () => {
   const page = mockPage(); const [candidate] = extractBenefits(page, "netflix"); candidate.conditions = "조작된 조건";
-  expect(verifyBenefit(candidate, page, mockSource, loadCatalog(), "KR", DISCOVERY_TODAY).issues).toContain("extraction_mismatch");
+  expect(verifyBenefit(candidate, page, mockSource, discoveryCatalog(), "KR", DISCOVERY_TODAY).issues).toContain("extraction_mismatch");
 });
 it("페이지 실패와 일부 서비스의 설정 누락은 전체 성공으로 표시하지 않아요", async () => {
-  const engine = createBenefitDiscovery({ catalog: loadCatalog(), sources: [mockSource], search: setup().search,
+  const engine = createBenefitDiscovery({ catalog: discoveryCatalog(), sources: [mockSource], search: setup().search,
     pages: { fetch: async () => { throw new Error("가상 비공개 오류"); } } });
   const report = await engine.discover({ ...input, confirmed_service_ids: ["netflix", "goodnotes"] });
   expect(report.status).toBe("partial"); expect(report.errors.map((entry) => entry.code)).toEqual(["page_failed", "official_source_unconfigured"]);

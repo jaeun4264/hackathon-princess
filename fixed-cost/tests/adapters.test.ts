@@ -179,7 +179,7 @@ describe("샘플과 B2 통합", () => {
     expect(fields(csv)).toEqual(fields(sample));
   });
 
-  it.each([["persona-1", 18, 5], ["persona-2", 12, 3], ["persona-3", 11, 2]] as const)(
+  it.each([["persona-1", 18, 5], ["persona-2", 18, 5], ["persona-3", 17, 4]] as const)(
     "%s: 결제 %s건에서 심은 구독 %s개만 찾아요", async (id, count, expected) => {
       const transactions = await sampleAdapter.load(id);
       const catalog = loadCatalog();

@@ -9,7 +9,7 @@ const mock = { mock: true, mockDelayMs: 0 };
 const newStore = () => createAppStore(createSafeStorage(() => undefined));
 
 describe("샘플 체험 → 구독", () => {
-  it.each([["persona-1", 5], ["persona-2", 3], ["persona-3", 2]])("%s: 구독 %i개, 단발 결제는 빠져요", async (id, expected) => {
+  it.each([["persona-1", 5], ["persona-2", 5], ["persona-3", 4]])("%s: 구독 %i개, 단발 결제는 빠져요", async (id, expected) => {
     const txs = await sampleAdapter.load(id);
     const { subscriptions } = await analyzeTransactions(txs, { apiOptions: mock });
     expect(subscriptions).toHaveLength(expected);
@@ -47,7 +47,7 @@ describe("샘플 체험 → 구독", () => {
     const fetchImpl = vi.fn(async () => { throw new TypeError("offline"); });
     const result = await analyzeTransactions(await sampleAdapter.load("persona-3"), { apiOptions: { mock: false, fetchImpl } });
     expect(result.degraded).toBe(true);
-    expect(result.subscriptions.length).toBe(2);
+    expect(result.subscriptions.length).toBe(4);
     expect(result.subscriptions.every((sub) => sub.needs_check)).toBe(true);
   });
 });
