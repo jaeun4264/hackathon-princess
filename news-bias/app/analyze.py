@@ -1,0 +1,441 @@
+"""AI 분석 (서비스 흐름 3·4단계) — LLM이 문장마다 사실/의견/인용, 출처 유형, 평가가 담긴 표현을 붙입니다.
+
+    python -m app.analyze 라벨링표_1차.xlsx                → 기본 모델(LLM_PROVIDER)로 라벨링표_AI_<모델>.xlsx
+    python -m app.analyze 라벨링표_1차.xlsx --모델 claude  → Claude로
+    python -m app.analyze 라벨링표_1차.xlsx --모델 gemini-3.8-flash gemini-3.5-flash-lite
+                                                         → 모델 이름을 여러 개 적으면 차례로 (같은 Gemini끼리 비교, 무료)
+    python -m app.analyze 라벨링표_1차.xlsx --모델 groq     → Groq 무료 공개 모델 (GROQ_MODEL 필요)
+    python -m app.analyze 라벨링표_1차.xlsx --모델 groq:openai/gpt-oss-120b groq:llama-3.3-70b-versatile --묶음 10
+                                                         → Groq 모델끼리 비교 ('groq:모델이름'), 10문장씩 나눠 보냄
+    python -m app.analyze 라벨링표_1차.xlsx --모델 gemini-3.8-flash --생각 low
+                                                         → 생각하는 양을 줄여 빠르게 (결과는 …_생각low 로 따로 저장)
+    python -m app.analyze 라벨링표_1차.xlsx --다시         → 저장된 응답을 무시하고 다시 요청
+
+.env 설정 — 제공사마다 키를 따로 넣어 두고 --모델 로 고름
+    GEMINI_API_KEY=...         # (예전 방식 LLM_PROVIDER=gemini + LLM_API_KEY 도 그대로 됨)
+    GEMINI_MODEL=gemini-3.8-flash
+    ANTHROPIC_API_KEY=...      # Claude
+    ANTHROPIC_MODEL=claude-sonnet-5-5
+    GROQ_API_KEY=...           # 선택: Groq (무료, 공개 모델)
+    GROQ_MODEL=...             # Groq 콘솔의 Models 목록에 있는 이름
+    LLM_PROVIDER=gemini        # --모델 을 안 적었을 때 쓸 제공사
+
+응답은 data/raw/ai/<모델>/ 에 기사별로 저장해 두고, 다시 실행하면 저장된 것을 씁니다 (비용 절약).
+주의: 사람 라벨링이 끝나기 전에는 결과 파일을 열어 보지 마세요.
+"""
+import argparse
+import json
+import os
+import re
+import time
+from pathlib import Path
+
+import httpx
+from dotenv import load_dotenv
+from pydantic import BaseModel, ValidationError, field_validator
+
+from app.labelsheet import SOURCE_NAMES, TYPES, Row, read_rows, split_source, write_labels
+
+ROOT = Path(__file__).resolve().parent.parent
+LABEL_DIR = ROOT / "data" / "raw" / "labeling"
+CACHE_DIR = ROOT / "data" / "raw" / "ai"
+
+# 모델이 학습한 시점과 지금의 여당이 다를 수 있어 직접 알려 줌
+RULING_PARTY = "더불어민주당"
+
+DEFAULT_URL = {
+    "gemini": "https://generativelanguage.googleapis.com/v1beta/openai/chat/completions",
+    "openai": "https://api.openai.com/v1/chat/completions",
+    "anthropic": "https://api.anthropic.com/v1/messages",
+    "groq": "https://api.groq.com/openai/v1/chat/completions",
+}
+
+SYSTEM_PROMPT = f"""너는 한국 뉴스 기사의 문장을 분류하는 라벨링 담당자다. 판정하지 말고 아래 기준만 따른다.
+문장의 내용에 동의하는지, 어느 언론사인지는 판단에 쓰지 않는다.
+
+[유형] 아래 질문을 순서대로 묻고 처음 '예'가 나오는 곳에서 멈춘다.
+1. 누군가의 말을 전하는 문장인가? 말한 사람·기관이 문장에 있고 "~라고 말했다/밝혔다/주장했다/비판했다"처럼 끝난다. 따옴표 없는 간접 인용도 포함. "[이름 / 직함] …" 형식도 인용. → 인용
+2. 기록·자료로 확인할 수 있는 일인가? 날짜, 수치, 회의 결과, 법안 내용, 발표된 일정. → 사실
+3. 기자가 직접 평가·추측·주장하는가? → 의견
+경계 규칙:
+- "~라는 지적/평가/비판이 나온다"처럼 말한 사람이 없으면 의견.
+- "전문가들은 우려를 나타냈다", "법조계에서는 …라는 비판이 나왔다"처럼 집단만 있으면 인용.
+- "~로 알려졌다", "~한 것으로 파악됐다"는 사실.
+- "~할 전망이다"는 발표된 일정이면 사실, 기자의 예측이면 의견.
+- 인용에 기자의 평가 단어가 섞이면 인용으로 붙이고 그 단어는 평가 표현에 적는다.
+- 사실 문장에 평가 단어("강행 처리했다")가 섞이면 사실로 붙이고 그 단어는 평가 표현에 적는다.
+
+[출처 유형] 유형이 인용일 때만. 발언 내용이 아니라 말한 사람의 소속으로 정한다.
+- 정부·여당: 대통령실, 정부 부처, 지자체, 공기업, 검찰·공소청, 여당({RULING_PARTY})
+- 야당: 여당이 아닌 정당과 그 소속 정치인 (범여권 정당도 소속 기준으로 야당)
+- 전문가: 이해관계 없이 분석하는 제3자 (교수, 연구원, 개인 변호사)
+- 시민·단체: 개인 시민, 시민단체, 노동조합, 변호사단체 등 기업이 아닌 단체
+- 기업·업계: 이해관계가 걸린 회사, 업계, 경제단체
+- 위 5개에 맞지 않으면 "기타"라고 쓰지 말고 원래 명칭을 짧게 적는다 (예: 무소속 의원, 국회의장, 법원, 국회 전문위원, 외국 정부)
+한 문장에 말한 사람이 여럿이면 먼저 나온 사람 기준.
+
+[인용한 사람] 유형이 인용일 때만, 기사에 쓰인 이름·직함 그대로 짧게.
+[평가 표현] 기자가 직접 고른 평가 단어만, 문장에 쓰인 글자 그대로. 따옴표 안의 단어는 적지 않는다. 없으면 빈 목록.
+
+반드시 아래 JSON 하나만 출력한다. 설명 문장, 코드 블록 표시를 붙이지 않는다.
+{{"sentences": [{{"no": 1, "type": "사실|의견|인용", "source": "5개 유형 중 하나, 또는 원래 명칭, 또는 null", "speaker": "인용한 사람 또는 null", "framing": ["단어"]}}]}}"""
+
+
+# AI가 5개 유형 이름 대신 비슷한 말로 답한 경우 → 같은 유형으로 맞춤 (모든 모델에 똑같이 적용)
+SOURCE_SYNONYMS = {
+    "정부·여당": ["여당", "정부", "여권", "정부여당", "정부/여당", "정부-여당", "정부 여당", "정부.여당", RULING_PARTY, RULING_PARTY.removeprefix("더불어")],
+    "야당": ["야권", "야당측"],
+    "시민·단체": ["시민", "시민단체", "단체", "시민/단체"],
+    "기업·업계": ["기업", "업계", "기업/업계"],
+    "전문가": ["전문가들", "학계"],
+}
+SYNONYM_TO_SOURCE = {alias: name for name, aliases in SOURCE_SYNONYMS.items() for alias in aliases}
+
+
+class Label(BaseModel):
+    no: int
+    type: str
+    source: str | None = None
+    speaker: str | None = None
+    framing: list[str] = []
+
+    @field_validator("type")
+    @classmethod
+    def _type(cls, v):
+        if v not in TYPES:
+            raise ValueError(f"유형은 {TYPES} 중 하나여야 함: {v}")
+        return v
+
+    @field_validator("source")
+    @classmethod
+    def _source(cls, v):
+        if v in (None, "", "null"):
+            return None
+        v = v.strip()
+        v = SYNONYM_TO_SOURCE.get(v, v)
+        if v == "기타":
+            raise ValueError('"기타" 대신 원래 명칭(예: 무소속 의원)을 적어야 함')
+        if v not in SOURCE_NAMES and len(v) > 20:
+            raise ValueError(f"원래 명칭은 짧게 적어야 함: {v}")
+        return v
+
+
+class LLMError(Exception):
+    pass
+
+
+ALIASES = {"gemini": "gemini", "claude": "anthropic", "anthropic": "anthropic", "openai": "openai", "gpt": "openai",
+           "groq": "groq"}
+ENV_PREFIX = {"gemini": "GEMINI", "anthropic": "ANTHROPIC", "openai": "OPENAI", "groq": "GROQ"}
+# 무료로 쓸 수 있는 Gemini (2026-11 기준): gemini-3.8-flash, gemini-3.6-flash, gemini-3.5-flash-lite
+DEFAULT_MODEL = {"gemini": "gemini-3.8-flash", "anthropic": "claude-sonnet-5-5", "openai": "gpt-4.1-mini", "groq": None}
+BOTH = ["gemini", "anthropic"]  # --모델 둘다
+MODEL_PREFIX = {"gemini-": "gemini", "claude-": "anthropic", "gpt-": "openai"}  # 모델 이름만 적었을 때 제공사 찾기
+
+
+def parse_choice(choice: str | None) -> tuple[str | None, str | None]:
+    """--모델 값 → (제공사, 모델 이름). 'gemini' → (gemini, None), 'gemini-3.5-flash-lite' → (gemini, 그 이름)"""
+    if choice is None or choice.lower() in ALIASES:
+        return choice, None
+    for prefix, provider in MODEL_PREFIX.items():
+        if choice.lower().startswith(prefix):
+            return provider, choice
+    if ":" in choice:  # groq:모델이름 처럼 제공사를 직접 적은 경우
+        prov, _, model = choice.partition(":")
+        return prov, model
+    raise LLMError(f"모델을 알 수 없습니다: {choice} (gemini / claude / groq, 또는 gemini-3.8-flash 같은 모델 이름)")
+
+
+def _env(name: str) -> str:
+    return os.getenv(name, "").strip()
+
+
+def resolve_provider(name: str | None) -> str:
+    name = (name or _env("LLM_PROVIDER") or "gemini").lower()
+    if name not in ALIASES:
+        raise LLMError(f"모델은 gemini / claude / openai 중 하나여야 합니다: {name}")
+    return ALIASES[name]
+
+
+def config(provider: str | None = None, model: str | None = None) -> dict:
+    """제공사별 설정. GEMINI_API_KEY 처럼 제공사 이름이 붙은 칸을 먼저 보고,
+    없으면 예전 방식(LLM_PROVIDER 가 같은 제공사일 때의 LLM_API_KEY·LLM_MODEL)을 씀"""
+    load_dotenv(ROOT / ".env")
+    provider = resolve_provider(provider)
+    p = ENV_PREFIX[provider]
+    legacy = _env("LLM_PROVIDER") and resolve_provider(None) == provider
+    key = _env(f"{p}_API_KEY") or (provider == "anthropic" and _env("CLAUDE_API_KEY")) or (legacy and _env("LLM_API_KEY"))
+    if not key:
+        raise LLMError(f".env 에 {p}_API_KEY 를 넣어 주세요.")
+    model = model or _env(f"{p}_MODEL") or (legacy and _env("LLM_MODEL")) or DEFAULT_MODEL[provider]
+    if not model:
+        raise LLMError(f".env 에 {p}_MODEL 을 넣어 주세요.")
+    # ANTHROPIC_BASE_URL 같은 이름은 다른 프로그램도 쓰는 설정이라 읽지 않음
+    url = (legacy and _env("LLM_BASE_URL")) or DEFAULT_URL[provider]
+    return {"provider": provider, "model": model, "key": key, "url": url}
+
+
+def build_user_prompt(outlet: str, rows: list[Row]) -> str:
+    lines = "\n".join(f"{r.no}. {r.text}" for r in rows)
+    return f"언론사: {outlet}\n아래 문장 {len(rows)}개를 모두 분류해라.\n\n{lines}"
+
+
+def call_llm(cfg: dict, system: str, user: str, client: httpx.Client) -> str:
+    if cfg["provider"] == "anthropic":
+        headers = {"x-api-key": cfg["key"], "anthropic-version": "2023-06-01"}
+        body = {"model": cfg["model"], "max_tokens": 8000, "temperature": 0, "system": system,
+                "messages": [{"role": "user", "content": user}]}
+    else:
+        headers = {"Authorization": f"Bearer {cfg['key']}"}
+        body = {"model": cfg["model"], "temperature": 0,
+                "messages": [{"role": "system", "content": system}, {"role": "user", "content": user}]}
+        if cfg.get("effort"):  # 생각하는 양 (Gemini·OpenAI 호환 주소의 reasoning_effort)
+            body["reasoning_effort"] = cfg["effort"]
+    last_limit, last_status = "", 0
+    for attempt in range(4):
+        try:
+            t0 = time.perf_counter()
+            res = client.post(cfg["url"], headers=headers, json=body)
+            took = time.perf_counter() - t0
+        except httpx.TimeoutException as e:  # 응답이 오래 걸림 (긴 기사, 생각하는 모델) → 잠시 후 다시
+            if attempt == 3:
+                raise LLMError(f"응답이 너무 오래 걸려 4번 실패했습니다. --묶음 15 처럼 나눠 보내 보세요. ({e})") from e
+            print(f"  응답 시간 초과 → {10 * (attempt + 1)}초 뒤 다시 요청합니다")
+            time.sleep(10 * (attempt + 1))
+            continue
+        except httpx.HTTPError as e:
+            raise LLMError(f"LLM 서버에 연결하지 못했습니다: {e}") from e
+        if res.status_code == 429 or res.status_code >= 500:  # 너무 많이 보냄 / 서버 문제 → 잠시 후 재시도
+            last_limit, last_status = res.text, res.status_code
+            wait = min(60, 5 * 2 ** attempt)
+            print(f"  {'요청 한도' if res.status_code == 429 else '서버 문제'}(HTTP {res.status_code}) → {wait}초 뒤 다시 요청합니다")
+            time.sleep(wait)
+            continue
+        if res.status_code == 400 and cfg.get("effort") and "reasoning" in res.text.lower():
+            raise LLMError(f"이 모델은 --생각 {cfg['effort']} 설정을 받지 않습니다: {res.text[:200]}")
+        if res.status_code == 413:
+            raise LLMError("한 번에 보낸 양이 무료 한도보다 큽니다. --묶음 10 처럼 나눠 보내 주세요.")
+        if res.status_code in (401, 403):
+            raise LLMError(f"API 키가 거절됐습니다 (HTTP {res.status_code}): {res.text[:300]}")
+        if res.status_code != 200:
+            raise LLMError(f"요청 실패 (HTTP {res.status_code}): {res.text[:300]}")
+        data = res.json()
+        usage = data.get("usage") or {}
+        cfg.setdefault("_log", []).append({  # 속도 비교용 기록 (성공한 요청의 응답 시간, 쉬는 시간은 뺌)
+            "seconds": round(took, 2),
+            "input_tokens": usage.get("input_tokens", usage.get("prompt_tokens")),
+            "output_tokens": usage.get("output_tokens", usage.get("completion_tokens")),
+            "total_tokens": usage.get("total_tokens"),  # 생각하는 모델은 생각 토큰까지 포함된 값
+        })
+        if cfg["provider"] == "anthropic":
+            return "".join(b.get("text", "") for b in data.get("content", []))
+        return data["choices"][0]["message"]["content"]
+    if re.search(r"per\s?day|PerDay|daily", last_limit, re.I):
+        raise LLMError("오늘 쓸 수 있는 무료 요청(RPD)을 다 썼습니다. 한국 시간 오후 5시(태평양 자정)쯤 초기화된 뒤 다시 실행해 주세요.")
+    if last_status >= 500:
+        raise LLMError(f"{cfg['model']} 서버가 붐벼서(HTTP {last_status}) 여러 번 실패했습니다. 내 컴퓨터·키 문제가 아닙니다. "
+                       "10~30분 뒤 다시 실행하거나 다른 모델(gemini-3.6-flash 등)로 해 보세요 (저장된 기사는 건너뜀).")
+    raise LLMError("요청 한도에 걸려 여러 번 실패했습니다. 1~2분 쉬었다가 다시 실행해 주세요 (저장된 기사는 건너뜀).")
+
+
+def parse_labels(text: str, rows: list[Row]) -> dict[int, dict]:
+    """응답에서 JSON을 꺼내 검사. 문제가 있으면 무엇이 틀렸는지 담아 ValueError"""
+    m = re.search(r"\{.*\}", text, re.S)
+    if not m:
+        raise ValueError("JSON을 찾지 못함")
+    data = json.loads(m.group(0))
+    items = [Label(**x) for x in data.get("sentences", [])]
+    by_no = {x.no: x for x in items}
+    missing = [r.no for r in rows if r.no not in by_no]
+    if missing:
+        raise ValueError(f"빠진 문장 번호: {missing[:10]}")
+    texts = {r.no: r.text for r in rows}
+    out = {}
+    for no, x in by_no.items():
+        if no not in texts:
+            continue
+        if x.type == "인용" and not x.source:
+            raise ValueError(f"{no}번: 인용인데 출처 유형이 없음")
+        source, detail = split_source(x.source) if x.type == "인용" else (None, None)
+        out[no] = {
+            "type": x.type,
+            "source": source,
+            "detail": detail,
+            "speaker": x.speaker if x.type == "인용" else None,
+            # 문장에 그대로 없는 단어는 버림 (화면 강조가 안 되므로)
+            "framing": [w for w in x.framing if w and w in texts[no]],
+        }
+    return out
+
+
+def meta_path(cache: Path) -> Path:
+    return cache.with_name(cache.stem + ".meta.json")
+
+
+def summarize(log: list[dict]) -> dict:
+    def total(k):
+        vals = [x[k] for x in log if x.get(k) is not None]
+        return sum(vals) if vals else None
+    return {"seconds": round(sum(x["seconds"] for x in log), 2), "requests": len(log),
+            "input_tokens": total("input_tokens"), "output_tokens": total("output_tokens"),
+            "total_tokens": total("total_tokens")}
+
+
+def analyze_article(cfg, outlet, rows, client, cache: Path | None = None, retries: int = 2) -> dict[int, dict]:
+    if cache and cache.exists():
+        try:
+            return parse_labels(cache.read_text(encoding="utf-8"), rows)
+        except (ValueError, ValidationError, json.JSONDecodeError):
+            pass  # 저장된 응답이 깨졌으면 다시 요청
+    start = len(cfg.setdefault("_log", []))
+    user = build_user_prompt(outlet, rows)
+    last_err = None
+    for _ in range(retries + 1):
+        text = call_llm(cfg, SYSTEM_PROMPT, user, client)
+        try:
+            labels = parse_labels(text, rows)
+            if cache:
+                cache.parent.mkdir(parents=True, exist_ok=True)
+                cache.write_text(text, encoding="utf-8")
+                meta = summarize(cfg["_log"][start:]) | {"sentences": len(rows)}
+                meta_path(cache).write_text(json.dumps(meta, ensure_ascii=False), encoding="utf-8")
+            return labels
+        except (ValueError, ValidationError, json.JSONDecodeError) as e:
+            last_err = e
+            user = build_user_prompt(outlet, rows) + f"\n\n이전 응답에 문제가 있었다: {e}\n형식을 지켜 다시 출력해라."
+    raise LLMError(f"{rows[0].article_id}: 올바른 응답을 받지 못했습니다 ({last_err})")
+
+
+def write_run_log(dst: Path, metas: list[tuple[str, dict | None]]) -> None:
+    """AI 결과 표에 '실행 기록' 시트를 추가 (evaluate 채점이 속도 비교에 씀)"""
+    from openpyxl import load_workbook
+    wb = load_workbook(dst)
+    if RUN_SHEET in wb.sheetnames:
+        del wb[RUN_SHEET]
+    ws = wb.create_sheet(RUN_SHEET)
+    ws.append(["기사", "문장 수", "응답 시간(초)", "요청 수", "입력 토큰", "출력 토큰", "전체 토큰"])
+    for name, m in metas:
+        m = m or {}
+        ws.append([name, m.get("sentences"), m.get("seconds"), m.get("requests"), m.get("input_tokens"),
+                   m.get("output_tokens"), m.get("total_tokens")])
+    wb.save(dst)
+
+
+RUN_SHEET = "실행 기록"
+
+
+def list_models(cfg: dict) -> list[str]:
+    """제공사의 모델 목록 (OpenAI 호환 /models). 이름을 확인하고 --모델 에 쓰기 위함"""
+    if cfg["provider"] == "anthropic":
+        url, headers = "https://api.anthropic.com/v1/models", {"x-api-key": cfg["key"], "anthropic-version": "2023-06-01"}
+    else:
+        url, headers = cfg["url"].rsplit("/chat/completions", 1)[0] + "/models", {"Authorization": f"Bearer {cfg['key']}"}
+    try:
+        res = httpx.get(url, headers=headers, timeout=30)
+    except httpx.HTTPError as e:
+        raise LLMError(f"모델 목록을 가져오지 못했습니다: {e}") from e
+    if res.status_code != 200:
+        raise LLMError(f"모델 목록 요청 실패 (HTTP {res.status_code}): {res.text[:200]}")
+    ids = [m.get("id", "").removeprefix("models/") for m in res.json().get("data", [])]
+    return sorted(i for i in ids if i)
+
+
+def run_name(cfg: dict) -> str:
+    """저장 폴더·결과 파일 이름. 생각 설정이 다르면 따로 저장해 비교할 수 있게"""
+    return safe_name(cfg["model"]) + (f"_생각{cfg['effort']}" if cfg.get("effort") else "")
+
+
+def safe_name(model: str) -> str:
+    return re.sub(r"[^\w.-]+", "_", model)
+
+
+def chunks(rows: list[Row], size: int) -> list[list[Row]]:
+    """기사 문장을 size개씩 나눔 (0이면 기사 통째로). 무료 한도가 작은 모델은 한 번에 보내는 양을 줄여야 함"""
+    if size <= 0 or len(rows) <= size:
+        return [rows]
+    return [rows[i:i + size] for i in range(0, len(rows), size)]
+
+
+def run(cfg: dict, src: Path, again: bool, gap: float, size: int = 0) -> Path:
+    """한 모델로 표 전체를 분석해 라벨링표_AI_<모델>.xlsx 로 저장"""
+    by_article: dict[str, list[Row]] = {}
+    for r in read_rows(src):
+        by_article.setdefault(r.article_id, []).append(r)
+    name = run_name(cfg)
+    print(f"── {cfg['model']} ──")
+    labels, metas = {}, []
+    with httpx.Client(timeout=httpx.Timeout(300, connect=30)) as client:
+        jobs = [(aid, k, part) for aid, rs in by_article.items() for k, part in enumerate(chunks(rs, size), 1)]
+        for i, (aid, k, rs) in enumerate(jobs):
+            multi = len(chunks(by_article[aid], size)) > 1
+            cache = CACHE_DIR / name / (f"{aid}_{k}.json" if multi else f"{aid}.json")
+            if again:
+                for f in (cache, meta_path(cache)):
+                    if f.exists():
+                        f.unlink()
+            fresh = not cache.exists()
+            got = analyze_article(cfg, rs[0].outlet, rs, client, cache)
+            labels.update({(aid, no): v for no, v in got.items()})
+            mp = meta_path(cache)
+            meta = json.loads(mp.read_text(encoding="utf-8")) if mp.exists() else None
+            metas.append((f"{aid}-{k}" if multi else aid, meta))
+            took = f", {meta['seconds']:.1f}초" if meta else ", 시간 기록 없음 (--다시 로 재면 됨)"
+            print(f"{aid}{f'-{k}' if multi else ''} {rs[0].outlet}: {len(got)}문장{took}" + ("" if fresh else " (저장된 응답 사용)"))
+            if fresh and i < len(jobs) - 1:
+                time.sleep(gap)
+    dst = LABEL_DIR / f"라벨링표_AI_{name}.xlsx"
+    write_labels(src, dst, labels)
+    write_run_log(dst, metas)
+    timed = [m for _, m in metas if m]
+    if timed:
+        total = sum(m["seconds"] for m in timed)
+        print(f"응답 시간 합계 {total:.1f}초, 기사당 평균 {total / len(by_article):.1f}초"
+              + ("" if len(timed) == len(metas) else f" (시간 기록이 없는 조각 {len(metas) - len(timed)}개 제외)"))
+    print(f"저장: {dst}")
+    return dst
+
+
+def main(argv=None):
+    ap = argparse.ArgumentParser(description="LLM으로 라벨링 표 채우기")
+    ap.add_argument("표", nargs="?", default="라벨링표_1차.xlsx")
+    ap.add_argument("--모델", nargs="+", metavar="모델",
+                    help="gemini / claude / groq / 둘다, 또는 모델 이름 여러 개 (안 적으면 .env 의 LLM_PROVIDER)")
+    ap.add_argument("--다시", action="store_true", help="저장된 응답을 무시하고 다시 요청")
+    ap.add_argument("--간격", type=float, default=4.0, help="요청 사이 대기 초 (무료 한도용)")
+    ap.add_argument("--모델목록", action="store_true", help="--모델 로 고른 제공사에서 지금 쓸 수 있는 모델 이름만 보여 주고 끝냄")
+    ap.add_argument("--생각", choices=["low", "medium", "high"],
+                    help="생각하는 양 (Gemini·OpenAI·Groq). 낮을수록 빠르고 정확도는 떨어질 수 있음. 안 적으면 모델 기본값")
+    ap.add_argument("--묶음", type=int, default=0, help="한 번에 보낼 문장 수 (0=기사 통째로). Groq 무료는 10 정도 추천")
+    args = ap.parse_args(argv)
+
+    if args.모델목록:
+        try:
+            for c in (args.모델 or [None]):
+                prov, _ = parse_choice(c)
+                cfg = config(prov, "목록 확인용")  # 모델 이름 없이도 목록은 볼 수 있게
+                print(f"── {cfg['provider']} 에서 쓸 수 있는 모델 ──")
+                for m in list_models(cfg):
+                    print(" ", m)
+        except LLMError as e:
+            raise SystemExit(f"오류: {e}")
+        return
+
+    src = Path(args.표) if Path(args.표).exists() else LABEL_DIR / args.표
+    choices = BOTH if args.모델 == ["둘다"] else (args.모델 or [None])
+    try:
+        cfgs = [config(*parse_choice(c)) for c in choices]  # 키가 빠졌으면 요청 보내기 전에 바로 알려 줌
+        for c in cfgs:
+            if args.생각:
+                if c["provider"] == "anthropic":
+                    print("참고: Claude에는 --생각 을 적용하지 않습니다.")
+                else:
+                    c["effort"] = args.생각
+        outs = [run(c, src, args.다시, args.간격, args.묶음) for c in cfgs]
+    except LLMError as e:
+        raise SystemExit(f"오류: {e}")
+    names = " ".join(o.name for o in outs)
+    print(f"채점: python -m app.evaluate 채점 정답_1차.xlsx {names}")
+
+
+if __name__ == "__main__":
+    main()

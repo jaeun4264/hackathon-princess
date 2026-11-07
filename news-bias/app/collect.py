@@ -84,6 +84,26 @@ def to_iso(pub_date: str) -> str:
         return pub_date
 
 
+# 여러 소식을 묶은 기사(헤드라인·브리핑·이슈 종합) → 분석에서 뺌 (11/7 결정)
+# 주의: 연합뉴스·뉴시스의 '[종합]', '(종합2보)'는 한 사건을 고쳐 쓴 기사라 묶음이 아님
+ROUNDUP = re.compile(
+    r"\[[^\]]*(?:브리핑|헤드라인|주요\s?뉴스|이\s?시각|라인업|간추린|모아보기|한눈에|오늘뉴스|이슈\s?종합|\d면)[^\]]*\]"
+    r"|(?:모닝|이브닝|출근길|퇴근길)\s?브리핑|헤드라인|주요\s?뉴스|뉴스\s?센터$"
+    r"|주요\s?신문\s?사설|\s外$"  # 여러 신문 사설 모음, '○○ 外'로 끝나는 브리핑
+)
+# 사설·칼럼 → 묶음은 아니지만 글 전체가 의견이라 일반 기사와 따로 표시
+OPINION_PIECE = re.compile(r"\[[^\]]*(?:사설|칼럼|시론|기고|논단|데스크|기자수첩|취재수첩|오피니언|기자의 눈)[^\]]*\]")
+
+
+def article_kind(title: str) -> str:
+    """'묶음' / '사설·칼럼' / '기사'"""
+    if ROUNDUP.search(title):
+        return "묶음"
+    if OPINION_PIECE.search(title):
+        return "사설·칼럼"
+    return "기사"
+
+
 def to_article(item: dict) -> dict:
     url = item.get("originallink") or item.get("link") or ""
     return {
@@ -93,6 +113,7 @@ def to_article(item: dict) -> dict:
         "naverLink": item.get("link") or "",
         "outlet": outlet_of(url),
         "publishedAt": to_iso(item.get("pubDate")),
+        "kind": article_kind(clean(item.get("title"))),
     }
 
 
@@ -177,7 +198,9 @@ def main(argv=None):
     for a in articles:
         by_outlet[a["outlet"]] = by_outlet.get(a["outlet"], 0) + 1
 
-    print(f"'{args.query}' 기사 {len(articles)}건, 언론사 {len(by_outlet)}곳")
+    kinds = {k: sum(a["kind"] == k for a in articles) for k in ("묶음", "사설·칼럼")}
+    print(f"'{args.query}' 기사 {len(articles)}건, 언론사 {len(by_outlet)}곳"
+          f" (묶음 {kinds['묶음']}건은 분석 제외, 사설·칼럼 {kinds['사설·칼럼']}건)")
     print("언론사별:", ", ".join(f"{o} {n}" for o, n in sorted(by_outlet.items(), key=lambda x: -x[1])[:15]))
     print("앞 5건:")
     for a in articles[:5]:
