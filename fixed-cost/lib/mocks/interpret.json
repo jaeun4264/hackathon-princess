@@ -74,6 +74,36 @@
       "source": "ai",
       "needs_check": true,
       "suggested_service_id": "kakao_emoticon_plus"
+    },
+    {
+      "raw_name": "굿노트",
+      "service_id": "goodnotes",
+      "category": "생산성",
+      "confidence": 1,
+      "reason": "결제 이름이 카탈로그의 '굿노트'와 같아요.",
+      "source": "catalog",
+      "needs_check": false,
+      "suggested_service_id": "goodnotes"
+    },
+    {
+      "raw_name": "아이클라우드",
+      "service_id": "icloud",
+      "category": "클라우드",
+      "confidence": 1,
+      "reason": "결제 이름이 카탈로그의 '아이클라우드'와 같아요.",
+      "source": "catalog",
+      "needs_check": false,
+      "suggested_service_id": "icloud"
+    },
+    {
+      "raw_name": "카카오톡 이모티콘 플러스",
+      "service_id": "kakao_emoticon_plus",
+      "category": "메신저",
+      "confidence": 1,
+      "reason": "결제 이름이 카탈로그의 '카카오톡 이모티콘 플러스'와 같아요.",
+      "source": "catalog",
+      "needs_check": false,
+      "suggested_service_id": "kakao_emoticon_plus"
     }
   ]
 }
