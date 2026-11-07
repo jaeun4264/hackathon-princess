@@ -10,10 +10,13 @@ import gmailMock from "../mocks/gmail-messages.json";
 export const GMAIL_SCOPE = "https://www.googleapis.com/auth/gmail.readonly";
 const GIS_SRC = "https://accounts.google.com/gsi/client";
 const API = "https://gmail.googleapis.com/gmail/v1/users/me";
-export const MAX_MESSAGES = 100; // 6개월 영수증이면 충분해요. 너무 많이 받지 않게 상한을 둬요.
+// Gmail 사용량: 사용자당 분당 6,000 단위. messages.get(format=full)은 60단위, messages.list는 5단위.
+// 80통 × 60 = 4,800 + 검색 몇 번 → 한 번 불러오기가 분당 한도 안에 들어와요.
+export const MAX_MESSAGES = 80;
+const RETRY_DELAYS_MS = [1000, 2000, 4000];
 const MAX_TEXT = 20_000;
 
-export type GmailErrorCode = "not_configured" | "denied" | "network";
+export type GmailErrorCode = "not_configured" | "denied" | "network" | "rate_limited";
 export class GmailImportError extends Error {
   constructor(readonly code: GmailErrorCode) {
     super(code);
@@ -157,16 +160,43 @@ function requestToken(oauth2: GoogleOAuth2, clientId: string): Promise<string> {
   });
 }
 
-async function gmailGet<T>(path: string, token: string): Promise<T> {
-  let response: Response;
+/** 사용량 한도에 걸린 응답인지. Gmail은 429, 또는 이유가 rateLimitExceeded류인 403을 보내요. */
+async function isRateLimited(response: Response): Promise<boolean> {
+  if (response.status === 429) return true;
+  if (response.status !== 403) return false;
   try {
-    response = await fetch(`${API}${path}`, { headers: { Authorization: `Bearer ${token}` } });
+    const body = (await response.clone().json()) as { error?: { errors?: { reason?: string }[]; status?: string } };
+    const reasons = (body.error?.errors ?? []).map((entry) => entry.reason ?? "");
+    return reasons.some((reason) => /rateLimit|quotaExceeded/i.test(reason)) || body.error?.status === "RESOURCE_EXHAUSTED";
   } catch {
+    return false;
+  }
+}
+
+/** Gmail API GET. 한도에 걸리면 1초 → 2초 → 4초 기다렸다가 다시 시도해요. 권한 문제는 denied, 나머지는 network. */
+export async function gmailGet<T>(
+  url: string,
+  token: string,
+  options: { fetchImpl?: typeof fetch; sleep?: (ms: number) => Promise<void> } = {},
+): Promise<T> {
+  const fetchImpl = options.fetchImpl ?? globalThis.fetch;
+  const sleep = options.sleep ?? ((ms: number) => new Promise<void>((resolve) => setTimeout(resolve, ms)));
+  for (let attempt = 0; ; attempt += 1) {
+    let response: Response;
+    try {
+      response = await fetchImpl(url, { headers: { Authorization: `Bearer ${token}` } });
+    } catch {
+      throw new GmailImportError("network");
+    }
+    if (response.ok) return (await response.json()) as T;
+    if (await isRateLimited(response)) {
+      if (attempt >= RETRY_DELAYS_MS.length) throw new GmailImportError("rate_limited");
+      await sleep(RETRY_DELAYS_MS[attempt]);
+      continue;
+    }
+    if (response.status === 401 || response.status === 403) throw new GmailImportError("denied");
     throw new GmailImportError("network");
   }
-  if (response.status === 401 || response.status === 403) throw new GmailImportError("denied");
-  if (!response.ok) throw new GmailImportError("network");
-  return (await response.json()) as T;
 }
 
 async function fetchMessages(token: string, query: string, onProgress: (progress: GmailProgress) => void): Promise<GmailMessageLite[]> {
@@ -175,7 +205,7 @@ async function fetchMessages(token: string, query: string, onProgress: (progress
   do {
     const params = new URLSearchParams({ q: query, maxResults: "50" });
     if (pageToken) params.set("pageToken", pageToken);
-    const page = await gmailGet<{ messages?: { id: string }[]; nextPageToken?: string }>(`/messages?${params}`, token);
+    const page = await gmailGet<{ messages?: { id: string }[]; nextPageToken?: string }>(`${API}/messages?${params}`, token);
     ids.push(...(page.messages ?? []).map((entry) => entry.id));
     pageToken = page.nextPageToken;
     onProgress({ stage: "searching", found: ids.length });
@@ -187,7 +217,7 @@ async function fetchMessages(token: string, query: string, onProgress: (progress
   // 한 번에 5통씩 받아요 (Gmail 사용량 한도 보호).
   for (let start = 0; start < targets.length; start += 5) {
     const batch = await Promise.all(targets.slice(start, start + 5).map((id) =>
-      gmailGet<GmailApiMessage>(`/messages/${encodeURIComponent(id)}?format=full`, token)));
+      gmailGet<GmailApiMessage>(`${API}/messages/${encodeURIComponent(id)}?format=full`, token)));
     for (const message of batch) {
       const lite = toGmailMessageLite(message);
       if (lite) output.push(lite);

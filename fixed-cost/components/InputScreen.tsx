@@ -119,6 +119,8 @@ export function InputScreen() {
       setFailure(
         code === "denied"
           ? { title: "Gmail 권한을 허용해야 불러올 수 있어요", detail: "다시 시도하거나, 샘플로 체험하거나, 구독을 직접 추가할 수 있어요." }
+          : code === "rate_limited"
+            ? { title: "Gmail 사용량 한도에 잠깐 걸렸어요", detail: "1분쯤 뒤에 다시 시도해 주세요. 샘플이나 직접 추가로도 진행할 수 있어요." }
           : code === "not_configured"
             ? { title: "Gmail 연결이 아직 준비되지 않았어요", detail: "샘플로 체험하거나 구독을 직접 추가해 주세요." }
             : { title: "Gmail에 연결하지 못했어요", detail: "인터넷 연결을 확인하고 다시 시도해 주세요. 샘플이나 직접 추가로도 진행할 수 있어요." },

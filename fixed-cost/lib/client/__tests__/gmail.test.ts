@@ -1,5 +1,39 @@
-import { describe, expect, it } from "vitest";
-import { decodeBase64Url, parseFrom, stripHtml, toGmailMessageLite } from "../gmail";
+import { describe, expect, it, vi } from "vitest";
+import { decodeBase64Url, gmailGet, MAX_MESSAGES, parseFrom, stripHtml, toGmailMessageLite } from "../gmail";
+
+const reply = (status: number, body: unknown = {}) => new Response(JSON.stringify(body), { status, headers: { "content-type": "application/json" } });
+const noSleep = async () => {};
+
+describe("Gmail 사용량 한도", () => {
+  it("한 번 불러오기가 사용자당 분당 6,000단위 안에 들어와요 (본문 60단위 × 최대 통수)", () => {
+    expect(MAX_MESSAGES * 60 + 5 * 2).toBeLessThanOrEqual(6000);
+  });
+
+  it("429면 기다렸다가 다시 시도해서 성공해요", async () => {
+    const fetchImpl = vi.fn<typeof fetch>().mockResolvedValueOnce(reply(429)).mockResolvedValueOnce(reply(200, { ok: 1 }));
+    const sleep = vi.fn(noSleep);
+    await expect(gmailGet("https://x.example/m", "t", { fetchImpl, sleep })).resolves.toEqual({ ok: 1 });
+    expect(sleep).toHaveBeenCalledWith(1000);
+  });
+
+  it("이유가 rateLimitExceeded인 403도 한도로 보고 다시 시도해요", async () => {
+    const limited = { error: { errors: [{ reason: "userRateLimitExceeded" }] } };
+    const fetchImpl = vi.fn<typeof fetch>().mockResolvedValueOnce(reply(403, limited)).mockResolvedValueOnce(reply(200, {}));
+    await expect(gmailGet("https://x.example/m", "t", { fetchImpl, sleep: noSleep })).resolves.toEqual({});
+  });
+
+  it("세 번 기다려도 계속 한도면 rate_limited", async () => {
+    const fetchImpl = vi.fn<typeof fetch>(async () => reply(429));
+    await expect(gmailGet("https://x.example/m", "t", { fetchImpl, sleep: noSleep })).rejects.toMatchObject({ code: "rate_limited" });
+    expect(fetchImpl).toHaveBeenCalledTimes(4);
+  });
+
+  it("권한 문제인 403·401은 다시 시도하지 않고 denied", async () => {
+    const fetchImpl = vi.fn<typeof fetch>(async () => reply(403, { error: { errors: [{ reason: "insufficientPermissions" }] } }));
+    await expect(gmailGet("https://x.example/m", "t", { fetchImpl, sleep: noSleep })).rejects.toMatchObject({ code: "denied" });
+    expect(fetchImpl).toHaveBeenCalledTimes(1);
+  });
+});
 
 const b64url = (text: string) => Buffer.from(text, "utf-8").toString("base64").replace(/\+/g, "-").replace(/\//g, "_").replace(/=+$/, "");
 
