@@ -2,10 +2,11 @@
 // - Google Identity Services 토큰 방식, 범위 gmail.readonly. 클라이언트 보안 비밀번호는 쓰지 않아요.
 // - 액세스 토큰과 메일 원문은 이 모듈의 지역 변수에만 잠깐 두고, localStorage·쿠키·서버·로그에 남기지 않아요.
 // - 검색어는 buildGmailQuery만 써요. 메일 → GmailMessageLite → parseGmailMessages까지 브라우저에서 끝나요.
-import { buildGmailQuery, parseGmailMessages } from "../adapters/gmail";
+import { buildGmailQuery, parseGmailMessages, type FxRates } from "../adapters/gmail";
 import { loadCatalog } from "../catalog";
 import type { Catalog, GmailMessageLite, GmailParseResult } from "../types";
 import gmailMock from "../mocks/gmail-messages.json";
+import { fetchFxRates } from "./fx";
 
 export const GMAIL_SCOPE = "https://www.googleapis.com/auth/gmail.readonly";
 const GIS_SRC = "https://accounts.google.com/gsi/client";
@@ -234,10 +235,24 @@ export interface GmailImportOptions {
   clientId?: string;
   catalog?: Catalog;
   onProgress?: (progress: GmailProgress) => void;
+  /** 테스트용. 없으면 fetchFxRates()로 받아요. null이면 외화 영수증을 건너뛰어요. */
+  fx?: FxRates | null;
+}
+
+export type GmailImportResult = GmailParseResult & {
+  mailCount: number;
+  /** 환율로 환산한 외화 영수증 수와 환율 기준일 */
+  converted: number;
+  fxDate: string | null;
+};
+
+function withFx(result: GmailParseResult, mailCount: number, fx: FxRates | null): GmailImportResult {
+  const converted = result.transactions.filter((tx) => tx.original_currency !== undefined).length;
+  return { ...result, mailCount, converted, fxDate: converted > 0 && fx ? fx.date : null };
 }
 
 /** Gmail에서 영수증을 읽어 결제 항목으로 바꿔요. 메일 원문은 이 함수가 끝나면 사라져요. */
-export async function importFromGmail(options: GmailImportOptions = {}): Promise<GmailParseResult & { mailCount: number }> {
+export async function importFromGmail(options: GmailImportOptions = {}): Promise<GmailImportResult> {
   const catalog = options.catalog ?? loadCatalog();
   const onProgress = options.onProgress ?? (() => {});
   const mock = options.mock ?? process.env.NEXT_PUBLIC_USE_MOCK === "1";
@@ -245,8 +260,9 @@ export async function importFromGmail(options: GmailImportOptions = {}): Promise
   if (mock) {
     // 모의 모드: Google에 접속하지 않아요.
     onProgress({ stage: "searching", found: gmailMock.messages.length });
-    const result = parseGmailMessages(gmailMock.messages, catalog);
-    return { ...result, mailCount: gmailMock.messages.length };
+    const fx = options.fx !== undefined ? options.fx : await fetchFxRates({ mock: true });
+    const result = parseGmailMessages(gmailMock.messages, catalog, fx ? { fx } : {});
+    return withFx(result, gmailMock.messages.length, fx);
   }
 
   const clientId = options.clientId ?? process.env.NEXT_PUBLIC_GOOGLE_CLIENT_ID;
@@ -258,9 +274,11 @@ export async function importFromGmail(options: GmailImportOptions = {}): Promise
   try {
     let messages: GmailMessageLite[] | null = await fetchMessages(token, buildGmailQuery(catalog), onProgress);
     const mailCount = messages.length;
-    const result = parseGmailMessages(messages, catalog);
+    // 환율 요청에는 고정된 통화 목록만 보내요. 실패해도 계속 진행(외화만 건너뜀).
+    const fx = options.fx !== undefined ? options.fx : await fetchFxRates({ mock: false });
+    const result = parseGmailMessages(messages, catalog, fx ? { fx } : {});
     messages = null; // 원문은 변환 직후 버려요.
-    return { ...result, mailCount };
+    return withFx(result, mailCount, fx);
   } finally {
     // 다 읽으면 권한을 바로 돌려줘요. 토큰은 저장하지 않아요.
     const used = token;

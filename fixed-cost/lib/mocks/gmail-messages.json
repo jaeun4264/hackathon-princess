@@ -1,19 +1,21 @@
 {
   "_mock": true,
-  "_note": "프론트 모의 모드용 가짜 메일. 실제 메일을 복사하지 않았어요. 월 구독 3개(각 3통), 단발 결제 1통, 외화 영수증 1통, 광고 1통, 중복 1통.",
+  "_note": "프론트 모의 모드용 가짜 메일. 실제 메일을 복사하지 않았어요. 원화 월 구독 3개(각 3통), 외화(USD) 월 구독 1개(3통), 단발 결제 1통, 광고 1통, 중복 1통.",
   "messages": [
-    { "id": "mock-gmail-01", "received_at": "2026-07-15T00:10:00Z", "from_name": "넷플릭스", "from_domain": "mock-ott.example.invalid", "subject": "[MOCK] 넷플릭스 결제 영수증", "text": "가상 영수증이에요. 스탠다드 멤버십 결제 금액 ₩13,500" },
-    { "id": "mock-gmail-02", "received_at": "2026-08-15T00:10:00Z", "from_name": "넷플릭스", "from_domain": "mock-ott.example.invalid", "subject": "[MOCK] 넷플릭스 결제 영수증", "text": "가상 영수증이에요. 스탠다드 멤버십 결제 금액 ₩13,500" },
-    { "id": "mock-gmail-03", "received_at": "2026-09-15T00:10:00Z", "from_name": "넷플릭스", "from_domain": "mock-ott.example.invalid", "subject": "[MOCK] 넷플릭스 결제 영수증", "text": "가상 영수증이에요. 스탠다드 멤버십 결제 금액 ₩13,500" },
-    { "id": "mock-gmail-04", "received_at": "2026-07-03T03:00:00Z", "from_name": "카카오페이", "from_domain": "mock-pay.example.invalid", "subject": "[MOCK] 카카오페이 정기결제 완료", "text": "가상 알림이에요. 정기결제 6,900원이 결제되었어요." },
-    { "id": "mock-gmail-05", "received_at": "2026-08-03T03:00:00Z", "from_name": "카카오페이", "from_domain": "mock-pay.example.invalid", "subject": "[MOCK] 카카오페이 정기결제 완료", "text": "가상 알림이에요. 정기결제 6,900원이 결제되었어요." },
-    { "id": "mock-gmail-06", "received_at": "2026-09-03T03:00:00Z", "from_name": "카카오페이", "from_domain": "mock-pay.example.invalid", "subject": "[MOCK] 카카오페이 정기결제 완료", "text": "가상 알림이에요. 정기결제 6,900원이 결제되었어요." },
-    { "id": "mock-gmail-07", "received_at": "2026-07-20T01:00:00Z", "from_name": "Apple", "from_domain": "mock-store.example.invalid", "subject": "[MOCK] Apple 영수증", "text": "가상 영수증이에요. 합계 ₩1,100" },
-    { "id": "mock-gmail-08", "received_at": "2026-08-20T01:00:00Z", "from_name": "Apple", "from_domain": "mock-store.example.invalid", "subject": "[MOCK] Apple 영수증", "text": "가상 영수증이에요. 합계 ₩1,100" },
-    { "id": "mock-gmail-09", "received_at": "2026-09-20T01:00:00Z", "from_name": "Apple", "from_domain": "mock-store.example.invalid", "subject": "[MOCK] Apple 영수증", "text": "가상 영수증이에요. 합계 ₩1,100" },
-    { "id": "mock-gmail-10", "received_at": "2026-08-09T05:00:00Z", "from_name": "가상쇼핑몰", "from_domain": "mock-shop.example.invalid", "subject": "[MOCK] 주문 결제 완료", "text": "가상 주문이에요. 결제 금액 23,000원" },
-    { "id": "mock-gmail-11", "received_at": "2026-09-01T09:00:00Z", "from_name": "가상 AI 서비스", "from_domain": "mock-ai.example.invalid", "subject": "[MOCK] Your receipt", "text": "Mock receipt. Total USD $20.00" },
-    { "id": "mock-gmail-12", "received_at": "2026-09-05T09:00:00Z", "from_name": "가상 패션몰", "from_domain": "mock-ads.example.invalid", "subject": "[MOCK] 가을 신상 특가 소식", "text": "이번 주만 최대 50% 할인해요." },
-    { "id": "mock-gmail-01", "received_at": "2026-07-15T00:10:00Z", "from_name": "넷플릭스", "from_domain": "mock-ott.example.invalid", "subject": "[MOCK] 넷플릭스 결제 영수증", "text": "가상 영수증이에요. 스탠다드 멤버십 결제 금액 ₩13,500" }
+    {"id": "mock-gmail-01", "received_at": "2026-07-15T00:10:00Z", "from_name": "넷플릭스", "from_domain": "mock-ott.example.invalid", "subject": "[MOCK] 넷플릭스 결제 영수증", "text": "가상 영수증이에요. 스탠다드 멤버십 결제 금액 ₩13,500"},
+    {"id": "mock-gmail-02", "received_at": "2026-08-15T00:10:00Z", "from_name": "넷플릭스", "from_domain": "mock-ott.example.invalid", "subject": "[MOCK] 넷플릭스 결제 영수증", "text": "가상 영수증이에요. 스탠다드 멤버십 결제 금액 ₩13,500"},
+    {"id": "mock-gmail-03", "received_at": "2026-09-15T00:10:00Z", "from_name": "넷플릭스", "from_domain": "mock-ott.example.invalid", "subject": "[MOCK] 넷플릭스 결제 영수증", "text": "가상 영수증이에요. 스탠다드 멤버십 결제 금액 ₩13,500"},
+    {"id": "mock-gmail-04", "received_at": "2026-07-03T03:00:00Z", "from_name": "카카오페이", "from_domain": "mock-pay.example.invalid", "subject": "[MOCK] 카카오페이 정기결제 완료", "text": "가상 알림이에요. 정기결제 6,900원이 결제되었어요."},
+    {"id": "mock-gmail-05", "received_at": "2026-08-03T03:00:00Z", "from_name": "카카오페이", "from_domain": "mock-pay.example.invalid", "subject": "[MOCK] 카카오페이 정기결제 완료", "text": "가상 알림이에요. 정기결제 6,900원이 결제되었어요."},
+    {"id": "mock-gmail-06", "received_at": "2026-09-03T03:00:00Z", "from_name": "카카오페이", "from_domain": "mock-pay.example.invalid", "subject": "[MOCK] 카카오페이 정기결제 완료", "text": "가상 알림이에요. 정기결제 6,900원이 결제되었어요."},
+    {"id": "mock-gmail-07", "received_at": "2026-07-20T01:00:00Z", "from_name": "Apple", "from_domain": "mock-store.example.invalid", "subject": "[MOCK] Apple 영수증", "text": "가상 영수증이에요. 합계 ₩1,100"},
+    {"id": "mock-gmail-08", "received_at": "2026-08-20T01:00:00Z", "from_name": "Apple", "from_domain": "mock-store.example.invalid", "subject": "[MOCK] Apple 영수증", "text": "가상 영수증이에요. 합계 ₩1,100"},
+    {"id": "mock-gmail-09", "received_at": "2026-09-20T01:00:00Z", "from_name": "Apple", "from_domain": "mock-store.example.invalid", "subject": "[MOCK] Apple 영수증", "text": "가상 영수증이에요. 합계 ₩1,100"},
+    {"id": "mock-gmail-10", "received_at": "2026-08-09T05:00:00Z", "from_name": "가상쇼핑몰", "from_domain": "mock-shop.example.invalid", "subject": "[MOCK] 주문 결제 완료", "text": "가상 주문이에요. 결제 금액 23,000원"},
+    {"id": "mock-gmail-13", "received_at": "2026-07-01T09:00:00Z", "from_name": "가상 AI 서비스", "from_domain": "mock-ai.example.invalid", "subject": "[MOCK] Your receipt", "text": "Mock receipt. Total USD $20.00"},
+    {"id": "mock-gmail-14", "received_at": "2026-08-01T09:00:00Z", "from_name": "가상 AI 서비스", "from_domain": "mock-ai.example.invalid", "subject": "[MOCK] Your receipt", "text": "Mock receipt. Total USD $20.00"},
+    {"id": "mock-gmail-11", "received_at": "2026-09-01T09:00:00Z", "from_name": "가상 AI 서비스", "from_domain": "mock-ai.example.invalid", "subject": "[MOCK] Your receipt", "text": "Mock receipt. Total USD $20.00"},
+    {"id": "mock-gmail-12", "received_at": "2026-09-05T09:00:00Z", "from_name": "가상 패션몰", "from_domain": "mock-ads.example.invalid", "subject": "[MOCK] 가을 신상 특가 소식", "text": "이번 주만 최대 50% 할인해요."},
+    {"id": "mock-gmail-01", "received_at": "2026-07-15T00:10:00Z", "from_name": "넷플릭스", "from_domain": "mock-ott.example.invalid", "subject": "[MOCK] 넷플릭스 결제 영수증", "text": "가상 영수증이에요. 스탠다드 멤버십 결제 금액 ₩13,500"}
   ]
 }

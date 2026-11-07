@@ -2,7 +2,7 @@ import { describe, expect, it, vi } from "vitest";
 import { listSamples, sampleAdapter } from "../../adapters/sample";
 import { loadCatalog } from "../../catalog";
 import { importFromGmail, summarizeSkipped } from "../gmail";
-import { analyzeTransactions, createManualSubscription, runInterpret } from "../pipeline";
+import { analyzeTransactions, createManualSubscription, foreignOrigin, runInterpret } from "../pipeline";
 import { createAppStore, createSafeStorage } from "../store";
 
 const mock = { mock: true, mockDelayMs: 0 };
@@ -53,16 +53,28 @@ describe("샘플 체험 → 구독", () => {
 });
 
 describe("Gmail 모의 모드", () => {
-  it("가짜 메일 → 구독. 외화·광고·중복은 건너뛰어요", async () => {
+  it("가짜 메일 → 구독. 광고·중복은 건너뛰고, 외화는 환율로 바꿔 '확인 필요'로 넣어요", async () => {
     const result = await importFromGmail({ mock: true });
-    expect(summarizeSkipped(result.skipped)).toMatchObject({ foreign: 1, notReceipt: 1, duplicate: 1 });
+    expect(summarizeSkipped(result.skipped)).toMatchObject({ foreign: 0, notReceipt: 1, duplicate: 1 });
+    expect(result.converted).toBe(3);
+    expect(result.fxDate).toBe("2000-01-01");
     const { subscriptions } = await analyzeTransactions(result.transactions, { apiOptions: mock });
-    expect(subscriptions.map((sub) => sub.raw_name).sort()).toEqual(["Apple", "넷플릭스", "카카오페이"]);
+    expect(subscriptions.map((sub) => sub.raw_name).sort()).toEqual(["Apple", "가상 AI 서비스", "넷플릭스", "카카오페이"]);
+    const ai = subscriptions.find((sub) => sub.raw_name === "가상 AI 서비스")!;
+    expect(ai).toMatchObject({ amount: 27000, interval: "monthly", needs_check: true }); // $20 × 모의 환율 1,350
+    expect(foreignOrigin(ai, result.transactions)).toEqual({ currency: "USD", amount: 20, fxDate: "2000-01-01" });
     // 단발 결제(가상쇼핑몰 23,000원)는 구독이 아니에요.
     expect(subscriptions.some((sub) => sub.amount === 23000)).toBe(false);
   });
 
-  it("모의 모드는 Google에 접속하지 않아요", async () => {
+  it("환율을 못 받으면 외화 영수증은 예전처럼 건너뛰어요", async () => {
+    const result = await importFromGmail({ mock: true, fx: null });
+    expect(summarizeSkipped(result.skipped).foreign).toBe(3);
+    expect(result.converted).toBe(0);
+    expect(result.transactions.some((tx) => tx.original_currency)).toBe(false);
+  });
+
+  it("모의 모드는 Google·환율 서버에 접속하지 않아요", async () => {
     const fetchSpy = vi.spyOn(globalThis, "fetch");
     await importFromGmail({ mock: true });
     expect(fetchSpy).not.toHaveBeenCalled();

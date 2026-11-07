@@ -42,7 +42,10 @@ export async function analyzeTransactions(
     Object.assign(suggestedServiceIds, response.suggestedServiceIds);
   }
 
-  const subscriptions = buildSubscriptions(candidates, results, catalog);
+  // 외화를 환율로 환산한 결제가 근거인 구독은 카드 청구액과 다를 수 있어 '확인 필요'로 둬요.
+  const converted = new Set(transactions.filter((tx) => tx.original_currency !== undefined).map((tx) => tx.id));
+  const subscriptions = buildSubscriptions(candidates, results, catalog).map((sub) =>
+    sub.evidence_transaction_ids.some((id) => converted.has(id)) ? { ...sub, needs_check: true } : sub);
   // 후보 서비스가 카탈로그에 없으면 보여 주지 않아요. 이미 확정된 구독에는 후보를 따로 두지 않아요.
   const known = new Set(catalog.services.map((service) => service.id));
   const suggestions: Record<string, string | null> = {};
@@ -71,6 +74,15 @@ export async function runInterpret(
     (options.store ?? useAppStore).getState().setPhase("empty");
     throw error;
   }
+}
+
+/** 구독이 외화 환산 결제에서 나왔다면 마지막 결제의 원래 금액·통화·환율 기준일. 화면 표시용. */
+export function foreignOrigin(sub: Subscription, transactions: Transaction[]): { currency: string; amount: number; fxDate: string } | null {
+  const evidence = transactions
+    .filter((tx) => sub.evidence_transaction_ids.includes(tx.id) && tx.original_currency && tx.original_amount && tx.fx_date)
+    .sort((left, right) => left.date.localeCompare(right.date));
+  const last = evidence[evidence.length - 1];
+  return last ? { currency: last.original_currency!, amount: last.original_amount!, fxDate: last.fx_date! } : null;
 }
 
 // ---------- 직접 추가 ----------
