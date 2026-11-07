@@ -1,0 +1,79 @@
+{
+  "_mock": true,
+  "_note": "프론트 개발용 가짜 T1 응답. raw_name(+amount)으로 찾고, 없으면 unknown으로 돌려줘요. AI 추정은 service_id가 null이고 suggested_service_id에만 있어요(B5 resolutions).",
+  "entries": [
+    {
+      "raw_name": "넷플릭스",
+      "service_id": "netflix",
+      "category": "영상",
+      "confidence": 1,
+      "reason": "결제 이름이 카탈로그의 '넷플릭스'와 같아요.",
+      "source": "catalog",
+      "needs_check": false,
+      "suggested_service_id": "netflix"
+    },
+    {
+      "raw_name": "티빙",
+      "service_id": "tving",
+      "category": "영상",
+      "confidence": 1,
+      "reason": "결제 이름이 카탈로그의 '티빙'과 같아요.",
+      "source": "catalog",
+      "needs_check": false,
+      "suggested_service_id": "tving"
+    },
+    {
+      "raw_name": "다글로",
+      "service_id": "daglo",
+      "category": "생산성",
+      "confidence": 1,
+      "reason": "결제 이름이 카탈로그의 '다글로'와 같아요.",
+      "source": "catalog",
+      "needs_check": false,
+      "suggested_service_id": "daglo"
+    },
+    {
+      "raw_name": "네이버플러스 멤버십",
+      "service_id": "naver_plus",
+      "category": "멤버십",
+      "confidence": 1,
+      "reason": "결제 이름이 카탈로그의 '네이버플러스 멤버십'과 같아요.",
+      "source": "catalog",
+      "needs_check": false,
+      "suggested_service_id": "naver_plus"
+    },
+    {
+      "raw_name": "Apple",
+      "amount": 1100,
+      "service_id": null,
+      "category": "기타",
+      "confidence": 0.8,
+      "reason": "Apple 결제이고 월 1,100원이라 아이클라우드로 보여요. 확인해 주세요.",
+      "source": "ai",
+      "needs_check": true,
+      "suggested_service_id": "icloud"
+    },
+    {
+      "raw_name": "Apple",
+      "amount": 50500,
+      "service_id": null,
+      "category": "기타",
+      "confidence": 0.75,
+      "reason": "Apple 결제이고 연 50,500원이라 굿노트 연간으로 보여요. 확인해 주세요.",
+      "source": "ai",
+      "needs_check": true,
+      "suggested_service_id": "goodnotes"
+    },
+    {
+      "raw_name": "카카오페이",
+      "amount": 6900,
+      "service_id": null,
+      "category": "기타",
+      "confidence": 0.8,
+      "reason": "카카오페이로 매달 6,900원이 나가서 카카오톡 이모티콘 플러스로 보여요. 확인해 주세요.",
+      "source": "ai",
+      "needs_check": true,
+      "suggested_service_id": "kakao_emoticon_plus"
+    }
+  ]
+}

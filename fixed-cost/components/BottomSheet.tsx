@@ -1,0 +1,88 @@
+"use client";
+import { useEffect, useId, useRef, type ReactNode } from "react";
+
+const FOCUSABLE = 'a[href], button:not([disabled]), input:not([disabled]), select:not([disabled]), textarea:not([disabled]), [tabindex]:not([tabindex="-1"])';
+
+/** 아래에서 올라오는 시트. ESC로 닫기, 열릴 때 포커스 이동·가두기, 배경 스크롤 잠금, 닫으면 원래 자리로 포커스 복귀. */
+export function BottomSheet({
+  open,
+  onClose,
+  title,
+  children,
+}: {
+  open: boolean;
+  onClose: () => void;
+  title: string;
+  children: ReactNode;
+}) {
+  const panelRef = useRef<HTMLDivElement>(null);
+  const titleId = useId();
+  const onCloseRef = useRef(onClose);
+  useEffect(() => {
+    onCloseRef.current = onClose;
+  }, [onClose]);
+
+  useEffect(() => {
+    if (!open) return;
+    const previouslyFocused = document.activeElement as HTMLElement | null;
+    const previousOverflow = document.body.style.overflow;
+    document.body.style.overflow = "hidden";
+    const panel = panelRef.current;
+    (panel?.querySelector<HTMLElement>(FOCUSABLE) ?? panel)?.focus();
+
+    function onKeyDown(event: KeyboardEvent) {
+      if (event.key === "Escape") {
+        event.preventDefault();
+        onCloseRef.current();
+        return;
+      }
+      if (event.key !== "Tab" || !panel) return;
+      const items = Array.from(panel.querySelectorAll<HTMLElement>(FOCUSABLE));
+      if (items.length === 0) {
+        event.preventDefault();
+        return;
+      }
+      const first = items[0];
+      const last = items[items.length - 1];
+      if (event.shiftKey && document.activeElement === first) {
+        event.preventDefault();
+        last.focus();
+      } else if (!event.shiftKey && document.activeElement === last) {
+        event.preventDefault();
+        first.focus();
+      }
+    }
+    document.addEventListener("keydown", onKeyDown);
+    return () => {
+      document.removeEventListener("keydown", onKeyDown);
+      document.body.style.overflow = previousOverflow;
+      previouslyFocused?.focus?.();
+    };
+  }, [open]);
+
+  if (!open) return null;
+  return (
+    <div className="fixed inset-0 z-50 flex items-end justify-center">
+      <button type="button" aria-label="닫기" tabIndex={-1} className="absolute inset-0 bg-black/40" onClick={onClose} />
+      <div
+        ref={panelRef}
+        role="dialog"
+        aria-modal="true"
+        aria-labelledby={titleId}
+        tabIndex={-1}
+        className="relative max-h-[85dvh] w-full max-w-[480px] overflow-y-auto rounded-t-2xl bg-surface px-4 pb-6 pt-3 shadow-xl outline-none"
+      >
+        <div className="mx-auto mb-3 h-1.5 w-10 rounded-full bg-line" aria-hidden="true" />
+        <div className="mb-4 flex items-center justify-between">
+          <h2 id={titleId} className="text-lg font-bold">
+            {title}
+          </h2>
+          <button type="button" onClick={onClose} className="min-h-11 min-w-11 rounded-lg text-muted" aria-label="시트 닫기">
+            ✕
+          </button>
+        </div>
+        {children}
+      </div>
+    </div>
+  );
+}
