@@ -4,6 +4,7 @@ import * as api from "../api-client";
 import { loadCatalog } from "../catalog";
 import { buildSubscriptions, detectSubscriptionCandidates, monthlyEquivalent } from "../rules";
 import type { Catalog, Interval, Subscription, Transaction } from "../types";
+import { benefitTargets } from "./derive";
 import { useAppStore } from "./store";
 
 export type PipelineStage = "detecting" | "interpreting";
@@ -83,6 +84,56 @@ export function foreignOrigin(sub: Subscription, transactions: Transaction[]): {
     .sort((left, right) => left.date.localeCompare(right.date));
   const last = evidence[evidence.length - 1];
   return last ? { currency: last.original_currency!, amount: last.original_amount!, fxDate: last.fx_date! } : null;
+}
+
+// ---------- 파이프라인 4~5단계 (S1 "다음" 뒤 백그라운드) ----------
+/**
+ * 혜택 판정(T2) → 규칙으로 제안 만들기 → 제안 문장(T3) 바꿔 끼우기.
+ * 숫자는 규칙이 만든 값만 쓰고, AI 문장이 실패하면 규칙의 기본 문장을 그대로 둬요.
+ */
+export async function runAnalysis(
+  options: { store?: typeof useAppStore; apiOptions?: api.ApiOptions; catalog?: Catalog; today: string },
+): Promise<{ degraded: boolean }> {
+  const store = options.store ?? useAppStore;
+  const catalog = options.catalog ?? loadCatalog();
+  store.getState().setAnalysis("running", false);
+  let degraded = false;
+  try {
+    const { subscriptions, profile } = store.getState();
+    const targets = benefitTargets(subscriptions, profile, catalog);
+    if (profile && targets.length > 0) {
+      const response = await api.benefits(profile, targets, { ...options.apiOptions, catalog, today: options.today });
+      degraded ||= response.degraded;
+      store.getState().setBenefitResults(response.results);
+    }
+    store.getState().rebuildSuggestions(options.today);
+
+    // 제안 문장: 아직 AI 문장이 아닌 것만, 차례대로 (무료 모델 호출 수를 아끼려고 동시에 보내지 않아요)
+    for (const suggestion of store.getState().suggestions) {
+      if (suggestion.message_source === "ai") continue;
+      const sub = store.getState().subscriptions.find((entry) => entry.id === suggestion.subscription_ids[0]);
+      if (!sub) continue;
+      const service = catalog.services.find((entry) => entry.id === sub.service_id);
+      const benefit = catalog.benefits.find((entry) => suggestion.id.includes(JSON.stringify(entry.id)));
+      const response = await api.message({
+        type: suggestion.type,
+        usage: sub.usage,
+        service_name: service?.name ?? sub.display_name,
+        params: {
+          ...(suggestion.type === "keep" ? {} : { saving_monthly: suggestion.saving_monthly, saving_yearly: suggestion.saving_yearly }),
+          ...(benefit ? { alt_name: benefit.benefit_text } : {}),
+        },
+      }, options.apiOptions);
+      degraded ||= response.degraded;
+      if (response.message) store.getState().setSuggestionMessage(suggestion.id, response.message, response.source);
+    }
+  } catch {
+    // 어떤 단계가 실패해도 규칙 결과로 계속 보여 줘요.
+    degraded = true;
+  } finally {
+    store.getState().setAnalysis("done", degraded);
+  }
+  return { degraded };
 }
 
 // ---------- 직접 추가 ----------

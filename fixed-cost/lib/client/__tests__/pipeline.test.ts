@@ -2,7 +2,7 @@ import { describe, expect, it, vi } from "vitest";
 import { listSamples, sampleAdapter } from "../../adapters/sample";
 import { loadCatalog } from "../../catalog";
 import { importFromGmail, summarizeSkipped } from "../gmail";
-import { analyzeTransactions, createManualSubscription, foreignOrigin, runInterpret } from "../pipeline";
+import { analyzeTransactions, createManualSubscription, foreignOrigin, runAnalysis, runInterpret } from "../pipeline";
 import { createAppStore, createSafeStorage } from "../store";
 
 const mock = { mock: true, mockDelayMs: 0 };
@@ -100,5 +100,38 @@ describe("직접 추가", () => {
   it("금액이 0이거나 이름이 없으면 거부해요", () => {
     expect(() => createManualSubscription({ name: "x", amount: 0, interval: "monthly", serviceId: null }, catalog)).toThrow();
     expect(() => createManualSubscription({ name: " ", amount: 100, interval: "monthly", serviceId: null }, catalog)).toThrow();
+  });
+});
+
+describe("파이프라인 4~5단계 (runAnalysis)", () => {
+  async function confirmedStore() {
+    const store = newStore();
+    await runInterpret(await sampleAdapter.load("persona-3"), { store, apiOptions: mock }); // 넷플릭스·네이버플러스(카탈로그 확정)
+    for (const sub of store.getState().subscriptions) store.getState().setUsage(sub.id, sub.service_id === "netflix" ? "rarely" : "often");
+    store.getState().setProfile({ school: "고려대학교", status: "재학", school_email: true });
+    store.getState().confirmAll();
+    return store;
+  }
+
+  it("제안을 규칙으로 만들고 문장만 AI 문장으로 바꿔요 (숫자는 그대로)", async () => {
+    const store = await confirmedStore();
+    const result = await runAnalysis({ store, apiOptions: mock, today: "2026-11-07" });
+    const state = store.getState();
+    expect(result.degraded).toBe(false);
+    expect(state.analysisStatus).toBe("done");
+    const cancel = state.suggestions.find((entry) => entry.type === "cancel")!;
+    expect(cancel).toMatchObject({ saving_monthly: 13500, saving_yearly: 162000, message_source: "ai" });
+    expect(cancel.message).not.toMatch(/[0-9]/); // 모의 AI 문장에는 숫자가 없어요
+  });
+
+  it("서버가 죽어도 규칙 제안과 기본 문장으로 끝까지 가요", async () => {
+    const store = await confirmedStore();
+    const fetchImpl = vi.fn(async () => { throw new TypeError("offline"); });
+    const result = await runAnalysis({ store, apiOptions: { mock: false, fetchImpl }, today: "2026-11-07" });
+    const cancel = store.getState().suggestions.find((entry) => entry.type === "cancel")!;
+    expect(result.degraded).toBe(true);
+    expect(cancel).toMatchObject({ saving_monthly: 13500, message_source: "fallback" });
+    expect(cancel.message).toBe("거의 쓰지 않는 넷플릭스를 해지하면 월 13,500원, 연 162,000원을 아낄 수 있어요.");
+    expect(store.getState().analysisStatus).toBe("done");
   });
 });

@@ -4,7 +4,7 @@ import { useMemo, useState } from "react";
 import { loadCatalog } from "@/lib/catalog";
 import { acceptSuggestion, applyEdit, checkNote, nextBlocker, won, type EditInput } from "@/lib/client/confirm";
 import { useRequireSubscriptions } from "@/lib/client/guards";
-import { createManualSubscription, foreignOrigin, type ManualInput } from "@/lib/client/pipeline";
+import { createManualSubscription, foreignOrigin, runAnalysis, type ManualInput } from "@/lib/client/pipeline";
 import { formatForeign } from "@/lib/client/confirm";
 import { useAppStore } from "@/lib/client/store";
 import { AppBar } from "./AppBar";
@@ -27,7 +27,7 @@ export function ConfirmScreen() {
   const profile = useAppStore((state) => state.profile);
   const transactions = useAppStore((state) => state.transactions);
   const suggested = useAppStore((state) => state.suggestedServiceIds);
-  const { setUsage, updateSubscription, removeSubscription, setProfile, addSubscription, confirmAll, rebuildSuggestions } = useAppStore.getState();
+  const { setUsage, updateSubscription, removeSubscription, setProfile, addSubscription, confirmAll } = useAppStore.getState();
   const services = useMemo(() => loadCatalog().services, []);
   const [editingId, setEditingId] = useState<string | null>(null);
   const [adding, setAdding] = useState(false);
@@ -67,8 +67,8 @@ export function ConfirmScreen() {
 
   function onNext() {
     if (blocker || !confirmAll()) return;
-    // 제안은 규칙으로 바로 만들어요. 혜택 판정(T2)·제안 문장(T3) 연결은 F4에서 이어 붙여요.
-    rebuildSuggestions(today());
+    // 혜택 판정·제안·문장은 백그라운드로 시작하고 바로 홈으로 가요.
+    void runAnalysis({ today: today() });
     router.push("/home");
   }
 

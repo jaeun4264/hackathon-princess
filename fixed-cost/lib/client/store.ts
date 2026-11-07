@@ -20,9 +20,18 @@ export interface AppData {
   suggestedServiceIds: Record<string, string | null>;
   sessionId: string;
   phase: Phase;
+  /** 홈에 처음 들어왔을 때 discovery 집계를 한 번만 보내려고 기록해요. */
+  discoverySent: boolean;
 }
 
+export type AnalysisStatus = "idle" | "running" | "done";
+
 export interface AppState extends AppData {
+  /** 혜택 판정·제안 문장 만들기 진행 상태 (저장하지 않아요) */
+  analysisStatus: AnalysisStatus;
+  analysisDegraded: boolean;
+  setAnalysis: (status: AnalysisStatus, degraded?: boolean) => void;
+  markDiscoverySent: () => void;
   setProfile: (profile: UserProfile) => void;
   /** 새 결제 내역으로 바꾸고 이전 분석 결과는 비워요. */
   loadTransactions: (transactions: Transaction[]) => void;
@@ -58,7 +67,7 @@ function randomId(): string {
 }
 
 function initialData(sessionId: string = randomId()): AppData {
-  return { profile: null, transactions: [], subscriptions: [], benefitResults: [], suggestions: [], suggestedServiceIds: {}, sessionId, phase: "empty" };
+  return { profile: null, transactions: [], subscriptions: [], benefitResults: [], suggestions: [], suggestedServiceIds: {}, sessionId, phase: "empty", discoverySent: false };
 }
 
 /** localStorage를 감싸 모든 접근을 try/catch. 실패하면 메모리 저장소로 넘어가요. */
@@ -105,6 +114,13 @@ export function createAppStore(storage: StateStorage = createSafeStorage()) {
     persist(
       (set, get) => ({
         ...initialData(),
+        analysisStatus: "idle",
+        analysisDegraded: false,
+
+        setAnalysis: (analysisStatus, degraded) =>
+          set(degraded === undefined ? { analysisStatus } : { analysisStatus, analysisDegraded: degraded }),
+
+        markDiscoverySent: () => set({ discoverySent: true }),
 
         setProfile: (profile) => set({ profile }),
 
@@ -179,7 +195,7 @@ export function createAppStore(storage: StateStorage = createSafeStorage()) {
           }),
 
         // "내 데이터 지우기". sessionId도 새로 만들어 이전 집계와 연결되지 않게 해요.
-        resetAll: () => set(initialData()),
+        resetAll: () => set({ ...initialData(), analysisStatus: "idle", analysisDegraded: false }),
       }),
       {
         name: STORE_KEY,
@@ -193,6 +209,7 @@ export function createAppStore(storage: StateStorage = createSafeStorage()) {
           suggestions: state.suggestions,
           suggestedServiceIds: state.suggestedServiceIds,
           sessionId: state.sessionId,
+          discoverySent: state.discoverySent,
           // 해석 도중 새로 고침하면 다시 시작할 수 있게 interpreting은 저장하지 않아요.
           phase: state.phase === "interpreting" ? "empty" : state.phase,
         }),
