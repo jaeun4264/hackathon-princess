@@ -54,6 +54,60 @@
     "source": "sample"
   },
   {
+    "id": "sample-p3-spotify-7",
+    "date": "2026-07-20",
+    "amount": 11990,
+    "currency": "KRW",
+    "raw_name": "Spotify",
+    "payment_method": "card",
+    "source": "sample"
+  },
+  {
+    "id": "sample-p3-spotify-8",
+    "date": "2026-08-20",
+    "amount": 11990,
+    "currency": "KRW",
+    "raw_name": "Spotify",
+    "payment_method": "card",
+    "source": "sample"
+  },
+  {
+    "id": "sample-p3-spotify-9",
+    "date": "2026-09-20",
+    "amount": 11990,
+    "currency": "KRW",
+    "raw_name": "Spotify",
+    "payment_method": "card",
+    "source": "sample"
+  },
+  {
+    "id": "sample-p3-apple_music-7",
+    "date": "2026-07-25",
+    "amount": 8900,
+    "currency": "KRW",
+    "raw_name": "Apple Music",
+    "payment_method": "card",
+    "source": "sample"
+  },
+  {
+    "id": "sample-p3-apple_music-8",
+    "date": "2026-08-25",
+    "amount": 8900,
+    "currency": "KRW",
+    "raw_name": "Apple Music",
+    "payment_method": "card",
+    "source": "sample"
+  },
+  {
+    "id": "sample-p3-apple_music-9",
+    "date": "2026-09-25",
+    "amount": 8900,
+    "currency": "KRW",
+    "raw_name": "Apple Music",
+    "payment_method": "card",
+    "source": "sample"
+  },
+  {
     "id": "sample-p3-oneoff-1",
     "date": "2026-07-02",
     "amount": 1700,

@@ -22,6 +22,6 @@ export function mockBrave(fetch: typeof globalThis.fetch) {
 export function mockLive(fetch: typeof globalThis.fetch, overrides: Partial<Parameters<typeof createConfiguredLiveDiscovery>[0]> = {}) {
   const environment = mockSearchEnvironment(); let timestamp = mockClock();
   const pages = createSecurePageFetcher({ resolve: async () => [{ address: "8.8.8.8", family: 4 }], transport: async () => mockResponse(mockPage().html), now: () => new Date(timestamp) });
-  const service = createConfiguredLiveDiscovery({ sources: [mockSource], environment: () => environment, fetch, now: () => timestamp, pages, ...overrides });
+  const service = createConfiguredLiveDiscovery({ sources: [mockSource], catalog: { ...loadCatalog(), benefits: [] }, environment: () => environment, fetch, now: () => timestamp, pages, ...overrides });
   return { service, environment, advance: (ms: number) => { timestamp += ms; } };
 }

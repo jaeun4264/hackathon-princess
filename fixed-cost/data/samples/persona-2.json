@@ -63,6 +63,60 @@
     "source": "sample"
   },
   {
+    "id": "sample-p2-notion-7",
+    "date": "2026-07-20",
+    "amount": 16800,
+    "currency": "KRW",
+    "raw_name": "Notion",
+    "payment_method": "card",
+    "source": "sample"
+  },
+  {
+    "id": "sample-p2-notion-8",
+    "date": "2026-08-20",
+    "amount": 16800,
+    "currency": "KRW",
+    "raw_name": "Notion",
+    "payment_method": "card",
+    "source": "sample"
+  },
+  {
+    "id": "sample-p2-notion-9",
+    "date": "2026-09-20",
+    "amount": 16800,
+    "currency": "KRW",
+    "raw_name": "Notion",
+    "payment_method": "card",
+    "source": "sample"
+  },
+  {
+    "id": "sample-p2-google_ai_plus-7",
+    "date": "2026-07-25",
+    "amount": 7500,
+    "currency": "KRW",
+    "raw_name": "Google AI Plus",
+    "payment_method": "card",
+    "source": "sample"
+  },
+  {
+    "id": "sample-p2-google_ai_plus-8",
+    "date": "2026-08-25",
+    "amount": 7500,
+    "currency": "KRW",
+    "raw_name": "Google AI Plus",
+    "payment_method": "card",
+    "source": "sample"
+  },
+  {
+    "id": "sample-p2-google_ai_plus-9",
+    "date": "2026-09-25",
+    "amount": 7500,
+    "currency": "KRW",
+    "raw_name": "Google AI Plus",
+    "payment_method": "card",
+    "source": "sample"
+  },
+  {
     "id": "sample-p2-oneoff-1",
     "date": "2026-07-02",
     "amount": 1700,
