@@ -65,3 +65,16 @@ def test_bad_key_message():
 
     with pytest.raises(c.CollectError, match="인증 정보"):
         c.collect("x", client=client_with(handler))
+
+
+def test_article_kind():
+    from app.collect import article_kind
+    for t in ["[이시각헤드라인] 11월 5일 뉴스센터", "11월4일 이브닝뉴스 헤드라인", "가람일보 모닝브리핑 11월 5일",
+              "[가람일보 오늘뉴스 종합] 여야 격돌…", "[가람 이슈종합] 특검·요금·선거", "[오늘의 가람경제 1면] 반도체 급락",
+              "[출근길 브리핑-11월 6일] 특검법·과세 유예", "[투데이 라인업] 대담 공개 / 본회의", "[전국 주요 신문 사설](5일 조간)", "[오후 뉴스브리핑] 비트코인 하락 外"]:
+        assert article_kind(t) == "묶음", t
+    for t in ["[오늘의 사설] 과세 원칙 지켜야", "[사설] 특검법 재고하라", "[기자수첩] 또 미뤄진 과세"]:
+        assert article_kind(t) == "사설·칼럼", t
+    for t in ["특검법 법사위 통과(종합)", "[종합] 가상자산 과세 2년 유예", "과세 유예 추진(종합2보)",
+              "대통령실 브리핑서 과세 유예 언급", "전력 많이 쓰는 저녁시간 요금 인상"]:
+        assert article_kind(t) == "기사", t
