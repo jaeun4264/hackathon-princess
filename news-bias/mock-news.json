@@ -1,0 +1,994 @@
+{
+  "meta": {
+    "note": "화면 개발용 가짜 데이터입니다. 이슈, 언론사, 인물, 기사 내용은 모두 지어낸 것입니다. 인용 출처 유형은 5개(정부·여당/야당/전문가/시민·단체/기업·업계)이며, 그래프에는 5개 모두 표시합니다.",
+    "version": "0.3",
+    "generatedAt": "2026-11-05"
+  },
+  "sourceTypes": [
+    {
+      "id": "gov",
+      "label": "정부·여당"
+    },
+    {
+      "id": "opp",
+      "label": "야당"
+    },
+    {
+      "id": "expert",
+      "label": "전문가"
+    },
+    {
+      "id": "citizen",
+      "label": "시민·단체"
+    },
+    {
+      "id": "industry",
+      "label": "기업·업계"
+    }
+  ],
+  "outlets": [
+    {
+      "id": "garam",
+      "name": "가람일보"
+    },
+    {
+      "id": "narae",
+      "name": "나래신문"
+    },
+    {
+      "id": "daon",
+      "name": "다온뉴스"
+    },
+    {
+      "id": "raon",
+      "name": "라온경제"
+    },
+    {
+      "id": "maru",
+      "name": "마루방송"
+    }
+  ],
+  "issues": [
+    {
+      "id": "issue-003",
+      "title": "청년 저축계좌 정부 기여금 축소",
+      "summary": "정부가 청년 저축계좌에 얹어 주던 기여금을 내년부터 줄이겠다고 밝혔다. 재정 부담과 청년 자산 형성 사이에서 의견이 갈린다.",
+      "category": "경제",
+      "date": "2026-11-04",
+      "articleIds": [
+        "art-009",
+        "art-010",
+        "art-011"
+      ]
+    },
+    {
+      "id": "issue-004",
+      "title": "가상시 대학생 통학버스 요금 할인",
+      "summary": "가상시가 관내 대학생의 시내버스 요금을 30% 깎아 주는 제도를 시범 운영한다. 대상과 효과를 두고 반응이 엇갈린다.",
+      "category": "생활",
+      "date": "2026-11-04",
+      "articleIds": [
+        "art-012",
+        "art-013",
+        "art-014"
+      ]
+    },
+    {
+      "id": "issue-001",
+      "title": "가상시 청년 월세 지원 확대안",
+      "summary": "가상시가 청년 월세 지원 대상을 늘리는 조례 개정안을 발표했다. 재원 마련 방식과 지원 효과를 두고 의견이 갈린다.",
+      "category": "사회",
+      "date": "2026-11-03",
+      "articleIds": [
+        "art-001",
+        "art-002",
+        "art-003",
+        "art-004",
+        "art-005"
+      ]
+    },
+    {
+      "id": "issue-002",
+      "title": "나래시 심야버스 노선 조정",
+      "summary": "나래시가 이용객이 적은 심야버스 노선을 줄이고 주요 노선의 배차를 늘리겠다고 밝혔다.",
+      "category": "사회",
+      "date": "2026-11-02",
+      "articleIds": [
+        "art-006",
+        "art-007",
+        "art-008"
+      ]
+    }
+  ],
+  "articles": [
+    {
+      "id": "art-001",
+      "issueId": "issue-001",
+      "outletId": "garam",
+      "title": "가상시, 청년 월세 지원 2배로 늘린다",
+      "summary": "가상시가 청년 월세 지원 대상을 내년부터 두 배로 늘린다고 밝혔다.",
+      "url": "#",
+      "publishedAt": "2026-11-03T09:10:00+09:00",
+      "sentences": [
+        {
+          "id": "s1",
+          "text": "가상시는 3일 청년 월세 지원 대상을 내년부터 두 배로 늘리는 조례 개정안을 발표했다.",
+          "type": "fact",
+          "sourceType": "gov",
+          "sourceName": "가상시"
+        },
+        {
+          "id": "s2",
+          "text": "시 관계자는 \"주거비 부담이 큰 청년들에게 실질적인 도움이 될 것\"이라고 말했다.",
+          "type": "fact",
+          "sourceType": "gov",
+          "sourceName": "시 관계자"
+        },
+        {
+          "id": "s3",
+          "text": "여당 소속 김가상 시의원도 \"청년 정착을 위한 꼭 필요한 정책\"이라고 강조했다.",
+          "type": "fact",
+          "sourceType": "gov",
+          "sourceName": "김가상 시의원(여당)"
+        },
+        {
+          "id": "s4",
+          "text": "이번 확대로 지원을 받는 청년은 약 1만 명에 이를 전망이다.",
+          "type": "fact",
+          "sourceType": null,
+          "sourceName": null
+        },
+        {
+          "id": "s5",
+          "text": "청년 주거 문제 해결에 한 걸음 다가선 정책이라는 평가가 나온다.",
+          "type": "opinion",
+          "sourceType": null,
+          "sourceName": null
+        }
+      ],
+      "framingTerms": [
+        {
+          "term": "실질적인 도움",
+          "sentenceId": "s2"
+        },
+        {
+          "term": "한 걸음 다가선",
+          "sentenceId": "s5"
+        }
+      ],
+      "missingViewpoints": [
+        {
+          "sourceType": "opp",
+          "description": "재원 마련 방식에 대한 야당의 문제 제기가 없음",
+          "foundInArticleIds": [
+            "art-002",
+            "art-004"
+          ]
+        },
+        {
+          "sourceType": "citizen",
+          "description": "실제 청년 세입자의 목소리가 없음",
+          "foundInArticleIds": [
+            "art-003",
+            "art-005"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "art-002",
+      "issueId": "issue-001",
+      "outletId": "narae",
+      "title": "청년 월세 지원 확대, 재원은 어디서?",
+      "summary": "가상시의 청년 월세 지원 확대안을 두고 재원 마련 방식에 대한 비판이 나온다.",
+      "url": "#",
+      "publishedAt": "2026-11-03T10:30:00+09:00",
+      "sentences": [
+        {
+          "id": "s1",
+          "text": "가상시가 청년 월세 지원 대상을 두 배로 늘리겠다고 밝혔다.",
+          "type": "fact",
+          "sourceType": "gov",
+          "sourceName": "가상시"
+        },
+        {
+          "id": "s2",
+          "text": "야당 소속 이나래 시의원은 \"다른 복지 예산을 줄여 메우는 것은 돌려막기\"라고 비판했다.",
+          "type": "fact",
+          "sourceType": "opp",
+          "sourceName": "이나래 시의원(야당)"
+        },
+        {
+          "id": "s3",
+          "text": "같은 당 박다온 시의원도 \"선거를 앞둔 생색내기\"라고 지적했다.",
+          "type": "fact",
+          "sourceType": "opp",
+          "sourceName": "박다온 시의원(야당)"
+        },
+        {
+          "id": "s4",
+          "text": "시는 구체적인 재원 계획을 아직 공개하지 않았다.",
+          "type": "fact",
+          "sourceType": null,
+          "sourceName": null
+        },
+        {
+          "id": "s5",
+          "text": "재원 대책 없이 지원만 늘리는 것은 무리한 결정이라는 지적이 많다.",
+          "type": "opinion",
+          "sourceType": null,
+          "sourceName": null
+        }
+      ],
+      "framingTerms": [
+        {
+          "term": "돌려막기",
+          "sentenceId": "s2"
+        },
+        {
+          "term": "생색내기",
+          "sentenceId": "s3"
+        },
+        {
+          "term": "무리한 결정",
+          "sentenceId": "s5"
+        }
+      ],
+      "missingViewpoints": [
+        {
+          "sourceType": "expert",
+          "description": "지원 효과에 대한 전문가 분석이 없음",
+          "foundInArticleIds": [
+            "art-003",
+            "art-004"
+          ]
+        },
+        {
+          "sourceType": "citizen",
+          "description": "실제 청년 세입자의 목소리가 없음",
+          "foundInArticleIds": [
+            "art-003",
+            "art-005"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "art-003",
+      "issueId": "issue-001",
+      "outletId": "daon",
+      "title": "\"월세 절반이 생활비\"… 청년들이 본 지원 확대",
+      "summary": "청년 세입자와 전문가들이 가상시의 월세 지원 확대안을 어떻게 보는지 들어 봤다.",
+      "url": "#",
+      "publishedAt": "2026-11-03T13:00:00+09:00",
+      "sentences": [
+        {
+          "id": "s1",
+          "text": "가상시에서 혼자 사는 대학생 최라온 씨는 \"월세가 생활비의 절반\"이라고 말했다.",
+          "type": "fact",
+          "sourceType": "citizen",
+          "sourceName": "최라온 씨(대학생)"
+        },
+        {
+          "id": "s2",
+          "text": "직장인 정마루 씨는 \"지원 기준이 까다로워 신청을 포기한 적이 있다\"고 했다.",
+          "type": "fact",
+          "sourceType": "citizen",
+          "sourceName": "정마루 씨(직장인)"
+        },
+        {
+          "id": "s3",
+          "text": "가상대 주거학과 한가람 교수는 \"지원 확대와 함께 신청 절차를 단순하게 바꿔야 효과가 난다\"고 분석했다.",
+          "type": "fact",
+          "sourceType": "expert",
+          "sourceName": "한가람 교수(가상대)"
+        },
+        {
+          "id": "s4",
+          "text": "시는 신청 절차 개선도 함께 검토하겠다고 밝혔다.",
+          "type": "fact",
+          "sourceType": "gov",
+          "sourceName": "가상시"
+        },
+        {
+          "id": "s5",
+          "text": "제도가 실제로 청년에게 닿을 수 있을지가 관건이다.",
+          "type": "opinion",
+          "sourceType": null,
+          "sourceName": null
+        }
+      ],
+      "framingTerms": [
+        {
+          "term": "관건",
+          "sentenceId": "s5"
+        }
+      ],
+      "missingViewpoints": [
+        {
+          "sourceType": "opp",
+          "description": "재원 마련 방식에 대한 야당의 문제 제기가 없음",
+          "foundInArticleIds": [
+            "art-002",
+            "art-004"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "art-004",
+      "issueId": "issue-001",
+      "outletId": "raon",
+      "title": "청년 월세 지원 확대에 연 120억 원… 시 예산 부담 커져",
+      "summary": "가상시의 청년 월세 지원 확대에 필요한 예산과 재정 영향을 짚었다.",
+      "url": "#",
+      "publishedAt": "2026-11-03T15:20:00+09:00",
+      "sentences": [
+        {
+          "id": "s1",
+          "text": "이번 확대안을 시행하려면 연간 약 120억 원이 더 필요하다.",
+          "type": "fact",
+          "sourceType": null,
+          "sourceName": null
+        },
+        {
+          "id": "s2",
+          "text": "가상시는 \"기존 사업을 조정해 재원을 마련하겠다\"고 밝혔다.",
+          "type": "fact",
+          "sourceType": "gov",
+          "sourceName": "가상시"
+        },
+        {
+          "id": "s3",
+          "text": "야당은 \"조정 대상 사업이 무엇인지 먼저 공개하라\"고 요구했다.",
+          "type": "fact",
+          "sourceType": "opp",
+          "sourceName": "시의회 야당"
+        },
+        {
+          "id": "s4",
+          "text": "재정학자 오나래 교수는 \"지원 효과를 측정할 지표를 함께 정해야 한다\"고 말했다.",
+          "type": "fact",
+          "sourceType": "expert",
+          "sourceName": "오나래 교수"
+        },
+        {
+          "id": "s5",
+          "text": "시 재정에 부담이 될 수 있다는 우려가 커지고 있다.",
+          "type": "opinion",
+          "sourceType": null,
+          "sourceName": null
+        },
+        {
+          "id": "s9",
+          "text": "지역 공인중개사협회는 \"지원이 늘면 월세 호가가 오를 수 있다\"고 우려했다.",
+          "type": "fact",
+          "sourceType": "industry",
+          "sourceName": "가상시 공인중개사협회"
+        }
+      ],
+      "framingTerms": [
+        {
+          "term": "부담",
+          "sentenceId": "s5"
+        }
+      ],
+      "missingViewpoints": [
+        {
+          "sourceType": "citizen",
+          "description": "실제 청년 세입자의 목소리가 없음",
+          "foundInArticleIds": [
+            "art-003",
+            "art-005"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "art-005",
+      "issueId": "issue-001",
+      "outletId": "maru",
+      "title": "청년 월세 지원 늘린다… 시민 반응은 엇갈려",
+      "summary": "가상시의 청년 월세 지원 확대 소식에 시민들의 반응이 엇갈린다.",
+      "url": "#",
+      "publishedAt": "2026-11-03T18:40:00+09:00",
+      "sentences": [
+        {
+          "id": "s1",
+          "text": "가상시가 청년 월세 지원 대상을 두 배로 늘리겠다고 발표했다.",
+          "type": "fact",
+          "sourceType": "gov",
+          "sourceName": "가상시"
+        },
+        {
+          "id": "s2",
+          "text": "사회초년생 윤다온 씨는 \"이제라도 지원이 늘어 다행\"이라고 말했다.",
+          "type": "fact",
+          "sourceType": "citizen",
+          "sourceName": "윤다온 씨(사회초년생)"
+        },
+        {
+          "id": "s3",
+          "text": "반면 50대 자영업자 강라온 씨는 \"다른 세대 지원도 함께 고민해야 한다\"고 했다.",
+          "type": "fact",
+          "sourceType": "citizen",
+          "sourceName": "강라온 씨(자영업자)"
+        },
+        {
+          "id": "s4",
+          "text": "시는 내년 상반기 중 신청을 받을 예정이다.",
+          "type": "fact",
+          "sourceType": "gov",
+          "sourceName": "가상시"
+        }
+      ],
+      "framingTerms": [],
+      "missingViewpoints": [
+        {
+          "sourceType": "opp",
+          "description": "재원 마련 방식에 대한 야당의 문제 제기가 없음",
+          "foundInArticleIds": [
+            "art-002",
+            "art-004"
+          ]
+        },
+        {
+          "sourceType": "expert",
+          "description": "지원 효과에 대한 전문가 분석이 없음",
+          "foundInArticleIds": [
+            "art-003",
+            "art-004"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "art-006",
+      "issueId": "issue-002",
+      "outletId": "garam",
+      "title": "나래시, 심야버스 3개 노선 폐지… 주요 노선 배차는 늘려",
+      "summary": "나래시가 이용객이 적은 심야버스 노선을 정리하고 주요 노선을 강화한다.",
+      "url": "#",
+      "publishedAt": "2026-11-02T09:00:00+09:00",
+      "sentences": [
+        {
+          "id": "s1",
+          "text": "나래시는 이용객이 적은 심야버스 3개 노선을 다음 달 폐지한다고 밝혔다.",
+          "type": "fact",
+          "sourceType": "gov",
+          "sourceName": "나래시"
+        },
+        {
+          "id": "s2",
+          "text": "시 교통국장은 \"남는 차량을 주요 노선에 돌려 배차 간격을 줄이겠다\"고 말했다.",
+          "type": "fact",
+          "sourceType": "gov",
+          "sourceName": "시 교통국장"
+        },
+        {
+          "id": "s3",
+          "text": "효율적인 운영을 위한 합리적인 조정이라는 평가가 나온다.",
+          "type": "opinion",
+          "sourceType": null,
+          "sourceName": null
+        }
+      ],
+      "framingTerms": [
+        {
+          "term": "합리적인 조정",
+          "sentenceId": "s3"
+        }
+      ],
+      "missingViewpoints": [
+        {
+          "sourceType": "citizen",
+          "description": "폐지 노선을 이용하던 시민의 목소리가 없음",
+          "foundInArticleIds": [
+            "art-007"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "art-007",
+      "issueId": "issue-002",
+      "outletId": "daon",
+      "title": "\"새벽 퇴근길 막막\"… 심야버스 폐지에 노동자들 한숨",
+      "summary": "심야버스 노선 폐지로 새벽에 퇴근하는 시민들의 불편이 예상된다.",
+      "url": "#",
+      "publishedAt": "2026-11-02T12:30:00+09:00",
+      "sentences": [
+        {
+          "id": "s1",
+          "text": "새벽 2시에 퇴근하는 간호조무사 서가람 씨는 \"택시비가 한 달에 20만 원 넘게 들 것\"이라고 걱정했다.",
+          "type": "fact",
+          "sourceType": "citizen",
+          "sourceName": "서가람 씨(간호조무사)"
+        },
+        {
+          "id": "s2",
+          "text": "야당 시의원은 \"교통 약자를 외면한 결정\"이라고 비판했다.",
+          "type": "fact",
+          "sourceType": "opp",
+          "sourceName": "시의회 야당 의원"
+        },
+        {
+          "id": "s3",
+          "text": "시는 대체 교통수단을 검토하겠다고 밝혔다.",
+          "type": "fact",
+          "sourceType": "gov",
+          "sourceName": "나래시"
+        }
+      ],
+      "framingTerms": [
+        {
+          "term": "외면한",
+          "sentenceId": "s2"
+        }
+      ],
+      "missingViewpoints": [
+        {
+          "sourceType": "expert",
+          "description": "노선 이용률과 대안에 대한 전문가 분석이 없음",
+          "foundInArticleIds": [
+            "art-008"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "art-008",
+      "issueId": "issue-002",
+      "outletId": "raon",
+      "title": "심야버스 이용률 하위 3개 노선, 좌석 10%도 안 차",
+      "summary": "폐지 대상 심야버스 노선의 이용률과 운영 비용을 분석했다.",
+      "url": "#",
+      "publishedAt": "2026-11-02T16:10:00+09:00",
+      "sentences": [
+        {
+          "id": "s1",
+          "text": "폐지 대상 3개 노선의 평균 좌석 이용률은 10%에 못 미쳤다.",
+          "type": "fact",
+          "sourceType": null,
+          "sourceName": null
+        },
+        {
+          "id": "s2",
+          "text": "교통공학자 문다온 교수는 \"수요응답형 버스로 바꾸는 방안도 검토할 만하다\"고 말했다.",
+          "type": "fact",
+          "sourceType": "expert",
+          "sourceName": "문다온 교수"
+        },
+        {
+          "id": "s3",
+          "text": "시는 노선 조정으로 연간 15억 원을 아낄 수 있다고 밝혔다.",
+          "type": "fact",
+          "sourceType": "gov",
+          "sourceName": "나래시"
+        }
+      ],
+      "framingTerms": [],
+      "missingViewpoints": [
+        {
+          "sourceType": "citizen",
+          "description": "폐지 노선을 이용하던 시민의 목소리가 없음",
+          "foundInArticleIds": [
+            "art-007"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "art-009",
+      "issueId": "issue-003",
+      "outletId": "raon",
+      "title": "청년 저축계좌 기여금 축소… \"재정 건전성 위한 조정\"",
+      "summary": "정부가 청년 저축계좌 기여금을 줄이는 대신 가입 요건을 넓힌다고 밝혔다.",
+      "url": "#",
+      "publishedAt": "2026-11-04T08:30:00+09:00",
+      "sentences": [
+        {
+          "id": "s1",
+          "text": "가상경제부는 4일 청년 저축계좌의 정부 기여금을 내년부터 월 최대 3만 원으로 줄인다고 발표했다.",
+          "type": "fact",
+          "sourceType": "gov",
+          "sourceName": "가상경제부"
+        },
+        {
+          "id": "s2",
+          "text": "부 관계자는 \"한정된 재원을 더 많은 청년에게 나누기 위한 불가피한 조정\"이라고 설명했다.",
+          "type": "fact",
+          "sourceType": "gov",
+          "sourceName": "가상경제부 관계자"
+        },
+        {
+          "id": "s3",
+          "text": "한도윤 가상대 경제학과 교수는 \"장기적으로 재정 지속성을 높이는 방향\"이라고 말했다.",
+          "type": "fact",
+          "sourceType": "expert",
+          "sourceName": "한도윤 교수(가상대)"
+        },
+        {
+          "id": "s4",
+          "text": "가입 소득 요건은 중위소득 180%에서 200%로 완화된다.",
+          "type": "fact",
+          "sourceType": null,
+          "sourceName": null
+        },
+        {
+          "id": "s5",
+          "text": "재정 여건을 고려하면 합리적인 선택이라는 분석이 많다.",
+          "type": "opinion",
+          "sourceType": null,
+          "sourceName": null
+        },
+        {
+          "id": "s6",
+          "text": "가상은행연합회 관계자는 \"은행 부담도 함께 줄어 상품 운영이 안정될 것\"이라고 말했다.",
+          "type": "fact",
+          "sourceType": "industry",
+          "sourceName": "가상은행연합회 관계자"
+        }
+      ],
+      "framingTerms": [
+        {
+          "term": "불가피한 조정",
+          "sentenceId": "s2"
+        },
+        {
+          "term": "합리적인 선택",
+          "sentenceId": "s5"
+        }
+      ],
+      "missingViewpoints": [
+        {
+          "sourceType": "citizen",
+          "description": "실제 가입 청년의 목소리가 없음",
+          "foundInArticleIds": [
+            "art-010",
+            "art-011"
+          ]
+        },
+        {
+          "sourceType": "opp",
+          "description": "야당의 반대 의견이 없음",
+          "foundInArticleIds": [
+            "art-010"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "art-010",
+      "issueId": "issue-003",
+      "outletId": "narae",
+      "title": "\"목돈 마련 꿈 멀어져\"… 청년 저축계좌 혜택 줄어",
+      "summary": "기여금 축소로 만기 수령액이 줄어든다는 청년들의 불만이 나온다.",
+      "url": "#",
+      "publishedAt": "2026-11-04T10:05:00+09:00",
+      "sentences": [
+        {
+          "id": "s1",
+          "text": "정부가 청년 저축계좌 기여금을 줄이기로 하면서 만기 수령액이 최대 70만 원가량 줄어든다.",
+          "type": "fact",
+          "sourceType": null,
+          "sourceName": null
+        },
+        {
+          "id": "s2",
+          "text": "대학생 이서윤 씨는 \"아르바이트비를 아껴 넣고 있었는데 허탈하다\"고 말했다.",
+          "type": "fact",
+          "sourceType": "citizen",
+          "sourceName": "이서윤 씨(대학생)"
+        },
+        {
+          "id": "s3",
+          "text": "야당 박나래 의원은 \"청년 지원을 줄여 재정 적자를 메우려는 것\"이라고 비판했다.",
+          "type": "fact",
+          "sourceType": "opp",
+          "sourceName": "박나래 의원(야당)"
+        },
+        {
+          "id": "s4",
+          "text": "정부는 가입 요건을 넓혀 더 많은 청년이 혜택을 받는다는 입장이다.",
+          "type": "fact",
+          "sourceType": "gov",
+          "sourceName": "정부"
+        },
+        {
+          "id": "s5",
+          "text": "청년들의 자산 형성 사다리를 걷어차는 결정이라는 지적이 나온다.",
+          "type": "opinion",
+          "sourceType": null,
+          "sourceName": null
+        }
+      ],
+      "framingTerms": [
+        {
+          "term": "허탈하다",
+          "sentenceId": "s2"
+        },
+        {
+          "term": "사다리를 걷어차는",
+          "sentenceId": "s5"
+        }
+      ],
+      "missingViewpoints": [
+        {
+          "sourceType": "expert",
+          "description": "재정 전문가의 분석이 없음",
+          "foundInArticleIds": [
+            "art-009",
+            "art-011"
+          ]
+        },
+        {
+          "sourceType": "industry",
+          "description": "관련 업계의 입장이 없음",
+          "foundInArticleIds": [
+            "art-009",
+            "art-011"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "art-011",
+      "issueId": "issue-003",
+      "outletId": "maru",
+      "title": "청년 저축계좌 개편, 수령액 줄고 가입 문턱은 낮아져",
+      "summary": "기여금은 줄고 가입 요건은 완화되는 개편안의 내용을 정리했다.",
+      "url": "#",
+      "publishedAt": "2026-11-04T12:20:00+09:00",
+      "sentences": [
+        {
+          "id": "s1",
+          "text": "개편안에 따르면 정부 기여금은 줄고 가입 소득 요건은 완화된다.",
+          "type": "fact",
+          "sourceType": null,
+          "sourceName": null
+        },
+        {
+          "id": "s2",
+          "text": "가상경제부는 \"가입 가능 청년이 약 20만 명 늘어날 것\"이라고 밝혔다.",
+          "type": "fact",
+          "sourceType": "gov",
+          "sourceName": "가상경제부"
+        },
+        {
+          "id": "s3",
+          "text": "오지후 가상금융연구원 연구위원은 \"수령액 감소로 중도 해지가 늘 수 있다\"고 내다봤다.",
+          "type": "fact",
+          "sourceType": "expert",
+          "sourceName": "오지후 연구위원"
+        },
+        {
+          "id": "s4",
+          "text": "직장인 최민재 씨는 \"가입은 쉬워졌지만 유지할 이유는 줄었다\"고 말했다.",
+          "type": "fact",
+          "sourceType": "citizen",
+          "sourceName": "최민재 씨(직장인)"
+        },
+        {
+          "id": "s5",
+          "text": "한 시중은행 관계자는 \"가입자가 늘면 창구 상담 부담이 커질 것\"이라고 전했다.",
+          "type": "fact",
+          "sourceType": "industry",
+          "sourceName": "시중은행 관계자"
+        },
+        {
+          "id": "s6",
+          "text": "야당 박나래 의원은 \"기여금 축소부터 되돌려야 한다\"고 주장했다.",
+          "type": "fact",
+          "sourceType": "opp",
+          "sourceName": "박나래 의원(야당)"
+        }
+      ],
+      "framingTerms": [],
+      "missingViewpoints": []
+    },
+    {
+      "id": "art-012",
+      "issueId": "issue-004",
+      "outletId": "garam",
+      "title": "가상시, 대학생 버스요금 30% 할인… \"통학비 부담 던다\"",
+      "summary": "가상시가 관내 대학생 버스요금 할인 시범 사업을 시작한다.",
+      "url": "#",
+      "publishedAt": "2026-11-04T09:00:00+09:00",
+      "sentences": [
+        {
+          "id": "s1",
+          "text": "가상시는 다음 달부터 관내 대학생의 시내버스 요금을 30% 할인한다고 4일 밝혔다.",
+          "type": "fact",
+          "sourceType": "gov",
+          "sourceName": "가상시"
+        },
+        {
+          "id": "s2",
+          "text": "시 관계자는 \"대학생 통학비 부담을 덜어 줄 획기적인 정책\"이라고 말했다.",
+          "type": "fact",
+          "sourceType": "gov",
+          "sourceName": "시 관계자"
+        },
+        {
+          "id": "s3",
+          "text": "할인은 교통카드에 학생 인증을 하면 자동으로 적용된다.",
+          "type": "fact",
+          "sourceType": null,
+          "sourceName": null
+        },
+        {
+          "id": "s4",
+          "text": "학생들의 생활비 고민을 덜어 줄 반가운 소식이다.",
+          "type": "opinion",
+          "sourceType": null,
+          "sourceName": null
+        },
+        {
+          "id": "s5",
+          "text": "가상버스운송조합은 \"할인분을 시가 보전해 주기로 해 운영에는 문제가 없다\"고 밝혔다.",
+          "type": "fact",
+          "sourceType": "industry",
+          "sourceName": "가상버스운송조합"
+        }
+      ],
+      "framingTerms": [
+        {
+          "term": "획기적인",
+          "sentenceId": "s2"
+        },
+        {
+          "term": "반가운 소식",
+          "sentenceId": "s4"
+        }
+      ],
+      "missingViewpoints": [
+        {
+          "sourceType": "citizen",
+          "description": "실제 대학생의 반응이 없음",
+          "foundInArticleIds": [
+            "art-013",
+            "art-014"
+          ]
+        },
+        {
+          "sourceType": "opp",
+          "description": "예산과 대상에 대한 야당의 문제 제기가 없음",
+          "foundInArticleIds": [
+            "art-014"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "art-013",
+      "issueId": "issue-004",
+      "outletId": "daon",
+      "title": "\"한 달 2만 원 아껴요\"… 버스요금 할인 반기는 대학생들",
+      "summary": "할인 소식에 대학생들은 반기면서도 타 지역 통학생 제외에 아쉬움을 나타냈다.",
+      "url": "#",
+      "publishedAt": "2026-11-04T11:15:00+09:00",
+      "sentences": [
+        {
+          "id": "s1",
+          "text": "대학생 김하린 씨는 \"한 달에 2만 원 정도 아낄 수 있어 좋다\"고 말했다.",
+          "type": "fact",
+          "sourceType": "citizen",
+          "sourceName": "김하린 씨(대학생)"
+        },
+        {
+          "id": "s2",
+          "text": "타 지역에서 통학하는 정우진 씨는 \"정작 멀리서 오는 학생은 빠졌다\"고 아쉬워했다.",
+          "type": "fact",
+          "sourceType": "citizen",
+          "sourceName": "정우진 씨(대학생)"
+        },
+        {
+          "id": "s3",
+          "text": "이수아 가상대 교통공학과 교수는 \"대중교통 이용을 늘리는 효과가 기대된다\"고 말했다.",
+          "type": "fact",
+          "sourceType": "expert",
+          "sourceName": "이수아 교수(가상대)"
+        },
+        {
+          "id": "s4",
+          "text": "가상시는 시범 운영 결과를 보고 대상 확대를 검토하겠다고 밝혔다.",
+          "type": "fact",
+          "sourceType": "gov",
+          "sourceName": "가상시"
+        }
+      ],
+      "framingTerms": [
+        {
+          "term": "정작",
+          "sentenceId": "s2"
+        }
+      ],
+      "missingViewpoints": [
+        {
+          "sourceType": "opp",
+          "description": "야당의 입장이 없음",
+          "foundInArticleIds": [
+            "art-014"
+          ]
+        },
+        {
+          "sourceType": "industry",
+          "description": "관련 업계의 입장이 없음",
+          "foundInArticleIds": [
+            "art-012"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "art-014",
+      "issueId": "issue-004",
+      "outletId": "narae",
+      "title": "대학생 버스 할인에 연 40억… \"대학 안 간 청년은?\"",
+      "summary": "할인 예산과 형평성을 두고 문제 제기가 나온다.",
+      "url": "#",
+      "publishedAt": "2026-11-04T14:40:00+09:00",
+      "sentences": [
+        {
+          "id": "s1",
+          "text": "대학생 버스요금 할인에는 연간 약 40억 원이 들 것으로 추산된다.",
+          "type": "fact",
+          "sourceType": null,
+          "sourceName": null
+        },
+        {
+          "id": "s2",
+          "text": "야당 윤다솜 시의원은 \"대학에 가지 않은 청년과의 형평성을 따져 봐야 한다\"고 지적했다.",
+          "type": "fact",
+          "sourceType": "opp",
+          "sourceName": "윤다솜 시의원(야당)"
+        },
+        {
+          "id": "s3",
+          "text": "고졸 직장인 문서진 씨는 \"같은 나이인데 학생만 혜택을 받는 건 이상하다\"고 말했다.",
+          "type": "fact",
+          "sourceType": "citizen",
+          "sourceName": "문서진 씨(직장인)"
+        },
+        {
+          "id": "s4",
+          "text": "선심성 정책이라는 비판을 피하기 어려워 보인다.",
+          "type": "opinion",
+          "sourceType": null,
+          "sourceName": null
+        }
+      ],
+      "framingTerms": [
+        {
+          "term": "선심성",
+          "sentenceId": "s4"
+        }
+      ],
+      "missingViewpoints": [
+        {
+          "sourceType": "gov",
+          "description": "가상시의 설명이 없음",
+          "foundInArticleIds": [
+            "art-012",
+            "art-013"
+          ]
+        },
+        {
+          "sourceType": "expert",
+          "description": "교통 전문가의 분석이 없음",
+          "foundInArticleIds": [
+            "art-013"
+          ]
+        },
+        {
+          "sourceType": "industry",
+          "description": "관련 업계의 입장이 없음",
+          "foundInArticleIds": [
+            "art-012"
+          ]
+        }
+      ]
+    }
+  ]
+}
