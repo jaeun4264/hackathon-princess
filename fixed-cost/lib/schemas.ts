@@ -12,6 +12,9 @@ export const SuggestionTypeSchema = z.enum([
   "cancel", "pause", "student_discount", "school_license", "bundle", "keep",
 ]);
 
+// 무료 체험 중인 구독 (앱 마켓 영수증 근거). 종료일 = 첫 결제 예정일.
+export const TrialInfoSchema = z.strictObject({ end: date, price_after: money.nullable() });
+
 export const GmailMessageLiteSchema = z.strictObject({
   id: requiredText,
   received_at: z.iso.datetime({ offset: true }),
@@ -33,6 +36,12 @@ export const TransactionSchema = z.strictObject({
   original_currency: z.enum(["USD", "EUR", "JPY", "GBP"]).optional(),
   original_amount: z.number().positive().optional(),
   fx_date: date.optional(),
+  renewal: z.strictObject({
+    interval: IntervalSchema.nullable(),
+    next_date: date.nullable(),
+    trial_end: date.nullable(),
+    price_after_trial: money.nullable(),
+  }).optional(),
 }).refine((value) => {
   const present = [value.original_currency, value.original_amount, value.fx_date].filter((field) => field !== undefined).length;
   return present === 0 || present === 3;
@@ -42,7 +51,7 @@ export const GmailParseResultSchema = z.strictObject({
   transactions: z.array(TransactionSchema),
   skipped: z.array(z.strictObject({
     message_id: requiredText,
-    reason: z.enum(["no_amount", "foreign_currency", "not_receipt", "duplicate"]),
+    reason: z.enum(["no_amount", "foreign_currency", "not_receipt", "duplicate", "one_time"]),
   })),
 });
 
@@ -70,6 +79,7 @@ export const SubscriptionSchema = z.strictObject({
   needs_check: z.boolean(),
   user_confirmed: z.boolean(),
   evidence_transaction_ids: z.array(requiredText),
+  trial: TrialInfoSchema.optional(),
 });
 
 export const SubscriptionCandidateSchema = z.strictObject({
@@ -80,6 +90,7 @@ export const SubscriptionCandidateSchema = z.strictObject({
   payment_method: requiredText,
   transaction_ids: z.array(requiredText),
   next_date: date.nullable(),
+  trial: TrialInfoSchema.optional(),
 });
 
 export const ServicePlanSchema = z.strictObject({

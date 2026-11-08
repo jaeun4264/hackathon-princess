@@ -148,7 +148,8 @@ export function HomeScreen() {
                 <Link href={`/payment/${encodeURIComponent(sub.id)}`} className="flex min-h-14 items-center gap-3 py-2 hover:bg-raised">
                   <span className="min-w-0 flex-1">
                     <span className="block truncate text-base">{sub.display_name}</span>
-                    {sub.needs_check ? <span className="block text-sm text-warning">확인 필요</span> : null}
+                    {sub.trial ? <span className="block text-sm text-warning">무료 체험 · {sub.trial.end.slice(5).replace("-", "/")}부터 유료</span>
+                      : sub.needs_check ? <span className="block text-sm text-warning">확인 필요</span> : null}
                   </span>
                   {sub.usage ? <UsageChip usage={sub.usage} /> : null}
                   <span className="num w-[88px] text-right text-base">{won(sub.monthly_amount)}</span>

@@ -34,7 +34,8 @@ export function intervalLabel(interval: Interval): string {
 }
 
 /** "매달 13,500원" / "매년 50,500원 · 월 4,208원" */
-export function amountLine(sub: Pick<Subscription, "amount" | "interval" | "monthly_amount">): { main: string; sub: string | null } {
+export function amountLine(sub: Pick<Subscription, "amount" | "interval" | "monthly_amount" | "trial">): { main: string; sub: string | null } {
+  if (sub.trial) return { main: "무료 체험", sub: sub.trial.price_after === null ? null : `이후 ${intervalLabel(sub.interval)} ${won(sub.trial.price_after)}` };
   return {
     main: `${intervalLabel(sub.interval)} ${won(sub.amount)}`,
     sub: sub.interval === "yearly" ? `월 ${won(sub.monthly_amount)}` : null,
@@ -50,6 +51,22 @@ export function formatForeign(currency: string, amount: number): string {
 function shortDate(date: string): string {
   const [, month, day] = date.split("-").map(Number);
   return `${month}월 ${day}일`;
+}
+
+/**
+ * 무료 체험 안내 한 줄 (앱 마켓 영수증 근거). 체험이 아니면 null.
+ * - 진행 중: "2027년 10월 16일부터 매달 7,500원이 자동으로 나가요" (이후 금액을 모르면 "유료로 바뀌어요")
+ * - 종료일이 지났는데 유료 결제 영수증이 없으면: 해지했는지 확인을 부탁해요.
+ */
+export function trialLine(sub: Pick<Subscription, "trial" | "interval">, today: string): { title: string; detail: string; ended: boolean } | null {
+  if (!sub.trial) return null;
+  const [year, month, day] = sub.trial.end.split("-").map(Number);
+  const date = `${year}년 ${month}월 ${day}일`;
+  if (sub.trial.end < today) {
+    return { title: "무료 체험 기간이 끝났어요", detail: `${date}에 끝났는데 유료 결제 영수증은 아직 못 찾았어요. 해지했는지 확인해 보세요.`, ended: true };
+  }
+  const after = sub.trial.price_after === null ? "유료로 바뀌어요" : `${intervalLabel(sub.interval)} ${won(sub.trial.price_after)}이 자동으로 나가요`;
+  return { title: "무료 체험 중이에요", detail: `${date}부터 ${after}. 안 쓸 거라면 그 전에 해지하세요.`, ended: false };
 }
 
 export interface CheckNote {

@@ -58,37 +58,51 @@ export function detectSubscriptionCandidates(
     groups.set(key, clusters);
   }
 
-  const candidates: SubscriptionCandidate[] = [];
+  const candidates: { candidate: SubscriptionCandidate; groupKey: string; firstDate: string; lastDate: string }[] = [];
   for (const [groupKey, clusters] of groups) {
     for (const cluster of clusters) {
       const first = cluster[0];
       const last = cluster[cluster.length - 1];
-      let interval: Interval;
+      // 앱 마켓 영수증이 자동 갱신을 명시했으면(renewal) 결제가 한 번뿐이어도 구독 후보예요.
+      // 주기는 영수증에 적힌 값을 우선하고, 적혀 있지 않으면 기존 규칙(간격·연간 요금제)으로만 정해요.
+      const receiptInterval = cluster.map((transaction) => transaction.renewal?.interval ?? null).filter((value) => value !== null).at(-1) ?? null;
+      let interval: Interval | null = null;
       if (cluster.length >= 2) {
         const gaps = cluster.slice(1).map((transaction, index) =>
           (utcDate(transaction.date).getTime() - utcDate(cluster[index].date).getTime()) / DAY_MS);
         const typicalGap = median(gaps);
-        if (typicalGap < 25 || typicalGap > 35) continue;
-        interval = "monthly";
+        if (typicalGap >= 25 && typicalGap <= 35) interval = "monthly";
       } else {
         const name = normalize(first.raw_name);
         const matchesYearlyPlan = services.some((service) =>
           service.aliases.some((alias) => normalize(alias) === name) &&
           service.plans.some((plan) => plan.interval === "yearly" && plan.price !== null && plan.price === first.amount));
-        if (!matchesYearlyPlan) continue;
-        interval = "yearly";
+        if (matchesYearlyPlan) interval = "yearly";
       }
+      if (receiptInterval) interval = receiptInterval;
+      if (!interval) continue;
 
-      candidates.push(SubscriptionCandidateSchema.parse({
-        key: `${groupKey}|${first.amount}|${interval}`,
-        raw_name: last.raw_name,
-        amount: last.amount,
-        interval,
-        payment_method: last.payment_method,
-        transaction_ids: cluster.map((transaction) => transaction.id),
-        next_date: nextDate(last.date, interval),
-      }));
+      // 다음 결제일: 무료 체험 종료일 → 영수증의 갱신 예정일 → 마지막 결제일 + 주기 순서로 써요.
+      const renewal = last.renewal;
+      const trial = renewal?.trial_end && last.amount === 0 ? { end: renewal.trial_end, price_after: renewal.price_after_trial } : undefined;
+      candidates.push({
+        groupKey, firstDate: first.date, lastDate: last.date,
+        candidate: SubscriptionCandidateSchema.parse({
+          key: `${groupKey}|${first.amount}|${interval}`,
+          raw_name: last.raw_name,
+          amount: last.amount,
+          interval,
+          payment_method: last.payment_method,
+          transaction_ids: cluster.map((transaction) => transaction.id),
+          next_date: trial?.end ?? renewal?.next_date ?? nextDate(last.date, interval),
+          ...(trial ? { trial } : {}),
+        }),
+      });
     }
   }
-  return candidates.sort((left, right) => compareText(left.key, right.key));
+  // 무료 체험이 끝나고 같은 서비스가 유료로 결제됐다면, 지난 무료 체험 후보는 빼요.
+  const converted = candidates.filter((entry) => entry.candidate.trial && candidates.some((other) =>
+    other.groupKey === entry.groupKey && !other.candidate.trial && other.candidate.amount > 0 && other.lastDate >= entry.firstDate));
+  return candidates.filter((entry) => !converted.includes(entry)).map((entry) => entry.candidate)
+    .sort((left, right) => compareText(left.key, right.key));
 }
