@@ -51,6 +51,7 @@ export const UserProfileSchema = z.strictObject({
   status: z.enum(["재학", "휴학", "대학원", "졸업예정", "기타"]),
   school_email: z.boolean(),
   grade: z.number().optional(),
+  age_18_plus: z.boolean().optional(),
 });
 
 export const SubscriptionSchema = z.strictObject({
@@ -139,7 +140,7 @@ export const BenefitResultSchema = z.strictObject({
   id: requiredText,
   eligible: z.enum(["yes", "no", "unknown"]),
   quoted_conditions: z.array(z.string()),
-  missing_info: z.array(z.enum(["school", "status", "school_email", "grade", "other"])),
+  missing_info: z.array(z.enum(["school", "status", "school_email", "grade", "age", "other"])),
   reason: z.string(),
   source_url: webUrl,
   checked_at: date,

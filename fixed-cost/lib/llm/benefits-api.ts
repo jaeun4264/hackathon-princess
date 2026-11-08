@@ -68,7 +68,7 @@ export function createBenefitsHandler(options: { getCatalog?: () => Catalog; llm
       // 원문 프로필은 저장하지 않아요. 조건·출처 변경도 캐시를 무효화해요.
       const user = parsed.data.user;
       const key = createHash("sha256").update(JSON.stringify([target.kind, target.item,
-        [user.school, user.status, user.school_email, user.grade ?? null]])).digest("hex");
+        [user.school, user.status, user.school_email, user.grade ?? null, user.age_18_plus ?? null]])).digest("hex");
       const timestamp = now();
       for (const [id, entry] of cache) if (entry.expires <= timestamp) cache.delete(id);
       const cached = cache.get(key);

@@ -215,6 +215,7 @@ export interface UserProfile {
   status: '재학' | '휴학' | '대학원' | '졸업예정' | '기타';
   school_email: boolean;     // 학교 이메일 인증 가능 여부
   grade?: number;
+  age_18_plus?: boolean;     // 만 18세 이상이라고 본인이 답했는지. 생년월일·나이는 받지 않아요. 없으면 모름
 }
 
 // ---------- 구독 ----------
@@ -302,7 +303,7 @@ export interface BenefitResult {
   id: string;
   eligible: 'yes' | 'no' | 'unknown';
   quoted_conditions: string[];
-  missing_info: ('school' | 'status' | 'school_email' | 'grade' | 'other')[];
+  missing_info: ('school' | 'status' | 'school_email' | 'grade' | 'age' | 'other')[];
   reason: string;
   source_url: string;
   checked_at: string;
@@ -380,7 +381,7 @@ export interface Suggestion {
     id: string;
     eligible: 'yes' | 'no' | 'unknown';
     quoted_conditions: string[];    // 조건 원문에서 그대로 따온 문장 (서버가 원문에 있는지 검증함)
-    missing_info: ('school' | 'status' | 'school_email' | 'grade' | 'other')[];
+    missing_info: ('school' | 'status' | 'school_email' | 'grade' | 'age' | 'other')[];
     reason: string;
     source_url: string;
     checked_at: string;
