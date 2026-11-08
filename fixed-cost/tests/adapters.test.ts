@@ -150,8 +150,9 @@ describe("Gmail", () => {
   it("카탈로그 도메인과 키워드로만 검색어를 만들고 검색 문법 주입을 제외해요", () => {
     const catalog = loadCatalog();
     catalog.services[0].email_domains = ["billing.example.invalid", "BILLING.EXAMPLE.INVALID", "evil.invalid} after:1900/01/01 {"];
-    expect(buildGmailQuery(catalog)).toBe("newer_than:6m {from:billing.example.invalid 영수증 결제 receipt invoice payment}");
-    expect(buildGmailQuery(loadCatalog())).toBe("newer_than:6m {영수증 결제 receipt invoice payment}");
+    const stores = "from:no_reply@email.apple.com from:googleplay-noreply@google.com";
+    expect(buildGmailQuery(catalog)).toBe(`newer_than:6m {from:billing.example.invalid ${stores} 영수증 결제 receipt invoice payment}`);
+    expect(buildGmailQuery(loadCatalog())).toBe(`newer_than:6m {${stores} 영수증 결제 receipt invoice payment}`);
     expect(loadCatalog().services[0].email_domains).toEqual([]);
   });
 

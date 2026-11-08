@@ -20,7 +20,22 @@ export interface GmailMessageLite {
 
 export interface GmailParseResult {
   transactions: Transaction[];
-  skipped: { message_id: string; reason: 'no_amount' | 'foreign_currency' | 'not_receipt' | 'duplicate' }[];
+  // one_time: 앱 마켓 영수증의 단건 구매(앱 내 구입)
+  skipped: { message_id: string; reason: 'no_amount' | 'foreign_currency' | 'not_receipt' | 'duplicate' | 'one_time' }[];
+}
+
+// 앱 마켓 영수증이 "자동 갱신"을 직접 적었을 때만 있어요. 값은 영수증에 적힌 것만 넣고 모르면 null.
+export interface Renewal {
+  interval: Interval | null;         // '(월간)'·'(연간)'·'매월' 등이 적혀 있을 때만
+  next_date: string | null;          // 영수증의 다음 갱신일 'YYYY-MM-DD'
+  trial_end: string | null;          // 무료 체험 종료일 'YYYY-MM-DD' (무료 체험일 때만)
+  price_after_trial: number | null;  // 무료 체험 뒤 청구될 금액 (영수증에 적힌 값, 원)
+}
+
+// 무료 체험 중인 구독. amount·monthly_amount는 0원이에요 (아직 나간 돈이 없어서 합계·절약액에 넣지 않아요).
+export interface TrialInfo {
+  end: string;                       // 무료 체험 종료일 = 첫 결제 예정일
+  price_after: number | null;        // 그때부터 청구될 금액 (영수증에 적힌 값)
 }
 
 export interface Transaction {
@@ -35,6 +50,8 @@ export interface Transaction {
   original_currency?: 'USD' | 'EUR' | 'JPY' | 'GBP';
   original_amount?: number;  // 영수증의 원래 금액 (예: 20.00)
   fx_date?: string;          // 환산에 쓴 환율 기준일 'YYYY-MM-DD'
+  // 앱 마켓 영수증이 자동 갱신을 명시했을 때만. 이게 있으면 결제가 한 번뿐이어도 구독 후보가 돼요. 브라우저 밖으로 보내지 않아요.
+  renewal?: Renewal;
 }
 
 export interface UserProfile {
@@ -61,6 +78,7 @@ export interface Subscription {
   needs_check: boolean;            // true면 화면에 '확인 필요' 표시
   user_confirmed: boolean;
   evidence_transaction_ids: string[];
+  trial?: TrialInfo;               // 무료 체험 중일 때만 (앱 마켓 영수증 근거)
 }
 
 export interface SubscriptionCandidate {   // F2 출력 (아직 해석 전)
@@ -71,6 +89,7 @@ export interface SubscriptionCandidate {   // F2 출력 (아직 해석 전)
   payment_method: string;
   transaction_ids: string[];
   next_date: string | null;
+  trial?: TrialInfo;
 }
 
 // ---------- 카탈로그 (data/catalog/*.json) ----------

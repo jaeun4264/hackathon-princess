@@ -2,6 +2,7 @@ import { loadCatalog } from "../catalog";
 import { CatalogServiceSchema, GmailMessageLiteSchema, GmailParseResultSchema, TransactionSchema } from "../schemas";
 import type { CatalogService, GmailMessageLite, GmailParseResult } from "../types";
 import type { InputAdapter } from "./types";
+import { parseStoreReceipt, STORE_SENDER_ADDRESSES, storeOf } from "./store-receipts";
 import { parseWonAmount } from "./validation";
 
 const receiptWords = /영수증|결제|\b(?:receipt|invoice|payment)\b/iu;
@@ -20,7 +21,7 @@ function matchesDomain(sender: string, allowed: string): boolean {
 
 export function buildGmailQuery(catalog: GmailCatalog): string {
   const services = CatalogServiceSchema.array().parse(catalog.services);
-  const senders = domains({ services }).map((domain) => `from:${domain}`);
+  const senders = [...domains({ services }), ...STORE_SENDER_ADDRESSES].map((sender) => `from:${sender}`);
   return `newer_than:6m {${[...senders, "영수증", "결제", "receipt", "invoice", "payment"].join(" ")}}`;
 }
 
@@ -138,6 +139,24 @@ export function parseGmailMessages(messages: GmailMessageLite[], catalog: GmailC
     if (!message.from_name.trim() || (!allowed.some((domain) => matchesDomain(sender, domain)) && !receiptWords.test(text))) {
       result.skipped.push({ message_id: message.id, reason: "not_receipt" }); continue;
     }
+    const parts = Object.fromEntries(seoulDate.formatToParts(new Date(message.received_at)).map((part) => [part.type, part.value]));
+    const seoul = `${parts.year}-${parts.month}-${parts.day}`;
+    // 앱 마켓 영수증: 본문 항목별로 서비스명·금액을 읽고, 구독·무료 체험 항목만 결제로 남겨요 (단건 구매는 빼요).
+    // 영수증이 자동 갱신을 명시하므로 renewal을 붙여요. 무료 체험은 0원 결제 + 종료일·이후 금액이에요.
+    const store = storeOf(message);
+    const storeItems = store ? parseStoreReceipt(store, message.text) : null;
+    if (store && storeItems) {
+      const recurring = storeItems.filter((item) => item.kind !== "one_time");
+      if (recurring.length === 0) { result.skipped.push({ message_id: message.id, reason: "one_time" }); continue; }
+      recurring.forEach((item, index) => {
+        result.transactions.push(TransactionSchema.parse({
+          id: recurring.length === 1 ? `gmail:${message.id}` : `gmail:${message.id}:${index + 1}`,
+          date: seoul, amount: item.amount, currency: "KRW", raw_name: item.name, payment_method: store, source: "gmail",
+          ...(item.renewal ? { renewal: item.renewal } : {}),
+        }));
+      });
+      continue;
+    }
     let amount = extractWon(text);
     let fxFields: { original_currency: ForeignCurrency; original_amount: number; fx_date: string } | null = null;
     if (amount === null) {
@@ -151,8 +170,6 @@ export function parseGmailMessages(messages: GmailMessageLite[], catalog: GmailC
       amount = Math.round(foreign.amount * rate);
       fxFields = { original_currency: foreign.currency, original_amount: foreign.amount, fx_date: options.fx.date };
     }
-    const parts = Object.fromEntries(seoulDate.formatToParts(new Date(message.received_at)).map((part) => [part.type, part.value]));
-    const seoul = `${parts.year}-${parts.month}-${parts.day}`;
     const transaction = TransactionSchema.safeParse({
       id: `gmail:${message.id}`, date: seoul, amount, currency: "KRW", raw_name: message.from_name,
       payment_method: paymentMethod(sender, services), source: "gmail", ...(fxFields ?? {}),

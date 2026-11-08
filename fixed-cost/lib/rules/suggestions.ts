@@ -34,7 +34,8 @@ export function buildSuggestions(input: { subs: Subscription[]; benefitResults: 
     const service = catalog.services.find((entry) => entry.id === sub.service_id);
     if (!service || !isConfirmed(sub)) continue;
     if (sub.usage === "rarely") {
-      output.push(suggestion(sub, service, "cancel", sub.monthly_amount, input.today));
+      // 무료 체험(0원)은 아직 나가는 돈이 없어 '0원 절약' 제안을 만들지 않아요. 체험 종료 안내는 화면이 따로 보여 줘요.
+      if (sub.monthly_amount > 0) output.push(suggestion(sub, service, "cancel", sub.monthly_amount, input.today));
     } else if (sub.usage === "often") {
       const alternatives: Suggestion[] = [];
       for (const benefit of catalog.benefits.filter((entry) => entry.service_id === service.id)) {

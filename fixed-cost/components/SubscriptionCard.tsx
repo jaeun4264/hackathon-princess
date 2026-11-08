@@ -1,6 +1,7 @@
 "use client";
 import type { CheckNote } from "@/lib/client/confirm";
-import { amountLine } from "@/lib/client/confirm";
+import { amountLine, trialLine } from "@/lib/client/confirm";
+import { todayString } from "@/lib/client/today";
 import type { Subscription, Usage } from "@/lib/types";
 import { NeedsCheckBadge, SourceBadge } from "./Badges";
 import { UsageSegment } from "./UsageSegment";
@@ -20,6 +21,7 @@ export function SubscriptionCard({
   onAccept: () => void;
 }) {
   const amount = amountLine(sub);
+  const trial = trialLine(sub, todayString());
   const showRaw = sub.raw_name !== sub.display_name;
   return (
     <article
@@ -38,6 +40,13 @@ export function SubscriptionCard({
           {amount.sub ? <p className="num text-sm text-muted">{amount.sub}</p> : null}
         </div>
       </div>
+
+      {trial ? (
+        <div className="mt-3 rounded-[10px] bg-warning-bg px-4 py-3 text-sm text-warning" role="note">
+          <p className="font-semibold">{trial.title}</p>
+          <p className="mt-0.5">{trial.detail}</p>
+        </div>
+      ) : null}
 
       <div className="mt-3 flex flex-wrap items-center gap-2">
         {note ? <NeedsCheckBadge /> : null}

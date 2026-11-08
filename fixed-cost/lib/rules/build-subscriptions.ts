@@ -47,6 +47,7 @@ export function buildSubscriptions(
       needs_check: known ? result.needs_check || service === undefined : true,
       user_confirmed: false,
       evidence_transaction_ids: cand.transaction_ids,
+      ...(cand.trial ? { trial: cand.trial } : {}),
     }));
   }
   return output;
