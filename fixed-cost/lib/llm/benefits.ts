@@ -7,7 +7,9 @@ import { buildT2Prompt } from "./prompts/t2";
 import type { LlmClient } from "./types";
 
 export type BenefitTarget = { kind: "benefit"; item: CatalogBenefit } | { kind: "bundle"; item: CatalogBundle };
-const missingKeys = ["school", "status", "school_email", "grade", "other"] as const;
+const missingKeys = ["school", "status", "school_email", "grade", "age", "other"] as const;
+// 조건 원문에 만 18세 기준이 있는지 (예: '만 18세 이상', '18세 이상'). 있으면 나이 답 없이는 판정하지 않아요.
+const AGE_18_CONDITION = /(?:만\s*)?18\s*세\s*이상/u;
 const AiBenefitSchema = z.strictObject({ eligible: z.enum(["yes", "no", "unknown"]),
   quoted_conditions: z.array(z.string().max(20000)).max(50), missing_info: z.array(z.string().max(100)).max(20), reason: z.string().max(2000) });
 
@@ -30,6 +32,8 @@ export async function judgeBenefit(target: BenefitTarget, user: UserProfile, llm
   if (user.status === "기타") return unknownBenefit(target, today, "ok", ["status"]);
   // 학년이 언급된 조건은 학년 정보 없이 충족했다고 단정하지 않아요.
   if (user.grade === undefined && target.item.conditions.includes("학년")) return unknownBenefit(target, today, "ok", ["grade"]);
+  // 만 18세 조건은 본인 답(age_18_plus)이 없으면 AI를 부르지 않고 바로 물어봐요 (호출도 아껴요).
+  if (user.age_18_plus === undefined && AGE_18_CONDITION.test(target.item.conditions)) return unknownBenefit(target, today, "ok", ["age"]);
   try {
     const response = await llm.callJson(buildT2Prompt(user, target.item), AiBenefitSchema, { route: "/api/benefits" });
     const parsed = AiBenefitSchema.safeParse(response?.data);

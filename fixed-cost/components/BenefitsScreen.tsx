@@ -2,7 +2,7 @@
 import { useEffect, useMemo, useState } from "react";
 import * as api from "@/lib/api-client";
 import { appCatalog } from "@/lib/client/app-catalog";
-import { benefitsForService, myServiceIds, needsJudgement } from "@/lib/client/benefits";
+import { benefitsForService, myServiceIds, needsJudgement, type AnswerableField } from "@/lib/client/benefits";
 import { useHydrated } from "@/lib/client/guards";
 import { useAppStore } from "@/lib/client/store";
 import { todayString } from "@/lib/client/today";
@@ -56,10 +56,12 @@ export function BenefitsScreen() {
     // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [pendingKey, profile]);
 
-  function onAnswer(benefitId: string, field: "school_email" | "status" | "school", value: string) {
+  function onAnswer(benefitId: string, field: AnswerableField, value: string) {
     if (!profile) return;
     const next: UserProfile =
-      field === "school_email" ? { ...profile, school_email: value === "yes" } : field === "status" ? { ...profile, status: value as UserProfile["status"] } : { ...profile, school: value };
+      field === "school_email" ? { ...profile, school_email: value === "yes" }
+        : field === "age" ? { ...profile, age_18_plus: value === "yes" }
+          : field === "status" ? { ...profile, status: value as UserProfile["status"] } : { ...profile, school: value };
     useAppStore.getState().setProfile(next);
     void judge([benefitId], next); // 답한 카드만 다시 판정
   }

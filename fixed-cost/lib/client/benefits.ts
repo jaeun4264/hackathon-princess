@@ -35,9 +35,13 @@ export const KIND_LABEL: Record<CatalogBenefit["kind"], string> = { student_disc
 
 export type MissingField = BenefitResult["missing_info"][number];
 
-/** 카드 안에서 바로 물을 수 있는 질문 (school_email·status·school). grade·other는 공식 페이지 안내. */
-export function questionFor(field: MissingField): { field: "school_email" | "status" | "school"; text: string } | null {
+/** 카드 안에서 바로 물을 수 있는 질문 필드 */
+export type AnswerableField = "school_email" | "status" | "school" | "age";
+
+/** 카드 안에서 바로 물을 수 있는 질문 (school_email·status·school·age). grade·other는 공식 페이지 안내. */
+export function questionFor(field: MissingField): { field: AnswerableField; text: string } | null {
   if (field === "school_email") return { field, text: "학교 이메일로 인증할 수 있나요?" };
+  if (field === "age") return { field, text: "만 18세 이상인가요?" };
   if (field === "status") return { field, text: "지금 재학 상태가 어떻게 되나요?" };
   if (field === "school") return { field, text: "어느 학교에 다니나요?" };
   return null;

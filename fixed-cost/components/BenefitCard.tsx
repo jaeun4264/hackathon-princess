@@ -1,4 +1,4 @@
-import { KIND_LABEL, questionFor, VERDICT_LABEL, verdictOf, type MissingField } from "@/lib/client/benefits";
+import { KIND_LABEL, questionFor, VERDICT_LABEL, verdictOf, type AnswerableField, type MissingField } from "@/lib/client/benefits";
 import type { BenefitResult, CatalogBenefit } from "@/lib/types";
 
 const VERDICT_TONE = {
@@ -31,7 +31,7 @@ export function BenefitCard({
   benefit: CatalogBenefit;
   result: BenefitResult | undefined;
   loading?: boolean;
-  onAnswer?: (field: "school_email" | "status" | "school", value: string) => void;
+  onAnswer?: (field: AnswerableField, value: string) => void;
 }) {
   const verdict = verdictOf(result);
   const stale = result?.stale ?? false;
@@ -96,12 +96,12 @@ function InlineQuestion({
   text,
   onAnswer,
 }: {
-  field: "school_email" | "status" | "school";
+  field: AnswerableField;
   text: string;
-  onAnswer: (field: "school_email" | "status" | "school", value: string) => void;
+  onAnswer: (field: AnswerableField, value: string) => void;
 }) {
   const options =
-    field === "school_email"
+    field === "school_email" || field === "age"
       ? [{ value: "yes", label: "예" }, { value: "no", label: "아니오" }]
       : field === "status"
         ? ["재학", "휴학", "대학원", "졸업예정", "기타"].map((value) => ({ value, label: value }))
