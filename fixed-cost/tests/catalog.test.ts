@@ -3,6 +3,8 @@ import { CatalogValidationError, loadCatalog, validateCatalog } from "../lib/cat
 import { CatalogBenefitSchema } from "../lib/schemas";
 import type { Catalog } from "../lib/types";
 import mock from "../data/catalog/benefits.mock.json";
+import { benefitTargets } from "../lib/client/derive";
+import type { Subscription } from "../lib/types";
 import { runValidation } from "../scripts/validate-catalog";
 
 function fixture(): Catalog {
@@ -20,12 +22,19 @@ function fixture(): Catalog {
 
 afterEach(() => vi.restoreAllMocks());
 
+it("고려대 멀티 LLM은 고려대학교로 답한 사용자의 판정 대상에만 들어가요", () => {
+  const subs = [{ service_id: "chatgpt", needs_check: false }] as Subscription[];
+  const target = (school: string) => benefitTargets(subs, { school, status: "재학", school_email: true }, loadCatalog()).map((entry) => entry.id);
+  expect(target("고려대학교")).toEqual(["ku_multi_llm_chatgpt"]);
+  expect(target("이화여자대학교")).toEqual([]);
+});
+
 it("실제 로더에는 확인된 서비스·혜택만 있고 mock 혜택은 섞이지 않아요", () => {
   const catalog = loadCatalog();
   expect(catalog.services.map((service) => service.id)).toEqual([
-    "netflix", "tving", "icloud", "daglo", "kakao_emoticon_plus", "goodnotes", "naver_plus", "spotify", "notion", "apple_music", "google_ai_plus",
+    "netflix", "tving", "icloud", "daglo", "kakao_emoticon_plus", "goodnotes", "naver_plus", "spotify", "notion", "apple_music", "figma", "github_copilot", "jetbrains", "chatgpt", "google_ai_plus",
   ]);
-  expect(catalog.benefits.map((benefit) => benefit.id)).toEqual(["spotify_premium_student", "notion_education_plan", "apple_music_student", "google_ai_plus_student"]);
+  expect(catalog.benefits.map((benefit) => benefit.id)).toEqual(["spotify_premium_student", "notion_education_plan", "apple_music_student", "figma_education_plan", "github_copilot_student", "jetbrains_student_pack", "ku_multi_llm_chatgpt", "ku_multi_llm_gemini", "google_ai_plus_student"]);
   expect(catalog.benefits.some((benefit) => benefit.source_url.includes("example.invalid"))).toBe(false);
   expect(catalog.bundles).toEqual([]);
   expect(catalog.services.find((service) => service.id === "tving")?.plans[0].price).toBeNull();
@@ -93,7 +102,7 @@ it("스키마 오류에 가격 필드와 파일명을 포함해요", () => {
 it("CLI는 유효한 카탈로그에서 성공 코드와 요약을 반환해요", () => {
   const log = vi.spyOn(console, "log").mockImplementation(() => {});
   expect(runValidation()).toBe(0);
-  expect(log).toHaveBeenCalledWith(expect.stringContaining("서비스 11개, 혜택 4개, 묶음 0개"));
+  expect(log).toHaveBeenCalledWith(expect.stringContaining("서비스 15개, 혜택 9개, 묶음 0개"));
 });
 
 it("CLI는 conditions가 빈 실제 형식의 혜택에서 실패 코드 1을 반환해요", () => {

@@ -33,6 +33,61 @@
     "checked_at": "2026-11-07"
   },
   {
+    "id": "figma_education_plan",
+    "service_id": "figma",
+    "kind": "student_discount",
+    "school": null,
+    "conditions": "고등 교육기관, 승인된 부트캠프 또는 중고등학교에 등록된 학생과 교육자는 프로페셔널 요금제를 이용할 수 있습니다.\n교육 자격을 신청하려면 기존 Figma 계정이 필요합니다.\n학교 발급 이메일 주소로 직접 신청하고, 기관 유형에서 고등 교육기관을 선택한 후 SheerID 인증 과정을 완료하세요.\n이메일 주소의 도메인이 학교 기관의 도메인과 일치해야 합니다.\n학생은 1년, 교육자는 2년입니다.\n1년 후에도 학생 또는 교육자 신분을 유지하고 있으면 교육 자격을 다시 신청해야 합니다.",
+    "benefit_text": "교육 요금제: 프로페셔널 무료 (학생은 1년마다 재신청)",
+    "price_after_monthly": 0,
+    "source_url": "https://help.figma.com/hc/ko/articles/360041061214",
+    "checked_at": "2026-11-09"
+  },
+  {
+    "id": "github_copilot_student",
+    "service_id": "github_copilot",
+    "kind": "student_discount",
+    "school": null,
+    "conditions": "Verified students on GitHub Education get free access to Copilot's features.\nFollow the prompts to activate Copilot Student, configuring the Copilot use policies to meet your needs.\nGitHub reevaluates your eligibility every month.",
+    "benefit_text": "Copilot Student 플랜 무료 (Copilot Pro와는 다른 플랜)",
+    "price_after_monthly": 0,
+    "source_url": "https://docs.github.com/en/copilot/how-tos/copilot-on-github/set-up-copilot/enable-copilot/set-up-for-students",
+    "checked_at": "2026-11-09"
+  },
+  {
+    "id": "jetbrains_student_pack",
+    "service_id": "jetbrains",
+    "kind": "student_discount",
+    "school": null,
+    "conditions": "Students and faculty members from accredited educational institutions (high schools, colleges, and universities) are welcome to apply.\nStudents need to be enrolled in an accredited educational program that takes one or more years of full-time study to complete.",
+    "benefit_text": "JetBrains Student Pack 무료 (상업적 작업에는 사용 불가)",
+    "price_after_monthly": 0,
+    "source_url": "https://sales.jetbrains.com/hc/en-gb/articles/11557849416594-Who-is-eligible-for-free-individual-educational-licenses",
+    "checked_at": "2026-11-09"
+  },
+  {
+    "id": "ku_multi_llm_chatgpt",
+    "service_id": "chatgpt",
+    "kind": "school_license",
+    "school": "고려대학교",
+    "conditions": "본 서비스에서는 GPT, Gemini 등 다양한 LLM 모델을 하나의 플랫폼에서 편리하게 이용할 수 있으며, LLM 채팅부터 챗봇, 이미지·PPT 생성 등 다양한 AI 기능을 제공합니다.\n이용대상: 고려대학교 서울캠퍼스에 재학·재직 중인 학생·직원·교원\n1인당 월별 제공 크레딧 기준: (학생) 3,000크레딧 / (직원) 5,000크레딧 / (교원) 10,000크레딧\n서비스 운영 과정에서 이용 현황 및 구성원 의견 등을 종합적으로 검토하여 크레딧 제공 기준은 변경될 수 있습니다.\n크레딧은 매월 1일 리셋되며, 초과 사용분은 별도 개인 결제 후 이용 가능\n무료 모델(GPT-5 nano, SAIT 2 Pro)을 제공하여 기본적인 AI 기능을 자유롭게 이용할 수 있습니다.",
+    "benefit_text": "고려대 멀티 LLM (학생 월 3,000크레딧 제공, 초과분은 개인 결제)",
+    "price_after_monthly": 0,
+    "source_url": "https://llm.korea.ac.kr",
+    "checked_at": "2026-11-09"
+  },
+  {
+    "id": "ku_multi_llm_gemini",
+    "service_id": "google_ai_plus",
+    "kind": "school_license",
+    "school": "고려대학교",
+    "conditions": "본 서비스에서는 GPT, Gemini 등 다양한 LLM 모델을 하나의 플랫폼에서 편리하게 이용할 수 있으며, LLM 채팅부터 챗봇, 이미지·PPT 생성 등 다양한 AI 기능을 제공합니다.\n이용대상: 고려대학교 서울캠퍼스에 재학·재직 중인 학생·직원·교원\n1인당 월별 제공 크레딧 기준: (학생) 3,000크레딧 / (직원) 5,000크레딧 / (교원) 10,000크레딧\n서비스 운영 과정에서 이용 현황 및 구성원 의견 등을 종합적으로 검토하여 크레딧 제공 기준은 변경될 수 있습니다.\n크레딧은 매월 1일 리셋되며, 초과 사용분은 별도 개인 결제 후 이용 가능\n무료 모델(GPT-5 nano, SAIT 2 Pro)을 제공하여 기본적인 AI 기능을 자유롭게 이용할 수 있습니다.",
+    "benefit_text": "고려대 멀티 LLM (학생 월 3,000크레딧 제공, 초과분은 개인 결제)",
+    "price_after_monthly": 0,
+    "source_url": "https://llm.korea.ac.kr",
+    "checked_at": "2026-11-09"
+  },
+  {
     "id": "google_ai_plus_student",
     "service_id": "google_ai_plus",
     "kind": "student_discount",

@@ -50,3 +50,17 @@ BACKEND.md 4부 1절에서 초기 입력을 허용한 7개 서비스만 넣었�
 
 - TODO(팀): Google AI Plus 학생 혜택은 2027-01-01부터 신청 기한이 지나므로 카탈로그에서 빼야 해요
 - TODO(팀): 네이버플러스 멤버십 디지털 콘텐츠(넷플릭스·티빙) 묶음 조건 원문을 브라우저로 직접 확인해 bundles.json에 추가
+
+## 2026-11-09 공식 페이지 확인분
+
+조건 문장은 공식 페이지 원본 텍스트와 글자 단위로 대조했어요. 세 서비스는 원화 정가를 확인하지 못해 `plans`를 비워 뒀어요. `price: null` 요금제가 있으면 금액과 상관없이 T1 후보에 들어가기 때문이에요. 별칭 매칭은 그대로 되고, 절약액은 사용자의 실제 결제 금액으로 계산돼요.
+
+| 항목 | 값 | 출처 |
+| --- | --- | --- |
+| 피그마 교육 요금제 | 고등 교육기관 학생 프로페셔널 무료, 학교 이메일과 SheerID 인증, 1년마다 재신청 | https://help.figma.com/hc/ko/articles/360041061214 |
+| GitHub Copilot Student | GitHub Education 인증 학생 무료, 매월 자격 재평가. Copilot Pro와는 다른 플랜 | https://docs.github.com/en/copilot/how-tos/copilot-on-github/set-up-copilot/enable-copilot/set-up-for-students |
+| JetBrains Student Pack | 1년 이상 정규 과정의 인가 교육기관 학생 무료. 상업적 작업 사용 불가는 다음 FAQ 기준: https://sales.jetbrains.com/hc/en-gb/articles/207241195 | https://sales.jetbrains.com/hc/en-gb/articles/11557849416594-Who-is-eligible-for-free-individual-educational-licenses |
+
+고려대 멀티 LLM(`ku_multi_llm_*`)은 로그인해야 보이는 서비스 안 공지(2026-09-08 게시)를 팀원이 캡처해 준 화면에서 옮겼어요. 공지에 이름이 나온 GPT와 Gemini만 ChatGPT, Google AI Plus에 연결했고, 기본 크레딧에 별도 비용이 있다는 안내가 없어 `price_after_monthly`는 0이에요.
+
+확인했지만 넣지 않은 것: 어도비 학생 요금은 11월 13일 종료 특가이고 첫해 금액이 페이지마다 달라요(월 21,000원과 월 30,300원). Office 365 A1은 Microsoft 365 Personal을 대체할 수 있는지 확인하지 못했어요.

@@ -60,6 +60,30 @@
     "cancel_url": null, "checked_at": "2026-11-07"
   },
   {
+    "id": "figma", "name": "피그마", "category": "디자인",
+    "aliases": ["피그마", "Figma"], "email_domains": [],
+    "plans": [],
+    "cancel_url": null, "checked_at": null
+  },
+  {
+    "id": "github_copilot", "name": "GitHub Copilot", "category": "AI",
+    "aliases": ["GitHub Copilot", "깃허브 코파일럿"], "email_domains": [],
+    "plans": [],
+    "cancel_url": null, "checked_at": null
+  },
+  {
+    "id": "jetbrains", "name": "JetBrains", "category": "개발",
+    "aliases": ["JetBrains", "제트브레인"], "email_domains": [],
+    "plans": [],
+    "cancel_url": null, "checked_at": null
+  },
+  {
+    "id": "chatgpt", "name": "ChatGPT", "category": "AI",
+    "aliases": ["ChatGPT", "챗GPT"], "email_domains": [],
+    "plans": [],
+    "cancel_url": null, "checked_at": null
+  },
+  {
     "id": "google_ai_plus", "name": "Google AI Plus", "category": "AI",
     "aliases": ["Google AI Plus", "구글 AI 플러스"], "email_domains": [],
     "plans": [{ "id": "monthly", "name": "Google AI Plus", "price": 7500, "interval": "monthly" }],
