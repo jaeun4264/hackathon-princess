@@ -1,7 +1,9 @@
 import { describe, expect, it, vi } from "vitest";
 import { listSamples, sampleAdapter } from "../../adapters/sample";
 import { loadCatalog } from "../../catalog";
+import { savingsTotal, unconfirmedSubscriptions } from "../derive";
 import { importFromGmail, summarizeSkipped } from "../gmail";
+import { splitSuggestions } from "../report";
 import { analyzeTransactions, createManualSubscription, foreignOrigin, runAnalysis, runInterpret } from "../pipeline";
 import { createAppStore, createSafeStorage } from "../store";
 
@@ -122,6 +124,21 @@ describe("파이프라인 4~5단계 (runAnalysis)", () => {
     const cancel = state.suggestions.find((entry) => entry.type === "cancel")!;
     expect(cancel).toMatchObject({ saving_monthly: 13500, saving_yearly: 162000, message_source: "ai" });
     expect(cancel.message).not.toMatch(/[0-9]/); // 모의 AI 문장에는 숫자가 없어요
+  });
+
+  it("목록에 없는 서비스를 직접 추가하고 거의 안 쓴다고 하면 리포트 제안과 절감액에 들어가요", async () => {
+    const store = newStore();
+    const manual = createManualSubscription({ name: "Instagram Plus", amount: 3299, interval: "monthly", serviceId: null });
+    store.getState().setSubscriptions([manual]);
+    store.getState().setUsage(manual.id, "rarely");
+    store.getState().setProfile({ school: "고려대학교", status: "재학", school_email: true });
+    expect(store.getState().confirmAll()).toBe(true);
+    await runAnalysis({ store, apiOptions: mock, today: "2026-11-07" });
+    const state = store.getState();
+    expect(state.suggestions).toMatchObject([{ type: "cancel", saving_monthly: 3299, saving_yearly: 39588, subscription_ids: [manual.id] }]);
+    expect(savingsTotal(state.suggestions).monthly).toBe(3299);
+    expect(unconfirmedSubscriptions(state.subscriptions)).toEqual([]);
+    expect(splitSuggestions(state.suggestions).actionable).toHaveLength(1);
   });
 
   it("서버가 죽어도 규칙 제안과 기본 문장으로 끝까지 가요", async () => {

@@ -1,4 +1,5 @@
 // S2 홈 숫자 계산 (화면에서 직접 더하지 않게 여기 둬요). 모두 순수 함수예요.
+import { isConfirmedSubscription } from "../rules";
 import type { BenefitResult, Catalog, Subscription, Suggestion, UserProfile } from "../types";
 
 const SAVING_TYPES = new Set<Suggestion["type"]>(["cancel", "student_discount", "school_license", "bundle"]);
@@ -29,7 +30,7 @@ export function rankedSuggestions(suggestions: Suggestion[]): Suggestion[] {
 
 /** 사용자가 서비스를 확인하지 않아 제안에서 빠진 구독 (규칙은 확인된 구독만 제안해요). */
 export function unconfirmedSubscriptions(subs: Subscription[]): Subscription[] {
-  return subs.filter((sub) => sub.service_id === null || sub.needs_check || !(sub.interpret_source === "catalog" || sub.user_confirmed));
+  return subs.filter((sub) => !isConfirmedSubscription(sub));
 }
 
 /**
