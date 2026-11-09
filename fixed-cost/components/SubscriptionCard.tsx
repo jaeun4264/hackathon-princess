@@ -32,7 +32,7 @@ export function SubscriptionCard({
         <div className="min-w-0 flex-1">
           <h3 className="truncate text-base font-semibold">{sub.display_name}</h3>
           <p className="mt-0.5 truncate text-sm text-muted">
-            {showRaw ? <>결제 표기 {sub.raw_name}</> : sub.service_id ? sub.category : "서비스 확인 전"}
+            {showRaw ? <>결제 표기 {sub.raw_name}</> : sub.service_id || sub.user_confirmed ? sub.category : "서비스 확인 전"}
           </p>
         </div>
         <div className="text-right">

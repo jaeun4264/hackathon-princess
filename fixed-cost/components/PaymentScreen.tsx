@@ -8,6 +8,8 @@ import { useHydrated } from "@/lib/client/guards";
 import { decodeSubscriptionId, evidencePayments, paymentAmount, reasonText, statementLine } from "@/lib/client/payment";
 import { foreignOrigin } from "@/lib/client/pipeline";
 import { useAppStore } from "@/lib/client/store";
+import { todayString } from "@/lib/client/today";
+import type { Subscription } from "@/lib/types";
 import { AppBar } from "./AppBar";
 import { confidenceLevel, NeedsCheckBadge, SourceBadge } from "./Badges";
 import { EditSubscriptionSheet } from "./EditSubscriptionSheet";
@@ -69,10 +71,17 @@ export function PaymentScreen() {
   const payments = evidencePayments(sub, transactions);
   const note = checkNote(sub, { suggestedServiceId: suggested[sub.id] ?? null, services, transactions });
   const origin = foreignOrigin(sub, transactions);
-  const known = sub.service_id !== null && !sub.needs_check;
+  // 목록에 없는 서비스도 사용자가 확인했으면 확인된 결제예요.
+  const known = (sub.service_id !== null || sub.user_confirmed) && !sub.needs_check;
+
+  // 여기서 확인·수정하면 홈과 리포트의 절감액에 바로 반영돼요 (AI를 부르지 않는 규칙 계산이에요).
+  function applyAndRebuild(patch: Partial<Subscription>) {
+    updateSubscription(sub!.id, patch);
+    useAppStore.getState().rebuildSuggestions(todayString());
+  }
 
   function onSave(input: EditInput) {
-    updateSubscription(sub!.id, applyEdit(sub!, input, services));
+    applyAndRebuild(applyEdit(sub!, input, services));
     setEditing(false);
   }
 
@@ -115,7 +124,7 @@ export function PaymentScreen() {
               혹시 <span className="font-semibold">{note.suggestion.name}</span>인가요?
             </p>
             <div className="mt-2 grid grid-cols-2 gap-2">
-              <button type="button" onClick={() => updateSubscription(sub.id, acceptSuggestion(sub, note.suggestion!))} className="min-h-12 rounded-[10px] bg-primary font-semibold text-primary-fg active:scale-[0.98]">
+              <button type="button" onClick={() => applyAndRebuild(acceptSuggestion(sub, note.suggestion!))} className="min-h-12 rounded-[10px] bg-primary font-semibold text-primary-fg active:scale-[0.98]">
                 맞아요
               </button>
               <button type="button" onClick={() => setEditing(true)} className="min-h-12 rounded-[10px] border border-control bg-surface font-semibold active:scale-[0.98]">

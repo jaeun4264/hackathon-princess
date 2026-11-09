@@ -1,4 +1,5 @@
 import { describe, expect, it } from "vitest";
+import { appCatalog } from "../app-catalog";
 import { createAppStore, createSafeStorage, STORE_KEY } from "../store";
 import type { Subscription, Suggestion } from "../../types";
 
@@ -110,5 +111,36 @@ describe("app store", () => {
     expect(store.getState().suggestions[0]).toMatchObject({ action_status: "kept", keep_reason: "maybe_later" });
     store.getState().setAction("s1", "done", "maybe_later");
     expect(store.getState().suggestions[0]).toMatchObject({ action_status: "done", keep_reason: null });
+  });
+});
+
+describe("rebuildSuggestions: 사용자가 확인·수정한 뒤", () => {
+  const today = "2026-11-08";
+  const catalog = appCatalog(true);
+  const instagram = sub("instagram", { service_id: null, display_name: "Instagram Plus", raw_name: "Instagram Plus", category: "기타", amount: 3299, monthly_amount: 3299,
+    usage: "rarely", interpret_source: "unknown", needs_check: true, confidence: 0 });
+
+  it("목록에 없는 서비스를 확인하면 다시 계산할 때 해지 제안이 생겨요", () => {
+    const store = createAppStore(createSafeStorage(blocked));
+    store.getState().setSubscriptions([instagram]);
+    store.getState().rebuildSuggestions(today, catalog);
+    expect(store.getState().suggestions).toEqual([]);
+    store.getState().updateSubscription("instagram", { needs_check: false, user_confirmed: true, interpret_source: "user" });
+    store.getState().rebuildSuggestions(today, catalog);
+    expect(store.getState().suggestions).toMatchObject([{ type: "cancel", saving_monthly: 3299 }]);
+  });
+
+  it("금액이 같으면 AI 문장을 유지하고, 바뀌면 규칙 문장으로 돌아가요", () => {
+    const store = createAppStore(createSafeStorage(blocked));
+    store.getState().setSubscriptions([{ ...instagram, needs_check: false, user_confirmed: true, interpret_source: "user" }]);
+    store.getState().rebuildSuggestions(today, catalog);
+    const id = store.getState().suggestions[0].id;
+    store.getState().setSuggestionMessage(id, "AI 문장 월 3,299원", "ai");
+    store.getState().rebuildSuggestions(today, catalog);
+    expect(store.getState().suggestions[0]).toMatchObject({ message: "AI 문장 월 3,299원", message_source: "ai" });
+    store.getState().updateSubscription("instagram", { amount: 4900, monthly_amount: 4900 });
+    store.getState().rebuildSuggestions(today, catalog);
+    expect(store.getState().suggestions[0]).toMatchObject({ saving_monthly: 4900, message_source: "fallback" });
+    expect(store.getState().suggestions[0].message).not.toContain("3,299");
   });
 });
