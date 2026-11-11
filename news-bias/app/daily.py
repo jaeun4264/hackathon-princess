@@ -105,16 +105,22 @@ def collect_all(cfg: dict, collect_fn=None) -> list[dict]:
 
 
 # ---------- 3. AI 확인 ----------
-def describe_issue(llm: dict, members: list[dict], client: httpx.Client) -> dict | None:
+def describe_issue_raw(llm: dict, members: list[dict], client: httpx.Client) -> dict | None:
+    """AI 응답 그대로 (same_event, exclude 는 앞 25건의 1부터 시작하는 번호). 실패하면 None"""
     shown = members[:25]
     lines = "\n".join(f"{i}. [{a['outlet']}] {a['title']} — {a.get('summary', '')[:120]}" for i, a in enumerate(shown, 1))
     try:
         text = A.call_llm(llm, ISSUE_PROMPT, lines, client)
         m = re.search(r"\{.*\}", text, re.S)
-        info = json.loads(m.group(0)) if m else None
+        return json.loads(m.group(0)) if m else None
     except (A.LLMError, ValueError) as e:
         log(f"  이슈 확인 실패: {e}")
         return None
+
+
+def describe_issue(llm: dict, members: list[dict], client: httpx.Client) -> dict | None:
+    shown = members[:25]
+    info = describe_issue_raw(llm, members, client)
     if not info or not info.get("same_event") or not info.get("title"):
         return None
     drop = {shown[i - 1]["url"] for i in info.get("exclude", []) if isinstance(i, int) and 1 <= i <= len(shown)}

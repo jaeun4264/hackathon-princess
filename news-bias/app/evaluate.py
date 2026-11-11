@@ -96,6 +96,15 @@ def score(gold: list[Row], pred: list[Row]) -> dict:
             hit = sum(1 for r, p in items if p and p.type == "인용" and p.source == s)
             per_source[s] = {"정답 수": len(items), "재현율": hit / len(items)}
     all_fact = sum(1 for r, _ in g if r.type == "사실") / n if n else 0
+    # 통과: 유형이 맞고, 인용이면 출처 유형(기타는 원래 명칭까지)도 맞음 — 경계 사례 통과율에 씀
+    ok = lambda r, p: bool(p and p.type == r.type and (r.type != "인용" or not r.source or p.source == r.source)  # noqa: E731
+                           and (r.source != "기타" or not r.source_detail or p.source_detail == r.source_detail))
+    groups = {}
+    for r, p in g:
+        k = (r.article_id, r.outlet)
+        groups.setdefault(k, [0, 0])
+        groups[k][0] += ok(r, p)
+        groups[k][1] += 1
     return {
         "문장": n,
         "예측 없음": sum(1 for _, p in g if not (p and p.type)),
@@ -104,6 +113,8 @@ def score(gold: list[Row], pred: list[Row]) -> dict:
         "유형별": per_type,
         "출처 정확도": (sum(1 for r, p in quotes if p and p.source == r.source) / len(quotes)) if quotes else None,
         "출처별": per_source,
+        "통과율": sum(ok(r, p) for r, p in g) / n if n else 0,
+        "묶음별 통과": groups,
         "혼동": Counter(f"{r.type}→{(p.type if p and p.type else '없음')}" for r, p in g if not (p and p.type == r.type)),
     }
 
@@ -232,7 +243,12 @@ def daily_capacity(st: dict, rpd: float | None, rpm: float | None, tpm: float | 
 
 def _path(p: str) -> Path:
     q = Path(p)
-    return q if q.exists() or q.is_absolute() else LABEL_DIR / p
+    q = q if q.exists() or q.is_absolute() else LABEL_DIR / p
+    if not q.exists():
+        near = sorted(x.name for x in LABEL_DIR.glob(f"{Path(p).stem.split('_')[0]}*.xlsx"))
+        hint = f"\n  라벨링 폴더에 있는 비슷한 파일: {', '.join(near[:8])}" if near else ""
+        raise SystemExit(f"파일이 없습니다: {q.name}{hint}")
+    return q
 
 
 def expand(patterns: list[str]) -> list[str]:
@@ -318,6 +334,10 @@ def main(argv=None):
                 print(f"출처 유형 정확도(정답이 인용인 문장) {_pct(r['출처 정확도'])}")
                 for s_, v in r["출처별"].items():
                     print(f"  {s_}: 정답 {v['정답 수']}개, 재현율 {_pct(v['재현율'])}")
+            print(f"통과율(유형 + 인용이면 출처까지 맞음) {_pct(r['통과율'])}")
+            if any(a.startswith("K") for a, _ in r["묶음별 통과"]):
+                for (a, o), (h, t) in r["묶음별 통과"].items():
+                    print(f"  {a} {o}: {h}/{t} ({_pct(h / t)})")
             if r["혼동"]:
                 print("틀린 조합(정답→예측):", ", ".join(f"{k} {v}" for k, v in r["혼동"].most_common(6)))
             sp = r["속도"]
@@ -327,10 +347,10 @@ def main(argv=None):
                       + ("" if sp["완전"] else " (시간 기록이 빠진 기사가 있음)"))
         if len(results) > 1:
             print("\n비교 (발표 표에 옮길 숫자)")
-            print("예측".ljust(28) + "정확도   의견 재현율  인용 재현율  출처 정확도  기사당 초")
+            print("예측".ljust(40) + "정확도   의견 재현율  인용 재현율  출처 정확도  기사당 초")
             for name, r in results:
                 ty = r["유형별"]
-                print(name[:27].ljust(28) + f"{_pct(r['정확도']):>6}   {_pct(ty.get('의견', {}).get('재현율')):>8}   "
+                print(name[:39].ljust(40) + f"{_pct(r['정확도']):>6}   {_pct(ty.get('의견', {}).get('재현율')):>8}   "
                       f"{_pct(ty.get('인용', {}).get('재현율')):>8}   {_pct(r.get('출처 정확도')):>8}   "
                       + (f"{r['속도']['기사당 초']:>7.1f}" if r.get("속도") and r["속도"]["기사당 초"] is not None else "      -"))
 
