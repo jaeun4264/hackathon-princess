@@ -164,3 +164,32 @@ def test_duplicate_of_recent_issue_is_skipped(daily_env, monkeypatch):
     data = D.run(cfg, collect_fn=fake_collect, fetcher=fetcher, llm=llm, client=httpx.Client(transport=httpx.MockTransport(handler)))
     assert "[이미 있는 이슈]" in seen["prompt"] and "가람시 요금 인상안 발표" in seen["prompt"]
     assert data is None or all(i["id"] == "auto-x" for i in data["issues"] if i["origin"] == "auto")
+
+
+def test_framing_terms_must_be_short_and_in_sentence(daily_env):
+    """AI가 절 전체나 띄어쓰기를 바꾼 표현을 적어도 저장이 막히지 않게 걸러냄"""
+    cfg, fetcher, llm = daily_env
+
+    def handler(req):
+        msgs = json.loads(req.content)["messages"]
+        if "편집 보조" in msgs[0]["content"]:
+            return llm_handler(req)
+        nos = [int(l.split(".")[0]) for l in msgs[-1]["content"].splitlines() if l[:1].isdigit()]
+        sents = [{"no": n, "type": "의견" if n == 6 else "사실", "source": None, "speaker": None,
+                  "framing": (["부담", "서민 부담이 커질 것으로 보인다 정말로", "부 담"] if n == 6 else [])} for n in nos]
+        return httpx.Response(200, json={"choices": [{"message": {"content": json.dumps({"sentences": sents}, ensure_ascii=False)}}]})
+
+    data = D.run(cfg, collect_fn=fake_collect, fetcher=fetcher, llm=llm, client=httpx.Client(transport=httpx.MockTransport(handler)))
+    assert data is not None
+    terms = {f["term"] for a in data["articles"] for f in a["framingTerms"]}
+    assert terms == {"부담"}
+
+
+def test_framing_check_allows_cut_opinion():
+    from app.build import build_news, find_problems, strip_text
+    data = strip_text(build_news())
+    a = next(a for a in data["articles"] if any(s["type"] == "opinion" for s in a["sentences"]))
+    s = next(s for s in a["sentences"] if s["type"] == "opinion")
+    s["text"] = "앞부분만 남은 의견 문장…"
+    a["framingTerms"].append({"term": "뒤쪽표현", "sentenceId": s["id"]})
+    assert not [p for p in find_problems(data) if "뒤쪽표현" in p]
