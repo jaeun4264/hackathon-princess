@@ -1,0 +1,13 @@
+{
+  "_설명": "매일 자동 실행 설정 (app/daily.py). queries=네이버에서 최신 기사를 모을 검색어, hours=최근 몇 시간 기사로 이슈를 묶을지, maxNewIssues=한 번에 새로 만들 이슈 수, articlesPerIssue=이슈당 분석할 기사 수(언론사 겹치지 않게), minOutlets=이슈로 인정할 최소 언론사 수, keepDays=자동 이슈를 며칠 보관할지, model=분석 모델",
+  "queries": ["정부", "국회", "대통령실", "더불어민주당", "국민의힘", "검찰", "법원", "경제", "부동산", "물가", "노동", "교육", "복지", "환경"],
+  "perQuery": 100,
+  "hours": 36,
+  "maxNewIssues": 6,
+  "articlesPerIssue": 5,
+  "minArticles": 3,
+  "minOutlets": 4,
+  "threshold": 0.30,
+  "keepDays": 14,
+  "model": "gemini-3.5-flash-lite"
+}
