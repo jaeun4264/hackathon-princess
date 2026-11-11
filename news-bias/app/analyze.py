@@ -42,6 +42,10 @@ CACHE_DIR = ROOT / "data" / "raw" / "ai"
 
 # 모델이 학습한 시점과 지금의 여당이 다를 수 있어 직접 알려 줌
 RULING_PARTY = "더불어민주당"
+# 프롬프트 판 번호. 바꾸면 저장 폴더·결과 파일 이름이 달라져 이전 결과와 나란히 비교할 수 있음
+# v2 (11/7): 지금의 여야 구도 명시, 말+행동 문장은 인용, 기자의 예측은 의견 (라벨링 기준 문서의 규칙을 프롬프트에 옮김)
+#   ※ 1차 기사에서 AI가 틀린 유형을 보고 넣은 규칙이라, 효과는 1차가 아닌 2차 기사로 확인해야 공정함
+PROMPT_VERSION = 2
 
 DEFAULT_URL = {
     "gemini": "https://generativelanguage.googleapis.com/v1beta/openai/chat/completions",
@@ -64,6 +68,11 @@ SYSTEM_PROMPT = f"""너는 한국 뉴스 기사의 문장을 분류하는 라벨
 - "~할 전망이다"는 발표된 일정이면 사실, 기자의 예측이면 의견.
 - 인용에 기자의 평가 단어가 섞이면 인용으로 붙이고 그 단어는 평가 표현에 적는다.
 - 사실 문장에 평가 단어("강행 처리했다")가 섞이면 사실로 붙이고 그 단어는 평가 표현에 적는다.
+- 말과 행동을 함께 전하는 문장("…라며 항의했다", "…라고 외치며 퇴장했다", "…라며 반발했다")도 말한 사람이 있으면 인용.
+- 기자가 앞일을 짐작하는 문장("~될 것으로 보인다", "~가 예상된다", 일정이 아닌 "~할 전망이다")은 평가 단어가 있든 없든 의견.
+
+[지금의 여야] 2026년 11월 현재 여당은 {RULING_PARTY} 하나다. 국민의힘, 개혁신당, 조국혁신당, 진보당 등 나머지 정당은 모두 야당이다.
+네가 학습한 시점의 여야 구도와 다를 수 있으니 반드시 이 기준을 따른다. 대통령도 {RULING_PARTY} 소속이다.
 
 [출처 유형] 유형이 인용일 때만. 발언 내용이 아니라 말한 사람의 소속으로 정한다.
 - 정부·여당: 대통령실, 정부 부처, 지자체, 공기업, 검찰·공소청, 여당({RULING_PARTY})
@@ -173,6 +182,33 @@ def config(provider: str | None = None, model: str | None = None) -> dict:
     # ANTHROPIC_BASE_URL 같은 이름은 다른 프로그램도 쓰는 설정이라 읽지 않음
     url = (legacy and _env("LLM_BASE_URL")) or DEFAULT_URL[provider]
     return {"provider": provider, "model": model, "key": key, "url": url}
+
+
+EXAMPLE_MAX = 60
+
+
+def load_examples(path: Path) -> list[dict]:
+    """예시 CSV (열: 문장, 유형, 출처유형, 인용한사람) → 프롬프트에 넣을 예시. Syntitan 보강 데이터를 이 형식으로"""
+    import csv
+    if not path.exists():
+        raise LLMError(f"예시 파일이 없습니다: {path}")
+    with path.open(encoding="utf-8-sig") as f:
+        rows = [r for r in csv.DictReader(f) if (r.get("문장") or "").strip() and r.get("유형") in TYPES]
+    if not rows:
+        raise LLMError(f"{path.name}: '문장', '유형'(사실/의견/인용) 열이 있는 줄이 없습니다.")
+    return rows[:EXAMPLE_MAX]
+
+
+def system_prompt(cfg: dict) -> str:
+    """기본 프롬프트 + (있으면) 예시. 예시는 판정 기준을 보여 주는 용도이고, 평가에 쓰는 정답 문장과 겹치면 안 됨"""
+    ex = cfg.get("examples")
+    if not ex:
+        return SYSTEM_PROMPT
+    lines = []
+    for r in ex:
+        tail = f" / {r.get('출처유형') or '-'} / {r.get('인용한사람') or '-'}" if r["유형"] == "인용" else ""
+        lines.append(f"- {r['문장'].strip()} → {r['유형']}{tail}")
+    return SYSTEM_PROMPT + "\n\n[예시] 기준대로 붙인 예시다 (문장 → 유형 / 출처 유형 / 인용한 사람).\n" + "\n".join(lines)
 
 
 def build_user_prompt(outlet: str, rows: list[Row]) -> str:
@@ -291,7 +327,7 @@ def analyze_article(cfg, outlet, rows, client, cache: Path | None = None, retrie
     user = build_user_prompt(outlet, rows)
     last_err = None
     for _ in range(retries + 1):
-        text = call_llm(cfg, SYSTEM_PROMPT, user, client)
+        text = call_llm(cfg, system_prompt(cfg), user, client)
         try:
             labels = parse_labels(text, rows)
             if cache:
@@ -342,7 +378,14 @@ def list_models(cfg: dict) -> list[str]:
 
 def run_name(cfg: dict) -> str:
     """저장 폴더·결과 파일 이름. 생각 설정이 다르면 따로 저장해 비교할 수 있게"""
-    return safe_name(cfg["model"]) + (f"_생각{cfg['effort']}" if cfg.get("effort") else "")
+    return (safe_name(cfg["model"]) + (f"_생각{cfg['effort']}" if cfg.get("effort") else "")
+            + (f"_p{PROMPT_VERSION}" if PROMPT_VERSION > 1 else "")
+            + (f"_예시{safe_name(cfg['examples_name'])}" if cfg.get("examples_name") else ""))
+
+
+def output_name(cfg: dict) -> str:
+    """결과 표 이름. 소속 사전은 응답을 바꾸지 않고 결과만 고치므로 저장 폴더는 같고 결과 파일만 따로"""
+    return run_name(cfg) + ("_사전" if cfg.get("members") else "")
 
 
 def safe_name(model: str) -> str:
@@ -363,7 +406,7 @@ def run(cfg: dict, src: Path, again: bool, gap: float, size: int = 0) -> Path:
         by_article.setdefault(r.article_id, []).append(r)
     name = run_name(cfg)
     print(f"── {cfg['model']} ──")
-    labels, metas = {}, []
+    labels, metas, fixed_total = {}, [], 0
     with httpx.Client(timeout=httpx.Timeout(300, connect=30)) as client:
         jobs = [(aid, k, part) for aid, rs in by_article.items() for k, part in enumerate(chunks(rs, size), 1)]
         for i, (aid, k, rs) in enumerate(jobs):
@@ -375,6 +418,10 @@ def run(cfg: dict, src: Path, again: bool, gap: float, size: int = 0) -> Path:
                         f.unlink()
             fresh = not cache.exists()
             got = analyze_article(cfg, rs[0].outlet, rs, client, cache)
+            if cfg.get("members"):
+                from app.members import fix_labels
+                fixed = fix_labels(got, {r.no: r.text for r in by_article[aid]}, cfg["members"])
+                fixed_total += fixed
             labels.update({(aid, no): v for no, v in got.items()})
             mp = meta_path(cache)
             meta = json.loads(mp.read_text(encoding="utf-8")) if mp.exists() else None
@@ -383,7 +430,12 @@ def run(cfg: dict, src: Path, again: bool, gap: float, size: int = 0) -> Path:
             print(f"{aid}{f'-{k}' if multi else ''} {rs[0].outlet}: {len(got)}문장{took}" + ("" if fresh else " (저장된 응답 사용)"))
             if fresh and i < len(jobs) - 1:
                 time.sleep(gap)
-    dst = LABEL_DIR / f"라벨링표_AI_{name}.xlsx"
+    # 2차 이상 표는 이름 끝에 차수를 붙여 1차 결과를 덮어쓰지 않게 (1차는 예전 이름 그대로)
+    m = re.search(r"(\d+)차", src.stem)
+    round_tag = f"_{m.group(1)}차" if m and m.group(1) != "1" else ""
+    dst = LABEL_DIR / f"라벨링표_AI_{output_name(cfg)}{round_tag}.xlsx"
+    if cfg.get("members"):
+        print(f"소속 사전으로 출처 유형을 고친 인용 문장: {fixed_total}개")
     write_labels(src, dst, labels)
     write_run_log(dst, metas)
     timed = [m for _, m in metas if m]
@@ -403,6 +455,8 @@ def main(argv=None):
     ap.add_argument("--다시", action="store_true", help="저장된 응답을 무시하고 다시 요청")
     ap.add_argument("--간격", type=float, default=4.0, help="요청 사이 대기 초 (무료 한도용)")
     ap.add_argument("--모델목록", action="store_true", help="--모델 로 고른 제공사에서 지금 쓸 수 있는 모델 이름만 보여 주고 끝냄")
+    ap.add_argument("--소속사전", action="store_true", help="국회의원 소속 사전(data/members.csv)으로 출처 유형 바로잡기")
+    ap.add_argument("--예시", help="AI에게 보여 줄 예시 문장 CSV (Syntitan 보강 데이터 등). 결과는 …_예시<파일이름> 으로 따로 저장")
     ap.add_argument("--생각", choices=["low", "medium", "high"],
                     help="생각하는 양 (Gemini·OpenAI·Groq). 낮을수록 빠르고 정확도는 떨어질 수 있음. 안 적으면 모델 기본값")
     ap.add_argument("--묶음", type=int, default=0, help="한 번에 보낼 문장 수 (0=기사 통째로). Groq 무료는 10 정도 추천")
@@ -424,7 +478,18 @@ def main(argv=None):
     choices = BOTH if args.모델 == ["둘다"] else (args.모델 or [None])
     try:
         cfgs = [config(*parse_choice(c)) for c in choices]  # 키가 빠졌으면 요청 보내기 전에 바로 알려 줌
+        members = None
+        if args.소속사전:
+            from app.members import MEMBERS_CSV, load
+            members = load()
+            if not members:
+                raise LLMError(f"{MEMBERS_CSV} 가 없습니다. 먼저 python -m app.members 받기 를 실행하세요.")
+        examples = load_examples(Path(args.예시)) if args.예시 else None
         for c in cfgs:
+            if members:
+                c["members"] = members
+            if examples:
+                c["examples"], c["examples_name"] = examples, Path(args.예시).stem
             if args.생각:
                 if c["provider"] == "anthropic":
                     print("참고: Claude에는 --생각 을 적용하지 않습니다.")

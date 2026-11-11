@@ -65,6 +65,16 @@ def quote_slope(counts: Counter) -> float | None:
     return None if gov + opp == 0 else (gov - opp) / (gov + opp)
 
 
+SLOPE_PRIOR = 2  # 11/7 보정: 분모에 +2 → 인용이 적을수록 0 쪽으로 당겨짐 (1건 +0.33, 3건 +0.60, 10건 +0.83)
+
+
+def smoothed_slope(counts: Counter, prior: int = SLOPE_PRIOR) -> float | None:
+    """보정한 인용 기울기 = (정부·여당 − 야당) / (정부·여당 + 야당 + prior). 둘 다 0이면 None.
+    부호(어느 쪽이 많은지)는 보정 전과 같고, 인용이 적어 생기는 +1·−1 극단값만 줄어듦"""
+    gov, opp = counts.get("gov", 0), counts.get("opp", 0)
+    return None if gov + opp == 0 else (gov - opp) / (gov + opp + prior)
+
+
 def source_entropy(counts: Counter, types: list[str] = MAIN_SOURCE_TYPES) -> float | None:
     """주요 5개 출처 유형의 정규화 엔트로피 (0 = 한 목소리만, 1 = 5개가 똑같이). 기타는 뺌.
     주요 유형 인용이 MIN_QUOTES_FOR_ENTROPY개 미만이면 None"""
@@ -72,10 +82,10 @@ def source_entropy(counts: Counter, types: list[str] = MAIN_SOURCE_TYPES) -> flo
     if n < MIN_QUOTES_FOR_ENTROPY:
         return None
     h = -sum((c / n) * math.log(c / n) for t in types if (c := counts.get(t, 0)))
-    return h / math.log(len(types))
+    return abs(h / math.log(len(types)))  # 한 목소리만이면 -0.0 이 나오지 않게
 
 
 def article_quote_metrics(article: dict) -> dict:
     c = source_counts(article)
-    return {"quoteSlope": quote_slope(c), "sourceEntropy": source_entropy(c),
-            "quoteCount": sum(c.values())}
+    return {"quoteSlope": quote_slope(c), "smoothedSlope": smoothed_slope(c),
+            "sourceEntropy": source_entropy(c), "quoteCount": sum(c.values())}

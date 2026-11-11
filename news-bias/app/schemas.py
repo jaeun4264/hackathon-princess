@@ -14,12 +14,14 @@ SOURCE_TYPES: list[dict] = [
     {"id": "opp", "label": "야당"},
     {"id": "expert", "label": "전문가"},
     {"id": "citizen", "label": "시민·단체"},
-    {"id": "biz", "label": "기업·업계"},
+    {"id": "industry", "label": "기업·업계"},
     {"id": "etc", "label": "기타"},
 ]
 SOURCE_LABELS: dict[str, str] = {t["id"]: t["label"] for t in SOURCE_TYPES}
 # 비교·빠진 관점·화면 표시에 쓰는 주요 유형 (기타 제외)
 MAIN_SOURCE_TYPES: list[str] = [t["id"] for t in SOURCE_TYPES if t["id"] != "etc"]
+# 프론트에 넘기는 sourceTypes 는 주요 5개만 (기타는 문장의 sourceType "etc" + sourceDetail 로만 표시)
+DISPLAY_SOURCE_TYPES: list[dict] = [t for t in SOURCE_TYPES if t["id"] != "etc"]
 DISPLAY_COUNT = 5  # 처음엔 상위 4개였으나 11/5 남지원·조서연 합의로 5개 모두 표시
 
 
@@ -49,11 +51,14 @@ class Issue(BaseModel):
     displaySourceTypes: list[str] = Field(
         description="화면에 보여 줄 출처 유형 (지금은 주요 5개 모두, 정해진 순서)"
     )
+    origin: Literal["curated", "auto"] = Field(
+        "curated", description="curated = 사람이 고르고 정답 라벨 확인 / auto = 매일 자동 수집·AI 분석 (화면에 'AI 분석' 표시 권장)"
+    )
 
 
 class Sentence(BaseModel):
     id: str = Field(description="기사 안에서만 겹치지 않으면 됨 (s1, s2 …)")
-    text: str
+    text: str | None = Field(description="문장. 실제 기사는 저작권 때문에 사실·인용 문장은 null, 의견 문장은 앞 40자 + '…'")
     type: Literal["fact", "opinion", "quote"] = Field(description="사실 / 의견(기자의 평가·추측) / 인용(누군가의 말 전달)")
     sourceType: str | None = Field(None, description="인용 출처 유형 id. type이 quote일 때만, 아니면 null")
     sourceName: str | None = Field(None, description="인용한 사람·기관. type이 quote일 때만, 아니면 null")

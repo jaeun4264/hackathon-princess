@@ -18,7 +18,7 @@ from pathlib import Path
 
 from app.evaluate import _path, cohen_kappa, kappa_word
 from app.labelsheet import LIST_SHEET, SOURCE_CODE, load_grid, read_rows
-from app.metrics import quote_slope, source_entropy
+from app.metrics import quote_slope, smoothed_slope, source_entropy
 
 SHEET = "쌍비교"
 CHOICES = ["A", "B", "비슷함"]
@@ -102,6 +102,13 @@ def read_judgments(path: Path) -> dict[tuple[str, str], str]:
     return out
 
 
+def read_pairs(path: Path) -> list[tuple[str, str]]:
+    """쌍 비교 표의 모든 쌍 (판단 여부와 상관없이)"""
+    g = load_grid(path, SHEET)
+    last = max((r for r, _ in g), default=0)
+    return [(str(g[(r, 2)]), str(g[(r, 5)])) for r in range(2, last + 1) if g.get((r, 2)) and g.get((r, 5))]
+
+
 def predict(slopes: dict[str, float | None], a: str, b: str, tie: float = 0.0) -> str | None:
     """인용 기울기로 본 답. 둘 중 하나라도 계산 불가면 None"""
     sa, sb = slopes.get(a), slopes.get(b)
@@ -121,14 +128,16 @@ def score_pairs(j1: dict, j2: dict, label_files: list[Path]) -> dict:
     res["라벨별"] = {}
     for f in label_files:
         counts = article_counts(f)
-        slopes = {a: quote_slope(c) for a, c in counts.items()}
-        preds = [(k, predict(slopes, *k)) for k in agreed]
-        usable = [(k, p) for k, p in preds if p in ("A", "B")]
-        res["라벨별"][f.stem] = {
-            "맞음": sum(p == j1[k] for k, p in usable), "판단 가능": len(usable),
-            "계산 불가·비슷함": len(preds) - len(usable),
-            "기사별": {a: (slopes[a], source_entropy(c), sum(c.values())) for a, c in sorted(counts.items())},
-        }
+        out = {"기사별": {a: (quote_slope(c), smoothed_slope(c), source_entropy(c), sum(c.values()))
+                         for a, c in sorted(counts.items())}}
+        out["기울기 없는 기사"] = sum(1 for v in out["기사별"].values() if v[0] is None)
+        for label, fn in (("보정", smoothed_slope), ("보정 전", quote_slope)):
+            slopes = {a: fn(c) for a, c in counts.items()}
+            preds = [(k, predict(slopes, *k)) for k in agreed]
+            usable = [(k, p) for k, p in preds if p in ("A", "B")]
+            out[label] = {"맞음": sum(p == j1[k] for k, p in usable), "판단 가능": len(usable),
+                          "계산 불가·비슷함": len(preds) - len(usable)}
+        res["라벨별"][f.stem] = out
     return res
 
 
@@ -153,15 +162,26 @@ def main(argv=None):
         print(f"복사해서 {out.stem}_조서연.xlsx, {out.stem}_남지원.xlsx 로 이름을 바꾸고 각자 '판단' 칸을 채우세요.")
         return
 
-    r = score_pairs(read_judgments(_path(args.a)), read_judgments(_path(args.b)), [_path(f) for f in args.라벨])
+    j1, j2 = read_judgments(_path(args.a)), read_judgments(_path(args.b))
+    total = len(read_pairs(_path(args.a)))
+    for name, j in ((args.a, j1), (args.b, j2)):
+        if len(j) < total:
+            # 판단이 덜 끝났으면 멈춤: 기울기 숫자를 먼저 보면 판단이 그쪽으로 끌려가므로 아무 숫자도 보여 주지 않음
+            sys.exit(f"{Path(name).name}: {total}쌍 중 {len(j)}쌍만 판단돼 있어 채점하지 않았습니다. "
+                     "두 사람이 모든 쌍을 판단한 뒤 다시 실행해 주세요.")
+    r = score_pairs(j1, j2, [_path(f) for f in args.라벨])
     print(f"두 사람: {r['쌍']}쌍 중 {r['일치']}쌍 일치, 카파 {r['카파']:.2f} ({kappa_word(r['카파'])})")
     print(f"둘 다 같은 쪽(A 또는 B)을 고른 쌍: {r['둘 다 같은 쪽을 고른 쌍']}개 → 이 쌍으로 기울기를 검증")
     for name, v in r["라벨별"].items():
-        acc = f"{v['맞음']}/{v['판단 가능']}" + (f" ({v['맞음'] / v['판단 가능'] * 100:.0f}%)" if v["판단 가능"] else "")
-        print(f"\n[{name}] 인용 기울기가 사람 판단과 같은 방향: {acc}, 계산 불가·비슷함 {v['계산 불가·비슷함']}쌍")
-        print("  기사   기울기   다양성(엔트로피)  인용 수")
-        for a, (sl, en, n) in v["기사별"].items():
-            print(f"  {a}   {_f(sl):>6}   {('-' if en is None else f'{en:.2f}'):>8}        {n}")
+        print(f"\n[{name}]")
+        for label in ("보정", "보정 전"):
+            x = v[label]
+            acc = f"{x['맞음']}/{x['판단 가능']}" + (f" ({x['맞음'] / x['판단 가능'] * 100:.0f}%)" if x["판단 가능"] else "")
+            print(f"  {label} 기울기가 사람 판단과 같은 방향: {acc}, 계산 불가·비슷함 {x['계산 불가·비슷함']}쌍")
+        print(f"  기울기를 계산할 수 없는 기사(정부·여당·야당 인용 없음): {v['기울기 없는 기사']}건")
+        print("  기사   기울기  보정 기울기  다양성  인용 수")
+        for a, (sl, sm, en, n) in v["기사별"].items():
+            print(f"  {a}   {_f(sl):>6}   {_f(sm):>8}   {('-' if en is None else f'{en:.2f}'):>5}   {n}")
 
 
 if __name__ == "__main__":

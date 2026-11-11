@@ -4,6 +4,8 @@
 
     python -m app.labeling 채우기            → 본문 폴더의 .txt 를 읽어 라벨링표_1차.xlsx 에 문장 채우기
     python -m app.labeling 채우기 --차수 2    → 본문_2차 폴더 → 라벨링표_2차.xlsx
+    python -m app.labeling 준비 --차수 3 --후보 후보_윤석열_항소심.csv --번호 2,7,11,15,20
+                                          → 라벨링표_3차.xlsx(기사 목록 채움) + 본문_3차/F01_언론사.txt … 빈 파일
     python -m app.labeling 채우기 --미리보기  → 저장하지 않고 나뉜 문장 수만 확인
     python -m app.labeling 정리 라벨링표_지원.xlsx → 다른 프로그램으로 저장해 깨진 표를 깨끗한 양식으로 다시 만들기
 
@@ -203,13 +205,70 @@ def fill_table(items, table: Path = TABLE) -> list[str]:
     return [f"{aid} {outlet}: {len(s)}문장" for aid, outlet, s in items]
 
 
+ID_PREFIX = {1: "N", 2: "E"}  # 차수별 기사 ID 앞글자 (3차부터 F, G, H …)
+
+
+def id_prefix(n: int) -> str:
+    return ID_PREFIX.get(n, chr(ord("F") + n - 3))
+
+
+def prepare_round(n: int, candidates: Path, numbers: list[int], prefix: str | None = None) -> list[Path]:
+    """후보 CSV에서 고른 기사로 n차 라벨링 표(기사 목록)와 본문 붙여 넣을 빈 txt 를 만듦"""
+    import shutil
+    from openpyxl import load_workbook
+
+    from app.candidates import read_csv
+    from app.labelsheet import LIST_SHEET, TEMPLATE
+
+    body_dir, table = round_paths(n)
+    if table.exists():
+        raise SystemExit(f"{table.name} 이 이미 있습니다. 덮어쓰지 않으려고 멈췄습니다.")
+    rows = read_csv(candidates)
+    missing = [k for k in numbers if k not in rows]
+    if missing:
+        raise SystemExit(f"후보 목록에 없는 번호: {missing}")
+    prefix = prefix or id_prefix(n)
+    shutil.copy(TEMPLATE, table)
+    wb = load_workbook(table)
+    ws = wb[LIST_SHEET]
+    body_dir.mkdir(parents=True, exist_ok=True)
+    made = []
+    for i, k in enumerate(numbers, 1):
+        r = rows[k]
+        aid = f"{prefix}{i:02d}"
+        for c, v in enumerate([aid, r["언론사"], r["제목"], r["원문 주소"], r["발행시각"]], 1):
+            ws.cell(2 + i, c).value = v
+        f = body_dir / f"{aid}_{r['언론사']}.txt"
+        f.write_text(f"# {r['언론사']} | {r['제목']}\n# 원문: {r['원문 주소']}\n"
+                     "# 이 아래에 기사 본문만 붙여 넣으세요. (제목·사진 설명·관련 기사 목록은 빼고)\n"
+                     "# '#'으로 시작하는 줄은 무시됩니다.\n", encoding="utf-8-sig")
+        made.append(f)
+    wb.save(table)
+    return made
+
+
 def main(argv=None):
     p = argparse.ArgumentParser(description="라벨링 표에 기사 문장 채우기")
-    p.add_argument("명령", choices=["채우기", "정리"])
+    p.add_argument("명령", choices=["채우기", "정리", "준비"])
+    p.add_argument("--후보", help="준비: 후보 CSV (python -m app.candidates 로 만든 것)")
+    p.add_argument("--번호", help="준비: 고른 후보 번호, 쉼표로 (예: 2,7,11,15,20)")
+    p.add_argument("--접두", help="준비: 기사 ID 앞글자 (기본: 1차 N, 2차 E, 3차 F …)")
     p.add_argument("파일", nargs="?", help="정리: 다시 만들 표 파일 (예: 라벨링표_지원.xlsx)")
     p.add_argument("--미리보기", action="store_true", help="저장하지 않고 문장 수만 확인")
     p.add_argument("--차수", type=int, default=1, help="몇 차 라벨링인지 (기본 1)")
     args = p.parse_args(argv)
+
+    if args.명령 == "준비":
+        if not (args.후보 and args.번호):
+            sys.exit("--후보 와 --번호 를 함께 적어 주세요.")
+        cand = Path(args.후보) if Path(args.후보).exists() else LABEL_DIR.parent / args.후보
+        made = prepare_round(args.차수, cand, [int(x) for x in args.번호.split(",")], args.접두)
+        _, table = round_paths(args.차수)
+        print(f"만들었습니다: {table.name} + 본문 파일 {len(made)}개")
+        for f in made:
+            print("  ", f.relative_to(LABEL_DIR))
+        print(f"본문을 붙여 넣은 뒤: python -m app.labeling 채우기 --차수 {args.차수}")
+        return
 
     if args.명령 == "정리":
         from app.labelsheet import rebuild

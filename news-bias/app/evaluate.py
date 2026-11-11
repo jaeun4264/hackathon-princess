@@ -235,6 +235,20 @@ def _path(p: str) -> Path:
     return q if q.exists() or q.is_absolute() else LABEL_DIR / p
 
 
+def expand(patterns: list[str]) -> list[str]:
+    """'라벨링표_AI_*_사전.xlsx' 처럼 * 가 든 이름을 라벨링 폴더의 파일들로 펼침 (윈도 명령창은 직접 안 펼쳐 줌)"""
+    out = []
+    for p in patterns:
+        if any(ch in p for ch in "*?"):
+            found = sorted(str(f) for f in LABEL_DIR.glob(p)) or sorted(str(f) for f in Path().glob(p))
+            if not found:
+                raise SystemExit(f"'{p}' 에 맞는 파일이 없습니다.")
+            out += found
+        else:
+            out.append(p)
+    return out
+
+
 def _pct(x) -> str:
     return "-" if x is None else f"{x * 100:.1f}%"
 
@@ -291,7 +305,7 @@ def main(argv=None):
     elif args.cmd == "채점":
         gold = read_rows(_path(args.정답))
         results = []
-        for f in args.예측:
+        for f in expand(args.예측):
             r = score(gold, read_rows(_path(f)))
             r["속도"] = run_stats(_path(f))
             results.append((Path(f).stem.removeprefix("라벨링표_"), r))

@@ -42,6 +42,8 @@ def collected_summaries(raw_dir: Path = RAW_DIR) -> dict[str, str]:
     """수집해 둔 기사(data/raw/*.json)의 원문 주소 → 요약"""
     out = {}
     for f in raw_dir.glob("*.json"):
+        if f.name.startswith("news_"):  # 우리가 만든 결과 파일은 건너뜀
+            continue
         try:
             data = json.loads(f.read_text(encoding="utf-8"))
         except (ValueError, OSError):

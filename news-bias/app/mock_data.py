@@ -95,7 +95,7 @@ ARTICLES = [
             {"text": "대학생 이모 씨는 \"신청 절차가 너무 복잡하다\"고 말했다.", "type": "quote", "sourceType": "citizen", "sourceName": "대학생 이모 씨"},
             {"text": "한 주거 연구자는 \"지원 기간이 짧아 효과가 제한적\"이라고 지적했다.", "type": "quote", "sourceType": "expert", "sourceName": "주거 연구자"},
             {"text": "생색내기에 그치지 않으려면 지원 기간부터 늘려야 한다.", "type": "opinion"},
-            {"text": "한 부동산 중개업계 관계자는 \"소형 원룸 수요가 늘 것\"이라고 말했다.", "type": "quote", "sourceType": "biz", "sourceName": "부동산 중개업계 관계자"},
+            {"text": "한 부동산 중개업계 관계자는 \"소형 원룸 수요가 늘 것\"이라고 말했다.", "type": "quote", "sourceType": "industry", "sourceName": "부동산 중개업계 관계자"},
         ],
         "framingTerms": [{"term": "생색내기", "sentenceId": "s4"}],
     },
