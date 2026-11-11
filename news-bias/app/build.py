@@ -128,7 +128,8 @@ def find_problems(data: dict, need_url: bool = False) -> list[str]:
             text = sentence_text.get(f["sentenceId"], False)
             if text is False:
                 problems.append(f"{where}: 표현 '{f['term']}'의 문장 {f['sentenceId']} 없음")
-            elif text is not None and f["term"] not in text:
+            elif text is not None and f["term"] not in text and not text.endswith("…"):
+                # 의견 문장은 저작권 때문에 앞 40자만 남기므로(…로 끝남) 뒤쪽 표현은 안 보여도 정상
                 problems.append(f"{where}/{f['sentenceId']}: 표현 '{f['term']}'이 문장에 그대로 없음 (화면 강조 불가)")
         for m in a["missingViewpoints"]:
             if m["sourceType"] not in type_ids:

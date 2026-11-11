@@ -64,6 +64,7 @@ ISSUE_PROMPT = """너는 뉴스 편집 보조다. 판정·평가 없이 사실�
 5) '이미 있는 이슈' 목록이 주어지면, 그중 이 기사들과 같은 사건(같은 결정·발표·사고)이 있으면 duplicate_of 에 그 번호, 없으면 0.
    같은 주제라도 다른 날의 새 결정·새 사건이면 0.
 반드시 JSON 하나만 출력: {"same_event": true, "title": "", "summary": "", "category": "", "exclude": [], "duplicate_of": 0}"""
+FRAMING_MAX = 15  # 평가 표현으로 인정할 최대 글자 수 (단어·짧은 구)
 CATEGORIES = ("정치", "경제", "사회", "생활", "국제", "연예·스포츠")
 
 
@@ -196,7 +197,9 @@ def analyze_article(art: dict, issue_id: str, llm: dict, fetcher: Fetcher, clien
             "sourceName": (lab["speaker"] or lab["detail"] or lab["source"]) if quote else None,
             "sourceDetail": lab["detail"] if source == "etc" else None,
         })
-        framing += [{"term": w, "sentenceId": sid} for w in lab["framing"]]
+        # 평가 표현은 문장에 글자 그대로 있는 짧은 말만 (AI가 절 전체를 적거나 띄어쓰기를 바꾼 것은 화면에서 강조할 수 없음)
+        framing += [{"term": w, "sentenceId": sid} for w in lab["framing"]
+                    if w and len(w) <= FRAMING_MAX and w in (r.text or "")]
     strip_sentences(sentences)  # ← 여기서 사실·인용 문장 글자를 지움. 이후로는 라벨만 남음
     out = {"id": aid, "issueId": issue_id, "outletId": outlet_id(art["outlet"]), "outletName": art["outlet"],
            "title": art["title"], "summary": art.get("summary", ""), "url": art["url"],
