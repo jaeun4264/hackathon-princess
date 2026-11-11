@@ -1,0 +1,93 @@
+# 매일 자동 실행: 08시·17시(한국 시간)쯤 기사 수집 → 이슈 묶기 → 원문 분석(본문은 저장 안 함) → news.json
+# GitHub 저장소 → Settings → Secrets and variables → Actions 에 아래 비밀값을 넣어야 동작합니다.
+#   NAVER_CLIENT_ID, NAVER_CLIENT_SECRET, GEMINI_API_KEY        (필수)
+#   FRONT_REPO_TOKEN  (선택) 지원님 프론트 저장소에 쓸 수 있는 토큰 → 있으면 결과를 프론트 저장소에 바로 올려 Vercel이 자동 갱신
+# 수동 실행: Actions 탭 → "매일 뉴스 분석" → Run workflow
+name: 매일 뉴스 분석
+
+on:
+  schedule:
+    - cron: "47 22 * * *"   # UTC 22:47 = 한국 07:47 (GitHub 예약은 몇 분 늦게 시작될 수 있음)
+    - cron: "47 7 * * *"    # UTC 07:47 = 한국 16:47
+  workflow_dispatch:
+    inputs:
+      preview:
+        description: "미리보기만 (이슈 묶기까지, AI·원문 요청 없음)"
+        type: boolean
+        default: false
+
+permissions:
+  contents: write
+
+concurrency:
+  group: daily-news
+  cancel-in-progress: false
+
+env:
+  FRONT_REPO: namjiwon-ctrl/Jiwon-s-Portfolio      # 프론트 저장소
+  FRONT_FILE: news-front/src/data/news-live.json    # 프론트 저장소 안에 넣을 위치
+  FRONT_BRANCH: main
+
+jobs:
+  daily:
+    runs-on: ubuntu-latest
+    timeout-minutes: 40
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+          cache: pip
+
+      - name: 패키지 설치
+        run: pip install -r requirements.txt
+
+      - name: 수집·묶기·분석
+        env:
+          NAVER_CLIENT_ID: ${{ secrets.NAVER_CLIENT_ID }}
+          NAVER_CLIENT_SECRET: ${{ secrets.NAVER_CLIENT_SECRET }}
+          GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
+          LLM_PROVIDER: gemini
+        run: |
+          if [ "${{ inputs.preview }}" = "true" ]; then
+            python -m app.daily --미리보기
+          else
+            python -m app.daily
+          fi
+
+      - name: 결과를 백엔드 저장소에 저장 (data/daily)
+        if: ${{ inputs.preview != true }}
+        run: |
+          git config user.name "news-bias-bot"
+          git config user.email "news-bias-bot@users.noreply.github.com"
+          git add data/daily
+          if git diff --cached --quiet; then
+            echo "바뀐 것 없음"
+          else
+            git commit -m "매일 뉴스 분석 $(TZ=Asia/Seoul date +'%Y-%m-%d %H:%M')"
+            git push
+          fi
+
+      - name: 프론트 저장소에 news-live.json 올리기 (FRONT_REPO_TOKEN 이 있을 때만)
+        if: ${{ inputs.preview != true }}
+        env:
+          FRONT_REPO_TOKEN: ${{ secrets.FRONT_REPO_TOKEN }}
+        run: |
+          if [ -z "$FRONT_REPO_TOKEN" ]; then
+            echo "FRONT_REPO_TOKEN 이 없어 프론트 저장소에는 올리지 않습니다."
+            exit 0
+          fi
+          git clone --depth 1 --branch "$FRONT_BRANCH" "https://x-access-token:${FRONT_REPO_TOKEN}@github.com/${FRONT_REPO}.git" front
+          mkdir -p "front/$(dirname "$FRONT_FILE")"
+          cp data/daily/news.json "front/$FRONT_FILE"
+          cd front
+          git config user.name "news-bias-bot"
+          git config user.email "news-bias-bot@users.noreply.github.com"
+          git add "$FRONT_FILE"
+          if git diff --cached --quiet; then
+            echo "프론트 데이터 바뀐 것 없음"
+          else
+            git commit -m "뉴스 데이터 자동 갱신 $(TZ=Asia/Seoul date +'%Y-%m-%d %H:%M')"
+            git push
+          fi
