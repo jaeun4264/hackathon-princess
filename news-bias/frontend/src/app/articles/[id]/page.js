@@ -21,7 +21,7 @@ import {
   sourceColor,
   sourceLabel,
 } from "@/lib/news";
-import data from "@/data/mock-news.json";
+import data from "@/data/news-live.json";
 import { RecordRead } from "@/components/news/record-read";
 import { OriginalLink } from "@/components/news/original-link";
 import { QuoteSlope } from "@/components/news/quote-slope";
