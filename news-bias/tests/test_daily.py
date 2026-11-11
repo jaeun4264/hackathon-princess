@@ -134,3 +134,33 @@ def test_clean_body_and_extract():
     body = D.clean_body(text, "가람시 지하철 요금 300원 인상안 발표")
     assert "가람시 지하철 요금 300원 인상안 발표\n" not in body and body.startswith("가람시는 7일")
     assert "메뉴" not in body and "무단 전재" not in body
+
+
+def test_other_category_is_skipped(daily_env, monkeypatch):
+    cfg, fetcher, llm = daily_env
+    monkeypatch.setitem(ISSUE, "category", "국제")
+    data = D.run(cfg, collect_fn=fake_collect, fetcher=fetcher, llm=llm, client=_client())
+    assert [i for i in data["issues"] if i["origin"] == "auto"] == []
+
+
+def test_duplicate_of_recent_issue_is_skipped(daily_env, monkeypatch):
+    """AI가 '이미 있는 이슈와 같은 사건'이라고 하면 새로 만들지 않음 (묶음이 쪼개진 경우)"""
+    cfg, fetcher, llm = daily_env
+    D.ARCHIVE.parent.mkdir(parents=True, exist_ok=True)
+    today = datetime.now(D.KST).date().isoformat()
+    D.ARCHIVE.write_text(json.dumps({"issues": [{"id": "auto-x", "title": "가람시 요금 인상안 발표", "summary": "",
+                                                 "category": "사회", "date": today, "origin": "auto"}],
+                                     "articles": []}, ensure_ascii=False), encoding="utf-8")
+    seen = {}
+
+    def handler(req):
+        msgs = json.loads(req.content)["messages"]
+        if "편집 보조" in msgs[0]["content"]:
+            seen["prompt"] = msgs[-1]["content"]
+            body = dict(ISSUE, duplicate_of=1)
+            return httpx.Response(200, json={"choices": [{"message": {"content": json.dumps(body, ensure_ascii=False)}}]})
+        return llm_handler(req)
+
+    data = D.run(cfg, collect_fn=fake_collect, fetcher=fetcher, llm=llm, client=httpx.Client(transport=httpx.MockTransport(handler)))
+    assert "[이미 있는 이슈]" in seen["prompt"] and "가람시 요금 인상안 발표" in seen["prompt"]
+    assert data is None or all(i["id"] == "auto-x" for i in data["issues"] if i["origin"] == "auto")
