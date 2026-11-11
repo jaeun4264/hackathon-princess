@@ -108,6 +108,18 @@
       "name": "파이낸셜뉴스"
     },
     {
+      "id": "segye",
+      "name": "세계일보"
+    },
+    {
+      "id": "dt",
+      "name": "디지털타임스"
+    },
+    {
+      "id": "chosun",
+      "name": "조선일보"
+    },
+    {
       "id": "imbc",
       "name": "MBC"
     },
@@ -116,16 +128,8 @@
       "name": "TV조선"
     },
     {
-      "id": "segye",
-      "name": "세계일보"
-    },
-    {
       "id": "sbs",
       "name": "SBS"
-    },
-    {
-      "id": "chosun",
-      "name": "조선일보"
     }
   ],
   "issues": [
@@ -139,6 +143,27 @@
         "a-79d86d6361",
         "a-9d3e7dcacb",
         "a-bc07bfe519"
+      ],
+      "displaySourceTypes": [
+        "gov",
+        "opp",
+        "expert",
+        "citizen",
+        "industry"
+      ],
+      "origin": "auto"
+    },
+    {
+      "id": "auto-20261112-02-2",
+      "title": "상미당홀딩스, 푸드뱅크에 냉동탑차 기부",
+      "summary": "상미당홀딩스 계열 행복한재단이 10일 한국사회복지협의회 전국푸드뱅크에 식품 배송용 냉동탑차 2대와 빵 4000개를 전달했다고 11일 밝혔다. 이번 기부로 2022년 이후 지원한 누적 차량은 총 12대가 됐다.",
+      "category": "사회",
+      "date": "2026-11-12",
+      "articleIds": [
+        "a-489a2ed4e6",
+        "a-e853307f76",
+        "a-0995e7ef59",
+        "a-08b19e88ac"
       ],
       "displaySourceTypes": [
         "gov",
@@ -232,6 +257,27 @@
         "a-90da7b8dae",
         "a-0e546a40a3",
         "a-62303e7f92"
+      ],
+      "displaySourceTypes": [
+        "gov",
+        "opp",
+        "expert",
+        "citizen",
+        "industry"
+      ],
+      "origin": "auto"
+    },
+    {
+      "id": "auto-20261112-02-1",
+      "title": "나경원·강신철 국회 예결위 설전",
+      "summary": "11일 국회 예산결산특별위원회에서 국민의힘 나경원 의원과 강신철 국방부 장관이 안보 현안을 두고 공방을 벌였다. 나 의원이 '당나라 군대냐'고 지적하자 강 장관은 해당 발언의 취소를 요구했다.",
+      "category": "정치",
+      "date": "2026-11-11",
+      "articleIds": [
+        "a-b44e9aff89",
+        "a-8c5c8f7bd5",
+        "a-8a71b27d9d",
+        "a-65d383f101"
       ],
       "displaySourceTypes": [
         "gov",
@@ -7365,6 +7411,790 @@
       ],
       "framingTerms": [],
       "missingViewpoints": []
+    },
+    {
+      "id": "a-b44e9aff89",
+      "issueId": "auto-20261112-02-1",
+      "outletId": "yna",
+      "title": "나경원 \"당나라 군대냐\"·강신철 \"말씀 취소하라\"…예결위 설전",
+      "summary": "강 장관은 이날 국회 예산결산특별위원회에서 국민의힘 나경원 의원이 '미군을 믿을 수 있느냐는 발언을 했느냐'는 질문에 \"(질의에 대한) 반문이었고 당시는 저의 발언에 대해 어떤 이의도 제기하지 않았다\"면서 이같이...",
+      "url": "https://www.yna.co.kr/view/AKR20261111182800001?input=1195m",
+      "publishedAt": "2026-11-11T23:44:00+09:00",
+      "sentences": [
+        {
+          "id": "s1",
+          "text": null,
+          "type": "quote",
+          "sourceType": "gov",
+          "sourceName": "강신철",
+          "sourceDetail": null
+        },
+        {
+          "id": "s2",
+          "text": null,
+          "type": "quote",
+          "sourceType": "opp",
+          "sourceName": "나경원",
+          "sourceDetail": null
+        },
+        {
+          "id": "s3",
+          "text": null,
+          "type": "fact",
+          "sourceType": null,
+          "sourceName": null,
+          "sourceDetail": null
+        },
+        {
+          "id": "s4",
+          "text": null,
+          "type": "quote",
+          "sourceType": "gov",
+          "sourceName": "강신철 국방부 장관",
+          "sourceDetail": null
+        },
+        {
+          "id": "s5",
+          "text": null,
+          "type": "quote",
+          "sourceType": "gov",
+          "sourceName": "강 장관",
+          "sourceDetail": null
+        },
+        {
+          "id": "s6",
+          "text": null,
+          "type": "fact",
+          "sourceType": null,
+          "sourceName": null,
+          "sourceDetail": null
+        },
+        {
+          "id": "s7",
+          "text": null,
+          "type": "quote",
+          "sourceType": "gov",
+          "sourceName": "강 장관",
+          "sourceDetail": null
+        },
+        {
+          "id": "s8",
+          "text": null,
+          "type": "quote",
+          "sourceType": "opp",
+          "sourceName": "나 의원",
+          "sourceDetail": null
+        },
+        {
+          "id": "s9",
+          "text": null,
+          "type": "fact",
+          "sourceType": null,
+          "sourceName": null,
+          "sourceDetail": null
+        },
+        {
+          "id": "s10",
+          "text": null,
+          "type": "quote",
+          "sourceType": "opp",
+          "sourceName": "나 의원",
+          "sourceDetail": null
+        },
+        {
+          "id": "s11",
+          "text": null,
+          "type": "quote",
+          "sourceType": "gov",
+          "sourceName": "강신철",
+          "sourceDetail": null
+        }
+      ],
+      "framingTerms": [
+        {
+          "term": "왜곡을",
+          "sentenceId": "s7"
+        }
+      ],
+      "missingViewpoints": []
+    },
+    {
+      "id": "a-8c5c8f7bd5",
+      "issueId": "auto-20261112-02-1",
+      "outletId": "joongang",
+      "title": "나경원 “당나라 군대” 강신철 “말씀 취소하라”…안보 놓고 충돌",
+      "summary": "나경원 국민의힘 의원과 강신철 국방부 장관이 국회 예산결산특별위원회에서 군의 비상계엄 관련 조사와 한미 안보 현안을 놓고 거친 설전을 벌였다. 두 사람의 공방은 11일 국회 예결위 전체회의에서 강 장관이 지난달...",
+      "url": "https://www.joongang.co.kr/article/25477843",
+      "publishedAt": "2026-11-12T00:31:00+09:00",
+      "sentences": [
+        {
+          "id": "s1",
+          "text": null,
+          "type": "fact",
+          "sourceType": null,
+          "sourceName": null,
+          "sourceDetail": null
+        },
+        {
+          "id": "s2",
+          "text": null,
+          "type": "fact",
+          "sourceType": null,
+          "sourceName": null,
+          "sourceDetail": null
+        },
+        {
+          "id": "s3",
+          "text": null,
+          "type": "quote",
+          "sourceType": "gov",
+          "sourceName": "강신철 국방부 장관",
+          "sourceDetail": null
+        },
+        {
+          "id": "s4",
+          "text": null,
+          "type": "quote",
+          "sourceType": "gov",
+          "sourceName": "강 장관",
+          "sourceDetail": null
+        },
+        {
+          "id": "s5",
+          "text": null,
+          "type": "fact",
+          "sourceType": null,
+          "sourceName": null,
+          "sourceDetail": null
+        },
+        {
+          "id": "s6",
+          "text": null,
+          "type": "fact",
+          "sourceType": null,
+          "sourceName": null,
+          "sourceDetail": null
+        },
+        {
+          "id": "s7",
+          "text": null,
+          "type": "quote",
+          "sourceType": "gov",
+          "sourceName": "강 장관",
+          "sourceDetail": null
+        },
+        {
+          "id": "s8",
+          "text": null,
+          "type": "quote",
+          "sourceType": "opp",
+          "sourceName": "나 의원",
+          "sourceDetail": null
+        },
+        {
+          "id": "s9",
+          "text": null,
+          "type": "fact",
+          "sourceType": null,
+          "sourceName": null,
+          "sourceDetail": null
+        },
+        {
+          "id": "s10",
+          "text": null,
+          "type": "quote",
+          "sourceType": "opp",
+          "sourceName": "나 의원",
+          "sourceDetail": null
+        },
+        {
+          "id": "s11",
+          "text": null,
+          "type": "quote",
+          "sourceType": "gov",
+          "sourceName": "강 장관",
+          "sourceDetail": null
+        },
+        {
+          "id": "s12",
+          "text": null,
+          "type": "quote",
+          "sourceType": "gov",
+          "sourceName": "강 장관",
+          "sourceDetail": null
+        }
+      ],
+      "framingTerms": [
+        {
+          "term": "거친 설전을 벌였다",
+          "sentenceId": "s1"
+        },
+        {
+          "term": "충돌했다",
+          "sentenceId": "s5"
+        }
+      ],
+      "missingViewpoints": []
+    },
+    {
+      "id": "a-8a71b27d9d",
+      "issueId": "auto-20261112-02-1",
+      "outletId": "segye",
+      "title": "“당나라 군대냐”는 나경원에…강신철 “말씀 취소하라”",
+      "summary": "11일 국회 예산결산특별위원회에서 설전을 벌였다. 또한 강 장관은 지난달 ‘미군을 믿을 수 있냐’고 한... 강 장관은 국회 예산결산특별위원회에서 국민의힘 나경원 의원이 ‘미군을 믿을 수 있느냐는 발언을 했느냐’는...",
+      "url": "https://www.segye.com/newsView/20261112500321?OutUrl=naver",
+      "publishedAt": "2026-11-12T01:26:00+09:00",
+      "sentences": [
+        {
+          "id": "s1",
+          "text": null,
+          "type": "fact",
+          "sourceType": null,
+          "sourceName": null,
+          "sourceDetail": null
+        },
+        {
+          "id": "s2",
+          "text": null,
+          "type": "quote",
+          "sourceType": "gov",
+          "sourceName": "강 장관",
+          "sourceDetail": null
+        },
+        {
+          "id": "s3",
+          "text": null,
+          "type": "quote",
+          "sourceType": "gov",
+          "sourceName": "강 장관",
+          "sourceDetail": null
+        },
+        {
+          "id": "s4",
+          "text": null,
+          "type": "quote",
+          "sourceType": "gov",
+          "sourceName": "강 장관",
+          "sourceDetail": null
+        },
+        {
+          "id": "s5",
+          "text": null,
+          "type": "fact",
+          "sourceType": null,
+          "sourceName": null,
+          "sourceDetail": null
+        },
+        {
+          "id": "s6",
+          "text": null,
+          "type": "quote",
+          "sourceType": "gov",
+          "sourceName": "강 장관",
+          "sourceDetail": null
+        },
+        {
+          "id": "s7",
+          "text": null,
+          "type": "quote",
+          "sourceType": "opp",
+          "sourceName": "나 의원",
+          "sourceDetail": null
+        },
+        {
+          "id": "s8",
+          "text": null,
+          "type": "fact",
+          "sourceType": null,
+          "sourceName": null,
+          "sourceDetail": null
+        },
+        {
+          "id": "s9",
+          "text": null,
+          "type": "quote",
+          "sourceType": "opp",
+          "sourceName": "나 의원",
+          "sourceDetail": null
+        },
+        {
+          "id": "s10",
+          "text": null,
+          "type": "quote",
+          "sourceType": "gov",
+          "sourceName": "강 장관",
+          "sourceDetail": null
+        }
+      ],
+      "framingTerms": [
+        {
+          "term": "설전을 벌였다",
+          "sentenceId": "s1"
+        },
+        {
+          "term": "해명했다",
+          "sentenceId": "s2"
+        },
+        {
+          "term": "해명했다",
+          "sentenceId": "s3"
+        },
+        {
+          "term": "반박했다",
+          "sentenceId": "s6"
+        },
+        {
+          "term": "맞받아치면서",
+          "sentenceId": "s7"
+        },
+        {
+          "term": "공방으로 번졌다",
+          "sentenceId": "s7"
+        },
+        {
+          "term": "질타하자",
+          "sentenceId": "s9"
+        },
+        {
+          "term": "맞서면서",
+          "sentenceId": "s10"
+        }
+      ],
+      "missingViewpoints": []
+    },
+    {
+      "id": "a-65d383f101",
+      "issueId": "auto-20261112-02-1",
+      "outletId": "dt",
+      "title": "나경원 “당나라 군대냐” vs 강신철 “말씀 취소하라”…국회 설전",
+      "summary": "강 장관은 이날 국회 예산결산특별위원회에서 나 의원한테서 이러한 발언을 했느냐는 질문을 받자 “언론에서 와전하는 바람에 그렇게 된 것”이라며 “(질의에 대한) 반문이었고 당시 저의 발언에 어떤 이의도 제기되지...",
+      "url": "https://www.dt.co.kr/article/12094705?ref=naver",
+      "publishedAt": "2026-11-12T01:43:00+09:00",
+      "sentences": [
+        {
+          "id": "s1",
+          "text": null,
+          "type": "fact",
+          "sourceType": null,
+          "sourceName": null,
+          "sourceDetail": null
+        },
+        {
+          "id": "s2",
+          "text": null,
+          "type": "quote",
+          "sourceType": "gov",
+          "sourceName": "강 장관",
+          "sourceDetail": null
+        },
+        {
+          "id": "s3",
+          "text": null,
+          "type": "fact",
+          "sourceType": null,
+          "sourceName": null,
+          "sourceDetail": null
+        },
+        {
+          "id": "s4",
+          "text": null,
+          "type": "fact",
+          "sourceType": null,
+          "sourceName": null,
+          "sourceDetail": null
+        },
+        {
+          "id": "s5",
+          "text": null,
+          "type": "quote",
+          "sourceType": "gov",
+          "sourceName": "강 장관",
+          "sourceDetail": null
+        },
+        {
+          "id": "s6",
+          "text": null,
+          "type": "quote",
+          "sourceType": "opp",
+          "sourceName": "나 의원",
+          "sourceDetail": null
+        },
+        {
+          "id": "s7",
+          "text": null,
+          "type": "fact",
+          "sourceType": null,
+          "sourceName": null,
+          "sourceDetail": null
+        },
+        {
+          "id": "s8",
+          "text": null,
+          "type": "quote",
+          "sourceType": "opp",
+          "sourceName": "나 의원",
+          "sourceDetail": null
+        },
+        {
+          "id": "s9",
+          "text": null,
+          "type": "quote",
+          "sourceType": "gov",
+          "sourceName": "강 장관",
+          "sourceDetail": null
+        }
+      ],
+      "framingTerms": [
+        {
+          "term": "설전을 벌였다",
+          "sentenceId": "s1"
+        },
+        {
+          "term": "반박했다",
+          "sentenceId": "s5"
+        },
+        {
+          "term": "발끈한",
+          "sentenceId": "s6"
+        },
+        {
+          "term": "맞받아쳐",
+          "sentenceId": "s6"
+        },
+        {
+          "term": "공세를 퍼부었고",
+          "sentenceId": "s8"
+        },
+        {
+          "term": "맞섰다",
+          "sentenceId": "s8"
+        },
+        {
+          "term": "맞서",
+          "sentenceId": "s9"
+        }
+      ],
+      "missingViewpoints": []
+    },
+    {
+      "id": "a-0995e7ef59",
+      "issueId": "auto-20261112-02-2",
+      "outletId": "chosun",
+      "title": "상미당홀딩스, 푸드뱅크에 탑차 기증… 28년간 식품도 3439억원어치 기부",
+      "summary": "상미당홀딩스 사회복지법인 행복한재단은 지난 10일 한국사회복지협의회 전국푸드뱅크에 식품 배송용 냉동탑차 2대를 기증했다. 이날 전달식에서 허영인 상미당홀딩스 회장은 빵 4000개를 실은 새 탑차를 김현훈...",
+      "url": "https://www.chosun.com/economy/market_trend/2026/11/12/TZGEHUF7KRABDCRNYPOL33WJRQ/?utm_source=naver&utm_medium=referral&utm_campaign=naver-news",
+      "publishedAt": "2026-11-12T00:44:00+09:00",
+      "sentences": [
+        {
+          "id": "s1",
+          "text": null,
+          "type": "fact",
+          "sourceType": null,
+          "sourceName": null,
+          "sourceDetail": null
+        },
+        {
+          "id": "s2",
+          "text": null,
+          "type": "fact",
+          "sourceType": null,
+          "sourceName": null,
+          "sourceDetail": null
+        },
+        {
+          "id": "s3",
+          "text": null,
+          "type": "fact",
+          "sourceType": null,
+          "sourceName": null,
+          "sourceDetail": null
+        },
+        {
+          "id": "s4",
+          "text": null,
+          "type": "quote",
+          "sourceType": "gov",
+          "sourceName": "우주항공청",
+          "sourceDetail": null
+        },
+        {
+          "id": "s5",
+          "text": null,
+          "type": "fact",
+          "sourceType": null,
+          "sourceName": null,
+          "sourceDetail": null
+        },
+        {
+          "id": "s6",
+          "text": null,
+          "type": "fact",
+          "sourceType": null,
+          "sourceName": null,
+          "sourceDetail": null
+        },
+        {
+          "id": "s7",
+          "text": null,
+          "type": "fact",
+          "sourceType": null,
+          "sourceName": null,
+          "sourceDetail": null
+        }
+      ],
+      "framingTerms": [],
+      "missingViewpoints": [
+        {
+          "sourceType": "industry",
+          "description": "기업·업계 인용 없음 (같은 이슈의 다른 기사에는 있습니다)",
+          "foundInArticleIds": [
+            "a-489a2ed4e6",
+            "a-e853307f76"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "a-489a2ed4e6",
+      "issueId": "auto-20261112-02-2",
+      "outletId": "joongang",
+      "title": "빵빵~ ‘빵차’ 2대 또 기부한 허영인 회장",
+      "summary": "상미당홀딩스 계열 사회복지법인 행복한재단은 10일 한국사회복지협의회 전국푸드뱅크에 식품 배송용 냉동탑차 2대를 전달했다고 11일 밝혔다. 차량에는 빵 4000개도 실어 함께 기부했다. 상미당은 푸드뱅크가 전국...",
+      "url": "https://www.joongang.co.kr/article/25477810",
+      "publishedAt": "2026-11-12T00:02:00+09:00",
+      "sentences": [
+        {
+          "id": "s1",
+          "text": null,
+          "type": "fact",
+          "sourceType": null,
+          "sourceName": null,
+          "sourceDetail": null
+        },
+        {
+          "id": "s2",
+          "text": null,
+          "type": "quote",
+          "sourceType": "industry",
+          "sourceName": "행복한재단",
+          "sourceDetail": null
+        },
+        {
+          "id": "s3",
+          "text": null,
+          "type": "fact",
+          "sourceType": null,
+          "sourceName": null,
+          "sourceDetail": null
+        },
+        {
+          "id": "s4",
+          "text": null,
+          "type": "fact",
+          "sourceType": null,
+          "sourceName": null,
+          "sourceDetail": null
+        },
+        {
+          "id": "s5",
+          "text": null,
+          "type": "fact",
+          "sourceType": null,
+          "sourceName": null,
+          "sourceDetail": null
+        },
+        {
+          "id": "s6",
+          "text": null,
+          "type": "fact",
+          "sourceType": null,
+          "sourceName": null,
+          "sourceDetail": null
+        },
+        {
+          "id": "s7",
+          "text": null,
+          "type": "quote",
+          "sourceType": "industry",
+          "sourceName": "상미당 관계자",
+          "sourceDetail": null
+        },
+        {
+          "id": "s8",
+          "text": null,
+          "type": "quote",
+          "sourceType": "industry",
+          "sourceName": "허 회장",
+          "sourceDetail": null
+        },
+        {
+          "id": "s9",
+          "text": null,
+          "type": "fact",
+          "sourceType": null,
+          "sourceName": null,
+          "sourceDetail": null
+        }
+      ],
+      "framingTerms": [],
+      "missingViewpoints": [
+        {
+          "sourceType": "gov",
+          "description": "정부·여당 인용 없음 (같은 이슈의 다른 기사에는 있습니다)",
+          "foundInArticleIds": [
+            "a-0995e7ef59",
+            "a-e853307f76",
+            "a-08b19e88ac"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "a-e853307f76",
+      "issueId": "auto-20261112-02-2",
+      "outletId": "donga",
+      "title": "상미당홀딩스, 푸드뱅크 지원… 식품 배송 냉동탑차 2대 기부",
+      "summary": "상미당홀딩스는 계열 사회복지 법인인 행복한재단이 10일 한국사회복지협의회 전국푸드뱅크에 냉동탑차 2대와 빵 4000개를 전달했다고 11일 밝혔다. 행복한재단은 2022년 이후 지금까지 총 12대의 차량을 기부했으며...",
+      "url": "https://www.donga.com/news/Economy/article/all/20261111/135009416/2",
+      "publishedAt": "2026-11-12T00:31:00+09:00",
+      "sentences": [
+        {
+          "id": "s1",
+          "text": null,
+          "type": "fact",
+          "sourceType": null,
+          "sourceName": null,
+          "sourceDetail": null
+        },
+        {
+          "id": "s2",
+          "text": null,
+          "type": "fact",
+          "sourceType": null,
+          "sourceName": null,
+          "sourceDetail": null
+        },
+        {
+          "id": "s3",
+          "text": null,
+          "type": "quote",
+          "sourceType": "industry",
+          "sourceName": "상미당홀딩스",
+          "sourceDetail": null
+        },
+        {
+          "id": "s4",
+          "text": null,
+          "type": "fact",
+          "sourceType": null,
+          "sourceName": null,
+          "sourceDetail": null
+        },
+        {
+          "id": "s5",
+          "text": null,
+          "type": "fact",
+          "sourceType": null,
+          "sourceName": null,
+          "sourceDetail": null
+        },
+        {
+          "id": "s6",
+          "text": null,
+          "type": "fact",
+          "sourceType": null,
+          "sourceName": null,
+          "sourceDetail": null
+        },
+        {
+          "id": "s7",
+          "text": null,
+          "type": "quote",
+          "sourceType": "gov",
+          "sourceName": "허영인 상미당홀딩스 회장",
+          "sourceDetail": null
+        }
+      ],
+      "framingTerms": [],
+      "missingViewpoints": []
+    },
+    {
+      "id": "a-08b19e88ac",
+      "issueId": "auto-20261112-02-2",
+      "outletId": "kmib",
+      "title": "상미당홀딩스 냉동탑차 2대 기부… 누적 12대",
+      "summary": "11일 상미당홀딩스에 따르면 계열 사회복지법인 행복한재단은 전날 한국사회복지협의회 전국푸드뱅크에 식품 배송용 냉동탑차 2대를 기부했다(사진). 이번 기부로 2022년부터 지원한 차량은 누적 12대로 늘었다....",
+      "url": "https://www.kmib.co.kr/article/20261111501981",
+      "publishedAt": "2026-11-12T01:16:00+09:00",
+      "sentences": [
+        {
+          "id": "s1",
+          "text": "상미당홀딩스가 푸드뱅크 식품 기부에 이어 배송 차량 지원을 확대하며 나눔…",
+          "type": "opinion",
+          "sourceType": null,
+          "sourceName": null,
+          "sourceDetail": null
+        },
+        {
+          "id": "s2",
+          "text": null,
+          "type": "fact",
+          "sourceType": null,
+          "sourceName": null,
+          "sourceDetail": null
+        },
+        {
+          "id": "s3",
+          "text": null,
+          "type": "fact",
+          "sourceType": null,
+          "sourceName": null,
+          "sourceDetail": null
+        },
+        {
+          "id": "s4",
+          "text": null,
+          "type": "fact",
+          "sourceType": null,
+          "sourceName": null,
+          "sourceDetail": null
+        },
+        {
+          "id": "s5",
+          "text": null,
+          "type": "fact",
+          "sourceType": null,
+          "sourceName": null,
+          "sourceDetail": null
+        },
+        {
+          "id": "s6",
+          "text": null,
+          "type": "fact",
+          "sourceType": null,
+          "sourceName": null,
+          "sourceDetail": null
+        },
+        {
+          "id": "s7",
+          "text": null,
+          "type": "quote",
+          "sourceType": "gov",
+          "sourceName": "허영인 회장",
+          "sourceDetail": null
+        }
+      ],
+      "framingTerms": [],
+      "missingViewpoints": [
+        {
+          "sourceType": "industry",
+          "description": "기업·업계 인용 없음 (같은 이슈의 다른 기사에는 있습니다)",
+          "foundInArticleIds": [
+            "a-489a2ed4e6",
+            "a-e853307f76"
+          ]
+        }
+      ]
     }
   ]
 }
