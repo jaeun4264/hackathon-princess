@@ -1,6 +1,6 @@
 // 뉴스 데이터를 읽고 화면에 필요한 숫자를 계산하는 함수 모음
 // 지금은 가짜 데이터(mock-news.json)를 읽고, 나중에 백엔드 API로 바꾸면 이 파일만 고치면 됩니다.
-import data from "@/data/mock-news.json";
+import data from "@/data/news-live.json";
 
 export const sourceTypes = data.sourceTypes;
 
