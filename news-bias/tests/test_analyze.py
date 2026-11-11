@@ -200,7 +200,7 @@ def test_effort_sent_and_named(rows):
     client, calls = client_returning(json.dumps(GOOD, ensure_ascii=False))
     A.analyze_article(c, "가람일보", rows, client)
     assert calls[0]["reasoning_effort"] == "low"
-    assert A.run_name(c) == "test-model_생각low" and A.run_name(cfg("gemini")) == "test-model"
+    assert A.run_name(c) == "test-model_생각low_p2" and A.run_name(cfg("gemini")) == "test-model_p2"
     client, calls = client_returning(json.dumps(GOOD, ensure_ascii=False))
     A.analyze_article(cfg("gemini"), "가람일보", rows, client)
     assert "reasoning_effort" not in calls[0]
@@ -235,3 +235,42 @@ def test_list_models(monkeypatch):
     monkeypatch.setattr(A.httpx, "get", fake_get)
     c = {"provider": "groq", "model": "x", "key": "k", "url": A.DEFAULT_URL["groq"]}
     assert A.list_models(c) == ["llama-3.3-70b-versatile", "openai/gpt-oss-20b"]
+
+
+def test_prompt_v2_rules():
+    p = A.SYSTEM_PROMPT
+    assert "국민의힘" in p and "모두 야당" in p          # 지금의 여야 구도
+    assert "외치며 퇴장했다" in p                      # 말+행동 → 인용
+    assert "평가 단어가 있든 없든 의견" in p            # 기자의 예측 → 의견
+
+
+def test_examples_go_into_prompt(tmp_path):
+    p = tmp_path / "예시.csv"
+    p.write_text("문장,유형,출처유형,인용한사람\n가람시가 요금을 올렸다.,사실,,\n"
+                 "가상당 대표는 \"반대한다\"고 말했다.,인용,야당,가상당 대표\n엉뚱한 줄,모름,,\n", encoding="utf-8-sig")
+    ex = A.load_examples(p)
+    assert len(ex) == 2
+    c = cfg("gemini") | {"examples": ex, "examples_name": "보강1"}
+    sp = A.system_prompt(c)
+    assert "[예시]" in sp and "→ 인용 / 야당 / 가상당 대표" in sp
+    assert A.system_prompt(cfg("gemini")) == A.SYSTEM_PROMPT
+    assert A.run_name(c).endswith("_예시보강1")
+    assert A.output_name(c | {"members": {"x": "y"}}).endswith("_사전")
+
+
+def test_second_round_output_does_not_overwrite_first(tables, tmp_path, monkeypatch):
+    import shutil
+    src = tmp_path / "라벨링표_2차.xlsx"
+    shutil.copy(tables("원본.xlsx"), src)
+    monkeypatch.setattr(A, "CACHE_DIR", tmp_path / "ai")
+    monkeypatch.setattr(A, "LABEL_DIR", tmp_path)
+
+    def handler(req):
+        nos = [int(l.split(".")[0]) for l in json.loads(req.content)["messages"][-1]["content"].splitlines() if l[:1].isdigit()]
+        body = {"sentences": [{"no": n, "type": "사실", "source": None, "speaker": None, "framing": []} for n in nos]}
+        return httpx.Response(200, json={"choices": [{"message": {"content": json.dumps(body)}}]})
+
+    real = httpx.Client
+    monkeypatch.setattr(A.httpx, "Client", lambda **kw: real(transport=httpx.MockTransport(handler)))
+    dst = A.run(cfg("gemini"), src, again=False, gap=0)
+    assert dst.name == "라벨링표_AI_test-model_p2_2차.xlsx"

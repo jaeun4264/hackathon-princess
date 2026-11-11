@@ -15,8 +15,8 @@ def test_health():
 def test_news_has_frontend_shape():
     data = client.get("/news").json()
     assert set(data) == {"meta", "sourceTypes", "outlets", "issues", "articles"}
-    assert [t["id"] for t in data["sourceTypes"]] == ["gov", "opp", "expert", "citizen", "biz", "etc"]
-    assert all(i["displaySourceTypes"] == ["gov", "opp", "expert", "citizen", "biz"] for i in data["issues"])
+    assert [t["id"] for t in data["sourceTypes"]] == ["gov", "opp", "expert", "citizen", "industry"]
+    assert all(i["displaySourceTypes"] == ["gov", "opp", "expert", "citizen", "industry"] for i in data["issues"])
     article = data["articles"][0]
     assert set(article) == {
         "id", "issueId", "outletId", "title", "summary", "url", "publishedAt",
@@ -55,13 +55,13 @@ def test_display_source_types_all_five_in_fixed_order():
     data = build_news()
     # 인용이 0건인 유형(issue-101의 기업·업계, issue-102의 야당)도 보여 줌 → "○○ 인용 없음" 표시 가능
     for issue in data["issues"]:
-        assert issue["displaySourceTypes"] == ["gov", "opp", "expert", "citizen", "biz"]
+        assert issue["displaySourceTypes"] == ["gov", "opp", "expert", "citizen", "industry"]
     assert "etc" not in data["issues"][0]["displaySourceTypes"]
 
 
 def test_display_top_n_still_works_if_changed_back():
-    a = {"id": "x", "sentences": [{"sourceType": "biz"}]}
-    assert metrics.display_source_types([a], n=4) == ["gov", "opp", "expert", "biz"]
+    a = {"id": "x", "sentences": [{"sourceType": "industry"}]}
+    assert metrics.display_source_types([a], n=4) == ["gov", "opp", "expert", "industry"]
 
 
 def test_find_problems_catches_broken_framing_term():

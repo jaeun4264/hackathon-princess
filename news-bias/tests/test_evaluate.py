@@ -1,4 +1,5 @@
 import math
+from pathlib import Path
 
 from app import evaluate as E
 from app.labelsheet import read_rows
@@ -74,3 +75,14 @@ def test_daily_capacity():
     assert lim["하루 요청 수(RPD)"] == 250
     assert round(lim["응답 속도(한 번에 하나씩)"]) == 2160
     assert min(lim, key=lim.get) == "하루 요청 수(RPD)"
+
+
+def test_expand_wildcards(tmp_path, monkeypatch):
+    monkeypatch.setattr(E, "LABEL_DIR", tmp_path)
+    for n in ["라벨링표_AI_a_p2.xlsx", "라벨링표_AI_a_p2_사전.xlsx", "라벨링표_AI_b_p2_사전.xlsx"]:
+        (tmp_path / n).write_text("")
+    got = [Path(x).name for x in E.expand(["라벨링표_AI_*_사전.xlsx", "정답.xlsx"])]
+    assert got == ["라벨링표_AI_a_p2_사전.xlsx", "라벨링표_AI_b_p2_사전.xlsx", "정답.xlsx"]
+    import pytest
+    with pytest.raises(SystemExit):
+        E.expand(["없는_*.xlsx"])
