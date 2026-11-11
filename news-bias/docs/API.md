@@ -18,8 +18,8 @@
 
 ## 합의한 것 (11/5)
 
-- 인용 출처 유형: 전 분야 공통 5개 + 기타. `gov`(정부·여당), `opp`(야당), `expert`(전문가), `citizen`(시민·단체), `biz`(기업·업계), `etc`(기타)
-- 화면에는 주요 **5개 모두** 표시 → `issues[].displaySourceTypes` = `["gov","opp","expert","citizen","biz"]` (정해진 순서, 0건인 유형도 포함해 "○○ 인용 없음" 표시 가능). `etc`(기타)를 화면에 어떻게 보일지는 프론트에서 결정
+- 인용 출처 유형: 전 분야 공통 5개 + 기타. `gov`(정부·여당), `opp`(야당), `expert`(전문가), `citizen`(시민·단체), `industry`(기업·업계, 11/7 프론트에 맞춰 biz→industry), `etc`(기타)
+- 화면에는 주요 **5개 모두** 표시 → `issues[].displaySourceTypes` = `["gov","opp","expert","citizen","industry"]` (정해진 순서, 0건인 유형도 포함해 "○○ 인용 없음" 표시 가능). `etc`(기타)를 화면에 어떻게 보일지는 프론트에서 결정
   - (처음엔 상위 4개였으나 11/5 합의로 변경. `app/schemas.py`의 `DISPLAY_COUNT`로 조정)
 - 문장 유형 3가지: `fact`(사실) / `opinion`(의견: 기자의 평가·추측) / `quote`(인용: 누군가의 말 전달). `sourceType`·`sourceName`은 `quote`일 때만 채움
 - **기타는 원래 명칭으로 표시** (11/5 합의): 5개 유형에 안 맞는 인용은 `sourceType: "etc"`로 묶고, 화면에 보여 줄 원래 명칭(예: `무소속 의원`, `국회의장`, `법원`)을 `sentences[].sourceDetail`에 담음. 화면에서는 `etc`일 때 "기타" 대신 `sourceDetail`을 표시. 계산(비율·내 읽기 편향)은 계속 `etc` 하나로 묶어서 함
@@ -46,6 +46,7 @@ JSON 형식은 그대로이고, 프론트가 `sentences[].sourceType` 으로 바
 | 지표 | 식 | 값 | 계산 안 함 |
 |---|---|---|---|
 | 인용 기울기 | (정부·여당 인용 − 야당 인용) / (정부·여당 + 야당) | +1 정부·여당만 … 0 같은 수 … −1 야당만 | 정부·여당과 야당 인용이 둘 다 0 |
+| 보정 인용 기울기 (11/7) | (정부·여당 − 야당) / (정부·여당 + 야당 **+ 2**) | 1건 +0.33, 3건 +0.60, 10건 +0.83 (인용이 적을수록 0 쪽으로) | 위와 같음 |
 | 다양성 (정규화 엔트로피) | −Σ p·ln p / ln 5, p = 주요 5개 유형 각각의 인용 비율 | 0 한 목소리만 … 1 다섯 유형이 똑같이 | 주요 5개 유형 인용이 3개 미만 |
 
 - 기타(etc)는 두 지표 모두에서 뺍니다.
@@ -62,3 +63,55 @@ JSON 형식은 그대로이고, 프론트가 `sentences[].sourceType` 으로 바
   프론트는 기사 화면·이슈 화면 모두에서 `url` 로 가는 "원문 보기"를 잘 보이게 표시.
 - 라벨: 사람 정답 우선, 정답에 없는 문장만 AI 결과.
 - 기사 문장이 들어 있으므로 GitHub(특히 공개 저장소)에 올리지 않음. 프론트 배포에 쓸 때는 시범 운영 참여자에게만 링크 공유.
+
+### 11/7 프론트(news-front)와 맞춘 것
+- `sourceTypes` 는 **주요 5개만** 보냄 (`etc` 없음). 기타 인용은 문장에 `sourceType: "etc"` + `sourceDetail`(원래 명칭)로만 들어감 → 프론트에서 비중 계산 때 뺄지 정해야 함
+- 실제 기사(`news_실제.json`)는 11/5 합의대로 **사실·인용 문장 `text` = null, 의견 문장은 앞 40자 + '…'**. 라벨은 그대로
+- 문장 `type` 은 `fact` / `opinion` / `quote` 3가지 (프론트 mock은 아직 2가지. `quote` 는 프론트 계산에 영향 없음)
+
+### 11/7 백엔드 보강
+- 보정 기울기(`metrics.smoothed_slope`) 추가. 쌍 비교 채점(`app.pairs 채점`)은 보정 전·후를 둘 다 보여 줌. 기울기를 계산할 수 없는 기사 수도 보여 줌
+- AI 프롬프트 v2: 지금의 여야 구도(여당 = 더불어민주당, 나머지 정당 = 야당) 명시, 말+행동 문장 = 인용, 기자의 예측 = 의견.
+  결과 파일 이름 끝에 `_p2` 가 붙어 v1 결과와 나란히 채점 가능. 1차 오답을 보고 넣은 규칙이라 효과는 2차 기사로 확인
+
+### 이슈 늘리기 (11/7)
+1. `python -m app.collect "검색어" --count 500` → 2. `python -m app.candidates 검색어 --날짜 YYYY-MM-DD` (후보 CSV)
+3. `python -m app.labeling 준비 --차수 N --후보 후보_….csv --번호 a,b,c,d,e` → 본문 붙여 넣기 → `python -m app.labeling 채우기 --차수 N`
+4. `python -m app.analyze 라벨링표_N차.xlsx --모델 gemini-3.5-flash-lite` → 5. `data/issues.json` 에 이슈 추가(labels = AI 결과 파일) → `python -m app.build 실제`
+사람 정답이 없는 이슈는 AI 라벨만으로 화면에 나감 (1차 기준 정확도 약 92%).
+
+## 매일 자동 실행 (11/7)
+
+GitHub Actions(`.github/workflows/daily.yml`)가 한국 시간 08시·17시쯤 `python -m app.daily` 실행 → `data/daily/news.json`.
+`FRONT_REPO_TOKEN` 비밀값이 있으면 같은 파일을 프론트 저장소 `news-front/src/data/news-live.json` 에 올림 → Vercel 자동 배포.
+
+| 단계 | 파일 | 내용 |
+|---|---|---|
+| 수집 | `app/collect.py` | `data/daily.json` 의 검색어마다 최신 기사 |
+| 이슈 묶기 (①) | `app/cluster.py` | 제목·요약 유사도 + 언론사 4곳 이상, AI가 한 사건인지 확인하고 제목·요약·분야 작성 |
+| 원문 분석 (②③) | `app/fetch.py`, `app/analyze.py` | robots.txt 허용 주소만, 본문은 저장 안 함 → 라벨·의견 40자만 남김 |
+| 빠진 관점 (④) | `app/metrics.py` | 규칙 |
+| 합치기 | `app/daily.py` | 사람이 확인한 이슈(`data/curated.json`, `python -m app.build 실제` 가 만듦) + 최근 14일 자동 이슈 |
+
+- 이슈에 `origin` 칸 추가: `"curated"`(사람 확인) / `"auto"`(자동·AI). 프론트는 auto 이슈에 "AI 분석" 표시 권장
+- ⑤ 내 읽기 편향, ⑥ 반대 시각 추천은 프론트가 이 데이터로 계산 (변경 없음). 기사 id(`a-…`)는 원문 주소로 만들어 매번 같음 → 읽은 기록이 유지됨
+
+## 열람 기록 API (11/8, 사용자 검증용)
+
+| 요청 | 내용 |
+|---|---|
+| `POST /reading-history` | `{"userId": "익명아이디", "articleId": "a-…", "kind": "view"\|"original", "readAt": "ISO 8601(선택)", "from": "recommend"\|"issue"\|"list"\|"me"\|"search"\|null}` |
+| `GET /reading-history?userId=…` | 위 기록 배열 (최신순) |
+| `GET /reading-stats` | 사용자 수, 반대 시각 추천을 열어 본 사용자 비율 등. `STATS_TOKEN` 을 정하면 `?token=` 필요 |
+
+- `userId` 는 프론트가 `crypto.randomUUID()` 로 만들어 브라우저에 저장한 익명 값. 이름·이메일·IP는 받지 않음
+- 반대 시각 추천 영역에서 연 기사는 `"from": "recommend"` 로 보내야 "반대 시각 기사를 열어 본 비율"이 계산됨
+- 기록은 SQLite(`READING_DB`, 기본 `data/reading.db`). 무료 호스팅은 재시작 때 파일이 지워질 수 있어 시범 운영 기간에는 저장 공간(볼륨)이 있는 곳에 배포
+
+## 국회의원 소속 사전 (11/8)
+`python -m app.members 받기` (ASSEMBLY_API_KEY) → `data/members.csv`. `analyze --소속사전` 으로 비교, 매일 자동 실행은 파일이 있으면 자동 적용.
+이름 전체 또는 "성 + 직함"(앞에 나온 의원이 한 명일 때만)으로 찾고, 여당 = 정부·여당, 그 밖 정당 = 야당, 무소속 = 무소속 의원.
+
+## Syntitan 준비 (11/8)
+`python -m app.syntitan 진단 정답_1차.xlsx` → 무료 진단 30줄, `전체` → 보강 씨앗. 보강 결과(열: 문장, 유형, 출처유형, 인용한사람)는
+`analyze --예시 보강.csv` 로 프롬프트 예시에 넣어 전후 비교. 씨앗은 1차, 평가는 2차 정답으로 분리.
