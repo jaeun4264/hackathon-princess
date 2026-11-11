@@ -19,7 +19,7 @@
   "perQuery": 100,
   "hours": 36,
   "maxNewIssues": 6,
-  "articlesPerIssue": 5,
+  "articlesPerIssue": 8,
   "minArticles": 3,
   "minOutlets": 4,
   "threshold": 0.3,
