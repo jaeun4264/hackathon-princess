@@ -13,6 +13,7 @@ from collections import Counter, defaultdict
 from app.collect import OUTLET_BY_DOMAIN, article_kind
 
 THRESHOLD = 0.30
+MERGE = 0.45   # 묶음끼리 중심이 이만큼 비슷하면 같은 사건으로 보고 합침 (같은 사건이 여러 묶음으로 쪼개지는 것 방지)
 MIN_OUTLETS = 4
 KNOWN_OUTLETS = set(OUTLET_BY_DOMAIN.values())
 # 흔한 단어는 묶음 판단에 방해가 돼서 뺌
@@ -53,7 +54,33 @@ def eligible(a: dict) -> bool:
     return (a.get("kind") or article_kind(a.get("title", ""))) == "기사" and a.get("outlet") in KNOWN_OUTLETS
 
 
-def cluster(articles: list[dict], threshold: float = THRESHOLD, min_outlets: int = MIN_OUTLETS) -> list[list[dict]]:
+def _merge(groups: list[dict], merge: float) -> list[dict]:
+    """중심이 비슷한 묶음끼리 합침 (기사 2건 이상인 묶음만 비교). 더 합칠 게 없을 때까지 반복"""
+    big = [g for g in groups if len(g["members"]) >= 2]
+    rest = [g for g in groups if len(g["members"]) < 2]
+    changed = True
+    while changed:
+        changed = False
+        best = None
+        for i in range(len(big)):
+            for j in range(i + 1, len(big)):
+                s = _dot(big[i]["centroid"], big[j]["centroid"])
+                if s >= merge and (best is None or s > best[0]):
+                    best = (s, i, j)
+        if best:
+            _, i, j = best
+            a, b = big[i], big.pop(j)
+            a["members"] += b["members"]
+            for t, x in b["sum"].items():
+                a["sum"][t] = a["sum"].get(t, 0.0) + x
+            norm = math.sqrt(sum(x * x for x in a["sum"].values())) or 1.0
+            a["centroid"] = {t: x / norm for t, x in a["sum"].items()}
+            changed = True
+    return big + rest
+
+
+def cluster(articles: list[dict], threshold: float = THRESHOLD, min_outlets: int = MIN_OUTLETS,
+            merge: float | None = MERGE) -> list[list[dict]]:
     """기사 목록 → 이슈 후보 묶음들 (언론사 수가 많은 순)"""
     arts, seen = [], set()
     for a in sorted(articles, key=lambda a: a.get("publishedAt", "")):
@@ -76,8 +103,11 @@ def cluster(articles: list[dict], threshold: float = THRESHOLD, min_outlets: int
             best["sum"][t] = best["sum"].get(t, 0.0) + x
         norm = math.sqrt(sum(x * x for x in best["sum"].values())) or 1.0
         best["centroid"] = {t: x / norm for t, x in best["sum"].items()}
+    if merge:
+        groups = _merge(groups, merge)
     out = []
     for g in groups:
+        g["members"].sort()
         members = [arts[i] for i in g["members"]]
         if len({a["outlet"] for a in members}) >= min_outlets:
             for a, i in zip(members, g["members"]):

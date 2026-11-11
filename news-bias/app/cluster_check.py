@@ -151,7 +151,7 @@ def make(args) -> Path:
     if args.임계값:
         cfg["threshold"] = args.임계값
     arts, snap = collect(cfg, args.파일)
-    groups = cluster(arts, cfg["threshold"], cfg["minOutlets"])[:MAX_GROUPS]
+    groups = cluster(arts, cfg["threshold"], cfg["minOutlets"], cfg.get("merge"))[:MAX_GROUPS]
     print(f"2. 묶기: 언론사 {cfg['minOutlets']}곳 이상 묶음 {len(groups)}개 (최대 {MAX_GROUPS}개만 확인)")
     if not groups:
         raise SystemExit("묶음이 없습니다. 검색어(data/daily.json)나 --임계값 을 확인하세요.")

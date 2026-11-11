@@ -45,7 +45,8 @@ DEFAULTS = {
     "queries": ["정부", "국회", "대통령실", "더불어민주당", "국민의힘", "검찰", "법원",
                 "경제", "부동산", "물가", "노동", "교육", "복지", "환경"],
     "perQuery": 100, "hours": 36, "maxNewIssues": 6, "articlesPerIssue": 5, "minArticles": 3,
-    "minOutlets": 4, "threshold": 0.30, "keepDays": 14, "maxSentences": 70,
+    "minOutlets": 4, "threshold": 0.30, "merge": 0.45, "keepDays": 14, "maxSentences": 70,
+    "categories": ["정치", "사회", "경제"],   # 이 분야 이슈만 사이트에 올림 (국제·생활·연예·스포츠는 뺌)
     "model": "gemini-3.5-flash-lite", "llmGap": 4.0,
     "preferOutlets": ["연합뉴스", "뉴시스", "뉴스1", "KBS", "MBC", "SBS", "YTN", "JTBC", "TV조선", "채널A",
                       "조선일보", "중앙일보", "동아일보", "한겨레", "경향신문", "한국일보", "세계일보", "국민일보",
@@ -58,8 +59,12 @@ ISSUE_PROMPT = """너는 뉴스 편집 보조다. 판정·평가 없이 사실�
    서로 다른 사건이 섞였거나, 기사들이 한 사람의 발언 한 마디만 옮긴 것이면 false.
 2) 같은 사건이 아닌 기사 번호는 exclude 에 적는다.
 3) title: 이슈 제목 25자 이내, 평가 단어(강행·폭주·꼼수 등) 없이. summary: 누가 언제 무엇을 했는지 두 문장 이내.
-4) category: 정치 / 경제 / 사회 / 생활 / 국제 중 하나.
-반드시 JSON 하나만 출력: {"same_event": true, "title": "", "summary": "", "category": "", "exclude": []}"""
+4) category: 정치 / 경제 / 사회 / 생활 / 국제 / 연예·스포츠 중 하나.
+   국제 = 외국에서 일어난 일로 한국 정부·정당이 당사자가 아닌 것. 연예인·운동선수 관련은 재판이라도 연예·스포츠.
+5) '이미 있는 이슈' 목록이 주어지면, 그중 이 기사들과 같은 사건(같은 결정·발표·사고)이 있으면 duplicate_of 에 그 번호, 없으면 0.
+   같은 주제라도 다른 날의 새 결정·새 사건이면 0.
+반드시 JSON 하나만 출력: {"same_event": true, "title": "", "summary": "", "category": "", "exclude": [], "duplicate_of": 0}"""
+CATEGORIES = ("정치", "경제", "사회", "생활", "국제", "연예·스포츠")
 
 
 def log(msg: str) -> None:
@@ -105,10 +110,14 @@ def collect_all(cfg: dict, collect_fn=None) -> list[dict]:
 
 
 # ---------- 3. AI 확인 ----------
-def describe_issue_raw(llm: dict, members: list[dict], client: httpx.Client) -> dict | None:
-    """AI 응답 그대로 (same_event, exclude 는 앞 25건의 1부터 시작하는 번호). 실패하면 None"""
+def describe_issue_raw(llm: dict, members: list[dict], client: httpx.Client,
+                       existing: list[str] | None = None) -> dict | None:
+    """AI 응답 그대로 (same_event, exclude 는 앞 25건의 1부터 시작하는 번호). 실패하면 None
+    existing: 최근 이슈 제목들 → 같은 사건이면 duplicate_of 에 그 번호(1부터)"""
     shown = members[:25]
     lines = "\n".join(f"{i}. [{a['outlet']}] {a['title']} — {a.get('summary', '')[:120]}" for i, a in enumerate(shown, 1))
+    if existing:
+        lines += "\n\n[이미 있는 이슈]\n" + "\n".join(f"{i}. {t}" for i, t in enumerate(existing, 1))
     try:
         text = A.call_llm(llm, ISSUE_PROMPT, lines, client)
         m = re.search(r"\{.*\}", text, re.S)
@@ -118,15 +127,18 @@ def describe_issue_raw(llm: dict, members: list[dict], client: httpx.Client) -> 
         return None
 
 
-def describe_issue(llm: dict, members: list[dict], client: httpx.Client) -> dict | None:
+def describe_issue(llm: dict, members: list[dict], client: httpx.Client,
+                   existing: list[str] | None = None) -> dict | None:
     shown = members[:25]
-    info = describe_issue_raw(llm, members, client)
+    info = describe_issue_raw(llm, members, client, existing)
     if not info or not info.get("same_event") or not info.get("title"):
         return None
     drop = {shown[i - 1]["url"] for i in info.get("exclude", []) if isinstance(i, int) and 1 <= i <= len(shown)}
     info["members"] = [a for a in members if a["url"] not in drop]
-    if info.get("category") not in ("정치", "경제", "사회", "생활", "국제"):
+    if info.get("category") not in CATEGORIES:
         info["category"] = "사회"
+    dup = info.get("duplicate_of")
+    info["duplicate_of"] = dup if isinstance(dup, int) and existing and 1 <= dup <= len(existing) else 0
     return info
 
 
@@ -213,6 +225,12 @@ def already_have(archive: dict, members: list[dict]) -> bool:
     return False
 
 
+def recent_issue_titles(archive: dict, hours: int) -> list[str]:
+    """최근 hours 시간 안의 자동 이슈 제목 (같은 실행에서 방금 만든 이슈 포함) — AI가 중복을 판단할 때 보여 줌"""
+    cutoff = (datetime.now(KST) - timedelta(hours=hours + 24)).date().isoformat()
+    return [i["title"] for i in archive["issues"] if i.get("date", "") >= cutoff][-20:]
+
+
 def prune(archive: dict, keep_days: int) -> dict:
     cutoff = (datetime.now(KST) - timedelta(days=keep_days)).date().isoformat()
     issues = [i for i in archive["issues"] if i["date"] >= cutoff]
@@ -245,7 +263,7 @@ def run(cfg: dict, preview: bool = False, collect_fn=None, fetcher: Fetcher | No
         client: httpx.Client | None = None) -> dict | None:
     log(f"== 매일 자동 실행 {datetime.now(KST):%Y-%m-%d %H:%M} (KST) ==")
     recent = collect_all(cfg, collect_fn)
-    groups = cluster(recent, cfg["threshold"], cfg["minOutlets"])
+    groups = cluster(recent, cfg["threshold"], cfg["minOutlets"], cfg.get("merge"))
     log(f"2. 묶기: 언론사 {cfg['minOutlets']}곳 이상이 다룬 묶음 {len(groups)}개")
     archive = prune(load_archive(), cfg["keepDays"])
     if preview:
@@ -269,10 +287,17 @@ def run(cfg: dict, preview: bool = False, collect_fn=None, fetcher: Fetcher | No
                 break
             if already_have(archive, members):
                 continue
-            info = describe_issue(llm, members, client)
+            recent_titles = recent_issue_titles(archive, cfg["hours"])
+            info = describe_issue(llm, members, client, recent_titles)
             time.sleep(cfg["llmGap"])
             if not info:
                 log(f"  제외(한 사건이 아님): {members[0]['title'][:40]}")
+                continue
+            if info["category"] not in cfg["categories"]:
+                log(f"  제외(분야 {info['category']}): {info['title']}")
+                continue
+            if info["duplicate_of"]:
+                log(f"  제외(이미 있는 이슈와 같은 사건: {recent_titles[info['duplicate_of'] - 1]}): {info['title']}")
                 continue
             issue_id = f"auto-{today.replace('-', '')}-{datetime.now(KST):%H}-{made + 1}"
             log(f"3. 이슈: {info['title']} ({info['category']}, 후보 {len(info['members'])}건)")
