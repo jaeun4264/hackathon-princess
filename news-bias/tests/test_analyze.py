@@ -87,12 +87,13 @@ def test_original_name_instead_of_etc(rows):
     assert out[2]["source"] == "기타" and out[2]["detail"] == "무소속 의원"
 
 
-def test_literal_etc_is_retried(rows):
+def test_literal_etc_becomes_unknown(rows):
+    """AI가 '기타'만 적으면 실패시키지 않고 '소속 미상'으로 받음 (소속을 알 수 없는 화자에서 AI가 고집함)"""
     body = json.loads(json.dumps(GOOD))
     body["sentences"][1]["source"] = "기타"
-    client, calls = client_returning(json.dumps(body, ensure_ascii=False), json.dumps(GOOD, ensure_ascii=False))
-    A.analyze_article(cfg("gemini"), "가람일보", rows, client)
-    assert len(calls) == 2 and "원래 명칭" in calls[1]["messages"][-1]["content"]
+    client, calls = client_returning(json.dumps(body, ensure_ascii=False))
+    out = A.analyze_article(cfg("gemini"), "가람일보", rows, client)
+    assert len(calls) == 1 and out[2]["source"] == "기타" and out[2]["detail"] == "익명(소속 미상)"
 
 
 @pytest.fixture
@@ -200,7 +201,7 @@ def test_effort_sent_and_named(rows):
     client, calls = client_returning(json.dumps(GOOD, ensure_ascii=False))
     A.analyze_article(c, "가람일보", rows, client)
     assert calls[0]["reasoning_effort"] == "low"
-    assert A.run_name(c) == "test-model_생각low_p2" and A.run_name(cfg("gemini")) == "test-model_p2"
+    assert A.run_name(c) == "test-model_생각low_p3" and A.run_name(cfg("gemini")) == "test-model_p3"
     client, calls = client_returning(json.dumps(GOOD, ensure_ascii=False))
     A.analyze_article(cfg("gemini"), "가람일보", rows, client)
     assert "reasoning_effort" not in calls[0]
@@ -237,8 +238,22 @@ def test_list_models(monkeypatch):
     assert A.list_models(c) == ["llama-3.3-70b-versatile", "openai/gpt-oss-20b"]
 
 
+def test_prompt_v3_rules_and_v2_kept():
+    p3, p2 = A.PROMPTS[3], A.PROMPTS[2]
+    for word in ("국회예산정책처", "직능단체", "자문료", "헌법재판소", "익명(소속 미상)", "소문", "현수막", "이르면"):
+        assert word in p3 and word not in p2
+    assert A.system_prompt(cfg("gemini") | {"prompt_version": 2}) == p2
+    assert A.run_name(cfg("gemini") | {"prompt_version": 2}).endswith("_p2")
+    assert A.run_name(cfg("gemini")).endswith("_p3")
+
+
+def test_unknown_source_words_are_unified():
+    assert A.Label(no=1, type="인용", source="소속 미상").source == "익명(소속 미상)"
+    assert A.Label(no=1, type="인용", source="익명").source == "익명(소속 미상)"
+
+
 def test_prompt_v2_rules():
-    p = A.SYSTEM_PROMPT
+    p = A.PROMPTS[2]
     assert "국민의힘" in p and "모두 야당" in p          # 지금의 여야 구도
     assert "외치며 퇴장했다" in p                      # 말+행동 → 인용
     assert "평가 단어가 있든 없든 의견" in p            # 기자의 예측 → 의견
@@ -273,4 +288,12 @@ def test_second_round_output_does_not_overwrite_first(tables, tmp_path, monkeypa
     real = httpx.Client
     monkeypatch.setattr(A.httpx, "Client", lambda **kw: real(transport=httpx.MockTransport(handler)))
     dst = A.run(cfg("gemini"), src, again=False, gap=0)
-    assert dst.name == "라벨링표_AI_test-model_p2_2차.xlsx"
+    assert dst.name == "라벨링표_AI_test-model_p3_2차.xlsx"
+
+
+def test_table_tag_keeps_results_apart():
+    from pathlib import Path
+    assert A.table_tag(Path("라벨링표_1차.xlsx")) == "1차"
+    assert A.table_tag(Path("라벨링표_2차.xlsx")) == "2차"
+    assert A.table_tag(Path("라벨링표_경계사례.xlsx")) == "경계사례"
+    assert A.table_tag(Path("라벨링표.xlsx")) == "1차"
