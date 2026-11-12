@@ -55,6 +55,54 @@
    "category": "사회",
    "date": "2026-11-12",
    "origin": "auto"
+  },
+  {
+   "id": "auto-20261112-12-1",
+   "title": "KDI \"고유가로 올해 소비 위축, 반도체 효과 내년 반영\"",
+   "summary": "한국개발연구원(KDI)은 반도체 호황의 긍정적 효과는 시차를 두고 나타나는 반면 국제유가 상승에 따른 구매력 저하 충격은 빠르게 반영되어 올해 민간소비 증가율이 제약됐다고 밝혔다.",
+   "category": "경제",
+   "date": "2026-11-12",
+   "origin": "auto"
+  },
+  {
+   "id": "auto-20261112-12-2",
+   "title": "안성현 코인 상장 청탁 무죄 확정",
+   "summary": "대법원은 가상자산 상장 청탁 명목으로 거액의 뒷돈을 챙긴 혐의로 기소된 프로골퍼 안성현 씨에게 무죄를 확정했다. 함께 기소된 이상준 전 빗썸홀딩스 대표는 일부 혐의가 유죄로 인정되어 징역형이 확정됐다.",
+   "category": "사회",
+   "date": "2026-11-12",
+   "origin": "auto"
+  },
+  {
+   "id": "auto-20261112-12-3",
+   "title": "한상혁 전 방통위원장, TV조선 점수 조작 의혹 1심 무죄",
+   "summary": "서울북부지법은 12일 TV조선 재승인 심사 과정에서 점수를 조작한 혐의로 기소된 한상혁 전 방송통신위원장 등 6명에게 무죄를 선고했다. 법원은 검찰의 공소사실에 대해 범죄의 증명이 되지 않는다고 판단했다.",
+   "category": "사회",
+   "date": "2026-11-12",
+   "origin": "auto"
+  },
+  {
+   "id": "auto-20261112-12-4",
+   "title": "내년 오피스텔·상가 기준시가 발표",
+   "summary": "국세청이 내년도 오피스텔과 상가 기준시가안을 공개한 가운데, 전국 평균은 하락했으나 서울은 상승했다. 이번 고시안은 의견 청취와 심의를 거쳐 확정된다.",
+   "category": "경제",
+   "date": "2026-11-12",
+   "origin": "auto"
+  },
+  {
+   "id": "auto-20261112-12-5",
+   "title": "최민희 의원 '하이에나 떼' 발언 경찰 고발",
+   "summary": "국회 취재 기자들을 '하이에나 떼들'이라고 표현한 더불어민주당 최민희 의원이 명예훼손 혐의로 경찰에 고발됐다.",
+   "category": "정치",
+   "date": "2026-11-12",
+   "origin": "auto"
+  },
+  {
+   "id": "auto-20261112-12-6",
+   "title": "주민센터 사칭 신종 보이스피싱 주의보",
+   "summary": "금감원은 주민센터 직원을 사칭해 명의도용을 막아주겠다며 접근해 금전을 가로채는 신종 보이스피싱 수법에 대해 소비자경보를 발령했다.",
+   "category": "사회",
+   "date": "2026-11-12",
+   "origin": "auto"
   }
  ],
  "articles": [
@@ -5599,6 +5647,6355 @@
      "type": "quote",
      "sourceType": "gov",
      "sourceName": "허영인 회장",
+     "sourceDetail": null
+    }
+   ],
+   "framingTerms": [],
+   "analyzedBy": "gemini-3.5-flash-lite"
+  },
+  {
+   "id": "a-9863688f5c",
+   "issueId": "auto-20261112-12-1",
+   "outletId": "yna",
+   "outletName": "연합뉴스",
+   "title": "반도체 호황 누른 유가…KDI \"소비에 부정적 영향 먼저 반영\"",
+   "summary": "올해 유가 탓 소비 증가율 0.4%p↓…내년 반도체로 소비 증가율 0.6%p↑ \"최고가격제, 3∼10월 소비자물가... 실제로 KDI 분석 결과 최고가격제는 3∼10월 석유류 가격 상승률을 월평균 약 12%p, 소비자물가 상승률을 약 0.6%p...",
+   "url": "https://www.yna.co.kr/view/AKR20261112084800002?input=1195m",
+   "publishedAt": "2026-11-12T12:00:00+09:00",
+   "sentences": [
+    {
+     "id": "s1",
+     "text": null,
+     "type": "quote",
+     "sourceType": "expert",
+     "sourceName": "KDI",
+     "sourceDetail": null
+    },
+    {
+     "id": "s2",
+     "text": null,
+     "type": "quote",
+     "sourceType": "expert",
+     "sourceName": "KDI",
+     "sourceDetail": null
+    },
+    {
+     "id": "s3",
+     "text": null,
+     "type": "quote",
+     "sourceType": "expert",
+     "sourceName": "KDI",
+     "sourceDetail": null
+    },
+    {
+     "id": "s4",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null
+    },
+    {
+     "id": "s5",
+     "text": "올해 민간 소비 개선세가 더딘 것은 반도체 호황의 파급이 점진적으로 이뤄…",
+     "type": "opinion",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null
+    },
+    {
+     "id": "s6",
+     "text": null,
+     "type": "quote",
+     "sourceType": "expert",
+     "sourceName": "한국개발연구원(KDI)",
+     "sourceDetail": null
+    },
+    {
+     "id": "s7",
+     "text": null,
+     "type": "quote",
+     "sourceType": "expert",
+     "sourceName": "한국개발연구원(KDI)",
+     "sourceDetail": null
+    },
+    {
+     "id": "s8",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null
+    },
+    {
+     "id": "s9",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null
+    },
+    {
+     "id": "s10",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null
+    },
+    {
+     "id": "s11",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null
+    },
+    {
+     "id": "s12",
+     "text": null,
+     "type": "quote",
+     "sourceType": "expert",
+     "sourceName": "KDI",
+     "sourceDetail": null
+    },
+    {
+     "id": "s13",
+     "text": null,
+     "type": "quote",
+     "sourceType": "etc",
+     "sourceName": "KDI",
+     "sourceDetail": "전문家"
+    },
+    {
+     "id": "s14",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null
+    },
+    {
+     "id": "s15",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null
+    },
+    {
+     "id": "s16",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null
+    },
+    {
+     "id": "s17",
+     "text": "다만 최고가격제 시행으로 국내 석유류 가격 상승 폭은 일부 억제된 점을…",
+     "type": "opinion",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null
+    },
+    {
+     "id": "s18",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null
+    },
+    {
+     "id": "s19",
+     "text": null,
+     "type": "quote",
+     "sourceType": "expert",
+     "sourceName": "KDI",
+     "sourceDetail": null
+    },
+    {
+     "id": "s20",
+     "text": null,
+     "type": "quote",
+     "sourceType": "expert",
+     "sourceName": "KDI",
+     "sourceDetail": null
+    }
+   ],
+   "framingTerms": [
+    {
+     "term": "분석이 나왔다",
+     "sentenceId": "s5"
+    },
+    {
+     "term": "보인다",
+     "sentenceId": "s17"
+    }
+   ],
+   "analyzedBy": "gemini-3.5-flash-lite"
+  },
+  {
+   "id": "a-7af85d2576",
+   "issueId": "auto-20261112-12-1",
+   "outletId": "newsis",
+   "outletName": "뉴시스",
+   "title": "KDI \"반도체 호황 소비 효과 내년 본격화…추가 부양 필요성 작아\"",
+   "summary": "유가 상승은 소비자물가를 통해 가계의 구매력을 비교적 빠르게 제약한다. 분석 결과 반도체가격 상승... KDI는 상반기 전자부품·컴퓨터와 금융 부문 등을 제외하면 임금 상승세가 높지 않았고, 물가를 고려한 실질임금은...",
+   "url": "https://www.newsis.com/view/NISX20261112_0003865197",
+   "publishedAt": "2026-11-12T12:00:00+09:00",
+   "sentences": [
+    {
+     "id": "s1",
+     "text": null,
+     "type": "quote",
+     "sourceType": "expert",
+     "sourceName": "김지연",
+     "sourceDetail": null
+    },
+    {
+     "id": "s2",
+     "text": null,
+     "type": "quote",
+     "sourceType": "expert",
+     "sourceName": "한국개발연구원",
+     "sourceDetail": null
+    },
+    {
+     "id": "s3",
+     "text": null,
+     "type": "quote",
+     "sourceType": "expert",
+     "sourceName": "한국개발연구원",
+     "sourceDetail": null
+    },
+    {
+     "id": "s4",
+     "text": null,
+     "type": "quote",
+     "sourceType": "expert",
+     "sourceName": "한국개발연구원",
+     "sourceDetail": null
+    },
+    {
+     "id": "s5",
+     "text": null,
+     "type": "quote",
+     "sourceType": "expert",
+     "sourceName": "한국개발연구원",
+     "sourceDetail": null
+    },
+    {
+     "id": "s6",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null
+    },
+    {
+     "id": "s7",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null
+    },
+    {
+     "id": "s8",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null
+    },
+    {
+     "id": "s9",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null
+    },
+    {
+     "id": "s10",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null
+    },
+    {
+     "id": "s11",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null
+    },
+    {
+     "id": "s12",
+     "text": null,
+     "type": "quote",
+     "sourceType": "expert",
+     "sourceName": "KDI",
+     "sourceDetail": null
+    },
+    {
+     "id": "s13",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null
+    },
+    {
+     "id": "s14",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null
+    },
+    {
+     "id": "s15",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null
+    },
+    {
+     "id": "s16",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null
+    },
+    {
+     "id": "s17",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null
+    },
+    {
+     "id": "s18",
+     "text": null,
+     "type": "quote",
+     "sourceType": "expert",
+     "sourceName": "KDI",
+     "sourceDetail": null
+    },
+    {
+     "id": "s19",
+     "text": null,
+     "type": "quote",
+     "sourceType": "expert",
+     "sourceName": "김지연",
+     "sourceDetail": null
+    },
+    {
+     "id": "s20",
+     "text": null,
+     "type": "quote",
+     "sourceType": "expert",
+     "sourceName": "김지연",
+     "sourceDetail": null
+    },
+    {
+     "id": "s21",
+     "text": null,
+     "type": "quote",
+     "sourceType": "expert",
+     "sourceName": "김지연",
+     "sourceDetail": null
+    },
+    {
+     "id": "s22",
+     "text": null,
+     "type": "quote",
+     "sourceType": "expert",
+     "sourceName": "김지연",
+     "sourceDetail": null
+    },
+    {
+     "id": "s23",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null
+    },
+    {
+     "id": "s24",
+     "text": null,
+     "type": "quote",
+     "sourceType": "expert",
+     "sourceName": "KDI",
+     "sourceDetail": null
+    },
+    {
+     "id": "s25",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null
+    },
+    {
+     "id": "s26",
+     "text": null,
+     "type": "quote",
+     "sourceType": "expert",
+     "sourceName": "KDI",
+     "sourceDetail": null
+    },
+    {
+     "id": "s27",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null
+    },
+    {
+     "id": "s28",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null
+    },
+    {
+     "id": "s29",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null
+    },
+    {
+     "id": "s30",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null
+    },
+    {
+     "id": "s31",
+     "text": null,
+     "type": "quote",
+     "sourceType": "expert",
+     "sourceName": "KDI",
+     "sourceDetail": null
+    },
+    {
+     "id": "s32",
+     "text": null,
+     "type": "quote",
+     "sourceType": "expert",
+     "sourceName": "KDI",
+     "sourceDetail": null
+    },
+    {
+     "id": "s33",
+     "text": null,
+     "type": "quote",
+     "sourceType": "expert",
+     "sourceName": "KDI",
+     "sourceDetail": null
+    },
+    {
+     "id": "s34",
+     "text": null,
+     "type": "quote",
+     "sourceType": "expert",
+     "sourceName": "김 연구위원",
+     "sourceDetail": null
+    }
+   ],
+   "framingTerms": [],
+   "analyzedBy": "gemini-3.5-flash-lite"
+  },
+  {
+   "id": "a-598e9d9bc4",
+   "issueId": "auto-20261112-12-1",
+   "outletId": "news1",
+   "outletName": "뉴스1",
+   "title": "KDI \"고유가에 올해 소비 증가율 0.4%p↓…반도체 효과는 내년부터\"",
+   "summary": "명목임금 상승세가 정체된 가운데 물가가 오르면서 올해 2분기 실질임금은 감소했고, 3분기에도 낮은 수준을... 다만 석유 최고가격제의 물가 억제 효과는 이번 분석에 제한적으로 반영됐다. KDI는 최고가격제가 지난 3...",
+   "url": "https://www.news1.kr/economy/trend/6351766",
+   "publishedAt": "2026-11-12T12:00:00+09:00",
+   "sentences": [
+    {
+     "id": "s1",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null
+    },
+    {
+     "id": "s2",
+     "text": "유가 상승이 소비 증가율을 낮추는 효과는 약 0.2%p로 올해의 절반 수…",
+     "type": "opinion",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null
+    },
+    {
+     "id": "s3",
+     "text": "다만 성과급과 배당이 지급되는 내년 초부터 소비 회복 효과가 경제 전반으…",
+     "type": "opinion",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null
+    },
+    {
+     "id": "s4",
+     "text": null,
+     "type": "quote",
+     "sourceType": "expert",
+     "sourceName": "김지연",
+     "sourceDetail": null
+    },
+    {
+     "id": "s5",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null
+    },
+    {
+     "id": "s6",
+     "text": "중동 분쟁이 격화돼 추가적인 유가 상승 충격이 발생하면 소비가 제약되는…",
+     "type": "opinion",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null
+    },
+    {
+     "id": "s7",
+     "text": "반대로 최근 반도체 업계의 성과급·배당 규모가 과거보다 크게 늘어난 점은…",
+     "type": "opinion",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null
+    },
+    {
+     "id": "s8",
+     "text": null,
+     "type": "quote",
+     "sourceType": "etc",
+     "sourceName": "익명(소속 미상)",
+     "sourceDetail": "익명(소속 미상)"
+    },
+    {
+     "id": "s9",
+     "text": "소비 증가가 체감 경기 개선으로 이어질지는 지출이 어느 부문에 집중되느냐…",
+     "type": "opinion",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null
+    },
+    {
+     "id": "s10",
+     "text": "숙박·음식이나 문화생활 등 노동집약적이고 국내 부가가치가 큰 부문에서 소…",
+     "type": "opinion",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null
+    },
+    {
+     "id": "s11",
+     "text": null,
+     "type": "quote",
+     "sourceType": "expert",
+     "sourceName": "김 총괄",
+     "sourceDetail": null
+    },
+    {
+     "id": "s12",
+     "text": null,
+     "type": "quote",
+     "sourceType": "etc",
+     "sourceName": "익명(소속 미상)",
+     "sourceDetail": "익명(소속 미상)"
+    },
+    {
+     "id": "s13",
+     "text": null,
+     "type": "quote",
+     "sourceType": "etc",
+     "sourceName": "익명(소속 미상)",
+     "sourceDetail": "익명(소속 미상)"
+    },
+    {
+     "id": "s14",
+     "text": null,
+     "type": "quote",
+     "sourceType": "expert",
+     "sourceName": "김 총괄",
+     "sourceDetail": null
+    },
+    {
+     "id": "s15",
+     "text": null,
+     "type": "quote",
+     "sourceType": "etc",
+     "sourceName": "익명(소속 미상)",
+     "sourceDetail": "익명(소속 미상)"
+    },
+    {
+     "id": "s16",
+     "text": "KDI는 내년 소비 개선세가 확대될 것으로 예상되는 만큼 경제 전반을 대…",
+     "type": "opinion",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null
+    },
+    {
+     "id": "s17",
+     "text": "대신 비반도체 부문의 생산성을 높여 고용과 임금 여건을 개선하고, 소비…",
+     "type": "opinion",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null
+    },
+    {
+     "id": "s18",
+     "text": null,
+     "type": "quote",
+     "sourceType": "expert",
+     "sourceName": "김 총괄",
+     "sourceDetail": null
+    }
+   ],
+   "framingTerms": [
+    {
+     "term": "줄어들 전망이다",
+     "sentenceId": "s2"
+    },
+    {
+     "term": "판단이다",
+     "sentenceId": "s3"
+    },
+    {
+     "term": "길어질 수 있다",
+     "sentenceId": "s6"
+    },
+    {
+     "term": "가능성이 있다",
+     "sentenceId": "s7"
+    },
+    {
+     "term": "달라질 것으로 봤다",
+     "sentenceId": "s9"
+    },
+    {
+     "term": "커질 수 있다",
+     "sentenceId": "s10"
+    },
+    {
+     "term": "판단했다",
+     "sentenceId": "s16"
+    },
+    {
+     "term": "제언했다",
+     "sentenceId": "s17"
+    }
+   ],
+   "analyzedBy": "gemini-3.5-flash-lite"
+  },
+  {
+   "id": "a-483cc78121",
+   "issueId": "auto-20261112-12-1",
+   "outletId": "kbs",
+   "outletName": "KBS",
+   "title": "KDI “올해 소비, 유가 충격에 주춤…내년엔 반도체 효과로 개선”",
+   "summary": "반면, 국제유가 상승은 소비자물가를 높여 상대적으로 가계의 소비 여력을 빠르게 제약할 수 있다고 설명했습니다. 정부의 최고가격제 시행으로 3~10월 석유류 가격 상승률은 월평균 약 12%p, 소비자물가 상승률은 약 0.6%p...",
+   "url": "https://news.kbs.co.kr/news/pc/view/view.do?ncd=8710971&ref=A",
+   "publishedAt": "2026-11-12T12:00:00+09:00",
+   "sentences": [
+    {
+     "id": "s1",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null
+    },
+    {
+     "id": "s2",
+     "text": null,
+     "type": "quote",
+     "sourceType": "expert",
+     "sourceName": "KDI",
+     "sourceDetail": null
+    },
+    {
+     "id": "s3",
+     "text": null,
+     "type": "quote",
+     "sourceType": "expert",
+     "sourceName": "KDI",
+     "sourceDetail": null
+    },
+    {
+     "id": "s4",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null
+    },
+    {
+     "id": "s5",
+     "text": null,
+     "type": "quote",
+     "sourceType": "etc",
+     "sourceName": "KDI",
+     "sourceDetail": "전문家"
+    },
+    {
+     "id": "s6",
+     "text": null,
+     "type": "quote",
+     "sourceType": "expert",
+     "sourceName": "KDI",
+     "sourceDetail": null
+    },
+    {
+     "id": "s7",
+     "text": null,
+     "type": "quote",
+     "sourceType": "expert",
+     "sourceName": "KDI",
+     "sourceDetail": null
+    },
+    {
+     "id": "s8",
+     "text": null,
+     "type": "quote",
+     "sourceType": "expert",
+     "sourceName": "KDI",
+     "sourceDetail": null
+    },
+    {
+     "id": "s9",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null
+    },
+    {
+     "id": "s10",
+     "text": null,
+     "type": "quote",
+     "sourceType": "expert",
+     "sourceName": "KDI",
+     "sourceDetail": null
+    },
+    {
+     "id": "s11",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null
+    },
+    {
+     "id": "s12",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null
+    },
+    {
+     "id": "s13",
+     "text": null,
+     "type": "quote",
+     "sourceType": "expert",
+     "sourceName": "KDI",
+     "sourceDetail": null
+    },
+    {
+     "id": "s14",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null
+    },
+    {
+     "id": "s15",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null
+    },
+    {
+     "id": "s16",
+     "text": null,
+     "type": "quote",
+     "sourceType": "expert",
+     "sourceName": "KDI",
+     "sourceDetail": null
+    },
+    {
+     "id": "s17",
+     "text": null,
+     "type": "quote",
+     "sourceType": "expert",
+     "sourceName": "KDI",
+     "sourceDetail": null
+    },
+    {
+     "id": "s18",
+     "text": null,
+     "type": "quote",
+     "sourceType": "expert",
+     "sourceName": "KDI",
+     "sourceDetail": null
+    },
+    {
+     "id": "s19",
+     "text": null,
+     "type": "quote",
+     "sourceType": "expert",
+     "sourceName": "KDI",
+     "sourceDetail": null
+    },
+    {
+     "id": "s20",
+     "text": null,
+     "type": "quote",
+     "sourceType": "expert",
+     "sourceName": "KDI",
+     "sourceDetail": null
+    },
+    {
+     "id": "s21",
+     "text": null,
+     "type": "quote",
+     "sourceType": "expert",
+     "sourceName": "KDI",
+     "sourceDetail": null
+    },
+    {
+     "id": "s22",
+     "text": null,
+     "type": "quote",
+     "sourceType": "expert",
+     "sourceName": "KDI",
+     "sourceDetail": null
+    },
+    {
+     "id": "s23",
+     "text": null,
+     "type": "quote",
+     "sourceType": "expert",
+     "sourceName": "KDI",
+     "sourceDetail": null
+    },
+    {
+     "id": "s24",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null
+    }
+   ],
+   "framingTerms": [],
+   "analyzedBy": "gemini-3.5-flash-lite"
+  },
+  {
+   "id": "a-3e9dbaeadd",
+   "issueId": "auto-20261112-12-1",
+   "outletId": "ytn",
+   "outletName": "YTN",
+   "title": "KDI \"반도체 호황 보다 국제유가 상승이 민간소비 빠르게 제약\"",
+   "summary": "국책연구기관인 한국개발연구원은 반도체 호황에 따른 민간소비의 긍정적 효과는 시차를 두고 나타나는 반면, 국제유가 상승의 부정적 효과는 소비자물가를 통해 전반적인 가계의 소비 여력을 상대적으로 빠르게...",
+   "url": "https://www.ytn.co.kr/_ln/0102_202611121200187245",
+   "publishedAt": "2026-11-12T12:00:00+09:00",
+   "sentences": [
+    {
+     "id": "s1",
+     "text": null,
+     "type": "quote",
+     "sourceType": "expert",
+     "sourceName": "한국개발연구원",
+     "sourceDetail": null
+    },
+    {
+     "id": "s2",
+     "text": null,
+     "type": "quote",
+     "sourceType": "expert",
+     "sourceName": "KDI",
+     "sourceDetail": null
+    },
+    {
+     "id": "s3",
+     "text": null,
+     "type": "quote",
+     "sourceType": "expert",
+     "sourceName": "KDI",
+     "sourceDetail": null
+    },
+    {
+     "id": "s4",
+     "text": null,
+     "type": "quote",
+     "sourceType": "expert",
+     "sourceName": "연구원",
+     "sourceDetail": null
+    },
+    {
+     "id": "s5",
+     "text": "KDI는 내년에는 유가 상승의 부정적 영향이 점차 축소되는 한편, 반도체…",
+     "type": "opinion",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null
+    },
+    {
+     "id": "s6",
+     "text": null,
+     "type": "quote",
+     "sourceType": "expert",
+     "sourceName": "KDI",
+     "sourceDetail": null
+    },
+    {
+     "id": "s7",
+     "text": null,
+     "type": "quote",
+     "sourceType": "expert",
+     "sourceName": "KDI",
+     "sourceDetail": null
+    },
+    {
+     "id": "s8",
+     "text": "※ '당신의 제보가 뉴스가 됩니다'",
+     "type": "opinion",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null
+    }
+   ],
+   "framingTerms": [],
+   "analyzedBy": "gemini-3.5-flash-lite"
+  },
+  {
+   "id": "a-cb263572ee",
+   "issueId": "auto-20261112-12-1",
+   "outletId": "hani",
+   "outletName": "한겨레",
+   "title": "“반도체 호황에 따른 소비 증가는 내년부터 본격화”",
+   "summary": "보고서는 반도체 수출 가격과 원유 수입 가격(유가 수입물가지수) 상승이 민간소비에 미치는 영향을... 다만 분석에 유가 수입물가지수를 활용한 만큼 석유류 최고가격제의 물가 상승 억제 효과는 제한적으로 반영됐다고...",
+   "url": "https://www.hani.co.kr/arti/economy/economy_general/1286968.html",
+   "publishedAt": "2026-11-12T12:02:00+09:00",
+   "sentences": [
+    {
+     "id": "s1",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null
+    },
+    {
+     "id": "s2",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null
+    },
+    {
+     "id": "s3",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null
+    },
+    {
+     "id": "s4",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null
+    },
+    {
+     "id": "s5",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null
+    },
+    {
+     "id": "s6",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null
+    },
+    {
+     "id": "s7",
+     "text": null,
+     "type": "quote",
+     "sourceType": "expert",
+     "sourceName": "보고서",
+     "sourceDetail": null
+    },
+    {
+     "id": "s8",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null
+    },
+    {
+     "id": "s9",
+     "text": null,
+     "type": "quote",
+     "sourceType": "expert",
+     "sourceName": "보고서",
+     "sourceDetail": null
+    },
+    {
+     "id": "s10",
+     "text": null,
+     "type": "quote",
+     "sourceType": "expert",
+     "sourceName": "보고서",
+     "sourceDetail": null
+    },
+    {
+     "id": "s11",
+     "text": "보고서는 내년에는 유가 상승의 부정적 영향이 점차 축소되는 한편, 반도체…",
+     "type": "opinion",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null
+    },
+    {
+     "id": "s12",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null
+    },
+    {
+     "id": "s13",
+     "text": null,
+     "type": "quote",
+     "sourceType": "expert",
+     "sourceName": "보고서",
+     "sourceDetail": null
+    },
+    {
+     "id": "s14",
+     "text": null,
+     "type": "quote",
+     "sourceType": "expert",
+     "sourceName": "보고서",
+     "sourceDetail": null
+    }
+   ],
+   "framingTerms": [
+    {
+     "term": "추정치가 나왔다",
+     "sentenceId": "s1"
+    },
+    {
+     "term": "추정됐다",
+     "sentenceId": "s8"
+    },
+    {
+     "term": "전망했다",
+     "sentenceId": "s11"
+    },
+    {
+     "term": "추정됐다",
+     "sentenceId": "s12"
+    },
+    {
+     "term": "제언했다",
+     "sentenceId": "s14"
+    }
+   ],
+   "analyzedBy": "gemini-3.5-flash-lite"
+  },
+  {
+   "id": "a-6031b3aa34",
+   "issueId": "auto-20261112-12-1",
+   "outletId": "mt",
+   "outletName": "머니투데이",
+   "title": "KDI \"반도체 온기 1년 뒤, 유가 충격은 직후\"…소비 파급 시차",
+   "summary": "이는 소비자물가 전반에 상승 압력을 가했다. 문제는 반도체 호황과 국제유가 상승이라는 두 충격이 민간소비에 반영되는 시차가 엇갈린다는 점이다. KDI에 따르면 반도체 가격이 통상적인 수준으로 오르는 경우...",
+   "url": "https://www.mt.co.kr/economy/2026/11/12/2026111208285026581",
+   "publishedAt": "2026-11-12T12:00:00+09:00",
+   "sentences": [
+    {
+     "id": "s1",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null
+    },
+    {
+     "id": "s2",
+     "text": "상반된 두 대외요인이 소비에 미치는 시간이 엇갈려 민간소비의 회복세가 더…",
+     "type": "opinion",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null
+    },
+    {
+     "id": "s3",
+     "text": null,
+     "type": "quote",
+     "sourceType": "expert",
+     "sourceName": "한국개발연구원(KDI)",
+     "sourceDetail": null
+    },
+    {
+     "id": "s4",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null
+    },
+    {
+     "id": "s5",
+     "text": "반도체 수출가격 상승으로 경제 전체의 실질구매력도 크게 개선됐다는 게 K…",
+     "type": "opinion",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null
+    },
+    {
+     "id": "s6",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null
+    },
+    {
+     "id": "s7",
+     "text": null,
+     "type": "quote",
+     "sourceType": "expert",
+     "sourceName": "KDI",
+     "sourceDetail": null
+    },
+    {
+     "id": "s8",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null
+    },
+    {
+     "id": "s9",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null
+    },
+    {
+     "id": "s10",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null
+    },
+    {
+     "id": "s11",
+     "text": "문제는 반도체 호황과 국제유가 상승이라는 두 충격이 민간소비에 반영되는…",
+     "type": "opinion",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null
+    },
+    {
+     "id": "s12",
+     "text": null,
+     "type": "quote",
+     "sourceType": "expert",
+     "sourceName": "KDI",
+     "sourceDetail": null
+    },
+    {
+     "id": "s13",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null
+    },
+    {
+     "id": "s14",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null
+    },
+    {
+     "id": "s15",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null
+    },
+    {
+     "id": "s16",
+     "text": null,
+     "type": "quote",
+     "sourceType": "expert",
+     "sourceName": "KDI",
+     "sourceDetail": null
+    },
+    {
+     "id": "s17",
+     "text": null,
+     "type": "quote",
+     "sourceType": "expert",
+     "sourceName": "KDI",
+     "sourceDetail": null
+    },
+    {
+     "id": "s18",
+     "text": "올해 중동지역 분쟁의 부정적 영향이 반도체 호황의 긍정적 영향을 상회한…",
+     "type": "opinion",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null
+    },
+    {
+     "id": "s19",
+     "text": null,
+     "type": "quote",
+     "sourceType": "expert",
+     "sourceName": "KDI",
+     "sourceDetail": null
+    },
+    {
+     "id": "s20",
+     "text": null,
+     "type": "quote",
+     "sourceType": "expert",
+     "sourceName": "KDI",
+     "sourceDetail": null
+    },
+    {
+     "id": "s21",
+     "text": null,
+     "type": "quote",
+     "sourceType": "expert",
+     "sourceName": "KDI",
+     "sourceDetail": null
+    }
+   ],
+   "framingTerms": [
+    {
+     "term": "더디단",
+     "sentenceId": "s2"
+    },
+    {
+     "term": "가파르게",
+     "sentenceId": "s6"
+    }
+   ],
+   "analyzedBy": "gemini-3.5-flash-lite"
+  },
+  {
+   "id": "a-b3837e433c",
+   "issueId": "auto-20261112-12-1",
+   "outletId": "edaily",
+   "outletName": "이데일리",
+   "title": "반도체 온기보다 빨랐던 고유가 충격…KDI “내년 소비 회복세 확대”",
+   "summary": "소비자물가를 통해 가계 구매력을 빠르게 떨어뜨린다. 석유 최고가격제로 국내 석유류 가격 상승폭이 일부 억제됐지만, 여행·항공 서비스 등 관련 품목으로 가격 상승이 번졌다. 명목임금 상승세가 정체된 가운데 물가...",
+   "url": "https://www.edaily.co.kr/News/Read?newsId=03276726645645064&mediaCodeNo=257&utm_source=naver&utm_medium=referral&utm_campaign=news_syndication&utm_content=original_article",
+   "publishedAt": "2026-11-12T12:03:00+09:00",
+   "sentences": [
+    {
+     "id": "s1",
+     "text": null,
+     "type": "quote",
+     "sourceType": "expert",
+     "sourceName": "한국개발연구원(KDI)",
+     "sourceDetail": null
+    },
+    {
+     "id": "s2",
+     "text": "내년엔 반도체 효과가 본격화하고 유가 부담도 줄어 소비 개선세가 확대되리…",
+     "type": "opinion",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null
+    },
+    {
+     "id": "s3",
+     "text": null,
+     "type": "quote",
+     "sourceType": "expert",
+     "sourceName": "KDI",
+     "sourceDetail": null
+    },
+    {
+     "id": "s4",
+     "text": null,
+     "type": "quote",
+     "sourceType": "expert",
+     "sourceName": "KDI",
+     "sourceDetail": null
+    },
+    {
+     "id": "s5",
+     "text": null,
+     "type": "quote",
+     "sourceType": "expert",
+     "sourceName": "KDI",
+     "sourceDetail": null
+    },
+    {
+     "id": "s6",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null
+    },
+    {
+     "id": "s7",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null
+    },
+    {
+     "id": "s8",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null
+    },
+    {
+     "id": "s9",
+     "text": null,
+     "type": "quote",
+     "sourceType": "expert",
+     "sourceName": "연구진",
+     "sourceDetail": null
+    },
+    {
+     "id": "s10",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null
+    },
+    {
+     "id": "s11",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null
+    },
+    {
+     "id": "s12",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null
+    },
+    {
+     "id": "s13",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null
+    },
+    {
+     "id": "s14",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null
+    },
+    {
+     "id": "s15",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null
+    },
+    {
+     "id": "s16",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null
+    },
+    {
+     "id": "s17",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null
+    },
+    {
+     "id": "s18",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null
+    },
+    {
+     "id": "s19",
+     "text": null,
+     "type": "quote",
+     "sourceType": "expert",
+     "sourceName": "연구진",
+     "sourceDetail": null
+    },
+    {
+     "id": "s20",
+     "text": null,
+     "type": "quote",
+     "sourceType": "expert",
+     "sourceName": "연구진",
+     "sourceDetail": null
+    },
+    {
+     "id": "s21",
+     "text": null,
+     "type": "quote",
+     "sourceType": "expert",
+     "sourceName": "연구진",
+     "sourceDetail": null
+    },
+    {
+     "id": "s22",
+     "text": null,
+     "type": "quote",
+     "sourceType": "expert",
+     "sourceName": "연구진",
+     "sourceDetail": null
+    },
+    {
+     "id": "s23",
+     "text": null,
+     "type": "quote",
+     "sourceType": "expert",
+     "sourceName": "연구진",
+     "sourceDetail": null
+    },
+    {
+     "id": "s24",
+     "text": null,
+     "type": "quote",
+     "sourceType": "expert",
+     "sourceName": "연구진",
+     "sourceDetail": null
+    },
+    {
+     "id": "s25",
+     "text": "다만 이러한 전망은 높은 반도체 수요가 내년까지 유지되고 국제유가는 올해…",
+     "type": "opinion",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null
+    },
+    {
+     "id": "s26",
+     "text": "국내 소비 여건에도 제약 요인이 남아 있다.",
+     "type": "opinion",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null
+    },
+    {
+     "id": "s27",
+     "text": null,
+     "type": "quote",
+     "sourceType": "expert",
+     "sourceName": "김 총괄",
+     "sourceDetail": null
+    },
+    {
+     "id": "s28",
+     "text": null,
+     "type": "quote",
+     "sourceType": "expert",
+     "sourceName": "그",
+     "sourceDetail": null
+    }
+   ],
+   "framingTerms": [
+    {
+     "term": "더딘",
+     "sentenceId": "s1"
+    },
+    {
+     "term": "억제됐지만",
+     "sentenceId": "s13"
+    },
+    {
+     "term": "정체된",
+     "sentenceId": "s14"
+    },
+    {
+     "term": "위축됐다",
+     "sentenceId": "s14"
+    },
+    {
+     "term": "지나치게",
+     "sentenceId": "s24"
+    },
+    {
+     "term": "정체됐다",
+     "sentenceId": "s27"
+    },
+    {
+     "term": "부족한",
+     "sentenceId": "s27"
+    },
+    {
+     "term": "제약할",
+     "sentenceId": "s27"
+    },
+    {
+     "term": "약한",
+     "sentenceId": "s28"
+    },
+    {
+     "term": "제약될",
+     "sentenceId": "s28"
+    }
+   ],
+   "analyzedBy": "gemini-3.5-flash-lite"
+  },
+  {
+   "id": "a-9d60a23adc",
+   "issueId": "auto-20261112-12-2",
+   "outletId": "newsis",
+   "outletName": "뉴시스",
+   "title": "안성현, '코인상장 뒷돈 의혹' 무죄…前빗썸홀딩스 대표는 유죄(종합)",
+   "summary": "대법원 2부(주심 오경미 대법관)는 12일 안씨의 특정경제범죄 가중처벌 등에 관한 법률 위반(사기) 등 혐의 상고심에서 무죄를 선고한 원심 판결을 확정했다. 안씨는 앞서 1심에서 징역 4년 6개월의 실형을 선고받았으나...",
+   "url": "https://www.newsis.com/view/NISX20261112_0003865424",
+   "publishedAt": "2026-11-12T12:19:00+09:00",
+   "sentences": [
+    {
+     "id": "s1",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null
+    },
+    {
+     "id": "s2",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null
+    },
+    {
+     "id": "s3",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null
+    },
+    {
+     "id": "s4",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null
+    },
+    {
+     "id": "s5",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null
+    },
+    {
+     "id": "s6",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null
+    },
+    {
+     "id": "s7",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null
+    },
+    {
+     "id": "s8",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null
+    },
+    {
+     "id": "s9",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null
+    },
+    {
+     "id": "s10",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null
+    },
+    {
+     "id": "s11",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null
+    },
+    {
+     "id": "s12",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null
+    },
+    {
+     "id": "s13",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null
+    },
+    {
+     "id": "s14",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null
+    },
+    {
+     "id": "s15",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null
+    },
+    {
+     "id": "s16",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null
+    },
+    {
+     "id": "s17",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null
+    },
+    {
+     "id": "s18",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null
+    },
+    {
+     "id": "s19",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null
+    },
+    {
+     "id": "s20",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null
+    },
+    {
+     "id": "s21",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null
+    },
+    {
+     "id": "s22",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null
+    },
+    {
+     "id": "s23",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null
+    },
+    {
+     "id": "s24",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null
+    },
+    {
+     "id": "s25",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null
+    },
+    {
+     "id": "s26",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null
+    },
+    {
+     "id": "s27",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null
+    },
+    {
+     "id": "s28",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null
+    },
+    {
+     "id": "s29",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null
+    },
+    {
+     "id": "s30",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null
+    }
+   ],
+   "framingTerms": [],
+   "analyzedBy": "gemini-3.5-flash-lite"
+  },
+  {
+   "id": "a-4ee5e9e8c2",
+   "issueId": "auto-20261112-12-2",
+   "outletId": "news1",
+   "outletName": "뉴스1",
+   "title": "대법원, '코인 상장 청탁' 성유리 남편 안성현 무죄 확정",
+   "summary": "검찰(공소청 전신)은 안 씨와 이 전 대표가 강 씨 등에게서 현금 30억 원과 4억 원 상당의 파텍필립 시계 2개, 1152만 원 상당의 레스토랑 멤버십 혜택 등을 받았다고 봤다. 이 전 대표는 강 씨에게서 3000만 원짜리...",
+   "url": "https://www.news1.kr/society/court-prosecution/6351735",
+   "publishedAt": "2026-11-12T11:16:00+09:00",
+   "sentences": [
+    {
+     "id": "s1",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null
+    },
+    {
+     "id": "s2",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null
+    },
+    {
+     "id": "s3",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null
+    },
+    {
+     "id": "s4",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null
+    },
+    {
+     "id": "s5",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null
+    },
+    {
+     "id": "s6",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null
+    },
+    {
+     "id": "s7",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null
+    },
+    {
+     "id": "s8",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null
+    },
+    {
+     "id": "s9",
+     "text": null,
+     "type": "quote",
+     "sourceType": "etc",
+     "sourceName": "안 씨",
+     "sourceDetail": "익명(소속 미상)"
+    },
+    {
+     "id": "s10",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null
+    },
+    {
+     "id": "s11",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null
+    },
+    {
+     "id": "s12",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null
+    },
+    {
+     "id": "s13",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null
+    },
+    {
+     "id": "s14",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null
+    },
+    {
+     "id": "s15",
+     "text": null,
+     "type": "quote",
+     "sourceType": "etc",
+     "sourceName": "2심",
+     "sourceDetail": "법원"
+    },
+    {
+     "id": "s16",
+     "text": null,
+     "type": "quote",
+     "sourceType": "etc",
+     "sourceName": "2심",
+     "sourceDetail": "법원"
+    },
+    {
+     "id": "s17",
+     "text": null,
+     "type": "quote",
+     "sourceType": "etc",
+     "sourceName": "2심",
+     "sourceDetail": "법원"
+    },
+    {
+     "id": "s18",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null
+    },
+    {
+     "id": "s19",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null
+    }
+   ],
+   "framingTerms": [
+    {
+     "term": "챙긴",
+     "sentenceId": "s1"
+    },
+    {
+     "term": "기소된",
+     "sentenceId": "s1"
+    },
+    {
+     "term": "기소된",
+     "sentenceId": "s2"
+    },
+    {
+     "term": "기각했다",
+     "sentenceId": "s2"
+    },
+    {
+     "term": "기소된",
+     "sentenceId": "s3"
+    },
+    {
+     "term": "기소된",
+     "sentenceId": "s3"
+    },
+    {
+     "term": "청탁",
+     "sentenceId": "s5"
+    },
+    {
+     "term": "받은",
+     "sentenceId": "s5"
+    },
+    {
+     "term": "기소됐다",
+     "sentenceId": "s5"
+    },
+    {
+     "term": "받은",
+     "sentenceId": "s8"
+    },
+    {
+     "term": "속여",
+     "sentenceId": "s9"
+    },
+    {
+     "term": "가로챈",
+     "sentenceId": "s9"
+    },
+    {
+     "term": "기소됐으나",
+     "sentenceId": "s10"
+    },
+    {
+     "term": "선고받고",
+     "sentenceId": "s10"
+    },
+    {
+     "term": "선고했다",
+     "sentenceId": "s11"
+    },
+    {
+     "term": "뒤집고",
+     "sentenceId": "s12"
+    },
+    {
+     "term": "선고했다",
+     "sentenceId": "s12"
+    },
+    {
+     "term": "선고됐다",
+     "sentenceId": "s13"
+    },
+    {
+     "term": "선고받았다",
+     "sentenceId": "s14"
+    }
+   ],
+   "analyzedBy": "gemini-3.5-flash-lite"
+  },
+  {
+   "id": "a-fffb531672",
+   "issueId": "auto-20261112-12-2",
+   "outletId": "joongang",
+   "outletName": "중앙일보",
+   "title": "‘성유리 남편’ 안성현, 코인 상장 청탁 무죄 확정…1심선 징역 4년6개...",
+   "summary": "검찰은 이 전 대표와 안씨가 2021년 강씨 등으로부터 특정 코인을 빗썸에 상장해 달라는 청탁과 함께 현금 30억원과 명품 시계 2개 등을 받았다고 봤다. 안씨가 청탁 대금이 필요하다고 강씨를 속여 별도로 20억원을 받아...",
+   "url": "https://www.joongang.co.kr/article/25477974",
+   "publishedAt": "2026-11-12T11:44:00+09:00",
+   "sentences": [
+    {
+     "id": "s1",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null
+    },
+    {
+     "id": "s2",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null
+    },
+    {
+     "id": "s3",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null
+    },
+    {
+     "id": "s4",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null
+    },
+    {
+     "id": "s5",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null
+    },
+    {
+     "id": "s6",
+     "text": null,
+     "type": "quote",
+     "sourceType": "gov",
+     "sourceName": "검찰",
+     "sourceDetail": null
+    },
+    {
+     "id": "s7",
+     "text": null,
+     "type": "quote",
+     "sourceType": "gov",
+     "sourceName": "검찰",
+     "sourceDetail": null
+    },
+    {
+     "id": "s8",
+     "text": null,
+     "type": "quote",
+     "sourceType": "etc",
+     "sourceName": "항소심",
+     "sourceDetail": "법원"
+    },
+    {
+     "id": "s9",
+     "text": null,
+     "type": "quote",
+     "sourceType": "etc",
+     "sourceName": "항소심",
+     "sourceDetail": "법원"
+    },
+    {
+     "id": "s10",
+     "text": null,
+     "type": "quote",
+     "sourceType": "etc",
+     "sourceName": "항소심",
+     "sourceDetail": "법원"
+    },
+    {
+     "id": "s11",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null
+    },
+    {
+     "id": "s12",
+     "text": null,
+     "type": "quote",
+     "sourceType": "etc",
+     "sourceName": "항소심 재판부",
+     "sourceDetail": "법원"
+    },
+    {
+     "id": "s13",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null
+    }
+   ],
+   "framingTerms": [],
+   "analyzedBy": "gemini-3.5-flash-lite"
+  },
+  {
+   "id": "a-2c9656ab73",
+   "issueId": "auto-20261112-12-2",
+   "outletId": "khan",
+   "outletName": "경향신문",
+   "title": "‘빗썸 상장 청탁’ 프로골퍼 안성현, 대법서 무죄 확정··1심 징역 4년...",
+   "summary": "대법원은 원심의 증거 판단과 공범 성립에 관한 법리 적용에 잘못이 없다며 검찰과 피고인들의 상고를 모두 기각했다. 안씨는 2005년 프로골퍼로 데뷔해 국가대표 상비군 코치로 활동했으며, 2017년 그룹 핑클 출신 배우...",
+   "url": "https://www.khan.co.kr/article/202611121104001",
+   "publishedAt": "2026-11-12T11:04:00+09:00",
+   "sentences": [
+    {
+     "id": "s1",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null
+    },
+    {
+     "id": "s2",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null
+    },
+    {
+     "id": "s3",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null
+    },
+    {
+     "id": "s4",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null
+    },
+    {
+     "id": "s5",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null
+    },
+    {
+     "id": "s6",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null
+    },
+    {
+     "id": "s7",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null
+    },
+    {
+     "id": "s8",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null
+    },
+    {
+     "id": "s9",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null
+    },
+    {
+     "id": "s10",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null
+    },
+    {
+     "id": "s11",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null
+    },
+    {
+     "id": "s12",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null
+    },
+    {
+     "id": "s13",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null
+    }
+   ],
+   "framingTerms": [
+    {
+     "term": "받은",
+     "sentenceId": "s1"
+    },
+    {
+     "term": "받은",
+     "sentenceId": "s5"
+    }
+   ],
+   "analyzedBy": "gemini-3.5-flash-lite"
+  },
+  {
+   "id": "a-32afeac7b9",
+   "issueId": "auto-20261112-12-2",
+   "outletId": "munhwa",
+   "outletName": "문화일보",
+   "title": "‘코인상장 뒷돈’ 성유리 남편 안성현 무죄 확정…前 빗썸 대표 유죄",
+   "summary": "검찰 공소사실과 같이 이 전 대표와 안 씨가 청탁 대가로 돈을 받기로 공모하지도 않았다고 판단했다. 다만, 두 사람이 받은 4억 원 상당 명품 시계 2개와 이 전 대표가 별도로 받은 수천만 원 상당 고급 식당 식사권...",
+   "url": "https://www.munhwa.com/article/11630785?ref=naver",
+   "publishedAt": "2026-11-12T11:27:00+09:00",
+   "sentences": [
+    {
+     "id": "s1",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null
+    },
+    {
+     "id": "s2",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null
+    },
+    {
+     "id": "s3",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null
+    },
+    {
+     "id": "s4",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null
+    },
+    {
+     "id": "s5",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null
+    },
+    {
+     "id": "s6",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null
+    },
+    {
+     "id": "s7",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null
+    },
+    {
+     "id": "s8",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null
+    },
+    {
+     "id": "s9",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null
+    },
+    {
+     "id": "s10",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null
+    },
+    {
+     "id": "s11",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null
+    },
+    {
+     "id": "s12",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null
+    },
+    {
+     "id": "s13",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null
+    },
+    {
+     "id": "s14",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null
+    },
+    {
+     "id": "s15",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null
+    },
+    {
+     "id": "s16",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null
+    },
+    {
+     "id": "s17",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null
+    },
+    {
+     "id": "s18",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null
+    }
+   ],
+   "framingTerms": [
+    {
+     "term": "기소된",
+     "sentenceId": "s1"
+    },
+    {
+     "term": "확정됐다",
+     "sentenceId": "s1"
+    },
+    {
+     "term": "넘겨진",
+     "sentenceId": "s2"
+    },
+    {
+     "term": "알려져 있다",
+     "sentenceId": "s3"
+    },
+    {
+     "term": "기소된",
+     "sentenceId": "s4"
+    },
+    {
+     "term": "기소된",
+     "sentenceId": "s4"
+    },
+    {
+     "term": "선고한",
+     "sentenceId": "s4"
+    },
+    {
+     "term": "확정했다",
+     "sentenceId": "s4"
+    },
+    {
+     "term": "기소된",
+     "sentenceId": "s5"
+    },
+    {
+     "term": "받았다",
+     "sentenceId": "s7"
+    },
+    {
+     "term": "선고했다",
+     "sentenceId": "s13"
+    },
+    {
+     "term": "기소된",
+     "sentenceId": "s14"
+    },
+    {
+     "term": "감형했다",
+     "sentenceId": "s15"
+    },
+    {
+     "term": "선고했다",
+     "sentenceId": "s16"
+    }
+   ],
+   "analyzedBy": "gemini-3.5-flash-lite"
+  },
+  {
+   "id": "a-2e4706a94e",
+   "issueId": "auto-20261112-12-2",
+   "outletId": "hankyung",
+   "outletName": "한국경제",
+   "title": "'빗썸 상장 청탁' 혐의 안성현, 징역 4년 6개월→무죄 확정",
+   "summary": "검찰은 이 전 대표와 안씨가 2021년 강씨 등으로부터 A 코인을 빗썸에 상장해 달라는 부탁을 받고 현금... 검찰과 이 전 대표, 강씨 측은 항소심 결과에 불복했다. 대법원은 원심에 법리를 잘못 적용한 문제가 없다고 보고...",
+   "url": "https://www.hankyung.com/article/202611122375H",
+   "publishedAt": "2026-11-12T11:06:00+09:00",
+   "sentences": [
+    {
+     "id": "s1",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null
+    },
+    {
+     "id": "s2",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null
+    },
+    {
+     "id": "s3",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null
+    },
+    {
+     "id": "s4",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null
+    },
+    {
+     "id": "s5",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null
+    },
+    {
+     "id": "s6",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null
+    },
+    {
+     "id": "s7",
+     "text": "이번 사건의 핵심은 안씨에게 건너간 현금의 성격과 명품 시계 전달 과정에…",
+     "type": "opinion",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null
+    },
+    {
+     "id": "s8",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null
+    },
+    {
+     "id": "s9",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null
+    },
+    {
+     "id": "s10",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null
+    },
+    {
+     "id": "s11",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null
+    },
+    {
+     "id": "s12",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null
+    },
+    {
+     "id": "s13",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null
+    },
+    {
+     "id": "s14",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null
+    },
+    {
+     "id": "s15",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null
+    },
+    {
+     "id": "s16",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null
+    },
+    {
+     "id": "s17",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null
+    },
+    {
+     "id": "s18",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null
+    },
+    {
+     "id": "s19",
+     "text": null,
+     "type": "quote",
+     "sourceType": "etc",
+     "sourceName": "항소심 재판부",
+     "sourceDetail": "법원"
+    },
+    {
+     "id": "s20",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null
+    },
+    {
+     "id": "s21",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null
+    },
+    {
+     "id": "s22",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null
+    },
+    {
+     "id": "s23",
+     "text": null,
+     "type": "quote",
+     "sourceType": "etc",
+     "sourceName": "항소심 재판부",
+     "sourceDetail": "법원"
+    },
+    {
+     "id": "s24",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null
+    },
+    {
+     "id": "s25",
+     "text": null,
+     "type": "quote",
+     "sourceType": "etc",
+     "sourceName": "재판부",
+     "sourceDetail": "법원"
+    },
+    {
+     "id": "s26",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null
+    },
+    {
+     "id": "s27",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null
+    },
+    {
+     "id": "s28",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null
+    },
+    {
+     "id": "s29",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null
+    },
+    {
+     "id": "s30",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null
+    }
+   ],
+   "framingTerms": [
+    {
+     "term": "핵심",
+     "sentenceId": "s7"
+    }
+   ],
+   "analyzedBy": "gemini-3.5-flash-lite"
+  },
+  {
+   "id": "a-1b68e1a9e1",
+   "issueId": "auto-20261112-12-2",
+   "outletId": "dailian",
+   "outletName": "데일리안",
+   "title": "'성유리 남편' 안성현, 코인 상장 뒷돈 혐의 무죄 확정",
+   "summary": "검찰 공소사실과 같이 이 전 대표와 안씨가 청탁 대가로 돈을 받기로 공모하지도 않았다고 판단했다. 다만, 두 사람이 받은 4억원 상당 명품 시계 2개와 이 전 대표가 별도로 받은 수천만원 상당 고급 식당 식사권 등에...",
+   "url": "https://www.dailian.co.kr/news/view/1714149/?sc=Naver",
+   "publishedAt": "2026-11-12T11:24:00+09:00",
+   "sentences": [
+    {
+     "id": "s1",
+     "text": null,
+     "type": "quote",
+     "sourceType": "etc",
+     "sourceName": "법원",
+     "sourceDetail": "법원"
+    },
+    {
+     "id": "s2",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null
+    },
+    {
+     "id": "s3",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null
+    },
+    {
+     "id": "s4",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null
+    },
+    {
+     "id": "s5",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null
+    },
+    {
+     "id": "s6",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null
+    },
+    {
+     "id": "s7",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null
+    },
+    {
+     "id": "s8",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null
+    },
+    {
+     "id": "s9",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null
+    },
+    {
+     "id": "s10",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null
+    },
+    {
+     "id": "s11",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null
+    },
+    {
+     "id": "s12",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null
+    },
+    {
+     "id": "s13",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null
+    },
+    {
+     "id": "s14",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null
+    },
+    {
+     "id": "s15",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null
+    },
+    {
+     "id": "s16",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null
+    },
+    {
+     "id": "s17",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null
+    },
+    {
+     "id": "s18",
+     "text": null,
+     "type": "quote",
+     "sourceType": "etc",
+     "sourceName": "2심 재판부",
+     "sourceDetail": "법원"
+    }
+   ],
+   "framingTerms": [
+    {
+     "term": "챙긴",
+     "sentenceId": "s2"
+    },
+    {
+     "term": "무죄를 확정받았다",
+     "sentenceId": "s2"
+    },
+    {
+     "term": "무죄를 선고한",
+     "sentenceId": "s4"
+    },
+    {
+     "term": "확정됐다",
+     "sentenceId": "s5"
+    },
+    {
+     "term": "받은 혐의로 기소됐다",
+     "sentenceId": "s6"
+    },
+    {
+     "term": "따로 챙긴 혐의도 받았다",
+     "sentenceId": "s7"
+    },
+    {
+     "term": "인정되지만",
+     "sentenceId": "s9"
+    },
+    {
+     "term": "유죄로 판단했다",
+     "sentenceId": "s12"
+    },
+    {
+     "term": "선고했다",
+     "sentenceId": "s13"
+    },
+    {
+     "term": "무죄 판결을 받았다",
+     "sentenceId": "s14"
+    },
+    {
+     "term": "감형했다",
+     "sentenceId": "s15"
+    },
+    {
+     "term": "무죄를 선고했다",
+     "sentenceId": "s16"
+    }
+   ],
+   "analyzedBy": "gemini-3.5-flash-lite"
+  },
+  {
+   "id": "a-dc6c0301e2",
+   "issueId": "auto-20261112-12-2",
+   "outletId": "yonhapnewstv",
+   "outletName": "연합뉴스TV",
+   "title": "'코인상장 뒷돈' 골퍼 안성현 무죄 확정…전 빗썸 대표는 유죄",
+   "summary": "또 검찰 공소사실과 같이 이 전 대표와 안씨가 청탁 대가로 돈을 받기로 공모하지도 않았다고 판단했습니다. 다만 두 사람이 받은 4억원 상당 명품 시계 2개와 이 전 대표가 별도로 받은 수천만원 상당 고급 식당 식사권...",
+   "url": "http://www.yonhapnewstv.co.kr/news/AKR20261112112526Kfv",
+   "publishedAt": "2026-11-12T11:26:00+09:00",
+   "sentences": [
+    {
+     "id": "s1",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null
+    },
+    {
+     "id": "s2",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null
+    },
+    {
+     "id": "s3",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null
+    },
+    {
+     "id": "s4",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null
+    },
+    {
+     "id": "s5",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null
+    },
+    {
+     "id": "s6",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null
+    },
+    {
+     "id": "s7",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null
+    },
+    {
+     "id": "s8",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null
+    },
+    {
+     "id": "s9",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null
+    },
+    {
+     "id": "s10",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null
+    },
+    {
+     "id": "s11",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null
+    },
+    {
+     "id": "s12",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null
+    },
+    {
+     "id": "s13",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null
+    },
+    {
+     "id": "s14",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null
+    },
+    {
+     "id": "s15",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null
+    },
+    {
+     "id": "s16",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null
+    },
+    {
+     "id": "s17",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null
+    },
+    {
+     "id": "s18",
+     "text": null,
+     "type": "quote",
+     "sourceType": "etc",
+     "sourceName": "2심 재판부",
+     "sourceDetail": "법원"
+    },
+    {
+     "id": "s19",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null
+    },
+    {
+     "id": "s20",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null
+    },
+    {
+     "id": "s21",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null
+    },
+    {
+     "id": "s22",
+     "text": null,
+     "type": "quote",
+     "sourceType": "etc",
+     "sourceName": "2심 재판부",
+     "sourceDetail": "법원"
+    },
+    {
+     "id": "s23",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null
+    },
+    {
+     "id": "s24",
+     "text": null,
+     "type": "quote",
+     "sourceType": "etc",
+     "sourceName": "2심",
+     "sourceDetail": "법원"
+    },
+    {
+     "id": "s25",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null
+    },
+    {
+     "id": "s26",
+     "text": "당신이 담은 순간이 뉴스입니다!",
+     "type": "opinion",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null
+    }
+   ],
+   "framingTerms": [
+    {
+     "term": "기소된",
+     "sentenceId": "s1"
+    },
+    {
+     "term": "넘겨진",
+     "sentenceId": "s2"
+    },
+    {
+     "term": "기소된",
+     "sentenceId": "s4"
+    },
+    {
+     "term": "선고한",
+     "sentenceId": "s4"
+    },
+    {
+     "term": "기소된",
+     "sentenceId": "s5"
+    },
+    {
+     "term": "기소된",
+     "sentenceId": "s14"
+    },
+    {
+     "term": "감형했습니다",
+     "sentenceId": "s15"
+    },
+    {
+     "term": "선고했습니다",
+     "sentenceId": "s16"
+    },
+    {
+     "term": "질타했습니다",
+     "sentenceId": "s24"
+    }
+   ],
+   "analyzedBy": "gemini-3.5-flash-lite"
+  },
+  {
+   "id": "a-6c25e57472",
+   "issueId": "auto-20261112-12-3",
+   "outletId": "newsis",
+   "outletName": "뉴시스",
+   "title": "'TV조선 점수조작 의혹' 한상혁 1심 무죄…法 \"범죄 증명 안돼\"(종합)",
+   "summary": "이날 선고는 지난 2023년 5월 공소청의 기소 이후 3년6개월여 만에 나오는 첫 법원 판단이다. 공소청 지난 9월... 한 전 위원장은 면직 처분의 효력을 정지해달라며 집행정지를 신청했지만 법원에서 받아들여지지 않았다.",
+   "url": "https://www.newsis.com/view/NISX20261112_0003865377",
+   "publishedAt": "2026-11-12T11:52:00+09:00",
+   "sentences": [
+    {
+     "id": "s1",
+     "text": null,
+     "type": "quote",
+     "sourceType": "etc",
+     "sourceName": "법원",
+     "sourceDetail": "법원"
+    },
+    {
+     "id": "s2",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null
+    },
+    {
+     "id": "s3",
+     "text": null,
+     "type": "quote",
+     "sourceType": "etc",
+     "sourceName": "부장판사 나상훈",
+     "sourceDetail": "법원"
+    },
+    {
+     "id": "s4",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null
+    },
+    {
+     "id": "s5",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null
+    },
+    {
+     "id": "s6",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null
+    },
+    {
+     "id": "s7",
+     "text": null,
+     "type": "quote",
+     "sourceType": "etc",
+     "sourceName": "재판부",
+     "sourceDetail": "법원"
+    },
+    {
+     "id": "s8",
+     "text": null,
+     "type": "quote",
+     "sourceType": "etc",
+     "sourceName": "재판부",
+     "sourceDetail": "법원"
+    },
+    {
+     "id": "s9",
+     "text": null,
+     "type": "quote",
+     "sourceType": "etc",
+     "sourceName": "재판부",
+     "sourceDetail": "법원"
+    },
+    {
+     "id": "s10",
+     "text": null,
+     "type": "quote",
+     "sourceType": "etc",
+     "sourceName": "재판부",
+     "sourceDetail": "법원"
+    },
+    {
+     "id": "s11",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null
+    },
+    {
+     "id": "s12",
+     "text": null,
+     "type": "quote",
+     "sourceType": "etc",
+     "sourceName": "재판부",
+     "sourceDetail": "법원"
+    },
+    {
+     "id": "s13",
+     "text": null,
+     "type": "quote",
+     "sourceType": "etc",
+     "sourceName": "재판부",
+     "sourceDetail": "법원"
+    },
+    {
+     "id": "s14",
+     "text": null,
+     "type": "quote",
+     "sourceType": "etc",
+     "sourceName": "재판부",
+     "sourceDetail": "법원"
+    },
+    {
+     "id": "s15",
+     "text": null,
+     "type": "quote",
+     "sourceType": "etc",
+     "sourceName": "재판부",
+     "sourceDetail": "법원"
+    },
+    {
+     "id": "s16",
+     "text": null,
+     "type": "quote",
+     "sourceType": "etc",
+     "sourceName": "재판부",
+     "sourceDetail": "법원"
+    },
+    {
+     "id": "s17",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null
+    },
+    {
+     "id": "s18",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null
+    },
+    {
+     "id": "s19",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null
+    },
+    {
+     "id": "s20",
+     "text": null,
+     "type": "quote",
+     "sourceType": "etc",
+     "sourceName": "한 전 위원장",
+     "sourceDetail": "익명(소속 미상)"
+    },
+    {
+     "id": "s21",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null
+    },
+    {
+     "id": "s22",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null
+    }
+   ],
+   "framingTerms": [
+    {
+     "term": "부당하게 개입한",
+     "sentenceId": "s2"
+    },
+    {
+     "term": "고의로 점수를 낮춘",
+     "sentenceId": "s4"
+    },
+    {
+     "term": "조작된",
+     "sentenceId": "s5"
+    },
+    {
+     "term": "허위",
+     "sentenceId": "s6"
+    },
+    {
+     "term": "조작",
+     "sentenceId": "s12"
+    },
+    {
+     "term": "점수조작",
+     "sentenceId": "s13"
+    },
+    {
+     "term": "허위 설명자료",
+     "sentenceId": "s14"
+    },
+    {
+     "term": "허위공문서작성죄",
+     "sentenceId": "s14"
+    },
+    {
+     "term": "허위",
+     "sentenceId": "s15"
+    }
+   ],
+   "analyzedBy": "gemini-3.5-flash-lite"
+  },
+  {
+   "id": "a-535332457f",
+   "issueId": "auto-20261112-12-3",
+   "outletId": "news1",
+   "outletName": "뉴스1",
+   "title": "'TV조선 점수조작' 한상혁 등 6명 무죄…\"점수 수정 위법 아냐\"(종합)",
+   "summary": "앞서 검찰은 지난 1일 열린 결심공판에서 한 전 위원장에게 징역 3년을 구형했다. 함께 기소된 양 전 국장과... 검찰 수사 과정에 대한 법적 대응 여부에 대해서는 \"여러 위법·부당한 사례가 있었던 것으로 알고 있다\"며 \"그...",
+   "url": "https://www.news1.kr/society/court-prosecution/6351764",
+   "publishedAt": "2026-11-12T11:23:00+09:00",
+   "sentences": [
+    {
+     "id": "s1",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null
+    },
+    {
+     "id": "s2",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null
+    },
+    {
+     "id": "s3",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null
+    },
+    {
+     "id": "s4",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null
+    },
+    {
+     "id": "s5",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null
+    },
+    {
+     "id": "s6",
+     "text": null,
+     "type": "quote",
+     "sourceType": "etc",
+     "sourceName": "재판부",
+     "sourceDetail": "법원"
+    },
+    {
+     "id": "s7",
+     "text": null,
+     "type": "quote",
+     "sourceType": "etc",
+     "sourceName": "재판부",
+     "sourceDetail": "법원"
+    },
+    {
+     "id": "s8",
+     "text": null,
+     "type": "quote",
+     "sourceType": "etc",
+     "sourceName": "재판부",
+     "sourceDetail": "법원"
+    },
+    {
+     "id": "s9",
+     "text": null,
+     "type": "quote",
+     "sourceType": "etc",
+     "sourceName": "재판부",
+     "sourceDetail": "법원"
+    },
+    {
+     "id": "s10",
+     "text": null,
+     "type": "quote",
+     "sourceType": "etc",
+     "sourceName": "재판부",
+     "sourceDetail": "법원"
+    },
+    {
+     "id": "s11",
+     "text": null,
+     "type": "quote",
+     "sourceType": "etc",
+     "sourceName": "재판부",
+     "sourceDetail": "법원"
+    },
+    {
+     "id": "s12",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null
+    },
+    {
+     "id": "s13",
+     "text": null,
+     "type": "quote",
+     "sourceType": "etc",
+     "sourceName": "재판부",
+     "sourceDetail": "법원"
+    },
+    {
+     "id": "s14",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null
+    },
+    {
+     "id": "s15",
+     "text": null,
+     "type": "quote",
+     "sourceType": "etc",
+     "sourceName": "재판부",
+     "sourceDetail": "법원"
+    },
+    {
+     "id": "s16",
+     "text": null,
+     "type": "quote",
+     "sourceType": "etc",
+     "sourceName": "재판부",
+     "sourceDetail": "법원"
+    },
+    {
+     "id": "s17",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null
+    },
+    {
+     "id": "s18",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null
+    },
+    {
+     "id": "s19",
+     "text": null,
+     "type": "quote",
+     "sourceType": "etc",
+     "sourceName": "재판부",
+     "sourceDetail": "법원"
+    },
+    {
+     "id": "s20",
+     "text": null,
+     "type": "quote",
+     "sourceType": "etc",
+     "sourceName": "재판부",
+     "sourceDetail": "법원"
+    },
+    {
+     "id": "s21",
+     "text": null,
+     "type": "quote",
+     "sourceType": "etc",
+     "sourceName": "재판부",
+     "sourceDetail": "법원"
+    },
+    {
+     "id": "s22",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null
+    },
+    {
+     "id": "s23",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null
+    },
+    {
+     "id": "s24",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null
+    },
+    {
+     "id": "s25",
+     "text": null,
+     "type": "quote",
+     "sourceType": "etc",
+     "sourceName": "한상혁 전 방송통신위원장",
+     "sourceDetail": "익명(소속 미상)"
+    },
+    {
+     "id": "s26",
+     "text": null,
+     "type": "quote",
+     "sourceType": "etc",
+     "sourceName": "한상혁 전 방송통신위원장",
+     "sourceDetail": "익명(소속 미상)"
+    },
+    {
+     "id": "s27",
+     "text": null,
+     "type": "quote",
+     "sourceType": "etc",
+     "sourceName": "한상혁 전 방송통신위원장",
+     "sourceDetail": "익명(소속 미상)"
+    }
+   ],
+   "framingTerms": [
+    {
+     "term": "조작한",
+     "sentenceId": "s1"
+    },
+    {
+     "term": "조작",
+     "sentenceId": "s3"
+    }
+   ],
+   "analyzedBy": "gemini-3.5-flash-lite"
+  },
+  {
+   "id": "a-4b6bdb1f61",
+   "issueId": "auto-20261112-12-3",
+   "outletId": "chosun",
+   "outletName": "조선일보",
+   "title": "‘TV조선 재승인 점수 조작 의혹’ 한상혁 前 방통위원장 1심 무죄",
+   "summary": "불거졌고, 검찰(현 공소청)은 2023년 5월 한 전 위원장 등을 위계공무집행방해, 직권남용, 허위공문서 작성 등 혐의로 불구속 기소했다. 지난 9월 열린 결심 공판에서 검찰은 한 전 위원장에게 징역 3년, 전 방통위 국장...",
+   "url": "https://www.chosun.com/national/national_general/2026/11/12/P3SRT3UDAND4RLCUAM3O2L25EU/?utm_source=naver&utm_medium=referral&utm_campaign=naver-news",
+   "publishedAt": "2026-11-12T11:44:00+09:00",
+   "sentences": [
+    {
+     "id": "s1",
+     "text": "우리는 살아가면서 주로 뉴스를 통해 ‘일평생 양지(陽地)만을 추구한 권력…",
+     "type": "opinion",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null
+    },
+    {
+     "id": "s2",
+     "text": "대의(大義)를 위해, 또는 민중을 위해 자신은 손해를 보더라도 옳은 길을…",
+     "type": "opinion",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null
+    },
+    {
+     "id": "s3",
+     "text": "그런 거 없다.",
+     "type": "opinion",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null
+    },
+    {
+     "id": "s4",
+     "text": "‘사대주의자’나 ‘배신자’, 심지어 ‘종놈’이란 욕을 먹더라도 꿋꿋이 자…",
+     "type": "opinion",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null
+    },
+    {
+     "id": "s5",
+     "text": "일반 백성은 ‘교화하려 해서 교화되는 존재가 아니다’라는 엘리트주의도 지…",
+     "type": "opinion",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null
+    },
+    {
+     "id": "s6",
+     "text": "그렇게 산 결과 그는 공신 소리를 들으며 아주 높은 자리까지 올랐다.",
+     "type": "opinion",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null
+    },
+    {
+     "id": "s7",
+     "text": "그러나 그는 후세 사람들이 좀처럼 존경하거나 본받으려고는 하지 않는 사람…",
+     "type": "opinion",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null
+    },
+    {
+     "id": "s8",
+     "text": "쉰여섯 번째 ‘악인전’의 주인공은 그런 점에서 매우 답답하고 속 쓰린 인…",
+     "type": "opinion",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null
+    },
+    {
+     "id": "s9",
+     "text": null,
+     "type": "quote",
+     "sourceType": "etc",
+     "sourceName": "표준국어대사",
+     "sourceDetail": "익명(소속 미상)"
+    }
+   ],
+   "framingTerms": [],
+   "analyzedBy": "gemini-3.5-flash-lite"
+  },
+  {
+   "id": "a-7fc59bc19e",
+   "issueId": "auto-20261112-12-3",
+   "outletId": "hani",
+   "outletName": "한겨레",
+   "title": "한상혁 전 방통위원장, ‘TV조선 재승인 점수조작’ 혐의 1심서 무죄",
+   "summary": "지난 2023년 5월 검찰(공소청)이 한 전 위원장 등을 기소한 지 3년6개월만이다. 서울북부지법 형사13부(재판장 나상훈)는 12일 오전 위계에 의한 공무집행방해 등 혐의로 기소된 한 전 위원장에게 무죄를 선고했다. 함께...",
+   "url": "https://www.hani.co.kr/arti/society/society_general/1286962.html",
+   "publishedAt": "2026-11-12T11:30:00+09:00",
+   "sentences": [
+    {
+     "id": "s1",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null
+    },
+    {
+     "id": "s2",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null
+    },
+    {
+     "id": "s3",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null
+    },
+    {
+     "id": "s4",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null
+    },
+    {
+     "id": "s5",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null
+    },
+    {
+     "id": "s6",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null
+    },
+    {
+     "id": "s7",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null
+    },
+    {
+     "id": "s8",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null
+    },
+    {
+     "id": "s9",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null
+    },
+    {
+     "id": "s10",
+     "text": null,
+     "type": "quote",
+     "sourceType": "etc",
+     "sourceName": "1심 법원",
+     "sourceDetail": "법원"
+    },
+    {
+     "id": "s11",
+     "text": null,
+     "type": "quote",
+     "sourceType": "etc",
+     "sourceName": "재판부",
+     "sourceDetail": "법원"
+    },
+    {
+     "id": "s12",
+     "text": null,
+     "type": "quote",
+     "sourceType": "etc",
+     "sourceName": "법원",
+     "sourceDetail": "법원"
+    }
+   ],
+   "framingTerms": [],
+   "analyzedBy": "gemini-3.5-flash-lite"
+  },
+  {
+   "id": "a-eb579344ae",
+   "issueId": "auto-20261112-12-3",
+   "outletId": "munhwa",
+   "outletName": "문화일보",
+   "title": "‘TV조선 점수 조작 의혹’ 한상혁 전 방통위원장 등 6명 1심 무죄",
+   "summary": "이들은 문재인 정부 시절이던 2020년 TV조선 재승인 심사 과정에서 공모를 통해 평가점수를 낮추고 이를 묵인한 혐의 등으로 2023년 기소됐다. 이 의혹은 2022년 9월 시작된 감사원의 방통위 감사로 불거졌다. 재판부는...",
+   "url": "https://www.munhwa.com/article/11630857?ref=naver",
+   "publishedAt": "2026-11-12T12:06:00+09:00",
+   "sentences": [
+    {
+     "id": "s1",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null
+    },
+    {
+     "id": "s2",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null
+    },
+    {
+     "id": "s3",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null
+    },
+    {
+     "id": "s4",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null
+    },
+    {
+     "id": "s5",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null
+    },
+    {
+     "id": "s6",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null
+    },
+    {
+     "id": "s7",
+     "text": null,
+     "type": "quote",
+     "sourceType": "etc",
+     "sourceName": "재판부",
+     "sourceDetail": "법원"
+    }
+   ],
+   "framingTerms": [],
+   "analyzedBy": "gemini-3.5-flash-lite"
+  },
+  {
+   "id": "a-b6ddbac9c1",
+   "issueId": "auto-20261112-12-3",
+   "outletId": "edaily",
+   "outletName": "이데일리",
+   "title": "'TV조선 점수 조작 의혹' 한상혁 전 방통위원장, 1심 무죄 선고",
+   "summary": "이후 3년 6개월여 만에 나온 첫 법원 판단이다. 윤석열 전 대통령은 기소 이후 한 전 위원장에 대한 면직안을 재가했고, 한 전 위원장은 면직 처분의 효력을 정지해달라며 집행정지를 신청했지만 법원은 받아들이지 않았다.",
+   "url": "https://www.edaily.co.kr/News/Read?newsId=03230806645645064&mediaCodeNo=257&utm_source=naver&utm_medium=referral&utm_campaign=news_syndication&utm_content=original_article",
+   "publishedAt": "2026-11-12T11:56:00+09:00",
+   "sentences": [
+    {
+     "id": "s1",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null
+    },
+    {
+     "id": "s2",
+     "text": null,
+     "type": "quote",
+     "sourceType": "etc",
+     "sourceName": "재판부",
+     "sourceDetail": "법원"
+    },
+    {
+     "id": "s3",
+     "text": null,
+     "type": "quote",
+     "sourceType": "etc",
+     "sourceName": "재판부",
+     "sourceDetail": "법원"
+    },
+    {
+     "id": "s4",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null
+    },
+    {
+     "id": "s5",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null
+    },
+    {
+     "id": "s6",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null
+    },
+    {
+     "id": "s7",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null
+    },
+    {
+     "id": "s8",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null
+    },
+    {
+     "id": "s9",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null
+    }
+   ],
+   "framingTerms": [],
+   "analyzedBy": "gemini-3.5-flash-lite"
+  },
+  {
+   "id": "a-07de74e8f0",
+   "issueId": "auto-20261112-12-4",
+   "outletId": "yna",
+   "outletName": "연합뉴스",
+   "title": "내년 전국 오피스텔 기준시가 4년째 하락…서울은 2%대 상승",
+   "summary": "제출된 의견은 한국부동산원에서 재조사해 수용 여부를 검토하고 이후 수용된 의견을 반영한... 취득세·재산세 등 지방세, 종합부동산세, 건강보험료 등 사회보험료 부과에는 쓰이지 않는다.",
+   "url": "https://www.yna.co.kr/view/AKR20261112072000002?input=1195m",
+   "publishedAt": "2026-11-12T12:00:00+09:00",
+   "sentences": [
+    {
+     "id": "s1",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null
+    },
+    {
+     "id": "s2",
+     "text": "내년 전국 오피스텔 기준시가가 약 0.5% 하락할 것으로 보인다.",
+     "type": "opinion",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null
+    },
+    {
+     "id": "s3",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null
+    },
+    {
+     "id": "s4",
+     "text": "서울은 2%대 상승해 4년 만에 가장 높은 상승률을 기록할 것으로 전망된…",
+     "type": "opinion",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null
+    },
+    {
+     "id": "s5",
+     "text": null,
+     "type": "quote",
+     "sourceType": "gov",
+     "sourceName": "국세청",
+     "sourceDetail": null
+    },
+    {
+     "id": "s6",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null
+    },
+    {
+     "id": "s7",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null
+    },
+    {
+     "id": "s8",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null
+    },
+    {
+     "id": "s9",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null
+    },
+    {
+     "id": "s10",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null
+    },
+    {
+     "id": "s11",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null
+    },
+    {
+     "id": "s12",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null
+    },
+    {
+     "id": "s13",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null
+    },
+    {
+     "id": "s14",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null
+    },
+    {
+     "id": "s15",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null
+    },
+    {
+     "id": "s16",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null
+    },
+    {
+     "id": "s17",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null
+    },
+    {
+     "id": "s18",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null
+    },
+    {
+     "id": "s19",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null
+    },
+    {
+     "id": "s20",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null
+    },
+    {
+     "id": "s21",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null
+    },
+    {
+     "id": "s22",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null
+    },
+    {
+     "id": "s23",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null
+    },
+    {
+     "id": "s24",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null
+    }
+   ],
+   "framingTerms": [],
+   "analyzedBy": "gemini-3.5-flash-lite"
+  },
+  {
+   "id": "a-d86f68d621",
+   "issueId": "auto-20261112-12-4",
+   "outletId": "news1",
+   "outletName": "뉴스1",
+   "title": "내년 오피스텔·상가 기준시가 2년 연속 하락…서울 오피스텔은 2.1%↑",
+   "summary": "취득세·재산세 등 지방세와 종합부동산세, 건강보험료 등 사회보험료 부과에는 쓰이지 않는다.... 제출된 의견은 한국부동산원 재조사와 국세청 평가심의위원회 심의를 거쳐 반영 여부가 결정되며, 기준시가는...",
+   "url": "https://www.news1.kr/economy/trend/6351579",
+   "publishedAt": "2026-11-12T12:00:00+09:00",
+   "sentences": [
+    {
+     "id": "s1",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null
+    },
+    {
+     "id": "s2",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null
+    },
+    {
+     "id": "s3",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null
+    },
+    {
+     "id": "s4",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null
+    },
+    {
+     "id": "s5",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null
+    },
+    {
+     "id": "s6",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null
+    },
+    {
+     "id": "s7",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null
+    },
+    {
+     "id": "s8",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null
+    },
+    {
+     "id": "s9",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null
+    },
+    {
+     "id": "s10",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null
+    },
+    {
+     "id": "s11",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null
+    },
+    {
+     "id": "s12",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null
+    },
+    {
+     "id": "s13",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null
+    },
+    {
+     "id": "s14",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null
+    },
+    {
+     "id": "s15",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null
+    },
+    {
+     "id": "s16",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null
+    },
+    {
+     "id": "s17",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null
+    }
+   ],
+   "framingTerms": [
+    {
+     "term": "뚜렷했다",
+     "sentenceId": "s2"
+    },
+    {
+     "term": "두드러졌다",
+     "sentenceId": "s6"
+    }
+   ],
+   "analyzedBy": "gemini-3.5-flash-lite"
+  },
+  {
+   "id": "a-c226c1f95f",
+   "issueId": "auto-20261112-12-4",
+   "outletId": "sedaily",
+   "outletName": "서울경제",
+   "title": "내년 서울 오피스텔 기준시가 상승폭 2배...전국은 4년째 하락",
+   "summary": "재산세·종합부동산세와 건강보험료 산정에는 쓰이지 않는다. 고시 대상은 올해 9월 1일 기준으로 조사한... 접수된 의견은 한국부동산원에서 재조사해 수용 여부를 검토한다. 수용된 의견은 국세청...",
+   "url": "https://www.sedaily.com/article/20113388?ref=naver",
+   "publishedAt": "2026-11-12T12:01:00+09:00",
+   "sentences": [
+    {
+     "id": "s1",
+     "text": "내년 전국 오피스텔 기준시가가 4년 연속 하락하는 가운데 서울은 상승률이…",
+     "type": "opinion",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null
+    },
+    {
+     "id": "s2",
+     "text": "상업용 건물 역시 전국 평균은 하락하지만 서울만 소폭 오르는 등 지역별…",
+     "type": "opinion",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null
+    },
+    {
+     "id": "s3",
+     "text": null,
+     "type": "quote",
+     "sourceType": "gov",
+     "sourceName": "국세청",
+     "sourceDetail": null
+    },
+    {
+     "id": "s4",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null
+    },
+    {
+     "id": "s5",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null
+    },
+    {
+     "id": "s6",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null
+    },
+    {
+     "id": "s7",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null
+    },
+    {
+     "id": "s8",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null
+    },
+    {
+     "id": "s9",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null
+    },
+    {
+     "id": "s10",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null
+    },
+    {
+     "id": "s11",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null
+    },
+    {
+     "id": "s12",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null
+    },
+    {
+     "id": "s13",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null
+    },
+    {
+     "id": "s14",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null
+    },
+    {
+     "id": "s15",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null
+    },
+    {
+     "id": "s16",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null
+    },
+    {
+     "id": "s17",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null
+    },
+    {
+     "id": "s18",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null
+    },
+    {
+     "id": "s19",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null
+    },
+    {
+     "id": "s20",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null
+    },
+    {
+     "id": "s21",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null
+    },
+    {
+     "id": "s22",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null
+    },
+    {
+     "id": "s23",
+     "text": "이 기사를 추천합니다.",
+     "type": "opinion",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null
+    }
+   ],
+   "framingTerms": [
+    {
+     "term": "전망이다",
+     "sentenceId": "s1"
+    },
+    {
+     "term": "보인다",
+     "sentenceId": "s2"
+    },
+    {
+     "term": "큰 폭의",
+     "sentenceId": "s15"
+    }
+   ],
+   "analyzedBy": "gemini-3.5-flash-lite"
+  },
+  {
+   "id": "a-3c1141e205",
+   "issueId": "auto-20261112-12-4",
+   "outletId": "ajunews",
+   "outletName": "아주경제",
+   "title": "내년 오피스텔·상가 기준시가안 서울만 상승…대구·제주 5%대 급락",
+   "summary": "취득세·재산세 등 지방세와 종합부동산세, 건강보험료 등 사회보험료 부과에는 적용되지 않는다.... 제출된 의견은 한국부동산원이 재조사해 수용 여부를 검토한다. 국세청은 수용된 의견을 반영하고...",
+   "url": "https://www.ajunews.com/view/20261112092242113",
+   "publishedAt": "2026-11-12T12:02:00+09:00",
+   "sentences": [
+    {
+     "id": "s1",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null
+    },
+    {
+     "id": "s2",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null
+    },
+    {
+     "id": "s3",
+     "text": null,
+     "type": "quote",
+     "sourceType": "gov",
+     "sourceName": "국세청",
+     "sourceDetail": null
+    },
+    {
+     "id": "s4",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null
+    },
+    {
+     "id": "s5",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null
+    },
+    {
+     "id": "s6",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null
+    },
+    {
+     "id": "s7",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null
+    },
+    {
+     "id": "s8",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null
+    },
+    {
+     "id": "s9",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null
+    },
+    {
+     "id": "s10",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null
+    },
+    {
+     "id": "s11",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null
+    },
+    {
+     "id": "s12",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null
+    },
+    {
+     "id": "s13",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null
+    },
+    {
+     "id": "s14",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null
+    },
+    {
+     "id": "s15",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null
+    },
+    {
+     "id": "s16",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null
+    },
+    {
+     "id": "s17",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null
+    },
+    {
+     "id": "s18",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null
+    },
+    {
+     "id": "s19",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null
+    },
+    {
+     "id": "s20",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null
+    },
+    {
+     "id": "s21",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null
+    },
+    {
+     "id": "s22",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null
+    }
+   ],
+   "framingTerms": [],
+   "analyzedBy": "gemini-3.5-flash-lite"
+  },
+  {
+   "id": "a-bb58ad82b5",
+   "issueId": "auto-20261112-12-4",
+   "outletId": "newspim",
+   "outletName": "뉴스핌",
+   "title": "내년 기준시가 오피스텔 0.5%·상가 0.8% 하락…서울 나홀로 상승",
+   "summary": "종합부동산세, 건강보험료 등 사회보험료 부과에는 활용되지 않는다. 이번 고시 대상은 2026년 9월 1일... 국세청 관계자는 \"제출된 의견은 한국부동산원에서 재조사해 수용 여부를 검토하고, 이후 수용된 의견을...",
+   "url": "https://www.newspim.com/news/view/20261112000629",
+   "publishedAt": "2026-11-12T12:00:00+09:00",
+   "sentences": [
+    {
+     "id": "s1",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null
+    },
+    {
+     "id": "s2",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null
+    },
+    {
+     "id": "s3",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null
+    },
+    {
+     "id": "s4",
+     "text": "!AI가 자동 생성한 요약으로 정확하지 않을 수 있어요.",
+     "type": "opinion",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null
+    },
+    {
+     "id": "s5",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null
+    },
+    {
+     "id": "s6",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null
+    },
+    {
+     "id": "s7",
+     "text": null,
+     "type": "quote",
+     "sourceType": "gov",
+     "sourceName": "국세청",
+     "sourceDetail": null
+    },
+    {
+     "id": "s8",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null
+    },
+    {
+     "id": "s9",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null
+    },
+    {
+     "id": "s10",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null
+    },
+    {
+     "id": "s11",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null
+    },
+    {
+     "id": "s12",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null
+    },
+    {
+     "id": "s13",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null
+    },
+    {
+     "id": "s14",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null
+    },
+    {
+     "id": "s15",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null
+    },
+    {
+     "id": "s16",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null
+    },
+    {
+     "id": "s17",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null
+    },
+    {
+     "id": "s18",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null
+    },
+    {
+     "id": "s19",
+     "text": null,
+     "type": "quote",
+     "sourceType": "etc",
+     "sourceName": "국세청 관계자",
+     "sourceDetail": "익명(소속 미상)"
+    }
+   ],
+   "framingTerms": [],
+   "analyzedBy": "gemini-3.5-flash-lite"
+  },
+  {
+   "id": "a-b62807ce29",
+   "issueId": "auto-20261112-12-4",
+   "outletId": "dailian",
+   "outletName": "데일리안",
+   "title": "오피스텔 기준시가, 서울만 올랐다…전년대비 2.1%↑",
+   "summary": "적용하며, 부동산 취득 당시 실제 거래가액을 확인할 수 없는 경우 양도소득세 환산취득가액 계산에도 사용한다. 다만 취득세와 재산세 등 지방세를 비롯해 종합부동산세와 건강보험료 등 사회보험료 부과에는...",
+   "url": "https://www.dailian.co.kr/news/view/1713997/?sc=Naver",
+   "publishedAt": "2026-11-12T12:02:00+09:00",
+   "sentences": [
+    {
+     "id": "s1",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null
+    },
+    {
+     "id": "s2",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null
+    },
+    {
+     "id": "s3",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null
+    },
+    {
+     "id": "s4",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null
+    },
+    {
+     "id": "s5",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null
+    },
+    {
+     "id": "s6",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null
+    },
+    {
+     "id": "s7",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null
+    },
+    {
+     "id": "s8",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null
+    },
+    {
+     "id": "s9",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null
+    },
+    {
+     "id": "s10",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null
+    },
+    {
+     "id": "s11",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null
+    },
+    {
+     "id": "s12",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null
+    },
+    {
+     "id": "s13",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null
+    },
+    {
+     "id": "s14",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null
+    },
+    {
+     "id": "s15",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null
+    },
+    {
+     "id": "s16",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null
+    },
+    {
+     "id": "s17",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null
+    },
+    {
+     "id": "s18",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null
+    },
+    {
+     "id": "s19",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null
+    },
+    {
+     "id": "s20",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null
+    },
+    {
+     "id": "s21",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null
+    },
+    {
+     "id": "s22",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null
+    },
+    {
+     "id": "s23",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null
+    },
+    {
+     "id": "s24",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null
+    },
+    {
+     "id": "s25",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null
+    },
+    {
+     "id": "s26",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null
+    },
+    {
+     "id": "s27",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null
+    },
+    {
+     "id": "s28",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null
+    },
+    {
+     "id": "s29",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null
+    }
+   ],
+   "framingTerms": [
+    {
+     "term": "하락할 전망이다",
+     "sentenceId": "s1"
+    },
+    {
+     "term": "떨어진 반면",
+     "sentenceId": "s2"
+    },
+    {
+     "term": "상승해",
+     "sentenceId": "s2"
+    },
+    {
+     "term": "하락했으며",
+     "sentenceId": "s13"
+    },
+    {
+     "term": "떨어졌다",
+     "sentenceId": "s13"
+    },
+    {
+     "term": "상승했지만",
+     "sentenceId": "s14"
+    },
+    {
+     "term": "하락했다",
+     "sentenceId": "s14"
+    },
+    {
+     "term": "하락했고",
+     "sentenceId": "s16"
+    },
+    {
+     "term": "하락해",
+     "sentenceId": "s17"
+    },
+    {
+     "term": "떨어졌다",
+     "sentenceId": "s18"
+    }
+   ],
+   "analyzedBy": "gemini-3.5-flash-lite"
+  },
+  {
+   "id": "a-213c045a2d",
+   "issueId": "auto-20261112-12-5",
+   "outletId": "newsis",
+   "outletName": "뉴시스",
+   "title": "최민희 '하이에나 떼' 발언 파문…사진기자협회, 경찰 고발 예정",
+   "summary": "한국사진기자협회가 사진기자들을 '하이에나 떼들'이라고 비하한 최민희 더불어민주당 의원을 경찰에 고발하기로 했다. 한국사진기자협회(회장 이호재)는 오는 16일 오전 9시30분 서울 영등포경찰서에 최 의원 고발장을...",
+   "url": "https://www.newsis.com/view/NISX20261112_0003865432",
+   "publishedAt": "2026-11-12T12:18:00+09:00",
+   "sentences": [
+    {
+     "id": "s1",
+     "text": null,
+     "type": "quote",
+     "sourceType": "citizen",
+     "sourceName": "협회",
+     "sourceDetail": null
+    },
+    {
+     "id": "s2",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null
+    },
+    {
+     "id": "s3",
+     "text": null,
+     "type": "quote",
+     "sourceType": "citizen",
+     "sourceName": "한국사진기자협회",
+     "sourceDetail": null
+    },
+    {
+     "id": "s4",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null
+    },
+    {
+     "id": "s5",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null
+    },
+    {
+     "id": "s6",
+     "text": null,
+     "type": "quote",
+     "sourceType": "citizen",
+     "sourceName": "협회",
+     "sourceDetail": null
+    },
+    {
+     "id": "s7",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null
+    },
+    {
+     "id": "s8",
+     "text": null,
+     "type": "quote",
+     "sourceType": "citizen",
+     "sourceName": "협회",
+     "sourceDetail": null
+    },
+    {
+     "id": "s9",
+     "text": null,
+     "type": "quote",
+     "sourceType": "citizen",
+     "sourceName": "협회",
+     "sourceDetail": null
+    },
+    {
+     "id": "s10",
+     "text": null,
+     "type": "quote",
+     "sourceType": "citizen",
+     "sourceName": "협회",
+     "sourceDetail": null
+    },
+    {
+     "id": "s11",
+     "text": null,
+     "type": "quote",
+     "sourceType": "gov",
+     "sourceName": "최 최고위원",
+     "sourceDetail": null
+    }
+   ],
+   "framingTerms": [],
+   "analyzedBy": "gemini-3.5-flash-lite"
+  },
+  {
+   "id": "a-ef1326cadf",
+   "issueId": "auto-20261112-12-5",
+   "outletId": "kbs",
+   "outletName": "KBS",
+   "title": "기자들 ‘하이에나 떼’ 표현…최민희 의원, 명예훼손 고발돼",
+   "summary": "더불어민주당 최민희 최고위원이 국회에서 취재 중인 기자들을 ‘하이에나 떼들’이라고 표현한 것과... 이 전 시의원은 “최 최고위원은 지난 5일 지역구 당원 등 400여 명이 참여하고 있는 한 카카오톡 대화방에 국회에서...",
+   "url": "https://news.kbs.co.kr/news/pc/view/view.do?ncd=8710990&ref=A",
+   "publishedAt": "2026-11-12T12:22:00+09:00",
+   "sentences": [
+    {
+     "id": "s1",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null
+    },
+    {
+     "id": "s2",
+     "text": null,
+     "type": "quote",
+     "sourceType": "opp",
+     "sourceName": "이종배 국민의힘 전 서울시의원",
+     "sourceDetail": null
+    },
+    {
+     "id": "s3",
+     "text": null,
+     "type": "quote",
+     "sourceType": "opp",
+     "sourceName": "이 전 시의원",
+     "sourceDetail": null
+    },
+    {
+     "id": "s4",
+     "text": null,
+     "type": "quote",
+     "sourceType": "opp",
+     "sourceName": "이 전 시의원",
+     "sourceDetail": null
+    },
+    {
+     "id": "s5",
+     "text": null,
+     "type": "quote",
+     "sourceType": "opp",
+     "sourceName": "이 전 시의원",
+     "sourceDetail": null
+    },
+    {
+     "id": "s6",
+     "text": null,
+     "type": "quote",
+     "sourceType": "opp",
+     "sourceName": "이 전 시의원은",
+     "sourceDetail": null
+    },
+    {
+     "id": "s7",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null
+    }
+   ],
+   "framingTerms": [],
+   "analyzedBy": "gemini-3.5-flash-lite"
+  },
+  {
+   "id": "a-133d324323",
+   "issueId": "auto-20261112-12-5",
+   "outletId": "munhwa",
+   "outletName": "문화일보",
+   "title": "[단독]‘하이에나 떼’ 떨떠름한 사과 최민희, 동료의원까지 비난",
+   "summary": "최민희 더불어민주당 의원이 국회를 취재하는 사진 및 영상기자들을 ‘하이에나 떼들’이라고 표현해... 신규 참여자에게는 다른 비서관이 “최민희 국회의원님과 함께하는 카톡방에 오신 것을 환영합니다”라는...",
+   "url": "https://www.munhwa.com/article/11630866?ref=naver",
+   "publishedAt": "2026-11-12T12:08:00+09:00",
+   "sentences": [
+    {
+     "id": "s1",
+     "text": null,
+     "type": "quote",
+     "sourceType": "gov",
+     "sourceName": "김남희 겨냥해",
+     "sourceDetail": null
+    },
+    {
+     "id": "s2",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null
+    },
+    {
+     "id": "s3",
+     "text": null,
+     "type": "quote",
+     "sourceType": "gov",
+     "sourceName": "최 의원 측",
+     "sourceDetail": null
+    },
+    {
+     "id": "s4",
+     "text": null,
+     "type": "quote",
+     "sourceType": "gov",
+     "sourceName": "최 의원",
+     "sourceDetail": null
+    },
+    {
+     "id": "s5",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null
+    },
+    {
+     "id": "s6",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null
+    },
+    {
+     "id": "s7",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null
+    },
+    {
+     "id": "s8",
+     "text": null,
+     "type": "quote",
+     "sourceType": "gov",
+     "sourceName": "최 의원",
+     "sourceDetail": null
+    },
+    {
+     "id": "s9",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null
+    },
+    {
+     "id": "s10",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null
+    },
+    {
+     "id": "s11",
+     "text": null,
+     "type": "quote",
+     "sourceType": "gov",
+     "sourceName": "김민석 민주당 대표",
+     "sourceDetail": null
+    },
+    {
+     "id": "s12",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null
+    }
+   ],
+   "framingTerms": [
+    {
+     "term": "논란이 된",
+     "sentenceId": "s2"
+    },
+    {
+     "term": "논란이 불거진",
+     "sentenceId": "s9"
+    },
+    {
+     "term": "부적절 발언이",
+     "sentenceId": "s10"
+    }
+   ],
+   "analyzedBy": "gemini-3.5-flash-lite"
+  },
+  {
+   "id": "a-c36e939315",
+   "issueId": "auto-20261112-12-5",
+   "outletId": "nocutnews",
+   "outletName": "노컷뉴스",
+   "title": "취재진에 \"하이에나 떼들\"…최민희 의원 명예훼손 피고발",
+   "summary": "국회에서 취재 중인 기자들을 '하이에나 떼들'이라고 표현한 더불어민주당 최민희 최고위원이 명예훼손... 앞서 최 최고위원은 지난 5일 국회에서 취재 중인 사진·영상 기자들을 찍은 사진을 지역구 당원 등이 참여하는...",
+   "url": "https://www.nocutnews.co.kr/news/6605845?utm_source=naver&utm_medium=article&utm_campaign=20261112120109",
+   "publishedAt": "2026-11-12T12:02:00+09:00",
+   "sentences": [
+    {
+     "id": "s1",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null
+    },
+    {
+     "id": "s2",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null
+    },
+    {
+     "id": "s3",
+     "text": null,
+     "type": "quote",
+     "sourceType": "opp",
+     "sourceName": "이 전 시의원은",
+     "sourceDetail": null
+    },
+    {
+     "id": "s4",
+     "text": null,
+     "type": "quote",
+     "sourceType": "opp",
+     "sourceName": "이 전 시의원은",
+     "sourceDetail": null
+    },
+    {
+     "id": "s5",
+     "text": null,
+     "type": "quote",
+     "sourceType": "opp",
+     "sourceName": "이 전 시의원은",
+     "sourceDetail": null
+    }
+   ],
+   "framingTerms": [
+    {
+     "term": "논란이 됐다",
+     "sentenceId": "s2"
+    }
+   ],
+   "analyzedBy": "gemini-3.5-flash-lite"
+  },
+  {
+   "id": "a-0c6b08ba99",
+   "issueId": "auto-20261112-12-5",
+   "outletId": "fnnews",
+   "outletName": "파이낸셜뉴스",
+   "title": "최민희, 취재기자에 '하이에나 떼들'…명예훼손 혐의로 경찰 고발돼",
+   "summary": "국회에서 취재하던 기자들을 '하이에나 떼들'이라고 표현한 더불어민주당 최민희 최고위원이 명예훼손... 국회에서 민주당 의원총회를 취재하던 사진·영상 기자들을 찍은 사진이다. 최 최고위원은 이 사진과 함께...",
+   "url": "https://www.fnnews.com/news/202611121202468651",
+   "publishedAt": "2026-11-12T12:06:00+09:00",
+   "sentences": [
+    {
+     "id": "s1",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null
+    },
+    {
+     "id": "s2",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null
+    },
+    {
+     "id": "s3",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null
+    },
+    {
+     "id": "s4",
+     "text": null,
+     "type": "quote",
+     "sourceType": "opp",
+     "sourceName": "이종배 전 국민의힘 서울시의원",
+     "sourceDetail": null
+    },
+    {
+     "id": "s5",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null
+    },
+    {
+     "id": "s6",
+     "text": null,
+     "type": "quote",
+     "sourceType": "opp",
+     "sourceName": "이종배 전 국민의힘 서울시의원",
+     "sourceDetail": null
+    },
+    {
+     "id": "s7",
+     "text": null,
+     "type": "quote",
+     "sourceType": "opp",
+     "sourceName": "이종배 전 시의원",
+     "sourceDetail": null
+    },
+    {
+     "id": "s8",
+     "text": null,
+     "type": "quote",
+     "sourceType": "opp",
+     "sourceName": "이 전 시의원",
+     "sourceDetail": null
+    },
+    {
+     "id": "s9",
+     "text": null,
+     "type": "quote",
+     "sourceType": "opp",
+     "sourceName": "이 전 시의원",
+     "sourceDetail": null
+    },
+    {
+     "id": "s10",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null
+    },
+    {
+     "id": "s11",
+     "text": null,
+     "type": "quote",
+     "sourceType": "gov",
+     "sourceName": "최 의원",
+     "sourceDetail": null
+    }
+   ],
+   "framingTerms": [],
+   "analyzedBy": "gemini-3.5-flash-lite"
+  },
+  {
+   "id": "a-17b2906bfb",
+   "issueId": "auto-20261112-12-6",
+   "outletId": "hani",
+   "outletName": "한겨레",
+   "title": "신분증 위조된 걸로 속여 돈 뜯어내…금감원, 주민센터 사칭 보이스피싱...",
+   "summary": "또한 금감원은 법원 등기 반송, 택배·카드 배송, 택배 반송인 것처럼 가장해 연락한 뒤 다른 전화번호나... 사기수법이라고 안내하며 이런 전화를 받으면 일단 끊고 법원이나 카드·택배사에 전화해 직접 확인하라고 밝혔다.",
+   "url": "https://www.hani.co.kr/arti/economy/finance/1286969.html",
+   "publishedAt": "2026-11-12T12:02:00+09:00",
+   "sentences": [
+    {
+     "id": "s1",
+     "text": null,
+     "type": "quote",
+     "sourceType": "gov",
+     "sourceName": "주민센터 직원",
+     "sourceDetail": null
+    },
+    {
+     "id": "s2",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null
+    },
+    {
+     "id": "s3",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null
+    },
+    {
+     "id": "s4",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null
+    },
+    {
+     "id": "s5",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null
+    },
+    {
+     "id": "s6",
+     "text": null,
+     "type": "quote",
+     "sourceType": "gov",
+     "sourceName": "금감원",
+     "sourceDetail": null
+    },
+    {
+     "id": "s7",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null
+    },
+    {
+     "id": "s8",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null
+    },
+    {
+     "id": "s9",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null
+    },
+    {
+     "id": "s10",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null
+    },
+    {
+     "id": "s11",
+     "text": null,
+     "type": "quote",
+     "sourceType": "gov",
+     "sourceName": "금감원",
+     "sourceDetail": null
+    },
+    {
+     "id": "s12",
+     "text": null,
+     "type": "quote",
+     "sourceType": "gov",
+     "sourceName": "금감원",
+     "sourceDetail": null
+    },
+    {
+     "id": "s13",
+     "text": null,
+     "type": "quote",
+     "sourceType": "gov",
+     "sourceName": "금감원",
+     "sourceDetail": null
+    },
+    {
+     "id": "s14",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null
+    },
+    {
+     "id": "s15",
+     "text": null,
+     "type": "quote",
+     "sourceType": "gov",
+     "sourceName": "금감원",
+     "sourceDetail": null
+    }
+   ],
+   "framingTerms": [],
+   "analyzedBy": "gemini-3.5-flash-lite"
+  },
+  {
+   "id": "a-84e232bb88",
+   "issueId": "auto-20261112-12-6",
+   "outletId": "edaily",
+   "outletName": "이데일리",
+   "title": "“신분증 도용됐다” 주민센터 사칭해 1억원 편취…금감원, 신종 보이스...",
+   "summary": "금감원은 주민센터뿐 아니라 법원 등기 반송, 택배·카드 배송 등을 미끼로 삼는 변종 수법도 주의해야 한다고 당부했다. 기관을 사칭하며 특정 번호로 전화하거나 링크 접속, 악성앱 설치를 유도하는 경우 일단 연락을 끊고...",
+   "url": "https://www.edaily.co.kr/News/Read?newsId=03266886645645064&mediaCodeNo=257&utm_source=naver&utm_medium=referral&utm_campaign=news_syndication&utm_content=original_article",
+   "publishedAt": "2026-11-12T12:02:00+09:00",
+   "sentences": [
+    {
+     "id": "s1",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null
+    },
+    {
+     "id": "s2",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null
+    },
+    {
+     "id": "s3",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null
+    },
+    {
+     "id": "s4",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null
+    },
+    {
+     "id": "s5",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null
+    },
+    {
+     "id": "s6",
+     "text": "명의가 도용됐다는 불안감을 조성하는 것이다.",
+     "type": "opinion",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null
+    },
+    {
+     "id": "s7",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null
+    },
+    {
+     "id": "s8",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null
+    },
+    {
+     "id": "s9",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null
+    },
+    {
+     "id": "s10",
+     "text": null,
+     "type": "quote",
+     "sourceType": "gov",
+     "sourceName": "금감원",
+     "sourceDetail": null
+    },
+    {
+     "id": "s11",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null
+    },
+    {
+     "id": "s12",
+     "text": null,
+     "type": "quote",
+     "sourceType": "gov",
+     "sourceName": "금감원",
+     "sourceDetail": null
+    },
+    {
+     "id": "s13",
+     "text": null,
+     "type": "quote",
+     "sourceType": "gov",
+     "sourceName": "금감원 관계자",
+     "sourceDetail": null
+    }
+   ],
+   "framingTerms": [],
+   "analyzedBy": "gemini-3.5-flash-lite"
+  },
+  {
+   "id": "a-b610326c62",
+   "issueId": "auto-20261112-12-6",
+   "outletId": "dailian",
+   "outletName": "데일리안",
+   "title": "주민센터 사칭해 가짜 금감원 신고 유도…신종 보이스피싱 주의보",
+   "summary": "이번 수법은 처음부터 검찰이나 경찰을 사칭해 겁을 주던 기존 방식과 달리 주민센터 직원이 명의도용 피해를 막아주는 것처럼 접근한다는 점이 특징이다. 특히 피해자가 직접 금융기관에 전화를 걸도록 유도해 의심을...",
+   "url": "https://www.dailian.co.kr/news/view/1714121/?sc=Naver",
+   "publishedAt": "2026-11-12T12:02:00+09:00",
+   "sentences": [
+    {
+     "id": "s1",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null
+    },
+    {
+     "id": "s2",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null
+    },
+    {
+     "id": "s3",
+     "text": null,
+     "type": "quote",
+     "sourceType": "gov",
+     "sourceName": "금융감독원",
+     "sourceDetail": null
+    },
+    {
+     "id": "s4",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null
+    },
+    {
+     "id": "s5",
+     "text": null,
+     "type": "quote",
+     "sourceType": "etc",
+     "sourceName": "사기범",
+     "sourceDetail": "익명(소속 미상)"
+    },
+    {
+     "id": "s6",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null
+    },
+    {
+     "id": "s7",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null
+    },
+    {
+     "id": "s8",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null
+    },
+    {
+     "id": "s9",
+     "text": null,
+     "type": "quote",
+     "sourceType": "etc",
+     "sourceName": "사기범",
+     "sourceDetail": "익명(소속 미상)"
+    },
+    {
+     "id": "s10",
+     "text": null,
+     "type": "quote",
+     "sourceType": "etc",
+     "sourceName": "사기범",
+     "sourceDetail": "익명(소속 미상)"
+    },
+    {
+     "id": "s11",
+     "text": null,
+     "type": "quote",
+     "sourceType": "etc",
+     "sourceName": "사기범",
+     "sourceDetail": "익명(소속 미상)"
+    },
+    {
+     "id": "s12",
+     "text": null,
+     "type": "quote",
+     "sourceType": "etc",
+     "sourceName": "사기범",
+     "sourceDetail": "익명(소속 미상)"
+    },
+    {
+     "id": "s13",
+     "text": null,
+     "type": "quote",
+     "sourceType": "etc",
+     "sourceName": "사기범",
+     "sourceDetail": "익명(소속 미상)"
+    },
+    {
+     "id": "s14",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null
+    },
+    {
+     "id": "s15",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null
+    },
+    {
+     "id": "s16",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null
+    },
+    {
+     "id": "s17",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null
+    },
+    {
+     "id": "s18",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null
+    },
+    {
+     "id": "s19",
+     "text": null,
+     "type": "quote",
+     "sourceType": "gov",
+     "sourceName": "금감원",
+     "sourceDetail": null
+    },
+    {
+     "id": "s20",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null
+    },
+    {
+     "id": "s21",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null
+    },
+    {
+     "id": "s22",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null
+    },
+    {
+     "id": "s23",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null
+    },
+    {
+     "id": "s24",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null
+    }
+   ],
+   "framingTerms": [
+    {
+     "term": "등장했다",
+     "sentenceId": "s1"
+    },
+    {
+     "term": "나타났다",
+     "sentenceId": "s2"
+    },
+    {
+     "term": "속였다",
+     "sentenceId": "s14"
+    }
+   ],
+   "analyzedBy": "gemini-3.5-flash-lite"
+  },
+  {
+   "id": "a-4ff1310cd5",
+   "issueId": "auto-20261112-12-6",
+   "outletId": "biz",
+   "outletName": "조선비즈",
+   "title": "“누가 당신 신분증 들고 왔다”… 주민센터 사칭 보이스피싱 주의보",
+   "summary": "정부민원안내콜센터 등을 통해 주민센터 번호를 직접 확인하거나 가까운 주민센터를 방문해야 한다는 설명이다. 본인 명의의 계좌 개설 여부는 어카운트인포에서, 휴대전화 부정 개통 여부는 명의도용방지서비스에서...",
+   "url": "https://biz.chosun.com/stock/finance/2026/11/12/QDDJ6K33TZC3NJQA6ITAB4SE3U/?utm_source=naver&utm_medium=original&utm_campaign=biz",
+   "publishedAt": "2026-11-12T12:16:00+09:00",
+   "sentences": [
+    {
+     "id": "s1",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null
+    },
+    {
+     "id": "s2",
+     "text": null,
+     "type": "quote",
+     "sourceType": "gov",
+     "sourceName": "금감원",
+     "sourceDetail": null
+    },
+    {
+     "id": "s3",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null
+    },
+    {
+     "id": "s4",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null
+    },
+    {
+     "id": "s5",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null
+    },
+    {
+     "id": "s6",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null
+    },
+    {
+     "id": "s7",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null
+    },
+    {
+     "id": "s8",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null
+    },
+    {
+     "id": "s9",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null
+    },
+    {
+     "id": "s10",
+     "text": null,
+     "type": "quote",
+     "sourceType": "gov",
+     "sourceName": "금감원",
+     "sourceDetail": null
+    },
+    {
+     "id": "s11",
+     "text": null,
+     "type": "quote",
+     "sourceType": "gov",
+     "sourceName": "금감원",
+     "sourceDetail": null
+    },
+    {
+     "id": "s12",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null
+    },
+    {
+     "id": "s13",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null
+    },
+    {
+     "id": "s14",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null
+    },
+    {
+     "id": "s15",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null
+    },
+    {
+     "id": "s16",
+     "text": null,
+     "type": "quote",
+     "sourceType": "gov",
+     "sourceName": "금감원",
      "sourceDetail": null
     }
    ],
