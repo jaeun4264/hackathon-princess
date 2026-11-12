@@ -273,13 +273,14 @@ it("B3 샘플 → B2 후보 → B5 API를 같은 계약으로 연결해요", asy
   const catalog = loadCatalog();
   const candidates = detectSubscriptionCandidates(await sampleAdapter.load("persona-1"), catalog);
   const items = candidates.map(({ key, raw_name, amount, interval, payment_method }) => InterpretItemSchema.parse({ key, raw_name, amount, interval, payment_method }));
-  const mock = mockLlm([{ ...good, service_id: "icloud" }, good]);
+  // 샘플의 Apple 구독은 영수증 항목명(iCloud+)으로 들어와서 별칭으로 확정돼요. AI는 카카오페이 하나만 봐요.
+  const mock = mockLlm([good]);
   const response = await handler(mock.client)(request(items));
   const body = await response.json();
   const results = InterpretResultSchema.array().parse(body.results);
   expect(results).toHaveLength(5);
-  expect(new Set(results.map((result) => result.service_id))).toEqual(new Set([null, "goodnotes", "netflix", "daglo"]));
+  expect(new Set(results.map((result) => result.service_id))).toEqual(new Set([null, "icloud", "goodnotes", "netflix", "daglo"]));
   expect(new Set(body.resolutions.map((result: { suggested_service_id: string | null }) => result.suggested_service_id))).toEqual(new Set(["icloud", "goodnotes", "netflix", "daglo", "kakao_emoticon_plus"]));
-  expect(results.filter((result) => result.needs_check)).toHaveLength(2);
-  expect(mock.requests).toHaveLength(2);
+  expect(results.filter((result) => result.needs_check)).toHaveLength(1);
+  expect(mock.requests).toHaveLength(1);
 });

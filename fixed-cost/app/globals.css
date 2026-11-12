@@ -8,7 +8,8 @@
  * 화면 코드는 이 토큰 이름(bg-ground, text-ink, bg-primary …)만 써요.
  */
 @theme {
-  --color-ground: #f3f5f7;
+  /* A안 영수증 원장: 장부의 청회색 바탕 */
+  --color-ground: #f2f4f7;
   --color-surface: #ffffff;
   --color-raised: #f2f8fd;
   --color-line: #e6e6e6;
@@ -16,10 +17,16 @@
   --color-control: #d6d9dd;
   --color-ink: #1b1d1f;
   --color-muted: #5c6064;
+  /* 데스크톱 메뉴의 지금 화면 (회색 알약) */
+  --color-active: #e4e8ec;
 
   /* 하나뿐인 채움 버튼: 거의 검정 */
   --color-primary: #1b1d1f;
   --color-primary-fg: #ffffff;
+  /* 보조 버튼 (회색 알약) */
+  --color-pill: #e5e5e5;
+  /* 시작 화면의 "새는 돈" 숫자 하나에만 쓰는 코발트 */
+  --color-hue: #1d5fbf;
 
   /* 데이터 색 (코발트) */
   --color-accent: #1d5fd6;
@@ -84,4 +91,9 @@ body {
     animation-iteration-count: 1 !important;
     transition-duration: 0.01ms !important;
   }
+}
+
+/* 영수증 종이: 아래 가장자리가 톱니 모양이에요 (시작 화면 예시). */
+.receipt {
+  clip-path: polygon(0 0, 100% 0, 100% calc(100% - 10px), 95% 100%, 90% calc(100% - 10px), 85% 100%, 80% calc(100% - 10px), 75% 100%, 70% calc(100% - 10px), 65% 100%, 60% calc(100% - 10px), 55% 100%, 50% calc(100% - 10px), 45% 100%, 40% calc(100% - 10px), 35% 100%, 30% calc(100% - 10px), 25% 100%, 20% calc(100% - 10px), 15% 100%, 10% calc(100% - 10px), 5% 100%, 0 calc(100% - 10px));
 }

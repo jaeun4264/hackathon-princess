@@ -34,9 +34,16 @@ describe("샘플 체험 → 구독", () => {
     expect(stages).toEqual(["detecting", "interpreting"]);
   });
 
+  it("Apple 영수증 항목명(iCloud+)으로 들어온 샘플은 아이클라우드로 바로 확정돼요", async () => {
+    const { subscriptions } = await analyzeTransactions(await sampleAdapter.load("persona-1"), { apiOptions: mock });
+    expect(subscriptions.find((sub) => sub.amount === 1100)).toMatchObject({ service_id: "icloud", needs_check: false, interpret_source: "catalog" });
+  });
+
   it("AI 추정은 service_id에 넣지 않고 후보로만 둬요 (B5)", async () => {
     const store = newStore();
-    await runInterpret(await sampleAdapter.load("persona-1"), { store, apiOptions: mock });
+    // 영수증 세부 항목 없이 'Apple'만 적힌 결제 (카드 명세 등)
+    const bare = (await sampleAdapter.load("persona-1")).map((tx) => tx.raw_name === "iCloud+" ? { ...tx, raw_name: "Apple" } : tx);
+    await runInterpret(bare, { store, apiOptions: mock });
     const { subscriptions, suggestedServiceIds } = store.getState();
     const apple = subscriptions.find((sub) => sub.raw_name === "Apple" && sub.amount === 1100);
     expect(apple).toMatchObject({ service_id: null, needs_check: true, interpret_source: "ai" });
@@ -45,12 +52,26 @@ describe("샘플 체험 → 구독", () => {
     expect(suggestedServiceIds[netflix!.id]).toBeNull();
   });
 
-  it("서버가 죽어도 멈추지 않고 확인 필요로 계속 가요", async () => {
+  it("서버가 죽어도 멈추지 않고, 이름만으로 아는 구독은 그대로 확정해요", async () => {
     const fetchImpl = vi.fn(async () => { throw new TypeError("offline"); });
-    const result = await analyzeTransactions(await sampleAdapter.load("persona-3"), { apiOptions: { mock: false, fetchImpl } });
+    const result = await analyzeTransactions(await sampleAdapter.load("persona-1"), { apiOptions: { mock: false, fetchImpl } });
     expect(result.degraded).toBe(true);
-    expect(result.subscriptions.length).toBe(4);
-    expect(result.subscriptions.every((sub) => sub.needs_check)).toBe(true);
+    expect(result.subscriptions.length).toBe(5);
+    const confirmed = result.subscriptions.filter((sub) => !sub.needs_check).map((sub) => sub.service_id).sort();
+    expect(confirmed).toEqual(["daglo", "goodnotes", "icloud", "netflix"]);
+    // 이름만으로 모르는 카카오페이 결제는 서버가 답하지 않으면 확인 필요로 남아요.
+    expect(result.subscriptions.find((sub) => sub.raw_name === "카카오페이")).toMatchObject({ service_id: null, needs_check: true });
+  });
+
+  it("이름만으로 아는 구독은 서버에 보내지 않아요 (느린 AI로 시간이 넘어도 확정이 유지돼요)", async () => {
+    const fetchImpl = vi.fn(async (_path: string, init: { body: string }) => {
+      const { items } = JSON.parse(init.body) as { items: { key: string }[] };
+      return new Response(JSON.stringify({ results: items.map((item) => ({ key: item.key, service_id: null, category: "기타", confidence: 0, reason: "", source: "unknown", needs_check: true })) }));
+    });
+    await analyzeTransactions(await sampleAdapter.load("persona-1"), { apiOptions: { mock: false, fetchImpl: fetchImpl as unknown as typeof fetch } });
+    expect(fetchImpl).toHaveBeenCalledTimes(1);
+    const sent = JSON.parse(fetchImpl.mock.calls[0][1].body).items.map((item: { raw_name: string }) => item.raw_name);
+    expect(sent).toEqual(["카카오페이"]);
   });
 });
 

@@ -15,7 +15,7 @@ import { Skeleton } from "./Skeleton";
 import { TabBar } from "./TabBar";
 
 const chipClass = (active: boolean) =>
-  `min-h-11 rounded-[10px] px-3 text-sm transition-colors ${active ? "bg-accent-soft font-semibold text-accent-ink" : "bg-surface hover:bg-raised"}`;
+  `min-h-11 rounded-[10px] px-3 text-sm transition-colors ${active ? "bg-accent-soft font-semibold text-accent-ink" : "bg-surface hover:bg-raised lg:bg-ground"}`;
 
 /** S4 혜택 찾기 (/benefits): 서비스를 고르면 학생 할인·학교 라이선스와 자격 판정, 근거, 출처를 보여 줘요. */
 export function BenefitsScreen() {
@@ -83,10 +83,12 @@ export function BenefitsScreen() {
       {!hydrated ? (
         <Skeleton lines={3} />
       ) : (
-        <div className="mt-5 space-y-4 px-4">
+        // 데스크톱: 왼쪽(360px)에서 서비스를 고르고, 오른쪽에 그 서비스의 혜택이 나와요.
+        <div className="mt-5 grid grid-cols-1 gap-4 px-4 lg:mt-6 lg:grid-cols-[360px_minmax(0,1fr)] lg:items-start lg:gap-6">
+          <div className="space-y-4 lg:sticky lg:top-6">
           {!profile ? <ProfileCard profile={profile} onChange={(next) => useAppStore.getState().setProfile(next)} /> : null}
 
-          <section aria-labelledby="search-title">
+          <section aria-labelledby="search-title" className="lg:rounded-[20px] lg:bg-surface lg:p-5">
             <h2 id="search-title" className="sr-only">서비스 고르기</h2>
             <label htmlFor="benefit-search" className="mb-2 block text-sm font-medium">서비스 찾기</label>
             <input
@@ -121,11 +123,13 @@ export function BenefitsScreen() {
               </div>
             </div>
           </section>
+          </div>
 
+          <div className="min-w-0 space-y-4">
           {degraded ? <ErrorBanner>일부는 AI 확인을 못 했어요. 공식 페이지에서 조건을 확인해 주세요.</ErrorBanner> : null}
 
           {selected ? (
-            <section aria-labelledby="benefit-list-title" className="space-y-4 pt-2">
+            <section aria-labelledby="benefit-list-title" className="space-y-4 pt-2 lg:pt-0">
               <h2 id="benefit-list-title" className="text-xl font-semibold">
                 {selectedName} 혜택 <span className="num text-muted">{benefits.length}</span>
               </h2>
@@ -146,8 +150,9 @@ export function BenefitsScreen() {
               {/* 묶음 상품 비교(F8)는 묶음 카탈로그(bundles.json)가 채워지면 이 아래에 들어가요. 절약액이 있을 때만 보여 줘요. */}
             </section>
           ) : (
-            <p className="rounded-[20px] bg-surface p-5 text-base text-muted">위에서 서비스를 고르면 받을 수 있는 혜택을 보여 드려요.</p>
+            <p className="rounded-[20px] bg-surface p-5 text-base text-muted">서비스를 고르면 받을 수 있는 혜택을 보여 드려요.</p>
           )}
+          </div>
         </div>
       )}
 

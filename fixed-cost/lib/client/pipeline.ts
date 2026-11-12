@@ -3,6 +3,7 @@
 import * as api from "../api-client";
 import { loadCatalog } from "../catalog";
 import { buildSubscriptions, detectSubscriptionCandidates, monthlyEquivalent } from "../rules";
+import { matchAlias } from "../rules/interpret";
 import type { Catalog, Interval, Subscription, Transaction } from "../types";
 import { appCatalog } from "./app-catalog";
 import { benefitTargets } from "./derive";
@@ -36,8 +37,20 @@ export async function analyzeTransactions(
   let degraded = false;
   const results: Awaited<ReturnType<typeof api.interpret>>["results"] = [];
   const suggestedServiceIds: Record<string, string | null> = {};
-  for (let start = 0; start < candidates.length; start += INTERPRET_BATCH) {
-    const batch = candidates.slice(start, start + INTERPRET_BATCH).map((cand) => ({
+  // 결제 표기에 등록 서비스명이 하나만 적혀 있으면 서버와 같은 규칙(matchAlias)으로 여기서 바로 확정해요.
+  // 서버는 AI가 필요한 항목까지 다 끝나야 한 번에 답해서, 느린 AI 때문에 시간이 넘으면
+  // 넷플릭스처럼 이름만 봐도 아는 구독까지 전부 '확인 필요'가 되던 문제를 막아요.
+  const unresolved: typeof candidates = [];
+  for (const cand of candidates) {
+    const aliases = matchAlias(cand.raw_name, catalog);
+    if (aliases.length !== 1) { unresolved.push(cand); continue; }
+    const [service] = aliases;
+    results.push({ key: cand.key, service_id: service.id, category: service.category, confidence: 1,
+      reason: "결제 표기에 유일한 등록 서비스명이 명시되어 있어요", source: "catalog", needs_check: false });
+    suggestedServiceIds[cand.key] = null;
+  }
+  for (let start = 0; start < unresolved.length; start += INTERPRET_BATCH) {
+    const batch = unresolved.slice(start, start + INTERPRET_BATCH).map((cand) => ({
       key: cand.key, raw_name: cand.raw_name, amount: cand.amount, interval: cand.interval, payment_method: cand.payment_method,
     }));
     const response = await api.interpret(batch, options.apiOptions);

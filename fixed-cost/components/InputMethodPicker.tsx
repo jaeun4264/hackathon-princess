@@ -34,7 +34,7 @@ export function InputMethodPicker({
           type="button"
           disabled={disabled}
           onClick={() => onSelect(primary.id)}
-          className="min-h-13 w-full rounded-[10px] bg-primary px-5 text-base font-semibold text-primary-fg transition-transform active:scale-[0.98] disabled:opacity-50"
+          className="min-h-12 w-full rounded-[6px] bg-primary px-5 text-base font-semibold text-primary-fg transition-[transform,background-color] hover:bg-[#262626] active:scale-[0.98] disabled:opacity-50"
         >
           {primary.label}
         </button>

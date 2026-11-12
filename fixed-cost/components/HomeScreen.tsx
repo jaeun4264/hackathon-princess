@@ -91,9 +91,13 @@ export function HomeScreen() {
         </div>
       ) : null}
 
-      <div className="mt-5 space-y-4 px-4">
+      {/*
+        폰: 한 줄로 아낄 금액 → 합계 → 목록.
+        데스크톱: 왼쪽(1fr)에 아낄 금액과 그 근거, 오른쪽(400px)에 합계와 목록.
+      */}
+      <div className="mt-5 grid grid-cols-1 gap-4 px-4 lg:mt-6 lg:grid-cols-[minmax(0,1fr)_400px] lg:items-start">
         {/* 1. 아낄 수 있는 금액 + 그 근거(제안 미리보기) */}
-        <section className="rounded-[20px] bg-surface p-5" aria-labelledby="savings-title">
+        <section className="rounded-[20px] bg-surface p-5 lg:p-6" aria-labelledby="savings-title">
           <h2 id="savings-title" className="text-sm text-muted">아낄 수 있는 금액</h2>
           {computing ? (
             <Skeleton lines={2} label="아낄 수 있는 금액을 계산하고 있어요" />
@@ -118,15 +122,16 @@ export function HomeScreen() {
                   <Link href="/confirm" className="font-semibold underline underline-offset-4">확인하러 가기</Link>
                 </p>
               ) : null}
-              <Link href="/report" className="mt-3 flex min-h-12 items-center justify-center rounded-[10px] bg-primary text-base font-semibold text-primary-fg active:scale-[0.98]">
+              <Link href="/report" className="mt-3 flex min-h-12 items-center justify-center rounded-[10px] bg-primary text-base font-semibold text-primary-fg transition-transform active:scale-[0.98] lg:inline-flex lg:min-h-11 lg:px-5">
                 리포트에서 모두 보기
               </Link>
             </>
           )}
         </section>
 
+        <div className="space-y-4">
         {/* 2. 이번 달 고정비 합계 + 사용 정도별 막대 */}
-        <section className="rounded-[20px] bg-surface p-5" aria-labelledby="total-title">
+        <section className="rounded-[20px] bg-surface p-5 lg:p-6" aria-labelledby="total-title">
           <h2 id="total-title" className="text-sm text-muted">이번 달 고정비 합계</h2>
           <p className="num mt-1 text-2xl font-semibold">{won(summary.total_monthly)}</p>
           <div className="mt-4">
@@ -140,30 +145,38 @@ export function HomeScreen() {
         </section>
 
         {/* 3. 구독 목록 → S3 결제 상세 */}
-        <section className="rounded-[20px] bg-surface px-5 pb-2 pt-5" aria-labelledby="list-title">
-          <h2 id="list-title" className="text-base font-semibold">내 구독 <span className="num text-muted">{subs.length}</span></h2>
-          <ul className="mt-2 divide-y divide-rule">
-            {subs.map((sub) => (
-              <li key={sub.id}>
-                <Link href={`/payment/${encodeURIComponent(sub.id)}`} className="flex min-h-14 items-center gap-3 py-2 hover:bg-raised">
-                  <span className="min-w-0 flex-1">
-                    <span className="block truncate text-base">{sub.display_name}</span>
-                    {sub.trial ? <span className="block text-sm text-warning">무료 체험 · {sub.trial.end.slice(5).replace("-", "/")}부터 유료</span>
-                      : sub.needs_check ? <span className="block text-sm text-warning">확인 필요</span> : null}
-                  </span>
-                  {sub.usage ? <UsageChip usage={sub.usage} /> : null}
-                  <span className="num w-[88px] text-right text-base">{won(sub.monthly_amount)}</span>
-                  <svg width="16" height="16" viewBox="0 0 16 16" fill="none" stroke="currentColor" strokeWidth="1.5" className="text-muted" aria-hidden="true">
-                    <path d="M6 3l5 5-5 5" />
-                  </svg>
-                </Link>
-              </li>
-            ))}
-          </ul>
-        </section>
+        <SubscriptionList subs={subs} />
+        </div>
       </div>
 
       <TabBar />
     </main>
+  );
+}
+
+/** 내 구독 목록 → S3 결제 상세. */
+function SubscriptionList({ subs }: { subs: Subscription[] }) {
+  return (
+    <section className="rounded-[20px] bg-surface px-5 pb-2 pt-5 lg:px-6" aria-labelledby="list-title">
+      <h2 id="list-title" className="text-base font-semibold">내 구독 <span className="num text-muted">{subs.length}</span></h2>
+      <ul className="mt-2 divide-y divide-rule">
+        {subs.map((sub) => (
+          <li key={sub.id}>
+            <Link href={`/payment/${encodeURIComponent(sub.id)}`} className="flex min-h-14 items-center gap-3 py-2 hover:bg-raised">
+              <span className="min-w-0 flex-1">
+                <span className="block truncate text-base">{sub.display_name}</span>
+                {sub.trial ? <span className="block text-sm text-warning">무료 체험 · {sub.trial.end.slice(5).replace("-", "/")}부터 유료</span>
+                  : sub.needs_check ? <span className="block text-sm text-warning">확인 필요</span> : null}
+              </span>
+              {sub.usage ? <UsageChip usage={sub.usage} /> : null}
+              <span className="num w-[88px] text-right text-base">{won(sub.monthly_amount)}</span>
+              <svg width="16" height="16" viewBox="0 0 16 16" fill="none" stroke="currentColor" strokeWidth="1.5" className="text-muted" aria-hidden="true">
+                <path d="M6 3l5 5-5 5" />
+              </svg>
+            </Link>
+          </li>
+        ))}
+      </ul>
+    </section>
   );
 }

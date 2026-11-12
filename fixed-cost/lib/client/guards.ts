@@ -13,6 +13,13 @@ export function useHydrated(): boolean {
   );
 }
 
+/** 메뉴에서 홈·리포트를 열어 둘지. 저장된 상태를 읽기 전에는 닫아 둬요(구독이 없는데 잠깐 눌리는 일이 없게). */
+export function useHasSubscriptions(): boolean {
+  const hydrated = useHydrated();
+  const count = useAppStore((state) => state.subscriptions.length);
+  return hydrated && count > 0;
+}
+
 /** 구독이 없으면 /로 보내요. 준비됐으면 true. */
 export function useRequireSubscriptions(): boolean {
   const router = useRouter();

@@ -62,7 +62,8 @@ export function BottomSheet({
 
   if (!open) return null;
   return (
-    <div className="fixed inset-0 z-50 flex items-end justify-center">
+    // 폰·태블릿은 아래에서 올라오는 시트, 데스크톱은 화면 가운데 대화상자.
+    <div className="fixed inset-0 z-50 flex items-end justify-center lg:items-center lg:p-6">
       <button type="button" aria-label="닫기" tabIndex={-1} className="absolute inset-0 bg-black/40" onClick={onClose} />
       <div
         ref={panelRef}
@@ -71,9 +72,9 @@ export function BottomSheet({
         aria-labelledby={titleId}
         tabIndex={-1}
         // 시트는 화면 위에 떠 있는 대화상자라 그림자를 둬요. taste-skill-ignore
-        className="relative max-h-[85dvh] w-full max-w-[480px] overflow-y-auto rounded-t-[20px] bg-surface px-4 pb-6 pt-3 shadow-xl outline-none"
+        className="relative max-h-[85dvh] w-full max-w-[480px] overflow-y-auto rounded-t-[20px] bg-surface px-4 pb-6 pt-3 shadow-xl outline-none md:max-w-[720px] lg:max-w-[520px] lg:rounded-[20px] lg:px-6 lg:pt-5"
       >
-        <div className="mx-auto mb-3 h-1.5 w-10 rounded-full bg-line" aria-hidden="true" />
+        <div className="mx-auto mb-3 h-1.5 w-10 rounded-full bg-line lg:hidden" aria-hidden="true" />
         <div className="mb-4 flex items-center justify-between">
           <h2 id={titleId} className="text-xl font-semibold">
             {title}

@@ -118,7 +118,7 @@ it("금액 자리 표시는 천 단위 쉼표와 원을 사용해요", () => {
 it("B3 샘플→B2 후보→B5 상세 결과에서 확정된 항목만 B6 제안을 만들어요", async () => {
   const catalog = loadCatalog();
   const candidates = detectSubscriptionCandidates(await sampleAdapter.load("persona-1"), catalog);
-  const mock = createMockProvider(Array.from({ length: 2 }, () => ({ text: JSON.stringify({ service_id: "unknown", confidence: 0, category: "기타", reason: "가상 미확정" }) })));
+  const mock = createMockProvider(Array.from({ length: 1 }, () => ({ text: JSON.stringify({ service_id: "unknown", confidence: 0, category: "기타", reason: "가상 미확정" }) })));
   const llm = createLlmClient({ provider: mock.provider, dailyCap: 10, logger: () => {} });
   const resolved = await resolveInterpretItems(candidates.map(({ key, raw_name, amount, interval, payment_method }) => ({ key, raw_name, amount, interval, payment_method })), { catalog, llm });
   const subs = candidates.map((candidate, i) => sub(resolved[i].confirmed_service_id ?? "미확정", candidate.amount, {
@@ -127,7 +127,7 @@ it("B3 샘플→B2 후보→B5 상세 결과에서 확정된 항목만 B6 제안
     interpret_source: resolved[i].source, needs_check: resolved[i].needs_check, evidence_transaction_ids: candidate.transaction_ids,
   }));
   const output = buildSuggestions({ subs, catalog, benefitResults: [], today });
-  expect(output).toHaveLength(3);
+  expect(output).toHaveLength(4); // 넷플릭스·아이클라우드·다글로·굿노트 (카카오페이는 미확정이라 빠져요)
   expect(output.every((entry) => subs.find((sub) => sub.id === entry.subscription_ids[0])?.service_id !== null)).toBe(true);
 });
 

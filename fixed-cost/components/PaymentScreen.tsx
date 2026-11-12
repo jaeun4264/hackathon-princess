@@ -88,15 +88,20 @@ export function PaymentScreen() {
   return (
     <main className="flex flex-1 flex-col pb-10">
       <AppBar action={<BackLink />} />
+      {/* 데스크톱은 윗줄이 없어서 돌아가기를 여기에 둬요. */}
+      <div className="hidden px-2 lg:block"><BackLink /></div>
 
+      {/* 데스크톱: 왼쪽에 표기와 해석, 오른쪽(400px)에 이어진 결제 */}
+      <div className="lg:mt-2 lg:grid lg:grid-cols-[minmax(0,1fr)_400px] lg:items-start lg:gap-6 lg:px-4">
+      <div className="lg:space-y-4">
       {/* 1. 표기 그대로 */}
-      <section className="mx-4 mt-3 rounded-[20px] bg-surface p-5" aria-labelledby="statement-title">
+      <section className="mx-4 mt-3 rounded-[20px] bg-surface p-5 lg:mx-0 lg:mt-0 lg:p-6" aria-labelledby="statement-title">
         <h2 id="statement-title" className="text-sm text-muted">명세서·영수증에 찍힌 그대로</h2>
         <p className="num mt-1 text-xl font-semibold">{statementLine(sub, transactions)}</p>
       </section>
 
       {/* 2. 해석 + 근거 */}
-      <section className="mx-4 mt-4 rounded-[20px] bg-surface p-5" aria-labelledby="service-title">
+      <section className="mx-4 mt-4 rounded-[20px] bg-surface p-5 lg:mx-0 lg:mt-0 lg:p-6" aria-labelledby="service-title">
         <p className="text-sm text-muted">이 결제는</p>
         <h1 id="service-title" className="mt-1 text-[28px] font-semibold leading-tight tracking-[-0.02em]">
           {known ? sub.display_name : "아직 확인하지 못한 결제예요"}
@@ -123,7 +128,7 @@ export function PaymentScreen() {
             <p className="text-base">
               혹시 <span className="font-semibold">{note.suggestion.name}</span>인가요?
             </p>
-            <div className="mt-2 grid grid-cols-2 gap-2">
+            <div className="mt-2 grid grid-cols-2 gap-2 lg:max-w-[400px]">
               <button type="button" onClick={() => applyAndRebuild(acceptSuggestion(sub, note.suggestion!))} className="min-h-12 rounded-[10px] bg-primary font-semibold text-primary-fg active:scale-[0.98]">
                 맞아요
               </button>
@@ -133,15 +138,17 @@ export function PaymentScreen() {
             </div>
           </div>
         ) : (
-          <button type="button" onClick={() => setEditing(true)} className="mt-4 min-h-12 w-full rounded-[10px] border border-control bg-surface text-base font-semibold active:scale-[0.98]">
+          <button type="button" onClick={() => setEditing(true)} className="mt-4 min-h-12 w-full rounded-[10px] border border-control bg-surface text-base font-semibold transition-transform hover:bg-rule active:scale-[0.98] lg:w-auto lg:px-8">
             {known ? "틀렸어요" : "서비스 고르기"}
           </button>
         )}
-        <p className="mt-2 text-center text-sm text-muted">고친 내용은 이 기기에만 저장돼요.</p>
+        <p className="mt-2 text-center text-sm text-muted lg:text-left">고친 내용은 이 기기에만 저장돼요.</p>
       </section>
 
+      </div>
+
       {/* 3. 이어진 결제 */}
-      <section className="mx-4 mt-4 rounded-[20px] bg-surface px-5 pb-2 pt-5" aria-labelledby="payments-title">
+      <section className="mx-4 mt-4 rounded-[20px] bg-surface px-5 pb-2 pt-5 lg:mx-0 lg:mt-0 lg:px-6" aria-labelledby="payments-title">
         <h2 id="payments-title" className="text-base font-semibold">
           이 구독으로 이어진 결제 <span className="num text-muted">{payments.length}건</span>
         </h2>
@@ -164,6 +171,7 @@ export function PaymentScreen() {
           <p className="pb-3 pt-2 text-sm text-muted">직접 추가한 구독이라 연결된 결제 내역이 없어요.</p>
         )}
       </section>
+      </div>
 
       <EditSubscriptionSheet
         sub={editing ? sub : null}
