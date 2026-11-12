@@ -73,7 +73,7 @@ export function ConfirmScreen() {
   }
 
   return (
-    <main className="flex flex-1 flex-col pb-36">
+    <main className="flex flex-1 flex-col pb-36 lg:pb-12">
       <AppBar />
 
       <header className="px-4 pt-5">
@@ -85,46 +85,48 @@ export function ConfirmScreen() {
         </p>
       </header>
 
-      <div className="mt-5 space-y-4 px-4">
-        <ProfileCard profile={profile} onChange={setProfile} />
+      {/*
+        폰: 한 줄 + 하단 고정 "다음".
+        데스크톱: 왼쪽(340px)에 학교 정보와 "다음"이 따라오고, 오른쪽에 구독 카드가 두 줄(1280px 이상)로 놓여요.
+      */}
+      <div className="mt-5 grid grid-cols-1 gap-4 px-4 lg:mt-6 lg:grid-cols-[340px_minmax(0,1fr)] lg:items-start lg:gap-6">
+        <div className="space-y-4 lg:sticky lg:top-6">
+          <ProfileCard profile={profile} onChange={setProfile} />
+          <div className="hidden rounded-[20px] bg-surface p-5 lg:block">
+            <NextStep blocker={blocker} onNext={onNext} />
+          </div>
+        </div>
 
-        <h2 className="pt-2 text-xl font-semibold">구독마다 사용 정도를 골라 주세요</h2>
-        {subs.map((sub) => (
-          <SubscriptionCard
-            key={sub.id}
-            sub={sub}
-            note={notes.get(sub.id) ?? null}
-            onUsage={(usage) => setUsage(sub.id, usage)}
-            onEdit={() => setEditingId(sub.id)}
-            onAccept={() => {
-              const service = notes.get(sub.id)?.suggestion;
-              if (service) updateSubscription(sub.id, acceptSuggestion(sub, service));
-            }}
-          />
-        ))}
-
-        <button
-          type="button"
-          onClick={() => setAdding(true)}
-          className="flex min-h-14 w-full items-center justify-center rounded-[20px] border border-dashed border-control text-base font-semibold text-muted hover:bg-surface"
-        >
-          빠진 구독 직접 추가
-        </button>
+        <section aria-labelledby="usage-title" className="min-w-0">
+          <h2 id="usage-title" className="pt-2 text-xl font-semibold lg:pt-0">구독마다 사용 정도를 골라 주세요</h2>
+          <div className="mt-4 grid grid-cols-1 items-start gap-4 xl:grid-cols-2">
+            {subs.map((sub) => (
+              <SubscriptionCard
+                key={sub.id}
+                sub={sub}
+                note={notes.get(sub.id) ?? null}
+                onUsage={(usage) => setUsage(sub.id, usage)}
+                onEdit={() => setEditingId(sub.id)}
+                onAccept={() => {
+                  const service = notes.get(sub.id)?.suggestion;
+                  if (service) updateSubscription(sub.id, acceptSuggestion(sub, service));
+                }}
+              />
+            ))}
+            <button
+              type="button"
+              onClick={() => setAdding(true)}
+              className={`flex min-h-14 w-full items-center justify-center rounded-[20px] border border-dashed border-control text-base font-semibold text-muted hover:bg-surface ${subs.length % 2 === 0 ? "xl:col-span-2" : "xl:min-h-full"}`}
+            >
+              빠진 구독 직접 추가
+            </button>
+          </div>
+        </section>
       </div>
 
-      {/* 하단 고정 버튼. 모든 구독에 사용 정도가 있어야 활성화. */}
-      <div className="fixed inset-x-0 bottom-0 z-10 mx-auto w-full max-w-[480px] bg-ground px-4 shadow-[0_-1px_0_var(--color-line)] pb-[max(16px,env(safe-area-inset-bottom))] pt-3">
-        <p className="mb-2 min-h-5 text-center text-sm text-muted" aria-live="polite">
-          {blocker ?? "다 골랐어요. 아낄 수 있는 금액을 계산할게요."}
-        </p>
-        <button
-          type="button"
-          onClick={onNext}
-          disabled={blocker !== null}
-          className="min-h-13 w-full rounded-[10px] bg-primary text-base font-semibold text-primary-fg transition-transform active:scale-[0.98] disabled:bg-control disabled:text-muted"
-        >
-          다음
-        </button>
+      {/* 폰·태블릿 하단 고정 버튼. 모든 구독에 사용 정도가 있어야 활성화. */}
+      <div className="fixed inset-x-0 bottom-0 z-10 mx-auto w-full max-w-[480px] bg-ground px-4 shadow-[0_-1px_0_var(--color-line)] pb-[max(16px,env(safe-area-inset-bottom))] pt-3 md:max-w-[720px] lg:hidden">
+        <NextStep blocker={blocker} onNext={onNext} centered />
       </div>
 
       <EditSubscriptionSheet
@@ -136,5 +138,24 @@ export function ConfirmScreen() {
       />
       <ManualAddSheet open={adding} onClose={() => setAdding(false)} onAdd={onAdd} />
     </main>
+  );
+}
+
+/** "다음" 버튼과 그 위의 안내 한 줄. 폰에서는 하단 고정, 데스크톱에서는 왼쪽 칸에 있어요. */
+function NextStep({ blocker, onNext, centered = false }: { blocker: string | null; onNext: () => void; centered?: boolean }) {
+  return (
+    <>
+      <p className={`mb-2 min-h-5 text-sm text-muted ${centered ? "text-center" : ""}`} aria-live="polite">
+        {blocker ?? "다 골랐어요. 아낄 수 있는 금액을 계산할게요."}
+      </p>
+      <button
+        type="button"
+        onClick={onNext}
+        disabled={blocker !== null}
+        className="min-h-13 w-full rounded-[10px] bg-primary text-base font-semibold text-primary-fg transition-transform active:scale-[0.98] disabled:bg-control disabled:text-muted"
+      >
+        다음
+      </button>
+    </>
   );
 }

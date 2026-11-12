@@ -10,9 +10,9 @@ export function PrivacyNotice() {
   const [open, setOpen] = useState(false);
   return (
     <>
-      <p className="mx-4 flex items-center gap-3 rounded-[10px] bg-raised px-4 py-1 text-sm text-accent-ink">
+      <p className="mx-4 flex items-center gap-3 border-b border-line text-[13px] text-muted">
         <span className="flex-1 py-2">{SHORT}</span>
-        <button type="button" onClick={() => setOpen(true)} className="min-h-11 shrink-0 font-semibold underline underline-offset-4">
+        <button type="button" onClick={() => setOpen(true)} className="min-h-11 shrink-0 font-semibold text-ink underline underline-offset-4">
           자세히
         </button>
       </p>

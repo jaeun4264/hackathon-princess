@@ -176,7 +176,8 @@ export function createAppStore(storage: StateStorage = createSafeStorage()) {
             const old = previous.get(entry.id);
             return old
               ? { ...entry, action_status: old.action_status, keep_reason: old.keep_reason,
-                  ...(old.message_source === "ai" ? { message: old.message, message_source: old.message_source } : {}) }
+                  // 금액이 바뀌었으면 옛 금액이 적힌 AI 문장을 쓰지 않아요.
+                  ...(old.message_source === "ai" && old.saving_monthly === entry.saving_monthly ? { message: old.message, message_source: old.message_source } : {}) }
               : entry;
           });
           set({ suggestions: [...merged, ...pauses.filter((entry) => !merged.some((m) => m.id === entry.id))] });

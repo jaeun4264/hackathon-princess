@@ -1,7 +1,9 @@
 import { describe, expect, it, vi } from "vitest";
 import { listSamples, sampleAdapter } from "../../adapters/sample";
 import { loadCatalog } from "../../catalog";
+import { savingsTotal, unconfirmedSubscriptions } from "../derive";
 import { importFromGmail, summarizeSkipped } from "../gmail";
+import { splitSuggestions } from "../report";
 import { analyzeTransactions, createManualSubscription, foreignOrigin, runAnalysis, runInterpret } from "../pipeline";
 import { createAppStore, createSafeStorage } from "../store";
 
@@ -32,9 +34,16 @@ describe("샘플 체험 → 구독", () => {
     expect(stages).toEqual(["detecting", "interpreting"]);
   });
 
+  it("Apple 영수증 항목명(iCloud+)으로 들어온 샘플은 아이클라우드로 바로 확정돼요", async () => {
+    const { subscriptions } = await analyzeTransactions(await sampleAdapter.load("persona-1"), { apiOptions: mock });
+    expect(subscriptions.find((sub) => sub.amount === 1100)).toMatchObject({ service_id: "icloud", needs_check: false, interpret_source: "catalog" });
+  });
+
   it("AI 추정은 service_id에 넣지 않고 후보로만 둬요 (B5)", async () => {
     const store = newStore();
-    await runInterpret(await sampleAdapter.load("persona-1"), { store, apiOptions: mock });
+    // 영수증 세부 항목 없이 'Apple'만 적힌 결제 (카드 명세 등)
+    const bare = (await sampleAdapter.load("persona-1")).map((tx) => tx.raw_name === "iCloud+" ? { ...tx, raw_name: "Apple" } : tx);
+    await runInterpret(bare, { store, apiOptions: mock });
     const { subscriptions, suggestedServiceIds } = store.getState();
     const apple = subscriptions.find((sub) => sub.raw_name === "Apple" && sub.amount === 1100);
     expect(apple).toMatchObject({ service_id: null, needs_check: true, interpret_source: "ai" });
@@ -43,12 +52,26 @@ describe("샘플 체험 → 구독", () => {
     expect(suggestedServiceIds[netflix!.id]).toBeNull();
   });
 
-  it("서버가 죽어도 멈추지 않고 확인 필요로 계속 가요", async () => {
+  it("서버가 죽어도 멈추지 않고, 이름만으로 아는 구독은 그대로 확정해요", async () => {
     const fetchImpl = vi.fn(async () => { throw new TypeError("offline"); });
-    const result = await analyzeTransactions(await sampleAdapter.load("persona-3"), { apiOptions: { mock: false, fetchImpl } });
+    const result = await analyzeTransactions(await sampleAdapter.load("persona-1"), { apiOptions: { mock: false, fetchImpl } });
     expect(result.degraded).toBe(true);
-    expect(result.subscriptions.length).toBe(4);
-    expect(result.subscriptions.every((sub) => sub.needs_check)).toBe(true);
+    expect(result.subscriptions.length).toBe(5);
+    const confirmed = result.subscriptions.filter((sub) => !sub.needs_check).map((sub) => sub.service_id).sort();
+    expect(confirmed).toEqual(["daglo", "goodnotes", "icloud", "netflix"]);
+    // 이름만으로 모르는 카카오페이 결제는 서버가 답하지 않으면 확인 필요로 남아요.
+    expect(result.subscriptions.find((sub) => sub.raw_name === "카카오페이")).toMatchObject({ service_id: null, needs_check: true });
+  });
+
+  it("이름만으로 아는 구독은 서버에 보내지 않아요 (느린 AI로 시간이 넘어도 확정이 유지돼요)", async () => {
+    const fetchImpl = vi.fn(async (_path: string, init: { body: string }) => {
+      const { items } = JSON.parse(init.body) as { items: { key: string }[] };
+      return new Response(JSON.stringify({ results: items.map((item) => ({ key: item.key, service_id: null, category: "기타", confidence: 0, reason: "", source: "unknown", needs_check: true })) }));
+    });
+    await analyzeTransactions(await sampleAdapter.load("persona-1"), { apiOptions: { mock: false, fetchImpl: fetchImpl as unknown as typeof fetch } });
+    expect(fetchImpl).toHaveBeenCalledTimes(1);
+    const sent = JSON.parse(fetchImpl.mock.calls[0][1].body).items.map((item: { raw_name: string }) => item.raw_name);
+    expect(sent).toEqual(["카카오페이"]);
   });
 });
 
@@ -122,6 +145,21 @@ describe("파이프라인 4~5단계 (runAnalysis)", () => {
     const cancel = state.suggestions.find((entry) => entry.type === "cancel")!;
     expect(cancel).toMatchObject({ saving_monthly: 13500, saving_yearly: 162000, message_source: "ai" });
     expect(cancel.message).not.toMatch(/[0-9]/); // 모의 AI 문장에는 숫자가 없어요
+  });
+
+  it("목록에 없는 서비스를 직접 추가하고 거의 안 쓴다고 하면 리포트 제안과 절감액에 들어가요", async () => {
+    const store = newStore();
+    const manual = createManualSubscription({ name: "Instagram Plus", amount: 3299, interval: "monthly", serviceId: null });
+    store.getState().setSubscriptions([manual]);
+    store.getState().setUsage(manual.id, "rarely");
+    store.getState().setProfile({ school: "고려대학교", status: "재학", school_email: true });
+    expect(store.getState().confirmAll()).toBe(true);
+    await runAnalysis({ store, apiOptions: mock, today: "2026-11-07" });
+    const state = store.getState();
+    expect(state.suggestions).toMatchObject([{ type: "cancel", saving_monthly: 3299, saving_yearly: 39588, subscription_ids: [manual.id] }]);
+    expect(savingsTotal(state.suggestions).monthly).toBe(3299);
+    expect(unconfirmedSubscriptions(state.subscriptions)).toEqual([]);
+    expect(splitSuggestions(state.suggestions).actionable).toHaveLength(1);
   });
 
   it("서버가 죽어도 규칙 제안과 기본 문장으로 끝까지 가요", async () => {

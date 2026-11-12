@@ -1,4 +1,6 @@
-import { afterEach, beforeEach, expect, it, vi } from "vitest";
+import { afterEach, beforeEach, describe, expect, it, vi } from "vitest";
+import { applyEdit } from "../lib/client/confirm";
+import { savingsTotal, unconfirmedSubscriptions } from "../lib/client/derive";
 import { loadCatalog } from "../lib/catalog";
 import { buildSuggestions, summarize, makePauseSuggestion, isStale, fillPlaceholders, monthlyEquivalent } from "../lib/rules";
 import { SuggestionSchema } from "../lib/schemas";
@@ -116,7 +118,7 @@ it("금액 자리 표시는 천 단위 쉼표와 원을 사용해요", () => {
 it("B3 샘플→B2 후보→B5 상세 결과에서 확정된 항목만 B6 제안을 만들어요", async () => {
   const catalog = loadCatalog();
   const candidates = detectSubscriptionCandidates(await sampleAdapter.load("persona-1"), catalog);
-  const mock = createMockProvider(Array.from({ length: 2 }, () => ({ text: JSON.stringify({ service_id: "unknown", confidence: 0, category: "기타", reason: "가상 미확정" }) })));
+  const mock = createMockProvider(Array.from({ length: 1 }, () => ({ text: JSON.stringify({ service_id: "unknown", confidence: 0, category: "기타", reason: "가상 미확정" }) })));
   const llm = createLlmClient({ provider: mock.provider, dailyCap: 10, logger: () => {} });
   const resolved = await resolveInterpretItems(candidates.map(({ key, raw_name, amount, interval, payment_method }) => ({ key, raw_name, amount, interval, payment_method })), { catalog, llm });
   const subs = candidates.map((candidate, i) => sub(resolved[i].confirmed_service_id ?? "미확정", candidate.amount, {
@@ -125,6 +127,44 @@ it("B3 샘플→B2 후보→B5 상세 결과에서 확정된 항목만 B6 제안
     interpret_source: resolved[i].source, needs_check: resolved[i].needs_check, evidence_transaction_ids: candidate.transaction_ids,
   }));
   const output = buildSuggestions({ subs, catalog, benefitResults: [], today });
-  expect(output).toHaveLength(3);
+  expect(output).toHaveLength(4); // 넷플릭스·아이클라우드·다글로·굿노트 (카카오페이는 미확정이라 빠져요)
   expect(output.every((entry) => subs.find((sub) => sub.id === entry.subscription_ids[0])?.service_id !== null)).toBe(true);
+});
+
+describe("카탈로그에 없는 서비스 (사용자가 '목록에 없어요'로 확인)", () => {
+  const unknownSub = (changes: Partial<Subscription> = {}) => sub("netflix", 3299, {
+    id: "instagram", service_id: null, display_name: "Instagram Plus", raw_name: "Instagram Plus", category: "기타",
+    interpret_source: "unknown", needs_check: true, user_confirmed: false, confidence: 0, usage: "rarely", ...changes,
+  });
+  const build = (subs: Subscription[]) => buildSuggestions({ subs, catalog: loadCatalog(), benefitResults: [], today });
+
+  it("확인 전에는 제안에서 빠져요", () => {
+    expect(build([unknownSub()])).toEqual([]);
+    expect(build([unknownSub({ needs_check: false, user_confirmed: false })])).toEqual([]);
+  });
+
+  it("수정 시트에서 확인하면 거의 안 쓰는 구독의 금액이 절감액에 들어가요", () => {
+    const before = unknownSub();
+    const confirmed = { ...before, ...applyEdit(before, { name: "Instagram Plus", amount: 3299, interval: "monthly", serviceId: null }, loadCatalog().services) };
+    const suggestions = build([confirmed]);
+    expect(suggestions).toHaveLength(1);
+    expect(suggestions[0]).toMatchObject({ type: "cancel", saving_monthly: 3299, saving_yearly: 39588, cancel_url: null, source_url: null, checked_at: null });
+    expect(suggestions[0].message).toContain("Instagram Plus");
+    expect(savingsTotal(suggestions).monthly).toBe(3299);
+    expect(unconfirmedSubscriptions([confirmed])).toEqual([]);
+  });
+
+  it("자주 쓰면 유지 제안이고 절감액에는 안 들어가요", () => {
+    const suggestions = build([unknownSub({ usage: "often", needs_check: false, user_confirmed: true })]);
+    expect(suggestions.map((entry) => entry.type)).toEqual(["keep"]);
+    expect(savingsTotal(suggestions).monthly).toBe(0);
+  });
+
+  it("사용자가 확인한 구독도 카탈로그에 없는 id면 믿지 않아요", () => {
+    expect(build([unknownSub({ service_id: "invented", needs_check: false, user_confirmed: true })])).toEqual([]);
+  });
+
+  it("확인한 무료 체험(0원)은 '0원 절약' 제안을 만들지 않아요", () => {
+    expect(build([unknownSub({ amount: 0, monthly_amount: 0, needs_check: false, user_confirmed: true })])).toEqual([]);
+  });
 });

@@ -16,18 +16,20 @@ import { ErrorBanner } from "./ErrorBanner";
 import { InputMethodPicker, type InputMethodId } from "./InputMethodPicker";
 import { ManualAddSheet } from "./ManualAddSheet";
 import { PrivacyNotice } from "./PrivacyNotice";
-import { UsageChip } from "./UsageChip";
 
 const won = (value: number) => `${value.toLocaleString("ko-KR")}원`;
 
 // 첫 화면 예시. 금액은 카탈로그에 확인된 가격만 써요. 합계는 이 줄들에서 계산해요.
-const EXAMPLE: { name: string; amount: number; usage: Usage }[] = [
-  { name: "다글로", amount: 14900, usage: "often" },
-  { name: "넷플릭스", amount: 13500, usage: "rarely" },
-  { name: "이모티콘 플러스", amount: 6900, usage: "sometimes" },
-  { name: "아이클라우드", amount: 1100, usage: "rarely" },
+// raw는 카드 명세서에 찍히는 표기, found는 결제 수단만 찍혀서 영수증에서 실제 서비스를 찾은 줄이에요.
+const EXAMPLE: { name: string; short: string; amount: number; usage: Usage; date: string; raw: string; found: boolean }[] = [
+  { name: "넷플릭스", short: "넷플릭스", amount: 13500, usage: "rarely", date: "11.03", raw: "넷플릭스", found: false },
+  { name: "카카오톡 이모티콘 플러스", short: "이모티콘 플러스", amount: 6900, usage: "sometimes", date: "11.05", raw: "카카오페이", found: true },
+  { name: "아이클라우드", short: "아이클라우드", amount: 1100, usage: "rarely", date: "11.15", raw: "Apple", found: true },
+  { name: "다글로", short: "다글로", amount: 14900, usage: "often", date: "11.20", raw: "다글로", found: false },
 ];
+const EXAMPLE_TOTAL = EXAMPLE.reduce((sum, row) => sum + row.amount, 0);
 const EXAMPLE_RARELY = EXAMPLE.filter((row) => row.usage === "rarely").reduce((sum, row) => sum + row.amount, 0);
+const USAGE_WORD: Record<Usage, string> = { often: "자주", sometimes: "가끔", rarely: "거의 안 씀" };
 
 const CSV_REASON: Record<string, string> = {
   invalid_header: "첫 줄(제목 줄)을 읽지 못했어요",
@@ -50,8 +52,9 @@ type Report = {
 };
 type Failure = { title: string; detail: string };
 
-const primaryButton = "flex min-h-13 w-full items-center justify-center rounded-[10px] bg-primary px-5 text-base font-semibold text-primary-fg transition-transform active:scale-[0.98]";
-const secondaryButton = "flex min-h-13 w-full items-center justify-center rounded-[10px] border border-control bg-surface px-5 text-base font-semibold transition-transform hover:bg-rule active:scale-[0.98]";
+const primaryButton = "flex min-h-12 w-full items-center justify-center rounded-[6px] bg-primary px-5 text-base font-semibold text-primary-fg transition-[transform,background-color] hover:bg-[#262626] active:scale-[0.98]";
+// 보조 버튼은 회색 알약(#e5e5e5). 채운 버튼은 화면에 하나(검정)만 둬요.
+const secondaryButton = "flex min-h-12 w-full items-center justify-center rounded-[6px] bg-pill px-5 text-base font-semibold text-ink transition-[transform,background-color] hover:bg-[#dadada] active:scale-[0.98]";
 
 export function InputScreen() {
   const router = useRouter();
@@ -190,88 +193,83 @@ export function InputScreen() {
   const needsUsage = existing.some((sub) => sub.usage === null);
 
   return (
-    <main className="flex flex-1 flex-col pb-8">
+    <main className="flex flex-1 flex-col pb-10">
       <AppBar />
       <PrivacyNotice />
 
-      <section className="px-4 pt-7">
-        <h1 className="text-[28px] font-semibold leading-[1.25] tracking-[-0.02em]">
-          매달 나가는 구독을
-          <br />
-          한 번에 정리해요
-        </h1>
-        <p className="mt-3 text-base leading-6 text-muted">
-          결제 내역을 넣으면 거의 안 쓰는 구독과 받을 수 있는 학생 혜택을 찾아, 아낄 수 있는 금액을 보여 드려요.
-        </p>
-      </section>
+      {/*
+        A안 영수증 원장: 왼쪽에 제목·넣는 방법과 "카드 명세서에는 이렇게만 찍혀요" 예시,
+        오른쪽에 정리 결과 영수증 한 장. 화면 장식에 색 없이 잉크와 회색만, 코발트는 "새는 돈" 숫자에만.
+      */}
+      <div className="flex flex-col lg:mt-9 lg:grid lg:grid-cols-[minmax(0,7fr)_minmax(0,5fr)] lg:items-start lg:gap-14">
+        <div className="flex flex-col">
+          <section className="px-4 pt-7 lg:pt-0">
+            <h1 className="text-[28px] font-bold leading-[1.25] tracking-[-0.02em] lg:text-[32px]">
+              매달 나가는 구독을
+              <br />
+              한 번에 정리해요
+            </h1>
+            <p className="mt-3 max-w-[520px] text-base leading-[1.6] text-muted">
+              결제 내역을 넣으면 거의 안 쓰는 구독과 받을 수 있는 학생 혜택을 찾아, 아낄 수 있는 금액을 보여 드려요.
+            </p>
+          </section>
 
-      {showExisting ? (
-        <section className="mx-4 mt-4 flex items-center gap-3 rounded-[20px] bg-surface p-5">
-          <p className="flex-1 text-base">
-            정리하던 구독 <span className="num font-semibold">{existing.length}개</span>가 있어요.
-          </p>
-          <Link href={needsUsage ? "/confirm" : "/home"} className="flex min-h-11 items-center rounded-[10px] bg-primary px-4 text-sm font-semibold text-primary-fg">
-            이어서 보기
-          </Link>
-        </section>
-      ) : null}
+          {showExisting ? (
+            <section className="mx-4 mt-6 flex max-w-[440px] items-center gap-3 rounded-[8px] border border-line bg-surface px-5 py-4">
+              <p className="flex-1 text-base">
+                정리하던 구독 <span className="num font-semibold">{existing.length}개</span>가 있어요.
+              </p>
+              <Link href={needsUsage ? "/confirm" : "/home"} className="flex min-h-10 items-center rounded-[6px] bg-primary px-4 text-sm font-semibold text-primary-fg transition-colors hover:bg-[#262626]">
+                이어서 보기
+              </Link>
+            </section>
+          ) : null}
 
-      {failure ? (
-        <section className="mx-4 mt-4 rounded-[20px] bg-surface p-5" role="alert">
-          <p className="text-base font-semibold text-negative">{failure.title}</p>
-          <p className="mt-1 text-sm text-ink">{failure.detail}</p>
-        </section>
-      ) : null}
+          {failure ? (
+            <section className="mx-4 mt-6 max-w-[440px] rounded-[8px] border border-line bg-surface px-5 py-4" role="alert">
+              <p className="text-base font-semibold text-negative">{failure.title}</p>
+              <p className="mt-1 text-sm text-ink">{failure.detail}</p>
+            </section>
+          ) : null}
 
-      <section className="mt-6 px-4" aria-label="결제 내역 넣기">
-        {busy ? (
-          <div className="flex min-h-[188px] flex-col items-center justify-center rounded-[20px] bg-surface p-5 text-center" role="status" aria-live="polite">
-            <span aria-hidden="true" className="mb-4 size-7 animate-spin rounded-full border-[3px] border-rule border-t-accent motion-reduce:animate-none" />
-            <p className="text-base font-semibold">{busy}</p>
-            <p className="mt-1 text-sm text-muted">결제 내역은 이 기기에서만 정리해요.</p>
-          </div>
-        ) : report ? (
-          <ReportPanel report={report} onManual={() => setManualOpen(true)} onRetry={() => setReport(null)} />
-        ) : (
-          <div className="flex flex-col gap-3">
-            <InputMethodPicker onSelect={onMethod} part="primary" />
-            <button type="button" onClick={() => setSampleOpen(true)} className={secondaryButton}>
-              샘플 데이터로 체험
+          <section className="mt-7 px-4" aria-label="결제 내역 넣기">
+            {busy ? (
+              <div className="flex min-h-[188px] max-w-[440px] flex-col items-center justify-center rounded-[8px] border border-line bg-surface p-5 text-center" role="status" aria-live="polite">
+                <span aria-hidden="true" className="mb-4 size-7 animate-spin rounded-full border-[3px] border-rule border-t-ink motion-reduce:animate-none" />
+                <p className="text-base font-semibold">{busy}</p>
+                <p className="mt-1 text-sm text-muted">결제 내역은 이 기기에서만 정리해요.</p>
+              </div>
+            ) : report ? (
+              <div className="max-w-[560px]">
+                <ReportPanel report={report} onManual={() => setManualOpen(true)} onRetry={() => setReport(null)} />
+              </div>
+            ) : (
+              <div className="flex max-w-[440px] flex-col gap-2.5">
+                <InputMethodPicker onSelect={onMethod} part="primary" />
+                <button type="button" onClick={() => setSampleOpen(true)} className={secondaryButton}>
+                  샘플 데이터로 체험
+                </button>
+                <div className="flex flex-wrap items-center gap-x-4">
+                  <button type="button" onClick={() => setManualOpen(true)} className="min-h-11 text-sm font-semibold underline underline-offset-4">
+                    구독 직접 추가
+                  </button>
+                  <InputMethodPicker onSelect={onMethod} part="rest" />
+                </div>
+              </div>
+            )}
+          </section>
+
+          {showExisting ? (
+            <button type="button" onClick={resetAll} className="mx-4 mt-2 min-h-11 self-start text-sm text-negative underline underline-offset-4">
+              내 데이터 지우기
             </button>
-            <div className="flex flex-wrap items-center justify-center gap-x-4">
-              <button type="button" onClick={() => setManualOpen(true)} className="min-h-11 px-2 text-sm font-semibold underline underline-offset-4">
-                구독 직접 추가
-              </button>
-              <InputMethodPicker onSelect={onMethod} part="rest" />
-            </div>
-          </div>
-        )}
-      </section>
+          ) : null}
 
-      {showExisting ? (
-        <button type="button" onClick={resetAll} className="mt-4 min-h-11 self-center px-3 text-sm text-negative underline underline-offset-4">
-          내 데이터 지우기
-        </button>
-      ) : null}
-
-      {/* 예시: 정리하면 이렇게 보여요. 합계는 이 카드 안에 둬요. */}
-      <figure className="mx-4 mt-8 rounded-[20px] bg-surface p-5" aria-labelledby="example-caption">
-        <figcaption id="example-caption" className="text-sm text-muted">정리하면 이렇게 보여요 (예시)</figcaption>
-        <ul className="mt-2">
-          {EXAMPLE.map((row) => (
-            <li key={row.name} className="flex min-h-12 items-center gap-3 border-b border-rule last:border-b-0">
-              <span className="min-w-0 flex-1 truncate text-base">{row.name}</span>
-              <UsageChip usage={row.usage} />
-              <span className="num w-[84px] text-right text-base">{won(row.amount)}</span>
-            </li>
-          ))}
-        </ul>
-        <div className="mt-3 rounded-[10px] bg-rarely-bg px-4 py-3 text-rarely-ink">
-          <p className="text-sm">거의 안 쓰는 구독에 매달</p>
-          <p className="num mt-0.5 text-[28px] font-semibold leading-tight">{won(EXAMPLE_RARELY)}</p>
-          <p className="num text-sm">1년이면 {won(EXAMPLE_RARELY * 12)}</p>
+          <StatementExample />
         </div>
-      </figure>
+
+        <ReceiptExample />
+      </div>
 
       <input ref={fileRef} type="file" accept=".csv,text/csv" className="sr-only" tabIndex={-1} aria-hidden="true" onChange={(event) => onCsvFile(event.target.files?.[0])} />
 
@@ -373,5 +371,65 @@ function ReportPanel({ report, onManual, onRetry }: { report: Report; onManual: 
         <button type="button" onClick={onRetry} className="min-h-11 px-3 text-base text-muted underline underline-offset-4">다른 방법으로 넣기</button>
       </div>
     </div>
+  );
+}
+
+/** 예시: 카드 명세서에는 결제 수단 이름만 찍히는 줄이 있어요. 그 아래에 영수증에서 찾은 실제 서비스를 보여 줘요. */
+function StatementExample() {
+  return (
+    <section className="mx-4 mt-10 rounded-[8px] border border-line bg-surface" aria-labelledby="statement-title">
+      <div className="flex items-baseline justify-between px-5 pb-3 pt-4">
+        <h2 id="statement-title" className="text-[15px] font-semibold">카드 명세서에는 이렇게만 찍혀요</h2>
+        <span className="text-xs text-muted">예시</span>
+      </div>
+      <ul>
+        {EXAMPLE.map((row) => (
+          <li key={row.date} className={`flex min-h-12 items-center gap-3 border-t border-rule px-5 ${row.found ? "bg-[#f7f8fa] py-3" : ""}`}>
+            <span className="num w-11 shrink-0 text-[13px] text-muted">{row.date}</span>
+            <span className="min-w-0 flex-1">
+              <span className={row.found ? "text-muted" : ""}>{row.raw}</span>
+              {row.found ? (
+                <span className="mt-0.5 block text-[13px]">
+                  <span className="text-muted">→ </span>
+                  {row.name} · 영수증에서 찾았어요
+                </span>
+              ) : null}
+            </span>
+            <span className="num shrink-0 font-semibold">{won(row.amount)}</span>
+          </li>
+        ))}
+      </ul>
+    </section>
+  );
+}
+
+/** 예시: 정리 결과를 영수증 한 장으로. 아래 톱니 가장자리는 영수증 종이 모양이에요(.receipt). 코발트는 "새는 돈" 숫자에만. */
+function ReceiptExample() {
+  const rows = [...EXAMPLE].sort((a, b) => b.amount - a.amount);
+  return (
+    <section className="receipt mx-4 mt-8 bg-surface px-7 pb-11 pt-7 lg:mx-0 lg:mr-4 lg:mt-0 lg:w-full lg:max-w-[400px] lg:justify-self-end" aria-labelledby="receipt-title">
+      <div className="pb-4 text-center">
+        <h2 id="receipt-title" className="text-[15px] font-semibold">정리하면 이렇게 보여요</h2>
+        <p className="num text-xs text-muted">예시 · 이번 달 구독 {EXAMPLE.length}개</p>
+      </div>
+      <ul>
+        {rows.map((row) => (
+          <li key={row.date} className="flex min-h-[42px] items-center gap-2.5 border-b border-dashed border-[#dfe2e6]">
+            <span className="min-w-0 truncate">{row.short}</span>
+            <span className={`shrink-0 text-xs ${row.usage === "rarely" ? "font-semibold text-ink" : "text-muted"}`}>{USAGE_WORD[row.usage]}</span>
+            <span className="num ml-auto shrink-0">{won(row.amount)}</span>
+          </li>
+        ))}
+      </ul>
+      <div className="flex items-baseline justify-between pt-[18px]">
+        <span>매달 합계</span>
+        <strong className="num text-[22px]">{won(EXAMPLE_TOTAL)}</strong>
+      </div>
+      <div className="mt-[18px] border-t-2 border-ink pt-[18px]">
+        <p className="text-[13px] text-muted">거의 안 쓰는 구독에 매달</p>
+        <p className="num mt-1 text-[32px] font-bold leading-tight tracking-[-0.02em] text-hue">{won(EXAMPLE_RARELY)}</p>
+        <p className="num text-[13px] text-muted">1년이면 {won(EXAMPLE_RARELY * 12)}</p>
+      </div>
+    </section>
   );
 }

@@ -5,9 +5,10 @@ import { checkedSubscriptions } from "./summary";
 import { isStale } from "./stale";
 
 // B5의 AI 후보는 service_id에 들어가지 않아요. 과거 소비자가 넣은 AI ID도 재확인 전에는 사용하지 않아요.
-function isConfirmed(sub: Subscription): boolean {
-  return sub.service_id !== null && !sub.needs_check &&
-    (sub.interpret_source === "catalog" || sub.user_confirmed);
+// 카탈로그에 없는 서비스(service_id null)는 사용자가 직접 확인했을 때만 확인된 구독이에요. 금액은 영수증·사용자 입력 값이에요.
+export function isConfirmedSubscription(sub: Pick<Subscription, "service_id" | "needs_check" | "interpret_source" | "user_confirmed">): boolean {
+  if (sub.needs_check) return false;
+  return sub.user_confirmed || (sub.service_id !== null && sub.interpret_source === "catalog");
 }
 
 function suggestion(sub: Subscription, service: CatalogService | undefined, type: SuggestionType, saving: number,
@@ -32,13 +33,14 @@ export function buildSuggestions(input: { subs: Subscription[]; benefitResults: 
   const output: Suggestion[] = [];
   for (const sub of subs) {
     const service = catalog.services.find((entry) => entry.id === sub.service_id);
-    if (!service || !isConfirmed(sub)) continue;
+    // service_id가 있는데 카탈로그에 없으면(지어낸 id) 믿지 않아요.
+    if ((sub.service_id !== null && !service) || !isConfirmedSubscription(sub)) continue;
     if (sub.usage === "rarely") {
       // 무료 체험(0원)은 아직 나가는 돈이 없어 '0원 절약' 제안을 만들지 않아요. 체험 종료 안내는 화면이 따로 보여 줘요.
       if (sub.monthly_amount > 0) output.push(suggestion(sub, service, "cancel", sub.monthly_amount, input.today));
     } else if (sub.usage === "often") {
       const alternatives: Suggestion[] = [];
-      for (const benefit of catalog.benefits.filter((entry) => entry.service_id === service.id)) {
+      for (const benefit of catalog.benefits.filter((entry) => entry.service_id === service?.id)) {
         const matches = results.filter((entry) => entry.kind === "benefit" && entry.id === benefit.id);
         // 중복 판정이 모순되거나 다른 버전의 조건이면 채택하지 않아요.
         if (!matches.length || matches.some((entry) => entry.eligible !== "yes" || entry.validation !== "ok" ||
@@ -63,6 +65,6 @@ export function buildSuggestions(input: { subs: Subscription[]; benefitResults: 
 
 export function makePauseSuggestion(sub: Subscription, today: string): Suggestion {
   const [checked] = checkedSubscriptions([sub]);
-  if (!isConfirmed(checked)) throw new Error("서비스를 먼저 확인해 주세요");
+  if (!isConfirmedSubscription(checked)) throw new Error("서비스를 먼저 확인해 주세요");
   return suggestion(checked, undefined, "pause", checked.monthly_amount, today);
 }

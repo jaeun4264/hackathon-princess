@@ -31,7 +31,7 @@
     "date": "2026-07-15",
     "amount": 1100,
     "currency": "KRW",
-    "raw_name": "Apple",
+    "raw_name": "iCloud+",
     "payment_method": "apple",
     "source": "sample"
   },
@@ -40,7 +40,7 @@
     "date": "2026-08-15",
     "amount": 1100,
     "currency": "KRW",
-    "raw_name": "Apple",
+    "raw_name": "iCloud+",
     "payment_method": "apple",
     "source": "sample"
   },
@@ -49,7 +49,7 @@
     "date": "2026-09-15",
     "amount": 1100,
     "currency": "KRW",
-    "raw_name": "Apple",
+    "raw_name": "iCloud+",
     "payment_method": "apple",
     "source": "sample"
   },

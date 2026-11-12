@@ -173,8 +173,8 @@ describe("샘플과 B2 통합", () => {
   it("입력 방식이 달라도 같은 공통 결제 필드를 만들어요", async () => {
     const sample = (await sampleAdapter.load("persona-1")).find((item) => item.id === "sample-p1-icloud-7")!;
     const catalog = { services: [{ ...loadCatalog().services[0], id: "apple", email_domains: ["cloud.example.invalid"] }] };
-    const gmail = parseGmailMessages([mockMail({ from_name: "Apple", from_domain: "cloud.example.invalid", received_at: "2026-07-15T00:00:00Z", text: "1,100원" })], catalog).transactions[0];
-    const csv = parseCsv(`${csvHeader}\n2026-07-15,1100,Apple,apple`).transactions[0];
+    const gmail = parseGmailMessages([mockMail({ from_name: "iCloud+", from_domain: "cloud.example.invalid", received_at: "2026-07-15T00:00:00Z", text: "1,100원" })], catalog).transactions[0];
+    const csv = parseCsv(`${csvHeader}\n2026-07-15,1100,iCloud+,apple`).transactions[0];
     const fields = ({ date, amount, currency, raw_name, payment_method }: typeof sample) => ({ date, amount, currency, raw_name, payment_method });
     expect(fields(gmail)).toEqual(fields(sample));
     expect(fields(csv)).toEqual(fields(sample));
