@@ -43,3 +43,17 @@ def test_load_real_builds_valid_news(tables, tmp_path):
     assert B.find_problems(data, need_url=True) == []
     data["articles"][0]["url"] = "#"
     assert any("원문 링크" in p for p in B.find_problems(data, need_url=True))
+
+
+def test_strip_text_for_real_articles():
+    data = B.build_news()
+    for s in data["articles"][0]["sentences"]:
+        if s["type"] == "opinion":
+            s["text"] = "가" * 50
+    out = B.strip_text(data)
+    sents = [s for a in out["articles"] for s in a["sentences"]]
+    assert all(s["text"] is None for s in sents if s["type"] != "opinion")
+    assert all(len(s["text"]) <= B.OPINION_MAX + 1 for s in sents if s["type"] == "opinion")
+    assert any(s["text"].endswith("…") for s in sents if s["type"] == "opinion")
+    assert [t["id"] for t in out["sourceTypes"]] == ["gov", "opp", "expert", "citizen", "industry"]
+    assert data["articles"][0]["sentences"][0]["text"] is not None  # 원본은 그대로

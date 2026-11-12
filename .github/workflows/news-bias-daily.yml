@@ -1,0 +1,80 @@
+# 매일 자동 실행 (팀 저장소용): 08시·17시(한국 시간)쯤 기사 수집 → 이슈 묶기 → 원문 분석(본문 저장 안 함)
+# → news-bias/data/daily/news.json 을 만들고, 같은 저장소의 프론트 데이터 파일에 복사해 함께 커밋
+# 같은 저장소 안이라 따로 토큰이 필요 없음 (GitHub가 주는 기본 권한으로 커밋)
+#
+# 이 파일 위치: 저장소 맨 위 .github/workflows/news-bias-daily.yml  (news-bias 폴더 안이 아니라 저장소 맨 위!)
+# 비밀값: 저장소 Settings → Secrets and variables → Actions
+#   NAVER_CLIENT_ID, NAVER_CLIENT_SECRET, GEMINI_API_KEY
+name: 뉴스 편향도 매일 분석
+
+on:
+  schedule:
+    - cron: "47 22 * * *"   # 한국 07:47 (몇 분 늦게 시작될 수 있음)
+    - cron: "47 7 * * *"    # 한국 16:47
+  workflow_dispatch:
+    inputs:
+      preview:
+        description: "미리보기만 (이슈 묶기까지, AI·원문 요청 없음)"
+        type: boolean
+        default: false
+
+permissions:
+  contents: write
+
+concurrency:
+  group: daily-news
+  cancel-in-progress: false
+
+env:
+  BACKEND_DIR: news-bias                               # 백엔드 폴더 (app/ 이 들어 있는 곳)
+  FRONT_FILE: news-bias/frontend/src/data/news-live.json  # 프론트가 읽는 파일
+
+jobs:
+  daily:
+    runs-on: ubuntu-latest
+    timeout-minutes: 40
+    defaults:
+      run:
+        working-directory: ${{ env.BACKEND_DIR }}
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+          cache: pip
+          cache-dependency-path: ${{ env.BACKEND_DIR }}/requirements.txt
+
+      - name: 패키지 설치
+        run: pip install -r requirements.txt
+
+      - name: 수집·묶기·분석
+        env:
+          NAVER_CLIENT_ID: ${{ secrets.NAVER_CLIENT_ID }}
+          NAVER_CLIENT_SECRET: ${{ secrets.NAVER_CLIENT_SECRET }}
+          GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
+          LLM_API_KEY: ${{ secrets.LLM_API_KEY }}
+          LLM_PROVIDER: gemini
+        run: |
+          if [ "${{ inputs.preview }}" = "true" ]; then
+            python -m app.daily --미리보기
+          else
+            python -m app.daily
+          fi
+
+      - name: 결과 저장 (백엔드 기록 + 프론트 데이터)
+        if: ${{ inputs.preview != true }}
+        working-directory: .
+        run: |
+          mkdir -p "$(dirname "$FRONT_FILE")"
+          cp "$BACKEND_DIR/data/daily/news.json" "$FRONT_FILE"
+          git config user.name "news-bias-bot"
+          git config user.email "news-bias-bot@users.noreply.github.com"
+          git add "$BACKEND_DIR/data/daily" "$FRONT_FILE"
+          if git diff --cached --quiet; then
+            echo "바뀐 것 없음"
+          else
+            git commit -m "매일 뉴스 분석 $(TZ=Asia/Seoul date +'%Y-%m-%d %H:%M')"
+            git pull --rebase
+            git push
+          fi

@@ -17,7 +17,7 @@ def test_quote_slope():
 
 def test_source_entropy():
     assert source_entropy(Counter(gov=4)) == 0.0                   # 한 목소리만
-    assert source_entropy(Counter(gov=1, opp=1, expert=1, citizen=1, biz=1)) == pytest.approx(1.0)
+    assert source_entropy(Counter(gov=1, opp=1, expert=1, citizen=1, industry=1)) == pytest.approx(1.0)
     assert source_entropy(Counter(gov=1, opp=1)) is None            # 인용 3개 미만
     assert source_entropy(Counter(gov=2, etc=5)) is None            # 기타는 세지 않음
     assert 0 < source_entropy(Counter(gov=3, opp=1)) < 1
@@ -65,4 +65,23 @@ def test_make_and_score(tables, tmp_path):
     r = P.score_pairs(P.read_judgments(a), P.read_judgments(b), [gold])
     assert r["쌍"] == 3 and r["일치"] == 2 and r["둘 다 같은 쪽을 고른 쌍"] == 2
     v = r["라벨별"][gold.stem]
-    assert v["맞음"] == 1 and v["판단 가능"] == 1   # N02 vs N03은 N03 인용이 없어 계산 불가
+    assert v["보정"]["맞음"] == 1 and v["보정"]["판단 가능"] == 1   # N02 vs N03은 N03 인용이 없어 계산 불가
+    assert v["보정 전"]["맞음"] == 1 and v["기울기 없는 기사"] == 0
+
+
+def test_smoothed_slope():
+    from app.metrics import smoothed_slope
+    assert smoothed_slope(Counter(gov=1)) == pytest.approx(1 / 3)
+    assert smoothed_slope(Counter(gov=3)) == pytest.approx(0.6)
+    assert smoothed_slope(Counter(gov=2, opp=2)) == 0
+    assert smoothed_slope(Counter(expert=3)) is None
+    # 보정하면 '1건짜리 +1'과 '10건짜리 +1'을 구별할 수 있음
+    assert smoothed_slope(Counter(gov=10)) > smoothed_slope(Counter(gov=1))
+
+
+def test_scoring_refuses_until_all_judged(tables, tmp_path):
+    src = _with_list(tables("원본.xlsx"), ["N01", "N02", "N03"])
+    empty = tmp_path / "빈.xlsx"
+    P.make_sheet(src, empty)
+    with pytest.raises(SystemExit, match="채점하지 않았습니다"):
+        P.main(["채점", str(empty), str(empty), "--라벨", str(src)])

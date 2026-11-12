@@ -1,0 +1,2267 @@
+{
+  "meta": {
+    "note": "실제 기사 분석 결과(시범 운영). 기사 문장의 저작권은 각 언론사에 있으며 원문 링크를 함께 표시합니다.",
+    "version": "0.1",
+    "generatedAt": "2026-11-11"
+  },
+  "sourceTypes": [
+    {
+      "id": "gov",
+      "label": "정부·여당"
+    },
+    {
+      "id": "opp",
+      "label": "야당"
+    },
+    {
+      "id": "expert",
+      "label": "전문가"
+    },
+    {
+      "id": "citizen",
+      "label": "시민·단체"
+    },
+    {
+      "id": "industry",
+      "label": "기업·업계"
+    }
+  ],
+  "outlets": [
+    {
+      "id": "newsis",
+      "name": "뉴시스"
+    },
+    {
+      "id": "imbc",
+      "name": "MBC"
+    },
+    {
+      "id": "tvchosun",
+      "name": "TV조선"
+    },
+    {
+      "id": "joongang",
+      "name": "중앙일보"
+    },
+    {
+      "id": "segye",
+      "name": "세계일보"
+    },
+    {
+      "id": "sbs",
+      "name": "SBS"
+    },
+    {
+      "id": "chosun",
+      "name": "조선일보"
+    },
+    {
+      "id": "mk",
+      "name": "매일경제"
+    },
+    {
+      "id": "mt",
+      "name": "머니투데이"
+    },
+    {
+      "id": "edaily",
+      "name": "이데일리"
+    }
+  ],
+  "issues": [
+    {
+      "id": "issue-01",
+      "title": "조작기소 특검법, 국회 법사위 통과",
+      "summary": "더불어민주당 주도로 '조작기소 특검법'이 11월 4일 국회 법제사법위원회를 통과했다. 국민의힘은 표결에 반발해 퇴장했고, 본회의 처리를 두고 여야가 맞서고 있다.",
+      "category": "정치",
+      "date": "2026-11-04",
+      "articleIds": [
+        "N05",
+        "N03",
+        "N02",
+        "N04",
+        "N01"
+      ],
+      "displaySourceTypes": [
+        "gov",
+        "opp",
+        "expert",
+        "citizen",
+        "industry"
+      ],
+      "origin": "curated"
+    },
+    {
+      "id": "issue-02",
+      "title": "가상자산 과세 2년 추가 유예 추진",
+      "summary": "정부가 11월 5일 내년 시행 예정이던 가상자산 소득 과세를 2년 미뤄 2029년부터 시행하고, 손실을 3년간 이월공제하는 방안을 국회와 협의해 추진하겠다고 밝혔다.",
+      "category": "경제",
+      "date": "2026-11-05",
+      "articleIds": [
+        "E05",
+        "E02",
+        "E01",
+        "E04",
+        "E03"
+      ],
+      "displaySourceTypes": [
+        "gov",
+        "opp",
+        "expert",
+        "citizen",
+        "industry"
+      ],
+      "origin": "curated"
+    }
+  ],
+  "articles": [
+    {
+      "id": "N01",
+      "issueId": "issue-01",
+      "outletId": "newsis",
+      "title": "與, 법사위서 '조작기소 특검법' 강행 처리…국힘 \"날치기\" 반발(종합)",
+      "summary": "신재현 이승재 하지현 한재혁 전상우 기자 = 이재명 대통령 관련 사건의 조작기소 의혹을 수사하기 위한 이른바 '조작기소 특검법'이 4일 더불어민주당 주도로 국회 법제사법위원회를 통과했다. 민주당은 논란이 됐던...",
+      "url": "https://www.newsis.com/view/NISX20261104_0003855336",
+      "publishedAt": "2026-11-04T22:03:00+09:00",
+      "sentences": [
+        {
+          "id": "s1",
+          "text": null,
+          "type": "fact",
+          "sourceType": null,
+          "sourceName": null,
+          "sourceDetail": null
+        },
+        {
+          "id": "s2",
+          "text": null,
+          "type": "fact",
+          "sourceType": null,
+          "sourceName": null,
+          "sourceDetail": null
+        },
+        {
+          "id": "s3",
+          "text": null,
+          "type": "quote",
+          "sourceType": "opp",
+          "sourceName": "국민의힘",
+          "sourceDetail": null
+        },
+        {
+          "id": "s4",
+          "text": null,
+          "type": "fact",
+          "sourceType": null,
+          "sourceName": null,
+          "sourceDetail": null
+        },
+        {
+          "id": "s5",
+          "text": null,
+          "type": "fact",
+          "sourceType": null,
+          "sourceName": null,
+          "sourceDetail": null
+        },
+        {
+          "id": "s6",
+          "text": null,
+          "type": "fact",
+          "sourceType": null,
+          "sourceName": null,
+          "sourceDetail": null
+        },
+        {
+          "id": "s7",
+          "text": null,
+          "type": "quote",
+          "sourceType": "opp",
+          "sourceName": "주진우 국민의힘 의원",
+          "sourceDetail": null
+        },
+        {
+          "id": "s8",
+          "text": null,
+          "type": "quote",
+          "sourceType": "gov",
+          "sourceName": "민주당 소속 서영교 법사위원장",
+          "sourceDetail": null
+        },
+        {
+          "id": "s9",
+          "text": null,
+          "type": "quote",
+          "sourceType": "opp",
+          "sourceName": "주진우 국민의힘 의원, 민주당 소속 서영교 법사위원장",
+          "sourceDetail": null
+        },
+        {
+          "id": "s10",
+          "text": null,
+          "type": "fact",
+          "sourceType": null,
+          "sourceName": null,
+          "sourceDetail": null
+        },
+        {
+          "id": "s11",
+          "text": null,
+          "type": "fact",
+          "sourceType": null,
+          "sourceName": null,
+          "sourceDetail": null
+        },
+        {
+          "id": "s12",
+          "text": null,
+          "type": "fact",
+          "sourceType": null,
+          "sourceName": null,
+          "sourceDetail": null
+        },
+        {
+          "id": "s13",
+          "text": null,
+          "type": "fact",
+          "sourceType": null,
+          "sourceName": null,
+          "sourceDetail": null
+        },
+        {
+          "id": "s14",
+          "text": null,
+          "type": "fact",
+          "sourceType": null,
+          "sourceName": null,
+          "sourceDetail": null
+        },
+        {
+          "id": "s15",
+          "text": null,
+          "type": "quote",
+          "sourceType": "opp",
+          "sourceName": "김민전 국민의힘 의원",
+          "sourceDetail": null
+        },
+        {
+          "id": "s16",
+          "text": null,
+          "type": "fact",
+          "sourceType": null,
+          "sourceName": null,
+          "sourceDetail": null
+        },
+        {
+          "id": "s17",
+          "text": null,
+          "type": "fact",
+          "sourceType": null,
+          "sourceName": null,
+          "sourceDetail": null
+        },
+        {
+          "id": "s18",
+          "text": null,
+          "type": "quote",
+          "sourceType": "opp",
+          "sourceName": "국민의힘 의원들",
+          "sourceDetail": null
+        },
+        {
+          "id": "s19",
+          "text": null,
+          "type": "quote",
+          "sourceType": "gov",
+          "sourceName": "민주당 소속 서영교 법사위원장",
+          "sourceDetail": null
+        },
+        {
+          "id": "s20",
+          "text": null,
+          "type": "fact",
+          "sourceType": null,
+          "sourceName": null,
+          "sourceDetail": null
+        },
+        {
+          "id": "s21",
+          "text": null,
+          "type": "quote",
+          "sourceType": "gov",
+          "sourceName": "김한규 원내정책수석부대표",
+          "sourceDetail": null
+        },
+        {
+          "id": "s22",
+          "text": null,
+          "type": "quote",
+          "sourceType": "gov",
+          "sourceName": "김한규 원내정책수석부대표",
+          "sourceDetail": null
+        },
+        {
+          "id": "s23",
+          "text": null,
+          "type": "quote",
+          "sourceType": "gov",
+          "sourceName": "김한규 원내정책수석부대표",
+          "sourceDetail": null
+        },
+        {
+          "id": "s24",
+          "text": null,
+          "type": "quote",
+          "sourceType": "gov",
+          "sourceName": "김한규 원내정책수석부대표",
+          "sourceDetail": null
+        },
+        {
+          "id": "s25",
+          "text": null,
+          "type": "quote",
+          "sourceType": "gov",
+          "sourceName": "김한규 원내정책수석부대표",
+          "sourceDetail": null
+        },
+        {
+          "id": "s26",
+          "text": null,
+          "type": "fact",
+          "sourceType": null,
+          "sourceName": null,
+          "sourceDetail": null
+        },
+        {
+          "id": "s27",
+          "text": null,
+          "type": "fact",
+          "sourceType": null,
+          "sourceName": null,
+          "sourceDetail": null
+        },
+        {
+          "id": "s28",
+          "text": null,
+          "type": "fact",
+          "sourceType": null,
+          "sourceName": null,
+          "sourceDetail": null
+        },
+        {
+          "id": "s29",
+          "text": null,
+          "type": "fact",
+          "sourceType": null,
+          "sourceName": null,
+          "sourceDetail": null
+        },
+        {
+          "id": "s30",
+          "text": null,
+          "type": "fact",
+          "sourceType": null,
+          "sourceName": null,
+          "sourceDetail": null
+        },
+        {
+          "id": "s31",
+          "text": null,
+          "type": "fact",
+          "sourceType": null,
+          "sourceName": null,
+          "sourceDetail": null
+        },
+        {
+          "id": "s32",
+          "text": null,
+          "type": "fact",
+          "sourceType": null,
+          "sourceName": null,
+          "sourceDetail": null
+        },
+        {
+          "id": "s33",
+          "text": null,
+          "type": "fact",
+          "sourceType": null,
+          "sourceName": null,
+          "sourceDetail": null
+        },
+        {
+          "id": "s34",
+          "text": null,
+          "type": "fact",
+          "sourceType": null,
+          "sourceName": null,
+          "sourceDetail": null
+        },
+        {
+          "id": "s35",
+          "text": null,
+          "type": "fact",
+          "sourceType": null,
+          "sourceName": null,
+          "sourceDetail": null
+        },
+        {
+          "id": "s36",
+          "text": null,
+          "type": "fact",
+          "sourceType": null,
+          "sourceName": null,
+          "sourceDetail": null
+        },
+        {
+          "id": "s37",
+          "text": null,
+          "type": "fact",
+          "sourceType": null,
+          "sourceName": null,
+          "sourceDetail": null
+        },
+        {
+          "id": "s38",
+          "text": "국민의힘은 당일 상정되는 모든 법안에 대한 필리버스터(무제한토론) 등 강…",
+          "type": "opinion",
+          "sourceType": null,
+          "sourceName": null,
+          "sourceDetail": null
+        }
+      ],
+      "framingTerms": [
+        {
+          "term": "논란",
+          "sentenceId": "s2"
+        },
+        {
+          "term": "논란",
+          "sentenceId": "s29"
+        }
+      ],
+      "missingViewpoints": []
+    },
+    {
+      "id": "N02",
+      "issueId": "issue-01",
+      "outletId": "imbc",
+      "title": "여권 주도 '조작기소 특검법' 국회 법사위 통과‥야당 반발",
+      "summary": "윤석열 정부 시절 현 여권을 상대로 한 검찰 수사 등을 조사하는 '조작기소 특검법'이 범여권 주도로 국회 법제사법위원회를 통과했습니다. 법사위는 오늘 저녁 전체회의를 열고 국민의힘 의원들이 전부 퇴장한 가운데...",
+      "url": "https://imnews.imbc.com/news/2026/politics/article/6863228_36911.html",
+      "publishedAt": "2026-11-04T21:10:00+09:00",
+      "sentences": [
+        {
+          "id": "s1",
+          "text": null,
+          "type": "fact",
+          "sourceType": null,
+          "sourceName": null,
+          "sourceDetail": null
+        },
+        {
+          "id": "s2",
+          "text": null,
+          "type": "fact",
+          "sourceType": null,
+          "sourceName": null,
+          "sourceDetail": null
+        },
+        {
+          "id": "s3",
+          "text": null,
+          "type": "quote",
+          "sourceType": "gov",
+          "sourceName": "더불어민주당 김한규 의원",
+          "sourceDetail": null
+        },
+        {
+          "id": "s4",
+          "text": null,
+          "type": "quote",
+          "sourceType": "opp",
+          "sourceName": "국민의힘 박형수 의원",
+          "sourceDetail": null
+        },
+        {
+          "id": "s5",
+          "text": null,
+          "type": "fact",
+          "sourceType": null,
+          "sourceName": null,
+          "sourceDetail": null
+        },
+        {
+          "id": "s6",
+          "text": null,
+          "type": "fact",
+          "sourceType": null,
+          "sourceName": null,
+          "sourceDetail": null
+        },
+        {
+          "id": "s7",
+          "text": null,
+          "type": "fact",
+          "sourceType": null,
+          "sourceName": null,
+          "sourceDetail": null
+        },
+        {
+          "id": "s8",
+          "text": null,
+          "type": "fact",
+          "sourceType": null,
+          "sourceName": null,
+          "sourceDetail": null
+        },
+        {
+          "id": "s9",
+          "text": null,
+          "type": "fact",
+          "sourceType": null,
+          "sourceName": null,
+          "sourceDetail": null
+        },
+        {
+          "id": "s10",
+          "text": null,
+          "type": "fact",
+          "sourceType": null,
+          "sourceName": null,
+          "sourceDetail": null
+        },
+        {
+          "id": "s11",
+          "text": null,
+          "type": "fact",
+          "sourceType": null,
+          "sourceName": null,
+          "sourceDetail": null
+        }
+      ],
+      "framingTerms": [
+        {
+          "term": "강행",
+          "sentenceId": "s5"
+        },
+        {
+          "term": "논란",
+          "sentenceId": "s7"
+        }
+      ],
+      "missingViewpoints": []
+    },
+    {
+      "id": "N03",
+      "issueId": "issue-01",
+      "outletId": "tvchosun",
+      "title": "與, 당내·정부 이견에도 '조작기소 특검법' 강행…野 \"결국 공소취소용...",
+      "summary": "한다만다 논란이 많던 이른바 '조작기소 특검법'이 민주당 주도로 국회 처리를 앞두고 있습니다. 이재명 대통령 관련 사건을 포함해 검찰의 조작기소 여부를 수사하는 게 목적인데, 내일 본회의에 바로 상정될 예정입니다....",
+      "url": "https://news.tvchosun.com/site/data/html_dir/2026/11/04/2026110490256.html",
+      "publishedAt": "2026-11-04T21:07:00+09:00",
+      "sentences": [
+        {
+          "id": "s1",
+          "text": null,
+          "type": "fact",
+          "sourceType": null,
+          "sourceName": null,
+          "sourceDetail": null
+        },
+        {
+          "id": "s2",
+          "text": null,
+          "type": "fact",
+          "sourceType": null,
+          "sourceName": null,
+          "sourceDetail": null
+        },
+        {
+          "id": "s3",
+          "text": null,
+          "type": "fact",
+          "sourceType": null,
+          "sourceName": null,
+          "sourceDetail": null
+        },
+        {
+          "id": "s4",
+          "text": "네, 조금 전 전체회의가 열려 현재 진행 중인데, 곧 민주당 주도로 강행…",
+          "type": "opinion",
+          "sourceType": null,
+          "sourceName": null,
+          "sourceDetail": null
+        },
+        {
+          "id": "s5",
+          "text": null,
+          "type": "fact",
+          "sourceType": null,
+          "sourceName": null,
+          "sourceDetail": null
+        },
+        {
+          "id": "s6",
+          "text": null,
+          "type": "fact",
+          "sourceType": null,
+          "sourceName": null,
+          "sourceDetail": null
+        },
+        {
+          "id": "s7",
+          "text": null,
+          "type": "fact",
+          "sourceType": null,
+          "sourceName": null,
+          "sourceDetail": null
+        },
+        {
+          "id": "s8",
+          "text": "국민의힘에선 안건조정을 신청해 저지에 나섰지만, 결국 강행처리가 될 걸로…",
+          "type": "opinion",
+          "sourceType": null,
+          "sourceName": null,
+          "sourceDetail": null
+        },
+        {
+          "id": "s9",
+          "text": null,
+          "type": "fact",
+          "sourceType": null,
+          "sourceName": null,
+          "sourceDetail": null
+        },
+        {
+          "id": "s10",
+          "text": null,
+          "type": "quote",
+          "sourceType": "opp",
+          "sourceName": "국힘의힘",
+          "sourceDetail": null
+        },
+        {
+          "id": "s11",
+          "text": null,
+          "type": "quote",
+          "sourceType": "opp",
+          "sourceName": "김승수 국민의힘 의원",
+          "sourceDetail": null
+        },
+        {
+          "id": "s12",
+          "text": null,
+          "type": "fact",
+          "sourceType": null,
+          "sourceName": null,
+          "sourceDetail": null
+        },
+        {
+          "id": "s13",
+          "text": null,
+          "type": "quote",
+          "sourceType": "opp",
+          "sourceName": "국민의힘",
+          "sourceDetail": null
+        },
+        {
+          "id": "s14",
+          "text": null,
+          "type": "fact",
+          "sourceType": null,
+          "sourceName": null,
+          "sourceDetail": null
+        }
+      ],
+      "framingTerms": [
+        {
+          "term": "논란",
+          "sentenceId": "s1"
+        },
+        {
+          "term": "속전속결",
+          "sentenceId": "s3"
+        },
+        {
+          "term": "강행처리",
+          "sentenceId": "s4"
+        },
+        {
+          "term": "논란",
+          "sentenceId": "s7"
+        },
+        {
+          "term": "강행처리",
+          "sentenceId": "s8"
+        }
+      ],
+      "missingViewpoints": [
+        {
+          "sourceType": "gov",
+          "description": "정부·여당 인용 없음 (같은 이슈의 다른 기사에는 있습니다)",
+          "foundInArticleIds": [
+            "N01",
+            "N02",
+            "N04",
+            "N05"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "N04",
+      "issueId": "issue-01",
+      "outletId": "joongang",
+      "title": "조작기소특검법 법사위 통과…野 “본회의 상정 땐 모든 안건 필버”",
+      "summary": "민주당은 5일 본회의에서 조작기소특검법을 처리한다는 방침이다. 다만 이날 오후 국회의장 주재 여야 원내대표 회동에서 의사일정 합의가 불발됐다. 한병도 민주당 원내대표는 “조작기소 특검법과 민주유공자법 등 6개...",
+      "url": "https://www.joongang.co.kr/article/25475810",
+      "publishedAt": "2026-11-04T21:24:00+09:00",
+      "sentences": [
+        {
+          "id": "s1",
+          "text": null,
+          "type": "fact",
+          "sourceType": null,
+          "sourceName": null,
+          "sourceDetail": null
+        },
+        {
+          "id": "s2",
+          "text": null,
+          "type": "fact",
+          "sourceType": null,
+          "sourceName": null,
+          "sourceDetail": null
+        },
+        {
+          "id": "s3",
+          "text": null,
+          "type": "fact",
+          "sourceType": null,
+          "sourceName": null,
+          "sourceDetail": null
+        },
+        {
+          "id": "s4",
+          "text": null,
+          "type": "quote",
+          "sourceType": "gov",
+          "sourceName": "서영교 법사위원장",
+          "sourceDetail": null
+        },
+        {
+          "id": "s5",
+          "text": null,
+          "type": "quote",
+          "sourceType": "opp",
+          "sourceName": "국민의힘",
+          "sourceDetail": null
+        },
+        {
+          "id": "s6",
+          "text": null,
+          "type": "quote",
+          "sourceType": "opp",
+          "sourceName": "주진우 국민의힘 의원",
+          "sourceDetail": null
+        },
+        {
+          "id": "s7",
+          "text": null,
+          "type": "quote",
+          "sourceType": "opp",
+          "sourceName": "김민전 국민의힘 의원",
+          "sourceDetail": null
+        },
+        {
+          "id": "s8",
+          "text": null,
+          "type": "quote",
+          "sourceType": "gov",
+          "sourceName": "서영교 법사위원장",
+          "sourceDetail": null
+        },
+        {
+          "id": "s9",
+          "text": null,
+          "type": "fact",
+          "sourceType": null,
+          "sourceName": null,
+          "sourceDetail": null
+        },
+        {
+          "id": "s10",
+          "text": null,
+          "type": "quote",
+          "sourceType": "gov",
+          "sourceName": "이재명 대통령",
+          "sourceDetail": null
+        },
+        {
+          "id": "s11",
+          "text": null,
+          "type": "fact",
+          "sourceType": null,
+          "sourceName": null,
+          "sourceDetail": null
+        },
+        {
+          "id": "s12",
+          "text": null,
+          "type": "quote",
+          "sourceType": "gov",
+          "sourceName": "김의겸 민주당 법사위 간사",
+          "sourceDetail": null
+        },
+        {
+          "id": "s13",
+          "text": null,
+          "type": "fact",
+          "sourceType": null,
+          "sourceName": null,
+          "sourceDetail": null
+        },
+        {
+          "id": "s14",
+          "text": null,
+          "type": "fact",
+          "sourceType": null,
+          "sourceName": null,
+          "sourceDetail": null
+        },
+        {
+          "id": "s15",
+          "text": null,
+          "type": "fact",
+          "sourceType": null,
+          "sourceName": null,
+          "sourceDetail": null
+        },
+        {
+          "id": "s16",
+          "text": null,
+          "type": "fact",
+          "sourceType": null,
+          "sourceName": null,
+          "sourceDetail": null
+        },
+        {
+          "id": "s17",
+          "text": null,
+          "type": "quote",
+          "sourceType": "gov",
+          "sourceName": "김의겸 민주당 법사위 간사",
+          "sourceDetail": null
+        },
+        {
+          "id": "s18",
+          "text": null,
+          "type": "quote",
+          "sourceType": "opp",
+          "sourceName": "국민의힘",
+          "sourceDetail": null
+        },
+        {
+          "id": "s19",
+          "text": null,
+          "type": "quote",
+          "sourceType": "opp",
+          "sourceName": "곽규택 의원",
+          "sourceDetail": null
+        },
+        {
+          "id": "s20",
+          "text": null,
+          "type": "quote",
+          "sourceType": "opp",
+          "sourceName": "박형수 의원",
+          "sourceDetail": null
+        },
+        {
+          "id": "s21",
+          "text": null,
+          "type": "quote",
+          "sourceType": "opp",
+          "sourceName": "박형수 의원",
+          "sourceDetail": null
+        },
+        {
+          "id": "s22",
+          "text": null,
+          "type": "fact",
+          "sourceType": null,
+          "sourceName": null,
+          "sourceDetail": null
+        },
+        {
+          "id": "s23",
+          "text": null,
+          "type": "fact",
+          "sourceType": null,
+          "sourceName": null,
+          "sourceDetail": null
+        },
+        {
+          "id": "s24",
+          "text": null,
+          "type": "quote",
+          "sourceType": "gov",
+          "sourceName": "한병도 민주당 원내대표",
+          "sourceDetail": null
+        },
+        {
+          "id": "s25",
+          "text": null,
+          "type": "quote",
+          "sourceType": "opp",
+          "sourceName": "정점식 국민의힘 원내대표",
+          "sourceDetail": null
+        }
+      ],
+      "framingTerms": [],
+      "missingViewpoints": []
+    },
+    {
+      "id": "N05",
+      "issueId": "issue-01",
+      "outletId": "segye",
+      "title": "‘조작기소 특검법’ 법사위 문턱 넘어… 野 “李 죄 없애기 법” 반발",
+      "summary": "위한 ‘조작기소 특검법’이 4일 더불어민주당 주도로 국회 법제사법위원회 전체회의를 통과했다. 민주당이 특검법 처리를 당론으로 채택한 지 하루 만이다. 국민의힘은 특검 자체가 이재명 대통령의 재판에 영향을...",
+      "url": "https://www.segye.com/newsView/20261104517954?OutUrl=naver",
+      "publishedAt": "2026-11-04T18:42:00+09:00",
+      "sentences": [
+        {
+          "id": "s1",
+          "text": null,
+          "type": "fact",
+          "sourceType": null,
+          "sourceName": null,
+          "sourceDetail": null
+        },
+        {
+          "id": "s2",
+          "text": null,
+          "type": "fact",
+          "sourceType": null,
+          "sourceName": null,
+          "sourceDetail": null
+        },
+        {
+          "id": "s3",
+          "text": null,
+          "type": "quote",
+          "sourceType": "opp",
+          "sourceName": "국민의힘",
+          "sourceDetail": null
+        },
+        {
+          "id": "s4",
+          "text": "민주당은 5일 본회의 상정을 추진하고, 국민의힘은 당일 상정되는 모든 법…",
+          "type": "opinion",
+          "sourceType": null,
+          "sourceName": null,
+          "sourceDetail": null
+        },
+        {
+          "id": "s5",
+          "text": null,
+          "type": "fact",
+          "sourceType": null,
+          "sourceName": null,
+          "sourceDetail": null
+        },
+        {
+          "id": "s6",
+          "text": null,
+          "type": "fact",
+          "sourceType": null,
+          "sourceName": null,
+          "sourceDetail": null
+        },
+        {
+          "id": "s7",
+          "text": null,
+          "type": "fact",
+          "sourceType": null,
+          "sourceName": null,
+          "sourceDetail": null
+        },
+        {
+          "id": "s8",
+          "text": null,
+          "type": "fact",
+          "sourceType": null,
+          "sourceName": null,
+          "sourceDetail": null
+        },
+        {
+          "id": "s9",
+          "text": null,
+          "type": "fact",
+          "sourceType": null,
+          "sourceName": null,
+          "sourceDetail": null
+        },
+        {
+          "id": "s10",
+          "text": null,
+          "type": "quote",
+          "sourceType": "opp",
+          "sourceName": "국민의힘 간사 박형수 의원",
+          "sourceDetail": null
+        },
+        {
+          "id": "s11",
+          "text": null,
+          "type": "quote",
+          "sourceType": "gov",
+          "sourceName": "민주당 간사 김의겸 의원",
+          "sourceDetail": null
+        },
+        {
+          "id": "s12",
+          "text": null,
+          "type": "quote",
+          "sourceType": "opp",
+          "sourceName": "국민의힘 법사위원",
+          "sourceDetail": null
+        },
+        {
+          "id": "s13",
+          "text": null,
+          "type": "quote",
+          "sourceType": "opp",
+          "sourceName": "장동혁 대표",
+          "sourceDetail": null
+        },
+        {
+          "id": "s14",
+          "text": null,
+          "type": "fact",
+          "sourceType": null,
+          "sourceName": null,
+          "sourceDetail": null
+        },
+        {
+          "id": "s15",
+          "text": null,
+          "type": "fact",
+          "sourceType": null,
+          "sourceName": null,
+          "sourceDetail": null
+        },
+        {
+          "id": "s16",
+          "text": null,
+          "type": "fact",
+          "sourceType": null,
+          "sourceName": null,
+          "sourceDetail": null
+        },
+        {
+          "id": "s17",
+          "text": "특검에 공소취소 권한을 부여하는 것으로 해석될 소지를 없애려는 취지다.",
+          "type": "opinion",
+          "sourceType": null,
+          "sourceName": null,
+          "sourceDetail": null
+        },
+        {
+          "id": "s18",
+          "text": null,
+          "type": "fact",
+          "sourceType": null,
+          "sourceName": null,
+          "sourceDetail": null
+        },
+        {
+          "id": "s19",
+          "text": null,
+          "type": "fact",
+          "sourceType": null,
+          "sourceName": null,
+          "sourceDetail": null
+        },
+        {
+          "id": "s20",
+          "text": null,
+          "type": "fact",
+          "sourceType": null,
+          "sourceName": null,
+          "sourceDetail": null
+        },
+        {
+          "id": "s21",
+          "text": null,
+          "type": "fact",
+          "sourceType": null,
+          "sourceName": null,
+          "sourceDetail": null
+        },
+        {
+          "id": "s22",
+          "text": "특히 검찰개혁으로 검사의 수사권을 제한하면서 조작기소 특검에는 종전의 수…",
+          "type": "opinion",
+          "sourceType": null,
+          "sourceName": null,
+          "sourceDetail": null
+        },
+        {
+          "id": "s23",
+          "text": null,
+          "type": "fact",
+          "sourceType": null,
+          "sourceName": null,
+          "sourceDetail": null
+        },
+        {
+          "id": "s24",
+          "text": "검찰 수사권 축소를 추진하는 여당이 특정 특검에는 기존 권한을 보장하는…",
+          "type": "opinion",
+          "sourceType": null,
+          "sourceName": null,
+          "sourceDetail": null
+        },
+        {
+          "id": "s25",
+          "text": null,
+          "type": "fact",
+          "sourceType": null,
+          "sourceName": null,
+          "sourceDetail": null
+        },
+        {
+          "id": "s26",
+          "text": null,
+          "type": "fact",
+          "sourceType": null,
+          "sourceName": null,
+          "sourceDetail": null
+        },
+        {
+          "id": "s27",
+          "text": null,
+          "type": "fact",
+          "sourceType": null,
+          "sourceName": null,
+          "sourceDetail": null
+        }
+      ],
+      "framingTerms": [
+        {
+          "term": "속전속결",
+          "sentenceId": "s5"
+        },
+        {
+          "term": "논란",
+          "sentenceId": "s22"
+        }
+      ],
+      "missingViewpoints": []
+    },
+    {
+      "id": "E01",
+      "issueId": "issue-02",
+      "outletId": "sbs",
+      "title": "'가상자산 과세' 다시 2년 늦춘다…\"손실 3년 이월공제\"",
+      "summary": "이형일 부총리 겸 재정경제부 장관은 오늘(5일) 정부서울청사에서 브리핑을 열고, 가상자산 소득과세를 2년간 유예하는 방안을 국회와 협의해 추진하겠다고 밝혔습니다. 정부는 당초 비트코인을 비롯한 가상자산 거래로...",
+      "url": "https://news.sbs.co.kr/news/endPage.do?news_id=N1008832602&plink=ORI&cooper=NAVER",
+      "publishedAt": "2026-11-05T16:13:00+09:00",
+      "sentences": [
+        {
+          "id": "s1",
+          "text": null,
+          "type": "fact",
+          "sourceType": null,
+          "sourceName": null,
+          "sourceDetail": null
+        },
+        {
+          "id": "s2",
+          "text": null,
+          "type": "quote",
+          "sourceType": "gov",
+          "sourceName": "이형일 부총리 겸 재정경제부 장관",
+          "sourceDetail": null
+        },
+        {
+          "id": "s3",
+          "text": null,
+          "type": "fact",
+          "sourceType": null,
+          "sourceName": null,
+          "sourceDetail": null
+        },
+        {
+          "id": "s4",
+          "text": null,
+          "type": "fact",
+          "sourceType": null,
+          "sourceName": null,
+          "sourceDetail": null
+        },
+        {
+          "id": "s5",
+          "text": null,
+          "type": "fact",
+          "sourceType": null,
+          "sourceName": null,
+          "sourceDetail": null
+        },
+        {
+          "id": "s6",
+          "text": null,
+          "type": "fact",
+          "sourceType": null,
+          "sourceName": null,
+          "sourceDetail": null
+        },
+        {
+          "id": "s7",
+          "text": "과세 시행까지 두 달도 남지 않은 시점에 또다시 유예하기로 하면서 정책의…",
+          "type": "opinion",
+          "sourceType": null,
+          "sourceName": null,
+          "sourceDetail": null
+        },
+        {
+          "id": "s8",
+          "text": null,
+          "type": "quote",
+          "sourceType": "gov",
+          "sourceName": "이형일 부총리 겸 재정경제부 장관",
+          "sourceDetail": null
+        },
+        {
+          "id": "s9",
+          "text": null,
+          "type": "quote",
+          "sourceType": "gov",
+          "sourceName": "정부",
+          "sourceDetail": null
+        },
+        {
+          "id": "s10",
+          "text": null,
+          "type": "fact",
+          "sourceType": null,
+          "sourceName": null,
+          "sourceDetail": null
+        },
+        {
+          "id": "s11",
+          "text": null,
+          "type": "quote",
+          "sourceType": "gov",
+          "sourceName": "정부",
+          "sourceDetail": null
+        },
+        {
+          "id": "s12",
+          "text": null,
+          "type": "fact",
+          "sourceType": null,
+          "sourceName": null,
+          "sourceDetail": null
+        },
+        {
+          "id": "s13",
+          "text": null,
+          "type": "fact",
+          "sourceType": null,
+          "sourceName": null,
+          "sourceDetail": null
+        },
+        {
+          "id": "s14",
+          "text": null,
+          "type": "fact",
+          "sourceType": null,
+          "sourceName": null,
+          "sourceDetail": null
+        },
+        {
+          "id": "s15",
+          "text": null,
+          "type": "fact",
+          "sourceType": null,
+          "sourceName": null,
+          "sourceDetail": null
+        },
+        {
+          "id": "s16",
+          "text": null,
+          "type": "fact",
+          "sourceType": null,
+          "sourceName": null,
+          "sourceDetail": null
+        },
+        {
+          "id": "s17",
+          "text": null,
+          "type": "fact",
+          "sourceType": null,
+          "sourceName": null,
+          "sourceDetail": null
+        },
+        {
+          "id": "s18",
+          "text": null,
+          "type": "fact",
+          "sourceType": null,
+          "sourceName": null,
+          "sourceDetail": null
+        },
+        {
+          "id": "s19",
+          "text": null,
+          "type": "fact",
+          "sourceType": null,
+          "sourceName": null,
+          "sourceDetail": null
+        },
+        {
+          "id": "s20",
+          "text": null,
+          "type": "fact",
+          "sourceType": null,
+          "sourceName": null,
+          "sourceDetail": null
+        },
+        {
+          "id": "s21",
+          "text": null,
+          "type": "fact",
+          "sourceType": null,
+          "sourceName": null,
+          "sourceDetail": null
+        },
+        {
+          "id": "s22",
+          "text": null,
+          "type": "fact",
+          "sourceType": null,
+          "sourceName": null,
+          "sourceDetail": null
+        },
+        {
+          "id": "s23",
+          "text": null,
+          "type": "fact",
+          "sourceType": null,
+          "sourceName": null,
+          "sourceDetail": null
+        },
+        {
+          "id": "s24",
+          "text": null,
+          "type": "fact",
+          "sourceType": null,
+          "sourceName": null,
+          "sourceDetail": null
+        }
+      ],
+      "framingTerms": [],
+      "missingViewpoints": [
+        {
+          "sourceType": "opp",
+          "description": "야당 인용 없음 (같은 이슈의 다른 기사에는 있습니다)",
+          "foundInArticleIds": [
+            "E04"
+          ]
+        },
+        {
+          "sourceType": "expert",
+          "description": "전문가 인용 없음 (같은 이슈의 다른 기사에는 있습니다)",
+          "foundInArticleIds": [
+            "E02",
+            "E05"
+          ]
+        },
+        {
+          "sourceType": "industry",
+          "description": "기업·업계 인용 없음 (같은 이슈의 다른 기사에는 있습니다)",
+          "foundInArticleIds": [
+            "E03"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "E02",
+      "issueId": "issue-02",
+      "outletId": "chosun",
+      "title": "가상자산 과세 2년 늦춘다... 2029년 시행 때 ‘손실 이월공제’ 도입",
+      "summary": "2023·2025년 가상자산 과세가 유예된 것은 2023년 1월부터 모든 주식 투자자를 대상으로 과세하기로 했던 금융투자소득세를 한 차례 유예했다가 결국 폐지한 당시 상황과 맞물려 있다. 주식 양도소득세는 대주주(코스피...",
+      "url": "https://www.chosun.com/economy/economy_general/2026/11/06/C56TCW6ZXJBCTPGTEJYG5IU5NA/?utm_source=naver&utm_medium=referral&utm_campaign=naver-news",
+      "publishedAt": "2026-11-05T16:03:00+09:00",
+      "sentences": [
+        {
+          "id": "s1",
+          "text": null,
+          "type": "quote",
+          "sourceType": "gov",
+          "sourceName": "정부",
+          "sourceDetail": null
+        },
+        {
+          "id": "s2",
+          "text": null,
+          "type": "fact",
+          "sourceType": null,
+          "sourceName": null,
+          "sourceDetail": null
+        },
+        {
+          "id": "s3",
+          "text": "이번 발표로 네 번째 유예가 공식화되면서 정책 신뢰도가 추락하고 있다는…",
+          "type": "opinion",
+          "sourceType": null,
+          "sourceName": null,
+          "sourceDetail": null
+        },
+        {
+          "id": "s4",
+          "text": null,
+          "type": "quote",
+          "sourceType": "expert",
+          "sourceName": "김우철 서울시립대 교수",
+          "sourceDetail": null
+        },
+        {
+          "id": "s5",
+          "text": null,
+          "type": "quote",
+          "sourceType": "gov",
+          "sourceName": "재정경제부",
+          "sourceDetail": null
+        },
+        {
+          "id": "s6",
+          "text": null,
+          "type": "fact",
+          "sourceType": null,
+          "sourceName": null,
+          "sourceDetail": null
+        },
+        {
+          "id": "s7",
+          "text": "그러나 정부가 그간 코인 투자자가 많은 20·30대 청년층 반발 등을 이…",
+          "type": "opinion",
+          "sourceType": null,
+          "sourceName": null,
+          "sourceDetail": null
+        },
+        {
+          "id": "s8",
+          "text": null,
+          "type": "fact",
+          "sourceType": null,
+          "sourceName": null,
+          "sourceDetail": null
+        },
+        {
+          "id": "s9",
+          "text": null,
+          "type": "fact",
+          "sourceType": null,
+          "sourceName": null,
+          "sourceDetail": null
+        },
+        {
+          "id": "s10",
+          "text": null,
+          "type": "quote",
+          "sourceType": "gov",
+          "sourceName": "구윤철 당시 국무조정실장",
+          "sourceDetail": null
+        },
+        {
+          "id": "s11",
+          "text": null,
+          "type": "fact",
+          "sourceType": null,
+          "sourceName": null,
+          "sourceDetail": null
+        },
+        {
+          "id": "s12",
+          "text": null,
+          "type": "fact",
+          "sourceType": null,
+          "sourceName": null,
+          "sourceDetail": null
+        },
+        {
+          "id": "s13",
+          "text": null,
+          "type": "fact",
+          "sourceType": null,
+          "sourceName": null,
+          "sourceDetail": null
+        },
+        {
+          "id": "s14",
+          "text": "정부가 2년 뒤 가상자산 과세 때 도입하기로 한 ‘손실 이월공제’도 논란…",
+          "type": "opinion",
+          "sourceType": null,
+          "sourceName": null,
+          "sourceDetail": null
+        },
+        {
+          "id": "s15",
+          "text": null,
+          "type": "fact",
+          "sourceType": null,
+          "sourceName": null,
+          "sourceDetail": null
+        },
+        {
+          "id": "s16",
+          "text": null,
+          "type": "fact",
+          "sourceType": null,
+          "sourceName": null,
+          "sourceDetail": null
+        },
+        {
+          "id": "s17",
+          "text": null,
+          "type": "fact",
+          "sourceType": null,
+          "sourceName": null,
+          "sourceDetail": null
+        },
+        {
+          "id": "s18",
+          "text": "사실상 세제 혜택이다.",
+          "type": "opinion",
+          "sourceType": null,
+          "sourceName": null,
+          "sourceDetail": null
+        },
+        {
+          "id": "s19",
+          "text": null,
+          "type": "quote",
+          "sourceType": "gov",
+          "sourceName": "재경부",
+          "sourceDetail": null
+        },
+        {
+          "id": "s20",
+          "text": null,
+          "type": "fact",
+          "sourceType": null,
+          "sourceName": null,
+          "sourceDetail": null
+        },
+        {
+          "id": "s21",
+          "text": "이 때문에 투기성 논란이 여전한 가상자산 투자에 이를 적용하는 건 앞뒤가…",
+          "type": "opinion",
+          "sourceType": null,
+          "sourceName": null,
+          "sourceDetail": null
+        },
+        {
+          "id": "s22",
+          "text": null,
+          "type": "fact",
+          "sourceType": null,
+          "sourceName": null,
+          "sourceDetail": null
+        },
+        {
+          "id": "s23",
+          "text": "주식만 해도 대주주 양도차익에 과세하는데, 가상자산은 아예 세금이 없어…",
+          "type": "opinion",
+          "sourceType": null,
+          "sourceName": null,
+          "sourceDetail": null
+        },
+        {
+          "id": "s24",
+          "text": null,
+          "type": "fact",
+          "sourceType": null,
+          "sourceName": null,
+          "sourceDetail": null
+        },
+        {
+          "id": "s25",
+          "text": null,
+          "type": "fact",
+          "sourceType": null,
+          "sourceName": null,
+          "sourceDetail": null
+        },
+        {
+          "id": "s26",
+          "text": null,
+          "type": "fact",
+          "sourceType": null,
+          "sourceName": null,
+          "sourceDetail": null
+        },
+        {
+          "id": "s27",
+          "text": null,
+          "type": "quote",
+          "sourceType": "expert",
+          "sourceName": "배진수 금융연구원 연구위원",
+          "sourceDetail": null
+        }
+      ],
+      "framingTerms": [],
+      "missingViewpoints": [
+        {
+          "sourceType": "opp",
+          "description": "야당 인용 없음 (같은 이슈의 다른 기사에는 있습니다)",
+          "foundInArticleIds": [
+            "E04"
+          ]
+        },
+        {
+          "sourceType": "industry",
+          "description": "기업·업계 인용 없음 (같은 이슈의 다른 기사에는 있습니다)",
+          "foundInArticleIds": [
+            "E03"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "E03",
+      "issueId": "issue-02",
+      "outletId": "mk",
+      "title": "“코인으로 1000만원 잃었는데 세금공제 없나요”…앞으로 3년까지 손실...",
+      "summary": "이형일 부총리 겸 재정경제부 장관은 5일 정부서울청사에서 브리핑을 하며 가상자산 소득과세를 2년간 유예하는 방안을 국회와 협의해 추진하겠다고 밝혔다. 당초 정부는 2027년 1월부터 가상자산 거래로 얻은 차익 중...",
+      "url": "https://www.mk.co.kr/article/12198814",
+      "publishedAt": "2026-11-05T18:58:00+09:00",
+      "sentences": [
+        {
+          "id": "s1",
+          "text": null,
+          "type": "fact",
+          "sourceType": null,
+          "sourceName": null,
+          "sourceDetail": null
+        },
+        {
+          "id": "s2",
+          "text": null,
+          "type": "fact",
+          "sourceType": null,
+          "sourceName": null,
+          "sourceDetail": null
+        },
+        {
+          "id": "s3",
+          "text": null,
+          "type": "fact",
+          "sourceType": null,
+          "sourceName": null,
+          "sourceDetail": null
+        },
+        {
+          "id": "s4",
+          "text": "하지만 2022년 1월 시행하기로 했다가 투자자 반발, 준비 미흡 등으로…",
+          "type": "opinion",
+          "sourceType": null,
+          "sourceName": null,
+          "sourceDetail": null
+        },
+        {
+          "id": "s5",
+          "text": null,
+          "type": "quote",
+          "sourceType": "gov",
+          "sourceName": "이형일 부총리 겸 재정경제부 장관",
+          "sourceDetail": null
+        },
+        {
+          "id": "s6",
+          "text": null,
+          "type": "fact",
+          "sourceType": null,
+          "sourceName": null,
+          "sourceDetail": null
+        },
+        {
+          "id": "s7",
+          "text": "투자자에게 가장 중요한 변화는 가상자산 과세 때 도입하기로 한 최장 3년…",
+          "type": "opinion",
+          "sourceType": null,
+          "sourceName": null,
+          "sourceDetail": null
+        },
+        {
+          "id": "s8",
+          "text": null,
+          "type": "fact",
+          "sourceType": null,
+          "sourceName": null,
+          "sourceDetail": null
+        },
+        {
+          "id": "s9",
+          "text": null,
+          "type": "fact",
+          "sourceType": null,
+          "sourceName": null,
+          "sourceDetail": null
+        },
+        {
+          "id": "s10",
+          "text": null,
+          "type": "fact",
+          "sourceType": null,
+          "sourceName": null,
+          "sourceDetail": null
+        },
+        {
+          "id": "s11",
+          "text": null,
+          "type": "fact",
+          "sourceType": null,
+          "sourceName": null,
+          "sourceDetail": null
+        },
+        {
+          "id": "s12",
+          "text": null,
+          "type": "fact",
+          "sourceType": null,
+          "sourceName": null,
+          "sourceDetail": null
+        },
+        {
+          "id": "s13",
+          "text": null,
+          "type": "fact",
+          "sourceType": null,
+          "sourceName": null,
+          "sourceDetail": null
+        },
+        {
+          "id": "s14",
+          "text": null,
+          "type": "fact",
+          "sourceType": null,
+          "sourceName": null,
+          "sourceDetail": null
+        },
+        {
+          "id": "s15",
+          "text": null,
+          "type": "fact",
+          "sourceType": null,
+          "sourceName": null,
+          "sourceDetail": null
+        },
+        {
+          "id": "s16",
+          "text": null,
+          "type": "fact",
+          "sourceType": null,
+          "sourceName": null,
+          "sourceDetail": null
+        },
+        {
+          "id": "s17",
+          "text": null,
+          "type": "quote",
+          "sourceType": "gov",
+          "sourceName": "이형일 부총리 겸 재정경제부 장관",
+          "sourceDetail": null
+        },
+        {
+          "id": "s18",
+          "text": null,
+          "type": "fact",
+          "sourceType": null,
+          "sourceName": null,
+          "sourceDetail": null
+        },
+        {
+          "id": "s19",
+          "text": null,
+          "type": "fact",
+          "sourceType": null,
+          "sourceName": null,
+          "sourceDetail": null
+        },
+        {
+          "id": "s20",
+          "text": null,
+          "type": "fact",
+          "sourceType": null,
+          "sourceName": null,
+          "sourceDetail": null
+        },
+        {
+          "id": "s21",
+          "text": null,
+          "type": "quote",
+          "sourceType": "gov",
+          "sourceName": "조만희 재경부 세제실장",
+          "sourceDetail": null
+        },
+        {
+          "id": "s22",
+          "text": null,
+          "type": "fact",
+          "sourceType": null,
+          "sourceName": null,
+          "sourceDetail": null
+        },
+        {
+          "id": "s23",
+          "text": "법 개정이 필요한 사안으로 국회 문턱이 남았지만, 여당이 다수당인 현재…",
+          "type": "opinion",
+          "sourceType": null,
+          "sourceName": null,
+          "sourceDetail": null
+        },
+        {
+          "id": "s24",
+          "text": null,
+          "type": "quote",
+          "sourceType": "industry",
+          "sourceName": "기업·업계",
+          "sourceDetail": null
+        },
+        {
+          "id": "s25",
+          "text": null,
+          "type": "fact",
+          "sourceType": null,
+          "sourceName": null,
+          "sourceDetail": null
+        },
+        {
+          "id": "s26",
+          "text": "이에 거래내역을 취합해 손익을 계산하는 데 더 많은 시간과 비용이 들어…",
+          "type": "opinion",
+          "sourceType": null,
+          "sourceName": null,
+          "sourceDetail": null
+        },
+        {
+          "id": "s27",
+          "text": null,
+          "type": "fact",
+          "sourceType": null,
+          "sourceName": null,
+          "sourceDetail": null
+        },
+        {
+          "id": "s28",
+          "text": null,
+          "type": "fact",
+          "sourceType": null,
+          "sourceName": null,
+          "sourceDetail": null
+        },
+        {
+          "id": "s29",
+          "text": null,
+          "type": "fact",
+          "sourceType": null,
+          "sourceName": null,
+          "sourceDetail": null
+        },
+        {
+          "id": "s30",
+          "text": null,
+          "type": "fact",
+          "sourceType": null,
+          "sourceName": null,
+          "sourceDetail": null
+        },
+        {
+          "id": "s31",
+          "text": null,
+          "type": "fact",
+          "sourceType": null,
+          "sourceName": null,
+          "sourceDetail": null
+        },
+        {
+          "id": "s32",
+          "text": null,
+          "type": "quote",
+          "sourceType": "industry",
+          "sourceName": "가상자산 업계 관계자",
+          "sourceDetail": null
+        }
+      ],
+      "framingTerms": [],
+      "missingViewpoints": [
+        {
+          "sourceType": "opp",
+          "description": "야당 인용 없음 (같은 이슈의 다른 기사에는 있습니다)",
+          "foundInArticleIds": [
+            "E04"
+          ]
+        },
+        {
+          "sourceType": "expert",
+          "description": "전문가 인용 없음 (같은 이슈의 다른 기사에는 있습니다)",
+          "foundInArticleIds": [
+            "E02",
+            "E05"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "E04",
+      "issueId": "issue-02",
+      "outletId": "mt",
+      "title": "가상자산 과세 2년 유예…국민의힘 \"투자자들에게 먼저 사과해야\"",
+      "summary": "국민의힘은 정부의 가상자산 과세 2년 유예 추진 방침에 환영의 뜻을 밝히면서도 \"정부·여당은 정책 혼선으로 불안을 겪은 투자자들에게 먼저 사과해야 한다\"고 촉구했다. 국회 재정경제기획위원회 소속 국민의힘...",
+      "url": "https://www.mt.co.kr/politics/2026/11/05/2026110516262534410",
+      "publishedAt": "2026-11-05T17:28:00+09:00",
+      "sentences": [
+        {
+          "id": "s1",
+          "text": null,
+          "type": "quote",
+          "sourceType": "opp",
+          "sourceName": "국민의힘",
+          "sourceDetail": null
+        },
+        {
+          "id": "s2",
+          "text": null,
+          "type": "quote",
+          "sourceType": "opp",
+          "sourceName": "국회 재정경제기획위원회 소속 국민의힘 의원들",
+          "sourceDetail": null
+        },
+        {
+          "id": "s3",
+          "text": null,
+          "type": "fact",
+          "sourceType": null,
+          "sourceName": null,
+          "sourceDetail": null
+        },
+        {
+          "id": "s4",
+          "text": null,
+          "type": "fact",
+          "sourceType": null,
+          "sourceName": null,
+          "sourceDetail": null
+        },
+        {
+          "id": "s5",
+          "text": null,
+          "type": "quote",
+          "sourceType": "opp",
+          "sourceName": "국민의힘 재경위원들",
+          "sourceDetail": null
+        },
+        {
+          "id": "s6",
+          "text": null,
+          "type": "quote",
+          "sourceType": "opp",
+          "sourceName": "국민의힘 재경위원들",
+          "sourceDetail": null
+        },
+        {
+          "id": "s7",
+          "text": null,
+          "type": "quote",
+          "sourceType": "opp",
+          "sourceName": "국민의힘 재경위원들",
+          "sourceDetail": null
+        },
+        {
+          "id": "s8",
+          "text": null,
+          "type": "quote",
+          "sourceType": "opp",
+          "sourceName": "국민의힘 재경위원들",
+          "sourceDetail": null
+        },
+        {
+          "id": "s9",
+          "text": null,
+          "type": "quote",
+          "sourceType": "opp",
+          "sourceName": "국민의힘 재경위원들",
+          "sourceDetail": null
+        },
+        {
+          "id": "s10",
+          "text": null,
+          "type": "quote",
+          "sourceType": "opp",
+          "sourceName": "국민의힘 재경위원들",
+          "sourceDetail": null
+        },
+        {
+          "id": "s11",
+          "text": null,
+          "type": "quote",
+          "sourceType": "opp",
+          "sourceName": "국민의힘 재경위원들",
+          "sourceDetail": null
+        },
+        {
+          "id": "s12",
+          "text": null,
+          "type": "quote",
+          "sourceType": "opp",
+          "sourceName": "국민의힘 재경위원들",
+          "sourceDetail": null
+        }
+      ],
+      "framingTerms": [],
+      "missingViewpoints": [
+        {
+          "sourceType": "gov",
+          "description": "정부·여당 인용 없음 (같은 이슈의 다른 기사에는 있습니다)",
+          "foundInArticleIds": [
+            "E01",
+            "E02",
+            "E03",
+            "E05"
+          ]
+        },
+        {
+          "sourceType": "expert",
+          "description": "전문가 인용 없음 (같은 이슈의 다른 기사에는 있습니다)",
+          "foundInArticleIds": [
+            "E02",
+            "E05"
+          ]
+        },
+        {
+          "sourceType": "industry",
+          "description": "기업·업계 인용 없음 (같은 이슈의 다른 기사에는 있습니다)",
+          "foundInArticleIds": [
+            "E03"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "E05",
+      "issueId": "issue-02",
+      "outletId": "edaily",
+      "title": "“코인 과세유예 잘한 결정…과세하려면 주식부터 해야”",
+      "summary": "여당의 가상자산 과세 유예 결정에 대해 “잘한 결정”이라고 평가하면서 이같은 입장을 밝혔다. 오 교수는 기획재정부 세제발전심의위원, 국세청 국세심사위원, 조세심판원 비상임심판관 등을 역임한 조세 전문가다....",
+      "url": "https://www.edaily.co.kr/News/Read?newsId=06031926645642768&mediaCodeNo=257&utm_source=naver&utm_medium=referral&utm_campaign=news_syndication&utm_content=original_article",
+      "publishedAt": "2026-11-05T16:02:00+09:00",
+      "sentences": [
+        {
+          "id": "s1",
+          "text": null,
+          "type": "quote",
+          "sourceType": "expert",
+          "sourceName": "한국조세정책학회 이사장을 맡고 있는 오문성 경희대 경영대학원 세무관리학과 객원교수",
+          "sourceDetail": null
+        },
+        {
+          "id": "s2",
+          "text": null,
+          "type": "quote",
+          "sourceType": "expert",
+          "sourceName": "한국조세정책학회 이사장을 맡고 있는 오문성 경희대 경영대학원 세무관리학과 객원교수",
+          "sourceDetail": null
+        },
+        {
+          "id": "s3",
+          "text": null,
+          "type": "fact",
+          "sourceType": null,
+          "sourceName": null,
+          "sourceDetail": null
+        },
+        {
+          "id": "s4",
+          "text": null,
+          "type": "fact",
+          "sourceType": null,
+          "sourceName": null,
+          "sourceDetail": null
+        },
+        {
+          "id": "s5",
+          "text": null,
+          "type": "fact",
+          "sourceType": null,
+          "sourceName": null,
+          "sourceDetail": null
+        },
+        {
+          "id": "s6",
+          "text": null,
+          "type": "fact",
+          "sourceType": null,
+          "sourceName": null,
+          "sourceDetail": null
+        },
+        {
+          "id": "s7",
+          "text": null,
+          "type": "quote",
+          "sourceType": "gov",
+          "sourceName": "김민석 더불어민주당 대표",
+          "sourceDetail": null
+        },
+        {
+          "id": "s8",
+          "text": null,
+          "type": "quote",
+          "sourceType": "gov",
+          "sourceName": "김민석 더불어민주당 대표",
+          "sourceDetail": null
+        },
+        {
+          "id": "s9",
+          "text": null,
+          "type": "quote",
+          "sourceType": "gov",
+          "sourceName": "이형일 경제부총리 겸 재정경제부 장관",
+          "sourceDetail": null
+        },
+        {
+          "id": "s10",
+          "text": null,
+          "type": "quote",
+          "sourceType": "gov",
+          "sourceName": "이형일 경제부총리 겸 재정경제부 장관",
+          "sourceDetail": null
+        },
+        {
+          "id": "s11",
+          "text": null,
+          "type": "quote",
+          "sourceType": "gov",
+          "sourceName": "이형일 경제부총리 겸 재정경제부 장관",
+          "sourceDetail": null
+        },
+        {
+          "id": "s12",
+          "text": null,
+          "type": "quote",
+          "sourceType": "gov",
+          "sourceName": "이형일 경제부총리 겸 재정경제부 장관",
+          "sourceDetail": null
+        },
+        {
+          "id": "s13",
+          "text": null,
+          "type": "quote",
+          "sourceType": "expert",
+          "sourceName": "한국조세정책학회 이사장을 맡고 있는 오문성 경희대 경영대학원 세무관리학과 객원교수",
+          "sourceDetail": null
+        },
+        {
+          "id": "s14",
+          "text": null,
+          "type": "fact",
+          "sourceType": null,
+          "sourceName": null,
+          "sourceDetail": null
+        },
+        {
+          "id": "s15",
+          "text": null,
+          "type": "quote",
+          "sourceType": "gov",
+          "sourceName": "정부",
+          "sourceDetail": null
+        },
+        {
+          "id": "s16",
+          "text": "이에 같은 소액 투자자라도 주식과 가상자산의 세금이 달라지는 만큼 형평성…",
+          "type": "opinion",
+          "sourceType": null,
+          "sourceName": null,
+          "sourceDetail": null
+        },
+        {
+          "id": "s17",
+          "text": null,
+          "type": "quote",
+          "sourceType": "expert",
+          "sourceName": "한국조세정책학회 이사장을 맡고 있는 오문성 경희대 경영대학원 세무관리학과 객원교수",
+          "sourceDetail": null
+        },
+        {
+          "id": "s18",
+          "text": null,
+          "type": "quote",
+          "sourceType": "expert",
+          "sourceName": "한국조세정책학회 이사장을 맡고 있는 오문성 경희대 경영대학원 세무관리학과 객원교수",
+          "sourceDetail": null
+        },
+        {
+          "id": "s19",
+          "text": null,
+          "type": "quote",
+          "sourceType": "expert",
+          "sourceName": "한국조세정책학회 이사장을 맡고 있는 오문성 경희대 경영대학원 세무관리학과 객원교수",
+          "sourceDetail": null
+        },
+        {
+          "id": "s20",
+          "text": null,
+          "type": "quote",
+          "sourceType": "expert",
+          "sourceName": "국회예산정책처",
+          "sourceDetail": null
+        },
+        {
+          "id": "s21",
+          "text": null,
+          "type": "quote",
+          "sourceType": "expert",
+          "sourceName": "연구진",
+          "sourceDetail": null
+        },
+        {
+          "id": "s22",
+          "text": null,
+          "type": "quote",
+          "sourceType": "expert",
+          "sourceName": "한국조세정책학회 이사장을 맡고 있는 오문성 경희대 경영대학원 세무관리학과 객원교수",
+          "sourceDetail": null
+        },
+        {
+          "id": "s23",
+          "text": null,
+          "type": "quote",
+          "sourceType": "expert",
+          "sourceName": "한국조세정책학회 이사장을 맡고 있는 오문성 경희대 경영대학원 세무관리학과 객원교수",
+          "sourceDetail": null
+        }
+      ],
+      "framingTerms": [],
+      "missingViewpoints": [
+        {
+          "sourceType": "opp",
+          "description": "야당 인용 없음 (같은 이슈의 다른 기사에는 있습니다)",
+          "foundInArticleIds": [
+            "E04"
+          ]
+        },
+        {
+          "sourceType": "industry",
+          "description": "기업·업계 인용 없음 (같은 이슈의 다른 기사에는 있습니다)",
+          "foundInArticleIds": [
+            "E03"
+          ]
+        }
+      ]
+    }
+  ]
+}

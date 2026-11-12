@@ -15,10 +15,12 @@ from pathlib import Path
 
 from app import metrics
 from app.mock_data import ARTICLES, ISSUES, OUTLETS
-from app.schemas import SOURCE_TYPES, NewsData
+from app.schemas import DISPLAY_SOURCE_TYPES, NewsData
 
 OUTPUT = Path(__file__).resolve().parent.parent / "data" / "news.json"
 REAL_OUTPUT = Path(__file__).resolve().parent.parent / "data" / "raw" / "news_실제.json"
+# 저작권 처리가 끝난 같은 내용 (사실·인용 문장 없음) → GitHub에 올려 매일 자동 실행이 합쳐 씀
+CURATED_OUTPUT = Path(__file__).resolve().parent.parent / "data" / "curated.json"
 
 
 def build_news(issues=ISSUES, articles=ARTICLES, outlets=OUTLETS, note=None) -> dict:
@@ -58,7 +60,7 @@ def build_news(issues=ISSUES, articles=ARTICLES, outlets=OUTLETS, note=None) -> 
             "version": "0.1",
             "generatedAt": date.today().isoformat(),
         },
-        "sourceTypes": SOURCE_TYPES,
+        "sourceTypes": DISPLAY_SOURCE_TYPES,
         "outlets": outlets,
         "issues": issues,
         "articles": articles,
@@ -71,7 +73,7 @@ def find_problems(data: dict, need_url: bool = False) -> list[str]:
     """형식은 맞지만 화면에서 깨지거나 이상하게 보일 문제 목록 (없으면 빈 목록)
     need_url: 실제 기사는 모든 기사에 원문 링크가 있어야 함 (시범 운영 저작권 원칙, 11/7)"""
     problems = []
-    type_ids = {t["id"] for t in data["sourceTypes"]}
+    type_ids = {t["id"] for t in data["sourceTypes"]} | {"etc"}  # 기타는 목록엔 없지만 문장에는 쓸 수 있음
     outlet_ids = {o["id"] for o in data["outlets"]}
     issue_ids = {i["id"] for i in data["issues"]}
     articles = {a["id"]: a for a in data["articles"]}
@@ -123,10 +125,11 @@ def find_problems(data: dict, need_url: bool = False) -> list[str]:
             elif s["sourceType"] or s["sourceName"] or s["sourceDetail"]:
                 problems.append(f"{sid}: 인용이 아닌 문장({s['type']})에 출처가 적혀 있음")
         for f in a["framingTerms"]:
-            text = sentence_text.get(f["sentenceId"])
-            if text is None:
+            text = sentence_text.get(f["sentenceId"], False)
+            if text is False:
                 problems.append(f"{where}: 표현 '{f['term']}'의 문장 {f['sentenceId']} 없음")
-            elif f["term"] not in text:
+            elif text is not None and f["term"] not in text and not text.endswith("…"):
+                # 의견 문장은 저작권 때문에 앞 40자만 남기므로(…로 끝남) 뒤쪽 표현은 안 보여도 정상
                 problems.append(f"{where}/{f['sentenceId']}: 표현 '{f['term']}'이 문장에 그대로 없음 (화면 강조 불가)")
         for m in a["missingViewpoints"]:
             if m["sourceType"] not in type_ids:
@@ -135,6 +138,27 @@ def find_problems(data: dict, need_url: bool = False) -> list[str]:
                 if aid not in articles:
                     problems.append(f"{where}: 빠진 관점 근거 기사 {aid} 없음")
     return problems
+
+
+OPINION_MAX = 40  # 11/5 합의: 의견 문장은 앞 40자 + '…'
+
+
+def strip_sentences(sentences: list[dict]) -> None:
+    """문장 목록을 그 자리에서 저작권 처리: 사실·인용은 text=None, 의견은 앞 40자 + '…'"""
+    for s in sentences:
+        if s["type"] != "opinion" or not s["text"]:
+            s["text"] = None
+        elif len(s["text"]) > OPINION_MAX and not s["text"].endswith("…"):
+            s["text"] = s["text"][:OPINION_MAX].rstrip() + "…"
+
+
+def strip_text(data: dict) -> dict:
+    """실제 기사 저작권 처리 (11/5 합의): 사실·인용 문장은 text 를 빼고(null), 의견 문장은 앞 40자 + '…'.
+    라벨(type, sourceType, sourceName)은 그대로라 화면 계산은 똑같이 됨. 검사(find_problems)를 끝낸 뒤에 적용"""
+    data = copy.deepcopy(data)
+    for a in data["articles"]:
+        strip_sentences(a["sentences"])
+    return data
 
 
 def main(argv=None):
@@ -159,8 +183,12 @@ def main(argv=None):
         for p in problems:
             print(" -", p)
         sys.exit(1)
+    if args.종류 == "실제":
+        data = strip_text(data)
     output.parent.mkdir(parents=True, exist_ok=True)
     output.write_text(json.dumps(data, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
+    if args.종류 == "실제":
+        CURATED_OUTPUT.write_text(json.dumps(data, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
     print(f"저장 완료: {output} (이슈 {len(data['issues'])}개, 기사 {len(data['articles'])}건)")
 
 
