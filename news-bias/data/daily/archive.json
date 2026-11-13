@@ -143,6 +143,54 @@
    "category": "경제",
    "date": "2026-11-13",
    "origin": "auto"
+  },
+  {
+   "id": "auto-20261113-11-1",
+   "title": "정부, 경기 판단 '견조한 성장세'로 상향",
+   "summary": "정부는 수출과 투자 증가세를 반영해 경제동향의 경기 판단을 기존 '회복 흐름'에서 '견조한 성장세'로 상향 조정했다. 다만 고유가에 따른 물가 압력과 취약계층의 고용 부진 등 민생 부담은 여전히 남아 있다고 진단했다.",
+   "category": "경제",
+   "date": "2026-11-13",
+   "origin": "auto"
+  },
+  {
+   "id": "auto-20261113-11-2",
+   "title": "은평 전 연인 살해 60대 보복살인 혐의 송치",
+   "summary": "경찰은 스토킹 신고에 앙심을 품고 전 연인을 살해한 60대 남성을 보복살인 등의 혐의로 구속 송치했다. 피의자는 앞서 스토킹 혐의로 신고되어 조치를 받은 뒤 범행을 저질렀다.",
+   "category": "사회",
+   "date": "2026-11-13",
+   "origin": "auto"
+  },
+  {
+   "id": "auto-20261113-11-3",
+   "title": "정부 \"서울 집값 안정세… 내년 1분기까지 4만호 입주\"",
+   "summary": "정부가 제3차 주택공급 정례브리핑을 열고 서울 주택시장 가격 상승 둔화와 매물 증가 등 안정화 지표가 확대되고 있다고 진단했다. 아울러 내년 1분기까지 수도권에서 4만 가구 이상이 입주할 예정이라고 밝혔다.",
+   "category": "경제",
+   "date": "2026-11-13",
+   "origin": "auto"
+  },
+  {
+   "id": "auto-20261113-12-4",
+   "title": "한국갤럽 대통령 지지율 39%",
+   "summary": "한국갤럽 조사 결과 대통령 지지율이 39%로 나타났다. 정당 지지도는 더불어민주당 39%, 국민의힘 26%로 집계됐다.",
+   "category": "정치",
+   "date": "2026-11-13",
+   "origin": "auto"
+  },
+  {
+   "id": "auto-20261113-12-5",
+   "title": "오세훈, 조작기소 특검법 거부권 행사 요구",
+   "summary": "오세훈 서울시장은 국회를 통과한 '조작기소 특검법'에 대해 이재명 대통령이 거부권을 행사해야 한다고 촉구했다. 또한 이용철 방위사업청장의 법무부 장관 후보자 지명에 대해서도 비판 입장을 밝혔다.",
+   "category": "정치",
+   "date": "2026-11-13",
+   "origin": "auto"
+  },
+  {
+   "id": "auto-20261113-12-6",
+   "title": "국민의힘, 이용철 법무장관 후보자 사퇴 촉구",
+   "summary": "국민의힘은 13일 이용철 법무부 장관 후보자에 대해 검찰 수사 및 공판 실무 경험이 없다며 자진 사퇴를 요구했다.",
+   "category": "정치",
+   "date": "2026-11-13",
+   "origin": "auto"
   }
  ],
  "articles": [
@@ -15266,6 +15314,7522 @@
     {
      "term": "전격적으로",
      "sentenceId": "s1"
+    }
+   ],
+   "analyzedBy": "gemini-3.5-flash-lite"
+  },
+  {
+   "id": "a-be5a886d2b",
+   "issueId": "auto-20261113-11-1",
+   "outletId": "yna",
+   "outletName": "연합뉴스",
+   "title": "정부, 경기 판단 '회복 흐름'에서 '견조한 성장세'로 상향(종합)",
+   "summary": "\"수출 큰 폭 증가, 투자 증가세 확대…소비는 완만 개선\" 물가·취약층 고용 어려움 여전…\"AI불확실성, 실물... 물가와 고용 여건은 여전히 어려움이 지속되고 있다. 재경부는 \"중동전쟁에 따른 불확실성이 지속되는...",
+   "url": "https://www.yna.co.kr/view/AKR20261113040251002?input=1195m",
+   "publishedAt": "2026-11-13T11:04:00+09:00",
+   "sentences": [
+    {
+     "id": "s1",
+     "text": null,
+     "type": "quote",
+     "sourceType": "gov",
+     "sourceName": "재경부",
+     "sourceDetail": null
+    },
+    {
+     "id": "s2",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null
+    },
+    {
+     "id": "s3",
+     "text": null,
+     "type": "quote",
+     "sourceType": "gov",
+     "sourceName": "정부",
+     "sourceDetail": null
+    },
+    {
+     "id": "s4",
+     "text": "3분기 성장률과 수출 실적 증가세 등을 반영해 평가를 한 단계 높인 것으…",
+     "type": "opinion",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null
+    },
+    {
+     "id": "s5",
+     "text": null,
+     "type": "quote",
+     "sourceType": "gov",
+     "sourceName": "재정경제부",
+     "sourceDetail": null
+    },
+    {
+     "id": "s6",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null
+    },
+    {
+     "id": "s7",
+     "text": "한국은행이 발표한 3분기 실질 국내총생산(GDP) 성장률(직전분기대비·속…",
+     "type": "opinion",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null
+    },
+    {
+     "id": "s8",
+     "text": null,
+     "type": "quote",
+     "sourceType": "gov",
+     "sourceName": "임홍기 경제분석과장",
+     "sourceDetail": null
+    },
+    {
+     "id": "s9",
+     "text": "성장세의 바탕이 되는 수출은 고공행진을 이어가고 있다.",
+     "type": "opinion",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null
+    },
+    {
+     "id": "s10",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null
+    },
+    {
+     "id": "s11",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null
+    },
+    {
+     "id": "s12",
+     "text": "투자 증가세도 가파르다.",
+     "type": "opinion",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null
+    },
+    {
+     "id": "s13",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null
+    },
+    {
+     "id": "s14",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null
+    },
+    {
+     "id": "s15",
+     "text": "소비는 여전히 개선 속도가 더디다.",
+     "type": "opinion",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null
+    },
+    {
+     "id": "s16",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null
+    },
+    {
+     "id": "s17",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null
+    },
+    {
+     "id": "s18",
+     "text": "10월 카드 국내승인액 증가율은 5.9%로 9월(2.3%)보다 확대됐고,…",
+     "type": "opinion",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null
+    },
+    {
+     "id": "s19",
+     "text": "다만 9월 106.6이었던 소비자심리지수가 10월 들어 105.4로 하락…",
+     "type": "opinion",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null
+    },
+    {
+     "id": "s20",
+     "text": "물가와 고용 여건은 여전히 어려움이 지속되고 있다.",
+     "type": "opinion",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null
+    },
+    {
+     "id": "s21",
+     "text": null,
+     "type": "quote",
+     "sourceType": "gov",
+     "sourceName": "재경부",
+     "sourceDetail": null
+    },
+    {
+     "id": "s22",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null
+    },
+    {
+     "id": "s23",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null
+    },
+    {
+     "id": "s24",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null
+    },
+    {
+     "id": "s25",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null
+    },
+    {
+     "id": "s26",
+     "text": null,
+     "type": "quote",
+     "sourceType": "gov",
+     "sourceName": "재경부",
+     "sourceDetail": null
+    },
+    {
+     "id": "s27",
+     "text": "최근 미국 중간선거 이후 AI 관련 규제 가능성이 거론되는 가운데, 엔비…",
+     "type": "opinion",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null
+    },
+    {
+     "id": "s28",
+     "text": null,
+     "type": "quote",
+     "sourceType": "gov",
+     "sourceName": "임 과장",
+     "sourceDetail": null
+    },
+    {
+     "id": "s29",
+     "text": null,
+     "type": "quote",
+     "sourceType": "gov",
+     "sourceName": "정부",
+     "sourceDetail": null
+    }
+   ],
+   "framingTerms": [
+    {
+     "term": "진단했다",
+     "sentenceId": "s3"
+    },
+    {
+     "term": "풀이된다",
+     "sentenceId": "s4"
+    },
+    {
+     "term": "보인다",
+     "sentenceId": "s7"
+    },
+    {
+     "term": "진단했다",
+     "sentenceId": "s26"
+    },
+    {
+     "term": "보인다",
+     "sentenceId": "s27"
+    }
+   ],
+   "analyzedBy": "gemini-3.5-flash-lite"
+  },
+  {
+   "id": "a-ae56e41875",
+   "issueId": "auto-20261113-11-1",
+   "outletId": "newsis",
+   "outletName": "뉴시스",
+   "title": "'회복 흐름'→'견조한 성장세'…재경부, 경기 판단 상향조정(종합)",
+   "summary": "다만 재경부는 \"중동 전쟁에 따른 불확실성이 지속되는 가운데 고유가에 따른 물가 상승 압력, 취약계층... 고용 시장에선 취업자 수 증가폭이 전월보다 확대됐고, 물가는 전월 대비 상승폭이 축소됐다. 10월 취업자는...",
+   "url": "https://www.newsis.com/view/NISX20261113_0003866813",
+   "publishedAt": "2026-11-13T10:28:00+09:00",
+   "sentences": [
+    {
+     "id": "s1",
+     "text": null,
+     "type": "quote",
+     "sourceType": "gov",
+     "sourceName": "정부·여당",
+     "sourceDetail": null
+    },
+    {
+     "id": "s2",
+     "text": null,
+     "type": "quote",
+     "sourceType": "gov",
+     "sourceName": "정부·여당",
+     "sourceDetail": null
+    },
+    {
+     "id": "s3",
+     "text": null,
+     "type": "quote",
+     "sourceType": "gov",
+     "sourceName": "정부·여당",
+     "sourceDetail": null
+    },
+    {
+     "id": "s4",
+     "text": null,
+     "type": "quote",
+     "sourceType": "gov",
+     "sourceName": "재정경제부",
+     "sourceDetail": null
+    },
+    {
+     "id": "s5",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null
+    },
+    {
+     "id": "s6",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null
+    },
+    {
+     "id": "s7",
+     "text": null,
+     "type": "quote",
+     "sourceType": "gov",
+     "sourceName": "임홍기 재경부 경제분석과장",
+     "sourceDetail": null
+    },
+    {
+     "id": "s8",
+     "text": null,
+     "type": "quote",
+     "sourceType": "gov",
+     "sourceName": "임홍기 재경부 경제분석과장",
+     "sourceDetail": null
+    },
+    {
+     "id": "s9",
+     "text": null,
+     "type": "quote",
+     "sourceType": "gov",
+     "sourceName": "재정경제부",
+     "sourceDetail": null
+    },
+    {
+     "id": "s10",
+     "text": null,
+     "type": "quote",
+     "sourceType": "gov",
+     "sourceName": "재정경제부",
+     "sourceDetail": null
+    },
+    {
+     "id": "s11",
+     "text": null,
+     "type": "quote",
+     "sourceType": "gov",
+     "sourceName": "재정경제부",
+     "sourceDetail": null
+    },
+    {
+     "id": "s12",
+     "text": null,
+     "type": "quote",
+     "sourceType": "gov",
+     "sourceName": "임 과장",
+     "sourceDetail": null
+    },
+    {
+     "id": "s13",
+     "text": null,
+     "type": "quote",
+     "sourceType": "gov",
+     "sourceName": "임 과장",
+     "sourceDetail": null
+    },
+    {
+     "id": "s14",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null
+    },
+    {
+     "id": "s15",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null
+    },
+    {
+     "id": "s16",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null
+    },
+    {
+     "id": "s17",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null
+    },
+    {
+     "id": "s18",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null
+    },
+    {
+     "id": "s19",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null
+    },
+    {
+     "id": "s20",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null
+    },
+    {
+     "id": "s21",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null
+    },
+    {
+     "id": "s22",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null
+    },
+    {
+     "id": "s23",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null
+    },
+    {
+     "id": "s24",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null
+    },
+    {
+     "id": "s25",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null
+    },
+    {
+     "id": "s26",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null
+    },
+    {
+     "id": "s27",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null
+    },
+    {
+     "id": "s28",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null
+    },
+    {
+     "id": "s29",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null
+    },
+    {
+     "id": "s30",
+     "text": null,
+     "type": "quote",
+     "sourceType": "gov",
+     "sourceName": "재경부",
+     "sourceDetail": null
+    }
+   ],
+   "framingTerms": [
+    {
+     "term": "평가했다",
+     "sentenceId": "s4"
+    },
+    {
+     "term": "설명했다",
+     "sentenceId": "s7"
+    },
+    {
+     "term": "부연했다",
+     "sentenceId": "s8"
+    },
+    {
+     "term": "진단했다",
+     "sentenceId": "s9"
+    },
+    {
+     "term": "짚었다",
+     "sentenceId": "s10"
+    },
+    {
+     "term": "밝혔다",
+     "sentenceId": "s11"
+    },
+    {
+     "term": "언급했다",
+     "sentenceId": "s12"
+    },
+    {
+     "term": "전했다",
+     "sentenceId": "s13"
+    }
+   ],
+   "analyzedBy": "gemini-3.5-flash-lite"
+  },
+  {
+   "id": "a-fd5ac2ade4",
+   "issueId": "auto-20261113-11-1",
+   "outletId": "news1",
+   "outletName": "뉴스1",
+   "title": "정부, 경기 평가 '회복'→'성장' 1년만에 상향…\"불확실성은 지속\"(종합...",
+   "summary": "다만 중동전쟁에 따른 불확실성과 고유가에 따른 물가 상승 압력, 취약계층·부문의 어려운 고용 여건 등... 소비자물가는 전년 동월 대비 2.8% 올라 전월(2.9%)보다 상승 폭이 축소됐다. 식료품·에너지 제외...",
+   "url": "https://www.news1.kr/economy/trend/6353011",
+   "publishedAt": "2026-11-13T10:44:00+09:00",
+   "sentences": [
+    {
+     "id": "s1",
+     "text": null,
+     "type": "quote",
+     "sourceType": "gov",
+     "sourceName": "재정경제부",
+     "sourceDetail": null
+    },
+    {
+     "id": "s2",
+     "text": null,
+     "type": "quote",
+     "sourceType": "gov",
+     "sourceName": "임홍기 재경부 경제분석과장",
+     "sourceDetail": null
+    },
+    {
+     "id": "s3",
+     "text": null,
+     "type": "quote",
+     "sourceType": "gov",
+     "sourceName": "임홍기 재경부 경제분석과장",
+     "sourceDetail": null
+    },
+    {
+     "id": "s4",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null
+    },
+    {
+     "id": "s5",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null
+    },
+    {
+     "id": "s6",
+     "text": null,
+     "type": "quote",
+     "sourceType": "gov",
+     "sourceName": "임 과장",
+     "sourceDetail": null
+    },
+    {
+     "id": "s7",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null
+    },
+    {
+     "id": "s8",
+     "text": null,
+     "type": "quote",
+     "sourceType": "gov",
+     "sourceName": "그",
+     "sourceDetail": null
+    }
+   ],
+   "framingTerms": [],
+   "analyzedBy": "gemini-3.5-flash-lite"
+  },
+  {
+   "id": "a-3342488d7d",
+   "issueId": "auto-20261113-11-1",
+   "outletId": "ytn",
+   "outletName": "YTN",
+   "title": "정부, 경기 판단 '회복 흐름'에서 '견조한 성장세'로 상향",
+   "summary": "2% 감소하면서 여전히 부진합니다. 다만 9월 소매판매는 내구재, 준내구재, 비내구재 판매가 모두 늘면서 한 달 전에 비해 대비 3.6% 증가했습니다. 여기에 물가와 고용 여건은 여전히 어려움이 지속되고 있습니다.",
+   "url": "https://www.ytn.co.kr/_ln/0102_202611131102514679",
+   "publishedAt": "2026-11-13T11:02:00+09:00",
+   "sentences": [
+    {
+     "id": "s1",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null
+    },
+    {
+     "id": "s2",
+     "text": null,
+     "type": "quote",
+     "sourceType": "gov",
+     "sourceName": "재정경제부",
+     "sourceDetail": null
+    },
+    {
+     "id": "s3",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null
+    },
+    {
+     "id": "s4",
+     "text": "한국은행이 발표한 3분기 실질 국내총생산 성장률이 전 분기 대비 1.0%…",
+     "type": "opinion",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null
+    },
+    {
+     "id": "s5",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null
+    },
+    {
+     "id": "s6",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null
+    },
+    {
+     "id": "s7",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null
+    },
+    {
+     "id": "s8",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null
+    }
+   ],
+   "framingTerms": [
+    {
+     "term": "긍정적으로 높였습니다",
+     "sentenceId": "s1"
+    },
+    {
+     "term": "영향을 미친 것으로 보입니다",
+     "sentenceId": "s4"
+    },
+    {
+     "term": "부진합니다",
+     "sentenceId": "s5"
+    },
+    {
+     "term": "어려움이 지속되고 있습니다",
+     "sentenceId": "s7"
+    }
+   ],
+   "analyzedBy": "gemini-3.5-flash-lite"
+  },
+  {
+   "id": "a-f2243cc98f",
+   "issueId": "auto-20261113-11-1",
+   "outletId": "tvchosun",
+   "outletName": "TV조선",
+   "title": "정부, 경기 회복에서 '견조한 성장세'로 상향 판단",
+   "summary": "다만 물가와 고용 여건에는 여전히 부담이 남아있다. 10월 소비자물가는 전년 동월 대비 2.8% 상승해 6개월째 3% 안팎의 상승률을 이어갔다. 10월 취업자 수는 13만9,000명 늘어 4개월째 10만 명대 증가를 유지했으나 전월...",
+   "url": "https://news.tvchosun.com/site/data/html_dir/2026/11/13/2026111390114.html",
+   "publishedAt": "2026-11-13T10:38:00+09:00",
+   "sentences": [
+    {
+     "id": "s1",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null
+    },
+    {
+     "id": "s2",
+     "text": null,
+     "type": "quote",
+     "sourceType": "gov",
+     "sourceName": "재정경제부",
+     "sourceDetail": null
+    },
+    {
+     "id": "s3",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null
+    },
+    {
+     "id": "s4",
+     "text": "이는 3분기 실질 국내총생산(GDP) 성장률 속보치가 당초 전망치 0.3…",
+     "type": "opinion",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null
+    },
+    {
+     "id": "s5",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null
+    },
+    {
+     "id": "s6",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null
+    },
+    {
+     "id": "s7",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null
+    },
+    {
+     "id": "s8",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null
+    },
+    {
+     "id": "s9",
+     "text": "다만 물가와 고용 여건에는 여전히 부담이 남아있다.",
+     "type": "opinion",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null
+    },
+    {
+     "id": "s10",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null
+    },
+    {
+     "id": "s11",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null
+    },
+    {
+     "id": "s12",
+     "text": null,
+     "type": "quote",
+     "sourceType": "gov",
+     "sourceName": "재경부",
+     "sourceDetail": null
+    }
+   ],
+   "framingTerms": [
+    {
+     "term": "끌어올렸다",
+     "sentenceId": "s1"
+    },
+    {
+     "term": "수정한",
+     "sentenceId": "s3"
+    },
+    {
+     "term": "해석된다",
+     "sentenceId": "s4"
+    },
+    {
+     "term": "견인했다",
+     "sentenceId": "s6"
+    },
+    {
+     "term": "더딘",
+     "sentenceId": "s8"
+    },
+    {
+     "term": "긍정적",
+     "sentenceId": "s8"
+    },
+    {
+     "term": "부담이 남아있다",
+     "sentenceId": "s9"
+    },
+    {
+     "term": "한파는",
+     "sentenceId": "s11"
+    }
+   ],
+   "analyzedBy": "gemini-3.5-flash-lite"
+  },
+  {
+   "id": "a-a6e61c4023",
+   "issueId": "auto-20261113-11-1",
+   "outletId": "hani",
+   "outletName": "한겨레",
+   "title": "정부 “우리 경제 탄탄한 성장세”…경제동향 평가 ‘상향’",
+   "summary": "다만 정부는 “중동전쟁에 따른 불확실성이 지속되는 가운데 고유가에 따른 물가 상승 압력, 취약계층·부문의 어려운 고용 여건 등 민생 부담은 우려된다”고 봤다. 10월 소비자물가는 전년 동월 대비 2.8% 상승했다....",
+   "url": "https://www.hani.co.kr/arti/economy/economy_general/1287182.html",
+   "publishedAt": "2026-11-13T11:34:00+09:00",
+   "sentences": [
+    {
+     "id": "s1",
+     "text": null,
+     "type": "quote",
+     "sourceType": "gov",
+     "sourceName": "정부",
+     "sourceDetail": null
+    },
+    {
+     "id": "s2",
+     "text": null,
+     "type": "quote",
+     "sourceType": "gov",
+     "sourceName": "재정경제부",
+     "sourceDetail": null
+    },
+    {
+     "id": "s3",
+     "text": "지난 9월과 10월 그린북에서 ‘견조한 경기 회복 흐름’이라고 본 것보다…",
+     "type": "opinion",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null
+    },
+    {
+     "id": "s4",
+     "text": null,
+     "type": "quote",
+     "sourceType": "gov",
+     "sourceName": "재경부 관계자",
+     "sourceDetail": null
+    },
+    {
+     "id": "s5",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null
+    },
+    {
+     "id": "s6",
+     "text": "수출과 투자가 경기 진단 상향을 이끌었다.",
+     "type": "opinion",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null
+    },
+    {
+     "id": "s7",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null
+    },
+    {
+     "id": "s8",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null
+    },
+    {
+     "id": "s9",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null
+    },
+    {
+     "id": "s10",
+     "text": null,
+     "type": "quote",
+     "sourceType": "gov",
+     "sourceName": "정부",
+     "sourceDetail": null
+    },
+    {
+     "id": "s11",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null
+    },
+    {
+     "id": "s12",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null
+    },
+    {
+     "id": "s13",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null
+    },
+    {
+     "id": "s14",
+     "text": null,
+     "type": "quote",
+     "sourceType": "gov",
+     "sourceName": "재경부",
+     "sourceDetail": null
+    },
+    {
+     "id": "s15",
+     "text": null,
+     "type": "quote",
+     "sourceType": "gov",
+     "sourceName": "재경부",
+     "sourceDetail": null
+    }
+   ],
+   "framingTerms": [
+    {
+     "term": "긍정적으로",
+     "sentenceId": "s3"
+    }
+   ],
+   "analyzedBy": "gemini-3.5-flash-lite"
+  },
+  {
+   "id": "a-518a5f29fb",
+   "issueId": "auto-20261113-11-1",
+   "outletId": "hankyung",
+   "outletName": "한국경제",
+   "title": "“사상 첫 수출 1조 달러 눈앞” 정부 낙관론",
+   "summary": "다만 중동전쟁과 고유가에 따른 물가 부담 및 취약계층의 고용 여건은 여전히 불안 요인으로 꼽았다. 13일... 소비자물가 상승률은 2.8%로 전월보다 소폭 둔화했다. 다만 대외 불확실성은 여전하다. 미국 중간선거 이후...",
+   "url": "https://magazine.hankyung.com/business/article/202611134801b",
+   "publishedAt": "2026-11-13T11:06:00+09:00",
+   "sentences": [
+    {
+     "id": "s1",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null
+    },
+    {
+     "id": "s2",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null
+    },
+    {
+     "id": "s3",
+     "text": null,
+     "type": "quote",
+     "sourceType": "gov",
+     "sourceName": "재정경제부",
+     "sourceDetail": null
+    },
+    {
+     "id": "s4",
+     "text": "경기 판단 상향의 주요 배경은 수출과 투자다.",
+     "type": "opinion",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null
+    },
+    {
+     "id": "s5",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null
+    },
+    {
+     "id": "s6",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null
+    },
+    {
+     "id": "s7",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null
+    },
+    {
+     "id": "s8",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null
+    },
+    {
+     "id": "s9",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null
+    },
+    {
+     "id": "s10",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null
+    },
+    {
+     "id": "s11",
+     "text": "다만 대외 불확실성은 여전하다.",
+     "type": "opinion",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null
+    },
+    {
+     "id": "s12",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null
+    },
+    {
+     "id": "s13",
+     "text": null,
+     "type": "quote",
+     "sourceType": "gov",
+     "sourceName": "정부",
+     "sourceDetail": null
+    },
+    {
+     "id": "s14",
+     "text": null,
+     "type": "quote",
+     "sourceType": "gov",
+     "sourceName": "정부",
+     "sourceDetail": null
+    }
+   ],
+   "framingTerms": [
+    {
+     "term": "상향했다",
+     "sentenceId": "s1"
+    },
+    {
+     "term": "불안",
+     "sentenceId": "s2"
+    },
+    {
+     "term": "밝혔다",
+     "sentenceId": "s3"
+    },
+    {
+     "term": "불확실성은",
+     "sentenceId": "s11"
+    },
+    {
+     "term": "우려",
+     "sentenceId": "s12"
+    },
+    {
+     "term": "진단했다",
+     "sentenceId": "s13"
+    }
+   ],
+   "analyzedBy": "gemini-3.5-flash-lite"
+  },
+  {
+   "id": "a-5de68389f3",
+   "issueId": "auto-20261113-11-1",
+   "outletId": "edaily",
+   "outletName": "이데일리",
+   "title": "정부 경기 판단 '회복세→성장세' 상향…\"수출·투자가 이끌어\"",
+   "summary": "다만 고유가에 따른 물가 부담과 취약계층의 고용 부진, 체감 경기와의 괴리는 여전한 과제로 남았다.... 고용과 물가는 민생 부담으로 지목됐다. 10월 취업자는 13만 9000명 늘어 4개월 연속 10만 명대 증가세를...",
+   "url": "https://www.edaily.co.kr/News/Read?newsId=02997926645645392&mediaCodeNo=257&utm_source=naver&utm_medium=referral&utm_campaign=news_syndication&utm_content=original_article",
+   "publishedAt": "2026-11-13T10:17:00+09:00",
+   "sentences": [
+    {
+     "id": "s1",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null
+    },
+    {
+     "id": "s2",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null
+    },
+    {
+     "id": "s3",
+     "text": "다만 고유가에 따른 물가 부담과 취약계층의 고용 부진, 체감 경기와의 괴…",
+     "type": "opinion",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null
+    },
+    {
+     "id": "s4",
+     "text": null,
+     "type": "quote",
+     "sourceType": "gov",
+     "sourceName": "재경부 관계자",
+     "sourceDetail": null
+    },
+    {
+     "id": "s5",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null
+    },
+    {
+     "id": "s6",
+     "text": null,
+     "type": "quote",
+     "sourceType": "gov",
+     "sourceName": "그",
+     "sourceDetail": null
+    },
+    {
+     "id": "s7",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null
+    },
+    {
+     "id": "s8",
+     "text": "소비는 더딘 흐름이다.",
+     "type": "opinion",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null
+    },
+    {
+     "id": "s9",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null
+    },
+    {
+     "id": "s10",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null
+    },
+    {
+     "id": "s11",
+     "text": null,
+     "type": "quote",
+     "sourceType": "gov",
+     "sourceName": "앞선 관계자",
+     "sourceDetail": null
+    },
+    {
+     "id": "s12",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null
+    },
+    {
+     "id": "s13",
+     "text": null,
+     "type": "quote",
+     "sourceType": "gov",
+     "sourceName": "정부",
+     "sourceDetail": null
+    },
+    {
+     "id": "s14",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null
+    },
+    {
+     "id": "s15",
+     "text": null,
+     "type": "quote",
+     "sourceType": "gov",
+     "sourceName": "재경부 관계자",
+     "sourceDetail": null
+    }
+   ],
+   "framingTerms": [
+    {
+     "term": "끌어올렸다",
+     "sentenceId": "s1"
+    },
+    {
+     "term": "부각되면서",
+     "sentenceId": "s14"
+    }
+   ],
+   "analyzedBy": "gemini-3.5-flash-lite"
+  },
+  {
+   "id": "a-4ab76775ce",
+   "issueId": "auto-20261113-11-2",
+   "outletId": "yna",
+   "outletName": "연합뉴스",
+   "title": "은평구서 전연인 스토킹 살인 60대, 보복살인 혐의로 송치",
+   "summary": "법원은 A씨에게 도주의 우려가 있다며 지난 7일 구속영장을 발부했다. 피해 여성은 앞서 2024년 9월부터 총 4차례에 걸쳐 A씨의 스토킹 범죄를 신고했다. 세 번째 신고가 접수된 7월 18일 A씨는 접근금지 잠정조치를...",
+   "url": "https://www.yna.co.kr/view/AKR20261113076100004?input=1195m",
+   "publishedAt": "2026-11-13T11:18:00+09:00",
+   "sentences": [
+    {
+     "id": "s1",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null
+    },
+    {
+     "id": "s2",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null
+    },
+    {
+     "id": "s3",
+     "text": null,
+     "type": "quote",
+     "sourceType": "gov",
+     "sourceName": "서울 은평경찰서",
+     "sourceDetail": null
+    },
+    {
+     "id": "s4",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null
+    },
+    {
+     "id": "s5",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null
+    },
+    {
+     "id": "s6",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null
+    },
+    {
+     "id": "s7",
+     "text": null,
+     "type": "quote",
+     "sourceType": "etc",
+     "sourceName": "A씨",
+     "sourceDetail": "익명(소속 미상)"
+    },
+    {
+     "id": "s8",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null
+    },
+    {
+     "id": "s9",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null
+    },
+    {
+     "id": "s10",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null
+    },
+    {
+     "id": "s11",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null
+    },
+    {
+     "id": "s12",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null
+    },
+    {
+     "id": "s13",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null
+    },
+    {
+     "id": "s14",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null
+    },
+    {
+     "id": "s15",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null
+    }
+   ],
+   "framingTerms": [
+    {
+     "term": "살해한 혐의",
+     "sentenceId": "s2"
+    },
+    {
+     "term": "살해한 혐의",
+     "sentenceId": "s4"
+    },
+    {
+     "term": "스토킹한",
+     "sentenceId": "s6"
+    },
+    {
+     "term": "보복살인",
+     "sentenceId": "s8"
+    },
+    {
+     "term": "스토킹 범죄",
+     "sentenceId": "s10"
+    }
+   ],
+   "analyzedBy": "gemini-3.5-flash-lite"
+  },
+  {
+   "id": "a-ac17b51e0b",
+   "issueId": "auto-20261113-11-2",
+   "outletId": "chosun",
+   "outletName": "조선일보",
+   "title": "‘은평 옛 연인 살해’ 60대 男 구속 송치...‘보복살인’ 혐의",
+   "summary": "A씨를 검거한 서울 마포경찰서는 스토킹처벌법 위반, 폭행, 절도 등의 혐의로 길씨에 대해 구속영장을 신청했으나 검찰이 영장을 불청구했다. 당시 검찰은 폐암 4기인 길씨가 암 수술을 받은 지 얼마 지나지 않아 건강...",
+   "url": "https://www.chosun.com/national/national_general/2026/11/13/D24D77OTPNB2XBENWUPZPNPBLA/?utm_source=naver&utm_medium=referral&utm_campaign=naver-news",
+   "publishedAt": "2026-11-13T10:54:00+09:00",
+   "sentences": [
+    {
+     "id": "s1",
+     "text": null,
+     "type": "quote",
+     "sourceType": "citizen",
+     "sourceName": "주민들",
+     "sourceDetail": null
+    },
+    {
+     "id": "s2",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null
+    },
+    {
+     "id": "s3",
+     "text": null,
+     "type": "quote",
+     "sourceType": "citizen",
+     "sourceName": "이웃들",
+     "sourceDetail": null
+    },
+    {
+     "id": "s4",
+     "text": null,
+     "type": "quote",
+     "sourceType": "expert",
+     "sourceName": "범죄 전문가들",
+     "sourceDetail": null
+    },
+    {
+     "id": "s5",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null
+    },
+    {
+     "id": "s6",
+     "text": null,
+     "type": "quote",
+     "sourceType": "gov",
+     "sourceName": "길씨",
+     "sourceDetail": null
+    },
+    {
+     "id": "s7",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null
+    }
+   ],
+   "framingTerms": [
+    {
+     "term": "살해한",
+     "sentenceId": "s5"
+    }
+   ],
+   "analyzedBy": "gemini-3.5-flash-lite"
+  },
+  {
+   "id": "a-3a2635ba73",
+   "issueId": "auto-20261113-11-2",
+   "outletId": "hani",
+   "outletName": "한겨레",
+   "title": "‘은평구 스토킹 살인’ 60대 남성 구속 송치…보복살인 혐의",
+   "summary": "그러나 당시 검찰은 “피의자가 폐암 4기 환자로 암 수술을 받은 지 얼마 되지 않았고, 혐의를 극구 부인하고 있다”는 이유로 영장을 반려한 바 있다. 이에 경찰은 ㄱ씨를 서울남부구치소에 한달간 유치하고 전자발찌를...",
+   "url": "https://www.hani.co.kr/arti/society/society_general/1287177.html",
+   "publishedAt": "2026-11-13T11:22:00+09:00",
+   "sentences": [
+    {
+     "id": "s1",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null
+    },
+    {
+     "id": "s2",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null
+    },
+    {
+     "id": "s3",
+     "text": null,
+     "type": "quote",
+     "sourceType": "gov",
+     "sourceName": "서울 은평경찰서",
+     "sourceDetail": null
+    },
+    {
+     "id": "s4",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null
+    },
+    {
+     "id": "s5",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null
+    },
+    {
+     "id": "s6",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null
+    },
+    {
+     "id": "s7",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null
+    },
+    {
+     "id": "s8",
+     "text": null,
+     "type": "quote",
+     "sourceType": "etc",
+     "sourceName": "ㄱ씨",
+     "sourceDetail": "익명(소속 미상)"
+    },
+    {
+     "id": "s9",
+     "text": null,
+     "type": "quote",
+     "sourceType": "gov",
+     "sourceName": "경찰",
+     "sourceDetail": null
+    },
+    {
+     "id": "s10",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null
+    },
+    {
+     "id": "s11",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null
+    },
+    {
+     "id": "s12",
+     "text": null,
+     "type": "quote",
+     "sourceType": "gov",
+     "sourceName": "검찰",
+     "sourceDetail": null
+    },
+    {
+     "id": "s13",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null
+    }
+   ],
+   "framingTerms": [
+    {
+     "term": "앙심을 품고",
+     "sentenceId": "s2"
+    },
+    {
+     "term": "앙심을 품고",
+     "sentenceId": "s5"
+    },
+    {
+     "term": "우발적으로 저지른",
+     "sentenceId": "s8"
+    },
+    {
+     "term": "계획적으로",
+     "sentenceId": "s9"
+    },
+    {
+     "term": "극구 부인하고 있다",
+     "sentenceId": "s12"
+    }
+   ],
+   "analyzedBy": "gemini-3.5-flash-lite"
+  },
+  {
+   "id": "a-3e837667f0",
+   "issueId": "auto-20261113-11-2",
+   "outletId": "kmib",
+   "outletName": "국민일보",
+   "title": "스토킹 신고에 앙심 품고 옛 연인 살해한 60대 구속 송치…보복살인 혐...",
+   "summary": "앞서 법원은 지난 7일 A씨에 대해 “도주 염려가 있다”며 구속영장을 발부했다. 경찰 관계자는 “공소청과 적극 협력해 국민의 생명을 위협하는 강력범죄에 엄정히 대응하면서 유족 등 피해자 보호와 지원에도 만전을...",
+   "url": "https://www.kmib.co.kr/article/20261113500256",
+   "publishedAt": "2026-11-13T11:29:00+09:00",
+   "sentences": [
+    {
+     "id": "s1",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null
+    },
+    {
+     "id": "s2",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null
+    },
+    {
+     "id": "s3",
+     "text": null,
+     "type": "quote",
+     "sourceType": "gov",
+     "sourceName": "서울 은평경찰서",
+     "sourceDetail": null
+    },
+    {
+     "id": "s4",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null
+    },
+    {
+     "id": "s5",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null
+    },
+    {
+     "id": "s6",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null
+    },
+    {
+     "id": "s7",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null
+    },
+    {
+     "id": "s8",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null
+    },
+    {
+     "id": "s9",
+     "text": null,
+     "type": "quote",
+     "sourceType": "etc",
+     "sourceName": "A씨",
+     "sourceDetail": "익명(소속 미상)"
+    },
+    {
+     "id": "s10",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null
+    },
+    {
+     "id": "s11",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null
+    },
+    {
+     "id": "s12",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null
+    },
+    {
+     "id": "s13",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null
+    },
+    {
+     "id": "s14",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null
+    },
+    {
+     "id": "s15",
+     "text": null,
+     "type": "quote",
+     "sourceType": "gov",
+     "sourceName": "경찰 관계자",
+     "sourceDetail": null
+    }
+   ],
+   "framingTerms": [],
+   "analyzedBy": "gemini-3.5-flash-lite"
+  },
+  {
+   "id": "a-4cd2dd7034",
+   "issueId": "auto-20261113-11-2",
+   "outletId": "edaily",
+   "outletName": "이데일리",
+   "title": "스토킹 신고에 앙심…은평 옛 연인 살해 60대男 구속송치",
+   "summary": "서울서부지방법원에서 열린 구속 전 피의자 심문(영장실질심사)에 출석하고 있다.(사진= 연합뉴스) 서울... 이후 길씨는 법원의 잠정조치 결정에 따라 지난 7월 23일부터 한 달간 유치장 또는 구치소에 유치됐다. 석방...",
+   "url": "https://www.edaily.co.kr/News/Read?newsId=03332486645645392&mediaCodeNo=257&utm_source=naver&utm_medium=referral&utm_campaign=news_syndication&utm_content=original_article",
+   "publishedAt": "2026-11-13T11:37:00+09:00",
+   "sentences": [
+    {
+     "id": "s1",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null
+    },
+    {
+     "id": "s2",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null
+    },
+    {
+     "id": "s3",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null
+    },
+    {
+     "id": "s4",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null
+    },
+    {
+     "id": "s5",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null
+    },
+    {
+     "id": "s6",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null
+    },
+    {
+     "id": "s7",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null
+    },
+    {
+     "id": "s8",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null
+    },
+    {
+     "id": "s9",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null
+    },
+    {
+     "id": "s10",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null
+    },
+    {
+     "id": "s11",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null
+    },
+    {
+     "id": "s12",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null
+    },
+    {
+     "id": "s13",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null
+    },
+    {
+     "id": "s14",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null
+    },
+    {
+     "id": "s15",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null
+    },
+    {
+     "id": "s16",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null
+    },
+    {
+     "id": "s17",
+     "text": null,
+     "type": "quote",
+     "sourceType": "gov",
+     "sourceName": "경찰 관계자",
+     "sourceDetail": null
+    }
+   ],
+   "framingTerms": [],
+   "analyzedBy": "gemini-3.5-flash-lite"
+  },
+  {
+   "id": "a-7b6fccef73",
+   "issueId": "auto-20261113-11-2",
+   "outletId": "nocutnews",
+   "outletName": "노컷뉴스",
+   "title": "스토킹 신고 앙심 품고 前연인 살해한 60대…보복살인 송치",
+   "summary": "스토킹 혐의로 신고당하자 앙심을 품고 전 연인을 살해한 60대 남성이 보복살인 혐의로 검찰에 넘겨졌다. 서울 은평경찰서는 13일 특정범죄가중처벌법상 보복살인과 스토킹처벌법 위반, 재물손괴 혐의로 남성 A(64)씨를...",
+   "url": "https://www.nocutnews.co.kr/news/6606527?utm_source=naver&utm_medium=article&utm_campaign=20261113113720",
+   "publishedAt": "2026-11-13T11:38:00+09:00",
+   "sentences": [
+    {
+     "id": "s1",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null
+    },
+    {
+     "id": "s2",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null
+    },
+    {
+     "id": "s3",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null
+    },
+    {
+     "id": "s4",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null
+    },
+    {
+     "id": "s5",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null
+    },
+    {
+     "id": "s6",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null
+    },
+    {
+     "id": "s7",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null
+    },
+    {
+     "id": "s8",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null
+    },
+    {
+     "id": "s9",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null
+    },
+    {
+     "id": "s10",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null
+    },
+    {
+     "id": "s11",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null
+    },
+    {
+     "id": "s12",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null
+    },
+    {
+     "id": "s13",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null
+    },
+    {
+     "id": "s14",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null
+    },
+    {
+     "id": "s15",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null
+    },
+    {
+     "id": "s16",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null
+    },
+    {
+     "id": "s17",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null
+    }
+   ],
+   "framingTerms": [],
+   "analyzedBy": "gemini-3.5-flash-lite"
+  },
+  {
+   "id": "a-ca8ca8416d",
+   "issueId": "auto-20261113-11-2",
+   "outletId": "asiae",
+   "outletName": "아시아경제",
+   "title": "'은평 전 연인 살해' 60대 구속 송치…보복살인 혐의로 변경",
+   "summary": "이후 법원의 잠정조치 결정에 따라 A씨는 지난 7월23일부터 한 달간 구치소에 유치됐고, 지난 8월23일 출소한 뒤부터 위치추적 전자장치(전자발찌)를 부착했다. 전자발찌 부착은 지난달 22일 종료됐다. 경찰은 B씨를...",
+   "url": "https://view.asiae.co.kr/article/2026111311103230237",
+   "publishedAt": "2026-11-13T11:29:00+09:00",
+   "sentences": [
+    {
+     "id": "s1",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null
+    },
+    {
+     "id": "s2",
+     "text": null,
+     "type": "quote",
+     "sourceType": "gov",
+     "sourceName": "서울 은평경찰서",
+     "sourceDetail": null
+    },
+    {
+     "id": "s3",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null
+    },
+    {
+     "id": "s4",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null
+    },
+    {
+     "id": "s5",
+     "text": null,
+     "type": "quote",
+     "sourceType": "gov",
+     "sourceName": "경찰",
+     "sourceDetail": null
+    },
+    {
+     "id": "s6",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null
+    },
+    {
+     "id": "s7",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null
+    },
+    {
+     "id": "s8",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null
+    },
+    {
+     "id": "s9",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null
+    },
+    {
+     "id": "s10",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null
+    },
+    {
+     "id": "s11",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null
+    },
+    {
+     "id": "s12",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null
+    },
+    {
+     "id": "s13",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null
+    },
+    {
+     "id": "s14",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null
+    },
+    {
+     "id": "s15",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null
+    },
+    {
+     "id": "s16",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null
+    },
+    {
+     "id": "s17",
+     "text": null,
+     "type": "quote",
+     "sourceType": "etc",
+     "sourceName": "관계자",
+     "sourceDetail": "익명(소속 미상)"
+    },
+    {
+     "id": "s18",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null
+    },
+    {
+     "id": "s19",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null
+    },
+    {
+     "id": "s20",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null
+    },
+    {
+     "id": "s21",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null
+    },
+    {
+     "id": "s22",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null
+    },
+    {
+     "id": "s23",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null
+    }
+   ],
+   "framingTerms": [],
+   "analyzedBy": "gemini-3.5-flash-lite"
+  },
+  {
+   "id": "a-d2b09abfee",
+   "issueId": "auto-20261113-11-2",
+   "outletId": "fnnews",
+   "outletName": "파이낸셜뉴스",
+   "title": "前 연인 살해 60대 '보복살인' 적용 송치…범행 전 17차례 스토킹",
+   "summary": "23일부터 범행 당일까지 17차례에 걸쳐 B씨의 의사에 반해 주거지와 직장 등을 찾아가거나 주변을 배회한 사실을 확인했다. 경찰은 지난 7일 A씨를 구속했다. 당시 법원은 \"도망할 염려가 있다\"며 구속영장을 발부했다.",
+   "url": "https://www.fnnews.com/news/202611131109567757",
+   "publishedAt": "2026-11-13T11:30:00+09:00",
+   "sentences": [
+    {
+     "id": "s1",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null
+    },
+    {
+     "id": "s2",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null
+    },
+    {
+     "id": "s3",
+     "text": null,
+     "type": "quote",
+     "sourceType": "gov",
+     "sourceName": "서울 은평경찰서",
+     "sourceDetail": null
+    },
+    {
+     "id": "s4",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null
+    },
+    {
+     "id": "s5",
+     "text": null,
+     "type": "quote",
+     "sourceType": "etc",
+     "sourceName": "A씨",
+     "sourceDetail": "익명(소속 미상)"
+    },
+    {
+     "id": "s6",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null
+    },
+    {
+     "id": "s7",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null
+    },
+    {
+     "id": "s8",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null
+    },
+    {
+     "id": "s9",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null
+    },
+    {
+     "id": "s10",
+     "text": null,
+     "type": "quote",
+     "sourceType": "etc",
+     "sourceName": "법원",
+     "sourceDetail": "익명(소속 미상)"
+    }
+   ],
+   "framingTerms": [
+    {
+     "term": "판단했다",
+     "sentenceId": "s2"
+    },
+    {
+     "term": "판단해",
+     "sentenceId": "s6"
+    }
+   ],
+   "analyzedBy": "gemini-3.5-flash-lite"
+  },
+  {
+   "id": "a-9a20adb003",
+   "issueId": "auto-20261113-11-3",
+   "outletId": "news1",
+   "outletName": "뉴스1",
+   "title": "국조실 \"서울 집값 상승폭 둔화…수도권 내년 1분기 4만호 이상 입주\"",
+   "summary": "김진 국조실 경제조정실장은 이날 정부서울청사에서 열린 제3차 주택공급 정례브리핑에서 최근... 정부는 '8·13 주택 신속공급 대책'의 제도개선 과제 145건 중 65건을 완료하고, 약 6000호 규모의 8개 사업장...",
+   "url": "https://www.news1.kr/politics/president/6353186",
+   "publishedAt": "2026-11-13T11:50:00+09:00",
+   "sentences": [
+    {
+     "id": "s1",
+     "text": null,
+     "type": "quote",
+     "sourceType": "etc",
+     "sourceName": "익명(소속 미상)",
+     "sourceDetail": "익명(소속 미상)"
+    },
+    {
+     "id": "s2",
+     "text": null,
+     "type": "quote",
+     "sourceType": "etc",
+     "sourceName": "김 실장",
+     "sourceDetail": "익명(소속 미상)"
+    },
+    {
+     "id": "s3",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null
+    },
+    {
+     "id": "s4",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null
+    },
+    {
+     "id": "s5",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null
+    },
+    {
+     "id": "s6",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null
+    },
+    {
+     "id": "s7",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null
+    },
+    {
+     "id": "s8",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null
+    }
+   ],
+   "framingTerms": [
+    {
+     "term": "둔화했다",
+     "sentenceId": "s3"
+    },
+    {
+     "term": "줄어",
+     "sentenceId": "s4"
+    },
+    {
+     "term": "늘었고",
+     "sentenceId": "s5"
+    },
+    {
+     "term": "넘어섰다",
+     "sentenceId": "s5"
+    },
+    {
+     "term": "증가했다",
+     "sentenceId": "s6"
+    },
+    {
+     "term": "증가했다",
+     "sentenceId": "s7"
+    }
+   ],
+   "analyzedBy": "gemini-3.5-flash-lite"
+  },
+  {
+   "id": "a-a2b42227dd",
+   "issueId": "auto-20261113-11-3",
+   "outletId": "hankookilbo",
+   "outletName": "한국일보",
+   "title": "정부, 서울 주택시장 안정화 수순 진단...내년 1분기까지 수도권 4.4만가...",
+   "summary": "정부가 서울 아파트 매매가격 상승세가 둔화하고 매물이 늘어나는 등 부동산 시장의 하향 안정 흐름을 보여주는 지표가 확대되고 있다고 진단했다. 수도권에서는 내년 1분기까지 아파트 4만 가구 이상이 입주할...",
+   "url": "https://www.hankookilbo.com/news/article/A2026111310180004992?did=NA",
+   "publishedAt": "2026-11-13T11:11:00+09:00",
+   "sentences": [
+    {
+     "id": "s1",
+     "text": null,
+     "type": "quote",
+     "sourceType": "gov",
+     "sourceName": "정부",
+     "sourceDetail": null
+    },
+    {
+     "id": "s2",
+     "text": null,
+     "type": "quote",
+     "sourceType": "gov",
+     "sourceName": "정부",
+     "sourceDetail": null
+    },
+    {
+     "id": "s3",
+     "text": null,
+     "type": "quote",
+     "sourceType": "gov",
+     "sourceName": "정부",
+     "sourceDetail": null
+    },
+    {
+     "id": "s4",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null
+    },
+    {
+     "id": "s5",
+     "text": null,
+     "type": "quote",
+     "sourceType": "gov",
+     "sourceName": "정부",
+     "sourceDetail": null
+    },
+    {
+     "id": "s6",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null
+    },
+    {
+     "id": "s7",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null
+    },
+    {
+     "id": "s8",
+     "text": null,
+     "type": "quote",
+     "sourceType": "gov",
+     "sourceName": "국조실 관계자",
+     "sourceDetail": null
+    },
+    {
+     "id": "s9",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null
+    },
+    {
+     "id": "s10",
+     "text": null,
+     "type": "quote",
+     "sourceType": "gov",
+     "sourceName": "정부",
+     "sourceDetail": null
+    },
+    {
+     "id": "s11",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null
+    },
+    {
+     "id": "s12",
+     "text": null,
+     "type": "quote",
+     "sourceType": "gov",
+     "sourceName": "정부",
+     "sourceDetail": null
+    },
+    {
+     "id": "s13",
+     "text": null,
+     "type": "quote",
+     "sourceType": "gov",
+     "sourceName": "정부",
+     "sourceDetail": null
+    },
+    {
+     "id": "s14",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null
+    },
+    {
+     "id": "s15",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null
+    },
+    {
+     "id": "s16",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null
+    },
+    {
+     "id": "s17",
+     "text": null,
+     "type": "quote",
+     "sourceType": "gov",
+     "sourceName": "정부",
+     "sourceDetail": null
+    },
+    {
+     "id": "s18",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null
+    },
+    {
+     "id": "s19",
+     "text": null,
+     "type": "quote",
+     "sourceType": "gov",
+     "sourceName": "국조실 관계자",
+     "sourceDetail": null
+    }
+   ],
+   "framingTerms": [],
+   "analyzedBy": "gemini-3.5-flash-lite"
+  },
+  {
+   "id": "a-0c6dfb3368",
+   "issueId": "auto-20261113-11-3",
+   "outletId": "mt",
+   "outletName": "머니투데이",
+   "title": "정부 \"서울 주택 가격 상승 둔화…수도권 내년 1분기까지 4만호 입주\"",
+   "summary": "정부가 수도권에서 내년 1분기까지 4만호 이상의 주택 입주가 예정돼 있다고 밝혔다. 서울 집값 상승폭이... 김진 국무조정실 경제조정실장은 13일 서울 종로구 정부서울청사에서 열린 '제3차 주택공급 정례브리핑...",
+   "url": "https://www.mt.co.kr/politics/2026/11/13/2026111311004579753",
+   "publishedAt": "2026-11-13T11:46:00+09:00",
+   "sentences": [
+    {
+     "id": "s1",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null
+    },
+    {
+     "id": "s2",
+     "text": "서울 집값 상승폭이 둔화하는 등 시장 안정화 조짐이 나타나는 가운데 3기…",
+     "type": "opinion",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null
+    },
+    {
+     "id": "s3",
+     "text": null,
+     "type": "quote",
+     "sourceType": "gov",
+     "sourceName": "김진 국무조정실 경제조정실장",
+     "sourceDetail": null
+    },
+    {
+     "id": "s4",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null
+    },
+    {
+     "id": "s5",
+     "text": null,
+     "type": "quote",
+     "sourceType": "gov",
+     "sourceName": "김 실장",
+     "sourceDetail": null
+    },
+    {
+     "id": "s6",
+     "text": null,
+     "type": "quote",
+     "sourceType": "gov",
+     "sourceName": "김 실장",
+     "sourceDetail": null
+    },
+    {
+     "id": "s7",
+     "text": null,
+     "type": "quote",
+     "sourceType": "gov",
+     "sourceName": "김 실장",
+     "sourceDetail": null
+    },
+    {
+     "id": "s8",
+     "text": null,
+     "type": "quote",
+     "sourceType": "gov",
+     "sourceName": "김 실장",
+     "sourceDetail": null
+    },
+    {
+     "id": "s9",
+     "text": null,
+     "type": "quote",
+     "sourceType": "gov",
+     "sourceName": "김 실장",
+     "sourceDetail": null
+    },
+    {
+     "id": "s10",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null
+    },
+    {
+     "id": "s11",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null
+    },
+    {
+     "id": "s12",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null
+    },
+    {
+     "id": "s13",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null
+    },
+    {
+     "id": "s14",
+     "text": "주택 공급 기반도 확대되고 있다고 강조했다.",
+     "type": "opinion",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null
+    },
+    {
+     "id": "s15",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null
+    },
+    {
+     "id": "s16",
+     "text": null,
+     "type": "quote",
+     "sourceType": "gov",
+     "sourceName": "김 실장",
+     "sourceDetail": null
+    },
+    {
+     "id": "s17",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null
+    },
+    {
+     "id": "s18",
+     "text": null,
+     "type": "quote",
+     "sourceType": "gov",
+     "sourceName": "김 실장",
+     "sourceDetail": null
+    },
+    {
+     "id": "s19",
+     "text": null,
+     "type": "quote",
+     "sourceType": "gov",
+     "sourceName": "김 실장",
+     "sourceDetail": null
+    },
+    {
+     "id": "s20",
+     "text": null,
+     "type": "quote",
+     "sourceType": "gov",
+     "sourceName": "김 실장",
+     "sourceDetail": null
+    },
+    {
+     "id": "s21",
+     "text": null,
+     "type": "quote",
+     "sourceType": "gov",
+     "sourceName": "김 실장",
+     "sourceDetail": null
+    },
+    {
+     "id": "s22",
+     "text": null,
+     "type": "quote",
+     "sourceType": "gov",
+     "sourceName": "김 실장",
+     "sourceDetail": null
+    },
+    {
+     "id": "s23",
+     "text": null,
+     "type": "quote",
+     "sourceType": "gov",
+     "sourceName": "김 실장",
+     "sourceDetail": null
+    },
+    {
+     "id": "s24",
+     "text": null,
+     "type": "quote",
+     "sourceType": "gov",
+     "sourceName": "김 실장",
+     "sourceDetail": null
+    },
+    {
+     "id": "s25",
+     "text": null,
+     "type": "quote",
+     "sourceType": "gov",
+     "sourceName": "김 실장",
+     "sourceDetail": null
+    }
+   ],
+   "framingTerms": [
+    {
+     "term": "속도를 내겠다는",
+     "sentenceId": "s2"
+    },
+    {
+     "term": "강조했다",
+     "sentenceId": "s14"
+    }
+   ],
+   "analyzedBy": "gemini-3.5-flash-lite"
+  },
+  {
+   "id": "a-45886133b6",
+   "issueId": "auto-20261113-11-3",
+   "outletId": "newspim",
+   "outletName": "뉴스핌",
+   "title": "제3차 주택 공급 정례 브리핑",
+   "summary": "김진 국무조정실 경제조정실장이 13일 서울 종로구 정부서울청사에서 제3차 주택 공급 정례 브리핑을 하고 있다. 이번 브리핑에서는 최근 주택시장 동향과 내년 1분기까지 서울·수도권 입주·분양 (공공임대...",
+   "url": "https://www.newspim.com/news/view/20261113000760",
+   "publishedAt": "2026-11-13T11:51:00+09:00",
+   "sentences": [
+    {
+     "id": "s1",
+     "text": "젠슨 황 스캔들 불똥 튄 백악관?[서울=뉴스핌] 최원진 기자= 젠슨 황…",
+     "type": "opinion",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null
+    },
+    {
+     "id": "s2",
+     "text": null,
+     "type": "quote",
+     "sourceType": "industry",
+     "sourceName": "월스트리트저널(WSJ)",
+     "sourceDetail": null
+    },
+    {
+     "id": "s3",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null
+    },
+    {
+     "id": "s4",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null
+    },
+    {
+     "id": "s5",
+     "text": "러트닉 장관을 향한 압박은 황 전 CEO의 스캔들이 대통령 내각으로까지…",
+     "type": "opinion",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null
+    },
+    {
+     "id": "s6",
+     "text": null,
+     "type": "quote",
+     "sourceType": "etc",
+     "sourceName": "소식통들",
+     "sourceDetail": "익명(소속 미상)"
+    },
+    {
+     "id": "s7",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null
+    },
+    {
+     "id": "s8",
+     "text": null,
+     "type": "quote",
+     "sourceType": "gov",
+     "sourceName": "백악관",
+     "sourceDetail": null
+    },
+    {
+     "id": "s9",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null
+    },
+    {
+     "id": "s10",
+     "text": null,
+     "type": "quote",
+     "sourceType": "etc",
+     "sourceName": "비판론자들",
+     "sourceDetail": "익명(소속 미상)"
+    },
+    {
+     "id": "s11",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null
+    },
+    {
+     "id": "s12",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null
+    },
+    {
+     "id": "s13",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null
+    },
+    {
+     "id": "s14",
+     "text": null,
+     "type": "quote",
+     "sourceType": "industry",
+     "sourceName": "황 전 CEO",
+     "sourceDetail": null
+    },
+    {
+     "id": "s15",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null
+    },
+    {
+     "id": "s16",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null
+    },
+    {
+     "id": "s17",
+     "text": "그럼에도 참모들은 지난해 관세 정책 혼선 등에 대한 기존 불만까지 더해…",
+     "type": "opinion",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null
+    },
+    {
+     "id": "s18",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null
+    },
+    {
+     "id": "s19",
+     "text": null,
+     "type": "quote",
+     "sourceType": "etc",
+     "sourceName": "소식통들",
+     "sourceDetail": "익명(소속 미상)"
+    },
+    {
+     "id": "s20",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null
+    },
+    {
+     "id": "s21",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null
+    },
+    {
+     "id": "s22",
+     "text": "의회의 초당적 압박도 거세지고 있다.",
+     "type": "opinion",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null
+    },
+    {
+     "id": "s23",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null
+    },
+    {
+     "id": "s24",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null
+    },
+    {
+     "id": "s25",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null
+    },
+    {
+     "id": "s26",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null
+    },
+    {
+     "id": "s27",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null
+    },
+    {
+     "id": "s28",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null
+    },
+    {
+     "id": "s29",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null
+    },
+    {
+     "id": "s30",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null
+    },
+    {
+     "id": "s31",
+     "text": null,
+     "type": "quote",
+     "sourceType": "industry",
+     "sourceName": "KB캐피탈",
+     "sourceDetail": null
+    },
+    {
+     "id": "s32",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null
+    },
+    {
+     "id": "s33",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null
+    },
+    {
+     "id": "s34",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null
+    },
+    {
+     "id": "s35",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null
+    },
+    {
+     "id": "s36",
+     "text": null,
+     "type": "quote",
+     "sourceType": "industry",
+     "sourceName": "KB캐피탈",
+     "sourceDetail": null
+    },
+    {
+     "id": "s37",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null
+    },
+    {
+     "id": "s38",
+     "text": null,
+     "type": "quote",
+     "sourceType": "industry",
+     "sourceName": "KB캐피탈",
+     "sourceDetail": null
+    },
+    {
+     "id": "s39",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null
+    },
+    {
+     "id": "s40",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null
+    },
+    {
+     "id": "s41",
+     "text": null,
+     "type": "quote",
+     "sourceType": "industry",
+     "sourceName": "KB캐피탈 측",
+     "sourceDetail": null
+    },
+    {
+     "id": "s42",
+     "text": "우크라이나 안보 지원 강화 기대감으로 방산 수요 증가 직접적.",
+     "type": "opinion",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null
+    },
+    {
+     "id": "s43",
+     "text": "미·러 긴장 완화 불확실성 속에서도 방위산업 매출 안정성 강화 예상됨.",
+     "type": "opinion",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null
+    },
+    {
+     "id": "s44",
+     "text": "우크라이나 전쟁 장기화 시 건설 및 중장비 수요 불확실성 직접적.",
+     "type": "opinion",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null
+    },
+    {
+     "id": "s45",
+     "text": "글로벌 인프라 투자 지연으로 매출 성장 둔화 가능성 있음.",
+     "type": "opinion",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null
+    },
+    {
+     "id": "s46",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null
+    },
+    {
+     "id": "s47",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null
+    },
+    {
+     "id": "s48",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null
+    },
+    {
+     "id": "s49",
+     "text": "주식 투자는 원금 손실 가능성이 있으므로, 투자 전 충분한 조사와 전문가…",
+     "type": "opinion",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null
+    }
+   ],
+   "framingTerms": [
+    {
+     "term": "보도했다",
+     "sentenceId": "s2"
+    },
+    {
+     "term": "논의했다",
+     "sentenceId": "s6"
+    },
+    {
+     "term": "지적한다",
+     "sentenceId": "s10"
+    },
+    {
+     "term": "추궁했다",
+     "sentenceId": "s19"
+    },
+    {
+     "term": "밝혔다",
+     "sentenceId": "s31"
+    },
+    {
+     "term": "밝혔다",
+     "sentenceId": "s36"
+    },
+    {
+     "term": "안내했다",
+     "sentenceId": "s38"
+    },
+    {
+     "term": "사과드린다",
+     "sentenceId": "s41"
+    }
+   ],
+   "analyzedBy": "gemini-3.5-flash-lite"
+  },
+  {
+   "id": "a-5844b9791b",
+   "issueId": "auto-20261113-11-3",
+   "outletId": "etoday",
+   "outletName": "이투데이",
+   "title": "내년 1분기까지 수도권 4만4000가구 입주…정부 \"서울 집값 안정 지표 확...",
+   "summary": "한국부동산원에 따르면 서울 아파트 매매가격 상승률은 7월 1.27%에서 8월 1.05%, 9월 0.74%로 낮아졌다. 9월... 부동산 플랫폼 아실에 따르면 이달 11일 기준 서울 아파트 매매 매물은 8만 건을 넘어서며 올해 초보다 40...",
+   "url": "https://www.etoday.co.kr/news/view/2647824",
+   "publishedAt": "2026-11-13T11:20:00+09:00",
+   "sentences": [
+    {
+     "id": "s1",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null
+    },
+    {
+     "id": "s2",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null
+    },
+    {
+     "id": "s3",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null
+    },
+    {
+     "id": "s4",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null
+    },
+    {
+     "id": "s5",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null
+    },
+    {
+     "id": "s6",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null
+    },
+    {
+     "id": "s7",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null
+    },
+    {
+     "id": "s8",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null
+    },
+    {
+     "id": "s9",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null
+    },
+    {
+     "id": "s10",
+     "text": null,
+     "type": "quote",
+     "sourceType": "gov",
+     "sourceName": "김진 국무조정실 경제조정실장",
+     "sourceDetail": null
+    },
+    {
+     "id": "s11",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null
+    },
+    {
+     "id": "s12",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null
+    },
+    {
+     "id": "s13",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null
+    },
+    {
+     "id": "s14",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null
+    },
+    {
+     "id": "s15",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null
+    },
+    {
+     "id": "s16",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null
+    },
+    {
+     "id": "s17",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null
+    },
+    {
+     "id": "s18",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null
+    },
+    {
+     "id": "s19",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null
+    },
+    {
+     "id": "s20",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null
+    },
+    {
+     "id": "s21",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null
+    },
+    {
+     "id": "s22",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null
+    },
+    {
+     "id": "s23",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null
+    },
+    {
+     "id": "s24",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null
+    },
+    {
+     "id": "s25",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null
+    },
+    {
+     "id": "s26",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null
+    },
+    {
+     "id": "s27",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null
+    },
+    {
+     "id": "s28",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null
+    },
+    {
+     "id": "s29",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null
+    },
+    {
+     "id": "s30",
+     "text": null,
+     "type": "quote",
+     "sourceType": "gov",
+     "sourceName": "관계자",
+     "sourceDetail": null
+    },
+    {
+     "id": "s31",
+     "text": null,
+     "type": "quote",
+     "sourceType": "gov",
+     "sourceName": "금융당국",
+     "sourceDetail": null
+    },
+    {
+     "id": "s32",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null
+    },
+    {
+     "id": "s33",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null
+    },
+    {
+     "id": "s34",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null
+    },
+    {
+     "id": "s35",
+     "text": null,
+     "type": "quote",
+     "sourceType": "gov",
+     "sourceName": "김 실장",
+     "sourceDetail": null
+    },
+    {
+     "id": "s36",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null
+    },
+    {
+     "id": "s37",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null
+    },
+    {
+     "id": "s38",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null
+    },
+    {
+     "id": "s39",
+     "text": null,
+     "type": "quote",
+     "sourceType": "gov",
+     "sourceName": "김 실장",
+     "sourceDetail": null
+    }
+   ],
+   "framingTerms": [
+    {
+     "term": "전망했다",
+     "sentenceId": "s1"
+    },
+    {
+     "term": "예정돼 있다",
+     "sentenceId": "s2"
+    },
+    {
+     "term": "평가했다",
+     "sentenceId": "s3"
+    },
+    {
+     "term": "예정이다",
+     "sentenceId": "s7"
+    },
+    {
+     "term": "예정돼 있다",
+     "sentenceId": "s13"
+    },
+    {
+     "term": "평가했다",
+     "sentenceId": "s19"
+    },
+    {
+     "term": "방침이다",
+     "sentenceId": "s36"
+    },
+    {
+     "term": "계획이다",
+     "sentenceId": "s38"
+    }
+   ],
+   "analyzedBy": "gemini-3.5-flash-lite"
+  },
+  {
+   "id": "a-7b42186d0f",
+   "issueId": "auto-20261113-11-3",
+   "outletId": "yonhapnewstv",
+   "outletName": "연합뉴스TV",
+   "title": "정부 \"서울 집값 하향 안정 지표 확대\"…내년 1분기까지 수도권 4만4천 ...",
+   "summary": "김 실장은 \"수도권 7만7천 가구 규모의 신규 택지 공급계획도 차질 없이 추진하고 주택공급의 속도를 높여 국민이 체감할 수 있는 실질적인 공급 성과를 만들겠다\"고 밝혔습니다. #국무조정실 #부동산 #주택공급",
+   "url": "http://www.yonhapnewstv.co.kr/news/AKR20261113113827Eia",
+   "publishedAt": "2026-11-13T11:39:00+09:00",
+   "sentences": [
+    {
+     "id": "s1",
+     "text": null,
+     "type": "quote",
+     "sourceType": "etc",
+     "sourceName": "익명",
+     "sourceDetail": "익명(소속 미상)"
+    },
+    {
+     "id": "s2",
+     "text": null,
+     "type": "quote",
+     "sourceType": "gov",
+     "sourceName": "정부",
+     "sourceDetail": null
+    },
+    {
+     "id": "s3",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null
+    },
+    {
+     "id": "s4",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null
+    },
+    {
+     "id": "s5",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null
+    },
+    {
+     "id": "s6",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null
+    },
+    {
+     "id": "s7",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null
+    },
+    {
+     "id": "s8",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null
+    },
+    {
+     "id": "s9",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null
+    },
+    {
+     "id": "s10",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null
+    },
+    {
+     "id": "s11",
+     "text": null,
+     "type": "quote",
+     "sourceType": "gov",
+     "sourceName": "정부",
+     "sourceDetail": null
+    },
+    {
+     "id": "s12",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null
+    },
+    {
+     "id": "s13",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null
+    },
+    {
+     "id": "s14",
+     "text": null,
+     "type": "quote",
+     "sourceType": "gov",
+     "sourceName": "정부",
+     "sourceDetail": null
+    },
+    {
+     "id": "s15",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null
+    },
+    {
+     "id": "s16",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null
+    },
+    {
+     "id": "s17",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null
+    },
+    {
+     "id": "s18",
+     "text": null,
+     "type": "quote",
+     "sourceType": "gov",
+     "sourceName": "김진 국무조정실 경제조정실장",
+     "sourceDetail": null
+    },
+    {
+     "id": "s19",
+     "text": null,
+     "type": "quote",
+     "sourceType": "gov",
+     "sourceName": "김 실장",
+     "sourceDetail": null
+    },
+    {
+     "id": "s20",
+     "text": null,
+     "type": "quote",
+     "sourceType": "gov",
+     "sourceName": "김 실장",
+     "sourceDetail": null
+    },
+    {
+     "id": "s21",
+     "text": "당신이 담은 순간이 뉴스입니다!",
+     "type": "opinion",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null
+    }
+   ],
+   "framingTerms": [],
+   "analyzedBy": "gemini-3.5-flash-lite"
+  },
+  {
+   "id": "a-d7017e7dde",
+   "issueId": "auto-20261113-11-3",
+   "outletId": "biz",
+   "outletName": "조선비즈",
+   "title": "내년 1분기까지 수도권 아파트 4만4000가구 입주… 정부 ‘시장 안정’...",
+   "summary": "강남 3구 아파트값 12주째 하락… 서울 매매 매물 40% 이상 늘어 정부가 제시한 한국부동산원 통계에... 부동산 빅데이터 플랫폼 아실에 따르면 11일 기준 서울 아파트 매매 매물은 8만건을 넘어 연초보다 40% 이상...",
+   "url": "https://biz.chosun.com/real_estate/real_estate_general/2026/11/13/FGHURBUCTJGZVI3JQOLIONO2SI/?utm_source=naver&utm_medium=original&utm_campaign=biz",
+   "publishedAt": "2026-11-13T11:22:00+09:00",
+   "sentences": [
+    {
+     "id": "s1",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null
+    },
+    {
+     "id": "s2",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null
+    },
+    {
+     "id": "s3",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null
+    },
+    {
+     "id": "s4",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null
+    },
+    {
+     "id": "s5",
+     "text": null,
+     "type": "quote",
+     "sourceType": "gov",
+     "sourceName": "정부",
+     "sourceDetail": null
+    },
+    {
+     "id": "s6",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null
+    },
+    {
+     "id": "s7",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null
+    },
+    {
+     "id": "s8",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null
+    },
+    {
+     "id": "s9",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null
+    },
+    {
+     "id": "s10",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null
+    },
+    {
+     "id": "s11",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null
+    },
+    {
+     "id": "s12",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null
+    },
+    {
+     "id": "s13",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null
+    },
+    {
+     "id": "s14",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null
+    },
+    {
+     "id": "s15",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null
+    },
+    {
+     "id": "s16",
+     "text": null,
+     "type": "quote",
+     "sourceType": "gov",
+     "sourceName": "정부",
+     "sourceDetail": null
+    },
+    {
+     "id": "s17",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null
+    },
+    {
+     "id": "s18",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null
+    },
+    {
+     "id": "s19",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null
+    },
+    {
+     "id": "s20",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null
+    },
+    {
+     "id": "s21",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null
+    },
+    {
+     "id": "s22",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null
+    },
+    {
+     "id": "s23",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null
+    },
+    {
+     "id": "s24",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null
+    },
+    {
+     "id": "s25",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null
+    },
+    {
+     "id": "s26",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null
+    },
+    {
+     "id": "s27",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null
+    },
+    {
+     "id": "s28",
+     "text": null,
+     "type": "quote",
+     "sourceType": "gov",
+     "sourceName": "정부",
+     "sourceDetail": null
+    },
+    {
+     "id": "s29",
+     "text": null,
+     "type": "quote",
+     "sourceType": "gov",
+     "sourceName": "정부",
+     "sourceDetail": null
+    },
+    {
+     "id": "s30",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null
+    },
+    {
+     "id": "s31",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null
+    },
+    {
+     "id": "s32",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null
+    },
+    {
+     "id": "s33",
+     "text": null,
+     "type": "quote",
+     "sourceType": "gov",
+     "sourceName": "정부",
+     "sourceDetail": null
+    },
+    {
+     "id": "s34",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null
+    }
+   ],
+   "framingTerms": [
+    {
+     "term": "평가했다",
+     "sentenceId": "s5"
+    },
+    {
+     "term": "봤다",
+     "sentenceId": "s16"
+    },
+    {
+     "term": "밝혔다",
+     "sentenceId": "s28"
+    },
+    {
+     "term": "설명했다",
+     "sentenceId": "s29"
+    },
+    {
+     "term": "전망했다",
+     "sentenceId": "s33"
+    }
+   ],
+   "analyzedBy": "gemini-3.5-flash-lite"
+  },
+  {
+   "id": "a-8b8820827d",
+   "issueId": "auto-20261113-11-3",
+   "outletId": "inews24",
+   "outletName": "아이뉴스24",
+   "title": "서울 주택 인허가 33%·착공 36% 증가…수도권 4.4만가구 입주 예정",
+   "summary": "한국부동산원에 따르면 서울 아파트 매매가격 상승률은 지난 7월 1.27%에서 8월 1.05%, 9월 0.74%로 낮아졌다.... 부동산 플랫폼 아실에 따르면 지난 11일 기준 서울 아파트 매매 매물은 8만건을 넘어서며 올해 초보다 40...",
+   "url": "http://www.inews24.com/view/2025889",
+   "publishedAt": "2026-11-13T11:12:00+09:00",
+   "sentences": [
+    {
+     "id": "s1",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null
+    },
+    {
+     "id": "s2",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null
+    },
+    {
+     "id": "s3",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null
+    },
+    {
+     "id": "s4",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null
+    },
+    {
+     "id": "s5",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null
+    },
+    {
+     "id": "s6",
+     "text": null,
+     "type": "quote",
+     "sourceType": "gov",
+     "sourceName": "정부",
+     "sourceDetail": null
+    },
+    {
+     "id": "s7",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null
+    },
+    {
+     "id": "s8",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null
+    },
+    {
+     "id": "s9",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null
+    },
+    {
+     "id": "s10",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null
+    },
+    {
+     "id": "s11",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null
+    },
+    {
+     "id": "s12",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null
+    },
+    {
+     "id": "s13",
+     "text": null,
+     "type": "quote",
+     "sourceType": "gov",
+     "sourceName": "정부",
+     "sourceDetail": null
+    },
+    {
+     "id": "s14",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null
+    },
+    {
+     "id": "s15",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null
+    },
+    {
+     "id": "s16",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null
+    },
+    {
+     "id": "s17",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null
+    },
+    {
+     "id": "s18",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null
+    },
+    {
+     "id": "s19",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null
+    },
+    {
+     "id": "s20",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null
+    },
+    {
+     "id": "s21",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null
+    },
+    {
+     "id": "s22",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null
+    },
+    {
+     "id": "s23",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null
+    },
+    {
+     "id": "s24",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null
+    },
+    {
+     "id": "s25",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null
+    },
+    {
+     "id": "s26",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null
+    },
+    {
+     "id": "s27",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null
+    },
+    {
+     "id": "s28",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null
+    },
+    {
+     "id": "s29",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null
+    },
+    {
+     "id": "s30",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null
+    },
+    {
+     "id": "s31",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null
+    },
+    {
+     "id": "s32",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null
+    },
+    {
+     "id": "s33",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null
+    },
+    {
+     "id": "s34",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null
+    },
+    {
+     "id": "s35",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null
+    },
+    {
+     "id": "s36",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null
+    },
+    {
+     "id": "s37",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null
+    },
+    {
+     "id": "s38",
+     "text": null,
+     "type": "quote",
+     "sourceType": "gov",
+     "sourceName": "김진 국무조정실 경제조정실장",
+     "sourceDetail": null
+    }
+   ],
+   "framingTerms": [
+    {
+     "term": "평가했다",
+     "sentenceId": "s6"
+    },
+    {
+     "term": "설명했다",
+     "sentenceId": "s13"
+    }
+   ],
+   "analyzedBy": "gemini-3.5-flash-lite"
+  },
+  {
+   "id": "a-b2e8358876",
+   "issueId": "auto-20261113-12-4",
+   "outletId": "yna",
+   "outletName": "연합뉴스",
+   "title": "李대통령 지지율 39%…與 39%·국힘 26%로 2주 연속 오차밖[한국갤럽](종...",
+   "summary": "정당 지지도는 더불어민주당이 39%, 국민의힘이 26%를 각각 기록했다. 민주당은 전주 조사 대비 3%p 상승, 국민의힘은 2%p 하락하면서, 두 당의 지지율 격차(13%p)는 두 주 연속으로 오차범위 밖으로 벌어졌다....",
+   "url": "https://www.yna.co.kr/view/AKR20261113060751001?input=1195m",
+   "publishedAt": "2026-11-13T11:25:00+09:00",
+   "sentences": [
+    {
+     "id": "s1",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null
+    },
+    {
+     "id": "s2",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null
+    },
+    {
+     "id": "s3",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null
+    },
+    {
+     "id": "s4",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null
+    },
+    {
+     "id": "s5",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null
+    },
+    {
+     "id": "s6",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null
+    },
+    {
+     "id": "s7",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null
+    },
+    {
+     "id": "s8",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null
+    },
+    {
+     "id": "s9",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null
+    },
+    {
+     "id": "s10",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null
+    },
+    {
+     "id": "s11",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null
+    },
+    {
+     "id": "s12",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null
+    },
+    {
+     "id": "s13",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null
+    },
+    {
+     "id": "s14",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null
+    },
+    {
+     "id": "s15",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null
+    },
+    {
+     "id": "s16",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null
+    },
+    {
+     "id": "s17",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null
+    },
+    {
+     "id": "s18",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null
+    },
+    {
+     "id": "s19",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null
+    },
+    {
+     "id": "s20",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null
+    },
+    {
+     "id": "s21",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null
+    },
+    {
+     "id": "s22",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null
+    },
+    {
+     "id": "s23",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null
+    },
+    {
+     "id": "s24",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null
+    },
+    {
+     "id": "s25",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null
+    },
+    {
+     "id": "s26",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null
+    },
+    {
+     "id": "s27",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null
+    },
+    {
+     "id": "s28",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null
+    },
+    {
+     "id": "s29",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null
+    },
+    {
+     "id": "s30",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null
+    },
+    {
+     "id": "s31",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null
+    },
+    {
+     "id": "s32",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null
+    },
+    {
+     "id": "s33",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null
+    },
+    {
+     "id": "s34",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null
+    },
+    {
+     "id": "s35",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null
+    }
+   ],
+   "framingTerms": [
+    {
+     "term": "벌어졌다",
+     "sentenceId": "s15"
+    }
+   ],
+   "analyzedBy": "gemini-3.5-flash-lite"
+  },
+  {
+   "id": "a-60ea1dd058",
+   "issueId": "auto-20261113-12-4",
+   "outletId": "hani",
+   "outletName": "한겨레",
+   "title": "이 대통령 지지율 39%…민주·국힘 격차 13%p 벌어져 [갤럽]",
+   "summary": "정당 지지도는 더불어민주당 39%, 국민의힘 26%, 조국혁신당 4%, 개혁신당 3%, 진보당 1%를 기록했다. 지난 주 조사에서 민주당은 36%, 국민의힘은 28%를 기록해 6%p 차였는데, 이번 조사에서는 격차가 13%p차로 로...",
+   "url": "https://www.hani.co.kr/arti/politics/assembly/1287181.html",
+   "publishedAt": "2026-11-13T11:34:00+09:00",
+   "sentences": [
+    {
+     "id": "s1",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null
+    },
+    {
+     "id": "s2",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null
+    },
+    {
+     "id": "s3",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null
+    },
+    {
+     "id": "s4",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null
+    },
+    {
+     "id": "s5",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null
+    },
+    {
+     "id": "s6",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null
+    },
+    {
+     "id": "s7",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null
+    }
+   ],
+   "framingTerms": [],
+   "analyzedBy": "gemini-3.5-flash-lite"
+  },
+  {
+   "id": "a-63c975f7d7",
+   "issueId": "auto-20261113-12-4",
+   "outletId": "munhwa",
+   "outletName": "문화일보",
+   "title": "[속보]李대통령 지지율 1주만에 다시 하락 39%…30대는 23%-한국갤럽",
+   "summary": "한편 정당지지도는 더불어민주당과 국민의힘이 각각 39%, 26%를 기록했다. 민주당은 전주 대비 3%p 상승했고, 국민의힘은 2%p 하락했다. 조국혁신당 지지도는 4%, 개혁신당 3%, 진보당 1%, 지지하는 정당 없는 무당층...",
+   "url": "https://www.munhwa.com/article/11631104?ref=naver",
+   "publishedAt": "2026-11-13T11:42:00+09:00",
+   "sentences": [
+    {
+     "id": "s1",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null
+    },
+    {
+     "id": "s2",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null
+    },
+    {
+     "id": "s3",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null
+    },
+    {
+     "id": "s4",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null
+    },
+    {
+     "id": "s5",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null
+    },
+    {
+     "id": "s6",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null
+    },
+    {
+     "id": "s7",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null
+    },
+    {
+     "id": "s8",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null
+    },
+    {
+     "id": "s9",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null
+    },
+    {
+     "id": "s10",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null
+    },
+    {
+     "id": "s11",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null
+    },
+    {
+     "id": "s12",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null
+    }
+   ],
+   "framingTerms": [],
+   "analyzedBy": "gemini-3.5-flash-lite"
+  },
+  {
+   "id": "a-d6799b9b82",
+   "issueId": "auto-20261113-12-4",
+   "outletId": "newspim",
+   "outletName": "뉴스핌",
+   "title": "李대통령 지지율 다시 30%대…2%p 하락해 39% [한국갤럽]",
+   "summary": "부정 평가 이유는 '부동산 정책'(17%), '경제·민생'(15%), '도덕성 문제·본인 재판 회피'(12%), '국방·안보·대북'(7%) 순이었다. 정당 지지도는 더불어민주당이 3%p 오른 39%로 나타났고, 국민의힘이 2%p 내린 26%로...",
+   "url": "https://www.newspim.com/news/view/20261113000536",
+   "publishedAt": "2026-11-13T11:11:00+09:00",
+   "sentences": [
+    {
+     "id": "s1",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null
+    },
+    {
+     "id": "s2",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null
+    },
+    {
+     "id": "s3",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null
+    },
+    {
+     "id": "s4",
+     "text": "!AI가 자동 생성한 요약으로 정확하지 않을 수 있어요.",
+     "type": "opinion",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null
+    },
+    {
+     "id": "s5",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null
+    },
+    {
+     "id": "s6",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null
+    },
+    {
+     "id": "s7",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null
+    },
+    {
+     "id": "s8",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null
+    },
+    {
+     "id": "s9",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null
+    },
+    {
+     "id": "s10",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null
+    },
+    {
+     "id": "s11",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null
+    },
+    {
+     "id": "s12",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null
+    },
+    {
+     "id": "s13",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null
+    },
+    {
+     "id": "s14",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null
+    },
+    {
+     "id": "s15",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null
+    },
+    {
+     "id": "s16",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null
+    },
+    {
+     "id": "s17",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null
+    },
+    {
+     "id": "s18",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null
+    }
+   ],
+   "framingTerms": [],
+   "analyzedBy": "gemini-3.5-flash-lite"
+  },
+  {
+   "id": "a-d29f25ae8e",
+   "issueId": "auto-20261113-12-4",
+   "outletId": "heraldcorp",
+   "outletName": "헤럴드경제",
+   "title": "李, 지지율 2%P 하락…2주만에 다시 30%대",
+   "summary": "정당 지지도는 더불어민주당이 39%, 국민의힘이 26%를 각각 기록했다. 민주당은 전주 조사 대비 3%p 상승한 반면, 국민의힘은 2%p 하락했다. 양당의 지지율 격차는 13%p로, 2주 연속으로 오차범위 밖으로 벌어졌다....",
+   "url": "https://biz.heraldcorp.com/article/10936229?ref=naver",
+   "publishedAt": "2026-11-13T11:45:00+09:00",
+   "sentences": [
+    {
+     "id": "s1",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null
+    },
+    {
+     "id": "s2",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null
+    },
+    {
+     "id": "s3",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null
+    },
+    {
+     "id": "s4",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null
+    },
+    {
+     "id": "s5",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null
+    },
+    {
+     "id": "s6",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null
+    },
+    {
+     "id": "s7",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null
+    },
+    {
+     "id": "s8",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null
+    },
+    {
+     "id": "s9",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null
+    },
+    {
+     "id": "s10",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null
+    },
+    {
+     "id": "s11",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null
+    },
+    {
+     "id": "s12",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null
+    },
+    {
+     "id": "s13",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null
+    },
+    {
+     "id": "s14",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null
+    },
+    {
+     "id": "s15",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null
+    },
+    {
+     "id": "s16",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null
+    },
+    {
+     "id": "s17",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null
+    }
+   ],
+   "framingTerms": [],
+   "analyzedBy": "gemini-3.5-flash-lite"
+  },
+  {
+   "id": "a-70ef4f40d2",
+   "issueId": "auto-20261113-12-4",
+   "outletId": "m-i",
+   "outletName": "매일일보",
+   "title": "李대통령 지지율 39%…전주보다 2%p 하락 [한국갤럽]",
+   "summary": "부정 평가 이유로는 '부동산 정책'(17%)이 가장 많았으며, '경제·민생'(15%), '도덕성 문제·본인 재판 회피'(12%), '국방·안보·대북'(7%), '전반적으로 잘못한다'(5%) 순이었다. 부동산 정책은 7월 넷째 주부터 부정 평가...",
+   "url": "https://www.m-i.kr/news/articleView.html?idxno=2018189",
+   "publishedAt": "2026-11-13T11:24:00+09:00",
+   "sentences": [
+    {
+     "id": "s1",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null
+    },
+    {
+     "id": "s2",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null
+    },
+    {
+     "id": "s3",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null
+    },
+    {
+     "id": "s4",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null
+    },
+    {
+     "id": "s5",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null
+    },
+    {
+     "id": "s6",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null
+    },
+    {
+     "id": "s7",
+     "text": null,
+     "type": "quote",
+     "sourceType": "industry",
+     "sourceName": "한국갤럽",
+     "sourceDetail": null
+    },
+    {
+     "id": "s8",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null
+    },
+    {
+     "id": "s9",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null
+    },
+    {
+     "id": "s10",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null
+    },
+    {
+     "id": "s11",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null
+    },
+    {
+     "id": "s12",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null
+    },
+    {
+     "id": "s13",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null
+    },
+    {
+     "id": "s14",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null
+    }
+   ],
+   "framingTerms": [
+    {
+     "term": "분석했다",
+     "sentenceId": "s7"
+    }
+   ],
+   "analyzedBy": "gemini-3.5-flash-lite"
+  },
+  {
+   "id": "a-7576799a20",
+   "issueId": "auto-20261113-12-4",
+   "outletId": "wikitree",
+   "outletName": "위키트리",
+   "title": "이 대통령 지지율, 다른 전직 대통령 지지율과 비교했더니...",
+   "summary": "부정 평가 이유로는 부동산 정책(17%), 경제/민생(15%), 도덕성 문제/본인 재판 회피(12%), 국방/안보/대북(7%) 등이 나왔다.연령별 긍정률은 18~29세 24%, 30대 23%, 40대 45%, 50대 58%, 60대 43%, 70대 이상 37%였다. 지역별로는...",
+   "url": "https://www.wikitree.co.kr/articles/1174321",
+   "publishedAt": "2026-11-13T11:22:00+09:00",
+   "sentences": [
+    {
+     "id": "s1",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null
+    },
+    {
+     "id": "s2",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null
+    },
+    {
+     "id": "s3",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null
+    },
+    {
+     "id": "s4",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null
+    },
+    {
+     "id": "s5",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null
+    },
+    {
+     "id": "s6",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null
+    },
+    {
+     "id": "s7",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null
+    },
+    {
+     "id": "s8",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null
+    },
+    {
+     "id": "s9",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null
+    },
+    {
+     "id": "s10",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null
+    },
+    {
+     "id": "s11",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null
+    },
+    {
+     "id": "s12",
+     "text": "2분기가 아직 끝나지 않은 만큼 최종 분기 평균은 달라질 수 있다.",
+     "type": "opinion",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null
+    },
+    {
+     "id": "s13",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null
+    },
+    {
+     "id": "s14",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null
+    },
+    {
+     "id": "s15",
+     "text": null,
+     "type": "quote",
+     "sourceType": "industry",
+     "sourceName": "한국갤럽",
+     "sourceDetail": null
+    },
+    {
+     "id": "s16",
+     "text": "최근 6주간 긍정률은 사실상 정체 상태로 볼 수 있다.",
+     "type": "opinion",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null
+    },
+    {
+     "id": "s17",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null
+    },
+    {
+     "id": "s18",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null
+    },
+    {
+     "id": "s19",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null
+    },
+    {
+     "id": "s20",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null
+    },
+    {
+     "id": "s21",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null
+    },
+    {
+     "id": "s22",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null
+    },
+    {
+     "id": "s23",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null
+    },
+    {
+     "id": "s24",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null
+    },
+    {
+     "id": "s25",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null
+    },
+    {
+     "id": "s26",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null
+    },
+    {
+     "id": "s27",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null
+    },
+    {
+     "id": "s28",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null
+    },
+    {
+     "id": "s29",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null
+    },
+    {
+     "id": "s30",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null
+    },
+    {
+     "id": "s31",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null
+    },
+    {
+     "id": "s32",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null
+    },
+    {
+     "id": "s33",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null
+    },
+    {
+     "id": "s34",
+     "text": "다만 역대 대통령 수치를 단순 비교하는 데는 한계가 있다.",
+     "type": "opinion",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null
+    },
+    {
+     "id": "s35",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null
+    },
+    {
+     "id": "s36",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null
+    },
+    {
+     "id": "s37",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null
+    },
+    {
+     "id": "s38",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null
+    },
+    {
+     "id": "s39",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null
+    },
+    {
+     "id": "s40",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null
+    },
+    {
+     "id": "s41",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null
+    },
+    {
+     "id": "s42",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null
+    },
+    {
+     "id": "s43",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null
+    },
+    {
+     "id": "s44",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null
+    },
+    {
+     "id": "s45",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null
+    },
+    {
+     "id": "s46",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null
+    },
+    {
+     "id": "s47",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null
+    },
+    {
+     "id": "s48",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null
+    },
+    {
+     "id": "s49",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null
+    },
+    {
+     "id": "s50",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null
+    },
+    {
+     "id": "s51",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null
+    },
+    {
+     "id": "s52",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null
+    },
+    {
+     "id": "s53",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null
+    },
+    {
+     "id": "s54",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null
+    },
+    {
+     "id": "s55",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null
+    },
+    {
+     "id": "s56",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null
+    },
+    {
+     "id": "s57",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null
+    },
+    {
+     "id": "s58",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null
+    },
+    {
+     "id": "s59",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null
+    },
+    {
+     "id": "s60",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null
+    },
+    {
+     "id": "s61",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null
+    },
+    {
+     "id": "s62",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null
+    },
+    {
+     "id": "s63",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null
+    },
+    {
+     "id": "s64",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null
+    },
+    {
+     "id": "s65",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null
+    },
+    {
+     "id": "s66",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null
+    },
+    {
+     "id": "s67",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null
+    },
+    {
+     "id": "s68",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null
+    }
+   ],
+   "framingTerms": [],
+   "analyzedBy": "gemini-3.5-flash-lite"
+  },
+  {
+   "id": "a-bfad726de0",
+   "issueId": "auto-20261113-12-5",
+   "outletId": "newsis",
+   "outletName": "뉴시스",
+   "title": "국힘 인천시당 \"조작기소 특검법 즉각 거부권 행사하라\"",
+   "summary": "그는 민주당이 그동안 검찰 수사권 축소를 내세우면서도 이번 특검에는 수사권을 부여했다며, 스스로 강조해 온 사법개혁 원칙과도 모순된다고 꼬집었다. 헌법 제11조의 법 앞의 평등과 삼권분립 원칙을 거론하며 특검법의...",
+   "url": "https://www.newsis.com/view/NISX20261113_0003866923",
+   "publishedAt": "2026-11-13T11:18:00+09:00",
+   "sentences": [
+    {
+     "id": "s1",
+     "text": null,
+     "type": "quote",
+     "sourceType": "opp",
+     "sourceName": "국민의힘 인천시당 수석대변인 신성영",
+     "sourceDetail": null
+    },
+    {
+     "id": "s2",
+     "text": null,
+     "type": "quote",
+     "sourceType": "opp",
+     "sourceName": "신 수석대변인",
+     "sourceDetail": null
+    },
+    {
+     "id": "s3",
+     "text": null,
+     "type": "quote",
+     "sourceType": "opp",
+     "sourceName": "신 수석대변인",
+     "sourceDetail": null
+    },
+    {
+     "id": "s4",
+     "text": null,
+     "type": "quote",
+     "sourceType": "opp",
+     "sourceName": "그",
+     "sourceDetail": null
+    },
+    {
+     "id": "s5",
+     "text": null,
+     "type": "quote",
+     "sourceType": "opp",
+     "sourceName": "신 수석대변인",
+     "sourceDetail": null
+    },
+    {
+     "id": "s6",
+     "text": null,
+     "type": "quote",
+     "sourceType": "opp",
+     "sourceName": "신 수석대변인",
+     "sourceDetail": null
+    },
+    {
+     "id": "s7",
+     "text": null,
+     "type": "quote",
+     "sourceType": "opp",
+     "sourceName": "신 수석대변인",
+     "sourceDetail": null
+    },
+    {
+     "id": "s8",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null
+    }
+   ],
+   "framingTerms": [],
+   "analyzedBy": "gemini-3.5-flash-lite"
+  },
+  {
+   "id": "a-493661602b",
+   "issueId": "auto-20261113-12-5",
+   "outletId": "joongang",
+   "outletName": "중앙일보",
+   "title": "오세훈, 李에 조작기소 특검법 거부권 요구…“국민 심판이 시작될 것”",
+   "summary": "더불어민주당 주도로 지난 6일 국회를 통과한 특검법은 이 대통령 관련 사건을 포함해 윤석열 정부 당시 국가기관의 조작 수사·기소 의혹을 수사하는 내용을 담고 있다. 청와대는 다음 주 국무회의에 특검법 공포안을...",
+   "url": "https://www.joongang.co.kr/article/25478349",
+   "publishedAt": "2026-11-13T11:47:00+09:00",
+   "sentences": [
+    {
+     "id": "s1",
+     "text": null,
+     "type": "quote",
+     "sourceType": "opp",
+     "sourceName": "오세훈 서울시장",
+     "sourceDetail": null
+    },
+    {
+     "id": "s2",
+     "text": null,
+     "type": "quote",
+     "sourceType": "opp",
+     "sourceName": "오 시장",
+     "sourceDetail": null
+    },
+    {
+     "id": "s3",
+     "text": null,
+     "type": "quote",
+     "sourceType": "opp",
+     "sourceName": "오 시장",
+     "sourceDetail": null
+    },
+    {
+     "id": "s4",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null
+    },
+    {
+     "id": "s5",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null
+    },
+    {
+     "id": "s6",
+     "text": null,
+     "type": "quote",
+     "sourceType": "opp",
+     "sourceName": "오 시장",
+     "sourceDetail": null
+    },
+    {
+     "id": "s7",
+     "text": null,
+     "type": "quote",
+     "sourceType": "opp",
+     "sourceName": "그",
+     "sourceDetail": null
+    },
+    {
+     "id": "s8",
+     "text": null,
+     "type": "quote",
+     "sourceType": "opp",
+     "sourceName": "오 시장",
+     "sourceDetail": null
+    },
+    {
+     "id": "s9",
+     "text": null,
+     "type": "quote",
+     "sourceType": "opp",
+     "sourceName": "그",
+     "sourceDetail": null
+    }
+   ],
+   "framingTerms": [
+    {
+     "term": "비판했다",
+     "sentenceId": "s6"
+    },
+    {
+     "term": "비판했다",
+     "sentenceId": "s8"
+    }
+   ],
+   "analyzedBy": "gemini-3.5-flash-lite"
+  },
+  {
+   "id": "a-bf7cded7c4",
+   "issueId": "auto-20261113-12-5",
+   "outletId": "mt",
+   "outletName": "머니투데이",
+   "title": "오세훈 \"조작기소 특검법 거부권 행사하라…李 대통령 선택해야\"",
+   "summary": "이 대통령 관련 사건 6건을 포함해 검찰 등의 조작수사·기소 의혹을 특별검사가 수사하도록 하는 내용이다. 오 시장은 이 대통령이 이용철 방위사업청장을 법무부 장관 후보자로 지명한 데 대해서도 문제를 제기했다. 오...",
+   "url": "https://www.mt.co.kr/policy/2026/11/13/2026111310424079124",
+   "publishedAt": "2026-11-13T10:45:00+09:00",
+   "sentences": [
+    {
+     "id": "s1",
+     "text": null,
+     "type": "quote",
+     "sourceType": "opp",
+     "sourceName": "오세훈 서울시장",
+     "sourceDetail": null
+    },
+    {
+     "id": "s2",
+     "text": null,
+     "type": "quote",
+     "sourceType": "opp",
+     "sourceName": "오세훈",
+     "sourceDetail": null
+    },
+    {
+     "id": "s3",
+     "text": null,
+     "type": "quote",
+     "sourceType": "opp",
+     "sourceName": "오 시장",
+     "sourceDetail": null
+    },
+    {
+     "id": "s4",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null
+    },
+    {
+     "id": "s5",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null
+    },
+    {
+     "id": "s6",
+     "text": null,
+     "type": "quote",
+     "sourceType": "opp",
+     "sourceName": "오 시장",
+     "sourceDetail": null
+    },
+    {
+     "id": "s7",
+     "text": null,
+     "type": "quote",
+     "sourceType": "opp",
+     "sourceName": "오 시장",
+     "sourceDetail": null
+    },
+    {
+     "id": "s8",
+     "text": null,
+     "type": "quote",
+     "sourceType": "opp",
+     "sourceName": "그",
+     "sourceDetail": null
+    },
+    {
+     "id": "s9",
+     "text": null,
+     "type": "quote",
+     "sourceType": "opp",
+     "sourceName": "오",
+     "sourceDetail": null
+    },
+    {
+     "id": "s10",
+     "text": null,
+     "type": "quote",
+     "sourceType": "opp",
+     "sourceName": "그",
+     "sourceDetail": null
+    },
+    {
+     "id": "s11",
+     "text": null,
+     "type": "quote",
+     "sourceType": "opp",
+     "sourceName": "오 시장",
+     "sourceDetail": null
+    },
+    {
+     "id": "s12",
+     "text": null,
+     "type": "quote",
+     "sourceType": "opp",
+     "sourceName": "오 시장",
+     "sourceDetail": null
+    }
+   ],
+   "framingTerms": [
+    {
+     "term": "주도로",
+     "sentenceId": "s4"
+    }
+   ],
+   "analyzedBy": "gemini-3.5-flash-lite"
+  },
+  {
+   "id": "a-bd5d44311b",
+   "issueId": "auto-20261113-12-5",
+   "outletId": "wikitree",
+   "outletName": "위키트리",
+   "title": "오세훈 “이재명 대통령, 조작기소 특검법 거부해야…안 하면 국민심판...",
+   "summary": "이 법안은 이 대통령 관련 사건을 포함해 윤석열 정부 당시 국가기관의 조작 수사·기소 의혹을 수사하는 내용을 담고 있다. 청와대는 다음 주 국무회의에 특검법 공포안을 상정할 예정이다.이에 대해 오 시장은 \"조작 기소...",
+   "url": "https://www.wikitree.co.kr/articles/1174332",
+   "publishedAt": "2026-11-13T11:54:00+09:00",
+   "sentences": [
+    {
+     "id": "s1",
+     "text": null,
+     "type": "quote",
+     "sourceType": "opp",
+     "sourceName": "오세훈 서울시장",
+     "sourceDetail": null
+    },
+    {
+     "id": "s2",
+     "text": null,
+     "type": "quote",
+     "sourceType": "opp",
+     "sourceName": "오 시장",
+     "sourceDetail": null
+    },
+    {
+     "id": "s3",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null
+    },
+    {
+     "id": "s4",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null
+    },
+    {
+     "id": "s5",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null
+    },
+    {
+     "id": "s6",
+     "text": null,
+     "type": "quote",
+     "sourceType": "opp",
+     "sourceName": "오 시장",
+     "sourceDetail": null
+    },
+    {
+     "id": "s7",
+     "text": null,
+     "type": "quote",
+     "sourceType": "opp",
+     "sourceName": "오 시장",
+     "sourceDetail": null
+    },
+    {
+     "id": "s8",
+     "text": null,
+     "type": "quote",
+     "sourceType": "opp",
+     "sourceName": "오 시장",
+     "sourceDetail": null
+    },
+    {
+     "id": "s9",
+     "text": null,
+     "type": "quote",
+     "sourceType": "opp",
+     "sourceName": "오 시장",
+     "sourceDetail": null
+    },
+    {
+     "id": "s10",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null
+    },
+    {
+     "id": "s11",
+     "text": null,
+     "type": "quote",
+     "sourceType": "opp",
+     "sourceName": "오 시장",
+     "sourceDetail": null
+    },
+    {
+     "id": "s12",
+     "text": null,
+     "type": "quote",
+     "sourceType": "opp",
+     "sourceName": "오 시장",
+     "sourceDetail": null
+    },
+    {
+     "id": "s13",
+     "text": null,
+     "type": "quote",
+     "sourceType": "opp",
+     "sourceName": "오 시장",
+     "sourceDetail": null
+    },
+    {
+     "id": "s14",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null
+    },
+    {
+     "id": "s15",
+     "text": null,
+     "type": "quote",
+     "sourceType": "opp",
+     "sourceName": "오 시장",
+     "sourceDetail": null
+    },
+    {
+     "id": "s16",
+     "text": null,
+     "type": "quote",
+     "sourceType": "opp",
+     "sourceName": "오 시장",
+     "sourceDetail": null
+    },
+    {
+     "id": "s17",
+     "text": null,
+     "type": "quote",
+     "sourceType": "opp",
+     "sourceName": "오 시장",
+     "sourceDetail": null
+    },
+    {
+     "id": "s18",
+     "text": null,
+     "type": "quote",
+     "sourceType": "opp",
+     "sourceName": "오 시장",
+     "sourceDetail": null
+    },
+    {
+     "id": "s19",
+     "text": null,
+     "type": "quote",
+     "sourceType": "opp",
+     "sourceName": "오 시장",
+     "sourceDetail": null
+    },
+    {
+     "id": "s20",
+     "text": null,
+     "type": "quote",
+     "sourceType": "opp",
+     "sourceName": "오 시장",
+     "sourceDetail": null
+    },
+    {
+     "id": "s21",
+     "text": null,
+     "type": "quote",
+     "sourceType": "opp",
+     "sourceName": "오 시장",
+     "sourceDetail": null
+    },
+    {
+     "id": "s22",
+     "text": null,
+     "type": "quote",
+     "sourceType": "opp",
+     "sourceName": "오 시장",
+     "sourceDetail": null
+    },
+    {
+     "id": "s23",
+     "text": null,
+     "type": "quote",
+     "sourceType": "opp",
+     "sourceName": "오 시장",
+     "sourceDetail": null
+    },
+    {
+     "id": "s24",
+     "text": null,
+     "type": "quote",
+     "sourceType": "opp",
+     "sourceName": "오 시장",
+     "sourceDetail": null
+    },
+    {
+     "id": "s25",
+     "text": null,
+     "type": "quote",
+     "sourceType": "opp",
+     "sourceName": "오 시장",
+     "sourceDetail": null
+    },
+    {
+     "id": "s26",
+     "text": null,
+     "type": "quote",
+     "sourceType": "opp",
+     "sourceName": "오 시장",
+     "sourceDetail": null
+    },
+    {
+     "id": "s27",
+     "text": null,
+     "type": "quote",
+     "sourceType": "opp",
+     "sourceName": "오 시장",
+     "sourceDetail": null
+    },
+    {
+     "id": "s28",
+     "text": null,
+     "type": "quote",
+     "sourceType": "opp",
+     "sourceName": "오 시장",
+     "sourceDetail": null
+    },
+    {
+     "id": "s29",
+     "text": null,
+     "type": "quote",
+     "sourceType": "opp",
+     "sourceName": "오 시장",
+     "sourceDetail": null
+    },
+    {
+     "id": "s30",
+     "text": null,
+     "type": "quote",
+     "sourceType": "opp",
+     "sourceName": "오 시장",
+     "sourceDetail": null
+    },
+    {
+     "id": "s31",
+     "text": null,
+     "type": "quote",
+     "sourceType": "opp",
+     "sourceName": "오 시장",
+     "sourceDetail": null
+    },
+    {
+     "id": "s32",
+     "text": null,
+     "type": "quote",
+     "sourceType": "opp",
+     "sourceName": "오 시장",
+     "sourceDetail": null
+    }
+   ],
+   "framingTerms": [
+    {
+     "term": "경고했다",
+     "sentenceId": "s1"
+    },
+    {
+     "term": "말했다",
+     "sentenceId": "s2"
+    },
+    {
+     "term": "통과했다",
+     "sentenceId": "s3"
+    },
+    {
+     "term": "담고 있다",
+     "sentenceId": "s4"
+    },
+    {
+     "term": "예정이다",
+     "sentenceId": "s5"
+    },
+    {
+     "term": "지적했다",
+     "sentenceId": "s6"
+    },
+    {
+     "term": "했다",
+     "sentenceId": "s7"
+    },
+    {
+     "term": "비판했다",
+     "sentenceId": "s8"
+    },
+    {
+     "term": "개탄했다",
+     "sentenceId": "s9"
+    },
+    {
+     "term": "문제 삼았다",
+     "sentenceId": "s10"
+    },
+    {
+     "term": "비판했다",
+     "sentenceId": "s11"
+    },
+    {
+     "term": "직격했다",
+     "sentenceId": "s12"
+    },
+    {
+     "term": "덧붙였다",
+     "sentenceId": "s13"
+    }
+   ],
+   "analyzedBy": "gemini-3.5-flash-lite"
+  },
+  {
+   "id": "a-4edbf9aca1",
+   "issueId": "auto-20261113-12-5",
+   "outletId": "newspim",
+   "outletName": "뉴스핌",
+   "title": "오세훈 \"李, 조작기소 특검법 거부권 행사하라...국민이 주는 마지막 기...",
+   "summary": "2026.11.12 khwphoto@newspim.com 조작기소 특검법이란 윤석열 정부 출범 후 검찰 등이 당시 야당과 정적에 대한 표적 수사를 통해 조작 수사와 조작 기소를 자행했다는 의혹을 수사하는 내용이다. 이 대통령이 피고인으로...",
+   "url": "https://www.newspim.com/news/view/20261113000412",
+   "publishedAt": "2026-11-13T10:32:00+09:00",
+   "sentences": [
+    {
+     "id": "s1",
+     "text": null,
+     "type": "quote",
+     "sourceType": "opp",
+     "sourceName": "오세훈 서울시장",
+     "sourceDetail": null
+    },
+    {
+     "id": "s2",
+     "text": null,
+     "type": "quote",
+     "sourceType": "opp",
+     "sourceName": "오 시장",
+     "sourceDetail": null
+    },
+    {
+     "id": "s3",
+     "text": null,
+     "type": "quote",
+     "sourceType": "opp",
+     "sourceName": "오 시장",
+     "sourceDetail": null
+    },
+    {
+     "id": "s4",
+     "text": "!AI가 자동 생성한 요약으로 정확하지 않을 수 있어요.",
+     "type": "opinion",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null
+    },
+    {
+     "id": "s5",
+     "text": null,
+     "type": "quote",
+     "sourceType": "opp",
+     "sourceName": "오세훈 서울시장",
+     "sourceDetail": null
+    },
+    {
+     "id": "s6",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null
+    },
+    {
+     "id": "s7",
+     "text": null,
+     "type": "quote",
+     "sourceType": "opp",
+     "sourceName": "그",
+     "sourceDetail": null
+    },
+    {
+     "id": "s8",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null
+    },
+    {
+     "id": "s9",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null
+    },
+    {
+     "id": "s10",
+     "text": null,
+     "type": "quote",
+     "sourceType": "opp",
+     "sourceName": "오 시장",
+     "sourceDetail": null
+    },
+    {
+     "id": "s11",
+     "text": null,
+     "type": "quote",
+     "sourceType": "opp",
+     "sourceName": "그",
+     "sourceDetail": null
+    },
+    {
+     "id": "s12",
+     "text": null,
+     "type": "quote",
+     "sourceType": "opp",
+     "sourceName": "오 시장",
+     "sourceDetail": null
+    },
+    {
+     "id": "s13",
+     "text": null,
+     "type": "quote",
+     "sourceType": "opp",
+     "sourceName": "오 시장",
+     "sourceDetail": null
+    },
+    {
+     "id": "s14",
+     "text": null,
+     "type": "quote",
+     "sourceType": "opp",
+     "sourceName": "오 시장",
+     "sourceDetail": null
+    },
+    {
+     "id": "s15",
+     "text": null,
+     "type": "quote",
+     "sourceType": "opp",
+     "sourceName": "오 시장",
+     "sourceDetail": null
+    },
+    {
+     "id": "s16",
+     "text": null,
+     "type": "quote",
+     "sourceType": "opp",
+     "sourceName": "오 시장",
+     "sourceDetail": null
+    },
+    {
+     "id": "s17",
+     "text": null,
+     "type": "quote",
+     "sourceType": "opp",
+     "sourceName": "오 시장",
+     "sourceDetail": null
+    },
+    {
+     "id": "s18",
+     "text": null,
+     "type": "quote",
+     "sourceType": "opp",
+     "sourceName": "오 시장",
+     "sourceDetail": null
+    }
+   ],
+   "framingTerms": [
+    {
+     "term": "촉구했다",
+     "sentenceId": "s1"
+    },
+    {
+     "term": "비판했다",
+     "sentenceId": "s2"
+    },
+    {
+     "term": "제기했다",
+     "sentenceId": "s3"
+    },
+    {
+     "term": "주장했다",
+     "sentenceId": "s5"
+    },
+    {
+     "term": "지적했다",
+     "sentenceId": "s11"
+    },
+    {
+     "term": "꼬집었다",
+     "sentenceId": "s12"
+    },
+    {
+     "term": "비판했다",
+     "sentenceId": "s13"
+    },
+    {
+     "term": "주장했다",
+     "sentenceId": "s15"
+    },
+    {
+     "term": "강조했다",
+     "sentenceId": "s16"
+    },
+    {
+     "term": "주문했다",
+     "sentenceId": "s17"
+    }
+   ],
+   "analyzedBy": "gemini-3.5-flash-lite"
+  },
+  {
+   "id": "a-22484ad720",
+   "issueId": "auto-20261113-12-5",
+   "outletId": "ajunews",
+   "outletName": "아주경제",
+   "title": "오세훈 \"이재명, 조작기소 특검법 거부권 행사해야...마지막 기회\"",
+   "summary": "특검법·법무부 장관 후보자 지명 비판...\"국무총리 앞세우는 비겁한 처신\" \"대통령 개인 사법 리스크 관리하는 전담 부처 전락\" 아주경제=박자연 기자 naturepark127@ajunews.com 오세훈 서울시장이 지난 6일 서울 여의도 국회에...",
+   "url": "https://www.ajunews.com/view/20261113114735603",
+   "publishedAt": "2026-11-13T11:50:00+09:00",
+   "sentences": [
+    {
+     "id": "s1",
+     "text": null,
+     "type": "quote",
+     "sourceType": "opp",
+     "sourceName": "오 시장",
+     "sourceDetail": null
+    },
+    {
+     "id": "s2",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null
+    },
+    {
+     "id": "s3",
+     "text": null,
+     "type": "quote",
+     "sourceType": "opp",
+     "sourceName": "오 시장",
+     "sourceDetail": null
+    },
+    {
+     "id": "s4",
+     "text": null,
+     "type": "quote",
+     "sourceType": "opp",
+     "sourceName": "오 시장",
+     "sourceDetail": null
+    },
+    {
+     "id": "s5",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null
+    },
+    {
+     "id": "s6",
+     "text": null,
+     "type": "quote",
+     "sourceType": "opp",
+     "sourceName": "오 시장",
+     "sourceDetail": null
+    },
+    {
+     "id": "s7",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null
+    },
+    {
+     "id": "s8",
+     "text": null,
+     "type": "quote",
+     "sourceType": "opp",
+     "sourceName": "그",
+     "sourceDetail": null
+    },
+    {
+     "id": "s9",
+     "text": null,
+     "type": "quote",
+     "sourceType": "opp",
+     "sourceName": "오 시장",
+     "sourceDetail": null
+    },
+    {
+     "id": "s10",
+     "text": null,
+     "type": "quote",
+     "sourceType": "opp",
+     "sourceName": "그",
+     "sourceDetail": null
+    },
+    {
+     "id": "s11",
+     "text": null,
+     "type": "quote",
+     "sourceType": "opp",
+     "sourceName": "오 시장",
+     "sourceDetail": null
+    }
+   ],
+   "framingTerms": [],
+   "analyzedBy": "gemini-3.5-flash-lite"
+  },
+  {
+   "id": "a-f79611cf47",
+   "issueId": "auto-20261113-12-6",
+   "outletId": "yna",
+   "outletName": "연합뉴스",
+   "title": "국힘 \"하자투성이 이용철, 탈옥 맞춤형…절대 장관해선 안돼\"",
+   "summary": "법을 잘 알수록 이 대통령의 탈옥이 불가능하다는 걸 깨닫기 때문\"이라며 \"실제 이 후보자는 검찰 수사와... 이어 \"이 후보자는 인권 변호사 이력을 내세우지만, 일가족 살해 후 사체를 소각한 흉악범을 변호하며 '검찰 강압...",
+   "url": "https://www.yna.co.kr/view/AKR20261113068400001?input=1195m",
+   "publishedAt": "2026-11-13T10:52:00+09:00",
+   "sentences": [
+    {
+     "id": "s1",
+     "text": null,
+     "type": "quote",
+     "sourceType": "opp",
+     "sourceName": "국민의힘",
+     "sourceDetail": null
+    },
+    {
+     "id": "s2",
+     "text": null,
+     "type": "quote",
+     "sourceType": "opp",
+     "sourceName": "국민의힘",
+     "sourceDetail": null
+    },
+    {
+     "id": "s3",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null
+    },
+    {
+     "id": "s4",
+     "text": null,
+     "type": "quote",
+     "sourceType": "opp",
+     "sourceName": "국민의힘",
+     "sourceDetail": null
+    },
+    {
+     "id": "s5",
+     "text": null,
+     "type": "quote",
+     "sourceType": "opp",
+     "sourceName": "정점식",
+     "sourceDetail": null
+    },
+    {
+     "id": "s6",
+     "text": null,
+     "type": "quote",
+     "sourceType": "opp",
+     "sourceName": "정점식",
+     "sourceDetail": null
+    },
+    {
+     "id": "s7",
+     "text": null,
+     "type": "quote",
+     "sourceType": "opp",
+     "sourceName": "정점식",
+     "sourceDetail": null
+    },
+    {
+     "id": "s8",
+     "text": null,
+     "type": "quote",
+     "sourceType": "opp",
+     "sourceName": "정점식",
+     "sourceDetail": null
+    },
+    {
+     "id": "s9",
+     "text": null,
+     "type": "quote",
+     "sourceType": "opp",
+     "sourceName": "박형수",
+     "sourceDetail": null
+    },
+    {
+     "id": "s10",
+     "text": null,
+     "type": "quote",
+     "sourceType": "opp",
+     "sourceName": "박형수",
+     "sourceDetail": null
+    },
+    {
+     "id": "s11",
+     "text": null,
+     "type": "quote",
+     "sourceType": "opp",
+     "sourceName": "박충권",
+     "sourceDetail": null
+    },
+    {
+     "id": "s12",
+     "text": null,
+     "type": "quote",
+     "sourceType": "opp",
+     "sourceName": "박충권",
+     "sourceDetail": null
+    },
+    {
+     "id": "s13",
+     "text": null,
+     "type": "quote",
+     "sourceType": "opp",
+     "sourceName": "박충권",
+     "sourceDetail": null
+    },
+    {
+     "id": "s14",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null
+    }
+   ],
+   "framingTerms": [
+    {
+     "term": "맹공을 폈다",
+     "sentenceId": "s4"
+    },
+    {
+     "term": "꼬집었다",
+     "sentenceId": "s6"
+    },
+    {
+     "term": "비판했다",
+     "sentenceId": "s7"
+    },
+    {
+     "term": "지적했다",
+     "sentenceId": "s8"
+    },
+    {
+     "term": "비판했다",
+     "sentenceId": "s12"
+    },
+    {
+     "term": "강행 처리",
+     "sentenceId": "s14"
+    }
+   ],
+   "analyzedBy": "gemini-3.5-flash-lite"
+  },
+  {
+   "id": "a-7bacd46581",
+   "issueId": "auto-20261113-12-6",
+   "outletId": "news1",
+   "outletName": "뉴스1",
+   "title": "野 \"이용철, 공소취소 지휘 가능성 열어둬…법무장관 자진 사퇴해야\"",
+   "summary": "정 원내대표는 \"실제 이 후보자는 검찰 수사·공판 실무 경험이 전혀 없다\"면서 \"정상적인 정부라면 법무부 장관은커녕 법무부 근처에도 오기 힘든 경력\"이라고 비판했다. 그는 특히 \"이 대통령은 이런 하자투성이 인사를...",
+   "url": "https://www.news1.kr/politics/assembly/6353041",
+   "publishedAt": "2026-11-13T10:42:00+09:00",
+   "sentences": [
+    {
+     "id": "s1",
+     "text": null,
+     "type": "quote",
+     "sourceType": "opp",
+     "sourceName": "국민의힘",
+     "sourceDetail": null
+    },
+    {
+     "id": "s2",
+     "text": null,
+     "type": "quote",
+     "sourceType": "opp",
+     "sourceName": "정점식 원내대표",
+     "sourceDetail": null
+    },
+    {
+     "id": "s3",
+     "text": null,
+     "type": "quote",
+     "sourceType": "opp",
+     "sourceName": "정 원내대표",
+     "sourceDetail": null
+    },
+    {
+     "id": "s4",
+     "text": null,
+     "type": "quote",
+     "sourceType": "opp",
+     "sourceName": "그",
+     "sourceDetail": null
+    },
+    {
+     "id": "s5",
+     "text": null,
+     "type": "quote",
+     "sourceType": "opp",
+     "sourceName": "정 원내대표",
+     "sourceDetail": null
+    },
+    {
+     "id": "s6",
+     "text": null,
+     "type": "quote",
+     "sourceType": "opp",
+     "sourceName": "정희용 사무총장",
+     "sourceDetail": null
+    },
+    {
+     "id": "s7",
+     "text": null,
+     "type": "quote",
+     "sourceType": "opp",
+     "sourceName": "박형수 의원",
+     "sourceDetail": null
+    },
+    {
+     "id": "s8",
+     "text": null,
+     "type": "quote",
+     "sourceType": "opp",
+     "sourceName": "박 의원",
+     "sourceDetail": null
+    },
+    {
+     "id": "s9",
+     "text": null,
+     "type": "quote",
+     "sourceType": "opp",
+     "sourceName": "그",
+     "sourceDetail": null
+    }
+   ],
+   "framingTerms": [
+    {
+     "term": "촉구했다",
+     "sentenceId": "s1"
+    },
+    {
+     "term": "비판했다",
+     "sentenceId": "s3"
+    },
+    {
+     "term": "강조했다",
+     "sentenceId": "s4"
+    },
+    {
+     "term": "비판했다",
+     "sentenceId": "s6"
+    },
+    {
+     "term": "비판했다",
+     "sentenceId": "s7"
+    },
+    {
+     "term": "촉구했다",
+     "sentenceId": "s9"
+    }
+   ],
+   "analyzedBy": "gemini-3.5-flash-lite"
+  },
+  {
+   "id": "a-7554e3dfdd",
+   "issueId": "auto-20261113-12-6",
+   "outletId": "sbs",
+   "outletName": "SBS",
+   "title": "국민의힘 \"이용철은 '탈옥 맞춤형', 절대 장관해선 안 돼\"",
+   "summary": "▲ 이용철 법무부 장관 후보자 국민의힘은 오늘(13일) 이용철 법무부 장관 후보자의 과거 5·18 광주 민주화... 이 후보자는 국민 앞에 특검의 수사 결과를 명분으로 대통령의 재판에 개입하지 않겠다는 입장을 밝혀야 한다...",
+   "url": "https://news.sbs.co.kr/news/endPage.do?news_id=N1008844641&plink=ORI&cooper=NAVER",
+   "publishedAt": "2026-11-13T11:27:00+09:00",
+   "sentences": [
+    {
+     "id": "s1",
+     "text": null,
+     "type": "quote",
+     "sourceType": "opp",
+     "sourceName": "국민의힘",
+     "sourceDetail": null
+    },
+    {
+     "id": "s2",
+     "text": null,
+     "type": "quote",
+     "sourceType": "opp",
+     "sourceName": "정점식 원내대표",
+     "sourceDetail": null
+    },
+    {
+     "id": "s3",
+     "text": null,
+     "type": "quote",
+     "sourceType": "opp",
+     "sourceName": "정점식 원내대표",
+     "sourceDetail": null
+    },
+    {
+     "id": "s4",
+     "text": null,
+     "type": "quote",
+     "sourceType": "opp",
+     "sourceName": "정점식 원내대표",
+     "sourceDetail": null
+    },
+    {
+     "id": "s5",
+     "text": null,
+     "type": "quote",
+     "sourceType": "opp",
+     "sourceName": "정점식 원내대표",
+     "sourceDetail": null
+    },
+    {
+     "id": "s6",
+     "text": null,
+     "type": "quote",
+     "sourceType": "opp",
+     "sourceName": "박형수 의원",
+     "sourceDetail": null
+    },
+    {
+     "id": "s7",
+     "text": null,
+     "type": "quote",
+     "sourceType": "opp",
+     "sourceName": "박형수 의원",
+     "sourceDetail": null
+    },
+    {
+     "id": "s8",
+     "text": null,
+     "type": "quote",
+     "sourceType": "opp",
+     "sourceName": "박충권 수석대변인",
+     "sourceDetail": null
+    },
+    {
+     "id": "s9",
+     "text": null,
+     "type": "quote",
+     "sourceType": "opp",
+     "sourceName": "박충권 수석대변인",
+     "sourceDetail": null
+    },
+    {
+     "id": "s10",
+     "text": null,
+     "type": "quote",
+     "sourceType": "opp",
+     "sourceName": "박충권 수석대변인",
+     "sourceDetail": null
+    },
+    {
+     "id": "s11",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null
+    }
+   ],
+   "framingTerms": [
+    {
+     "term": "맹공을 폈습니다",
+     "sentenceId": "s1"
+    },
+    {
+     "term": "꼬집었습니다",
+     "sentenceId": "s3"
+    },
+    {
+     "term": "비판했습니다",
+     "sentenceId": "s4"
+    },
+    {
+     "term": "지적했습니다",
+     "sentenceId": "s5"
+    },
+    {
+     "term": "비판했습니다",
+     "sentenceId": "s9"
+    },
+    {
+     "term": "강행 처리",
+     "sentenceId": "s11"
+    }
+   ],
+   "analyzedBy": "gemini-3.5-flash-lite"
+  },
+  {
+   "id": "a-1ae1b46441",
+   "issueId": "auto-20261113-12-6",
+   "outletId": "segye",
+   "outletName": "세계일보",
+   "title": "정점식 “하자투성이 법무장관 지명… 이용철, 사퇴하라”",
+   "summary": "뉴시스 정 원내대표는 “이 후보자는 검찰 수사·공판 실무 경험이 전혀 없다”면서 “정상적인 정부라면... 변호하며 ‘검찰 강압 수사’를 운운하며 변론했다”며 “남들 앞에선 인권 변호사라고 도덕적 허세를 부리며...",
+   "url": "https://www.segye.com/newsView/20261113506784?OutUrl=naver",
+   "publishedAt": "2026-11-13T11:22:00+09:00",
+   "sentences": [
+    {
+     "id": "s1",
+     "text": null,
+     "type": "quote",
+     "sourceType": "opp",
+     "sourceName": "국민의힘",
+     "sourceDetail": null
+    },
+    {
+     "id": "s2",
+     "text": null,
+     "type": "quote",
+     "sourceType": "opp",
+     "sourceName": "정점식 원내대표",
+     "sourceDetail": null
+    },
+    {
+     "id": "s3",
+     "text": null,
+     "type": "quote",
+     "sourceType": "opp",
+     "sourceName": "정 원내대표",
+     "sourceDetail": null
+    },
+    {
+     "id": "s4",
+     "text": null,
+     "type": "quote",
+     "sourceType": "opp",
+     "sourceName": "그",
+     "sourceDetail": null
+    },
+    {
+     "id": "s5",
+     "text": null,
+     "type": "quote",
+     "sourceType": "opp",
+     "sourceName": "그",
+     "sourceDetail": null
+    },
+    {
+     "id": "s6",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null
+    },
+    {
+     "id": "s7",
+     "text": null,
+     "type": "quote",
+     "sourceType": "opp",
+     "sourceName": "정 원내대표",
+     "sourceDetail": null
+    },
+    {
+     "id": "s8",
+     "text": null,
+     "type": "quote",
+     "sourceType": "opp",
+     "sourceName": "그",
+     "sourceDetail": null
+    },
+    {
+     "id": "s9",
+     "text": null,
+     "type": "quote",
+     "sourceType": "opp",
+     "sourceName": "박형수 의원",
+     "sourceDetail": null
+    },
+    {
+     "id": "s10",
+     "text": null,
+     "type": "quote",
+     "sourceType": "opp",
+     "sourceName": "박형수 의원",
+     "sourceDetail": null
+    }
+   ],
+   "framingTerms": [
+    {
+     "term": "도마 위에 올랐다",
+     "sentenceId": "s6"
+    }
+   ],
+   "analyzedBy": "gemini-3.5-flash-lite"
+  },
+  {
+   "id": "a-bcaf64d143",
+   "issueId": "auto-20261113-12-6",
+   "outletId": "pressian",
+   "outletName": "프레시안",
+   "title": "국힘 \"'탈옥 도우미' 이용철, 법무부 근처도 오기 힘든 경력\"",
+   "summary": "후보자는 검찰 수사·공판 실무 경험이 전혀 없다\"고 지적했다. 이용철 후보자의 법조 경력과 과거 5·18... 정 원내대표는 \"일가족 살해 후 사체를 소각한 흉악범을 변호하면서 검찰의 강압 수사를 운운하며 변론했던 적도...",
+   "url": "https://www.pressian.com/pages/articles/2026111309494409028?utm_source=naver&utm_medium=search",
+   "publishedAt": "2026-11-13T10:40:00+09:00",
+   "sentences": [
+    {
+     "id": "s1",
+     "text": null,
+     "type": "quote",
+     "sourceType": "opp",
+     "sourceName": "국민의힘",
+     "sourceDetail": null
+    },
+    {
+     "id": "s2",
+     "text": null,
+     "type": "quote",
+     "sourceType": "opp",
+     "sourceName": "정점식 원내대표",
+     "sourceDetail": null
+    },
+    {
+     "id": "s3",
+     "text": null,
+     "type": "quote",
+     "sourceType": "opp",
+     "sourceName": "정 원내대표",
+     "sourceDetail": null
+    },
+    {
+     "id": "s4",
+     "text": null,
+     "type": "quote",
+     "sourceType": "opp",
+     "sourceName": "그",
+     "sourceDetail": null
+    },
+    {
+     "id": "s5",
+     "text": "이용철 후보자의 법조 경력과 과거 5·18 민주화운동 관련 보상금 신청…",
+     "type": "opinion",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null
+    },
+    {
+     "id": "s6",
+     "text": null,
+     "type": "quote",
+     "sourceType": "opp",
+     "sourceName": "정 원내대표",
+     "sourceDetail": null
+    },
+    {
+     "id": "s7",
+     "text": "이 후보자가 과거 5·18 민주화운동 관련 보상금을 신청했던 이력도 도마…",
+     "type": "opinion",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null
+    },
+    {
+     "id": "s8",
+     "text": null,
+     "type": "quote",
+     "sourceType": "opp",
+     "sourceName": "정 원내대표",
+     "sourceDetail": null
+    },
+    {
+     "id": "s9",
+     "text": null,
+     "type": "quote",
+     "sourceType": "opp",
+     "sourceName": "정 원내대표",
+     "sourceDetail": null
+    },
+    {
+     "id": "s10",
+     "text": "이 후보자의 인권변호사 경력에 대해서도 문제를 제기했다.",
+     "type": "opinion",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null
+    },
+    {
+     "id": "s11",
+     "text": null,
+     "type": "quote",
+     "sourceType": "opp",
+     "sourceName": "정 원내대표",
+     "sourceDetail": null
+    },
+    {
+     "id": "s12",
+     "text": null,
+     "type": "quote",
+     "sourceType": "opp",
+     "sourceName": "정 원내대표",
+     "sourceDetail": null
+    }
+   ],
+   "framingTerms": [
+    {
+     "term": "지적했다",
+     "sentenceId": "s4"
+    },
+    {
+     "term": "비판",
+     "sentenceId": "s5"
+    },
+    {
+     "term": "비판했다",
+     "sentenceId": "s9"
+    },
+    {
+     "term": "강조했다",
+     "sentenceId": "s12"
     }
    ],
    "analyzedBy": "gemini-3.5-flash-lite"
