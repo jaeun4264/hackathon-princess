@@ -184,6 +184,10 @@
       "name": "프레시안"
     },
     {
+      "id": "jnilbo",
+      "name": "전남일보"
+    },
+    {
       "id": "imbc",
       "name": "MBC"
     }
@@ -343,6 +347,124 @@
         "a-f79611cf47",
         "a-1ae1b46441",
         "a-7554e3dfdd"
+      ],
+      "displaySourceTypes": [
+        "gov",
+        "opp",
+        "expert",
+        "citizen",
+        "industry"
+      ],
+      "origin": "auto"
+    },
+    {
+      "id": "auto-20261114-00-1",
+      "title": "강의구 전 부속실장, 헌재에 재판소원 청구",
+      "summary": "12·3 비상계엄 이후 사후 계엄선포문을 작성한 혐의로 실형이 확정된 강의구 전 대통령실 부속실장이 대법원 판결 취소를 요구하며 헌법재판소에 재판소원을 청구했다.",
+      "category": "사회",
+      "date": "2026-11-13",
+      "articleIds": [
+        "a-317ed46e1f",
+        "a-f8d0892723",
+        "a-a40762351b",
+        "a-c016899655",
+        "a-69d34a08df",
+        "a-8b866d65e2",
+        "a-27add2f355",
+        "a-fa1d03861c"
+      ],
+      "displaySourceTypes": [
+        "gov",
+        "opp",
+        "expert",
+        "citizen",
+        "industry"
+      ],
+      "origin": "auto"
+    },
+    {
+      "id": "auto-20261114-00-2",
+      "title": "한중 외교장관 회담 개최",
+      "summary": "조현 외교장관과 왕이 중국 외교부장이 13일 중국 선전에서 회담을 열고 APEC 정상회의 성공 개최 및 한반도 문제 등에 대해 논의했다. 양 장관은 한중 FTA 서비스·투자 협상 진전 등 양국 관계 발전 방안을 협의했다.",
+      "category": "정치",
+      "date": "2026-11-13",
+      "articleIds": [
+        "a-9975b0895b",
+        "a-0e90d4e369",
+        "a-6014122b2e",
+        "a-e88adc5c64",
+        "a-a835e9ca3f",
+        "a-55b1cddbc1",
+        "a-389425a123",
+        "a-521857a716"
+      ],
+      "displaySourceTypes": [
+        "gov",
+        "opp",
+        "expert",
+        "citizen",
+        "industry"
+      ],
+      "origin": "auto"
+    },
+    {
+      "id": "auto-20261114-00-3",
+      "title": "주가조작 혐의 범LG가 3세 구본현 구속 송환",
+      "summary": "허위 공시 및 주가조작 혐의를 받던 범LG가 3세 구본현 전 대표가 8년 만에 해외에서 검거되어 국내로 송환된 뒤 구속됐다. 그는 2018년 검찰 수사 직전 해외로 출국해 도피 생활을 이어왔다.",
+      "category": "사회",
+      "date": "2026-11-13",
+      "articleIds": [
+        "a-72832b1843",
+        "a-f286adcbe4",
+        "a-30e6ee3003",
+        "a-e2b3855184",
+        "a-76e282a1ce",
+        "a-5f5b701c62",
+        "a-e13fcde914",
+        "a-976aaa6424"
+      ],
+      "displaySourceTypes": [
+        "gov",
+        "opp",
+        "expert",
+        "citizen",
+        "industry"
+      ],
+      "origin": "auto"
+    },
+    {
+      "id": "auto-20261114-00-4",
+      "title": "10대 소녀 살해 50대 남성 구속",
+      "summary": "경찰은 10대 소녀를 살해한 혐의를 받는 50대 남성을 구속하고 사실혼 관계인 20대 여성에 대한 구속영장을 신청했다. 북부지방공소청은 이달 8일 재신청된 영장을 청구했다.",
+      "category": "사회",
+      "date": "2026-11-13",
+      "articleIds": [
+        "a-9879255892",
+        "a-fd52a58ece",
+        "a-929a907de5",
+        "a-74cb323e28",
+        "a-92d8a3cda6"
+      ],
+      "displaySourceTypes": [
+        "gov",
+        "opp",
+        "expert",
+        "citizen",
+        "industry"
+      ],
+      "origin": "auto"
+    },
+    {
+      "id": "auto-20261114-00-5",
+      "title": "경찰, 이혜훈 전 후보자 부정청약 혐의 송치",
+      "summary": "경찰이 아파트 부정청약 의혹을 받는 이혜훈 전 후보자를 사기 등 혐의로 검찰에 송치하고 법원에 기소 전 몰수보전을 신청했다. 경찰은 청약 당시 장남을 부양가족으로 허위 등록해 청약가점을 받은 것으로 판단했다.",
+      "category": "사회",
+      "date": "2026-11-13",
+      "articleIds": [
+        "a-6d1b3ebe47",
+        "a-56fe8c233c",
+        "a-6020adb237",
+        "a-ca6c7e4c42"
       ],
       "displaySourceTypes": [
         "gov",
@@ -26086,6 +26208,4638 @@
         }
       ],
       "missingViewpoints": []
+    },
+    {
+      "id": "a-f8d0892723",
+      "issueId": "auto-20261114-00-1",
+      "outletId": "yna",
+      "title": "'사후 계엄선포문' 강의구 前부속실장, 대법유죄 불복해 재판소원",
+      "summary": "12·3 비상계엄 해제 이후 '사후 계엄선포문'을 작성한 혐의로 대법원에서 실형이 확정된 강의구 전 대통령실 부속실장이 판결을 취소해달라며 헌법재판소에 재판소원을 청구했다. 13일 법조계에 따르면 강 전 실장 측은...",
+      "url": "https://www.yna.co.kr/view/AKR20261113165700004?input=1195m",
+      "publishedAt": "2026-11-13T18:14:00+09:00",
+      "sentences": [
+        {
+          "id": "s1",
+          "text": null,
+          "type": "fact",
+          "sourceType": null,
+          "sourceName": null,
+          "sourceDetail": null
+        },
+        {
+          "id": "s2",
+          "text": null,
+          "type": "fact",
+          "sourceType": null,
+          "sourceName": null,
+          "sourceDetail": null
+        },
+        {
+          "id": "s3",
+          "text": null,
+          "type": "quote",
+          "sourceType": "etc",
+          "sourceName": "강 전 실장 측",
+          "sourceDetail": "법조계"
+        },
+        {
+          "id": "s4",
+          "text": null,
+          "type": "fact",
+          "sourceType": null,
+          "sourceName": null,
+          "sourceDetail": null
+        },
+        {
+          "id": "s5",
+          "text": null,
+          "type": "fact",
+          "sourceType": null,
+          "sourceName": null,
+          "sourceDetail": null
+        },
+        {
+          "id": "s6",
+          "text": null,
+          "type": "fact",
+          "sourceType": null,
+          "sourceName": null,
+          "sourceDetail": null
+        }
+      ],
+      "framingTerms": [],
+      "missingViewpoints": [
+        {
+          "sourceType": "opp",
+          "description": "야당 인용 없음 (같은 이슈의 다른 기사에는 있습니다)",
+          "foundInArticleIds": [
+            "a-317ed46e1f",
+            "a-c016899655"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "a-8b866d65e2",
+      "issueId": "auto-20261114-00-1",
+      "outletId": "news1",
+      "title": "'사후 계엄선포문 작성' 강의구 전 부속실장, 실형 확정 불복 재판소원",
+      "summary": "최동현 한수현 기자 = 12·3 비상계엄이 해제된 이후 '사후 계엄선포문'을 작성한 혐의로 실형이 확정된 강의구 전 대통령실 부속실장이 법원의 판결을 취소해 달라며 재판소원을 냈다. 13일 법조계에 따르면 강 전 실장...",
+      "url": "https://www.news1.kr/society/court-prosecution/6353827",
+      "publishedAt": "2026-11-13T18:54:00+09:00",
+      "sentences": [
+        {
+          "id": "s1",
+          "text": null,
+          "type": "fact",
+          "sourceType": null,
+          "sourceName": null,
+          "sourceDetail": null
+        },
+        {
+          "id": "s2",
+          "text": null,
+          "type": "fact",
+          "sourceType": null,
+          "sourceName": null,
+          "sourceDetail": null
+        },
+        {
+          "id": "s3",
+          "text": null,
+          "type": "fact",
+          "sourceType": null,
+          "sourceName": null,
+          "sourceDetail": null
+        },
+        {
+          "id": "s4",
+          "text": null,
+          "type": "fact",
+          "sourceType": null,
+          "sourceName": null,
+          "sourceDetail": null
+        },
+        {
+          "id": "s5",
+          "text": null,
+          "type": "fact",
+          "sourceType": null,
+          "sourceName": null,
+          "sourceDetail": null
+        },
+        {
+          "id": "s6",
+          "text": null,
+          "type": "fact",
+          "sourceType": null,
+          "sourceName": null,
+          "sourceDetail": null
+        },
+        {
+          "id": "s7",
+          "text": null,
+          "type": "fact",
+          "sourceType": null,
+          "sourceName": null,
+          "sourceDetail": null
+        },
+        {
+          "id": "s8",
+          "text": null,
+          "type": "fact",
+          "sourceType": null,
+          "sourceName": null,
+          "sourceDetail": null
+        }
+      ],
+      "framingTerms": [],
+      "missingViewpoints": [
+        {
+          "sourceType": "opp",
+          "description": "야당 인용 없음 (같은 이슈의 다른 기사에는 있습니다)",
+          "foundInArticleIds": [
+            "a-317ed46e1f",
+            "a-c016899655"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "a-a40762351b",
+      "issueId": "auto-20261114-00-1",
+      "outletId": "sbs",
+      "title": "강의구 전 부속실장, 대법 유죄 판결 불복해 헌재에 재판소원",
+      "summary": "▲ 비상계엄 이후 사후 문건을 작성한 혐의로 기소된 강의구 전 대통령실 부속실장이 지난 5월 28일 서울... 12·3 비상계엄 해제 이후 '사후 계엄선포문'을 작성한 혐의로 대법원에서 실형이 확정된 강의구 전 대통령실...",
+      "url": "https://news.sbs.co.kr/news/endPage.do?news_id=N1008845355&plink=ORI&cooper=NAVER",
+      "publishedAt": "2026-11-13T18:37:00+09:00",
+      "sentences": [
+        {
+          "id": "s1",
+          "text": null,
+          "type": "fact",
+          "sourceType": null,
+          "sourceName": null,
+          "sourceDetail": null
+        },
+        {
+          "id": "s2",
+          "text": null,
+          "type": "quote",
+          "sourceType": "etc",
+          "sourceName": "강 전 실장 측",
+          "sourceDetail": "익명(소속 미상)"
+        },
+        {
+          "id": "s3",
+          "text": null,
+          "type": "fact",
+          "sourceType": null,
+          "sourceName": null,
+          "sourceDetail": null
+        },
+        {
+          "id": "s4",
+          "text": null,
+          "type": "fact",
+          "sourceType": null,
+          "sourceName": null,
+          "sourceDetail": null
+        },
+        {
+          "id": "s5",
+          "text": null,
+          "type": "fact",
+          "sourceType": null,
+          "sourceName": null,
+          "sourceDetail": null
+        }
+      ],
+      "framingTerms": [],
+      "missingViewpoints": [
+        {
+          "sourceType": "opp",
+          "description": "야당 인용 없음 (같은 이슈의 다른 기사에는 있습니다)",
+          "foundInArticleIds": [
+            "a-317ed46e1f",
+            "a-c016899655"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "a-69d34a08df",
+      "issueId": "auto-20261114-00-1",
+      "outletId": "ytn",
+      "title": "'사후 계엄 선포문 작성' 강의구, '대법원 판결 취소' 재판소원 청구",
+      "summary": "12·3 비상계엄 해제 이후 사후 계엄선포문을 작성한 혐의로 대법원에서 징역 1년 6개월이 확정된 강의구 전 대통령실 부속실장이 재판소원을 청구했습니다. 강 전 실장 측은 어제(12일) 헌법재판소에 허위공문서 작성 등...",
+      "url": "https://www.ytn.co.kr/_ln/0103_202611131846176456",
+      "publishedAt": "2026-11-13T18:46:00+09:00",
+      "sentences": [
+        {
+          "id": "s1",
+          "text": null,
+          "type": "fact",
+          "sourceType": null,
+          "sourceName": null,
+          "sourceDetail": null
+        },
+        {
+          "id": "s2",
+          "text": null,
+          "type": "fact",
+          "sourceType": null,
+          "sourceName": null,
+          "sourceDetail": null
+        },
+        {
+          "id": "s3",
+          "text": null,
+          "type": "fact",
+          "sourceType": null,
+          "sourceName": null,
+          "sourceDetail": null
+        },
+        {
+          "id": "s4",
+          "text": null,
+          "type": "fact",
+          "sourceType": null,
+          "sourceName": null,
+          "sourceDetail": null
+        },
+        {
+          "id": "s5",
+          "text": "※ '당신의 제보가 뉴스가 됩니다'",
+          "type": "opinion",
+          "sourceType": null,
+          "sourceName": null,
+          "sourceDetail": null
+        }
+      ],
+      "framingTerms": [],
+      "missingViewpoints": [
+        {
+          "sourceType": "opp",
+          "description": "야당 인용 없음 (같은 이슈의 다른 기사에는 있습니다)",
+          "foundInArticleIds": [
+            "a-317ed46e1f",
+            "a-c016899655"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "a-317ed46e1f",
+      "issueId": "auto-20261114-00-1",
+      "outletId": "joongang",
+      "title": "[단독] 강의구 전 부속실장, 재판소원 청구…“유죄 판단, 죄형법정주의...",
+      "summary": "12·3 비상계엄 해제 이후 ‘사후 계엄선포문’을 작성한 혐의로 실형이 확정된 강의구 전 대통령실 부속실장이 헌법재판소에 재판소원을 청구했다. 내란특검팀(특별검사 조은석)이 기소한 사건에서 피고인이 재판소원을...",
+      "url": "https://www.joongang.co.kr/article/25478438",
+      "publishedAt": "2026-11-13T17:28:00+09:00",
+      "sentences": [
+        {
+          "id": "s1",
+          "text": null,
+          "type": "fact",
+          "sourceType": null,
+          "sourceName": null,
+          "sourceDetail": null
+        },
+        {
+          "id": "s2",
+          "text": null,
+          "type": "fact",
+          "sourceType": null,
+          "sourceName": null,
+          "sourceDetail": null
+        },
+        {
+          "id": "s3",
+          "text": null,
+          "type": "fact",
+          "sourceType": null,
+          "sourceName": null,
+          "sourceDetail": null
+        },
+        {
+          "id": "s4",
+          "text": null,
+          "type": "quote",
+          "sourceType": "opp",
+          "sourceName": "강 전 실장 측",
+          "sourceDetail": null
+        },
+        {
+          "id": "s5",
+          "text": null,
+          "type": "fact",
+          "sourceType": null,
+          "sourceName": null,
+          "sourceDetail": null
+        },
+        {
+          "id": "s6",
+          "text": null,
+          "type": "fact",
+          "sourceType": null,
+          "sourceName": null,
+          "sourceDetail": null
+        },
+        {
+          "id": "s7",
+          "text": null,
+          "type": "fact",
+          "sourceType": null,
+          "sourceName": null,
+          "sourceDetail": null
+        },
+        {
+          "id": "s8",
+          "text": null,
+          "type": "fact",
+          "sourceType": null,
+          "sourceName": null,
+          "sourceDetail": null
+        },
+        {
+          "id": "s9",
+          "text": null,
+          "type": "fact",
+          "sourceType": null,
+          "sourceName": null,
+          "sourceDetail": null
+        },
+        {
+          "id": "s10",
+          "text": null,
+          "type": "fact",
+          "sourceType": null,
+          "sourceName": null,
+          "sourceDetail": null
+        },
+        {
+          "id": "s11",
+          "text": null,
+          "type": "fact",
+          "sourceType": null,
+          "sourceName": null,
+          "sourceDetail": null
+        },
+        {
+          "id": "s12",
+          "text": null,
+          "type": "quote",
+          "sourceType": "opp",
+          "sourceName": "강 전 실장 측",
+          "sourceDetail": null
+        },
+        {
+          "id": "s13",
+          "text": null,
+          "type": "quote",
+          "sourceType": "opp",
+          "sourceName": "강 전 실장 측",
+          "sourceDetail": null
+        },
+        {
+          "id": "s14",
+          "text": null,
+          "type": "quote",
+          "sourceType": "opp",
+          "sourceName": "강 전 실장 측",
+          "sourceDetail": null
+        },
+        {
+          "id": "s15",
+          "text": null,
+          "type": "quote",
+          "sourceType": "opp",
+          "sourceName": "강 전 실장 측",
+          "sourceDetail": null
+        },
+        {
+          "id": "s16",
+          "text": null,
+          "type": "quote",
+          "sourceType": "opp",
+          "sourceName": "강 전 실장 측",
+          "sourceDetail": null
+        },
+        {
+          "id": "s17",
+          "text": null,
+          "type": "quote",
+          "sourceType": "opp",
+          "sourceName": "강 전 실장 측",
+          "sourceDetail": null
+        },
+        {
+          "id": "s18",
+          "text": null,
+          "type": "fact",
+          "sourceType": null,
+          "sourceName": null,
+          "sourceDetail": null
+        },
+        {
+          "id": "s19",
+          "text": null,
+          "type": "quote",
+          "sourceType": "opp",
+          "sourceName": "강 전 실장 측",
+          "sourceDetail": null
+        }
+      ],
+      "framingTerms": [],
+      "missingViewpoints": []
+    },
+    {
+      "id": "a-fa1d03861c",
+      "issueId": "auto-20261114-00-1",
+      "outletId": "segye",
+      "title": "‘사후 계엄선포문’ 실형 선고받은 강의구, 재판소원 청구",
+      "summary": "12·3 비상계엄 해제 이후 ‘사후 계엄선포문’을 작성한 혐의로 대법원에서 실형이 확정된 강의구 전 대통령실 부속실장이 판결을 취소해달라며 헌법재판소에 재판소원을 청구했다. 강의구 전 대통령실 부속실장....",
+      "url": "https://www.segye.com/newsView/20261113514129?OutUrl=naver",
+      "publishedAt": "2026-11-13T20:02:00+09:00",
+      "sentences": [
+        {
+          "id": "s1",
+          "text": null,
+          "type": "fact",
+          "sourceType": null,
+          "sourceName": null,
+          "sourceDetail": null
+        },
+        {
+          "id": "s2",
+          "text": null,
+          "type": "quote",
+          "sourceType": "etc",
+          "sourceName": "법조계",
+          "sourceDetail": "법원"
+        },
+        {
+          "id": "s3",
+          "text": null,
+          "type": "fact",
+          "sourceType": null,
+          "sourceName": null,
+          "sourceDetail": null
+        },
+        {
+          "id": "s4",
+          "text": null,
+          "type": "fact",
+          "sourceType": null,
+          "sourceName": null,
+          "sourceDetail": null
+        },
+        {
+          "id": "s5",
+          "text": null,
+          "type": "fact",
+          "sourceType": null,
+          "sourceName": null,
+          "sourceDetail": null
+        }
+      ],
+      "framingTerms": [],
+      "missingViewpoints": [
+        {
+          "sourceType": "opp",
+          "description": "야당 인용 없음 (같은 이슈의 다른 기사에는 있습니다)",
+          "foundInArticleIds": [
+            "a-317ed46e1f",
+            "a-c016899655"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "a-c016899655",
+      "issueId": "auto-20261114-00-1",
+      "outletId": "kmib",
+      "title": "‘사후 계엄선포문’ 작성 강의구, 대법원 확정판결에 재판소원 청구",
+      "summary": "12·3 비상계엄 해제 이후 사후 계엄선포문을 작성한 혐의로 실형이 확정된 강의구 전 대통령실 부속실장이 헌법재판소에 판결 취소를 구하는 재판소원을 청구했다. 13일 법조계에 따르면 강 전 실장 측은 지난 12일 헌재에...",
+      "url": "https://www.kmib.co.kr/article/20261113500547",
+      "publishedAt": "2026-11-13T18:39:00+09:00",
+      "sentences": [
+        {
+          "id": "s1",
+          "text": null,
+          "type": "fact",
+          "sourceType": null,
+          "sourceName": null,
+          "sourceDetail": null
+        },
+        {
+          "id": "s2",
+          "text": null,
+          "type": "quote",
+          "sourceType": "opp",
+          "sourceName": "강 전 실장 측",
+          "sourceDetail": null
+        },
+        {
+          "id": "s3",
+          "text": null,
+          "type": "quote",
+          "sourceType": "opp",
+          "sourceName": "강 전 실장 측",
+          "sourceDetail": null
+        },
+        {
+          "id": "s4",
+          "text": null,
+          "type": "fact",
+          "sourceType": null,
+          "sourceName": null,
+          "sourceDetail": null
+        },
+        {
+          "id": "s5",
+          "text": null,
+          "type": "quote",
+          "sourceType": "opp",
+          "sourceName": "강 전 실장 측",
+          "sourceDetail": null
+        },
+        {
+          "id": "s6",
+          "text": null,
+          "type": "fact",
+          "sourceType": null,
+          "sourceName": null,
+          "sourceDetail": null
+        },
+        {
+          "id": "s7",
+          "text": null,
+          "type": "fact",
+          "sourceType": null,
+          "sourceName": null,
+          "sourceDetail": null
+        },
+        {
+          "id": "s8",
+          "text": null,
+          "type": "fact",
+          "sourceType": null,
+          "sourceName": null,
+          "sourceDetail": null
+        },
+        {
+          "id": "s9",
+          "text": null,
+          "type": "fact",
+          "sourceType": null,
+          "sourceName": null,
+          "sourceDetail": null
+        },
+        {
+          "id": "s10",
+          "text": null,
+          "type": "fact",
+          "sourceType": null,
+          "sourceName": null,
+          "sourceDetail": null
+        },
+        {
+          "id": "s11",
+          "text": null,
+          "type": "fact",
+          "sourceType": null,
+          "sourceName": null,
+          "sourceDetail": null
+        }
+      ],
+      "framingTerms": [],
+      "missingViewpoints": []
+    },
+    {
+      "id": "a-27add2f355",
+      "issueId": "auto-20261114-00-1",
+      "outletId": "sedaily",
+      "title": "‘사후 계엄 선포문 작성’ 강의구, 대법 실형 확정에 재판소원 청구",
+      "summary": "12·3 비상계엄 이후 사후 계엄 선포문 작성 및 폐기에 관여한 혐의로 대법원에서 실형이 확정된 강의구 전 대통령실 부속실장이 헌법재판소에 재판소원을 청구했다. 13일 법조계에 따르면 강 전 실장 측은 전날 헌재에...",
+      "url": "https://www.sedaily.com/article/20114245?ref=naver",
+      "publishedAt": "2026-11-13T19:55:00+09:00",
+      "sentences": [
+        {
+          "id": "s1",
+          "text": null,
+          "type": "fact",
+          "sourceType": null,
+          "sourceName": null,
+          "sourceDetail": null
+        },
+        {
+          "id": "s2",
+          "text": null,
+          "type": "quote",
+          "sourceType": "etc",
+          "sourceName": "강 전 실장 측",
+          "sourceDetail": "법조계"
+        },
+        {
+          "id": "s3",
+          "text": null,
+          "type": "quote",
+          "sourceType": "etc",
+          "sourceName": "강 전 실장 측",
+          "sourceDetail": "법조계"
+        },
+        {
+          "id": "s4",
+          "text": null,
+          "type": "fact",
+          "sourceType": null,
+          "sourceName": null,
+          "sourceDetail": null
+        },
+        {
+          "id": "s5",
+          "text": null,
+          "type": "fact",
+          "sourceType": null,
+          "sourceName": null,
+          "sourceDetail": null
+        },
+        {
+          "id": "s6",
+          "text": null,
+          "type": "fact",
+          "sourceType": null,
+          "sourceName": null,
+          "sourceDetail": null
+        },
+        {
+          "id": "s7",
+          "text": null,
+          "type": "fact",
+          "sourceType": null,
+          "sourceName": null,
+          "sourceDetail": null
+        },
+        {
+          "id": "s8",
+          "text": "이 기사를 추천합니다.",
+          "type": "opinion",
+          "sourceType": null,
+          "sourceName": null,
+          "sourceDetail": null
+        }
+      ],
+      "framingTerms": [],
+      "missingViewpoints": [
+        {
+          "sourceType": "opp",
+          "description": "야당 인용 없음 (같은 이슈의 다른 기사에는 있습니다)",
+          "foundInArticleIds": [
+            "a-317ed46e1f",
+            "a-c016899655"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "a-e88adc5c64",
+      "issueId": "auto-20261114-00-2",
+      "outletId": "yna",
+      "title": "조현 \"한반도 中 건설적 역할\" 당부…왕이 \"정책 변함없다\"(종합2보)",
+      "summary": "위한 정부의 노력을 설명했으며 북한의 대화 복귀 등 한반도 문제에서 중국의 역할을 당부했다. 왕 부장은... 회담에서 조 장관은 정부가 작년 아시아태평양경제협력체(APEC) 정상회의 의장국으로서 내주 개최되는 선전 APEC...",
+      "url": "https://www.yna.co.kr/view/AKR20261113174652083?input=1195m",
+      "publishedAt": "2026-11-14T00:08:00+09:00",
+      "sentences": [
+        {
+          "id": "s1",
+          "text": null,
+          "type": "quote",
+          "sourceType": "gov",
+          "sourceName": "조현",
+          "sourceDetail": null
+        },
+        {
+          "id": "s2",
+          "text": null,
+          "type": "quote",
+          "sourceType": "etc",
+          "sourceName": "왕이",
+          "sourceDetail": "익명(소속 미상)"
+        },
+        {
+          "id": "s3",
+          "text": "전체 내용을 이해하기 위해서는 기사 본문과 함께 읽어야 합니다.",
+          "type": "opinion",
+          "sourceType": null,
+          "sourceName": null,
+          "sourceDetail": null
+        },
+        {
+          "id": "s4",
+          "text": null,
+          "type": "quote",
+          "sourceType": "gov",
+          "sourceName": "조현 외교부 장관",
+          "sourceDetail": null
+        },
+        {
+          "id": "s5",
+          "text": null,
+          "type": "quote",
+          "sourceType": "etc",
+          "sourceName": "왕이 중국 외교부장",
+          "sourceDetail": "익명(소속 미상)"
+        },
+        {
+          "id": "s6",
+          "text": null,
+          "type": "quote",
+          "sourceType": "gov",
+          "sourceName": "외교부",
+          "sourceDetail": null
+        },
+        {
+          "id": "s7",
+          "text": null,
+          "type": "fact",
+          "sourceType": null,
+          "sourceName": null,
+          "sourceDetail": null
+        },
+        {
+          "id": "s8",
+          "text": null,
+          "type": "quote",
+          "sourceType": "gov",
+          "sourceName": "조 장관",
+          "sourceDetail": null
+        },
+        {
+          "id": "s9",
+          "text": null,
+          "type": "quote",
+          "sourceType": "etc",
+          "sourceName": "왕 부장",
+          "sourceDetail": "익명(소속 미상)"
+        },
+        {
+          "id": "s10",
+          "text": null,
+          "type": "quote",
+          "sourceType": "etc",
+          "sourceName": "왕 부장",
+          "sourceDetail": "익명(소속 미상)"
+        },
+        {
+          "id": "s11",
+          "text": null,
+          "type": "quote",
+          "sourceType": "gov",
+          "sourceName": "조 장관",
+          "sourceDetail": null
+        },
+        {
+          "id": "s12",
+          "text": null,
+          "type": "quote",
+          "sourceType": "gov",
+          "sourceName": "조 장관",
+          "sourceDetail": null
+        },
+        {
+          "id": "s13",
+          "text": null,
+          "type": "quote",
+          "sourceType": "etc",
+          "sourceName": "왕 부장",
+          "sourceDetail": "익명(소속 미상)"
+        },
+        {
+          "id": "s14",
+          "text": null,
+          "type": "fact",
+          "sourceType": null,
+          "sourceName": null,
+          "sourceDetail": null
+        },
+        {
+          "id": "s15",
+          "text": null,
+          "type": "fact",
+          "sourceType": null,
+          "sourceName": null,
+          "sourceDetail": null
+        },
+        {
+          "id": "s16",
+          "text": null,
+          "type": "quote",
+          "sourceType": "etc",
+          "sourceName": "중국 외교부",
+          "sourceDetail": "익명(소속 미상)"
+        },
+        {
+          "id": "s17",
+          "text": null,
+          "type": "quote",
+          "sourceType": "etc",
+          "sourceName": "그",
+          "sourceDetail": "익명(소속 미상)"
+        },
+        {
+          "id": "s18",
+          "text": null,
+          "type": "quote",
+          "sourceType": "gov",
+          "sourceName": "조 장관",
+          "sourceDetail": null
+        },
+        {
+          "id": "s19",
+          "text": null,
+          "type": "quote",
+          "sourceType": "gov",
+          "sourceName": "외교부",
+          "sourceDetail": null
+        },
+        {
+          "id": "s20",
+          "text": null,
+          "type": "quote",
+          "sourceType": "etc",
+          "sourceName": "중국 외교부",
+          "sourceDetail": "익명(소속 미상)"
+        },
+        {
+          "id": "s21",
+          "text": null,
+          "type": "quote",
+          "sourceType": "gov",
+          "sourceName": "조 장관",
+          "sourceDetail": null
+        },
+        {
+          "id": "s22",
+          "text": null,
+          "type": "quote",
+          "sourceType": "gov",
+          "sourceName": "조 장관",
+          "sourceDetail": null
+        },
+        {
+          "id": "s23",
+          "text": null,
+          "type": "quote",
+          "sourceType": "gov",
+          "sourceName": "조 장관",
+          "sourceDetail": null
+        },
+        {
+          "id": "s24",
+          "text": null,
+          "type": "quote",
+          "sourceType": "gov",
+          "sourceName": "조 장관",
+          "sourceDetail": null
+        },
+        {
+          "id": "s25",
+          "text": null,
+          "type": "quote",
+          "sourceType": "gov",
+          "sourceName": "조 장관",
+          "sourceDetail": null
+        },
+        {
+          "id": "s26",
+          "text": null,
+          "type": "quote",
+          "sourceType": "gov",
+          "sourceName": "조 장관",
+          "sourceDetail": null
+        },
+        {
+          "id": "s27",
+          "text": null,
+          "type": "quote",
+          "sourceType": "etc",
+          "sourceName": "왕 부장",
+          "sourceDetail": "익명(소속 미상)"
+        },
+        {
+          "id": "s28",
+          "text": null,
+          "type": "quote",
+          "sourceType": "etc",
+          "sourceName": "왕 부장",
+          "sourceDetail": "익명(소속 미상)"
+        },
+        {
+          "id": "s29",
+          "text": null,
+          "type": "quote",
+          "sourceType": "etc",
+          "sourceName": "왕 부장",
+          "sourceDetail": "익명(소속 미상)"
+        },
+        {
+          "id": "s30",
+          "text": null,
+          "type": "quote",
+          "sourceType": "etc",
+          "sourceName": "왕 부장",
+          "sourceDetail": "익명(소속 미상)"
+        },
+        {
+          "id": "s31",
+          "text": null,
+          "type": "quote",
+          "sourceType": "etc",
+          "sourceName": "왕 부장",
+          "sourceDetail": "익명(소속 미상)"
+        },
+        {
+          "id": "s32",
+          "text": null,
+          "type": "quote",
+          "sourceType": "etc",
+          "sourceName": "왕 부장",
+          "sourceDetail": "익명(소속 미상)"
+        },
+        {
+          "id": "s33",
+          "text": null,
+          "type": "fact",
+          "sourceType": null,
+          "sourceName": null,
+          "sourceDetail": null
+        }
+      ],
+      "framingTerms": [],
+      "missingViewpoints": []
+    },
+    {
+      "id": "a-55b1cddbc1",
+      "issueId": "auto-20261114-00-2",
+      "outletId": "newsis",
+      "title": "APEC 앞두고 한중외교장관 회담…조현 \"中 한반도 건설적 역할\" 당부",
+      "summary": "이어 한반도 비핵화와 평화 실현을 위한 우리 정부의 노력을 설명하고 북한의 대화 복귀를 포함한 한반도... 또 조 장관은 우리 정부가 \"지난해 APEC 의장국으로서 다음 주 개최되는 선전 APEC 정상회의의 성공적 개최를...",
+      "url": "https://www.newsis.com/view/NISX20261114_0003867915",
+      "publishedAt": "2026-11-14T00:14:00+09:00",
+      "sentences": [
+        {
+          "id": "s1",
+          "text": null,
+          "type": "quote",
+          "sourceType": "etc",
+          "sourceName": "왕이",
+          "sourceDetail": "익명(소속 미상)"
+        },
+        {
+          "id": "s2",
+          "text": null,
+          "type": "fact",
+          "sourceType": null,
+          "sourceName": null,
+          "sourceDetail": null
+        },
+        {
+          "id": "s3",
+          "text": null,
+          "type": "fact",
+          "sourceType": null,
+          "sourceName": null,
+          "sourceDetail": null
+        },
+        {
+          "id": "s4",
+          "text": null,
+          "type": "quote",
+          "sourceType": "gov",
+          "sourceName": "조 장관",
+          "sourceDetail": null
+        },
+        {
+          "id": "s5",
+          "text": null,
+          "type": "fact",
+          "sourceType": null,
+          "sourceName": null,
+          "sourceDetail": null
+        },
+        {
+          "id": "s6",
+          "text": null,
+          "type": "quote",
+          "sourceType": "gov",
+          "sourceName": "외교부",
+          "sourceDetail": null
+        },
+        {
+          "id": "s7",
+          "text": null,
+          "type": "quote",
+          "sourceType": "gov",
+          "sourceName": "조 장관",
+          "sourceDetail": null
+        },
+        {
+          "id": "s8",
+          "text": null,
+          "type": "quote",
+          "sourceType": "etc",
+          "sourceName": "왕 부장",
+          "sourceDetail": "익명(소속 미상)"
+        },
+        {
+          "id": "s9",
+          "text": null,
+          "type": "quote",
+          "sourceType": "gov",
+          "sourceName": "외교부",
+          "sourceDetail": null
+        },
+        {
+          "id": "s10",
+          "text": null,
+          "type": "fact",
+          "sourceType": null,
+          "sourceName": null,
+          "sourceDetail": null
+        },
+        {
+          "id": "s11",
+          "text": null,
+          "type": "fact",
+          "sourceType": null,
+          "sourceName": null,
+          "sourceDetail": null
+        },
+        {
+          "id": "s12",
+          "text": null,
+          "type": "fact",
+          "sourceType": null,
+          "sourceName": null,
+          "sourceDetail": null
+        },
+        {
+          "id": "s13",
+          "text": null,
+          "type": "fact",
+          "sourceType": null,
+          "sourceName": null,
+          "sourceDetail": null
+        },
+        {
+          "id": "s14",
+          "text": null,
+          "type": "fact",
+          "sourceType": null,
+          "sourceName": null,
+          "sourceDetail": null
+        },
+        {
+          "id": "s15",
+          "text": null,
+          "type": "fact",
+          "sourceType": null,
+          "sourceName": null,
+          "sourceDetail": null
+        },
+        {
+          "id": "s16",
+          "text": null,
+          "type": "fact",
+          "sourceType": null,
+          "sourceName": null,
+          "sourceDetail": null
+        }
+      ],
+      "framingTerms": [],
+      "missingViewpoints": []
+    },
+    {
+      "id": "a-0e90d4e369",
+      "issueId": "auto-20261114-00-2",
+      "outletId": "news1",
+      "title": "APEC 앞두고 마주 앉은 조현·왕이…中에 \"北 대화 복귀 역할\" 당부(종합...",
+      "summary": "김예슬 기자 노민호 특파원 = 한중 외교수장이 13일 선전 아시아태평양경제협력체(APEC) 정상회의를 앞두고... 정상 간 신뢰를 바탕으로 관계 복원의 성과를 경제·문화·인적교류 등으로 구체화하자는 취지로 읽힌다....",
+      "url": "https://www.news1.kr/diplomacy/defense-diplomacy/6353896",
+      "publishedAt": "2026-11-13T23:47:00+09:00",
+      "sentences": [
+        {
+          "id": "s1",
+          "text": "오는 18~19일 선전에서 열리는 APEC 정상회의를 계기로 이재명 대통…",
+          "type": "opinion",
+          "sourceType": null,
+          "sourceName": null,
+          "sourceDetail": null
+        },
+        {
+          "id": "s2",
+          "text": null,
+          "type": "fact",
+          "sourceType": null,
+          "sourceName": null,
+          "sourceDetail": null
+        },
+        {
+          "id": "s3",
+          "text": null,
+          "type": "quote",
+          "sourceType": "gov",
+          "sourceName": "조 장관",
+          "sourceDetail": null
+        },
+        {
+          "id": "s4",
+          "text": null,
+          "type": "quote",
+          "sourceType": "gov",
+          "sourceName": "조 장관",
+          "sourceDetail": null
+        },
+        {
+          "id": "s5",
+          "text": null,
+          "type": "quote",
+          "sourceType": "gov",
+          "sourceName": "조 장관",
+          "sourceDetail": null
+        },
+        {
+          "id": "s6",
+          "text": "정상 간 신뢰를 바탕으로 관계 복원의 성과를 경제·문화·인적교류 등으로…",
+          "type": "opinion",
+          "sourceType": null,
+          "sourceName": null,
+          "sourceDetail": null
+        },
+        {
+          "id": "s7",
+          "text": null,
+          "type": "fact",
+          "sourceType": null,
+          "sourceName": null,
+          "sourceDetail": null
+        },
+        {
+          "id": "s8",
+          "text": null,
+          "type": "fact",
+          "sourceType": null,
+          "sourceName": null,
+          "sourceDetail": null
+        },
+        {
+          "id": "s9",
+          "text": null,
+          "type": "quote",
+          "sourceType": "etc",
+          "sourceName": "왕 부장",
+          "sourceDetail": "외국 정부"
+        },
+        {
+          "id": "s10",
+          "text": null,
+          "type": "quote",
+          "sourceType": "etc",
+          "sourceName": "왕 부장",
+          "sourceDetail": "외국 정부"
+        },
+        {
+          "id": "s11",
+          "text": null,
+          "type": "quote",
+          "sourceType": "etc",
+          "sourceName": "왕 부장",
+          "sourceDetail": "외국 정부"
+        },
+        {
+          "id": "s12",
+          "text": null,
+          "type": "quote",
+          "sourceType": "etc",
+          "sourceName": "왕 부장",
+          "sourceDetail": "외국 정부"
+        },
+        {
+          "id": "s13",
+          "text": null,
+          "type": "quote",
+          "sourceType": "etc",
+          "sourceName": "왕 부장",
+          "sourceDetail": "외국 정부"
+        },
+        {
+          "id": "s14",
+          "text": null,
+          "type": "quote",
+          "sourceType": "etc",
+          "sourceName": "왕 부장",
+          "sourceDetail": "외국 정부"
+        },
+        {
+          "id": "s15",
+          "text": null,
+          "type": "fact",
+          "sourceType": null,
+          "sourceName": null,
+          "sourceDetail": null
+        },
+        {
+          "id": "s16",
+          "text": null,
+          "type": "fact",
+          "sourceType": null,
+          "sourceName": null,
+          "sourceDetail": null
+        },
+        {
+          "id": "s17",
+          "text": null,
+          "type": "fact",
+          "sourceType": null,
+          "sourceName": null,
+          "sourceDetail": null
+        }
+      ],
+      "framingTerms": [],
+      "missingViewpoints": []
+    },
+    {
+      "id": "a-a835e9ca3f",
+      "issueId": "auto-20261114-00-2",
+      "outletId": "hani",
+      "title": "조현 “한반도 문제, 중국 건설적 역할 당부”…왕이 “정책 변함 없다...",
+      "summary": "위한 정부의 노력을 설명했으며 북한의 대화 복귀 등 한반도 문제에서 중국의 역할을 당부했다. 조 장관은... 양국 정부의 긴밀한 소통과 협력이 이 같은 성과를 가져왔다고 밝혔다. 특히, 두 장관은 한중 FTA 서비스·투자...",
+      "url": "https://www.hani.co.kr/arti/politics/politics_general/1287294.html",
+      "publishedAt": "2026-11-14T00:08:00+09:00",
+      "sentences": [
+        {
+          "id": "s1",
+          "text": null,
+          "type": "fact",
+          "sourceType": null,
+          "sourceName": null,
+          "sourceDetail": null
+        },
+        {
+          "id": "s2",
+          "text": null,
+          "type": "quote",
+          "sourceType": "gov",
+          "sourceName": "왕이 중국 외교부장",
+          "sourceDetail": null
+        },
+        {
+          "id": "s3",
+          "text": null,
+          "type": "quote",
+          "sourceType": "gov",
+          "sourceName": "외교부",
+          "sourceDetail": null
+        },
+        {
+          "id": "s4",
+          "text": null,
+          "type": "fact",
+          "sourceType": null,
+          "sourceName": null,
+          "sourceDetail": null
+        },
+        {
+          "id": "s5",
+          "text": null,
+          "type": "fact",
+          "sourceType": null,
+          "sourceName": null,
+          "sourceDetail": null
+        },
+        {
+          "id": "s6",
+          "text": null,
+          "type": "quote",
+          "sourceType": "gov",
+          "sourceName": "조 장관",
+          "sourceDetail": null
+        },
+        {
+          "id": "s7",
+          "text": null,
+          "type": "fact",
+          "sourceType": null,
+          "sourceName": null,
+          "sourceDetail": null
+        },
+        {
+          "id": "s8",
+          "text": null,
+          "type": "fact",
+          "sourceType": null,
+          "sourceName": null,
+          "sourceDetail": null
+        },
+        {
+          "id": "s9",
+          "text": null,
+          "type": "fact",
+          "sourceType": null,
+          "sourceName": null,
+          "sourceDetail": null
+        },
+        {
+          "id": "s10",
+          "text": null,
+          "type": "quote",
+          "sourceType": "gov",
+          "sourceName": "조 장관",
+          "sourceDetail": null
+        },
+        {
+          "id": "s11",
+          "text": null,
+          "type": "quote",
+          "sourceType": "gov",
+          "sourceName": "조 장관",
+          "sourceDetail": null
+        },
+        {
+          "id": "s12",
+          "text": null,
+          "type": "quote",
+          "sourceType": "gov",
+          "sourceName": "왕 부장",
+          "sourceDetail": null
+        },
+        {
+          "id": "s13",
+          "text": null,
+          "type": "fact",
+          "sourceType": null,
+          "sourceName": null,
+          "sourceDetail": null
+        },
+        {
+          "id": "s14",
+          "text": null,
+          "type": "quote",
+          "sourceType": "gov",
+          "sourceName": "왕 부장",
+          "sourceDetail": null
+        },
+        {
+          "id": "s15",
+          "text": null,
+          "type": "quote",
+          "sourceType": "gov",
+          "sourceName": "왕 부장",
+          "sourceDetail": null
+        },
+        {
+          "id": "s16",
+          "text": null,
+          "type": "quote",
+          "sourceType": "gov",
+          "sourceName": "조 장관",
+          "sourceDetail": null
+        },
+        {
+          "id": "s17",
+          "text": null,
+          "type": "quote",
+          "sourceType": "gov",
+          "sourceName": "그",
+          "sourceDetail": null
+        },
+        {
+          "id": "s18",
+          "text": null,
+          "type": "fact",
+          "sourceType": null,
+          "sourceName": null,
+          "sourceDetail": null
+        },
+        {
+          "id": "s19",
+          "text": null,
+          "type": "fact",
+          "sourceType": null,
+          "sourceName": null,
+          "sourceDetail": null
+        },
+        {
+          "id": "s20",
+          "text": null,
+          "type": "quote",
+          "sourceType": "gov",
+          "sourceName": "외교부",
+          "sourceDetail": null
+        }
+      ],
+      "framingTerms": [],
+      "missingViewpoints": []
+    },
+    {
+      "id": "a-6014122b2e",
+      "issueId": "auto-20261114-00-2",
+      "outletId": "segye",
+      "title": "APEC 앞두고 한·중 외교장관 회담…조현 \"한반도 평화는 한중 공동이익...",
+      "summary": "조 장관은 이번 회담을 통해 다음 주 선전 아시아태평양경제협력체(APEC) 정상회의에서 양국 정상의 만남이 성공적으로 이루질 수 있도록 협의하기를 기대한다고 강조했다. 이에 왕 부장도 “지난해 말과 올해 초 시진팡...",
+      "url": "https://www.segye.com/newsView/20261113514645?OutUrl=naver",
+      "publishedAt": "2026-11-13T23:48:00+09:00",
+      "sentences": [
+        {
+          "id": "s1",
+          "text": null,
+          "type": "quote",
+          "sourceType": "gov",
+          "sourceName": "조현 외교부 장관",
+          "sourceDetail": null
+        },
+        {
+          "id": "s2",
+          "text": null,
+          "type": "quote",
+          "sourceType": "etc",
+          "sourceName": "왕이 부장",
+          "sourceDetail": "익명(소속 미상)"
+        },
+        {
+          "id": "s3",
+          "text": null,
+          "type": "fact",
+          "sourceType": null,
+          "sourceName": null,
+          "sourceDetail": null
+        },
+        {
+          "id": "s4",
+          "text": null,
+          "type": "quote",
+          "sourceType": "gov",
+          "sourceName": "조 장관",
+          "sourceDetail": null
+        },
+        {
+          "id": "s5",
+          "text": null,
+          "type": "quote",
+          "sourceType": "gov",
+          "sourceName": "조 장관",
+          "sourceDetail": null
+        },
+        {
+          "id": "s6",
+          "text": null,
+          "type": "quote",
+          "sourceType": "gov",
+          "sourceName": "조 장관",
+          "sourceDetail": null
+        },
+        {
+          "id": "s7",
+          "text": null,
+          "type": "quote",
+          "sourceType": "gov",
+          "sourceName": "그",
+          "sourceDetail": null
+        },
+        {
+          "id": "s8",
+          "text": null,
+          "type": "quote",
+          "sourceType": "gov",
+          "sourceName": "조 장관",
+          "sourceDetail": null
+        },
+        {
+          "id": "s9",
+          "text": null,
+          "type": "quote",
+          "sourceType": "gov",
+          "sourceName": "조 장관",
+          "sourceDetail": null
+        },
+        {
+          "id": "s10",
+          "text": null,
+          "type": "quote",
+          "sourceType": "etc",
+          "sourceName": "왕 부장",
+          "sourceDetail": "익명(소속 미상)"
+        },
+        {
+          "id": "s11",
+          "text": null,
+          "type": "quote",
+          "sourceType": "etc",
+          "sourceName": "그",
+          "sourceDetail": "익명(소속 미상)"
+        },
+        {
+          "id": "s12",
+          "text": null,
+          "type": "quote",
+          "sourceType": "etc",
+          "sourceName": "왕 부장은",
+          "sourceDetail": "익명(소속 미상)"
+        },
+        {
+          "id": "s13",
+          "text": null,
+          "type": "quote",
+          "sourceType": "etc",
+          "sourceName": "왕 부장은",
+          "sourceDetail": "익명(소속 미상)"
+        },
+        {
+          "id": "s14",
+          "text": "두 장관은 이번 회담에서 선전 APEC 정상회의를 앞두고 정상 간 만남을…",
+          "type": "opinion",
+          "sourceType": null,
+          "sourceName": null,
+          "sourceDetail": null
+        }
+      ],
+      "framingTerms": [],
+      "missingViewpoints": []
+    },
+    {
+      "id": "a-9975b0895b",
+      "issueId": "auto-20261114-00-2",
+      "outletId": "nocutnews",
+      "title": "APEC 앞두고 만난 한중 외교장관…조현 \"한반도 평화는 양국 공동 이익...",
+      "summary": "한국과 중국 외교장관이 13일 중국 선전에서 열리는 아시아태평양경제협력체(APEC) 정상회의를 닷새 앞두고... 특히 한중 FTA 서비스·투자 협상 진전을 통해 양국의 수평적이고 호혜적인 경제협력의 기반을 강화해 나가는...",
+      "url": "https://www.nocutnews.co.kr/news/6606877?utm_source=naver&utm_medium=article&utm_campaign=20261113234326",
+      "publishedAt": "2026-11-13T23:44:00+09:00",
+      "sentences": [
+        {
+          "id": "s1",
+          "text": null,
+          "type": "fact",
+          "sourceType": null,
+          "sourceName": null,
+          "sourceDetail": null
+        },
+        {
+          "id": "s2",
+          "text": null,
+          "type": "quote",
+          "sourceType": "gov",
+          "sourceName": "조현 외교부장관과 왕이 중국 외교부장",
+          "sourceDetail": null
+        },
+        {
+          "id": "s3",
+          "text": null,
+          "type": "quote",
+          "sourceType": "gov",
+          "sourceName": "조 장관",
+          "sourceDetail": null
+        },
+        {
+          "id": "s4",
+          "text": null,
+          "type": "quote",
+          "sourceType": "etc",
+          "sourceName": "왕 부장",
+          "sourceDetail": "익명(소속 미상)"
+        },
+        {
+          "id": "s5",
+          "text": null,
+          "type": "fact",
+          "sourceType": null,
+          "sourceName": null,
+          "sourceDetail": null
+        },
+        {
+          "id": "s6",
+          "text": null,
+          "type": "fact",
+          "sourceType": null,
+          "sourceName": null,
+          "sourceDetail": null
+        },
+        {
+          "id": "s7",
+          "text": null,
+          "type": "fact",
+          "sourceType": null,
+          "sourceName": null,
+          "sourceDetail": null
+        },
+        {
+          "id": "s8",
+          "text": null,
+          "type": "quote",
+          "sourceType": "gov",
+          "sourceName": "조 장관",
+          "sourceDetail": null
+        },
+        {
+          "id": "s9",
+          "text": null,
+          "type": "fact",
+          "sourceType": null,
+          "sourceName": null,
+          "sourceDetail": null
+        },
+        {
+          "id": "s10",
+          "text": null,
+          "type": "quote",
+          "sourceType": "gov",
+          "sourceName": "외교부",
+          "sourceDetail": null
+        }
+      ],
+      "framingTerms": [],
+      "missingViewpoints": []
+    },
+    {
+      "id": "a-521857a716",
+      "issueId": "auto-20261114-00-2",
+      "outletId": "newspim",
+      "title": "조현 \"한반도 문제는 한국의 사활적 이익\"...中 건설적 역할 당부",
+      "summary": "조 장관은 회담에서 한국 정부가 지난해 아시아태평양경제협력체(APEC) 의장국으로서 다음 주 개최되는 선전... 양국 정부가 긴밀히 소통하며 함께 노력해온 결과\"라고 평가했다. 왕 부장은 \"지난해 말과 올해 초 시 주석과...",
+      "url": "https://www.newspim.com/news/view/20261114000004",
+      "publishedAt": "2026-11-14T00:27:00+09:00",
+      "sentences": [
+        {
+          "id": "s1",
+          "text": null,
+          "type": "fact",
+          "sourceType": null,
+          "sourceName": null,
+          "sourceDetail": null
+        },
+        {
+          "id": "s2",
+          "text": null,
+          "type": "fact",
+          "sourceType": null,
+          "sourceName": null,
+          "sourceDetail": null
+        },
+        {
+          "id": "s3",
+          "text": null,
+          "type": "fact",
+          "sourceType": null,
+          "sourceName": null,
+          "sourceDetail": null
+        },
+        {
+          "id": "s4",
+          "text": "!AI가 자동 생성한 요약으로 정확하지 않을 수 있어요.",
+          "type": "opinion",
+          "sourceType": null,
+          "sourceName": null,
+          "sourceDetail": null
+        },
+        {
+          "id": "s5",
+          "text": null,
+          "type": "quote",
+          "sourceType": "gov",
+          "sourceName": "왕이",
+          "sourceDetail": null
+        },
+        {
+          "id": "s6",
+          "text": null,
+          "type": "quote",
+          "sourceType": "gov",
+          "sourceName": "왕이",
+          "sourceDetail": null
+        },
+        {
+          "id": "s7",
+          "text": null,
+          "type": "quote",
+          "sourceType": "gov",
+          "sourceName": "中 외교부",
+          "sourceDetail": null
+        },
+        {
+          "id": "s8",
+          "text": null,
+          "type": "fact",
+          "sourceType": null,
+          "sourceName": null,
+          "sourceDetail": null
+        },
+        {
+          "id": "s9",
+          "text": null,
+          "type": "quote",
+          "sourceType": "gov",
+          "sourceName": "조 장관",
+          "sourceDetail": null
+        },
+        {
+          "id": "s10",
+          "text": null,
+          "type": "quote",
+          "sourceType": "gov",
+          "sourceName": "왕 부장",
+          "sourceDetail": null
+        },
+        {
+          "id": "s11",
+          "text": null,
+          "type": "fact",
+          "sourceType": null,
+          "sourceName": null,
+          "sourceDetail": null
+        },
+        {
+          "id": "s12",
+          "text": null,
+          "type": "fact",
+          "sourceType": null,
+          "sourceName": null,
+          "sourceDetail": null
+        },
+        {
+          "id": "s13",
+          "text": null,
+          "type": "fact",
+          "sourceType": null,
+          "sourceName": null,
+          "sourceDetail": null
+        },
+        {
+          "id": "s14",
+          "text": null,
+          "type": "quote",
+          "sourceType": "gov",
+          "sourceName": "조 장관",
+          "sourceDetail": null
+        },
+        {
+          "id": "s15",
+          "text": null,
+          "type": "quote",
+          "sourceType": "gov",
+          "sourceName": "조 장관",
+          "sourceDetail": null
+        },
+        {
+          "id": "s16",
+          "text": null,
+          "type": "quote",
+          "sourceType": "gov",
+          "sourceName": "왕 부장",
+          "sourceDetail": null
+        },
+        {
+          "id": "s17",
+          "text": null,
+          "type": "fact",
+          "sourceType": null,
+          "sourceName": null,
+          "sourceDetail": null
+        },
+        {
+          "id": "s18",
+          "text": null,
+          "type": "quote",
+          "sourceType": "gov",
+          "sourceName": "왕 부장",
+          "sourceDetail": null
+        },
+        {
+          "id": "s19",
+          "text": null,
+          "type": "fact",
+          "sourceType": null,
+          "sourceName": null,
+          "sourceDetail": null
+        },
+        {
+          "id": "s20",
+          "text": null,
+          "type": "quote",
+          "sourceType": "gov",
+          "sourceName": "외교부는",
+          "sourceDetail": null
+        },
+        {
+          "id": "s21",
+          "text": null,
+          "type": "fact",
+          "sourceType": null,
+          "sourceName": null,
+          "sourceDetail": null
+        },
+        {
+          "id": "s22",
+          "text": null,
+          "type": "quote",
+          "sourceType": "gov",
+          "sourceName": "중국 외교부는",
+          "sourceDetail": null
+        },
+        {
+          "id": "s23",
+          "text": null,
+          "type": "quote",
+          "sourceType": "gov",
+          "sourceName": "중국 외교부는",
+          "sourceDetail": null
+        }
+      ],
+      "framingTerms": [],
+      "missingViewpoints": []
+    },
+    {
+      "id": "a-389425a123",
+      "issueId": "auto-20261114-00-2",
+      "outletId": "yonhapnewstv",
+      "title": "조현, 중국에 '한반도 문제' 역할 당부…왕이 \"정책 변함없어\"",
+      "summary": "조 장관은 한반도의 평화·안정이 한중 양국의 공동 이익임을 강조했고 한반도 비핵화와 평화 실현을 위한 정부의 노력을 설명했으며 북한의 대화 복귀 등 한반도 문제에서 중국의 역할을 당부했습니다. 왕 부장은 이에...",
+      "url": "http://www.yonhapnewstv.co.kr/news/AKR20261114002114az8",
+      "publishedAt": "2026-11-14T00:22:00+09:00",
+      "sentences": [
+        {
+          "id": "s1",
+          "text": null,
+          "type": "quote",
+          "sourceType": "gov",
+          "sourceName": "조현 외교부 장관",
+          "sourceDetail": null
+        },
+        {
+          "id": "s2",
+          "text": null,
+          "type": "quote",
+          "sourceType": "etc",
+          "sourceName": "왕이 중국 외교부장",
+          "sourceDetail": "익명(소속 미상)"
+        },
+        {
+          "id": "s3",
+          "text": null,
+          "type": "fact",
+          "sourceType": null,
+          "sourceName": null,
+          "sourceDetail": null
+        },
+        {
+          "id": "s4",
+          "text": null,
+          "type": "fact",
+          "sourceType": null,
+          "sourceName": null,
+          "sourceDetail": null
+        },
+        {
+          "id": "s5",
+          "text": null,
+          "type": "quote",
+          "sourceType": "gov",
+          "sourceName": "조 장관",
+          "sourceDetail": null
+        },
+        {
+          "id": "s6",
+          "text": "왕 부장은 이에 대해 답하면서 '비핵화' 표현을 명시적으로 쓰지 않는 최…",
+          "type": "opinion",
+          "sourceType": null,
+          "sourceName": null,
+          "sourceDetail": null
+        },
+        {
+          "id": "s7",
+          "text": null,
+          "type": "fact",
+          "sourceType": null,
+          "sourceName": null,
+          "sourceDetail": null
+        },
+        {
+          "id": "s8",
+          "text": null,
+          "type": "quote",
+          "sourceType": "gov",
+          "sourceName": "조 장관",
+          "sourceDetail": null
+        },
+        {
+          "id": "s9",
+          "text": null,
+          "type": "quote",
+          "sourceType": "etc",
+          "sourceName": "왕 부장",
+          "sourceDetail": "익명(소속 미상)"
+        },
+        {
+          "id": "s10",
+          "text": "당신이 담은 순간이 뉴스입니다!",
+          "type": "opinion",
+          "sourceType": null,
+          "sourceName": null,
+          "sourceDetail": null
+        }
+      ],
+      "framingTerms": [
+        {
+          "term": "강조했고",
+          "sentenceId": "s5"
+        },
+        {
+          "term": "기원한다고",
+          "sentenceId": "s8"
+        },
+        {
+          "term": "평가하면서",
+          "sentenceId": "s9"
+        },
+        {
+          "term": "화답했습니다",
+          "sentenceId": "s9"
+        }
+      ],
+      "missingViewpoints": []
+    },
+    {
+      "id": "a-976aaa6424",
+      "issueId": "auto-20261114-00-3",
+      "outletId": "kbs",
+      "title": "‘주가조작’ 범LG가 3세 구본현, 해외 도피 8년 만에 검거",
+      "summary": "구 전 대표는 당시 검찰 수사 전인 2018년 10월, 네덜란드로 출국했습니다. 이후 프랑스와 태국을 거쳐, 캄보디아까지 국경을 넘나들며 도피 행각을 이어갔습니다. 인터폴 적색 수배와 여권 무효화 조치 전이라 가능했던...",
+      "url": "https://news.kbs.co.kr/news/pc/view/view.do?ncd=8712690&ref=A",
+      "publishedAt": "2026-11-13T23:12:00+09:00",
+      "sentences": [
+        {
+          "id": "s1",
+          "text": null,
+          "type": "fact",
+          "sourceType": null,
+          "sourceName": null,
+          "sourceDetail": null
+        },
+        {
+          "id": "s2",
+          "text": null,
+          "type": "fact",
+          "sourceType": null,
+          "sourceName": null,
+          "sourceDetail": null
+        },
+        {
+          "id": "s3",
+          "text": null,
+          "type": "fact",
+          "sourceType": null,
+          "sourceName": null,
+          "sourceDetail": null
+        },
+        {
+          "id": "s4",
+          "text": null,
+          "type": "fact",
+          "sourceType": null,
+          "sourceName": null,
+          "sourceDetail": null
+        },
+        {
+          "id": "s5",
+          "text": null,
+          "type": "fact",
+          "sourceType": null,
+          "sourceName": null,
+          "sourceDetail": null
+        },
+        {
+          "id": "s6",
+          "text": null,
+          "type": "fact",
+          "sourceType": null,
+          "sourceName": null,
+          "sourceDetail": null
+        },
+        {
+          "id": "s7",
+          "text": null,
+          "type": "fact",
+          "sourceType": null,
+          "sourceName": null,
+          "sourceDetail": null
+        },
+        {
+          "id": "s8",
+          "text": null,
+          "type": "fact",
+          "sourceType": null,
+          "sourceName": null,
+          "sourceDetail": null
+        },
+        {
+          "id": "s9",
+          "text": null,
+          "type": "fact",
+          "sourceType": null,
+          "sourceName": null,
+          "sourceDetail": null
+        },
+        {
+          "id": "s10",
+          "text": null,
+          "type": "fact",
+          "sourceType": null,
+          "sourceName": null,
+          "sourceDetail": null
+        },
+        {
+          "id": "s11",
+          "text": null,
+          "type": "fact",
+          "sourceType": null,
+          "sourceName": null,
+          "sourceDetail": null
+        },
+        {
+          "id": "s12",
+          "text": null,
+          "type": "fact",
+          "sourceType": null,
+          "sourceName": null,
+          "sourceDetail": null
+        },
+        {
+          "id": "s13",
+          "text": null,
+          "type": "fact",
+          "sourceType": null,
+          "sourceName": null,
+          "sourceDetail": null
+        },
+        {
+          "id": "s14",
+          "text": null,
+          "type": "quote",
+          "sourceType": "etc",
+          "sourceName": "구 전 대표",
+          "sourceDetail": "구본현 전 대표"
+        },
+        {
+          "id": "s15",
+          "text": null,
+          "type": "fact",
+          "sourceType": null,
+          "sourceName": null,
+          "sourceDetail": null
+        },
+        {
+          "id": "s16",
+          "text": null,
+          "type": "quote",
+          "sourceType": "gov",
+          "sourceName": "임정완",
+          "sourceDetail": null
+        },
+        {
+          "id": "s17",
+          "text": null,
+          "type": "fact",
+          "sourceType": null,
+          "sourceName": null,
+          "sourceDetail": null
+        },
+        {
+          "id": "s18",
+          "text": null,
+          "type": "fact",
+          "sourceType": null,
+          "sourceName": null,
+          "sourceDetail": null
+        },
+        {
+          "id": "s19",
+          "text": null,
+          "type": "fact",
+          "sourceType": null,
+          "sourceName": null,
+          "sourceDetail": null
+        }
+      ],
+      "framingTerms": [],
+      "missingViewpoints": []
+    },
+    {
+      "id": "a-f286adcbe4",
+      "issueId": "auto-20261114-00-3",
+      "outletId": "sbs",
+      "title": "개미 1만 명 울린 LG가 3세, 도피 8년 만에 구속",
+      "summary": "그런데 구 씨는 검찰 수사 착수 전인 지난 2018년 10월 돌연 네덜란드로 출국했고, 수사에 착수한 검찰은 인터폴에 적색 수배를 요청했습니다. 법 개정에 따라 경찰은 검찰로부터 해당 사건을 넘겨받아 수사를 진행해...",
+      "url": "https://news.sbs.co.kr/news/endPage.do?news_id=N1008845371&plink=ORI&cooper=NAVER",
+      "publishedAt": "2026-11-13T20:41:00+09:00",
+      "sentences": [
+        {
+          "id": "s1",
+          "text": null,
+          "type": "fact",
+          "sourceType": null,
+          "sourceName": null,
+          "sourceDetail": null
+        },
+        {
+          "id": "s2",
+          "text": null,
+          "type": "fact",
+          "sourceType": null,
+          "sourceName": null,
+          "sourceDetail": null
+        },
+        {
+          "id": "s3",
+          "text": null,
+          "type": "fact",
+          "sourceType": null,
+          "sourceName": null,
+          "sourceDetail": null
+        },
+        {
+          "id": "s4",
+          "text": null,
+          "type": "fact",
+          "sourceType": null,
+          "sourceName": null,
+          "sourceDetail": null
+        },
+        {
+          "id": "s5",
+          "text": null,
+          "type": "fact",
+          "sourceType": null,
+          "sourceName": null,
+          "sourceDetail": null
+        },
+        {
+          "id": "s6",
+          "text": null,
+          "type": "fact",
+          "sourceType": null,
+          "sourceName": null,
+          "sourceDetail": null
+        },
+        {
+          "id": "s7",
+          "text": null,
+          "type": "fact",
+          "sourceType": null,
+          "sourceName": null,
+          "sourceDetail": null
+        },
+        {
+          "id": "s8",
+          "text": null,
+          "type": "fact",
+          "sourceType": null,
+          "sourceName": null,
+          "sourceDetail": null
+        },
+        {
+          "id": "s9",
+          "text": null,
+          "type": "fact",
+          "sourceType": null,
+          "sourceName": null,
+          "sourceDetail": null
+        },
+        {
+          "id": "s10",
+          "text": null,
+          "type": "fact",
+          "sourceType": null,
+          "sourceName": null,
+          "sourceDetail": null
+        },
+        {
+          "id": "s11",
+          "text": null,
+          "type": "fact",
+          "sourceType": null,
+          "sourceName": null,
+          "sourceDetail": null
+        },
+        {
+          "id": "s12",
+          "text": null,
+          "type": "fact",
+          "sourceType": null,
+          "sourceName": null,
+          "sourceDetail": null
+        },
+        {
+          "id": "s13",
+          "text": null,
+          "type": "quote",
+          "sourceType": "gov",
+          "sourceName": "임정완/서울경찰청 금융범죄수사1계장",
+          "sourceDetail": null
+        },
+        {
+          "id": "s14",
+          "text": null,
+          "type": "fact",
+          "sourceType": null,
+          "sourceName": null,
+          "sourceDetail": null
+        },
+        {
+          "id": "s15",
+          "text": null,
+          "type": "fact",
+          "sourceType": null,
+          "sourceName": null,
+          "sourceDetail": null
+        }
+      ],
+      "framingTerms": [],
+      "missingViewpoints": []
+    },
+    {
+      "id": "a-5f5b701c62",
+      "issueId": "auto-20261114-00-3",
+      "outletId": "ytn",
+      "title": "8년간 해외도피...'주가조작' 범LG가 3세 구본현 구속",
+      "summary": "과거 검찰이 수사하던 사건을 이어받은 경찰이 캄보디아에서 국내로 송환해 구속했습니다. 김이영 기자의 보도입니다. [기자] 범LG가 3세인 57살 구본현 씨가 해외로 나간 건 지난 2018년 10월입니다. 검찰이 구 씨의...",
+      "url": "https://www.ytn.co.kr/_ln/0103_202611132304297741",
+      "publishedAt": "2026-11-13T23:04:00+09:00",
+      "sentences": [
+        {
+          "id": "s1",
+          "text": null,
+          "type": "fact",
+          "sourceType": null,
+          "sourceName": null,
+          "sourceDetail": null
+        },
+        {
+          "id": "s2",
+          "text": null,
+          "type": "fact",
+          "sourceType": null,
+          "sourceName": null,
+          "sourceDetail": null
+        },
+        {
+          "id": "s3",
+          "text": null,
+          "type": "fact",
+          "sourceType": null,
+          "sourceName": null,
+          "sourceDetail": null
+        },
+        {
+          "id": "s4",
+          "text": null,
+          "type": "fact",
+          "sourceType": null,
+          "sourceName": null,
+          "sourceDetail": null
+        },
+        {
+          "id": "s5",
+          "text": null,
+          "type": "fact",
+          "sourceType": null,
+          "sourceName": null,
+          "sourceDetail": null
+        },
+        {
+          "id": "s6",
+          "text": null,
+          "type": "fact",
+          "sourceType": null,
+          "sourceName": null,
+          "sourceDetail": null
+        },
+        {
+          "id": "s7",
+          "text": null,
+          "type": "fact",
+          "sourceType": null,
+          "sourceName": null,
+          "sourceDetail": null
+        },
+        {
+          "id": "s8",
+          "text": null,
+          "type": "fact",
+          "sourceType": null,
+          "sourceName": null,
+          "sourceDetail": null
+        },
+        {
+          "id": "s9",
+          "text": null,
+          "type": "fact",
+          "sourceType": null,
+          "sourceName": null,
+          "sourceDetail": null
+        },
+        {
+          "id": "s10",
+          "text": null,
+          "type": "fact",
+          "sourceType": null,
+          "sourceName": null,
+          "sourceDetail": null
+        },
+        {
+          "id": "s11",
+          "text": null,
+          "type": "fact",
+          "sourceType": null,
+          "sourceName": null,
+          "sourceDetail": null
+        },
+        {
+          "id": "s12",
+          "text": null,
+          "type": "fact",
+          "sourceType": null,
+          "sourceName": null,
+          "sourceDetail": null
+        },
+        {
+          "id": "s13",
+          "text": null,
+          "type": "fact",
+          "sourceType": null,
+          "sourceName": null,
+          "sourceDetail": null
+        }
+      ],
+      "framingTerms": [],
+      "missingViewpoints": [
+        {
+          "sourceType": "gov",
+          "description": "정부·여당 인용 없음 (같은 이슈의 다른 기사에는 있습니다)",
+          "foundInArticleIds": [
+            "a-976aaa6424",
+            "a-f286adcbe4",
+            "a-72832b1843",
+            "a-e13fcde914",
+            "a-30e6ee3003",
+            "a-76e282a1ce"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "a-72832b1843",
+      "issueId": "auto-20261114-00-3",
+      "outletId": "hani",
+      "title": "‘허위 공시 주가조작’ LG가 3세 구본현, 국외 도피 8년 만에 국내 송환...",
+      "summary": "앞서 2018년 8월 이 의혹과 관련해 금융감독원이 불공정거래 조사에 착수하자, 구 전 대표는 검찰의 본격적인 수사 직전인 같은 해 10월 네덜란드로 출국해 잠적했다. 이후 소재 파악이 어려워지자 검찰은 기소중지...",
+      "url": "https://www.hani.co.kr/arti/society/society_general/1287282.html",
+      "publishedAt": "2026-11-13T18:42:00+09:00",
+      "sentences": [
+        {
+          "id": "s1",
+          "text": null,
+          "type": "fact",
+          "sourceType": null,
+          "sourceName": null,
+          "sourceDetail": null
+        },
+        {
+          "id": "s2",
+          "text": null,
+          "type": "fact",
+          "sourceType": null,
+          "sourceName": null,
+          "sourceDetail": null
+        },
+        {
+          "id": "s3",
+          "text": null,
+          "type": "quote",
+          "sourceType": "gov",
+          "sourceName": "서울경찰청 광역수사단 금융범죄수사대",
+          "sourceDetail": null
+        },
+        {
+          "id": "s4",
+          "text": null,
+          "type": "quote",
+          "sourceType": "gov",
+          "sourceName": "경찰",
+          "sourceDetail": null
+        },
+        {
+          "id": "s5",
+          "text": null,
+          "type": "fact",
+          "sourceType": null,
+          "sourceName": null,
+          "sourceDetail": null
+        },
+        {
+          "id": "s6",
+          "text": null,
+          "type": "fact",
+          "sourceType": null,
+          "sourceName": null,
+          "sourceDetail": null
+        },
+        {
+          "id": "s7",
+          "text": null,
+          "type": "fact",
+          "sourceType": null,
+          "sourceName": null,
+          "sourceDetail": null
+        },
+        {
+          "id": "s8",
+          "text": null,
+          "type": "fact",
+          "sourceType": null,
+          "sourceName": null,
+          "sourceDetail": null
+        },
+        {
+          "id": "s9",
+          "text": null,
+          "type": "fact",
+          "sourceType": null,
+          "sourceName": null,
+          "sourceDetail": null
+        },
+        {
+          "id": "s10",
+          "text": null,
+          "type": "fact",
+          "sourceType": null,
+          "sourceName": null,
+          "sourceDetail": null
+        },
+        {
+          "id": "s11",
+          "text": null,
+          "type": "fact",
+          "sourceType": null,
+          "sourceName": null,
+          "sourceDetail": null
+        },
+        {
+          "id": "s12",
+          "text": null,
+          "type": "fact",
+          "sourceType": null,
+          "sourceName": null,
+          "sourceDetail": null
+        },
+        {
+          "id": "s13",
+          "text": null,
+          "type": "fact",
+          "sourceType": null,
+          "sourceName": null,
+          "sourceDetail": null
+        },
+        {
+          "id": "s14",
+          "text": null,
+          "type": "quote",
+          "sourceType": "gov",
+          "sourceName": "경찰 관계자",
+          "sourceDetail": null
+        },
+        {
+          "id": "s15",
+          "text": null,
+          "type": "fact",
+          "sourceType": null,
+          "sourceName": null,
+          "sourceDetail": null
+        }
+      ],
+      "framingTerms": [],
+      "missingViewpoints": []
+    },
+    {
+      "id": "a-e13fcde914",
+      "issueId": "auto-20261114-00-3",
+      "outletId": "hankookilbo",
+      "title": "이 대통령, 주가조작 재벌가 3세 검거에 \"해외도 안전한 도피처 못 돼\"",
+      "summary": "이후 또다시 주가조작 등에 관여한 혐의로 수사선상에 오른 구 전 대표는 검찰 수사가 시작되기 전인 2018년 10월쯤 해외로 출국해 도피 생활을 이어왔다. 검찰은 이듬해 5월 체포영장을 발부받아 구 전 대표를...",
+      "url": "https://www.hankookilbo.com/news/article/A2026111322550002428?did=NA",
+      "publishedAt": "2026-11-13T23:08:00+09:00",
+      "sentences": [
+        {
+          "id": "s1",
+          "text": null,
+          "type": "quote",
+          "sourceType": "gov",
+          "sourceName": "이재명 대통령",
+          "sourceDetail": null
+        },
+        {
+          "id": "s2",
+          "text": null,
+          "type": "quote",
+          "sourceType": "gov",
+          "sourceName": "이재명 대통령",
+          "sourceDetail": null
+        },
+        {
+          "id": "s3",
+          "text": null,
+          "type": "quote",
+          "sourceType": "gov",
+          "sourceName": "이 대통령",
+          "sourceDetail": null
+        },
+        {
+          "id": "s4",
+          "text": null,
+          "type": "fact",
+          "sourceType": null,
+          "sourceName": null,
+          "sourceDetail": null
+        },
+        {
+          "id": "s5",
+          "text": null,
+          "type": "fact",
+          "sourceType": null,
+          "sourceName": null,
+          "sourceDetail": null
+        },
+        {
+          "id": "s6",
+          "text": null,
+          "type": "fact",
+          "sourceType": null,
+          "sourceName": null,
+          "sourceDetail": null
+        },
+        {
+          "id": "s7",
+          "text": null,
+          "type": "fact",
+          "sourceType": null,
+          "sourceName": null,
+          "sourceDetail": null
+        },
+        {
+          "id": "s8",
+          "text": null,
+          "type": "fact",
+          "sourceType": null,
+          "sourceName": null,
+          "sourceDetail": null
+        },
+        {
+          "id": "s9",
+          "text": null,
+          "type": "quote",
+          "sourceType": "etc",
+          "sourceName": "그",
+          "sourceDetail": "익명(소속 미상)"
+        },
+        {
+          "id": "s10",
+          "text": null,
+          "type": "fact",
+          "sourceType": null,
+          "sourceName": null,
+          "sourceDetail": null
+        }
+      ],
+      "framingTerms": [],
+      "missingViewpoints": []
+    },
+    {
+      "id": "a-30e6ee3003",
+      "issueId": "auto-20261114-00-3",
+      "outletId": "segye",
+      "title": "해외도피 8년 만에 국내 송환된 재벌 3세… 구속영장 발부",
+      "summary": "구씨는 수사당국이 범죄혐의를 포착하자 검찰(현 공소청) 수사 착수 전인 2018년 10월 네덜란드로 출국했다. 같은 해 11월 수사에 착수한 검찰은 구씨의 소재가 파악되지 않자 2019년 5월 체포영장을 발부받아...",
+      "url": "https://www.segye.com/newsView/20261113512790?OutUrl=naver",
+      "publishedAt": "2026-11-13T20:42:00+09:00",
+      "sentences": [
+        {
+          "id": "s1",
+          "text": null,
+          "type": "fact",
+          "sourceType": null,
+          "sourceName": null,
+          "sourceDetail": null
+        },
+        {
+          "id": "s2",
+          "text": null,
+          "type": "quote",
+          "sourceType": "gov",
+          "sourceName": "서울경찰청 광역수사단 금융범죄수사대",
+          "sourceDetail": null
+        },
+        {
+          "id": "s3",
+          "text": null,
+          "type": "fact",
+          "sourceType": null,
+          "sourceName": null,
+          "sourceDetail": null
+        },
+        {
+          "id": "s4",
+          "text": null,
+          "type": "fact",
+          "sourceType": null,
+          "sourceName": null,
+          "sourceDetail": null
+        },
+        {
+          "id": "s5",
+          "text": null,
+          "type": "fact",
+          "sourceType": null,
+          "sourceName": null,
+          "sourceDetail": null
+        },
+        {
+          "id": "s6",
+          "text": null,
+          "type": "fact",
+          "sourceType": null,
+          "sourceName": null,
+          "sourceDetail": null
+        },
+        {
+          "id": "s7",
+          "text": null,
+          "type": "fact",
+          "sourceType": null,
+          "sourceName": null,
+          "sourceDetail": null
+        },
+        {
+          "id": "s8",
+          "text": null,
+          "type": "fact",
+          "sourceType": null,
+          "sourceName": null,
+          "sourceDetail": null
+        },
+        {
+          "id": "s9",
+          "text": null,
+          "type": "fact",
+          "sourceType": null,
+          "sourceName": null,
+          "sourceDetail": null
+        }
+      ],
+      "framingTerms": [],
+      "missingViewpoints": []
+    },
+    {
+      "id": "a-e2b3855184",
+      "issueId": "auto-20261114-00-3",
+      "outletId": "yonhapnewstv",
+      "title": "'주가조작' 범LG가 3세 구본현 구속…해외 도피 8년 만에 송환",
+      "summary": "지난 2018년 검찰 수사가 시작되기 전 네덜란드로 출국한 구 씨는 인터폴 적색수배까지 내려졌지만, 그간... 당초 검찰은 구 씨가 145억원의 이득을 챙겼다고 봤지만, 법원은 이 사건의 부당이익 규모를 특정하기 어렵다고...",
+      "url": "http://www.yonhapnewstv.co.kr/news/MYH20261113210232H8Q",
+      "publishedAt": "2026-11-13T21:03:00+09:00",
+      "sentences": [
+        {
+          "id": "s1",
+          "text": null,
+          "type": "fact",
+          "sourceType": null,
+          "sourceName": null,
+          "sourceDetail": null
+        },
+        {
+          "id": "s2",
+          "text": null,
+          "type": "fact",
+          "sourceType": null,
+          "sourceName": null,
+          "sourceDetail": null
+        },
+        {
+          "id": "s3",
+          "text": null,
+          "type": "fact",
+          "sourceType": null,
+          "sourceName": null,
+          "sourceDetail": null
+        },
+        {
+          "id": "s4",
+          "text": null,
+          "type": "fact",
+          "sourceType": null,
+          "sourceName": null,
+          "sourceDetail": null
+        },
+        {
+          "id": "s5",
+          "text": null,
+          "type": "fact",
+          "sourceType": null,
+          "sourceName": null,
+          "sourceDetail": null
+        },
+        {
+          "id": "s6",
+          "text": null,
+          "type": "fact",
+          "sourceType": null,
+          "sourceName": null,
+          "sourceDetail": null
+        },
+        {
+          "id": "s7",
+          "text": null,
+          "type": "quote",
+          "sourceType": "etc",
+          "sourceName": "임정완 / 서울경찰청 금융범죄수사1계장",
+          "sourceDetail": "경찰"
+        },
+        {
+          "id": "s8",
+          "text": null,
+          "type": "fact",
+          "sourceType": null,
+          "sourceName": null,
+          "sourceDetail": null
+        },
+        {
+          "id": "s9",
+          "text": null,
+          "type": "fact",
+          "sourceType": null,
+          "sourceName": null,
+          "sourceDetail": null
+        },
+        {
+          "id": "s10",
+          "text": null,
+          "type": "fact",
+          "sourceType": null,
+          "sourceName": null,
+          "sourceDetail": null
+        },
+        {
+          "id": "s11",
+          "text": null,
+          "type": "fact",
+          "sourceType": null,
+          "sourceName": null,
+          "sourceDetail": null
+        },
+        {
+          "id": "s12",
+          "text": null,
+          "type": "quote",
+          "sourceType": "etc",
+          "sourceName": "경찰",
+          "sourceDetail": "경찰"
+        },
+        {
+          "id": "s13",
+          "text": null,
+          "type": "quote",
+          "sourceType": "etc",
+          "sourceName": "경찰",
+          "sourceDetail": "경찰"
+        },
+        {
+          "id": "s14",
+          "text": "당신이 담은 순간이 뉴스입니다!",
+          "type": "opinion",
+          "sourceType": null,
+          "sourceName": null,
+          "sourceDetail": null
+        }
+      ],
+      "framingTerms": [],
+      "missingViewpoints": [
+        {
+          "sourceType": "gov",
+          "description": "정부·여당 인용 없음 (같은 이슈의 다른 기사에는 있습니다)",
+          "foundInArticleIds": [
+            "a-976aaa6424",
+            "a-f286adcbe4",
+            "a-72832b1843",
+            "a-e13fcde914",
+            "a-30e6ee3003",
+            "a-76e282a1ce"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "a-76e282a1ce",
+      "issueId": "auto-20261114-00-3",
+      "outletId": "jnilbo",
+      "title": "LG 재벌 3세 구본현, 캄보디아서 검거 8년 만에 송환",
+      "summary": "검찰은 당초 구 씨의 부당이익을 약 145억원으로 산정했으나, 법원은 공범 사건 심리에서 부당이익 규모를... 구 씨는 검찰 수사 착수 전인 2018년 10월 네덜란드로 출국했고, 이후 프랑스와 태국을 거쳐 캄보디아에서...",
+      "url": "https://www.jnilbo.com/news/articleView.html?idxno=90000082543",
+      "publishedAt": "2026-11-13T22:19:00+09:00",
+      "sentences": [
+        {
+          "id": "s1",
+          "text": null,
+          "type": "fact",
+          "sourceType": null,
+          "sourceName": null,
+          "sourceDetail": null
+        },
+        {
+          "id": "s2",
+          "text": null,
+          "type": "quote",
+          "sourceType": "gov",
+          "sourceName": "서울경찰청 광역수사단 금융범죄수사대",
+          "sourceDetail": null
+        },
+        {
+          "id": "s3",
+          "text": null,
+          "type": "fact",
+          "sourceType": null,
+          "sourceName": null,
+          "sourceDetail": null
+        },
+        {
+          "id": "s4",
+          "text": null,
+          "type": "fact",
+          "sourceType": null,
+          "sourceName": null,
+          "sourceDetail": null
+        },
+        {
+          "id": "s5",
+          "text": null,
+          "type": "fact",
+          "sourceType": null,
+          "sourceName": null,
+          "sourceDetail": null
+        },
+        {
+          "id": "s6",
+          "text": null,
+          "type": "fact",
+          "sourceType": null,
+          "sourceName": null,
+          "sourceDetail": null
+        },
+        {
+          "id": "s7",
+          "text": null,
+          "type": "fact",
+          "sourceType": null,
+          "sourceName": null,
+          "sourceDetail": null
+        },
+        {
+          "id": "s8",
+          "text": null,
+          "type": "fact",
+          "sourceType": null,
+          "sourceName": null,
+          "sourceDetail": null
+        },
+        {
+          "id": "s9",
+          "text": null,
+          "type": "fact",
+          "sourceType": null,
+          "sourceName": null,
+          "sourceDetail": null
+        },
+        {
+          "id": "s10",
+          "text": null,
+          "type": "fact",
+          "sourceType": null,
+          "sourceName": null,
+          "sourceDetail": null
+        },
+        {
+          "id": "s11",
+          "text": null,
+          "type": "fact",
+          "sourceType": null,
+          "sourceName": null,
+          "sourceDetail": null
+        },
+        {
+          "id": "s12",
+          "text": null,
+          "type": "fact",
+          "sourceType": null,
+          "sourceName": null,
+          "sourceDetail": null
+        },
+        {
+          "id": "s13",
+          "text": null,
+          "type": "fact",
+          "sourceType": null,
+          "sourceName": null,
+          "sourceDetail": null
+        },
+        {
+          "id": "s14",
+          "text": null,
+          "type": "fact",
+          "sourceType": null,
+          "sourceName": null,
+          "sourceDetail": null
+        },
+        {
+          "id": "s15",
+          "text": null,
+          "type": "quote",
+          "sourceType": "etc",
+          "sourceName": "경찰 관계자",
+          "sourceDetail": "익명(소속 미상)"
+        },
+        {
+          "id": "s16",
+          "text": null,
+          "type": "fact",
+          "sourceType": null,
+          "sourceName": null,
+          "sourceDetail": null
+        }
+      ],
+      "framingTerms": [
+        {
+          "term": "검거돼",
+          "sentenceId": "s1"
+        },
+        {
+          "term": "송환된",
+          "sentenceId": "s1"
+        },
+        {
+          "term": "구속됐다",
+          "sentenceId": "s1"
+        },
+        {
+          "term": "끌어올리고",
+          "sentenceId": "s3"
+        },
+        {
+          "term": "챙긴",
+          "sentenceId": "s3"
+        },
+        {
+          "term": "조사됐다",
+          "sentenceId": "s4"
+        },
+        {
+          "term": "횡령하고",
+          "sentenceId": "s5"
+        },
+        {
+          "term": "행위를",
+          "sentenceId": "s5"
+        },
+        {
+          "term": "속이고",
+          "sentenceId": "s6"
+        },
+        {
+          "term": "숨긴",
+          "sentenceId": "s6"
+        },
+        {
+          "term": "알려졌다",
+          "sentenceId": "s7"
+        },
+        {
+          "term": "산정했으나",
+          "sentenceId": "s8"
+        },
+        {
+          "term": "판단했다",
+          "sentenceId": "s8"
+        },
+        {
+          "term": "받았다",
+          "sentenceId": "s9"
+        },
+        {
+          "term": "전해졌다",
+          "sentenceId": "s10"
+        },
+        {
+          "term": "요청했으나",
+          "sentenceId": "s11"
+        },
+        {
+          "term": "파악되지",
+          "sentenceId": "s11"
+        },
+        {
+          "term": "붙잡힌",
+          "sentenceId": "s12"
+        },
+        {
+          "term": "송환됐으며",
+          "sentenceId": "s12"
+        },
+        {
+          "term": "확보했다",
+          "sentenceId": "s12"
+        },
+        {
+          "term": "인정한",
+          "sentenceId": "s13"
+        },
+        {
+          "term": "전해졌다",
+          "sentenceId": "s13"
+        },
+        {
+          "term": "검토하고",
+          "sentenceId": "s14"
+        },
+        {
+          "term": "조작해",
+          "sentenceId": "s16"
+        },
+        {
+          "term": "확정된",
+          "sentenceId": "s16"
+        }
+      ],
+      "missingViewpoints": []
+    },
+    {
+      "id": "a-9879255892",
+      "issueId": "auto-20261114-00-4",
+      "outletId": "sbs",
+      "title": "'10대 살해' 50대 남성 구속…사실혼 관계 여성도 영장 청구",
+      "summary": "노원서는 올해 7월에도 B 씨에 대해 절도교사 혐의 등으로 구속영장을 신청했으나, 검찰(현 공소청)이 청구하지 않았습니다. 경찰은 이달 8일 다시 북부지방공소청에 구속영장을 신청했고, 오늘 공소청이 영장을...",
+      "url": "https://news.sbs.co.kr/news/endPage.do?news_id=N1008845333&plink=ORI&cooper=NAVER",
+      "publishedAt": "2026-11-13T17:56:00+09:00",
+      "sentences": [
+        {
+          "id": "s1",
+          "text": null,
+          "type": "fact",
+          "sourceType": null,
+          "sourceName": null,
+          "sourceDetail": null
+        },
+        {
+          "id": "s2",
+          "text": null,
+          "type": "fact",
+          "sourceType": null,
+          "sourceName": null,
+          "sourceDetail": null
+        },
+        {
+          "id": "s3",
+          "text": null,
+          "type": "fact",
+          "sourceType": null,
+          "sourceName": null,
+          "sourceDetail": null
+        },
+        {
+          "id": "s4",
+          "text": null,
+          "type": "fact",
+          "sourceType": null,
+          "sourceName": null,
+          "sourceDetail": null
+        },
+        {
+          "id": "s5",
+          "text": null,
+          "type": "fact",
+          "sourceType": null,
+          "sourceName": null,
+          "sourceDetail": null
+        },
+        {
+          "id": "s6",
+          "text": null,
+          "type": "fact",
+          "sourceType": null,
+          "sourceName": null,
+          "sourceDetail": null
+        },
+        {
+          "id": "s7",
+          "text": null,
+          "type": "fact",
+          "sourceType": null,
+          "sourceName": null,
+          "sourceDetail": null
+        }
+      ],
+      "framingTerms": [],
+      "missingViewpoints": [
+        {
+          "sourceType": "gov",
+          "description": "정부·여당 인용 없음 (같은 이슈의 다른 기사에는 있습니다)",
+          "foundInArticleIds": [
+            "a-74cb323e28",
+            "a-fd52a58ece",
+            "a-929a907de5"
+          ]
+        },
+        {
+          "sourceType": "expert",
+          "description": "전문가 인용 없음 (같은 이슈의 다른 기사에는 있습니다)",
+          "foundInArticleIds": [
+            "a-92d8a3cda6"
+          ]
+        },
+        {
+          "sourceType": "citizen",
+          "description": "시민·단체 인용 없음 (같은 이슈의 다른 기사에는 있습니다)",
+          "foundInArticleIds": [
+            "a-74cb323e28",
+            "a-fd52a58ece",
+            "a-929a907de5",
+            "a-92d8a3cda6"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "a-74cb323e28",
+      "issueId": "auto-20261114-00-4",
+      "outletId": "segye",
+      "title": "15세 소녀 살해 50대 남성 구속… 사실혼 20대 여성도 구속 갈림길",
+      "summary": "경찰은 올해 7월에도 C씨에 대해 절도교사 혐의 등으로 구속영장을 신청했으나, 검찰(현 공소청)이 청구하지 않았다. 경찰은 이달 8일 다시 북부지방공소청에 구속영장을 신청했고, 이날 공소청이 영장을 청구한 것이다.",
+      "url": "https://www.segye.com/newsView/20261113514231?OutUrl=naver",
+      "publishedAt": "2026-11-13T20:32:00+09:00",
+      "sentences": [
+        {
+          "id": "s1",
+          "text": null,
+          "type": "fact",
+          "sourceType": null,
+          "sourceName": null,
+          "sourceDetail": null
+        },
+        {
+          "id": "s2",
+          "text": null,
+          "type": "fact",
+          "sourceType": null,
+          "sourceName": null,
+          "sourceDetail": null
+        },
+        {
+          "id": "s3",
+          "text": null,
+          "type": "quote",
+          "sourceType": "etc",
+          "sourceName": "서울북부지법 강영훈 영장전담 부장판사",
+          "sourceDetail": "법원"
+        },
+        {
+          "id": "s4",
+          "text": null,
+          "type": "fact",
+          "sourceType": null,
+          "sourceName": null,
+          "sourceDetail": null
+        },
+        {
+          "id": "s5",
+          "text": null,
+          "type": "fact",
+          "sourceType": null,
+          "sourceName": null,
+          "sourceDetail": null
+        },
+        {
+          "id": "s6",
+          "text": null,
+          "type": "fact",
+          "sourceType": null,
+          "sourceName": null,
+          "sourceDetail": null
+        },
+        {
+          "id": "s7",
+          "text": null,
+          "type": "fact",
+          "sourceType": null,
+          "sourceName": null,
+          "sourceDetail": null
+        },
+        {
+          "id": "s8",
+          "text": null,
+          "type": "fact",
+          "sourceType": null,
+          "sourceName": null,
+          "sourceDetail": null
+        },
+        {
+          "id": "s9",
+          "text": null,
+          "type": "quote",
+          "sourceType": "gov",
+          "sourceName": "경찰",
+          "sourceDetail": null
+        },
+        {
+          "id": "s10",
+          "text": null,
+          "type": "fact",
+          "sourceType": null,
+          "sourceName": null,
+          "sourceDetail": null
+        },
+        {
+          "id": "s11",
+          "text": null,
+          "type": "fact",
+          "sourceType": null,
+          "sourceName": null,
+          "sourceDetail": null
+        },
+        {
+          "id": "s12",
+          "text": null,
+          "type": "fact",
+          "sourceType": null,
+          "sourceName": null,
+          "sourceDetail": null
+        },
+        {
+          "id": "s13",
+          "text": null,
+          "type": "quote",
+          "sourceType": "citizen",
+          "sourceName": "유족",
+          "sourceDetail": null
+        },
+        {
+          "id": "s14",
+          "text": null,
+          "type": "fact",
+          "sourceType": null,
+          "sourceName": null,
+          "sourceDetail": null
+        },
+        {
+          "id": "s15",
+          "text": null,
+          "type": "fact",
+          "sourceType": null,
+          "sourceName": null,
+          "sourceDetail": null
+        }
+      ],
+      "framingTerms": [],
+      "missingViewpoints": [
+        {
+          "sourceType": "expert",
+          "description": "전문가 인용 없음 (같은 이슈의 다른 기사에는 있습니다)",
+          "foundInArticleIds": [
+            "a-92d8a3cda6"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "a-fd52a58ece",
+      "issueId": "auto-20261114-00-4",
+      "outletId": "inews24",
+      "title": "'10대살해' 50대男의 사실혼 20대女도 영장청구, 왜?",
+      "summary": "노원서는 올해 7월에도 C씨에 대해 절도교사 혐의 등으로 구속영장을 신청했으나, 검찰(현 공소청)이 청구하지 않았다. 경찰은 이달 8일 다시 북부지방공소청에 구속영장을 신청했고, 이날 공소청이 영장을 청구한...",
+      "url": "http://www.inews24.com/view/2026138",
+      "publishedAt": "2026-11-13T18:23:00+09:00",
+      "sentences": [
+        {
+          "id": "s1",
+          "text": null,
+          "type": "fact",
+          "sourceType": null,
+          "sourceName": null,
+          "sourceDetail": null
+        },
+        {
+          "id": "s2",
+          "text": "피해자에 성매매를 강요했다는 의혹이다.",
+          "type": "opinion",
+          "sourceType": null,
+          "sourceName": null,
+          "sourceDetail": null
+        },
+        {
+          "id": "s3",
+          "text": null,
+          "type": "fact",
+          "sourceType": null,
+          "sourceName": null,
+          "sourceDetail": null
+        },
+        {
+          "id": "s4",
+          "text": null,
+          "type": "fact",
+          "sourceType": null,
+          "sourceName": null,
+          "sourceDetail": null
+        },
+        {
+          "id": "s5",
+          "text": null,
+          "type": "fact",
+          "sourceType": null,
+          "sourceName": null,
+          "sourceDetail": null
+        },
+        {
+          "id": "s6",
+          "text": null,
+          "type": "fact",
+          "sourceType": null,
+          "sourceName": null,
+          "sourceDetail": null
+        },
+        {
+          "id": "s7",
+          "text": null,
+          "type": "quote",
+          "sourceType": "gov",
+          "sourceName": "경찰",
+          "sourceDetail": null
+        },
+        {
+          "id": "s8",
+          "text": null,
+          "type": "fact",
+          "sourceType": null,
+          "sourceName": null,
+          "sourceDetail": null
+        },
+        {
+          "id": "s9",
+          "text": null,
+          "type": "fact",
+          "sourceType": null,
+          "sourceName": null,
+          "sourceDetail": null
+        },
+        {
+          "id": "s10",
+          "text": null,
+          "type": "fact",
+          "sourceType": null,
+          "sourceName": null,
+          "sourceDetail": null
+        },
+        {
+          "id": "s11",
+          "text": null,
+          "type": "quote",
+          "sourceType": "citizen",
+          "sourceName": "B양 유족",
+          "sourceDetail": null
+        },
+        {
+          "id": "s12",
+          "text": null,
+          "type": "fact",
+          "sourceType": null,
+          "sourceName": null,
+          "sourceDetail": null
+        },
+        {
+          "id": "s13",
+          "text": null,
+          "type": "fact",
+          "sourceType": null,
+          "sourceName": null,
+          "sourceDetail": null
+        },
+        {
+          "id": "s14",
+          "text": null,
+          "type": "fact",
+          "sourceType": null,
+          "sourceName": null,
+          "sourceDetail": null
+        },
+        {
+          "id": "s15",
+          "text": null,
+          "type": "fact",
+          "sourceType": null,
+          "sourceName": null,
+          "sourceDetail": null
+        },
+        {
+          "id": "s16",
+          "text": null,
+          "type": "fact",
+          "sourceType": null,
+          "sourceName": null,
+          "sourceDetail": null
+        },
+        {
+          "id": "s17",
+          "text": null,
+          "type": "fact",
+          "sourceType": null,
+          "sourceName": null,
+          "sourceDetail": null
+        },
+        {
+          "id": "s18",
+          "text": null,
+          "type": "fact",
+          "sourceType": null,
+          "sourceName": null,
+          "sourceDetail": null
+        }
+      ],
+      "framingTerms": [],
+      "missingViewpoints": [
+        {
+          "sourceType": "expert",
+          "description": "전문가 인용 없음 (같은 이슈의 다른 기사에는 있습니다)",
+          "foundInArticleIds": [
+            "a-92d8a3cda6"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "a-929a907de5",
+      "issueId": "auto-20261114-00-4",
+      "outletId": "heraldcorp",
+      "title": "‘10대 소녀 살해’ 50대 구속…사실혼 관계 20대 여성도 구속영장[세상...",
+      "summary": "노원경찰서는 지난 7월에도 절도교사 등 혐의로 구속영장을 신청했지만 당시 검찰은 영장을 법원에 청구하지 않았다. 경찰은 이후 추가 수사를 거쳐 지난 8일 북부지방공소청에 다시 구속영장을 신청했으며, 공소청은...",
+      "url": "https://biz.heraldcorp.com/article/10936740?ref=naver",
+      "publishedAt": "2026-11-13T18:59:00+09:00",
+      "sentences": [
+        {
+          "id": "s1",
+          "text": null,
+          "type": "fact",
+          "sourceType": null,
+          "sourceName": null,
+          "sourceDetail": null
+        },
+        {
+          "id": "s2",
+          "text": null,
+          "type": "fact",
+          "sourceType": null,
+          "sourceName": null,
+          "sourceDetail": null
+        },
+        {
+          "id": "s3",
+          "text": null,
+          "type": "fact",
+          "sourceType": null,
+          "sourceName": null,
+          "sourceDetail": null
+        },
+        {
+          "id": "s4",
+          "text": null,
+          "type": "quote",
+          "sourceType": "etc",
+          "sourceName": "강영훈 영장전담 부장판사",
+          "sourceDetail": "법원"
+        },
+        {
+          "id": "s5",
+          "text": null,
+          "type": "fact",
+          "sourceType": null,
+          "sourceName": null,
+          "sourceDetail": null
+        },
+        {
+          "id": "s6",
+          "text": null,
+          "type": "fact",
+          "sourceType": null,
+          "sourceName": null,
+          "sourceDetail": null
+        },
+        {
+          "id": "s7",
+          "text": null,
+          "type": "fact",
+          "sourceType": null,
+          "sourceName": null,
+          "sourceDetail": null
+        },
+        {
+          "id": "s8",
+          "text": null,
+          "type": "fact",
+          "sourceType": null,
+          "sourceName": null,
+          "sourceDetail": null
+        },
+        {
+          "id": "s9",
+          "text": null,
+          "type": "fact",
+          "sourceType": null,
+          "sourceName": null,
+          "sourceDetail": null
+        },
+        {
+          "id": "s10",
+          "text": null,
+          "type": "fact",
+          "sourceType": null,
+          "sourceName": null,
+          "sourceDetail": null
+        },
+        {
+          "id": "s11",
+          "text": null,
+          "type": "fact",
+          "sourceType": null,
+          "sourceName": null,
+          "sourceDetail": null
+        },
+        {
+          "id": "s12",
+          "text": null,
+          "type": "fact",
+          "sourceType": null,
+          "sourceName": null,
+          "sourceDetail": null
+        },
+        {
+          "id": "s13",
+          "text": null,
+          "type": "fact",
+          "sourceType": null,
+          "sourceName": null,
+          "sourceDetail": null
+        },
+        {
+          "id": "s14",
+          "text": null,
+          "type": "fact",
+          "sourceType": null,
+          "sourceName": null,
+          "sourceDetail": null
+        },
+        {
+          "id": "s15",
+          "text": null,
+          "type": "fact",
+          "sourceType": null,
+          "sourceName": null,
+          "sourceDetail": null
+        },
+        {
+          "id": "s16",
+          "text": null,
+          "type": "fact",
+          "sourceType": null,
+          "sourceName": null,
+          "sourceDetail": null
+        },
+        {
+          "id": "s17",
+          "text": null,
+          "type": "fact",
+          "sourceType": null,
+          "sourceName": null,
+          "sourceDetail": null
+        },
+        {
+          "id": "s18",
+          "text": null,
+          "type": "fact",
+          "sourceType": null,
+          "sourceName": null,
+          "sourceDetail": null
+        },
+        {
+          "id": "s19",
+          "text": null,
+          "type": "fact",
+          "sourceType": null,
+          "sourceName": null,
+          "sourceDetail": null
+        },
+        {
+          "id": "s20",
+          "text": null,
+          "type": "fact",
+          "sourceType": null,
+          "sourceName": null,
+          "sourceDetail": null
+        },
+        {
+          "id": "s21",
+          "text": null,
+          "type": "quote",
+          "sourceType": "citizen",
+          "sourceName": "B양의 유족",
+          "sourceDetail": null
+        },
+        {
+          "id": "s22",
+          "text": null,
+          "type": "fact",
+          "sourceType": null,
+          "sourceName": null,
+          "sourceDetail": null
+        },
+        {
+          "id": "s23",
+          "text": null,
+          "type": "fact",
+          "sourceType": null,
+          "sourceName": null,
+          "sourceDetail": null
+        },
+        {
+          "id": "s24",
+          "text": null,
+          "type": "fact",
+          "sourceType": null,
+          "sourceName": null,
+          "sourceDetail": null
+        },
+        {
+          "id": "s25",
+          "text": null,
+          "type": "fact",
+          "sourceType": null,
+          "sourceName": null,
+          "sourceDetail": null
+        },
+        {
+          "id": "s26",
+          "text": null,
+          "type": "fact",
+          "sourceType": null,
+          "sourceName": null,
+          "sourceDetail": null
+        },
+        {
+          "id": "s27",
+          "text": null,
+          "type": "fact",
+          "sourceType": null,
+          "sourceName": null,
+          "sourceDetail": null
+        },
+        {
+          "id": "s28",
+          "text": null,
+          "type": "fact",
+          "sourceType": null,
+          "sourceName": null,
+          "sourceDetail": null
+        },
+        {
+          "id": "s29",
+          "text": null,
+          "type": "fact",
+          "sourceType": null,
+          "sourceName": null,
+          "sourceDetail": null
+        },
+        {
+          "id": "s30",
+          "text": null,
+          "type": "fact",
+          "sourceType": null,
+          "sourceName": null,
+          "sourceDetail": null
+        },
+        {
+          "id": "s31",
+          "text": null,
+          "type": "fact",
+          "sourceType": null,
+          "sourceName": null,
+          "sourceDetail": null
+        },
+        {
+          "id": "s32",
+          "text": null,
+          "type": "fact",
+          "sourceType": null,
+          "sourceName": null,
+          "sourceDetail": null
+        },
+        {
+          "id": "s33",
+          "text": null,
+          "type": "fact",
+          "sourceType": null,
+          "sourceName": null,
+          "sourceDetail": null
+        },
+        {
+          "id": "s34",
+          "text": null,
+          "type": "fact",
+          "sourceType": null,
+          "sourceName": null,
+          "sourceDetail": null
+        },
+        {
+          "id": "s35",
+          "text": null,
+          "type": "fact",
+          "sourceType": null,
+          "sourceName": null,
+          "sourceDetail": null
+        },
+        {
+          "id": "s36",
+          "text": null,
+          "type": "fact",
+          "sourceType": null,
+          "sourceName": null,
+          "sourceDetail": null
+        },
+        {
+          "id": "s37",
+          "text": null,
+          "type": "fact",
+          "sourceType": null,
+          "sourceName": null,
+          "sourceDetail": null
+        },
+        {
+          "id": "s38",
+          "text": null,
+          "type": "fact",
+          "sourceType": null,
+          "sourceName": null,
+          "sourceDetail": null
+        },
+        {
+          "id": "s39",
+          "text": "이번 사건을 계기로 성착취 피해 청소년의 보호체계를 강화해야 한다는 목소…",
+          "type": "opinion",
+          "sourceType": null,
+          "sourceName": null,
+          "sourceDetail": null
+        },
+        {
+          "id": "s40",
+          "text": null,
+          "type": "quote",
+          "sourceType": "citizen",
+          "sourceName": "성매매 피해자 지원단체들",
+          "sourceDetail": null
+        },
+        {
+          "id": "s41",
+          "text": null,
+          "type": "quote",
+          "sourceType": "gov",
+          "sourceName": "원민경 성평등가족부 장관",
+          "sourceDetail": null
+        }
+      ],
+      "framingTerms": [
+        {
+          "term": "살해한",
+          "sentenceId": "s1"
+        },
+        {
+          "term": "구속됐다",
+          "sentenceId": "s1"
+        },
+        {
+          "term": "구속영장이 청구됐다",
+          "sentenceId": "s3"
+        },
+        {
+          "term": "발부했다",
+          "sentenceId": "s4"
+        },
+        {
+          "term": "체포했다",
+          "sentenceId": "s11"
+        },
+        {
+          "term": "구속영장을 청구했다",
+          "sentenceId": "s18"
+        },
+        {
+          "term": "처벌 대상이 된다",
+          "sentenceId": "s32"
+        },
+        {
+          "term": "구속된",
+          "sentenceId": "s34"
+        },
+        {
+          "term": "지적하며",
+          "sentenceId": "s40"
+        },
+        {
+          "term": "촉구했다",
+          "sentenceId": "s40"
+        },
+        {
+          "term": "밝혔다",
+          "sentenceId": "s41"
+        }
+      ],
+      "missingViewpoints": [
+        {
+          "sourceType": "expert",
+          "description": "전문가 인용 없음 (같은 이슈의 다른 기사에는 있습니다)",
+          "foundInArticleIds": [
+            "a-92d8a3cda6"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "a-92d8a3cda6",
+      "issueId": "auto-20261114-00-4",
+      "outletId": "etoday",
+      "title": "'15세 소녀' 살해한 50대 남성 구속⋯범행 동기엔 '묵묵부답'",
+      "summary": "경찰은 지난 7월에도 C씨에 대한 구속영장을 신청했으나 당시 검찰이 청구하지 않았다. 이후 이달 8일 다시 신청한 구속영장이 이날 청구됐다. 이번 사건을 두고 청소년 보호체계에 대한 지적도 나오고 있다. 전문가들은...",
+      "url": "https://www.etoday.co.kr/news/view/2648116",
+      "publishedAt": "2026-11-13T21:16:00+09:00",
+      "sentences": [
+        {
+          "id": "s1",
+          "text": null,
+          "type": "fact",
+          "sourceType": null,
+          "sourceName": null,
+          "sourceDetail": null
+        },
+        {
+          "id": "s2",
+          "text": null,
+          "type": "fact",
+          "sourceType": null,
+          "sourceName": null,
+          "sourceDetail": null
+        },
+        {
+          "id": "s3",
+          "text": null,
+          "type": "quote",
+          "sourceType": "etc",
+          "sourceName": "강영훈",
+          "sourceDetail": "법원"
+        },
+        {
+          "id": "s4",
+          "text": null,
+          "type": "fact",
+          "sourceType": null,
+          "sourceName": null,
+          "sourceDetail": null
+        },
+        {
+          "id": "s5",
+          "text": null,
+          "type": "fact",
+          "sourceType": null,
+          "sourceName": null,
+          "sourceDetail": null
+        },
+        {
+          "id": "s6",
+          "text": null,
+          "type": "fact",
+          "sourceType": null,
+          "sourceName": null,
+          "sourceDetail": null
+        },
+        {
+          "id": "s7",
+          "text": null,
+          "type": "fact",
+          "sourceType": null,
+          "sourceName": null,
+          "sourceDetail": null
+        },
+        {
+          "id": "s8",
+          "text": null,
+          "type": "fact",
+          "sourceType": null,
+          "sourceName": null,
+          "sourceDetail": null
+        },
+        {
+          "id": "s9",
+          "text": null,
+          "type": "fact",
+          "sourceType": null,
+          "sourceName": null,
+          "sourceDetail": null
+        },
+        {
+          "id": "s10",
+          "text": null,
+          "type": "quote",
+          "sourceType": "citizen",
+          "sourceName": "유족 측",
+          "sourceDetail": null
+        },
+        {
+          "id": "s11",
+          "text": null,
+          "type": "fact",
+          "sourceType": null,
+          "sourceName": null,
+          "sourceDetail": null
+        },
+        {
+          "id": "s12",
+          "text": null,
+          "type": "quote",
+          "sourceType": "citizen",
+          "sourceName": "유족",
+          "sourceDetail": null
+        },
+        {
+          "id": "s13",
+          "text": null,
+          "type": "quote",
+          "sourceType": "etc",
+          "sourceName": "C씨",
+          "sourceDetail": "익명(소속 미상)"
+        },
+        {
+          "id": "s14",
+          "text": "범행 동기를 둘러싼 주장이 엇갈리고 있지만, A씨가 진술을 거부하면서 정…",
+          "type": "opinion",
+          "sourceType": null,
+          "sourceName": null,
+          "sourceDetail": null
+        },
+        {
+          "id": "s15",
+          "text": null,
+          "type": "fact",
+          "sourceType": null,
+          "sourceName": null,
+          "sourceDetail": null
+        },
+        {
+          "id": "s16",
+          "text": null,
+          "type": "fact",
+          "sourceType": null,
+          "sourceName": null,
+          "sourceDetail": null
+        },
+        {
+          "id": "s17",
+          "text": null,
+          "type": "quote",
+          "sourceType": "citizen",
+          "sourceName": "유족",
+          "sourceDetail": null
+        },
+        {
+          "id": "s18",
+          "text": null,
+          "type": "fact",
+          "sourceType": null,
+          "sourceName": null,
+          "sourceDetail": null
+        },
+        {
+          "id": "s19",
+          "text": null,
+          "type": "fact",
+          "sourceType": null,
+          "sourceName": null,
+          "sourceDetail": null
+        },
+        {
+          "id": "s20",
+          "text": "이번 사건을 두고 청소년 보호체계에 대한 지적도 나오고 있다.",
+          "type": "opinion",
+          "sourceType": null,
+          "sourceName": null,
+          "sourceDetail": null
+        },
+        {
+          "id": "s21",
+          "text": null,
+          "type": "quote",
+          "sourceType": "expert",
+          "sourceName": "전문가들",
+          "sourceDetail": null
+        },
+        {
+          "id": "s22",
+          "text": null,
+          "type": "quote",
+          "sourceType": "citizen",
+          "sourceName": "시민단체들",
+          "sourceDetail": null
+        }
+      ],
+      "framingTerms": [],
+      "missingViewpoints": [
+        {
+          "sourceType": "gov",
+          "description": "정부·여당 인용 없음 (같은 이슈의 다른 기사에는 있습니다)",
+          "foundInArticleIds": [
+            "a-74cb323e28",
+            "a-fd52a58ece",
+            "a-929a907de5"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "a-6020adb237",
+      "issueId": "auto-20261114-00-5",
+      "outletId": "kbs",
+      "title": "‘40억 로또청약’ 반포아파트 날아가나…이혜훈 사기 혐의 송치",
+      "summary": "또, 해당 아파트를 범죄수익으로 보고 임의로 처분하지 못하도록 법원에 요청하고, 국토교통부에도 수사 결과를 통보했습니다. 경찰은 증여세 미납부 의혹은 '혐의없음'으로, 자녀 입시·병역 특혜와 보좌진 갑질 등...",
+      "url": "https://news.kbs.co.kr/news/pc/view/view.do?ncd=8712692&ref=A",
+      "publishedAt": "2026-11-13T23:15:00+09:00",
+      "sentences": [
+        {
+          "id": "s1",
+          "text": null,
+          "type": "fact",
+          "sourceType": null,
+          "sourceName": null,
+          "sourceDetail": null
+        },
+        {
+          "id": "s2",
+          "text": null,
+          "type": "fact",
+          "sourceType": null,
+          "sourceName": null,
+          "sourceDetail": null
+        },
+        {
+          "id": "s3",
+          "text": null,
+          "type": "fact",
+          "sourceType": null,
+          "sourceName": null,
+          "sourceDetail": null
+        },
+        {
+          "id": "s4",
+          "text": null,
+          "type": "fact",
+          "sourceType": null,
+          "sourceName": null,
+          "sourceDetail": null
+        },
+        {
+          "id": "s5",
+          "text": null,
+          "type": "fact",
+          "sourceType": null,
+          "sourceName": null,
+          "sourceDetail": null
+        },
+        {
+          "id": "s6",
+          "text": null,
+          "type": "fact",
+          "sourceType": null,
+          "sourceName": null,
+          "sourceDetail": null
+        },
+        {
+          "id": "s7",
+          "text": null,
+          "type": "fact",
+          "sourceType": null,
+          "sourceName": null,
+          "sourceDetail": null
+        },
+        {
+          "id": "s8",
+          "text": null,
+          "type": "fact",
+          "sourceType": null,
+          "sourceName": null,
+          "sourceDetail": null
+        },
+        {
+          "id": "s9",
+          "text": null,
+          "type": "fact",
+          "sourceType": null,
+          "sourceName": null,
+          "sourceDetail": null
+        },
+        {
+          "id": "s10",
+          "text": null,
+          "type": "fact",
+          "sourceType": null,
+          "sourceName": null,
+          "sourceDetail": null
+        },
+        {
+          "id": "s11",
+          "text": null,
+          "type": "fact",
+          "sourceType": null,
+          "sourceName": null,
+          "sourceDetail": null
+        },
+        {
+          "id": "s12",
+          "text": null,
+          "type": "quote",
+          "sourceType": "opp",
+          "sourceName": "이혜훈/전 의원",
+          "sourceDetail": null
+        },
+        {
+          "id": "s13",
+          "text": null,
+          "type": "quote",
+          "sourceType": "opp",
+          "sourceName": "이혜훈/전 의원/지난 1월/기획예산처장관 후보자 인사청문회",
+          "sourceDetail": null
+        },
+        {
+          "id": "s14",
+          "text": null,
+          "type": "fact",
+          "sourceType": null,
+          "sourceName": null,
+          "sourceDetail": null
+        },
+        {
+          "id": "s15",
+          "text": null,
+          "type": "fact",
+          "sourceType": null,
+          "sourceName": null,
+          "sourceDetail": null
+        },
+        {
+          "id": "s16",
+          "text": null,
+          "type": "fact",
+          "sourceType": null,
+          "sourceName": null,
+          "sourceDetail": null
+        },
+        {
+          "id": "s17",
+          "text": null,
+          "type": "fact",
+          "sourceType": null,
+          "sourceName": null,
+          "sourceDetail": null
+        },
+        {
+          "id": "s18",
+          "text": null,
+          "type": "fact",
+          "sourceType": null,
+          "sourceName": null,
+          "sourceDetail": null
+        },
+        {
+          "id": "s19",
+          "text": null,
+          "type": "fact",
+          "sourceType": null,
+          "sourceName": null,
+          "sourceDetail": null
+        }
+      ],
+      "framingTerms": [
+        {
+          "term": "해명했습니다",
+          "sentenceId": "s12"
+        }
+      ],
+      "missingViewpoints": [
+        {
+          "sourceType": "industry",
+          "description": "기업·업계 인용 없음 (같은 이슈의 다른 기사에는 있습니다)",
+          "foundInArticleIds": [
+            "a-6d1b3ebe47"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "a-56fe8c233c",
+      "issueId": "auto-20261114-00-5",
+      "outletId": "ytn",
+      "title": "'부정 청약' 이혜훈 송치...반포 아파트 몰수보전 신청",
+      "summary": "경찰은 수사와 재판이 마무리될 때까지 아파트를 처분하지 못하도록 법원에 기소 전 몰수보전을 신청했습니다. 수사 결과는 국토교통부에도 통보했습니다. 장남의 연세대 특혜 입학과 보좌관 갑질 의혹 등 나머지 고발...",
+      "url": "https://www.ytn.co.kr/_ln/0103_202611132158021413",
+      "publishedAt": "2026-11-13T21:58:00+09:00",
+      "sentences": [
+        {
+          "id": "s1",
+          "text": null,
+          "type": "quote",
+          "sourceType": "etc",
+          "sourceName": "익명(소속 미상)",
+          "sourceDetail": "익명(소속 미상)"
+        },
+        {
+          "id": "s2",
+          "text": null,
+          "type": "fact",
+          "sourceType": null,
+          "sourceName": null,
+          "sourceDetail": null
+        },
+        {
+          "id": "s3",
+          "text": null,
+          "type": "fact",
+          "sourceType": null,
+          "sourceName": null,
+          "sourceDetail": null
+        },
+        {
+          "id": "s4",
+          "text": "손효정 기자의 보도입니다.",
+          "type": "opinion",
+          "sourceType": null,
+          "sourceName": null,
+          "sourceDetail": null
+        },
+        {
+          "id": "s5",
+          "text": null,
+          "type": "fact",
+          "sourceType": null,
+          "sourceName": null,
+          "sourceDetail": null
+        },
+        {
+          "id": "s6",
+          "text": null,
+          "type": "fact",
+          "sourceType": null,
+          "sourceName": null,
+          "sourceDetail": null
+        },
+        {
+          "id": "s7",
+          "text": null,
+          "type": "fact",
+          "sourceType": null,
+          "sourceName": null,
+          "sourceDetail": null
+        },
+        {
+          "id": "s8",
+          "text": null,
+          "type": "quote",
+          "sourceType": "etc",
+          "sourceName": "이혜훈",
+          "sourceDetail": "익명(소속 미상)"
+        },
+        {
+          "id": "s9",
+          "text": null,
+          "type": "fact",
+          "sourceType": null,
+          "sourceName": null,
+          "sourceDetail": null
+        },
+        {
+          "id": "s10",
+          "text": null,
+          "type": "fact",
+          "sourceType": null,
+          "sourceName": null,
+          "sourceDetail": null
+        },
+        {
+          "id": "s11",
+          "text": null,
+          "type": "fact",
+          "sourceType": null,
+          "sourceName": null,
+          "sourceDetail": null
+        },
+        {
+          "id": "s12",
+          "text": null,
+          "type": "fact",
+          "sourceType": null,
+          "sourceName": null,
+          "sourceDetail": null
+        },
+        {
+          "id": "s13",
+          "text": null,
+          "type": "fact",
+          "sourceType": null,
+          "sourceName": null,
+          "sourceDetail": null
+        },
+        {
+          "id": "s14",
+          "text": null,
+          "type": "fact",
+          "sourceType": null,
+          "sourceName": null,
+          "sourceDetail": null
+        },
+        {
+          "id": "s15",
+          "text": "※ '당신의 제보가 뉴스가 됩니다'",
+          "type": "opinion",
+          "sourceType": null,
+          "sourceName": null,
+          "sourceDetail": null
+        }
+      ],
+      "framingTerms": [
+        {
+          "term": "결정적인",
+          "sentenceId": "s7"
+        }
+      ],
+      "missingViewpoints": [
+        {
+          "sourceType": "opp",
+          "description": "야당 인용 없음 (같은 이슈의 다른 기사에는 있습니다)",
+          "foundInArticleIds": [
+            "a-6020adb237",
+            "a-6d1b3ebe47"
+          ]
+        },
+        {
+          "sourceType": "industry",
+          "description": "기업·업계 인용 없음 (같은 이슈의 다른 기사에는 있습니다)",
+          "foundInArticleIds": [
+            "a-6d1b3ebe47"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "a-6d1b3ebe47",
+      "issueId": "auto-20261114-00-5",
+      "outletId": "tvchosun",
+      "title": "경찰, 이혜훈 '부정청약' 송치…문제의 강남아파트 몰수보전 신청",
+      "summary": "법원 확정판결 전에 아파트 처분을 못하도록 하려는 겁니다. 청약 당시 이 전 후보자 측은 이미 결혼식을 올린 장남을 포함해, 아들 3명을 부양가족으로 등록하고 청약가점을 받았습니다. 경찰은 장남을 부양가족으로...",
+      "url": "https://news.tvchosun.com/site/data/html_dir/2026/11/13/2026111390269.html",
+      "publishedAt": "2026-11-13T21:24:00+09:00",
+      "sentences": [
+        {
+          "id": "s1",
+          "text": null,
+          "type": "fact",
+          "sourceType": null,
+          "sourceName": null,
+          "sourceDetail": null
+        },
+        {
+          "id": "s2",
+          "text": null,
+          "type": "fact",
+          "sourceType": null,
+          "sourceName": null,
+          "sourceDetail": null
+        },
+        {
+          "id": "s3",
+          "text": "장관 한 번 하려다 큰 낭패를 당한 셈입니다.",
+          "type": "opinion",
+          "sourceType": null,
+          "sourceName": null,
+          "sourceDetail": null
+        },
+        {
+          "id": "s4",
+          "text": null,
+          "type": "fact",
+          "sourceType": null,
+          "sourceName": null,
+          "sourceDetail": null
+        },
+        {
+          "id": "s5",
+          "text": null,
+          "type": "fact",
+          "sourceType": null,
+          "sourceName": null,
+          "sourceDetail": null
+        },
+        {
+          "id": "s6",
+          "text": null,
+          "type": "fact",
+          "sourceType": null,
+          "sourceName": null,
+          "sourceDetail": null
+        },
+        {
+          "id": "s7",
+          "text": null,
+          "type": "quote",
+          "sourceType": "industry",
+          "sourceName": "공인중개사",
+          "sourceDetail": null
+        },
+        {
+          "id": "s8",
+          "text": null,
+          "type": "fact",
+          "sourceType": null,
+          "sourceName": null,
+          "sourceDetail": null
+        },
+        {
+          "id": "s9",
+          "text": null,
+          "type": "fact",
+          "sourceType": null,
+          "sourceName": null,
+          "sourceDetail": null
+        },
+        {
+          "id": "s10",
+          "text": null,
+          "type": "fact",
+          "sourceType": null,
+          "sourceName": null,
+          "sourceDetail": null
+        },
+        {
+          "id": "s11",
+          "text": null,
+          "type": "fact",
+          "sourceType": null,
+          "sourceName": null,
+          "sourceDetail": null
+        },
+        {
+          "id": "s12",
+          "text": null,
+          "type": "fact",
+          "sourceType": null,
+          "sourceName": null,
+          "sourceDetail": null
+        },
+        {
+          "id": "s13",
+          "text": null,
+          "type": "quote",
+          "sourceType": "opp",
+          "sourceName": "이 전 후보자",
+          "sourceDetail": null
+        },
+        {
+          "id": "s14",
+          "text": null,
+          "type": "quote",
+          "sourceType": "opp",
+          "sourceName": "이 전 후보자",
+          "sourceDetail": null
+        },
+        {
+          "id": "s15",
+          "text": null,
+          "type": "fact",
+          "sourceType": null,
+          "sourceName": null,
+          "sourceDetail": null
+        }
+      ],
+      "framingTerms": [
+        {
+          "term": "낭패",
+          "sentenceId": "s3"
+        },
+        {
+          "term": "부인했습니다",
+          "sentenceId": "s13"
+        }
+      ],
+      "missingViewpoints": []
+    },
+    {
+      "id": "a-ca6c7e4c42",
+      "issueId": "auto-20261114-00-5",
+      "outletId": "chosun",
+      "title": "경찰 ‘반포 아파트 부정청약 의혹’ 이혜훈 송치",
+      "summary": "이 전 의원은 작년 12월 이재명 정부 첫 기획예산처 장관 후보자로 지명됐지만 아파트 부정 청약 의혹을 비롯해 보좌진 갑질, 자녀 입시·병역 특혜 등 각종 의혹이 불거지자, 이 대통령이 지명을 철회했다. 이 전 의원은...",
+      "url": "https://www.chosun.com/national/national_general/2026/11/14/NFN2EAHT6VB4VNWQV6OPY4P7JM/?utm_source=naver&utm_medium=referral&utm_campaign=naver-news",
+      "publishedAt": "2026-11-14T00:37:00+09:00",
+      "sentences": [
+        {
+          "id": "s1",
+          "text": null,
+          "type": "fact",
+          "sourceType": null,
+          "sourceName": null,
+          "sourceDetail": null
+        },
+        {
+          "id": "s2",
+          "text": null,
+          "type": "quote",
+          "sourceType": "etc",
+          "sourceName": "서울 강남경찰서",
+          "sourceDetail": "경찰"
+        },
+        {
+          "id": "s3",
+          "text": null,
+          "type": "fact",
+          "sourceType": null,
+          "sourceName": null,
+          "sourceDetail": null
+        },
+        {
+          "id": "s4",
+          "text": null,
+          "type": "quote",
+          "sourceType": "etc",
+          "sourceName": "A씨",
+          "sourceDetail": "익명(소속 미상)"
+        },
+        {
+          "id": "s5",
+          "text": null,
+          "type": "fact",
+          "sourceType": null,
+          "sourceName": null,
+          "sourceDetail": null
+        },
+        {
+          "id": "s6",
+          "text": null,
+          "type": "quote",
+          "sourceType": "etc",
+          "sourceName": "A씨",
+          "sourceDetail": "익명(소속 미상)"
+        },
+        {
+          "id": "s7",
+          "text": null,
+          "type": "fact",
+          "sourceType": null,
+          "sourceName": null,
+          "sourceDetail": null
+        }
+      ],
+      "framingTerms": [],
+      "missingViewpoints": [
+        {
+          "sourceType": "opp",
+          "description": "야당 인용 없음 (같은 이슈의 다른 기사에는 있습니다)",
+          "foundInArticleIds": [
+            "a-6020adb237",
+            "a-6d1b3ebe47"
+          ]
+        },
+        {
+          "sourceType": "industry",
+          "description": "기업·업계 인용 없음 (같은 이슈의 다른 기사에는 있습니다)",
+          "foundInArticleIds": [
+            "a-6d1b3ebe47"
+          ]
+        }
+      ]
     }
   ]
 }
