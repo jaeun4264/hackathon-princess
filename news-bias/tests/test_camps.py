@@ -59,3 +59,20 @@ def test_party_wins_over_wrong_side():
         ensure_ascii=False)
     out = A.parse_labels(text, rows)
     assert out[1]["source"] == "정부·여당" and out[2]["source"] == "야당"
+
+
+def test_state_bodies_out_of_camps():
+    """경찰·검찰·공수처·법원 등은 진영에서 빼고 따로 셈. 당적 있는 사람은 정당으로 (11/14 확정)"""
+    art = {"sentences": [q("gov", name="경찰 관계자"), q("gov", name="서울중앙지검"), q("gov", name="공수처"),
+                         q("etc", detail="법원"), q("gov", name="법무부"), q("opp", "국민의힘", name="검사 출신 주진우 의원"),
+                         q("opp", "국민의힘")]}
+    M.fill_party(art)
+    m = M.article_metrics(art)
+    assert m["institution"] == 4 and m["camps"]["ruling"] == 1 and m["camps"]["mainOpp"] == 2
+    assert [s["stateBody"] for s in art["sentences"]] == [True, True, True, True, False, False, False]
+
+
+def test_focus_party_from_title():
+    assert M.focus_party("국민의힘, 부산서 '조작기소 특검법' 규탄 장외집회") == "국민의힘"
+    assert M.focus_party("민주당 지도부와 만찬") == "더불어민주당"
+    assert M.focus_party("이 대통령, 여당 지도부와 만찬 회동") is None
