@@ -1,5 +1,5 @@
 {
-  "_설명": "매일 자동 실행 설정 (app/daily.py). queries=네이버에서 최신 기사를 모을 검색어, hours=최근 몇 시간 기사로 이슈를 묶을지, maxNewIssues=한 번에 새로 만들 이슈 수, articlesPerIssue=이슈당 분석할 기사 수(언론사 겹치지 않게), minOutlets=이슈로 인정할 최소 언론사 수, keepDays=자동 이슈를 며칠 보관할지, model=분석 모델, merge=묶음끼리 이만큼 비슷하면 같은 사건으로 합침(높일수록 덜 합침), categories=사이트에 올릴 분야(정치·사회·경제·생활·국제·연예·스포츠 중)",
+  "_설명": "매일 자동 실행 설정 (app/daily.py). queries=네이버에서 최신 기사를 모을 검색어, hours=최근 몇 시간 기사로 이슈를 묶을지, maxNewIssues=한 번에 새로 만들 이슈 수, articlesPerIssue=이슈당 분석할 기사 수(언론사 겹치지 않게), minOutlets=이슈로 인정할 최소 언론사 수, keepDays=자동 이슈를 며칠 보관할지, model=분석 모델, merge=묶음끼리 이만큼 비슷하면 같은 사건으로 합침(높일수록 덜 합침), categories=사이트에 올릴 분야(정치·사회·경제·생활·국제·연예·스포츠 중), requireContested=입장이 갈리는 이슈만 올림(true/false), maxOpinionShare=의견 문장이 이 비율을 넘으면 본문 읽기 이상으로 보고 그 기사 건너뜀, hideIssues=사이트에서 내릴 자동 이슈 id 목록(입장이 갈리지 않는 사건·연예·시세·홍보 이슈 등), perQuery=검색어마다 최신순으로 모을 기사 수(최대 1000), perQuerySim=관련도순으로 더 모을 기사 수",
   "queries": [
     "정부",
     "국회",
@@ -16,7 +16,7 @@
     "복지",
     "환경"
   ],
-  "perQuery": 100,
+  "perQuery": 400,
   "hours": 36,
   "maxNewIssues": 6,
   "articlesPerIssue": 8,
@@ -30,5 +30,31 @@
     "정치",
     "사회",
     "경제"
-  ]
+  ],
+  "requireContested": true,
+  "maxOpinionShare": 0.5,
+  "hideIssues": [
+    "auto-20261112-00-2",
+    "auto-20261112-00-3",
+    "auto-20261112-00-5",
+    "auto-20261112-02-2",
+    "auto-20261112-12-1",
+    "auto-20261112-12-2",
+    "auto-20261112-12-3",
+    "auto-20261112-12-4",
+    "auto-20261112-12-6",
+    "auto-20261113-01-3",
+    "auto-20261113-01-4",
+    "auto-20261113-01-5",
+    "auto-20261113-11-1",
+    "auto-20261113-11-2",
+    "auto-20261113-11-3",
+    "auto-20261113-12-4",
+    "auto-20261114-00-1",
+    "auto-20261114-00-2",
+    "auto-20261114-00-3",
+    "auto-20261114-00-4",
+    "auto-20261114-00-5"
+  ],
+  "perQuerySim": 100
 }
