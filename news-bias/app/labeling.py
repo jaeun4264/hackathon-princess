@@ -43,7 +43,8 @@ LABEL_COLS = range(5, 11)  # E~J: 각자 채우는 칸
 OPEN_CLOSE = {"“": "”", "‘": "’", "[": "]", "(": ")", "「": "」", "『": "』"}
 TOGGLE = {'"'}  # 여는/닫는 모양이 같은 따옴표
 
-DROP_LINE = re.compile(r"@|무단\s*전재|재배포|Copyright|ⓒ|저작권자|^\(참조|^▶|^관련\s?기사")  # 관련 기사 안내 줄도 뺌
+DROP_LINE = re.compile(r"@|무단\s*전재|재배포|Copyright|ⓒ|저작권자|^\(참조|^▶|^관련\s?기사"
+                       r"|기사를\s*추천|^좋아요|^구독|^공유하기|^많이\s*본\s*뉴스")  # 관련 기사 안내 줄도 뺌
 PREFIXES = [
     re.compile(r"^\[[^\]]{1,20}=[^\]]{1,15}\]\s*"),                     # [서울=뉴시스]
     re.compile(r"^\([^)]{1,20}=[^)]{1,15}\)\s*"),                          # (울산=뉴스1)
@@ -165,10 +166,25 @@ def speaker_of_tag(line: str) -> str | None:
     return re.sub(r"\s*/\s*", " / ", m.group(1).strip())
 
 
+SENTENCE_END = re.compile(r"(?:다|요|까|죠|음|함)\s*[.?!]?\s*[\"”’'」)\]]*\s*$|[.?!]\s*[\"”’'」)\]]*\s*$")
+
+
+def is_lead_subtitle(line: str) -> bool:
+    """본문 맨 앞의 부제목 줄 (문장처럼 끝나지 않는 짧은 줄. 예: “오늘 돌아보니 표현 과해… 사과드려”)"""
+    t = line.strip()
+    return (0 < len(t) <= 60 and not SENTENCE_END.search(t.rstrip("”\"’'"))
+            and not re.search(r"(?:다|요|까)\s*[.?!]", t))
+
+
 def body_to_sentences(raw: str) -> list[str]:
-    """본문 → 문장 목록. 말한 사람 표시 줄은 바로 다음 문장 앞에 [ ]로 붙임"""
+    """본문 → 문장 목록. 말한 사람 표시 줄은 바로 다음 문장 앞에 [ ]로 붙임.
+    본문 맨 앞의 부제목 줄(문장처럼 끝나지 않는 짧은 줄)은 뺌 (라벨링 기준: 부제목 제외)"""
     sentences, speaker = [], None
-    for line in raw.splitlines():
+    lines = [l for l in raw.splitlines() if not l.lstrip("\ufeff").startswith("#")]   # 본문 파일 안내 줄 빼기
+    while lines and (not lines[0].strip() or (is_lead_subtitle(lines[0]) and not speaker_of_tag(lines[0])
+                                              and not is_speaker_tag(lines[0].strip()))):
+        lines.pop(0)
+    for line in lines:
         tag = speaker_of_tag(line)
         if tag:
             speaker = tag
