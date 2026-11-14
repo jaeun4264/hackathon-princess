@@ -56,8 +56,11 @@ def eligible(a: dict) -> bool:
 
 def _merge(groups: list[dict], merge: float) -> list[dict]:
     """중심이 비슷한 묶음끼리 합침 (기사 2건 이상인 묶음만 비교). 더 합칠 게 없을 때까지 반복"""
-    big = [g for g in groups if len(g["members"]) >= 2]
-    rest = [g for g in groups if len(g["members"]) < 2]
+    # 기사 3건 이상 묶음만 비교 (기사가 많을 때 오래 걸리지 않게, 큰 묶음 300개까지)
+    groups = sorted(groups, key=lambda g: -len(g["members"]))
+    big = [g for g in groups if len(g["members"]) >= 3][:300]
+    chosen = {id(g) for g in big}
+    rest = [g for g in groups if id(g) not in chosen]
     changed = True
     while changed:
         changed = False

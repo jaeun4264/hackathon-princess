@@ -44,9 +44,11 @@ KST = timezone(timedelta(hours=9))
 DEFAULTS = {
     "queries": ["정부", "국회", "대통령실", "더불어민주당", "국민의힘", "검찰", "법원",
                 "경제", "부동산", "물가", "노동", "교육", "복지", "환경"],
-    "perQuery": 100, "hours": 36, "maxNewIssues": 6, "articlesPerIssue": 5, "minArticles": 3,
+    "perQuery": 400, "perQuerySim": 100, "hours": 36, "maxNewIssues": 6, "articlesPerIssue": 5, "minArticles": 3,
     "minOutlets": 4, "threshold": 0.30, "merge": 0.45, "keepDays": 14, "maxSentences": 70,
-    "categories": ["정치", "사회", "경제"],   # 이 분야 이슈만 사이트에 올림 (국제·생활·연예·스포츠는 뺌)
+    "categories": ["정치", "사회", "경제"],   # 이 분야 이슈만 사이트에 올림 (국제·생활·사건·사고·연예·스포츠는 뺌)
+    "requireContested": True,   # 입장이 갈리는 이슈만 (한쪽 발표·사건·실적 기사는 인용 기울기가 의미 없음)
+    "maxOpinionShare": 0.5,     # 의견 문장이 이보다 많으면 본문 읽기 이상으로 보고 건너뜀
     "model": "gemini-3.5-flash-lite", "llmGap": 4.0,
     "preferOutlets": ["연합뉴스", "뉴시스", "뉴스1", "KBS", "MBC", "SBS", "YTN", "JTBC", "TV조선", "채널A",
                       "조선일보", "중앙일보", "동아일보", "한겨레", "경향신문", "한국일보", "세계일보", "국민일보",
@@ -59,13 +61,16 @@ ISSUE_PROMPT = """너는 뉴스 편집 보조다. 판정·평가 없이 사실�
    서로 다른 사건이 섞였거나, 기사들이 한 사람의 발언 한 마디만 옮긴 것이면 false.
 2) 같은 사건이 아닌 기사 번호는 exclude 에 적는다.
 3) title: 이슈 제목 25자 이내, 평가 단어(강행·폭주·꼼수 등) 없이. summary: 누가 언제 무엇을 했는지 두 문장 이내.
-4) category: 정치 / 경제 / 사회 / 생활 / 국제 / 연예·스포츠 중 하나.
+4) category: 정치 / 경제 / 사회 / 생활 / 국제 / 사건·사고 / 연예·스포츠 중 하나.
    국제 = 외국에서 일어난 일로 한국 정부·정당이 당사자가 아닌 것. 연예인·운동선수 관련은 재판이라도 연예·스포츠.
+   사건·사고 = 범죄 수사, 재판(정치인 재판 제외), 화재·교통·산업 사고처럼 정책·정당 대립이 없는 일.
+6) contested: 정부·여당, 야당, 시민단체, 업계, 전문가 등 서로 다른 입장이 맞서거나 평가가 갈리는 정치·정책 이슈면 true.
+   한쪽 발표만 있는 행사·홍보, 기업 실적·주가, 범죄 수사, 사고, 연예 소식이면 false.
 5) '이미 있는 이슈' 목록이 주어지면, 그중 이 기사들과 같은 사건(같은 결정·발표·사고)이 있으면 duplicate_of 에 그 번호, 없으면 0.
    같은 주제라도 다른 날의 새 결정·새 사건이면 0.
-반드시 JSON 하나만 출력: {"same_event": true, "title": "", "summary": "", "category": "", "exclude": [], "duplicate_of": 0}"""
+반드시 JSON 하나만 출력: {"same_event": true, "title": "", "summary": "", "category": "", "exclude": [], "duplicate_of": 0, "contested": true}"""
 FRAMING_MAX = 15  # 평가 표현으로 인정할 최대 글자 수 (단어·짧은 구)
-CATEGORIES = ("정치", "경제", "사회", "생활", "국제", "연예·스포츠")
+CATEGORIES = ("정치", "경제", "사회", "생활", "국제", "사건·사고", "연예·스포츠")
 
 
 def log(msg: str) -> None:
@@ -95,15 +100,20 @@ def collect_all(cfg: dict, collect_fn=None) -> list[dict]:
     from app.collect import CollectError, collect
     collect_fn = collect_fn or collect
     out, seen = [], set()
+    # 최신순만 모으면 검색어마다 최근 1~2시간 기사만 잡혀서(11/12 확인: 1,013건 중 절반이 마지막 20분)
+    # 같은 사건을 언론사들이 몇 시간에 걸쳐 쓴 것을 놓침 → 최신순을 더 깊게 + 관련도순도 함께
     for q in cfg["queries"]:
-        try:
-            got = collect_fn(q, cfg["perQuery"], "date")
-        except CollectError as e:
-            log(f"  수집 실패 '{q}': {e}")
-            continue
-        new = [a for a in got if a["url"] not in seen]
-        seen.update(a["url"] for a in new)
-        out += new
+        for sort, n in (("date", cfg["perQuery"]), ("sim", cfg.get("perQuerySim", 0))):
+            if not n:
+                continue
+            try:
+                got = collect_fn(q, n, sort)
+            except CollectError as e:
+                log(f"  수집 실패 '{q}'({sort}): {e}")
+                continue
+            new = [a for a in got if a["url"] not in seen]
+            seen.update(a["url"] for a in new)
+            out += new
     since = datetime.now(KST) - timedelta(hours=cfg["hours"])
     recent = [a for a in out if (t := parse_time(a.get("publishedAt"))) and t >= since]
     log(f"1. 수집: {len(out)}건 중 최근 {cfg['hours']}시간 {len(recent)}건")
@@ -171,8 +181,12 @@ def analyze_article(art: dict, issue_id: str, llm: dict, fetcher: Fetcher, clien
     except FetchError as e:
         log(f"    건너뜀 [{art['outlet']}] {e}")
         return None
-    texts = body_to_sentences(clean_body(body, art["title"]))[: cfg["maxSentences"]]
+    texts = body_to_sentences(clean_body(body, art["title"]))
     del body
+    if len(texts) > cfg["maxSentences"]:
+        # 보통 기사는 50문장 안팎. 이보다 훨씬 길면 관련 기사·다른 글이 섞여 읽혔을 가능성이 큼 (AI 요청 전에 거름)
+        log(f"    건너뜀 [{art['outlet']}] 본문이 너무 김 ({len(texts)}문장) — 다른 글이 섞였을 수 있음")
+        return None
     if len(texts) < 5:
         log(f"    건너뜀 [{art['outlet']}] 문장이 {len(texts)}개뿐")
         return None
@@ -182,6 +196,11 @@ def analyze_article(art: dict, issue_id: str, llm: dict, fetcher: Fetcher, clien
         labels = A.analyze_article(llm, art["outlet"], rows, client)
     except A.LLMError as e:
         log(f"    건너뜀 [{art['outlet']}] AI 분석 실패: {e}")
+        return None
+    n_op = sum(1 for lab in labels.values() if lab["type"] == "의견")
+    if len(rows) >= 12 and n_op / len(rows) > cfg.get("maxOpinionShare", 0.5):
+        # 일반 기사(사설·칼럼은 수집 단계에서 뺌)에서 의견이 절반을 넘으면 본문을 잘못 읽었을 가능성이 큼
+        log(f"    건너뜀 [{art['outlet']}] 의견 문장 {n_op}/{len(rows)} — 본문 읽기 이상 의심")
         return None
     if llm.get("members"):  # 국회의원 소속 사전으로 출처 유형 바로잡기 (data/members.csv 가 있을 때)
         from app.members import fix_labels
@@ -234,6 +253,15 @@ def recent_issue_titles(archive: dict, hours: int) -> list[str]:
     return [i["title"] for i in archive["issues"] if i.get("date", "") >= cutoff][-20:]
 
 
+def hide(archive: dict, ids: list[str]) -> dict:
+    """사람이 내리기로 한 자동 이슈 빼기 (data/daily.json 의 hideIssues)"""
+    ids = set(ids)
+    if not ids:
+        return archive
+    return {"issues": [i for i in archive["issues"] if i["id"] not in ids],
+            "articles": [a for a in archive["articles"] if a["issueId"] not in ids]}
+
+
 def prune(archive: dict, keep_days: int) -> dict:
     cutoff = (datetime.now(KST) - timedelta(days=keep_days)).date().isoformat()
     issues = [i for i in archive["issues"] if i["date"] >= cutoff]
@@ -268,7 +296,7 @@ def run(cfg: dict, preview: bool = False, collect_fn=None, fetcher: Fetcher | No
     recent = collect_all(cfg, collect_fn)
     groups = cluster(recent, cfg["threshold"], cfg["minOutlets"], cfg.get("merge"))
     log(f"2. 묶기: 언론사 {cfg['minOutlets']}곳 이상이 다룬 묶음 {len(groups)}개")
-    archive = prune(load_archive(), cfg["keepDays"])
+    archive = hide(prune(load_archive(), cfg["keepDays"]), cfg.get("hideIssues", []))
     if preview:
         for m in groups[:15]:
             log(f"  [{len(m)}건/{len({a['outlet'] for a in m})}곳] {m[0]['title'][:50]}"
@@ -298,6 +326,9 @@ def run(cfg: dict, preview: bool = False, collect_fn=None, fetcher: Fetcher | No
                 continue
             if info["category"] not in cfg["categories"]:
                 log(f"  제외(분야 {info['category']}): {info['title']}")
+                continue
+            if cfg.get("requireContested", True) and info.get("contested") is False:
+                log(f"  제외(입장이 갈리는 이슈가 아님): {info['title']}")
                 continue
             if info["duplicate_of"]:
                 log(f"  제외(이미 있는 이슈와 같은 사건: {recent_titles[info['duplicate_of'] - 1]}): {info['title']}")

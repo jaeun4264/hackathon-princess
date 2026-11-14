@@ -95,6 +95,8 @@ def write_sheet(groups: list[list[dict]], ai: list[dict | None] | None, cfg: dic
         "      같은 분야지만 다른 사건, 같은 인물의 다른 발언, 며칠 뒤 다른 후속 사건이면 X",
         "      여러 사건을 모은 기사(종합·브리핑)도 X",
         "'이슈' 시트의 '이슈로 내보내도 되나?' 칸: 화면에 이슈 하나로 보여 줘도 될 만큼 한 사건이면 O",
+        "'입장이 갈리는 이슈인가?' 칸: 정부·여당, 야당, 단체, 업계 등의 입장이 맞서거나 평가가 갈리면 O. 한쪽 발표·행사, 사건·사고, 실적·시세, 홍보면 X",
+        "'빅카인즈' 시트: bigkinds.or.kr 첫 화면 '오늘의 이슈'(08시·17시 기준) 10개를 그대로 옮기고, 같은 사건이 우리 이슈에 있으면 그 번호",
         "'앞 이슈와 같은 사건이면 그 번호' 칸: 같은 사건이 여러 이슈로 쪼개졌으면 먼저 나온 이슈 번호 (예: 3번이 1번과 같으면 3번 줄에 1)",
         "★표(대표 기사) = 실제 화면에 나가는 언론사별 기사. 이 기사들의 정확도가 가장 중요",
         "AI 판단은 숨긴 시트(_AI)에 있음. 다 적기 전에는 보지 않기 (보고 적으면 AI에 끌려감)",
@@ -107,13 +109,14 @@ def write_sheet(groups: list[list[dict]], ai: list[dict | None] | None, cfg: dic
     guide.column_dimensions["A"].width = 110
 
     iss = wb.create_sheet("이슈")
-    _header(iss, [("이슈", 7), ("대표 제목", 60), ("기사 수", 8), ("언론사 수", 9), ("이슈로 내보내도 되나? (O/X)", 14),
-                 ("앞 이슈와 같은 사건이면 그 번호", 14), ("메모", 40)])
+    _header(iss, [("이슈", 7), ("대표 제목", 55), ("사건 설명", 45), ("기사 수", 8), ("언론사 수", 9),
+                  ("이슈로 내보내도 되나? (O/X)", 14), ("앞 이슈와 같은 사건이면 그 번호", 14),
+                  ("입장이 갈리는 이슈인가? (O/X)", 14), ("메모", 40)])
     arts = wb.create_sheet("기사")
     _header(arts, [("이슈", 7), ("순서", 6), ("대표", 6), ("언론사", 12), ("제목", 60), ("요약 (앞부분)", 50),
                    ("유사도", 8), ("발행", 17), ("같은 사건? (O/X)", 11), ("메모", 30), ("링크", 40)])
     hidden = wb.create_sheet("_AI")
-    _header(hidden, [("이슈", 7), ("순서", 6), ("AI 한 사건?", 10), ("AI 제외", 9), ("AI 이슈 제목", 40)])
+    _header(hidden, [("이슈", 7), ("순서", 6), ("AI 한 사건?", 10), ("AI 제외", 9), ("AI 이슈 제목", 40), ("AI 입장 갈림", 10)])
 
     ox = DataValidation(type="list", formula1='"O,X,?"', allow_blank=True)
     arts.add_data_validation(ox)
@@ -126,9 +129,12 @@ def write_sheet(groups: list[list[dict]], ai: list[dict | None] | None, cfg: dic
         picked = {a["url"] for a in pick_articles(shown, cfg["articlesPerIssue"], cfg["preferOutlets"])}
         info = ai[gi - 1] if ai else None
         excluded = set(info.get("exclude", [])) if info else set()
-        iss.append([gi, shown[0]["title"], len(g), len({a["outlet"] for a in g}), None, None, None])
-        iss.cell(ir, 5).fill = iss.cell(ir, 6).fill = INPUT_FILL
-        ox2.add(iss.cell(ir, 5))
+        iss.append([gi, shown[0]["title"], "", len(g), len({a["outlet"] for a in g}), None, None, None, None])
+        for c in (6, 7, 8):
+            iss.cell(ir, c).fill = INPUT_FILL
+        ox2.add(iss.cell(ir, 6))
+        ox2.add(iss.cell(ir, 8))
+        iss.cell(ir, 3).alignment = Alignment(wrap_text=True, vertical="top")
         ir += 1
         for k, a in enumerate(shown, 1):
             arts.append([gi, k, "★" if a["url"] in picked else "", a["outlet"], a["title"],
@@ -139,8 +145,16 @@ def write_sheet(groups: list[list[dict]], ai: list[dict | None] | None, cfg: dic
             for c in (5, 6):
                 arts.cell(r, c).alignment = Alignment(wrap_text=True, vertical="top")
             hidden.append([gi, k, ("O" if info.get("same_event") else "X") if info else "",
-                           ("제외" if k in excluded else "") if info else "", (info or {}).get("title", "") if k == 1 else ""])
+                           ("제외" if k in excluded else "") if info else "", (info or {}).get("title", "") if k == 1 else "",
+                           ({True: "O", False: "X"}.get((info or {}).get("contested"), "") if k == 1 else "")])
             r += 1
+    bk = wb.create_sheet("빅카인즈", 3)
+    _header(bk, [("순위", 6), ("빅카인즈 오늘의 이슈 (제목·키워드 그대로)", 55), ("기사 수", 9),
+                 ("우리 이슈 번호 (없으면 비움)", 14), ("메모", 40)])
+    for k in range(1, 11):
+        bk.append([k, None, None, None, None])
+        for c in (2, 3, 4):
+            bk.cell(k + 1, c).fill = INPUT_FILL
     hidden.sheet_state = "hidden"
     dst.parent.mkdir(parents=True, exist_ok=True)
     wb.save(dst)
@@ -187,15 +201,32 @@ def read_sheet(path: Path) -> tuple[list[dict], dict[int, str | None]]:
         g, k = int(row[0]), int(row[1])
         rows.append({"issue": g, "no": k, "picked": row[2] == "★", "outlet": row[3], "sim": row[6] or 0,
                      "human": _ox(row[8]), **ai.get((g, k), {"same": None, "excluded": False})})
-    issue_ok, dup = {}, {}
-    for r in wb["이슈"].iter_rows(min_row=2, values_only=True):
+    issue_ok, dup, contested = {}, {}, {}
+    ws = wb["이슈"]
+    head = [str(c.value or "") for c in ws[1]]
+    col = lambda word: next((i for i, h in enumerate(head) if word in h), None)  # noqa: E731
+    c_ok, c_dup, c_con = col("내보내도"), col("같은 사건이면"), col("입장이 갈리는")
+    for r in ws.iter_rows(min_row=2, values_only=True):
         if r[0] is None:
             continue
-        issue_ok[int(r[0])] = _ox(r[4])
+        g = int(r[0])
+        issue_ok[g] = _ox(r[c_ok]) if c_ok is not None else None
         try:
-            dup[int(r[0])] = int(r[5]) if r[5] not in (None, "") else None
+            dup[g] = int(r[c_dup]) if c_dup is not None and r[c_dup] not in (None, "") else None
         except (TypeError, ValueError):
-            dup[int(r[0])] = None
+            dup[g] = None
+        contested[g] = _ox(r[c_con]) if c_con is not None else None
+    rows_ai_con = {}
+    if "_AI" in wb.sheetnames:
+        for row in wb["_AI"].iter_rows(min_row=2, values_only=True):
+            if row[0] is not None and len(row) > 5 and row[5]:
+                rows_ai_con[int(row[0])] = row[5]
+    bk = []
+    if "빅카인즈" in wb.sheetnames:
+        for row in wb["빅카인즈"].iter_rows(min_row=2, values_only=True):
+            if row[1]:
+                bk.append(row[3])
+    read_sheet.extra = {"contested": contested, "ai_contested": rows_ai_con, "bigkinds": bk}
     return rows, issue_ok, dup
 
 
@@ -227,6 +258,17 @@ def score(path: Path) -> dict:
         res["이슈 단위: 사람과 AI의 '한 사건' 판단 일치"] = pct(sum(h == a for h, a in pairs), len(pairs))
     judged = [v for v in issue_ok.values() if v]
     res["이슈 단위: 사람이 '내보내도 된다'고 한 이슈"] = pct(sum(v == "O" for v in judged), len(judged))
+    ex = getattr(read_sheet, "extra", {})
+    con = {g: v for g, v in ex.get("contested", {}).items() if v}
+    if con:
+        res["입장이 갈리는 이슈 (사람 판단)"] = pct(sum(v == "O" for v in con.values()), len(con))
+        ai = ex.get("ai_contested", {})
+        both = [(con[g], ai[g]) for g in con if g in ai]
+        if both:
+            res["입장 갈림: 사람과 AI 판단 일치"] = pct(sum(h == a for h, a in both), len(both))
+    bk = ex.get("bigkinds", [])
+    if bk:
+        res["빅카인즈 오늘의 이슈 중 우리도 잡은 이슈 (재현율)"] = pct(sum(1 for x in bk if x not in (None, "")), len(bk))
     n_dup = sum(1 for v in dup.values() if v)
     res["쪼개짐: 앞 이슈와 같은 사건인 이슈"] = pct(n_dup, len(dup))
     res["서로 다른 사건 수 / 이슈 수"] = f"{len(dup) - n_dup}/{len(dup)}"
