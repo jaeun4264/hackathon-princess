@@ -111,6 +111,54 @@
    "category": "정치",
    "date": "2026-11-13",
    "origin": "auto"
+  },
+  {
+   "id": "auto-20261114-2333-1",
+   "title": "한동훈·최민희, 이·윤 재판 비교 발언 두고 SNS 설전",
+   "summary": "한동훈 무소속 의원과 최민희 더불어민주당 최고위원이 이재명 대통령과 윤석열 전 대통령의 공직선거법 재판을 비교한 발언을 두고 SNS에서 공방을 벌였다.",
+   "category": "정치",
+   "date": "2026-11-14",
+   "origin": "auto"
+  },
+  {
+   "id": "auto-20261114-2335-1",
+   "title": "이 대통령, 천준호 의원 격려",
+   "summary": "이재명 대통령이 소셜미디어에 천준호 의원의 과거 회고 영상을 공유하며 측근을 격려했다. 해당 영상에는 과거 당대표 체포동의안 가결 당시의 상황과 소회가 담겼다.",
+   "category": "정치",
+   "date": "2026-11-14",
+   "origin": "auto"
+  },
+  {
+   "id": "auto-20261114-2336-1",
+   "title": "국민의힘, 민주당 종교단체 연루 의혹 특검 촉구",
+   "summary": "국민의힘은 14일 더불어민주당에서 신천지 집단 당원 가입 의혹과 통일교 개입 의혹이 제기된 것과 관련해 특검을 통해 진실을 규명하라고 촉구했다.",
+   "category": "정치",
+   "date": "2026-11-14",
+   "origin": "auto"
+  },
+  {
+   "id": "auto-20261114-2337-1",
+   "title": "철도노조, 서울역 결의대회…다음 달 총파업 예고",
+   "summary": "전국철도노동조합이 14일 서울역 앞에서 총력결의대회를 열고 안전인력 충원과 승진제도 개선을 촉구했다. 노조는 요구가 받아들여지지 않을 경우 다음 달 10일 총파업에 돌입하겠다고 예고했다.",
+   "category": "사회",
+   "date": "2026-11-14",
+   "origin": "auto"
+  },
+  {
+   "id": "auto-20261114-2338-1",
+   "title": "인하대 이승만 동상 복원 찬반 집회",
+   "summary": "인하대학교에서 이승만 전 대통령 동상 복원위원회가 출범한 가운데, 캠퍼스 내에서 동상 복원을 찬성하고 반대하는 집회가 각각 열렸다.",
+   "category": "사회",
+   "date": "2026-11-14",
+   "origin": "auto"
+  },
+  {
+   "id": "auto-20261114-2339-1",
+   "title": "여야, 미래대응기금 예산안 심사 공방",
+   "summary": "국민의힘은 정부의 162조 원 규모 미래대응기금 증액 신청 철회를 요구했으며, 더불어민주당은 국민의힘이 기금 삭감을 주장하면서 뒤로는 증액을 요구하고 있다고 비판했다.",
+   "category": "정치",
+   "date": "2026-11-14",
+   "origin": "auto"
   }
  ],
  "articles": [
@@ -11533,6 +11581,5074 @@
     {
      "term": "전망이다",
      "sentenceId": "s19"
+    }
+   ],
+   "analyzedBy": "gemini-3.5-flash-lite"
+  },
+  {
+   "id": "a-b33d81961b",
+   "issueId": "auto-20261114-2333-1",
+   "outletId": "yna",
+   "outletName": "연합뉴스",
+   "title": "한동훈·최민희, '李대통령·尹 공직선거법 재판' 놓고 SNS 설전",
+   "summary": "韓 \"두 재판 같다는 최민희 말맞아\"…崔 \"거짓말, 조희대 공작재판\" 박수윤 최평천 기자 = 더불어민주당 최민희 의원과 무소속 한동훈 의원이 14일 최 의원의 '이재명 대통령의 재판과 윤석열 전 대통령의 재판이 같다'는...",
+   "url": "https://www.yna.co.kr/view/AKR20261114037800001?input=1195m",
+   "publishedAt": "2026-11-14T15:59:00+09:00",
+   "sentences": [
+    {
+     "id": "s1",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s2",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s3",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s4",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s5",
+     "text": null,
+     "type": "quote",
+     "sourceType": "etc",
+     "sourceName": "한동훈 의원",
+     "sourceDetail": "무소속 의원",
+     "party": null
+    },
+    {
+     "id": "s6",
+     "text": null,
+     "type": "quote",
+     "sourceType": "etc",
+     "sourceName": "한 의원",
+     "sourceDetail": "무소속 의원",
+     "party": null
+    },
+    {
+     "id": "s7",
+     "text": null,
+     "type": "quote",
+     "sourceType": "gov",
+     "sourceName": "최 의원",
+     "sourceDetail": null,
+     "party": "더불어민주당"
+    },
+    {
+     "id": "s8",
+     "text": null,
+     "type": "quote",
+     "sourceType": "etc",
+     "sourceName": "한 의원",
+     "sourceDetail": "무소속 의원",
+     "party": null
+    },
+    {
+     "id": "s9",
+     "text": null,
+     "type": "quote",
+     "sourceType": "etc",
+     "sourceName": "한 의원",
+     "sourceDetail": "무소속 의원",
+     "party": null
+    }
+   ],
+   "framingTerms": [
+    {
+     "term": "꼬집었다",
+     "sentenceId": "s6"
+    },
+    {
+     "term": "반박했다",
+     "sentenceId": "s7"
+    },
+    {
+     "term": "재반박했다",
+     "sentenceId": "s8"
+    }
+   ],
+   "analyzedBy": "gemini-3.5-flash-lite"
+  },
+  {
+   "id": "a-87040b2c01",
+   "issueId": "auto-20261114-2333-1",
+   "outletId": "newsis",
+   "outletName": "뉴시스",
+   "title": "한동훈, 최민희와 '李·尹 공직선거법 재판' 두고 공방…\"우기면 추해\"",
+   "summary": "한동훈 무소속 의원과 최민희 더불어민주당 의원이 14일 '이재명 대통령의 재판과 윤석열 전 대통령의 재판이 같다'는 최 의원의 발언을 두고 공방을 벌였다. 한 의원은 이날 페이스북을 통해 \"최 의원이 이 대통령 재판이나...",
+   "url": "https://www.newsis.com/view/NISX20261114_0003868169",
+   "publishedAt": "2026-11-14T16:52:00+09:00",
+   "sentences": [
+    {
+     "id": "s1",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s2",
+     "text": null,
+     "type": "quote",
+     "sourceType": "etc",
+     "sourceName": "한동훈",
+     "sourceDetail": "무소속 의원",
+     "party": null
+    },
+    {
+     "id": "s3",
+     "text": null,
+     "type": "quote",
+     "sourceType": "etc",
+     "sourceName": "한 의원",
+     "sourceDetail": "무소속 의원",
+     "party": null
+    },
+    {
+     "id": "s4",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s5",
+     "text": null,
+     "type": "quote",
+     "sourceType": "gov",
+     "sourceName": "최 의원",
+     "sourceDetail": null,
+     "party": "더불어민주당"
+    },
+    {
+     "id": "s6",
+     "text": null,
+     "type": "quote",
+     "sourceType": "etc",
+     "sourceName": "한 의원",
+     "sourceDetail": "무소속 의원",
+     "party": null
+    },
+    {
+     "id": "s7",
+     "text": null,
+     "type": "quote",
+     "sourceType": "etc",
+     "sourceName": "한 의원",
+     "sourceDetail": "무소속 의원",
+     "party": null
+    }
+   ],
+   "framingTerms": [
+    {
+     "term": "공방을 벌였다",
+     "sentenceId": "s1"
+    },
+    {
+     "term": "우기면 좀 추하다",
+     "sentenceId": "s2"
+    },
+    {
+     "term": "거짓말 마라",
+     "sentenceId": "s5"
+    },
+    {
+     "term": "억지 파기환송",
+     "sentenceId": "s5"
+    },
+    {
+     "term": "반박했다",
+     "sentenceId": "s5"
+    },
+    {
+     "term": "막 우기시니",
+     "sentenceId": "s6"
+    }
+   ],
+   "analyzedBy": "gemini-3.5-flash-lite"
+  },
+  {
+   "id": "a-5397023b74",
+   "issueId": "auto-20261114-2333-1",
+   "outletId": "news1",
+   "outletName": "뉴스1",
+   "title": "한동훈 \"막 우기면 좀 추해\"…'李·尹 재판 똑같다' 최민희와 충돌",
+   "summary": "한동훈 무소속 의원은 14일 이재명 대통령과 윤석열 전 대통령의 공직선거법 재판을 두고 \"당연히 이 대통령 사건이 더 빼박(빼도 박도 못함)\"이라며 최민희 더불어민주당 수석최고위원과 부딪혔다. 한 의원은 이날...",
+   "url": "https://www.news1.kr/politics/assembly/6354049",
+   "publishedAt": "2026-11-14T14:44:00+09:00",
+   "sentences": [
+    {
+     "id": "s1",
+     "text": null,
+     "type": "quote",
+     "sourceType": "etc",
+     "sourceName": "한동훈 무소속 의원",
+     "sourceDetail": "무소속 의원",
+     "party": null
+    },
+    {
+     "id": "s2",
+     "text": null,
+     "type": "quote",
+     "sourceType": "etc",
+     "sourceName": "한 의원",
+     "sourceDetail": "무소속 의원",
+     "party": null
+    },
+    {
+     "id": "s3",
+     "text": null,
+     "type": "quote",
+     "sourceType": "gov",
+     "sourceName": "최 최고위원",
+     "sourceDetail": null,
+     "party": "더불어민주당"
+    },
+    {
+     "id": "s4",
+     "text": null,
+     "type": "quote",
+     "sourceType": "etc",
+     "sourceName": "한 의원",
+     "sourceDetail": "무소속 의원",
+     "party": null
+    },
+    {
+     "id": "s5",
+     "text": null,
+     "type": "quote",
+     "sourceType": "etc",
+     "sourceName": "한 의원은",
+     "sourceDetail": "무소속 의원",
+     "party": null
+    },
+    {
+     "id": "s6",
+     "text": null,
+     "type": "quote",
+     "sourceType": "etc",
+     "sourceName": "한 의원은",
+     "sourceDetail": "무소속 의원",
+     "party": null
+    }
+   ],
+   "framingTerms": [
+    {
+     "term": "부딪혔다",
+     "sentenceId": "s1"
+    },
+    {
+     "term": "반박한",
+     "sentenceId": "s2"
+    },
+    {
+     "term": "밝혔다",
+     "sentenceId": "s2"
+    },
+    {
+     "term": "적었다",
+     "sentenceId": "s3"
+    },
+    {
+     "term": "꼬집었다",
+     "sentenceId": "s4"
+    },
+    {
+     "term": "주장했다",
+     "sentenceId": "s5"
+    },
+    {
+     "term": "했다",
+     "sentenceId": "s6"
+    }
+   ],
+   "analyzedBy": "gemini-3.5-flash-lite"
+  },
+  {
+   "id": "a-e5cc480df7",
+   "issueId": "auto-20261114-2333-1",
+   "outletId": "sbs",
+   "outletName": "SBS",
+   "title": "한동훈·최민희, 전·현직 대통령 재판 놓고 SNS 설전",
+   "summary": "▲ 한동훈, 최민희 더불어민주당 최민희 의원과 무소속 한동훈 의원이 최 의원의 '이재명 대통령의 재판과 윤석열 전 대통령의 재판이 같다'는 발언을 두고 SNS에서 설전을 벌였습니다. 앞서 최 의원이 지난달 비공개 당원...",
+   "url": "https://news.sbs.co.kr/news/endPage.do?news_id=N1008845980&plink=ORI&cooper=NAVER",
+   "publishedAt": "2026-11-14T17:22:00+09:00",
+   "sentences": [
+    {
+     "id": "s1",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s2",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s3",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s4",
+     "text": null,
+     "type": "quote",
+     "sourceType": "etc",
+     "sourceName": "한 의원",
+     "sourceDetail": "무소속 의원",
+     "party": null
+    },
+    {
+     "id": "s5",
+     "text": null,
+     "type": "quote",
+     "sourceType": "etc",
+     "sourceName": "한 의원",
+     "sourceDetail": "무소속 의원",
+     "party": null
+    },
+    {
+     "id": "s6",
+     "text": null,
+     "type": "quote",
+     "sourceType": "gov",
+     "sourceName": "최 의원",
+     "sourceDetail": null,
+     "party": "더불어민주당"
+    },
+    {
+     "id": "s7",
+     "text": null,
+     "type": "quote",
+     "sourceType": "etc",
+     "sourceName": "한 의원",
+     "sourceDetail": "무소속 의원",
+     "party": null
+    }
+   ],
+   "framingTerms": [
+    {
+     "term": "설전을 벌였습니다",
+     "sentenceId": "s1"
+    },
+    {
+     "term": "보도됐습니다",
+     "sentenceId": "s2"
+    },
+    {
+     "term": "꼬집었습니다",
+     "sentenceId": "s5"
+    },
+    {
+     "term": "반박했습니다",
+     "sentenceId": "s6"
+    },
+    {
+     "term": "재반박했습니다",
+     "sentenceId": "s7"
+    }
+   ],
+   "analyzedBy": "gemini-3.5-flash-lite"
+  },
+  {
+   "id": "a-41028f2781",
+   "issueId": "auto-20261114-2333-1",
+   "outletId": "ytn",
+   "outletName": "YTN",
+   "title": "한동훈·최민희, SNS 설전...\"거짓말\" \"우기면 추해\"",
+   "summary": "더불어민주당 최민희 의원과 무소속 한동훈 의원이 '이재명 대통령 재판과 윤석열 전 대통령 재판의 내용이 같다'는 최 의원의 비공개 간담회 발언을 두고 SNS 설전을 벌였습니다. 한 의원은 어제(13일) SNS에 최 의원의...",
+   "url": "https://www.ytn.co.kr/_ln/0101_202611141755413962",
+   "publishedAt": "2026-11-14T17:55:00+09:00",
+   "sentences": [
+    {
+     "id": "s1",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s2",
+     "text": null,
+     "type": "quote",
+     "sourceType": "etc",
+     "sourceName": "한 의원",
+     "sourceDetail": "무소속 의원",
+     "party": null
+    },
+    {
+     "id": "s3",
+     "text": null,
+     "type": "quote",
+     "sourceType": "gov",
+     "sourceName": "최 의원",
+     "sourceDetail": null,
+     "party": "더불어민주당"
+    },
+    {
+     "id": "s4",
+     "text": null,
+     "type": "quote",
+     "sourceType": "etc",
+     "sourceName": "한 의원",
+     "sourceDetail": "무소속 의원",
+     "party": null
+    },
+    {
+     "id": "s5",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    }
+   ],
+   "framingTerms": [
+    {
+     "term": "글을 올렸습니다",
+     "sentenceId": "s2"
+    },
+    {
+     "term": "반박했습니다",
+     "sentenceId": "s3"
+    },
+    {
+     "term": "꼬집었습니다",
+     "sentenceId": "s4"
+    }
+   ],
+   "analyzedBy": "gemini-3.5-flash-lite"
+  },
+  {
+   "id": "a-b93b5d86ab",
+   "issueId": "auto-20261114-2333-1",
+   "outletId": "joins",
+   "outletName": "JTBC",
+   "title": "한동훈 \"유죄 확정 시 시한부 대통령\"…최민희 \"거짓말 마라. 공작 재판...",
+   "summary": "한동훈 무소속 의원 최민희 더불어민주당 최고위원이 이재명 대통령과 윤석열 전 대통령의 재판을 놓고 SNS에서 설전을 벌였습니다. 한 전 대표는 두 재판을 동일시한 최 최고위원의 발언이 맞는 말이라면서도, 이 대통령...",
+   "url": "https://news.jtbc.co.kr/article/NB12328080?influxDiv=NAVER",
+   "publishedAt": "2026-11-14T14:24:00+09:00",
+   "sentences": [
+    {
+     "id": "s1",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s2",
+     "text": null,
+     "type": "quote",
+     "sourceType": "etc",
+     "sourceName": "한 전 대표",
+     "sourceDetail": "무소속 의원",
+     "party": null
+    },
+    {
+     "id": "s3",
+     "text": null,
+     "type": "quote",
+     "sourceType": "gov",
+     "sourceName": "최 최고위원",
+     "sourceDetail": null,
+     "party": "더불어민주당"
+    },
+    {
+     "id": "s4",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s5",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s6",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s7",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s8",
+     "text": null,
+     "type": "quote",
+     "sourceType": "etc",
+     "sourceName": "한 전 대표",
+     "sourceDetail": "무소속 의원",
+     "party": null
+    },
+    {
+     "id": "s9",
+     "text": null,
+     "type": "quote",
+     "sourceType": "etc",
+     "sourceName": "한 전 대표",
+     "sourceDetail": "무소속 의원",
+     "party": null
+    },
+    {
+     "id": "s10",
+     "text": null,
+     "type": "quote",
+     "sourceType": "etc",
+     "sourceName": "한 전 대표",
+     "sourceDetail": "무소속 의원",
+     "party": null
+    },
+    {
+     "id": "s11",
+     "text": null,
+     "type": "quote",
+     "sourceType": "etc",
+     "sourceName": "한 전 대표",
+     "sourceDetail": "무소속 의원",
+     "party": null
+    },
+    {
+     "id": "s12",
+     "text": null,
+     "type": "quote",
+     "sourceType": "etc",
+     "sourceName": "한 전 대표",
+     "sourceDetail": "무소속 의원",
+     "party": null
+    },
+    {
+     "id": "s13",
+     "text": null,
+     "type": "quote",
+     "sourceType": "etc",
+     "sourceName": "최 위원",
+     "sourceDetail": "무소속 의원",
+     "party": null
+    },
+    {
+     "id": "s14",
+     "text": null,
+     "type": "quote",
+     "sourceType": "gov",
+     "sourceName": "최 위원",
+     "sourceDetail": null,
+     "party": "더불어민주당"
+    },
+    {
+     "id": "s15",
+     "text": null,
+     "type": "quote",
+     "sourceType": "gov",
+     "sourceName": "최 위원",
+     "sourceDetail": null,
+     "party": "더불어민주당"
+    },
+    {
+     "id": "s16",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    }
+   ],
+   "framingTerms": [
+    {
+     "term": "설전을 벌였습니다",
+     "sentenceId": "s1"
+    },
+    {
+     "term": "강조했습니다",
+     "sentenceId": "s2"
+    },
+    {
+     "term": "주장했습니다",
+     "sentenceId": "s3"
+    },
+    {
+     "term": "설전을 벌였습니다",
+     "sentenceId": "s4"
+    },
+    {
+     "term": "맞받았습니다",
+     "sentenceId": "s6"
+    },
+    {
+     "term": "강조했습니다",
+     "sentenceId": "s9"
+    },
+    {
+     "term": "주장했습니다",
+     "sentenceId": "s11"
+    },
+    {
+     "term": "반박해 보라고 했습니다",
+     "sentenceId": "s12"
+    },
+    {
+     "term": "맞받았습니다",
+     "sentenceId": "s13"
+    },
+    {
+     "term": "강조했습니다",
+     "sentenceId": "s14"
+    },
+    {
+     "term": "비판했습니다",
+     "sentenceId": "s15"
+    }
+   ],
+   "analyzedBy": "gemini-3.5-flash-lite"
+  },
+  {
+   "id": "a-7b57e569e6",
+   "issueId": "auto-20261114-2333-1",
+   "outletId": "tvchosun",
+   "outletName": "TV조선",
+   "title": "한동훈 \"李, 재판만 열리면 끝나는 '시한부 대통령'\"…최민희 녹취록 근...",
+   "summary": "한동훈 무소속 의원이 최민희 더불어민주당 최고위원의 발언을 근거로 이재명 대통령을 향한 공세를 이어가고 있다. 한 의원은 13일 밤 SNS에 최 최고위원의 비공개 당원 간담회 발언을 다룬 기사를 공유하며 “최민희 의원...",
+   "url": "https://news.tvchosun.com/site/data/html_dir/2026/11/14/2026111490030.html",
+   "publishedAt": "2026-11-14T13:10:00+09:00",
+   "sentences": [
+    {
+     "id": "s1",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s2",
+     "text": null,
+     "type": "quote",
+     "sourceType": "etc",
+     "sourceName": "한동훈 의원",
+     "sourceDetail": "무소속 의원",
+     "party": null
+    },
+    {
+     "id": "s3",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s4",
+     "text": null,
+     "type": "quote",
+     "sourceType": "gov",
+     "sourceName": "문진석 수석사무총장",
+     "sourceDetail": null,
+     "party": "더불어민주당"
+    },
+    {
+     "id": "s5",
+     "text": null,
+     "type": "quote",
+     "sourceType": "etc",
+     "sourceName": "한 의원",
+     "sourceDetail": "무소속 의원",
+     "party": null
+    },
+    {
+     "id": "s6",
+     "text": null,
+     "type": "quote",
+     "sourceType": "etc",
+     "sourceName": "한 의원",
+     "sourceDetail": "무소속 의원",
+     "party": null
+    }
+   ],
+   "framingTerms": [
+    {
+     "term": "공세를 이어가고 있다",
+     "sentenceId": "s1"
+    },
+    {
+     "term": "반박했다",
+     "sentenceId": "s4"
+    },
+    {
+     "term": "주장했다",
+     "sentenceId": "s6"
+    }
+   ],
+   "analyzedBy": "gemini-3.5-flash-lite"
+  },
+  {
+   "id": "a-1f09398e92",
+   "issueId": "auto-20261114-2333-1",
+   "outletId": "chosun",
+   "outletName": "조선일보",
+   "title": "한동훈·최민희, 李·尹 재판 놓고 설전… 韓 “막 우기면 추해”",
+   "summary": "한동훈 무소속 의원과 최민희 더불어민주당 최고위원이 이재명 대통령과 윤석열 전 대통령의 공직선거법 재판을 놓고 설전을 벌였다. 최 최고위원이 두 사람의 재판이 같다고 발언했다는 보도가 나오자, 한 의원이 “이...",
+   "url": "https://www.chosun.com/politics/assembly/2026/11/14/34JFVFZU7VHR5MXL5MMGIGYNU4/?utm_source=naver&utm_medium=referral&utm_campaign=naver-news",
+   "publishedAt": "2026-11-14T15:15:00+09:00",
+   "sentences": [
+    {
+     "id": "s1",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s2",
+     "text": null,
+     "type": "quote",
+     "sourceType": "gov",
+     "sourceName": "이들",
+     "sourceDetail": null,
+     "party": "더불어민주당"
+    },
+    {
+     "id": "s3",
+     "text": "전날 김 대표가 최민희 최고위원에 대해 감찰을 지시한 게 발단이 됐지만,…",
+     "type": "opinion",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s4",
+     "text": null,
+     "type": "quote",
+     "sourceType": "gov",
+     "sourceName": "친명계 지도부",
+     "sourceDetail": null,
+     "party": "더불어민주당"
+    },
+    {
+     "id": "s5",
+     "text": "24일 김민석 대표 취임 100일을 앞두고 친명·친청계가 정면충돌하는 양…",
+     "type": "opinion",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s6",
+     "text": null,
+     "type": "quote",
+     "sourceType": "gov",
+     "sourceName": "최민희·이성윤·한민수 최고위원",
+     "sourceDetail": null,
+     "party": "더불어민주당"
+    },
+    {
+     "id": "s7",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    }
+   ],
+   "framingTerms": [
+    {
+     "term": "집단 불참했다",
+     "sentenceId": "s1"
+    },
+    {
+     "term": "폭발한 것이다",
+     "sentenceId": "s3"
+    },
+    {
+     "term": "비판했다",
+     "sentenceId": "s4"
+    },
+    {
+     "term": "정면충돌하는 양상이다",
+     "sentenceId": "s5"
+    }
+   ],
+   "analyzedBy": "gemini-3.5-flash-lite"
+  },
+  {
+   "id": "a-21acc50ce3",
+   "issueId": "auto-20261114-2335-1",
+   "outletId": "yna",
+   "outletName": "연합뉴스",
+   "title": "李대통령 \"가장 힘든 건 등 뒤서 날아오는 화살\"…與천준호 격려",
+   "summary": "이 대통령이 공유한 영상에서 천 의원은 2023년 9월 이 대통령에 대한 국회 체포동의안이 가결되던 당시를 설명하며 \"정말 지금 생각하면 끔찍한 일\"이라고 말했는데, 이에 공감을 표한 것으로 읽힌다.",
+   "url": "https://www.yna.co.kr/view/AKR20261114046600001?input=1195m",
+   "publishedAt": "2026-11-14T20:34:00+09:00",
+   "sentences": [
+    {
+     "id": "s1",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s2",
+     "text": null,
+     "type": "quote",
+     "sourceType": "gov",
+     "sourceName": "이재명 대통령",
+     "sourceDetail": null,
+     "party": "더불어민주당"
+    },
+    {
+     "id": "s3",
+     "text": null,
+     "type": "quote",
+     "sourceType": "gov",
+     "sourceName": "이재명 대통령",
+     "sourceDetail": null,
+     "party": "더불어민주당"
+    },
+    {
+     "id": "s4",
+     "text": null,
+     "type": "quote",
+     "sourceType": "gov",
+     "sourceName": "이재명 대통령",
+     "sourceDetail": null,
+     "party": "더불어민주당"
+    },
+    {
+     "id": "s5",
+     "text": null,
+     "type": "quote",
+     "sourceType": "gov",
+     "sourceName": "이재명 대통령",
+     "sourceDetail": null,
+     "party": "더불어민주당"
+    },
+    {
+     "id": "s6",
+     "text": "이 대통령이 공유한 영상에서 천 의원은 2023년 9월 이 대통령에 대한…",
+     "type": "opinion",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    }
+   ],
+   "framingTerms": [],
+   "analyzedBy": "gemini-3.5-flash-lite"
+  },
+  {
+   "id": "a-beadc8bcf7",
+   "issueId": "auto-20261114-2335-1",
+   "outletId": "news1",
+   "outletName": "뉴스1",
+   "title": "李대통령, 與 천준호 격려 속 \"가장 힘든 건 등 뒤서 날아오는 화살\"",
+   "summary": "해당 영상에서 천 수석부대표는 이 대통령이 당 대표였던 윤석열 정부 시절, 이 대통령에 대한 검찰의 지속된 수사·기소와 압수수색, 국회 체포동의 요청 등을 회상하며 \"전 세계적으로 유례없는 일\"이라고 지적했다. 그는...",
+   "url": "https://www.news1.kr/politics/president/6354171",
+   "publishedAt": "2026-11-14T21:44:00+09:00",
+   "sentences": [
+    {
+     "id": "s1",
+     "text": null,
+     "type": "quote",
+     "sourceType": "gov",
+     "sourceName": "이재명 대통령",
+     "sourceDetail": null,
+     "party": "더불어민주당"
+    },
+    {
+     "id": "s2",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s3",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s4",
+     "text": null,
+     "type": "quote",
+     "sourceType": "gov",
+     "sourceName": "천준호 원내수석부대표",
+     "sourceDetail": null,
+     "party": "더불어민주당"
+    },
+    {
+     "id": "s5",
+     "text": null,
+     "type": "quote",
+     "sourceType": "gov",
+     "sourceName": "천준호 원내수석부대표",
+     "sourceDetail": null,
+     "party": "더불어민주당"
+    },
+    {
+     "id": "s6",
+     "text": null,
+     "type": "quote",
+     "sourceType": "gov",
+     "sourceName": "이재명 대통령",
+     "sourceDetail": null,
+     "party": "더불어민주당"
+    },
+    {
+     "id": "s7",
+     "text": null,
+     "type": "quote",
+     "sourceType": "gov",
+     "sourceName": "이재명 대통령",
+     "sourceDetail": null,
+     "party": "더불어민주당"
+    },
+    {
+     "id": "s8",
+     "text": null,
+     "type": "quote",
+     "sourceType": "gov",
+     "sourceName": "이재명 대통령",
+     "sourceDetail": null,
+     "party": "더불어민주당"
+    }
+   ],
+   "framingTerms": [
+    {
+     "term": "지적했다",
+     "sentenceId": "s4"
+    },
+    {
+     "term": "언급을 하기도 했다",
+     "sentenceId": "s8"
+    }
+   ],
+   "analyzedBy": "gemini-3.5-flash-lite"
+  },
+  {
+   "id": "a-7b7943ed9c",
+   "issueId": "auto-20261114-2335-1",
+   "outletId": "ytn",
+   "outletName": "YTN",
+   "title": "이 대통령 \"가장 힘든 일, 등 뒤에서 날아오는 화살\"",
+   "summary": "이 대통령은 오늘(14일) SNS에 과거 당 대표 시절 자신에 대한 검찰 수사와 국회 체포동의안 가결 과정을 인터뷰한 더불어민주당 천준호 의원의 영상을 공유하며 이같이 적었습니다. 이어 지난 수년 동안 흉기 살해 테러와...",
+   "url": "https://www.ytn.co.kr/_ln/0101_202611142104113164",
+   "publishedAt": "2026-11-14T21:04:00+09:00",
+   "sentences": [
+    {
+     "id": "s1",
+     "text": null,
+     "type": "quote",
+     "sourceType": "gov",
+     "sourceName": "이재명 대통령",
+     "sourceDetail": null,
+     "party": "더불어민주당"
+    },
+    {
+     "id": "s2",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s3",
+     "text": null,
+     "type": "quote",
+     "sourceType": "gov",
+     "sourceName": "이재명 대통령",
+     "sourceDetail": null,
+     "party": "더불어민주당"
+    },
+    {
+     "id": "s4",
+     "text": null,
+     "type": "quote",
+     "sourceType": "gov",
+     "sourceName": "이재명 대통령",
+     "sourceDetail": null,
+     "party": "더불어민주당"
+    },
+    {
+     "id": "s5",
+     "text": "이 대통령의 이 같은 발언은 최근 비공개 당원 간담회에서 이 대통령이 과…",
+     "type": "opinion",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s6",
+     "text": "또 당장 다음 주 국무회의 의결을 앞둔 조작 기소 특검법의 정당성을 강조…",
+     "type": "opinion",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s7",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    }
+   ],
+   "framingTerms": [
+    {
+     "term": "논란이 된",
+     "sentenceId": "s5"
+    },
+    {
+     "term": "강조하려는",
+     "sentenceId": "s6"
+    }
+   ],
+   "analyzedBy": "gemini-3.5-flash-lite"
+  },
+  {
+   "id": "a-2c94d50bed",
+   "issueId": "auto-20261114-2335-1",
+   "outletId": "joongang",
+   "outletName": "중앙일보",
+   "title": "李대통령, 與천준호 격려…“가장 힘든 건 등 뒤서 날아오는 화살”",
+   "summary": "가장 힘든 일은 등 뒤에서 날아오는 화살”이라고 했다. 이 대통령이 공유한 영상에서 천 의원은 2023년 9월 이 대통령에 대한 국회 체포동의안이 가결되던 당시를 설명하며 “정말 지금 생각하면 끔찍한 일”이라고 말했다.",
+   "url": "https://www.joongang.co.kr/article/25478640",
+   "publishedAt": "2026-11-14T21:25:00+09:00",
+   "sentences": [
+    {
+     "id": "s1",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s2",
+     "text": null,
+     "type": "quote",
+     "sourceType": "gov",
+     "sourceName": "이재명 대통령",
+     "sourceDetail": null,
+     "party": "더불어민주당"
+    },
+    {
+     "id": "s3",
+     "text": null,
+     "type": "quote",
+     "sourceType": "gov",
+     "sourceName": "이재명 대통령",
+     "sourceDetail": null,
+     "party": "더불어민주당"
+    },
+    {
+     "id": "s4",
+     "text": null,
+     "type": "quote",
+     "sourceType": "gov",
+     "sourceName": "이재명 대통령",
+     "sourceDetail": null,
+     "party": "더불어민주당"
+    },
+    {
+     "id": "s5",
+     "text": null,
+     "type": "quote",
+     "sourceType": "gov",
+     "sourceName": "천준호 의원",
+     "sourceDetail": null,
+     "party": "더불어민주당"
+    }
+   ],
+   "framingTerms": [],
+   "analyzedBy": "gemini-3.5-flash-lite"
+  },
+  {
+   "id": "a-b96b548cca",
+   "issueId": "auto-20261114-2335-1",
+   "outletId": "hankookilbo",
+   "outletName": "한국일보",
+   "title": "이 대통령 \"가장 힘든 일은 등 뒤에서 날아오는 화살\"... 친청계 겨냥했...",
+   "summary": "최근 민주당 주도로 국회를 통과한 조작기소 특검이 내주 국무회의 심의 의결을 앞두고 있는 가운데, 특검 수사 대상인 자신에 대한 검찰의 기소를 '사법살인 시도'로 규정한 것이다. 이 대통령은 \"어떤 장애든 슬기롭게...",
+   "url": "https://www.hankookilbo.com/news/article/A2026111421010003151?did=NA",
+   "publishedAt": "2026-11-14T21:21:00+09:00",
+   "sentences": [
+    {
+     "id": "s1",
+     "text": null,
+     "type": "quote",
+     "sourceType": "gov",
+     "sourceName": "이재명 대통령",
+     "sourceDetail": null,
+     "party": "더불어민주당"
+    },
+    {
+     "id": "s2",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s3",
+     "text": null,
+     "type": "quote",
+     "sourceType": "gov",
+     "sourceName": "천준호 의원",
+     "sourceDetail": null,
+     "party": "더불어민주당"
+    },
+    {
+     "id": "s4",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s5",
+     "text": "천 의원 발언 내용 등에 비춰 '진영 내부의 비판'을 뜻하는 것으로 보인…",
+     "type": "opinion",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s6",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s7",
+     "text": null,
+     "type": "quote",
+     "sourceType": "gov",
+     "sourceName": "청와대, 최민희 최고위원",
+     "sourceDetail": null,
+     "party": "더불어민주당"
+    },
+    {
+     "id": "s8",
+     "text": null,
+     "type": "quote",
+     "sourceType": "gov",
+     "sourceName": "천준호 의원",
+     "sourceDetail": null,
+     "party": "더불어민주당"
+    },
+    {
+     "id": "s9",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s10",
+     "text": null,
+     "type": "quote",
+     "sourceType": "gov",
+     "sourceName": "친청계",
+     "sourceDetail": null,
+     "party": "더불어민주당"
+    },
+    {
+     "id": "s11",
+     "text": null,
+     "type": "quote",
+     "sourceType": "gov",
+     "sourceName": "이재명 대통령",
+     "sourceDetail": null,
+     "party": "더불어민주당"
+    },
+    {
+     "id": "s12",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s13",
+     "text": null,
+     "type": "quote",
+     "sourceType": "gov",
+     "sourceName": "이재명 대통령",
+     "sourceDetail": null,
+     "party": "더불어민주당"
+    }
+   ],
+   "framingTerms": [
+    {
+     "term": "강한",
+     "sentenceId": "s7"
+    },
+    {
+     "term": "집단 반발",
+     "sentenceId": "s9"
+    },
+    {
+     "term": "불이 붙은",
+     "sentenceId": "s9"
+    },
+    {
+     "term": "겨냥해",
+     "sentenceId": "s10"
+    },
+    {
+     "term": "분열을 일으켰다고",
+     "sentenceId": "s10"
+    },
+    {
+     "term": "규정한",
+     "sentenceId": "s12"
+    }
+   ],
+   "analyzedBy": "gemini-3.5-flash-lite"
+  },
+  {
+   "id": "a-47776fa613",
+   "issueId": "auto-20261114-2335-1",
+   "outletId": "munhwa",
+   "outletName": "문화일보",
+   "title": "“체포동의안 가결 정말 끔찍” 천준호에 “뒤에서 날아오는 화살, 제일...",
+   "summary": "이 대통령이 공유한 영상에서 천 의원은 2023년 9월 이 대통령에 대한 국회 체포동의안이 가결됐던 당시 상황을 설명하며 “정말 지금 생각하면 끔찍한 일”이라고 말했다. 이 대통령의 이날 메시지는 당시 상황을 언급한...",
+   "url": "https://www.munhwa.com/article/11631302?ref=naver",
+   "publishedAt": "2026-11-14T22:20:00+09:00",
+   "sentences": [
+    {
+     "id": "s1",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s2",
+     "text": "천 의원이 당시 이 대통령과 함께하는 과정에서 정치 검찰의 수사 대상이…",
+     "type": "opinion",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s3",
+     "text": null,
+     "type": "quote",
+     "sourceType": "gov",
+     "sourceName": "이 대통령",
+     "sourceDetail": null,
+     "party": "더불어민주당"
+    },
+    {
+     "id": "s4",
+     "text": null,
+     "type": "quote",
+     "sourceType": "gov",
+     "sourceName": "이 대통령",
+     "sourceDetail": null,
+     "party": "더불어민주당"
+    },
+    {
+     "id": "s5",
+     "text": null,
+     "type": "quote",
+     "sourceType": "gov",
+     "sourceName": "이 대통령",
+     "sourceDetail": null,
+     "party": "더불어민주당"
+    },
+    {
+     "id": "s6",
+     "text": null,
+     "type": "quote",
+     "sourceType": "gov",
+     "sourceName": "이 대통령",
+     "sourceDetail": null,
+     "party": "더불어민주당"
+    },
+    {
+     "id": "s7",
+     "text": null,
+     "type": "quote",
+     "sourceType": "gov",
+     "sourceName": "천 의원",
+     "sourceDetail": null,
+     "party": "더불어민주당"
+    },
+    {
+     "id": "s8",
+     "text": "이 대통령의 이날 메시지는 당시 상황을 언급한 천 의원에게 공감을 표하고…",
+     "type": "opinion",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    }
+   ],
+   "framingTerms": [],
+   "analyzedBy": "gemini-3.5-flash-lite"
+  },
+  {
+   "id": "a-df400431fd",
+   "issueId": "auto-20261114-2335-1",
+   "outletId": "hankyung",
+   "outletName": "한국경제",
+   "title": "李대통령 \"등 뒤서 날아오는 화살 가장 힘들어\"…與천준호 격려",
+   "summary": "공유된 영상에서 천 의원은 2023년 9월 국회에서 당시 민주당 대표였던 이 대통령에 대한 체포동의안이 가결된 상황을 되짚으며 \"정말 지금 생각하면 끔찍한 일\"이라고 말했다. 이 대통령의 게시글은 천 의원의 이 같은...",
+   "url": "https://www.hankyung.com/article/2026111466477",
+   "publishedAt": "2026-11-14T21:20:00+09:00",
+   "sentences": [
+    {
+     "id": "s1",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s2",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s3",
+     "text": null,
+     "type": "quote",
+     "sourceType": "gov",
+     "sourceName": "이 대통령",
+     "sourceDetail": null,
+     "party": "더불어민주당"
+    },
+    {
+     "id": "s4",
+     "text": null,
+     "type": "quote",
+     "sourceType": "gov",
+     "sourceName": "이 대통령",
+     "sourceDetail": null,
+     "party": "더불어민주당"
+    },
+    {
+     "id": "s5",
+     "text": null,
+     "type": "quote",
+     "sourceType": "gov",
+     "sourceName": "이 대통령",
+     "sourceDetail": null,
+     "party": "더불어민주당"
+    },
+    {
+     "id": "s6",
+     "text": null,
+     "type": "quote",
+     "sourceType": "gov",
+     "sourceName": "천 의원",
+     "sourceDetail": null,
+     "party": "더불어민주당"
+    },
+    {
+     "id": "s7",
+     "text": "이 대통령의 게시글은 천 의원의 이 같은 회고에 공감을 나타낸 것으로 해…",
+     "type": "opinion",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    }
+   ],
+   "framingTerms": [],
+   "analyzedBy": "gemini-3.5-flash-lite"
+  },
+  {
+   "id": "a-ed96cc7b74",
+   "issueId": "auto-20261114-2335-1",
+   "outletId": "edaily",
+   "outletName": "이데일리",
+   "title": "李 \"가장 힘든 건 등 뒤에서 날아오는 화살\"…與 천준호 격려",
+   "summary": "이 대통령이 공유한 영상에서 천 의원은 지난 2023년 9월 당시 민주당 대표였던 이 대통령에 대한 국회 체포동의안이 본회의에서 찬성 149표로 가결되던 상황을 되짚으며 “정말 지금 생각하면 끔찍한 일”이라고 회고했다....",
+   "url": "https://www.edaily.co.kr/News/Read?newsId=02804406645645720&mediaCodeNo=257&utm_source=naver&utm_medium=referral&utm_campaign=news_syndication&utm_content=original_article",
+   "publishedAt": "2026-11-14T22:05:00+09:00",
+   "sentences": [
+    {
+     "id": "s1",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s2",
+     "text": null,
+     "type": "quote",
+     "sourceType": "gov",
+     "sourceName": "이재명 대통령",
+     "sourceDetail": null,
+     "party": "더불어민주당"
+    },
+    {
+     "id": "s3",
+     "text": null,
+     "type": "quote",
+     "sourceType": "gov",
+     "sourceName": "천 의원",
+     "sourceDetail": null,
+     "party": "더불어민주당"
+    },
+    {
+     "id": "s4",
+     "text": "정치권에서는 이 대통령이 언급한 ‘등 뒤에서 날아오는 화살’이 당시 체포…",
+     "type": "opinion",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s5",
+     "text": null,
+     "type": "quote",
+     "sourceType": "gov",
+     "sourceName": "강유정 청와대 수석대변인",
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s6",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    }
+   ],
+   "framingTerms": [
+    {
+     "term": "해석",
+     "sentenceId": "s4"
+    },
+    {
+     "term": "반발하는",
+     "sentenceId": "s6"
+    }
+   ],
+   "analyzedBy": "gemini-3.5-flash-lite"
+  },
+  {
+   "id": "a-c109778681",
+   "issueId": "auto-20261114-2336-1",
+   "outletId": "yna",
+   "outletName": "연합뉴스",
+   "title": "국힘, '신천지 이어 통일교 의혹' 與에 \"특검해야\" 압박",
+   "summary": "국민의힘은 14일 더불어민주당에서 신천지 교인의 집단 당원 가입 의혹에 이어 통일교 개입 의혹도 제기되자 \"특검을 통해 진실을 규명받으라\"고 재차 압박했다. 조용술 대변인은 이날 논평에서 \"민주당 내부 권력 다툼으로...",
+   "url": "https://www.yna.co.kr/view/AKR20261114027400001?input=1195m",
+   "publishedAt": "2026-11-14T11:02:00+09:00",
+   "sentences": [
+    {
+     "id": "s1",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s2",
+     "text": null,
+     "type": "quote",
+     "sourceType": "opp",
+     "sourceName": "국민의힘",
+     "sourceDetail": null,
+     "party": "국민의힘"
+    },
+    {
+     "id": "s3",
+     "text": null,
+     "type": "quote",
+     "sourceType": "opp",
+     "sourceName": "조용술 대변인",
+     "sourceDetail": null,
+     "party": "국민의힘"
+    },
+    {
+     "id": "s4",
+     "text": null,
+     "type": "quote",
+     "sourceType": "opp",
+     "sourceName": "조 대변인",
+     "sourceDetail": null,
+     "party": "국민의힘"
+    },
+    {
+     "id": "s5",
+     "text": null,
+     "type": "quote",
+     "sourceType": "opp",
+     "sourceName": "그",
+     "sourceDetail": null,
+     "party": "국민의힘"
+    },
+    {
+     "id": "s6",
+     "text": null,
+     "type": "quote",
+     "sourceType": "opp",
+     "sourceName": "그",
+     "sourceDetail": null,
+     "party": "국민의힘"
+    },
+    {
+     "id": "s7",
+     "text": null,
+     "type": "quote",
+     "sourceType": "opp",
+     "sourceName": "박성훈 수석대변인",
+     "sourceDetail": null,
+     "party": "국민의힘"
+    },
+    {
+     "id": "s8",
+     "text": null,
+     "type": "quote",
+     "sourceType": "opp",
+     "sourceName": "박 수석대변인",
+     "sourceDetail": null,
+     "party": "국민의힘"
+    }
+   ],
+   "framingTerms": [
+    {
+     "term": "압박했다",
+     "sentenceId": "s2"
+    },
+    {
+     "term": "촉구했다",
+     "sentenceId": "s3"
+    },
+    {
+     "term": "주장했다",
+     "sentenceId": "s4"
+    },
+    {
+     "term": "지적했다",
+     "sentenceId": "s5"
+    },
+    {
+     "term": "강조했다",
+     "sentenceId": "s6"
+    },
+    {
+     "term": "맹비난했다",
+     "sentenceId": "s7"
+    },
+    {
+     "term": "비꼬았다",
+     "sentenceId": "s8"
+    }
+   ],
+   "analyzedBy": "gemini-3.5-flash-lite"
+  },
+  {
+   "id": "a-a26d5ef223",
+   "issueId": "auto-20261114-2336-1",
+   "outletId": "news1",
+   "outletName": "뉴스1",
+   "title": "국힘, 與 신천지 이어 통일교 의혹에 \"특검으로 진상 규명\"",
+   "summary": "국민의힘은 14일 더불어민주당에서 신천지 교인의 집단 당원 가입 의혹에 이어 통일교 개입 의혹까지 제기된 것과 관련해 \"민주당도 최소한의 양심이 있다면 남에게 요구했던 것처럼 스스로 특검을 요구하고 철저한 진상...",
+   "url": "https://www.news1.kr/politics/assembly/6354111",
+   "publishedAt": "2026-11-14T17:31:00+09:00",
+   "sentences": [
+    {
+     "id": "s1",
+     "text": null,
+     "type": "quote",
+     "sourceType": "opp",
+     "sourceName": "국민의힘",
+     "sourceDetail": null,
+     "party": "국민의힘"
+    },
+    {
+     "id": "s2",
+     "text": null,
+     "type": "quote",
+     "sourceType": "opp",
+     "sourceName": "조용술 대변인",
+     "sourceDetail": null,
+     "party": "국민의힘"
+    },
+    {
+     "id": "s3",
+     "text": null,
+     "type": "quote",
+     "sourceType": "opp",
+     "sourceName": "조 대변인",
+     "sourceDetail": null,
+     "party": "국민의힘"
+    },
+    {
+     "id": "s4",
+     "text": null,
+     "type": "quote",
+     "sourceType": "opp",
+     "sourceName": "조 대변인",
+     "sourceDetail": null,
+     "party": "국민의힘"
+    },
+    {
+     "id": "s5",
+     "text": null,
+     "type": "quote",
+     "sourceType": "opp",
+     "sourceName": "조 대변인",
+     "sourceDetail": null,
+     "party": "국민의힘"
+    },
+    {
+     "id": "s6",
+     "text": null,
+     "type": "quote",
+     "sourceType": "opp",
+     "sourceName": "조 대변인",
+     "sourceDetail": null,
+     "party": "국민의힘"
+    },
+    {
+     "id": "s7",
+     "text": null,
+     "type": "quote",
+     "sourceType": "opp",
+     "sourceName": "조 대변인",
+     "sourceDetail": null,
+     "party": "국민의힘"
+    },
+    {
+     "id": "s8",
+     "text": null,
+     "type": "quote",
+     "sourceType": "opp",
+     "sourceName": "조 대변인",
+     "sourceDetail": null,
+     "party": "국민의힘"
+    }
+   ],
+   "framingTerms": [],
+   "analyzedBy": "gemini-3.5-flash-lite"
+  },
+  {
+   "id": "a-67312ec334",
+   "issueId": "auto-20261114-2336-1",
+   "outletId": "sbs",
+   "outletName": "SBS",
+   "title": "국힘, 신천지 이어 통일교 의혹 나온 민주당에 \"특검해야\"",
+   "summary": "박성훈 수석대변인도 오늘 국회에서 기자들과 만나 \"여당 내부에서 헤게모니를 둘러싼 파워게임을 벌이는 상황\"이라면서 \"결국 집권여당이 추구하는 건 민생이 아닌 권력 다툼이라는 게 여실히 드러나고 있다\"고...",
+   "url": "https://news.sbs.co.kr/news/endPage.do?news_id=N1008845839&plink=ORI&cooper=NAVER",
+   "publishedAt": "2026-11-14T11:26:00+09:00",
+   "sentences": [
+    {
+     "id": "s1",
+     "text": null,
+     "type": "quote",
+     "sourceType": "opp",
+     "sourceName": "국민의힘",
+     "sourceDetail": null,
+     "party": "국민의힘"
+    },
+    {
+     "id": "s2",
+     "text": null,
+     "type": "quote",
+     "sourceType": "opp",
+     "sourceName": "조용술 대변인",
+     "sourceDetail": null,
+     "party": "국민의힘"
+    },
+    {
+     "id": "s3",
+     "text": null,
+     "type": "quote",
+     "sourceType": "opp",
+     "sourceName": "조 대변인",
+     "sourceDetail": null,
+     "party": "국민의힘"
+    },
+    {
+     "id": "s4",
+     "text": null,
+     "type": "quote",
+     "sourceType": "opp",
+     "sourceName": "조 대변인",
+     "sourceDetail": null,
+     "party": "국민의힘"
+    },
+    {
+     "id": "s5",
+     "text": null,
+     "type": "quote",
+     "sourceType": "opp",
+     "sourceName": "조 대변인",
+     "sourceDetail": null,
+     "party": "국민의힘"
+    },
+    {
+     "id": "s6",
+     "text": null,
+     "type": "quote",
+     "sourceType": "opp",
+     "sourceName": "박성훈 수석대변인",
+     "sourceDetail": null,
+     "party": "국민의힘"
+    },
+    {
+     "id": "s7",
+     "text": null,
+     "type": "quote",
+     "sourceType": "opp",
+     "sourceName": "박 수석대변인",
+     "sourceDetail": null,
+     "party": "국민의힘"
+    }
+   ],
+   "framingTerms": [],
+   "analyzedBy": "gemini-3.5-flash-lite"
+  },
+  {
+   "id": "a-3377145336",
+   "issueId": "auto-20261114-2336-1",
+   "outletId": "ytn",
+   "outletName": "YTN",
+   "title": "국민의힘 \"민주, 신천지 이어 통일교 의혹...특검해야\"",
+   "summary": "국민의힘은 더불어민주당을 향해 신천지 집단 당원 가입 의혹에 이어 통일교 개입 의혹도 제기된 만큼, 특검 수사를 통해 진상을 규명하라고 거듭 촉구했습니다. 조용술 대변인은 오늘(14일) 논평에서 민주당 내부에서 나온...",
+   "url": "https://www.ytn.co.kr/_ln/0101_202611141313227618",
+   "publishedAt": "2026-11-14T13:13:00+09:00",
+   "sentences": [
+    {
+     "id": "s1",
+     "text": null,
+     "type": "quote",
+     "sourceType": "opp",
+     "sourceName": "국민의힘",
+     "sourceDetail": null,
+     "party": "국민의힘"
+    },
+    {
+     "id": "s2",
+     "text": null,
+     "type": "quote",
+     "sourceType": "opp",
+     "sourceName": "조용술 대변인",
+     "sourceDetail": null,
+     "party": "국민의힘"
+    },
+    {
+     "id": "s3",
+     "text": null,
+     "type": "quote",
+     "sourceType": "opp",
+     "sourceName": "조용술 대변인",
+     "sourceDetail": null,
+     "party": "국민의힘"
+    },
+    {
+     "id": "s4",
+     "text": null,
+     "type": "quote",
+     "sourceType": "opp",
+     "sourceName": "조용술 대변인",
+     "sourceDetail": null,
+     "party": "국민의힘"
+    },
+    {
+     "id": "s5",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    }
+   ],
+   "framingTerms": [],
+   "analyzedBy": "gemini-3.5-flash-lite"
+  },
+  {
+   "id": "a-2720bfd8d7",
+   "issueId": "auto-20261114-2336-1",
+   "outletId": "joongang",
+   "outletName": "중앙일보",
+   "title": "최민희 “통일교가 김민석 밀었다” 녹취 파장…국힘 “특검하라”",
+   "summary": "국민의힘은 14일 더불어민주당에서 신천지 교인의 집단 당원 가입 의혹에 이어 통일교 개입 의혹이 제기된 것을 두고 “남에게 들이댔던 그 칼날을 이제 자신들에게도 들이댈 시간”이라며 “특검을 통해 진실을...",
+   "url": "https://www.joongang.co.kr/article/25478622",
+   "publishedAt": "2026-11-14T14:42:00+09:00",
+   "sentences": [
+    {
+     "id": "s1",
+     "text": null,
+     "type": "quote",
+     "sourceType": "opp",
+     "sourceName": "국민의힘",
+     "sourceDetail": null,
+     "party": "국민의힘"
+    },
+    {
+     "id": "s2",
+     "text": null,
+     "type": "quote",
+     "sourceType": "opp",
+     "sourceName": "조용술 대변인",
+     "sourceDetail": null,
+     "party": "국민의힘"
+    },
+    {
+     "id": "s3",
+     "text": null,
+     "type": "quote",
+     "sourceType": "opp",
+     "sourceName": "조 대변인",
+     "sourceDetail": null,
+     "party": "국민의힘"
+    },
+    {
+     "id": "s4",
+     "text": null,
+     "type": "quote",
+     "sourceType": "opp",
+     "sourceName": "조 대변인",
+     "sourceDetail": null,
+     "party": "국민의힘"
+    },
+    {
+     "id": "s5",
+     "text": null,
+     "type": "quote",
+     "sourceType": "opp",
+     "sourceName": "조 대변인은",
+     "sourceDetail": null,
+     "party": "국민의힘"
+    },
+    {
+     "id": "s6",
+     "text": null,
+     "type": "quote",
+     "sourceType": "opp",
+     "sourceName": "조 대변인은",
+     "sourceDetail": null,
+     "party": "국민의힘"
+    }
+   ],
+   "framingTerms": [
+    {
+     "term": "압박했다",
+     "sentenceId": "s1"
+    },
+    {
+     "term": "밝혔다",
+     "sentenceId": "s2"
+    },
+    {
+     "term": "전했다",
+     "sentenceId": "s3"
+    },
+    {
+     "term": "말했다",
+     "sentenceId": "s5"
+    },
+    {
+     "term": "촉구했다",
+     "sentenceId": "s6"
+    }
+   ],
+   "analyzedBy": "gemini-3.5-flash-lite"
+  },
+  {
+   "id": "a-7b97c7ac33",
+   "issueId": "auto-20261114-2336-1",
+   "outletId": "hankookilbo",
+   "outletName": "한국일보",
+   "title": "국민의힘, '신천지 이어 통일교 의혹' 민주당에 \"특검해야\" 압박",
+   "summary": "국민의힘은 14일 더불어민주당에서 신천지 교인의 집단 당원 가입 의혹에 이어 통일교 개입 의혹이 제기된 것과 관련해 특검을 통해 진실을 규명받으라고 압박했다. 조용술 대변인은 이날 논평에서 \"민주당 내부에서...",
+   "url": "https://www.hankookilbo.com/news/article/A2026111414560000183?did=NA",
+   "publishedAt": "2026-11-14T15:06:00+09:00",
+   "sentences": [
+    {
+     "id": "s1",
+     "text": null,
+     "type": "quote",
+     "sourceType": "opp",
+     "sourceName": "국민의힘",
+     "sourceDetail": null,
+     "party": "국민의힘"
+    },
+    {
+     "id": "s2",
+     "text": null,
+     "type": "quote",
+     "sourceType": "opp",
+     "sourceName": "조용술 대변인",
+     "sourceDetail": null,
+     "party": "국민의힘"
+    },
+    {
+     "id": "s3",
+     "text": null,
+     "type": "quote",
+     "sourceType": "opp",
+     "sourceName": "조용술 대변인",
+     "sourceDetail": null,
+     "party": "국민의힘"
+    },
+    {
+     "id": "s4",
+     "text": null,
+     "type": "quote",
+     "sourceType": "opp",
+     "sourceName": "조 대변인",
+     "sourceDetail": null,
+     "party": "국민의힘"
+    },
+    {
+     "id": "s5",
+     "text": null,
+     "type": "quote",
+     "sourceType": "opp",
+     "sourceName": "조 대변인",
+     "sourceDetail": null,
+     "party": "국민의힘"
+    },
+    {
+     "id": "s6",
+     "text": null,
+     "type": "quote",
+     "sourceType": "opp",
+     "sourceName": "조 대변인",
+     "sourceDetail": null,
+     "party": "국민의힘"
+    }
+   ],
+   "framingTerms": [],
+   "analyzedBy": "gemini-3.5-flash-lite"
+  },
+  {
+   "id": "a-8ee751706e",
+   "issueId": "auto-20261114-2336-1",
+   "outletId": "munhwa",
+   "outletName": "문화일보",
+   "title": "국민의힘, ‘통일교 의혹’ 민주당에 “특검 받아라”",
+   "summary": "박성훈 수석대변인도 이날 국회에서 기자들과 만나 “여당 내부에서 헤게모니를 둘러싼 파워게임을 벌이는 상황”이라면서 “결국 집권여당이 추구하는 건 민생이 아닌 권력 다툼이라는 게 여실히 드러나고 있다”고...",
+   "url": "https://www.munhwa.com/article/11631276?ref=naver",
+   "publishedAt": "2026-11-14T15:52:00+09:00",
+   "sentences": [
+    {
+     "id": "s1",
+     "text": null,
+     "type": "quote",
+     "sourceType": "opp",
+     "sourceName": "국민의힘",
+     "sourceDetail": null,
+     "party": "국민의힘"
+    },
+    {
+     "id": "s2",
+     "text": null,
+     "type": "quote",
+     "sourceType": "opp",
+     "sourceName": "조용술 대변인",
+     "sourceDetail": null,
+     "party": "국민의힘"
+    },
+    {
+     "id": "s3",
+     "text": null,
+     "type": "quote",
+     "sourceType": "opp",
+     "sourceName": "조 대변인",
+     "sourceDetail": null,
+     "party": "국민의힘"
+    },
+    {
+     "id": "s4",
+     "text": null,
+     "type": "quote",
+     "sourceType": "opp",
+     "sourceName": "조 대변인",
+     "sourceDetail": null,
+     "party": "국민의힘"
+    },
+    {
+     "id": "s5",
+     "text": null,
+     "type": "quote",
+     "sourceType": "opp",
+     "sourceName": "조 대변인",
+     "sourceDetail": null,
+     "party": "국민의힘"
+    },
+    {
+     "id": "s6",
+     "text": null,
+     "type": "quote",
+     "sourceType": "opp",
+     "sourceName": "박성훈 수석대변인",
+     "sourceDetail": null,
+     "party": "국민의힘"
+    },
+    {
+     "id": "s7",
+     "text": null,
+     "type": "quote",
+     "sourceType": "opp",
+     "sourceName": "박 수석대변인",
+     "sourceDetail": null,
+     "party": "국민의힘"
+    }
+   ],
+   "framingTerms": [],
+   "analyzedBy": "gemini-3.5-flash-lite"
+  },
+  {
+   "id": "a-2fc46e9104",
+   "issueId": "auto-20261114-2336-1",
+   "outletId": "hankyung",
+   "outletName": "한국경제",
+   "title": "'신천지 이어 통일교 의혹' 민주당에…국힘, \"특검해야\"",
+   "summary": "박성훈 수석대변인도 이날 국회에서 기자들과 만나 \"여당 내부에서 헤게모니를 둘러싼 파워게임을 벌이는 상황\"이라면서 \"결국 집권여당이 추구하는 건 민생이 아닌 권력 다툼이라는 게 여실히 드러나고 있다\"고 비난했다....",
+   "url": "https://www.hankyung.com/article/2026111463947",
+   "publishedAt": "2026-11-14T11:34:00+09:00",
+   "sentences": [
+    {
+     "id": "s1",
+     "text": null,
+     "type": "quote",
+     "sourceType": "gov",
+     "sourceName": "정부·여당",
+     "sourceDetail": null,
+     "party": "더불어민주당"
+    },
+    {
+     "id": "s2",
+     "text": null,
+     "type": "quote",
+     "sourceType": "etc",
+     "sourceName": "익명(소속 미상)",
+     "sourceDetail": "익명(소속 미상)",
+     "party": null
+    },
+    {
+     "id": "s3",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s4",
+     "text": null,
+     "type": "quote",
+     "sourceType": "opp",
+     "sourceName": "국민의힘",
+     "sourceDetail": null,
+     "party": "국민의힘"
+    },
+    {
+     "id": "s5",
+     "text": null,
+     "type": "quote",
+     "sourceType": "opp",
+     "sourceName": "조용술 대변인",
+     "sourceDetail": null,
+     "party": "국민의힘"
+    },
+    {
+     "id": "s6",
+     "text": null,
+     "type": "quote",
+     "sourceType": "opp",
+     "sourceName": "조 대변인",
+     "sourceDetail": null,
+     "party": "국민의힘"
+    },
+    {
+     "id": "s7",
+     "text": null,
+     "type": "quote",
+     "sourceType": "opp",
+     "sourceName": "그",
+     "sourceDetail": null,
+     "party": "국민의힘"
+    },
+    {
+     "id": "s8",
+     "text": null,
+     "type": "quote",
+     "sourceType": "opp",
+     "sourceName": "그",
+     "sourceDetail": null,
+     "party": "국민의힘"
+    },
+    {
+     "id": "s9",
+     "text": null,
+     "type": "quote",
+     "sourceType": "opp",
+     "sourceName": "박성훈 수석대변인",
+     "sourceDetail": null,
+     "party": "국민의힘"
+    },
+    {
+     "id": "s10",
+     "text": null,
+     "type": "quote",
+     "sourceType": "opp",
+     "sourceName": "박 수석대변인은",
+     "sourceDetail": null,
+     "party": "국민의힘"
+    }
+   ],
+   "framingTerms": [
+    {
+     "term": "제기됐다",
+     "sentenceId": "s3"
+    },
+    {
+     "term": "압박했다",
+     "sentenceId": "s4"
+    },
+    {
+     "term": "비난했다",
+     "sentenceId": "s9"
+    },
+    {
+     "term": "지적했다",
+     "sentenceId": "s10"
+    }
+   ],
+   "analyzedBy": "gemini-3.5-flash-lite"
+  },
+  {
+   "id": "a-a0f4a2ccbe",
+   "issueId": "auto-20261114-2337-1",
+   "outletId": "chosun",
+   "outletName": "조선일보",
+   "title": "철도노조 “안전인력 충원·승진제도 개선하라”...12월 10일 총파업 예...",
+   "summary": "전국철도노동조합(철도노조)이 철도 안전인력 충원과 승진제도 개선 등을 요구하며 다음 달 10일 총파업에... 노조는 안전인력 확충과 현장 노동자에 대한 승진 차별 개선, 추가 수당 지급, 근로자 휴게시설 개선 등을...",
+   "url": "https://www.chosun.com/national/transport-environment/2026/11/14/E27NBBBCJ5EGVNHKDGPESCQ3DQ/?utm_source=naver&utm_medium=referral&utm_campaign=naver-news",
+   "publishedAt": "2026-11-14T16:38:00+09:00",
+   "sentences": [
+    {
+     "id": "s1",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s2",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s3",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s4",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s5",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s6",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s7",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s8",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s9",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s10",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s11",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s12",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s13",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    }
+   ],
+   "framingTerms": [],
+   "analyzedBy": "gemini-3.5-flash-lite"
+  },
+  {
+   "id": "a-f137e1509d",
+   "issueId": "auto-20261114-2337-1",
+   "outletId": "edaily",
+   "outletName": "이데일리",
+   "title": "철도노조 수천명 빗속 집회 열어…내달 10일 총파업 재차 예고",
+   "summary": "노동조합(철도노조)은 14일 집회를 열고 정부와 관계기관에 안전인력 충원과 불공정한 승진제도 개선을 촉구하고, 다음 달 10일 총파업 돌입도 재차 예고했다. 14일 서울역 인근에서 철도노조 주최로 열린 철도노동자 총력...",
+   "url": "https://www.edaily.co.kr/News/Read?newsId=02738806645645720&mediaCodeNo=257&utm_source=naver&utm_medium=referral&utm_campaign=news_syndication&utm_content=original_article",
+   "publishedAt": "2026-11-14T16:03:00+09:00",
+   "sentences": [
+    {
+     "id": "s1",
+     "text": null,
+     "type": "quote",
+     "sourceType": "citizen",
+     "sourceName": "전국철도노동조합",
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s2",
+     "text": null,
+     "type": "quote",
+     "sourceType": "citizen",
+     "sourceName": "주최 측",
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s3",
+     "text": null,
+     "type": "quote",
+     "sourceType": "citizen",
+     "sourceName": "철도노조",
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s4",
+     "text": null,
+     "type": "quote",
+     "sourceType": "citizen",
+     "sourceName": "철도노조",
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s5",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s6",
+     "text": "통합 이전에는 코레일 노조 파업 시 SR이 일부 대체 수송을 맡았으나,…",
+     "type": "opinion",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    }
+   ],
+   "framingTerms": [
+    {
+     "term": "타격",
+     "sentenceId": "s6"
+    }
+   ],
+   "analyzedBy": "gemini-3.5-flash-lite"
+  },
+  {
+   "id": "a-965508d6b1",
+   "issueId": "auto-20261114-2337-1",
+   "outletId": "sedaily",
+   "outletName": "서울경제",
+   "title": "철도노조, 내달 총파업 예고 도심 집회…쟁점은 ‘안전인력’",
+   "summary": "전국철도노동조합이 내달 10일 총파업을 예고하며 대규모 도심 집회를 열었다. 노사 교섭의 핵심 쟁점은... 14일 노동계에 따르면 철도노조는 이날 오후 2시 서울 용산구 서울역 출구부터 트윈시티남산 앞 전 차로에서...",
+   "url": "https://www.sedaily.com/article/20114336?ref=naver",
+   "publishedAt": "2026-11-14T16:05:00+09:00",
+   "sentences": [
+    {
+     "id": "s1",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s2",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s3",
+     "text": "유사한 쟁점을 두고 극적 타결을 이룬 공항철도 노사처럼 접점을 찾을 수…",
+     "type": "opinion",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s4",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s5",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s6",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s7",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s8",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s9",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s10",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s11",
+     "text": "다만 막판 타결 가능성도 열려 있다.",
+     "type": "opinion",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s12",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s13",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    }
+   ],
+   "framingTerms": [],
+   "analyzedBy": "gemini-3.5-flash-lite"
+  },
+  {
+   "id": "a-60ec28f7de",
+   "issueId": "auto-20261114-2337-1",
+   "outletId": "nocutnews",
+   "outletName": "노컷뉴스",
+   "title": "철도노조 총력결의…\"인력 감축 고집하면 12월 10일 총파업\"",
+   "summary": "전국철도노동조합이 14일 총력결의대회에서 안전인력 충원 등을 촉구하며 다음 달 10일 총파업을 재차 예고했다. 철도노조는 이날 오후 2시 서울역 12번 출구 앞에서 철도노동자 총력결의대회를 열었다. 비가 내리는 가운데...",
+   "url": "https://www.nocutnews.co.kr/news/6606915?utm_source=naver&utm_medium=article&utm_campaign=20261114160234",
+   "publishedAt": "2026-11-14T16:03:00+09:00",
+   "sentences": [
+    {
+     "id": "s1",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s2",
+     "text": null,
+     "type": "quote",
+     "sourceType": "citizen",
+     "sourceName": "철도노조 측",
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s3",
+     "text": null,
+     "type": "quote",
+     "sourceType": "citizen",
+     "sourceName": "조합원들",
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s4",
+     "text": null,
+     "type": "quote",
+     "sourceType": "citizen",
+     "sourceName": "강철 중앙쟁의대책위원장",
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s5",
+     "text": null,
+     "type": "quote",
+     "sourceType": "citizen",
+     "sourceName": "강철 중앙쟁의대책위원장",
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s6",
+     "text": null,
+     "type": "quote",
+     "sourceType": "citizen",
+     "sourceName": "이도현 목포기관차승무지부 쟁의대책위원장",
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s7",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    }
+   ],
+   "framingTerms": [
+    {
+     "term": "경고했다",
+     "sentenceId": "s7"
+    }
+   ],
+   "analyzedBy": "gemini-3.5-flash-lite"
+  },
+  {
+   "id": "a-ca3cf9ad5a",
+   "issueId": "auto-20261114-2338-1",
+   "outletId": "yna",
+   "outletName": "연합뉴스",
+   "title": "'이승만 동상 복원 논란' 인하대 찬반집회…충돌 없어",
+   "summary": "이날 출범식에 참석한 김문수 전 고용노동부 장관은 \"대한민국 교육을 바로 세우고 인하대를 설립한 이승만... 하와이 교민들은 사탕수수밭에서 고된 노동을 견디면서 인하대 개교 자금을 보탰고, 이들의 헌신을 기리기...",
+   "url": "https://www.yna.co.kr/view/AKR20261114032900065?input=1195m",
+   "publishedAt": "2026-11-14T13:31:00+09:00",
+   "sentences": [
+    {
+     "id": "s1",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s2",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s3",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s4",
+     "text": null,
+     "type": "quote",
+     "sourceType": "citizen",
+     "sourceName": "집회 참가자",
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s5",
+     "text": null,
+     "type": "quote",
+     "sourceType": "citizen",
+     "sourceName": "정대교",
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s6",
+     "text": null,
+     "type": "quote",
+     "sourceType": "gov",
+     "sourceName": "김문수",
+     "sourceDetail": null,
+     "party": "더불어민주당"
+    },
+    {
+     "id": "s7",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s8",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s9",
+     "text": null,
+     "type": "quote",
+     "sourceType": "citizen",
+     "sourceName": "집회 참가자들",
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s10",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s11",
+     "text": null,
+     "type": "quote",
+     "sourceType": "opp",
+     "sourceName": "청년위",
+     "sourceDetail": null,
+     "party": "진보당"
+    },
+    {
+     "id": "s12",
+     "text": null,
+     "type": "quote",
+     "sourceType": "citizen",
+     "sourceName": "인하대 총학생회동문회",
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s13",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s14",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s15",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s16",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s17",
+     "text": null,
+     "type": "quote",
+     "sourceType": "etc",
+     "sourceName": "경찰 관계자",
+     "sourceDetail": "경찰",
+     "party": null
+    },
+    {
+     "id": "s18",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s19",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s20",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s21",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    }
+   ],
+   "framingTerms": [],
+   "analyzedBy": "gemini-3.5-flash-lite"
+  },
+  {
+   "id": "a-905009e43f",
+   "issueId": "auto-20261114-2338-1",
+   "outletId": "newsis",
+   "outletName": "뉴시스",
+   "title": "인하대 '이승만 동상 복원' 찬반 맞불 집회, 충돌 없이 마무리",
+   "summary": "이날 출범식에는 경찰 추산 30여 명이 참석했으며, 김문수 전 고용노동부 장관도 함께한 것으로 확인됐다. 이들은 \"1979년 이승만 동상이 세워졌지만 5년 뒤 운동권의 움직임으로 동상은 끌어내려졌다\"며 \"누가 뭐라 해도...",
+   "url": "https://www.newsis.com/view/NISX20261114_0003868132",
+   "publishedAt": "2026-11-14T15:26:00+09:00",
+   "sentences": [
+    {
+     "id": "s1",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s2",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s3",
+     "text": null,
+     "type": "quote",
+     "sourceType": "citizen",
+     "sourceName": "인하정신",
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s4",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s5",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s6",
+     "text": null,
+     "type": "quote",
+     "sourceType": "citizen",
+     "sourceName": "인하대 총학생회동문회",
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s7",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s8",
+     "text": null,
+     "type": "quote",
+     "sourceType": "gov",
+     "sourceName": "경찰 관계자",
+     "sourceDetail": null,
+     "party": null
+    }
+   ],
+   "framingTerms": [],
+   "analyzedBy": "gemini-3.5-flash-lite"
+  },
+  {
+   "id": "a-9f646fd31a",
+   "issueId": "auto-20261114-2338-1",
+   "outletId": "sbs",
+   "outletName": "SBS",
+   "title": "5m 거리 두고 \"뿌리는 이승만\" \"극우는 발붙이지 마라\"",
+   "summary": "고용노동부 장관도 참석해 복원 당위성을 주장했습니다. 김 전 장관은 \"인하대를 설립한 이승만 동상을... 하와이 교민들은 사탕수수밭에서 고된 노동을 견디면서 인하대 개교 자금을 보탰고, 이들의 헌신을 기리기 위해...",
+   "url": "https://news.sbs.co.kr/news/endPage.do?news_id=N1008845911&plink=ORI&cooper=NAVER",
+   "publishedAt": "2026-11-14T14:05:00+09:00",
+   "sentences": [
+    {
+     "id": "s1",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s2",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s3",
+     "text": null,
+     "type": "quote",
+     "sourceType": "gov",
+     "sourceName": "김문수",
+     "sourceDetail": null,
+     "party": "더불어민주당"
+    },
+    {
+     "id": "s4",
+     "text": null,
+     "type": "quote",
+     "sourceType": "etc",
+     "sourceName": "김 전 장관",
+     "sourceDetail": "전 고용노동부 장관",
+     "party": null
+    },
+    {
+     "id": "s5",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s6",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s7",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s8",
+     "text": null,
+     "type": "quote",
+     "sourceType": "opp",
+     "sourceName": "청년위",
+     "sourceDetail": null,
+     "party": "진보당"
+    },
+    {
+     "id": "s9",
+     "text": null,
+     "type": "quote",
+     "sourceType": "citizen",
+     "sourceName": "인하대 총학생회동문회",
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s10",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s11",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s12",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    }
+   ],
+   "framingTerms": [
+    {
+     "term": "주장했습니다",
+     "sentenceId": "s3"
+    },
+    {
+     "term": "지적했습니다",
+     "sentenceId": "s8"
+    },
+    {
+     "term": "주장했습니다",
+     "sentenceId": "s9"
+    }
+   ],
+   "analyzedBy": "gemini-3.5-flash-lite"
+  },
+  {
+   "id": "a-9704dae508",
+   "issueId": "auto-20261114-2338-1",
+   "outletId": "chosun",
+   "outletName": "조선일보",
+   "title": "‘이승만 동상 복원 논란’… 인하대, 구성원 간 찬반 집회",
+   "summary": "출범식에 참석한 김문수 전 고용노동부 장관은 “대한민국 교육을 바로 세우고 인하대를 설립한 이승만 동상을 복원하는 건 너무나 마땅하고 옳은 일”이라며 “이승만 동상을 끌어내린 건 바로 대한민국을 부끄럽게...",
+   "url": "https://www.chosun.com/national/national_general/2026/11/14/4TLG7MZYJREDDBDB7BRBIWXKAY/?utm_source=naver&utm_medium=referral&utm_campaign=naver-news",
+   "publishedAt": "2026-11-14T14:47:00+09:00",
+   "sentences": [
+    {
+     "id": "s1",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s2",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s3",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s4",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s5",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s6",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s7",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s8",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s9",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s10",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s11",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s12",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s13",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    }
+   ],
+   "framingTerms": [],
+   "analyzedBy": "gemini-3.5-flash-lite"
+  },
+  {
+   "id": "a-aa4970fa39",
+   "issueId": "auto-20261114-2338-1",
+   "outletId": "khan",
+   "outletName": "경향신문",
+   "title": "“설립자 기념물 하나 없어” “극우는 발붙이지 마”…인하대 ‘이승...",
+   "summary": "출범식에는 경찰 추산 30여 명이 참석했으며, 김문수 전 고용노동부장관도 함께인 것으로 알려졌다. 이들은 ‘인하대 뿌리는 설립장 이승만’, ‘이승만 동상을 복원하자’ 등의 문구가 적힌 손팻말을 들고 시위를...",
+   "url": "https://www.khan.co.kr/article/202611141559001",
+   "publishedAt": "2026-11-14T15:59:00+09:00",
+   "sentences": [
+    {
+     "id": "s1",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s2",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s3",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s4",
+     "text": null,
+     "type": "quote",
+     "sourceType": "citizen",
+     "sourceName": "인하정신",
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s5",
+     "text": null,
+     "type": "quote",
+     "sourceType": "citizen",
+     "sourceName": "인하정신",
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s6",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s7",
+     "text": null,
+     "type": "quote",
+     "sourceType": "citizen",
+     "sourceName": "극우에 반대하는 인하대 사람들",
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s8",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s9",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s10",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s11",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    }
+   ],
+   "framingTerms": [
+    {
+     "term": "맞서",
+     "sentenceId": "s6"
+    }
+   ],
+   "analyzedBy": "gemini-3.5-flash-lite"
+  },
+  {
+   "id": "a-4e4a4ec8dd",
+   "issueId": "auto-20261114-2338-1",
+   "outletId": "hankookilbo",
+   "outletName": "한국일보",
+   "title": "'이승만 동상 복원' 두고 인하대 학생들 찬반 맞불집회, 왜?",
+   "summary": "복원위 출범식에는 김문수 전 고용노동부 장관도 참석했다. 김 전 장관은 \"대한민국 교육을 바로 세우고 인하대를 설립한 이 전 대통령 동상을 복원하는 것은 너무나 당연하다\"고 역설했다. 이들을 저지하기 위한...",
+   "url": "https://www.hankookilbo.com/news/article/A2026110916020005959?did=NA",
+   "publishedAt": "2026-11-14T18:46:00+09:00",
+   "sentences": [
+    {
+     "id": "s1",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s2",
+     "text": null,
+     "type": "quote",
+     "sourceType": "citizen",
+     "sourceName": "양측",
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s3",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s4",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s5",
+     "text": null,
+     "type": "quote",
+     "sourceType": "citizen",
+     "sourceName": "복원위 구성원들",
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s6",
+     "text": null,
+     "type": "quote",
+     "sourceType": "citizen",
+     "sourceName": "이들",
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s7",
+     "text": null,
+     "type": "quote",
+     "sourceType": "citizen",
+     "sourceName": "이들",
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s8",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s9",
+     "text": null,
+     "type": "quote",
+     "sourceType": "etc",
+     "sourceName": "김 전 장관",
+     "sourceDetail": "전 고용노동부 장관",
+     "party": null
+    },
+    {
+     "id": "s10",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s11",
+     "text": null,
+     "type": "quote",
+     "sourceType": "citizen",
+     "sourceName": "'극우에 반대하는 인하대 사람들'",
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s12",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s13",
+     "text": null,
+     "type": "quote",
+     "sourceType": "citizen",
+     "sourceName": "이들",
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s14",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s15",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s16",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s17",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s18",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    }
+   ],
+   "framingTerms": [
+    {
+     "term": "팽팽히",
+     "sentenceId": "s2"
+    }
+   ],
+   "analyzedBy": "gemini-3.5-flash-lite"
+  },
+  {
+   "id": "a-3d1a967a95",
+   "issueId": "auto-20261114-2338-1",
+   "outletId": "segye",
+   "outletName": "세계일보",
+   "title": "인하대 발칵 뒤집은 ‘이승만 동상’ 복원 공방…“설립자 기려야” vs...",
+   "summary": "이날 출범식에는 김문수 전 고용노동부 장관도 참석해 “인하대를 설립한 이승만 동상을 복원하는 것은 당연한 일”이라며 힘을 실었다. 복원 추진 측이 지난 11일부터 진행한 온라인 서명 운동에는 사흘 만에 1만3000여...",
+   "url": "https://www.segye.com/newsView/20261114504992?OutUrl=naver",
+   "publishedAt": "2026-11-14T14:20:00+09:00",
+   "sentences": [
+    {
+     "id": "s1",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s2",
+     "text": "과거 학생들의 손으로 철거됐던 동상을 두고 기념과 독재 미화라는 시각이…",
+     "type": "opinion",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s3",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s4",
+     "text": null,
+     "type": "quote",
+     "sourceType": "citizen",
+     "sourceName": "찬성 측 참가자들",
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s5",
+     "text": null,
+     "type": "quote",
+     "sourceType": "citizen",
+     "sourceName": "정대교",
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s6",
+     "text": null,
+     "type": "quote",
+     "sourceType": "gov",
+     "sourceName": "김문수",
+     "sourceDetail": null,
+     "party": "더불어민주당"
+    },
+    {
+     "id": "s7",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s8",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s9",
+     "text": null,
+     "type": "quote",
+     "sourceType": "citizen",
+     "sourceName": "참가자들",
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s10",
+     "text": null,
+     "type": "quote",
+     "sourceType": "opp",
+     "sourceName": "진보당 인천시당 청년위원회",
+     "sourceDetail": null,
+     "party": "진보당"
+    },
+    {
+     "id": "s11",
+     "text": null,
+     "type": "quote",
+     "sourceType": "citizen",
+     "sourceName": "인하대 총학생회동문회",
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s12",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s13",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s14",
+     "text": "이번 논란은 단순한 동상 재설치 여부를 넘어 인하대의 창학 정신과 설립…",
+     "type": "opinion",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    }
+   ],
+   "framingTerms": [
+    {
+     "term": "정면으로 부딪히는 모양새다",
+     "sentenceId": "s2"
+    },
+    {
+     "term": "입증했다",
+     "sentenceId": "s7"
+    },
+    {
+     "term": "반발에 나섰다",
+     "sentenceId": "s9"
+    },
+    {
+     "term": "날을 세웠다",
+     "sentenceId": "s10"
+    },
+    {
+     "term": "화두가 될 전망이다",
+     "sentenceId": "s14"
+    }
+   ],
+   "analyzedBy": "gemini-3.5-flash-lite"
+  },
+  {
+   "id": "a-f6d137b14a",
+   "issueId": "auto-20261114-2338-1",
+   "outletId": "munhwa",
+   "outletName": "문화일보",
+   "title": "[속보]인하대 ‘이승만 동상 복원’ 놓고 찬반 맞불 집회…후문서 5m 거...",
+   "summary": "출범식에 참석한 김문수 전 고용노동부 장관은 “인하대를 세운 이승만의 동상을 복원하는 건 너무나 당연하다”며 “동상을 끌어내린 건 대한민국을 부끄럽게 여기는 자들”이라고 했다. 인하정신이 wlsks 11일부터...",
+   "url": "https://www.munhwa.com/article/11631272?ref=naver",
+   "publishedAt": "2026-11-14T14:27:00+09:00",
+   "sentences": [
+    {
+     "id": "s1",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s2",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s3",
+     "text": null,
+     "type": "quote",
+     "sourceType": "citizen",
+     "sourceName": "참가자",
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s4",
+     "text": null,
+     "type": "quote",
+     "sourceType": "citizen",
+     "sourceName": "재학생 A 씨",
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s5",
+     "text": null,
+     "type": "quote",
+     "sourceType": "gov",
+     "sourceName": "김문수 전 고용노동부 장관",
+     "sourceDetail": null,
+     "party": "더불어민주당"
+    },
+    {
+     "id": "s6",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s7",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s8",
+     "text": null,
+     "type": "quote",
+     "sourceType": "citizen",
+     "sourceName": "참가자",
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s9",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s10",
+     "text": null,
+     "type": "quote",
+     "sourceType": "opp",
+     "sourceName": "청년위",
+     "sourceDetail": null,
+     "party": "진보당"
+    },
+    {
+     "id": "s11",
+     "text": null,
+     "type": "quote",
+     "sourceType": "citizen",
+     "sourceName": "인하대 총학생회동문회",
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s12",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s13",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s14",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s15",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s16",
+     "text": null,
+     "type": "quote",
+     "sourceType": "gov",
+     "sourceName": "경찰 관계자",
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s17",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s18",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    }
+   ],
+   "framingTerms": [],
+   "analyzedBy": "gemini-3.5-flash-lite"
+  },
+  {
+   "id": "a-067ae28617",
+   "issueId": "auto-20261114-2339-1",
+   "outletId": "yna",
+   "outletName": "연합뉴스",
+   "title": "野 \"백지화해야\"·與 \"뒤로는 증액요구\"…미래기금 공방",
+   "summary": "박수윤 최평천 기자 = 여야는 내년도 예산안과 기금안에 대한 실질적 '칼질'이 이뤄지는 국회... 그러면서 \"국민의힘은 앞뒤가 다른 예산 공세를 중단하고, 장외집회에 쏟는 힘을 국회 예산 심사에 쏟으라\"면서 \"국민의 내년...",
+   "url": "https://www.yna.co.kr/view/AKR20261114025700001?input=1195m",
+   "publishedAt": "2026-11-14T10:30:00+09:00",
+   "sentences": [
+    {
+     "id": "s1",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s2",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s3",
+     "text": null,
+     "type": "quote",
+     "sourceType": "gov",
+     "sourceName": "이용우 대변인",
+     "sourceDetail": null,
+     "party": "더불어민주당"
+    },
+    {
+     "id": "s4",
+     "text": null,
+     "type": "quote",
+     "sourceType": "gov",
+     "sourceName": "이 대변인",
+     "sourceDetail": null,
+     "party": "더불어민주당"
+    },
+    {
+     "id": "s5",
+     "text": null,
+     "type": "quote",
+     "sourceType": "gov",
+     "sourceName": "이 대변인",
+     "sourceDetail": null,
+     "party": "더불어민주당"
+    },
+    {
+     "id": "s6",
+     "text": null,
+     "type": "quote",
+     "sourceType": "gov",
+     "sourceName": "이용우 대변인",
+     "sourceDetail": null,
+     "party": "더불어민주당"
+    },
+    {
+     "id": "s7",
+     "text": null,
+     "type": "quote",
+     "sourceType": "opp",
+     "sourceName": "최은석 원내수석대변인",
+     "sourceDetail": null,
+     "party": "국민의힘"
+    },
+    {
+     "id": "s8",
+     "text": null,
+     "type": "quote",
+     "sourceType": "opp",
+     "sourceName": "최 대변인",
+     "sourceDetail": null,
+     "party": "국민의힘"
+    },
+    {
+     "id": "s9",
+     "text": null,
+     "type": "quote",
+     "sourceType": "opp",
+     "sourceName": "최은석 원내수석대변인",
+     "sourceDetail": null,
+     "party": "국민의힘"
+    },
+    {
+     "id": "s10",
+     "text": null,
+     "type": "quote",
+     "sourceType": "opp",
+     "sourceName": "최은석 원내수석대변인",
+     "sourceDetail": null,
+     "party": "국민의힘"
+    }
+   ],
+   "framingTerms": [
+    {
+     "term": "공방을 이어갔다",
+     "sentenceId": "s2"
+    },
+    {
+     "term": "지적했다",
+     "sentenceId": "s3"
+    },
+    {
+     "term": "꼬집었다",
+     "sentenceId": "s4"
+    },
+    {
+     "term": "따졌다",
+     "sentenceId": "s5"
+    },
+    {
+     "term": "규탄했다",
+     "sentenceId": "s7"
+    },
+    {
+     "term": "비판했다",
+     "sentenceId": "s8"
+    },
+    {
+     "term": "강조했다",
+     "sentenceId": "s9"
+    },
+    {
+     "term": "언급했다",
+     "sentenceId": "s10"
+    }
+   ],
+   "analyzedBy": "gemini-3.5-flash-lite"
+  },
+  {
+   "id": "a-b9f3be90f5",
+   "issueId": "auto-20261114-2339-1",
+   "outletId": "newsis",
+   "outletName": "뉴시스",
+   "title": "與, '미래대응기금 전액삭감' 국민의힘 주장에 \"앞뒤 다른 예산 공세 중...",
+   "summary": "유지하는 국민의힘을 향해 14일 \"앞뒤가 다른 예산 공세를 중단하라\"고 했다. 이용우 민주당 대변인은 이날 오전 서면 브리핑을 통해 \"미래대응기금 전액 삭감 외치며 뒤로는 증액 요구한 국민의힘, 예산 심사가 장난인가...",
+   "url": "https://www.newsis.com/view/NISX20261114_0003868016",
+   "publishedAt": "2026-11-14T10:09:00+09:00",
+   "sentences": [
+    {
+     "id": "s1",
+     "text": null,
+     "type": "quote",
+     "sourceType": "gov",
+     "sourceName": "더불어민주당",
+     "sourceDetail": null,
+     "party": "더불어민주당"
+    },
+    {
+     "id": "s2",
+     "text": null,
+     "type": "quote",
+     "sourceType": "gov",
+     "sourceName": "이용우 대변인",
+     "sourceDetail": null,
+     "party": "더불어민주당"
+    },
+    {
+     "id": "s3",
+     "text": null,
+     "type": "quote",
+     "sourceType": "gov",
+     "sourceName": "이용우 대변인",
+     "sourceDetail": null,
+     "party": "더불어민주당"
+    },
+    {
+     "id": "s4",
+     "text": null,
+     "type": "quote",
+     "sourceType": "gov",
+     "sourceName": "이용우 대변인",
+     "sourceDetail": null,
+     "party": "더불어민주당"
+    },
+    {
+     "id": "s5",
+     "text": null,
+     "type": "quote",
+     "sourceType": "gov",
+     "sourceName": "이용우 대변인",
+     "sourceDetail": null,
+     "party": "더불어민주당"
+    },
+    {
+     "id": "s6",
+     "text": null,
+     "type": "quote",
+     "sourceType": "gov",
+     "sourceName": "이용우 대변인",
+     "sourceDetail": null,
+     "party": "더불어민주당"
+    },
+    {
+     "id": "s7",
+     "text": null,
+     "type": "quote",
+     "sourceType": "gov",
+     "sourceName": "이용우 대변인",
+     "sourceDetail": null,
+     "party": "더불어민주당"
+    }
+   ],
+   "framingTerms": [],
+   "analyzedBy": "gemini-3.5-flash-lite"
+  },
+  {
+   "id": "a-583f02566e",
+   "issueId": "auto-20261114-2339-1",
+   "outletId": "news1",
+   "outletName": "뉴스1",
+   "title": "미래대응기금 공방…與 \"뒤로는 증액 요구\" 野 \"기막힌 재정 농간\"",
+   "summary": "국회 예산결산특별위원회는 16일부터 27일까지 예산안에 대한 실질적 증·감액을 살피는... 그는 \"국민의힘은 앞뒤가 다른 예산 공세를 중단하고, 장외집회에 쏟는 힘을 국회 예산 심사에 쏟으라\"며 \"국민의 내년 살림은 당의...",
+   "url": "https://www.news1.kr/politics/assembly/6354001",
+   "publishedAt": "2026-11-14T12:11:00+09:00",
+   "sentences": [
+    {
+     "id": "s1",
+     "text": null,
+     "type": "quote",
+     "sourceType": "opp",
+     "sourceName": "최은석 국민의힘 원내수석대변인",
+     "sourceDetail": null,
+     "party": "국민의힘"
+    },
+    {
+     "id": "s2",
+     "text": null,
+     "type": "quote",
+     "sourceType": "opp",
+     "sourceName": "최은석 국민의힘 원내수석대변인",
+     "sourceDetail": null,
+     "party": "국민의힘"
+    },
+    {
+     "id": "s3",
+     "text": null,
+     "type": "quote",
+     "sourceType": "opp",
+     "sourceName": "최은석 국민의힘 원내수석대변인",
+     "sourceDetail": null,
+     "party": "국민의힘"
+    },
+    {
+     "id": "s4",
+     "text": null,
+     "type": "quote",
+     "sourceType": "opp",
+     "sourceName": "최은석 국민의힘 원내수석대변인",
+     "sourceDetail": null,
+     "party": "국민의힘"
+    },
+    {
+     "id": "s5",
+     "text": null,
+     "type": "quote",
+     "sourceType": "opp",
+     "sourceName": "최은석 국민의힘 원내수석대변인",
+     "sourceDetail": null,
+     "party": "국민의힘"
+    },
+    {
+     "id": "s6",
+     "text": null,
+     "type": "quote",
+     "sourceType": "opp",
+     "sourceName": "박성훈 수석대변인",
+     "sourceDetail": null,
+     "party": "국민의힘"
+    },
+    {
+     "id": "s7",
+     "text": null,
+     "type": "quote",
+     "sourceType": "opp",
+     "sourceName": "박성훈 수석대변인",
+     "sourceDetail": null,
+     "party": "국민의힘"
+    },
+    {
+     "id": "s8",
+     "text": null,
+     "type": "quote",
+     "sourceType": "opp",
+     "sourceName": "박성훈 수석대변인",
+     "sourceDetail": null,
+     "party": "국민의힘"
+    }
+   ],
+   "framingTerms": [],
+   "analyzedBy": "gemini-3.5-flash-lite"
+  },
+  {
+   "id": "a-d744317514",
+   "issueId": "auto-20261114-2339-1",
+   "outletId": "ytn",
+   "outletName": "YTN",
+   "title": "미래대응기금 공방 격화...\"전면 삭감\" \"뒤론 증액요구\"",
+   "summary": "정부 안을 삭감하거나 늘리는 '칼질'이 여기서 이뤄지는데, 보통 비교적 합의가 수월한 감액부터 심사하지만... 국민의힘은 국회 승인 없이 정부가 마음대로 쓸 수 있는 상시 추경이자 '총선용 쌈짓돈'이 될 수 있다며 전액...",
+   "url": "https://www.ytn.co.kr/_ln/0101_202611142305363582",
+   "publishedAt": "2026-11-14T23:05:00+09:00",
+   "sentences": [
+    {
+     "id": "s1",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s2",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s3",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s4",
+     "text": "정부 안을 삭감하거나 늘리는 '칼질'이 여기서 이뤄지는데, 보통 비교적…",
+     "type": "opinion",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s5",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s6",
+     "text": null,
+     "type": "quote",
+     "sourceType": "opp",
+     "sourceName": "국민의힘",
+     "sourceDetail": null,
+     "party": "국민의힘"
+    },
+    {
+     "id": "s7",
+     "text": null,
+     "type": "quote",
+     "sourceType": "opp",
+     "sourceName": "최은석",
+     "sourceDetail": null,
+     "party": "국민의힘"
+    },
+    {
+     "id": "s8",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s9",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s10",
+     "text": null,
+     "type": "quote",
+     "sourceType": "gov",
+     "sourceName": "더불어민주당",
+     "sourceDetail": null,
+     "party": "더불어민주당"
+    },
+    {
+     "id": "s11",
+     "text": null,
+     "type": "quote",
+     "sourceType": "gov",
+     "sourceName": "더불어민주당",
+     "sourceDetail": null,
+     "party": "더불어민주당"
+    },
+    {
+     "id": "s12",
+     "text": null,
+     "type": "quote",
+     "sourceType": "gov",
+     "sourceName": "이용우",
+     "sourceDetail": null,
+     "party": "더불어민주당"
+    },
+    {
+     "id": "s13",
+     "text": "하지만 여당 내부에서도 미래대응기금의 정부 재량권이 너무 크다며 수정 필…",
+     "type": "opinion",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s14",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    }
+   ],
+   "framingTerms": [
+    {
+     "term": "격화하고 있습니다",
+     "sentenceId": "s1"
+    },
+    {
+     "term": "도마 위에 올랐는데요",
+     "sentenceId": "s2"
+    },
+    {
+     "term": "만만치가 않아 보입니다",
+     "sentenceId": "s4"
+    },
+    {
+     "term": "전액 삭감",
+     "sentenceId": "s6"
+    },
+    {
+     "term": "백지화까지 예고했는데",
+     "sentenceId": "s6"
+    },
+    {
+     "term": "엇박자가 빚어지기도 했습니다",
+     "sentenceId": "s8"
+    },
+    {
+     "term": "가관이라고 꼬집었습니다",
+     "sentenceId": "s10"
+    },
+    {
+     "term": "다그쳤습니다",
+     "sentenceId": "s11"
+    },
+    {
+     "term": "불가피해 보입니다",
+     "sentenceId": "s13"
+    }
+   ],
+   "analyzedBy": "gemini-3.5-flash-lite"
+  },
+  {
+   "id": "a-dd97318549",
+   "issueId": "auto-20261114-2339-1",
+   "outletId": "tvchosun",
+   "outletName": "TV조선",
+   "title": "민주당 \"국민의힘, 미래기금 삭감하자면서 뒤에선 증액 요구\"",
+   "summary": "그러면서 \"(국민의힘은) 예산을 심사해 삭감 여부를 결정하는 것이 아니라 삭감부터 결정해 놓고 예산 심사를 끼워 맞추고 있다\"며 \"앞뒤가 다른 예산 공세를 중단하고, 장외집회에 쏟는 힘을 국회 예산 심사에 쏟으라\"고...",
+   "url": "https://news.tvchosun.com/site/data/html_dir/2026/11/14/2026111490011.html",
+   "publishedAt": "2026-11-14T11:05:00+09:00",
+   "sentences": [
+    {
+     "id": "s1",
+     "text": null,
+     "type": "quote",
+     "sourceType": "gov",
+     "sourceName": "더불어민주당",
+     "sourceDetail": null,
+     "party": "더불어민주당"
+    },
+    {
+     "id": "s2",
+     "text": null,
+     "type": "quote",
+     "sourceType": "gov",
+     "sourceName": "이용우 대변인",
+     "sourceDetail": null,
+     "party": "더불어민주당"
+    },
+    {
+     "id": "s3",
+     "text": null,
+     "type": "quote",
+     "sourceType": "gov",
+     "sourceName": "이 대변인",
+     "sourceDetail": null,
+     "party": "더불어민주당"
+    },
+    {
+     "id": "s4",
+     "text": null,
+     "type": "quote",
+     "sourceType": "gov",
+     "sourceName": "이 대변인",
+     "sourceDetail": null,
+     "party": "더불어민주당"
+    },
+    {
+     "id": "s5",
+     "text": null,
+     "type": "quote",
+     "sourceType": "gov",
+     "sourceName": "이 대변인",
+     "sourceDetail": null,
+     "party": "더불어민주당"
+    },
+    {
+     "id": "s6",
+     "text": null,
+     "type": "quote",
+     "sourceType": "gov",
+     "sourceName": "이 대변인",
+     "sourceDetail": null,
+     "party": "더불어민주당"
+    }
+   ],
+   "framingTerms": [
+    {
+     "term": "매도하는",
+     "sentenceId": "s5"
+    },
+    {
+     "term": "지적했다",
+     "sentenceId": "s6"
+    }
+   ],
+   "analyzedBy": "gemini-3.5-flash-lite"
+  },
+  {
+   "id": "a-2440637e9a",
+   "issueId": "auto-20261114-2339-1",
+   "outletId": "donga",
+   "outletName": "동아일보",
+   "title": "‘쌈짓돈’ 논란 미래기금… 국회 “25조 늘려 달라”",
+   "summary": "162조 원 규모인 미래대응기금에 대한 국회 심사가 진행 중인 가운데 각 상임위원회가 쏟아낸 증액 요청... 마친 국회 11개 상임위원회가 제출한 25조4838억 원 규모의 미래대응기금 증액 요청 중 상당 부분은 한번...",
+   "url": "https://www.donga.com/news/Politics/article/all/20261113/135023338/2",
+   "publishedAt": "2026-11-14T01:42:00+09:00",
+   "sentences": [
+    {
+     "id": "s1",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s2",
+     "text": "아직 심사가 진행 중인 상임위도 있어 최종 증액 요청 규모는 더 늘어날…",
+     "type": "opinion",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s3",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s4",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s5",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s6",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s7",
+     "text": "지역구 사업 증액 요청도 적지 않아 미래대응기금이 2028년 총선을 앞둔…",
+     "type": "opinion",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s8",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s9",
+     "text": "하지만 일부 상임위가 미래대응기금을 소관 사업 예산을 키우는 ‘쌈짓돈’으…",
+     "type": "opinion",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s10",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s11",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s12",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s13",
+     "text": "하지만 국회 상임위 심사 과정에서 지역구 사업 예산 증액 요구 등이 잇따…",
+     "type": "opinion",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s14",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s15",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s16",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s17",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s18",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s19",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s20",
+     "text": "올해부터 시범사업이 시작된 농어촌 기본소득은 대상 지역이 확대되는 등 정…",
+     "type": "opinion",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s21",
+     "text": null,
+     "type": "quote",
+     "sourceType": "gov",
+     "sourceName": "이재명 대통령",
+     "sourceDetail": null,
+     "party": "더불어민주당"
+    },
+    {
+     "id": "s22",
+     "text": "청년문화예술패스는 영화, 공연 등 예술 활동비 나 헬스장 등 체육활동비를…",
+     "type": "opinion",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s23",
+     "text": "미래대응기금의 재원인 초과 세수는 한정적인 만큼 기금이 고갈되면 일반 예…",
+     "type": "opinion",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s24",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s25",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s26",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s27",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s28",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s29",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s30",
+     "text": "하지만 상임위 단계에서 정부가 ‘수용 곤란’ 의견을 밝힌 건 전체 사업…",
+     "type": "opinion",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s31",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s32",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s33",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s34",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    }
+   ],
+   "framingTerms": [
+    {
+     "term": "쏟아낸",
+     "sentenceId": "s1"
+    },
+    {
+     "term": "보인다",
+     "sentenceId": "s2"
+    },
+    {
+     "term": "요청한 것이다",
+     "sentenceId": "s3"
+    },
+    {
+     "term": "제기된다",
+     "sentenceId": "s7"
+    },
+    {
+     "term": "제출했다",
+     "sentenceId": "s8"
+    },
+    {
+     "term": "지적이 나온다",
+     "sentenceId": "s9"
+    },
+    {
+     "term": "우려가 나온다",
+     "sentenceId": "s13"
+    },
+    {
+     "term": "의견을 냈다",
+     "sentenceId": "s15"
+    },
+    {
+     "term": "논란이 된 바 있다",
+     "sentenceId": "s16"
+    },
+    {
+     "term": "제출됐다",
+     "sentenceId": "s18"
+    },
+    {
+     "term": "요청했고",
+     "sentenceId": "s19"
+    },
+    {
+     "term": "요구했다",
+     "sentenceId": "s19"
+    },
+    {
+     "term": "관측이 나온다",
+     "sentenceId": "s20"
+    },
+    {
+     "term": "밝힌 바 있다",
+     "sentenceId": "s21"
+    },
+    {
+     "term": "지적이다",
+     "sentenceId": "s22"
+    },
+    {
+     "term": "요구했다",
+     "sentenceId": "s25"
+    },
+    {
+     "term": "요청했다",
+     "sentenceId": "s26"
+    },
+    {
+     "term": "요청했다",
+     "sentenceId": "s28"
+    },
+    {
+     "term": "관측이 나온다",
+     "sentenceId": "s30"
+    },
+    {
+     "term": "의견을 냈다",
+     "sentenceId": "s32"
+    },
+    {
+     "term": "논란이 됐다",
+     "sentenceId": "s33"
+    },
+    {
+     "term": "지침을 내렸다",
+     "sentenceId": "s34"
+    }
+   ],
+   "analyzedBy": "gemini-3.5-flash-lite"
+  },
+  {
+   "id": "a-f5239196dc",
+   "issueId": "auto-20261114-2339-1",
+   "outletId": "hani",
+   "outletName": "한겨레",
+   "title": "162조 미래대응기금 공방…국힘 “국민에 나랏빚” 민주 “기금 없애자...",
+   "summary": "국회가 2027년도 예산안의 본격적인 증·감액 심사에 들어가는 가운데, 14일 여야는 162조원 규모의... 이 대변인은 “국민의힘은 앞뒤가 다른 예산 공세를 중단하고, 장외집회에 쏟는 힘을 국회 예산 심사에 쏟으라”며...",
+   "url": "https://www.hani.co.kr/arti/politics/politics_general/1287323.html",
+   "publishedAt": "2026-11-14T14:52:00+09:00",
+   "sentences": [
+    {
+     "id": "s1",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s2",
+     "text": null,
+     "type": "quote",
+     "sourceType": "gov",
+     "sourceName": "이용우 대변인",
+     "sourceDetail": null,
+     "party": "더불어민주당"
+    },
+    {
+     "id": "s3",
+     "text": null,
+     "type": "quote",
+     "sourceType": "gov",
+     "sourceName": "이용우 대변인",
+     "sourceDetail": null,
+     "party": "더불어민주당"
+    },
+    {
+     "id": "s4",
+     "text": null,
+     "type": "quote",
+     "sourceType": "gov",
+     "sourceName": "이용우 대변인",
+     "sourceDetail": null,
+     "party": "더불어민주당"
+    },
+    {
+     "id": "s5",
+     "text": null,
+     "type": "quote",
+     "sourceType": "gov",
+     "sourceName": "이용우 대변인",
+     "sourceDetail": null,
+     "party": "더불어민주당"
+    },
+    {
+     "id": "s6",
+     "text": null,
+     "type": "quote",
+     "sourceType": "gov",
+     "sourceName": "이용우 대변인",
+     "sourceDetail": null,
+     "party": "더불어민주당"
+    },
+    {
+     "id": "s7",
+     "text": null,
+     "type": "quote",
+     "sourceType": "gov",
+     "sourceName": "이용우 대변인",
+     "sourceDetail": null,
+     "party": "더불어민주당"
+    },
+    {
+     "id": "s8",
+     "text": null,
+     "type": "quote",
+     "sourceType": "opp",
+     "sourceName": "국민의힘",
+     "sourceDetail": null,
+     "party": "국민의힘"
+    },
+    {
+     "id": "s9",
+     "text": null,
+     "type": "quote",
+     "sourceType": "opp",
+     "sourceName": "최은석 원내수석대변인",
+     "sourceDetail": null,
+     "party": "국민의힘"
+    },
+    {
+     "id": "s10",
+     "text": null,
+     "type": "quote",
+     "sourceType": "opp",
+     "sourceName": "최은석 원내수석대변인",
+     "sourceDetail": null,
+     "party": "국민의힘"
+    },
+    {
+     "id": "s11",
+     "text": null,
+     "type": "quote",
+     "sourceType": "opp",
+     "sourceName": "최은석 원내수석대변인",
+     "sourceDetail": null,
+     "party": "국민의힘"
+    }
+   ],
+   "framingTerms": [
+    {
+     "term": "공방을 벌였다",
+     "sentenceId": "s1"
+    },
+    {
+     "term": "매도했는데",
+     "sentenceId": "s2"
+    },
+    {
+     "term": "비판했다",
+     "sentenceId": "s2"
+    },
+    {
+     "term": "비판했다",
+     "sentenceId": "s8"
+    },
+    {
+     "term": "주장했다",
+     "sentenceId": "s11"
+    }
+   ],
+   "analyzedBy": "gemini-3.5-flash-lite"
+  },
+  {
+   "id": "a-a09af240aa",
+   "issueId": "auto-20261114-2339-1",
+   "outletId": "hankookilbo",
+   "outletName": "한국일보",
+   "title": "미래대응기금 공방... 국민의힘 \"전액 삭감\" 민주 \"뒤로는 증액 요구\"",
+   "summary": "더불어민주당이 14일 미래대응기금 전액 삭감 기조를 내세운 국민의힘을 향해 \"앞뒤가 다른 예산 공세를 중단하라\"고 했다. 이용우 민주당 대변인은 이날 서면 브리핑을 통해 \"미래대응기금 전액 삭감 외치며 뒤로는 증액...",
+   "url": "https://www.hankookilbo.com/news/article/A2026111410120005812?did=NA",
+   "publishedAt": "2026-11-14T11:01:00+09:00",
+   "sentences": [
+    {
+     "id": "s1",
+     "text": null,
+     "type": "quote",
+     "sourceType": "gov",
+     "sourceName": "더불어민주당",
+     "sourceDetail": null,
+     "party": "더불어민주당"
+    },
+    {
+     "id": "s2",
+     "text": null,
+     "type": "quote",
+     "sourceType": "gov",
+     "sourceName": "이용우 민주당 대변인",
+     "sourceDetail": null,
+     "party": "더불어민주당"
+    },
+    {
+     "id": "s3",
+     "text": null,
+     "type": "quote",
+     "sourceType": "gov",
+     "sourceName": "이 대변인",
+     "sourceDetail": null,
+     "party": "더불어민주당"
+    },
+    {
+     "id": "s4",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s5",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s6",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s7",
+     "text": null,
+     "type": "quote",
+     "sourceType": "gov",
+     "sourceName": "이 대변인",
+     "sourceDetail": null,
+     "party": "더불어민주당"
+    },
+    {
+     "id": "s8",
+     "text": null,
+     "type": "quote",
+     "sourceType": "gov",
+     "sourceName": "이 대변인",
+     "sourceDetail": null,
+     "party": "더불어민주당"
+    },
+    {
+     "id": "s9",
+     "text": null,
+     "type": "quote",
+     "sourceType": "gov",
+     "sourceName": "이 대변인",
+     "sourceDetail": null,
+     "party": "더불어민주당"
+    }
+   ],
+   "framingTerms": [
+    {
+     "term": "논란이 일었다",
+     "sentenceId": "s5"
+    },
+    {
+     "term": "지적했다",
+     "sentenceId": "s7"
+    },
+    {
+     "term": "꼬집었다",
+     "sentenceId": "s8"
+    },
+    {
+     "term": "강조했다",
+     "sentenceId": "s9"
     }
    ],
    "analyzedBy": "gemini-3.5-flash-lite"
