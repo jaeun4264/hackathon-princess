@@ -193,3 +193,38 @@ def test_framing_check_allows_cut_opinion():
     s["text"] = "앞부분만 남은 의견 문장…"
     a["framingTerms"].append({"term": "뒤쪽표현", "sentenceId": s["id"]})
     assert not [p for p in find_problems(data) if "뒤쪽표현" in p]
+
+
+def test_not_contested_issue_is_skipped(daily_env, monkeypatch):
+    cfg, fetcher, llm = daily_env
+    monkeypatch.setitem(ISSUE, "contested", False)
+    data = D.run(cfg, collect_fn=fake_collect, fetcher=fetcher, llm=llm, client=_client())
+    assert [i for i in data["issues"] if i["origin"] == "auto"] == []
+
+
+def test_mostly_opinion_article_is_skipped(daily_env):
+    """의견이 절반을 넘으면 본문을 잘못 읽었다고 보고 건너뜀 → 분석된 기사가 모자라 이슈도 안 만들어짐"""
+    cfg, fetcher, llm = daily_env
+
+    def handler(req):
+        msgs = json.loads(req.content)["messages"]
+        if "편집 보조" in msgs[0]["content"]:
+            return llm_handler(req)
+        nos = [int(l.split(".")[0]) for l in msgs[-1]["content"].splitlines() if l[:1].isdigit()]
+        sents = [{"no": n, "type": "의견", "source": None, "speaker": None, "framing": []} for n in nos]
+        return httpx.Response(200, json={"choices": [{"message": {"content": json.dumps({"sentences": sents}, ensure_ascii=False)}}]})
+
+    data = D.run(cfg, collect_fn=fake_collect, fetcher=fetcher, llm=llm, client=httpx.Client(transport=httpx.MockTransport(handler)))
+    assert [i for i in data["issues"] if i["origin"] == "auto"] == []
+
+
+def test_too_long_body_is_skipped(daily_env):
+    cfg, fetcher, llm = daily_env
+    data = D.run(dict(cfg, maxSentences=5), collect_fn=fake_collect, fetcher=fetcher, llm=llm, client=_client())
+    assert [i for i in data["issues"] if i["origin"] == "auto"] == []
+
+
+def test_hidden_issues_are_removed():
+    arch = {"issues": [{"id": "a1"}, {"id": "a2"}], "articles": [{"issueId": "a1"}, {"issueId": "a2"}]}
+    out = D.hide(arch, ["a2"])
+    assert [i["id"] for i in out["issues"]] == ["a1"] and out["articles"] == [{"issueId": "a1"}]
