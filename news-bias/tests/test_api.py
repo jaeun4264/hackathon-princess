@@ -20,9 +20,11 @@ def test_news_has_frontend_shape():
     article = data["articles"][0]
     assert set(article) == {
         "id", "issueId", "outletId", "title", "summary", "url", "publishedAt",
-        "sentences", "framingTerms", "missingViewpoints",
+        "sentences", "framingTerms", "missingViewpoints", "metrics",
     }
-    assert set(article["sentences"][0]) == {"id", "text", "type", "sourceType", "sourceName", "sourceDetail"}
+    assert set(article["sentences"][0]) == {"id", "text", "type", "sourceType", "sourceName", "sourceDetail", "party"}
+    assert set(article["metrics"]) == {"camps", "slope", "slopeSmoothed", "slopeBasis", "excludedFromSlope"}
+    assert set(data["issues"][0]["distribution"]) == {"camps", "slopeMean", "blindspot"}
 
 
 def test_mock_data_has_no_problems():

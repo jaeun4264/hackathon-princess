@@ -40,7 +40,7 @@ def client_returning(*bodies, provider="gemini"):
 def test_analyze_parses_each_provider(rows, provider):
     client, calls = client_returning("```json\n" + json.dumps(GOOD, ensure_ascii=False) + "\n```", provider=provider)
     out = A.analyze_article(cfg(provider), "가람일보", rows, client)
-    assert out[2] == {"type": "인용", "source": "야당", "detail": None, "speaker": "가상당 대표", "framing": []}
+    assert out[2] == {"type": "인용", "source": "야당", "detail": None, "speaker": "가상당 대표", "party": None, "framing": []}
     assert out[3]["framing"] == ["외면한"]  # 문장에 없는 단어는 버림
     assert "1. 법안이 위원회를 통과했다." in json.dumps(calls[0], ensure_ascii=False)
 
@@ -201,7 +201,7 @@ def test_effort_sent_and_named(rows):
     client, calls = client_returning(json.dumps(GOOD, ensure_ascii=False))
     A.analyze_article(c, "가람일보", rows, client)
     assert calls[0]["reasoning_effort"] == "low"
-    assert A.run_name(c) == "test-model_생각low_p3" and A.run_name(cfg("gemini")) == "test-model_p3"
+    assert A.run_name(c) == "test-model_생각low_p4" and A.run_name(cfg("gemini")) == "test-model_p4"
     client, calls = client_returning(json.dumps(GOOD, ensure_ascii=False))
     A.analyze_article(cfg("gemini"), "가람일보", rows, client)
     assert "reasoning_effort" not in calls[0]
@@ -244,7 +244,7 @@ def test_prompt_v3_rules_and_v2_kept():
         assert word in p3 and word not in p2
     assert A.system_prompt(cfg("gemini") | {"prompt_version": 2}) == p2
     assert A.run_name(cfg("gemini") | {"prompt_version": 2}).endswith("_p2")
-    assert A.run_name(cfg("gemini")).endswith("_p3")
+    assert A.run_name(cfg("gemini")).endswith("_p4")
 
 
 def test_unknown_source_words_are_unified():
@@ -288,7 +288,7 @@ def test_second_round_output_does_not_overwrite_first(tables, tmp_path, monkeypa
     real = httpx.Client
     monkeypatch.setattr(A.httpx, "Client", lambda **kw: real(transport=httpx.MockTransport(handler)))
     dst = A.run(cfg("gemini"), src, again=False, gap=0)
-    assert dst.name == "라벨링표_AI_test-model_p3_2차.xlsx"
+    assert dst.name == "라벨링표_AI_test-model_p4_2차.xlsx"
 
 
 def test_table_tag_keeps_results_apart():
