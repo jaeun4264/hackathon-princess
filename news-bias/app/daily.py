@@ -248,6 +248,16 @@ def already_have(archive: dict, members: list[dict]) -> bool:
     return False
 
 
+def new_issue_id(archive: dict, today: str) -> str:
+    """보관 중인 이슈와 겹치지 않는 새 id. 예전엔 '날짜-시-번호'라서 같은 시간대에 두 번 실행하면 겹쳤음 (11/14 #13 실패)"""
+    used = {i["id"] for i in archive["issues"]}
+    base = f"auto-{today.replace('-', '')}-{datetime.now(KST):%H%M}"
+    n = 1
+    while f"{base}-{n}" in used:
+        n += 1
+    return f"{base}-{n}"
+
+
 def recent_issue_titles(archive: dict, hours: int) -> list[str]:
     """최근 hours 시간 안의 자동 이슈 제목 (같은 실행에서 방금 만든 이슈 포함) — AI가 중복을 판단할 때 보여 줌"""
     cutoff = (datetime.now(KST) - timedelta(hours=hours + 24)).date().isoformat()
@@ -334,7 +344,7 @@ def run(cfg: dict, preview: bool = False, collect_fn=None, fetcher: Fetcher | No
             if info["duplicate_of"]:
                 log(f"  제외(이미 있는 이슈와 같은 사건: {recent_titles[info['duplicate_of'] - 1]}): {info['title']}")
                 continue
-            issue_id = f"auto-{today.replace('-', '')}-{datetime.now(KST):%H}-{made + 1}"
+            issue_id = new_issue_id(archive, today)
             log(f"3. 이슈: {info['title']} ({info['category']}, 후보 {len(info['members'])}건)")
             arts = []
             for a in pick_articles(info["members"], cfg["articlesPerIssue"] + 3, cfg["preferOutlets"]):
