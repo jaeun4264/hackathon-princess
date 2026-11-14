@@ -56,6 +56,32 @@ JSON 형식은 그대로이고, 프론트가 `sentences[].sourceType` 으로 바
 → `python -m app.pairs 채점 쌍비교_1차_조서연.xlsx 쌍비교_1차_남지원.xlsx --라벨 정답_1차.xlsx --라벨 라벨링표_AI_<모델>.xlsx`
 (사람끼리 일치도 + 기울기가 사람 판단과 같은 방향인 비율)
 
+## 진영 분포 · 양대 정당 기울기 (11/14 확정) — 프론트가 그대로 그리면 되는 칸
+
+백엔드가 계산해서 넣어 줍니다. 프론트에서 기울기를 다시 계산하지 말고 이 값을 쓰세요.
+
+**문장** `sentences[].party`: 정당 소속 화자의 공식 당명 (`조국혁신당`, `진보당` …). 인용 카드 배지에 그대로. 정당이 아니면 null.
+
+**기사** `articles[].metrics`
+```json
+{"camps": {"ruling": 4, "third": 1, "mainOpp": 2, "independent": 0},
+ "slope": 0.333, "slopeSmoothed": 0.25, "slopeBasis": 6, "excludedFromSlope": 1}
+```
+- `camps`: 진영별 인용 수. ruling = 정부·제1여당(더불어민주당), mainOpp = 제1야당(국민의힘), third = 제3정당(조국혁신당·진보당·개혁신당 등), independent = 무소속
+- `slope` / `slopeSmoothed`: **양대 정당 기준** 기울기 (ruling − mainOpp) / (ruling + mainOpp [+2]). 화면에는 `slopeSmoothed`
+- `slopeBasis` 가 3 미만이면 "인용이 적어 판단하기 어려움"
+- 보조 문구: "양대 정당 기준 기울기 (제3정당·무소속 `excludedFromSlope`건 별도)"
+- 전직 정무직("전 ○○(○○정부)")·전문가·기타는 어느 진영에도 넣지 않음
+
+**이슈** `issues[].distribution`
+```json
+{"camps": {"ruling": 30, "third": 3, "mainOpp": 12, "independent": 1}, "slopeMean": 0.31, "blindspot": null}
+```
+- 분포 막대: `여당 | 제3정당 | 야당 (| 무소속)` 순서, **실제 비율 그대로** (보정하지 않음)
+- `slopeMean`: 이 이슈 기사들의 보정 기울기 평균 → 기사마다 "이슈 평균보다 +0.2" 처럼 비교
+- `blindspot`: 양대 진영 인용 중 한쪽이 5% 미만이면 그쪽 (`mainOpp` / `ruling`). 화면에 "이 이슈는 ○○ 측 인용 비중이 압도적으로 높습니다" 안내. 비교 영역에 소수 쪽 기사를 억지로 채우지 않음
+- 비교 영역에서 소수 쪽 기사 최소 1건 보장: 같은 이슈 기사 중 `metrics.slopeSmoothed` 부호가 이슈 다수와 반대인 기사를 하나 고정 노출 (없으면 blindspot 안내)
+
 ## 실제 기사 데이터 (시범 운영, 11/7)
 
 `python -m app.build 실제` → `data/issues.json` 에 적은 이슈를 라벨링 표로 만들어 **`data/raw/news_실제.json`** 저장 (형식은 위와 같음).
