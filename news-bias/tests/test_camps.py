@@ -45,3 +45,17 @@ def test_label_party_from_ai_and_source():
     assert (out[1]["source"], out[1]["party"]) == ("야당", "조국혁신당")
     assert (out[2]["source"], out[2]["party"]) == ("야당", "조국혁신당")
     assert out[3]["party"] is None
+
+
+def test_party_wins_over_wrong_side():
+    """AI가 더불어민주당 대표를 '야당'으로 적어도 당명 기준으로 정부·여당"""
+    import json
+    from app import analyze as A
+    from app.labelsheet import Row
+    rows = [Row(article_id="X", outlet="가람", no=1, text="문장"), Row(article_id="X", outlet="가람", no=2, text="문장2")]
+    text = json.dumps({"sentences": [
+        {"no": 1, "type": "인용", "source": "야당", "speaker": "김민석", "party": "더불어민주당", "framing": []},
+        {"no": 2, "type": "인용", "source": "정부·여당", "speaker": "송 원내대표", "party": "국민의힘", "framing": []}]},
+        ensure_ascii=False)
+    out = A.parse_labels(text, rows)
+    assert out[1]["source"] == "정부·여당" and out[2]["source"] == "야당"
