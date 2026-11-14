@@ -393,7 +393,18 @@ def parse_labels(text: str, rows: list[Row]) -> dict[int, dict]:
             # 문장에 그대로 없는 단어는 버림 (화면 강조가 안 되므로)
             "framing": [w for w in x.framing if w and w in texts[no]],
         }
+        _match_party(out[no])
     return out
+
+
+def _match_party(lab: dict) -> None:
+    """당명과 출처 유형이 어긋나면 당명을 따름 (11/14 2차 확인: AI가 더불어민주당 대표를 '야당'으로 적은 경우)"""
+    party = lab.get("party")
+    if lab.get("type") != "인용" or not party or lab.get("source") not in ("정부·여당", "야당", "기타"):
+        return
+    want = "정부·여당" if party == RULING_PARTY else "야당"
+    if lab["source"] != want:
+        lab["source"], lab["detail"] = want, None
 
 
 def meta_path(cache: Path) -> Path:
