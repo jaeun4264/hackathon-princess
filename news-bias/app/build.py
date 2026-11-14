@@ -62,6 +62,7 @@ def build_news(issues=ISSUES, articles=ARTICLES, outlets=OUTLETS, note=None) -> 
         # 진영별 인용 분포 (여당 | 제3정당 | 야당 | 무소속), 사각지대
         same_issue = [x for x in articles if x["issueId"] == issue["id"]]
         issue["distribution"] = metrics.issue_distribution(same_issue)
+        issue["distribution"]["focusParty"] = metrics.focus_party(issue.get("title"))
 
     for issue in issues:
         # 화면에 보여 줄 출처 유형 4개 (이 이슈에서 인용이 많은 순)

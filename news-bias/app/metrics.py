@@ -4,6 +4,7 @@
 백엔드는 프론트에 넘기기 전에 '빠진 관점'과 '화면에 보여 줄 출처 유형'을 자동으로 채웁니다.
 """
 import math
+import re
 from collections import Counter
 
 from app.schemas import DISPLAY_COUNT, MAIN_SOURCE_TYPES, SOURCE_LABELS
@@ -120,10 +121,27 @@ def find_party(*texts: str | None) -> str | None:
     return None
 
 
+# 국가·사법기관 (11/14 확정): 정당이 아닌 헌법·행정기관이라 진영(기울기·분포)에서 뺌. 인용 목록에는 '수사·사법기관' 배지로 그대로 보여 줌
+# 당적이 있는 사람(전직 검사 출신 의원 등)은 해당 정당으로 셈
+STATE_BODY = re.compile(r"경찰|검찰|검사|지검|고검|대검|공수처|고위공직자범죄수사처|공소청|특검|특별검사|수사본부|수사관|법원|재판부|판사|법관"
+                        r"|헌법재판소|헌재|선관위|선거관리위원회|감사원")
+
+
+def is_state_body(sentence: dict) -> bool:
+    if sentence.get("type") != "quote" or sentence.get("party"):
+        return False
+    if sentence.get("sourceType") not in ("gov", "etc"):
+        return False
+    text = " ".join(x for x in (sentence.get("sourceName"), sentence.get("sourceDetail")) if x)
+    return bool(text) and "전 " not in text[:2] and bool(STATE_BODY.search(text))
+
+
 def camp(sentence: dict) -> str | None:
-    """인용 문장 → 진영 (ruling / mainOpp / third / independent) 또는 None(정당 진영 아님)"""
+    """인용 문장 → 진영 (ruling / mainOpp / third / independent), 국가·사법기관이면 'institution', 그 밖은 None"""
     if sentence.get("type") != "quote":
         return None
+    if is_state_body(sentence):
+        return "institution"
     st = sentence.get("sourceType")
     party = sentence.get("party")
     detail = sentence.get("sourceDetail") or ""
@@ -143,6 +161,7 @@ def fill_party(article: dict, members: dict[str, str] | None = None) -> None:
     for s in article["sentences"]:
         if s.get("type") != "quote" or s.get("sourceType") not in ("gov", "opp", "etc"):
             s.setdefault("party", None)
+            s["stateBody"] = False
             continue
         if s.get("party"):
             continue
@@ -151,6 +170,8 @@ def fill_party(article: dict, members: dict[str, str] | None = None) -> None:
             hits = {members[n] for n in members if n in s["sourceName"]}
             p = hits.pop() if len(hits) == 1 else None
         s["party"] = p if p and "무소속" not in p else None
+    for s in article["sentences"]:
+        s["stateBody"] = is_state_body(s)
 
 
 def article_metrics(article: dict) -> dict:
@@ -164,6 +185,7 @@ def article_metrics(article: dict) -> dict:
         "slopeSmoothed": None if sm is None else round(sm, 3),
         "slopeBasis": c["ruling"] + c["mainOpp"],
         "excludedFromSlope": c["third"] + c["independent"],
+        "institution": c["institution"],   # 수사·사법기관 인용 수 (진영·기울기에서 뺌)
     }
 
 
@@ -171,9 +193,11 @@ def issue_distribution(issue_articles: list[dict]) -> dict:
     """이슈 전체 진영별 인용 분포 (실제 비율 그대로) + 사각지대 여부 + 기사 기울기 평균"""
     total = Counter()
     slopes = []
+    inst = 0
     for a in issue_articles:
         m = a.get("metrics") or article_metrics(a)
         total.update(m["camps"])
+        inst += m.get("institution", 0)
         if m["slopeSmoothed"] is not None:
             slopes.append(m["slopeSmoothed"])
     pair = total["ruling"] + total["mainOpp"]
@@ -187,7 +211,17 @@ def issue_distribution(issue_articles: list[dict]) -> dict:
         "camps": {k: total.get(k, 0) for k in CAMPS},
         "slopeMean": round(sum(slopes) / len(slopes), 3) if slopes else None,
         "blindspot": blind,
+        "institution": inst,
+        "focusParty": None,   # 이슈 제목이 정당 이름으로 시작하면 그 정당 (build 에서 채움)
     }
+
+
+def focus_party(title: str | None) -> str | None:
+    """'국민의힘, 부산서 장외집회'처럼 한 정당의 행사·입장 발표가 중심인 이슈 → 그 정당 (화면 '이슈 특성 안내')"""
+    if not title:
+        return None
+    head = re.split(r"[,·'‘\s]", title.strip(), maxsplit=1)[0]
+    return find_party(head)
 
 
 def ensure_metrics(data: dict) -> dict:
@@ -200,4 +234,5 @@ def ensure_metrics(data: dict) -> dict:
     for i in data.get("issues", []):
         if i.get("distribution") is None:
             i["distribution"] = issue_distribution([a for a in arts if a["issueId"] == i["id"]])
+            i["distribution"]["focusParty"] = focus_party(i.get("title"))
     return data

@@ -47,12 +47,15 @@ class ArticleMetrics(BaseModel):
     slopeSmoothed: float | None = Field(description="보정 기울기 (분모 +2). 화면에는 이 값을 씀")
     slopeBasis: int = Field(description="기울기 계산에 쓴 인용 수 (정부·여당 + 제1야당)")
     excludedFromSlope: int = Field(description="기울기에서 뺀 제3정당·무소속 인용 수 ('제3정당·무소속 N건 별도')")
+    institution: int = Field(0, description="수사·사법기관(경찰·검찰·공수처·공소청·법원·헌재·선관위·감사원) 인용 수. 진영·기울기에서 뺌")
 
 
 class IssueDistribution(BaseModel):
     camps: dict[str, int] = Field(description="이슈 전체 진영별 인용 수 (실제 비율 그대로 막대에)")
     slopeMean: float | None = Field(description="이슈 기사들의 보정 기울기 평균 (기사마다 '이슈 평균과의 차이'에 씀)")
     blindspot: str | None = Field(description="양대 진영 중 인용이 5% 미만인 쪽 (ruling / mainOpp). 없으면 null")
+    institution: int = Field(0, description="이슈 전체 수사·사법기관 인용 수")
+    focusParty: str | None = Field(None, description="한 정당의 행사·입장 발표가 중심인 이슈면 그 정당 ('이슈 특성 안내')")
 
 
 class Issue(BaseModel):
@@ -81,6 +84,7 @@ class Sentence(BaseModel):
         None, description="sourceType이 etc일 때 화면에 보여 줄 원래 명칭 (예: 무소속 의원, 국회의장, 법원). 아니면 null"
     )
     party: str | None = Field(None, description="정당 소속 화자의 공식 당명 (인용 카드 배지). 정당이 아니면 null")
+    stateBody: bool = Field(False, description="수사·사법기관 인용이면 true → '수사·사법기관' 배지, 기울기에서 뺌")
 
 
 class FramingTerm(BaseModel):
