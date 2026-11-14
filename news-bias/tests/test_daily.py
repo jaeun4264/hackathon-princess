@@ -228,3 +228,15 @@ def test_hidden_issues_are_removed():
     arch = {"issues": [{"id": "a1"}, {"id": "a2"}], "articles": [{"issueId": "a1"}, {"issueId": "a2"}]}
     out = D.hide(arch, ["a2"])
     assert [i["id"] for i in out["issues"]] == ["a1"] and out["articles"] == [{"issueId": "a1"}]
+
+
+def test_new_issue_id_never_collides(monkeypatch):
+    """같은 시간대에 두 번 실행해도 이슈 id가 겹치지 않음 (11/14 '이슈 id가 겹침' 실패)"""
+    class Fixed(datetime):
+        @classmethod
+        def now(cls, tz=None):
+            return datetime(2026, 11, 14, 17, 47, tzinfo=tz)
+    monkeypatch.setattr(D, "datetime", Fixed)
+    arch = {"issues": [{"id": "auto-20261114-1747-1"}, {"id": "auto-20261114-1747-2"}], "articles": []}
+    assert D.new_issue_id(arch, "2026-11-14") == "auto-20261114-1747-3"
+    assert D.new_issue_id({"issues": [], "articles": []}, "2026-11-14") == "auto-20261114-1747-1"
