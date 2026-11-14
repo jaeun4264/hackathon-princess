@@ -13,6 +13,7 @@
 파일 이름만 쓰면 data/raw/labeling 폴더에서 찾습니다.
 """
 import argparse
+import math
 import sys
 from collections import Counter
 from pathlib import Path
@@ -116,7 +117,39 @@ def score(gold: list[Row], pred: list[Row]) -> dict:
         "통과율": sum(ok(r, p) for r, p in g) / n if n else 0,
         "묶음별 통과": groups,
         "혼동": Counter(f"{r.type}→{(p.type if p and p.type else '없음')}" for r, p in g if not (p and p.type == r.type)),
+        # 신뢰 구간·전후 비교용 (문장별로 맞았는지)
+        "개수": {"정확": sum(1 for r, p in g if p and p.type == r.type), "통과": sum(ok(r, p) for r, p in g),
+                "출처": (sum(1 for r, p in quotes if p and p.source == r.source), len(quotes)),
+                "유형별": {t: (sum(1 for r, p in g if r.type == t and p and p.type == t),
+                            sum(1 for r, _ in g if r.type == t)) for t in TYPES}},
+        "문장별": {r.key: {"정확": bool(p and p.type == r.type), "통과": ok(r, p)} for r, p in g},
     }
+
+
+# ---------- 신뢰 구간 · 전후 비교 검정 (11/14) ----------
+def wilson(k: int, n: int, z: float = 1.96) -> tuple[float, float] | None:
+    """비율 k/n 의 95% 윌슨 신뢰 구간 (표본이 작거나 비율이 0·1에 가까워도 안정적)"""
+    if not n:
+        return None
+    p = k / n
+    d = 1 + z * z / n
+    c = p + z * z / (2 * n)
+    r = z * math.sqrt(p * (1 - p) / n + z * z / (4 * n * n))
+    return (c - r) / d, (c + r) / d
+
+
+def mcnemar(a: list[bool], b: list[bool]) -> dict:
+    """같은 문장들을 두 예측이 맞혔는지 → 정확 맥니마 검정 (양측). a만 맞힘·b만 맞힘 개수와 p값"""
+    only_a = sum(1 for x, y in zip(a, b) if x and not y)
+    only_b = sum(1 for x, y in zip(a, b) if y and not x)
+    m, k = only_a + only_b, min(only_a, only_b)
+    p = 1.0 if m == 0 else min(1.0, 2 * sum(math.comb(m, i) for i in range(k + 1)) / 2 ** m)
+    return {"앞만 맞힘": only_a, "뒤만 맞힘": only_b, "p": p}
+
+
+def _ci(k: int, n: int) -> str:
+    w = wilson(k, n)
+    return f"(95% 구간 {w[0] * 100:.1f}~{w[1] * 100:.1f}%)" if w else ""
 
 
 # ---------- 엑셀 출력 ----------
@@ -327,14 +360,16 @@ def main(argv=None):
             results.append((Path(f).stem.removeprefix("라벨링표_"), r))
             print(f"\n[{Path(f).name}]")
             print(f"정답 {r['문장']}문장" + (f", 예측 없음 {r['예측 없음']}" if r["예측 없음"] else ""))
-            print(f"정확도 {_pct(r['정확도'])}  (참고: 모두 '사실'로 찍으면 {_pct(r['전부 사실 기준선'])})")
+            cnt = r["개수"]
+            print(f"정확도 {_pct(r['정확도'])} {_ci(cnt['정확'], r['문장'])}  (참고: 모두 '사실'로 찍으면 {_pct(r['전부 사실 기준선'])})")
             for t_, v in r["유형별"].items():
-                print(f"  {t_}: 정답 {v['정답 수']}개, 재현율 {_pct(v['재현율'])}, 정밀도 {_pct(v['정밀도'])}")
+                k_, n_ = cnt["유형별"][t_]
+                print(f"  {t_}: 정답 {v['정답 수']}개, 재현율 {_pct(v['재현율'])} {_ci(k_, n_)}, 정밀도 {_pct(v['정밀도'])}")
             if r["출처별"]:
-                print(f"출처 유형 정확도(정답이 인용인 문장) {_pct(r['출처 정확도'])}")
+                print(f"출처 유형 정확도(정답이 인용인 문장) {_pct(r['출처 정확도'])} {_ci(*cnt['출처'])}")
                 for s_, v in r["출처별"].items():
                     print(f"  {s_}: 정답 {v['정답 수']}개, 재현율 {_pct(v['재현율'])}")
-            print(f"통과율(유형 + 인용이면 출처까지 맞음) {_pct(r['통과율'])}")
+            print(f"통과율(유형 + 인용이면 출처까지 맞음) {_pct(r['통과율'])} {_ci(cnt['통과'], r['문장'])}")
             if any(a.startswith("K") for a, _ in r["묶음별 통과"]):
                 for (a, o), (h, t) in r["묶음별 통과"].items():
                     print(f"  {a} {o}: {h}/{t} ({_pct(h / t)})")
@@ -353,6 +388,16 @@ def main(argv=None):
                 print(name[:39].ljust(40) + f"{_pct(r['정확도']):>6}   {_pct(ty.get('의견', {}).get('재현율')):>8}   "
                       f"{_pct(ty.get('인용', {}).get('재현율')):>8}   {_pct(r.get('출처 정확도')):>8}   "
                       + (f"{r['속도']['기사당 초']:>7.1f}" if r.get("속도") and r["속도"]["기사당 초"] is not None else "      -"))
+            # 같은 정답 문장에서 첫 번째 예측과 나머지를 비교 (전후 비교가 우연인지)
+            base_name, base = results[0]
+            print(f"\n같은 문장 전후 비교 (정확 맥니마 검정, 기준: {base_name})")
+            for name, r in results[1:]:
+                keys = [k for k in base["문장별"] if k in r["문장별"]]
+                for what in ("정확", "통과"):
+                    t = mcnemar([base["문장별"][k][what] for k in keys], [r["문장별"][k][what] for k in keys])
+                    verdict = "의미 있는 차이 (p<0.05)" if t["p"] < 0.05 else "우연일 수 있는 차이 (p≥0.05)"
+                    print(f"  {name} {'정확도' if what == '정확' else '통과율'}: 기준만 맞힘 {t['앞만 맞힘']}, "
+                          f"이쪽만 맞힘 {t['뒤만 맞힘']}, p = {t['p']:.3f} → {verdict}")
 
 
 if __name__ == "__main__":

@@ -21,6 +21,7 @@ from pydantic import BaseModel, Field, field_validator
 
 from app import reading
 from app.build import build_news
+from app.metrics import ensure_metrics
 from app.schemas import NewsData
 
 ROOT = Path(__file__).resolve().parent.parent
@@ -49,7 +50,7 @@ def get_news():
     """화면에 필요한 전체 데이터 (프론트 mock-news.json 과 같은 모양)"""
     for path in (ROOT / "data" / "daily" / "news.json", ROOT / "data" / "curated.json"):
         if path.exists():
-            return json.loads(path.read_text(encoding="utf-8"))
+            return ensure_metrics(json.loads(path.read_text(encoding="utf-8")))
     return build_news()
 
 

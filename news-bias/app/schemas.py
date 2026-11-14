@@ -41,6 +41,20 @@ class Outlet(BaseModel):
     name: str
 
 
+class ArticleMetrics(BaseModel):
+    camps: dict[str, int] = Field(description="진영별 인용 수: ruling(정부·여당) third(제3정당) mainOpp(제1야당) independent(무소속)")
+    slope: float | None = Field(description="양대 정당 기준 인용 기울기 (정부·여당 − 제1야당)/(합). 둘 다 0이면 null")
+    slopeSmoothed: float | None = Field(description="보정 기울기 (분모 +2). 화면에는 이 값을 씀")
+    slopeBasis: int = Field(description="기울기 계산에 쓴 인용 수 (정부·여당 + 제1야당)")
+    excludedFromSlope: int = Field(description="기울기에서 뺀 제3정당·무소속 인용 수 ('제3정당·무소속 N건 별도')")
+
+
+class IssueDistribution(BaseModel):
+    camps: dict[str, int] = Field(description="이슈 전체 진영별 인용 수 (실제 비율 그대로 막대에)")
+    slopeMean: float | None = Field(description="이슈 기사들의 보정 기울기 평균 (기사마다 '이슈 평균과의 차이'에 씀)")
+    blindspot: str | None = Field(description="양대 진영 중 인용이 5% 미만인 쪽 (ruling / mainOpp). 없으면 null")
+
+
 class Issue(BaseModel):
     id: str
     title: str
@@ -51,6 +65,7 @@ class Issue(BaseModel):
     displaySourceTypes: list[str] = Field(
         description="화면에 보여 줄 출처 유형 (지금은 주요 5개 모두, 정해진 순서)"
     )
+    distribution: IssueDistribution | None = None
     origin: Literal["curated", "auto"] = Field(
         "curated", description="curated = 사람이 고르고 정답 라벨 확인 / auto = 매일 자동 수집·AI 분석 (화면에 'AI 분석' 표시 권장)"
     )
@@ -65,6 +80,7 @@ class Sentence(BaseModel):
     sourceDetail: str | None = Field(
         None, description="sourceType이 etc일 때 화면에 보여 줄 원래 명칭 (예: 무소속 의원, 국회의장, 법원). 아니면 null"
     )
+    party: str | None = Field(None, description="정당 소속 화자의 공식 당명 (인용 카드 배지). 정당이 아니면 null")
 
 
 class FramingTerm(BaseModel):
@@ -89,6 +105,7 @@ class Article(BaseModel):
     sentences: list[Sentence]
     framingTerms: list[FramingTerm]
     missingViewpoints: list[MissingViewpoint]
+    metrics: ArticleMetrics | None = None
 
 
 class NewsData(BaseModel):

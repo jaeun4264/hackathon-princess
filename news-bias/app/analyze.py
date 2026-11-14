@@ -45,10 +45,12 @@ RULING_PARTY = "더불어민주당"
 # 프롬프트 판 번호. 바꾸면 저장 폴더·결과 파일 이름이 달라져 이전 결과와 나란히 비교할 수 있음
 # v2 (11/7): 지금의 여야 구도 명시, 말+행동 문장은 인용, 기자의 예측은 의견 (라벨링 기준 문서의 규칙을 프롬프트에 옮김)
 #   ※ 1차 기사에서 AI가 틀린 유형을 보고 넣은 규칙이라, 효과는 1차가 아닌 2차 기사로 확인해야 공정함
+# v4 (11/14): 전직 공직자, 소속 미상 제한, 사전·법조문 = 사실, 정당명(party) 칸 → 양대 정당 기울기용
+#   ※ v3의 G1(이름만 있어도 소속 미상)을 바꿨으므로 경계 사례 정답(G1 줄)과는 맞지 않음. 효과는 2차 기사로 확인
 # v3 (11/11): Syntitan 경계 사례로 정한 규칙 G1~G8 + 국회 소속 독립 기관(국회예산정책처 등) → 전문가
 #   ※ 경계 사례로 만든 규칙이라, 2차 기사(규칙을 만들 때 안 본 기사)에서 성능이 떨어지지 않는지도 꼭 확인
 #   예전 판으로 돌리려면 --판 2 (보완 전 측정용)
-PROMPT_VERSION = 3
+PROMPT_VERSION = 4
 
 DEFAULT_URL = {
     "gemini": "https://generativelanguage.googleapis.com/v1beta/openai/chat/completions",
@@ -127,7 +129,33 @@ def _v3(p: str) -> str:
     return p
 
 
+def _v4(p: str) -> str:
+    """v3 + 11/14 확정: 전직 공직자, '소속 미상'은 이름·직함이 모두 없을 때만, 사전·법조문은 사실, 정당명(party) 칸"""
+    old_g1 = ("- \"관계자는\", \"위원장은\", 소속 없이 이름만 나온 사람처럼 기사에서 소속을 알 수 없으면 \""
+              + UNKNOWN_DETAIL + "\". 기사 앞부분에서 소속을 알 수 있으면 그 소속으로.")
+    assert old_g1 in p
+    p = p.replace(old_g1,
+        "- \"" + UNKNOWN_DETAIL + "\"은 \"관계자는\", \"소식통은\"처럼 이름도 직함도 없어 소속을 알 수 없을 때만 쓴다. "
+        "이름이나 직함이 있으면 쓰지 않는다: 소속을 모르면 직함(예: 위원장)이나 이름을 원래 명칭으로 적는다. "
+        "기사 앞부분에서 소속을 알 수 있으면 그 소속으로.\n"
+        "- 전직 공직자·전직 의원: 지금 당적이 있으면 그 정당 기준(여당이면 정부·여당, 아니면 야당). "
+        "당적이 없는 전직 정무직(장·차관, 대통령실 실장·수석, 방송통신위원장 같은 정무직)은 원래 명칭 \"전 ○○(○○정부)\". "
+        "당적이 없는 직업 공무원, 검찰·경찰 간부, 한국은행 총재, 대법관·헌법재판관 출신은 원래 명칭 \"전 ○○\".")
+    p = p.replace(
+        "- \"~로 알려졌다\", \"~한 것으로 파악됐다\"는 사실.",
+        "- \"~로 알려졌다\", \"~한 것으로 파악됐다\"는 사실.\n"
+        "- 사전 뜻풀이, 법조문, 판결문·공문서 원문을 옮긴 문장은 사람의 말이 아니므로 사실.")
+    p = p.replace(
+        "[인용한 사람] 유형이 인용일 때만, 기사에 쓰인 이름·직함 그대로 짧게.",
+        "[인용한 사람] 유형이 인용일 때만, 기사에 쓰인 이름·직함 그대로 짧게.\n"
+        "[정당] 유형이 인용이고 말한 사람이 정당 소속(당적 보유)이면 공식 당명 "
+        "(더불어민주당, 국민의힘, 조국혁신당, 개혁신당, 진보당 등). 정부 부처·대통령실·공무원·전문가처럼 정당이 아니면 null.")
+    p = p.replace('"speaker": "인용한 사람 또는 null", "framing"', '"speaker": "인용한 사람 또는 null", "party": "공식 당명 또는 null", "framing"')
+    return p
+
+
 PROMPTS = {2: SYSTEM_PROMPT_V2, 3: _v3(SYSTEM_PROMPT_V2)}
+PROMPTS[4] = _v4(PROMPTS[3])
 SYSTEM_PROMPT = PROMPTS[PROMPT_VERSION]
 
 
@@ -147,6 +175,7 @@ class Label(BaseModel):
     type: str
     source: str | None = None
     speaker: str | None = None
+    party: str | None = None
     framing: list[str] = []
 
     @field_validator("type")
@@ -163,6 +192,11 @@ class Label(BaseModel):
             return None
         v = v.strip()
         v = SYNONYM_TO_SOURCE.get(v, v)
+        if v not in SOURCE_NAMES:
+            from app.metrics import find_party
+            p = find_party(v)
+            if p and "무소속" not in v:   # 출처 칸에 당명을 적은 경우 (예: 조국혁신당) → 소속 기준 유형으로
+                return "정부·여당" if p == RULING_PARTY else "야당"
         if v.replace(" ", "") in ("소속미상", "익명", "미상", "익명(소속미상)", "알수없음"):
             return UNKNOWN_DETAIL
         if v == "기타":
@@ -320,13 +354,22 @@ def call_llm(cfg: dict, system: str, user: str, client: httpx.Client) -> str:
     raise LLMError("요청 한도에 걸려 여러 번 실패했습니다. 1~2분 쉬었다가 다시 실행해 주세요 (저장된 기사는 건너뜀).")
 
 
+def _party(x: "Label", raw: dict) -> str | None:
+    """공식 당명: AI가 적은 party → 없으면 출처·인용한 사람 글에서 찾음 (예: 출처를 '조국혁신당'이라고 적은 경우)"""
+    from app.metrics import find_party
+    p = find_party(x.party) if x.party and x.party not in ("null", "") else None
+    return p or find_party(str(raw.get("source") or ""), x.speaker)
+
+
 def parse_labels(text: str, rows: list[Row]) -> dict[int, dict]:
     """응답에서 JSON을 꺼내 검사. 문제가 있으면 무엇이 틀렸는지 담아 ValueError"""
     m = re.search(r"\{.*\}", text, re.S)
     if not m:
         raise ValueError("JSON을 찾지 못함")
     data = json.loads(m.group(0))
-    items = [Label(**x) for x in data.get("sentences", [])]
+    raw_items = data.get("sentences", [])
+    items = [Label(**x) for x in raw_items]
+    raw_by_no = {x.get("no"): x for x in raw_items if isinstance(x, dict)}
     by_no = {x.no: x for x in items}
     missing = [r.no for r in rows if r.no not in by_no]
     if missing:
@@ -346,6 +389,7 @@ def parse_labels(text: str, rows: list[Row]) -> dict[int, dict]:
             "source": source,
             "detail": detail,
             "speaker": x.speaker if x.type == "인용" else None,
+            "party": _party(x, raw_by_no.get(no, {})) if x.type == "인용" else None,
             # 문장에 그대로 없는 단어는 버림 (화면 강조가 안 되므로)
             "framing": [w for w in x.framing if w and w in texts[no]],
         }

@@ -94,9 +94,11 @@ def fix_labels(labels: dict[int, dict], texts: dict[int, str], members: dict[str
         if not name:
             continue
         source, detail = party_to_source(members[name])
-        if (lab["source"], lab.get("detail")) != (source, detail):
-            lab["source"], lab["detail"] = source, detail
-            changed += 1
+        party = members[name] if members[name] and "무소속" not in members[name] else None
+        if (lab["source"], lab.get("detail"), lab.get("party")) != (source, detail, party):
+            if (lab["source"], lab.get("detail")) != (source, detail):
+                changed += 1
+            lab["source"], lab["detail"], lab["party"] = source, detail, party
     return changed
 
 

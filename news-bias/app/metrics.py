@@ -89,3 +89,115 @@ def article_quote_metrics(article: dict) -> dict:
     c = source_counts(article)
     return {"quoteSlope": quote_slope(c), "smoothedSlope": smoothed_slope(c),
             "sourceEntropy": source_entropy(c), "quoteCount": sum(c.values())}
+
+
+# ---------- 정당 진영 · 양대 정당 기울기 (11/14 확정) ----------
+# 화면 분포 막대: 여당 | 제3정당 | 야당 (+ 무소속). 인용 카드 배지는 공식 당명 그대로.
+# 인용 기울기는 '정부·제1여당' 대 '제1야당'만으로 계산하고, 제3정당·무소속은 분모에서 빼고 따로 셈.
+# 전직 공직자(당적 없음)·전문가 등은 진영에 넣지 않음 (기타·전문가 그대로).
+RULING_PARTY = "더불어민주당"
+MAIN_OPPOSITION = "국민의힘"
+PARTIES = ("더불어민주당", "국민의힘", "조국혁신당", "개혁신당", "진보당", "기본소득당", "사회민주당", "새로운미래",
+           "자유통일당", "녹색정의당", "정의당")
+PARTY_ALIASES = {"민주당": "더불어민주당", "국힘": "국민의힘", "혁신당": "조국혁신당"}
+CAMPS = ("ruling", "third", "mainOpp", "independent")   # 화면 막대 순서: 여당 | 제3정당 | 야당 | 무소속
+CAMP_LABELS = {"ruling": "정부·여당", "third": "제3정당", "mainOpp": "제1야당", "independent": "무소속"}
+BLINDSPOT_SHARE = 0.05   # 양대 진영 인용 중 한쪽이 이보다 적으면 '사각지대'
+BLINDSPOT_MIN = 5        # 양대 진영 인용이 이보다 적으면 사각지대 판단 안 함
+
+
+def find_party(*texts: str | None) -> str | None:
+    """글(인용한 사람·원래 명칭)에 든 공식 당명. 줄임말도 인정 (민주당 → 더불어민주당)"""
+    for t in texts:
+        if not t:
+            continue
+        for p in PARTIES:
+            if p in t:
+                return p
+        for short, full in PARTY_ALIASES.items():
+            if short in t:
+                return full
+    return None
+
+
+def camp(sentence: dict) -> str | None:
+    """인용 문장 → 진영 (ruling / mainOpp / third / independent) 또는 None(정당 진영 아님)"""
+    if sentence.get("type") != "quote":
+        return None
+    st = sentence.get("sourceType")
+    party = sentence.get("party")
+    detail = sentence.get("sourceDetail") or ""
+    if st == "etc":
+        return "independent" if "무소속" in detail else None
+    if st == "gov":
+        return "ruling" if party in (None, RULING_PARTY) else ("mainOpp" if party == MAIN_OPPOSITION else "third")
+    if st == "opp":
+        if party in (None, MAIN_OPPOSITION):
+            return "mainOpp"   # 당명을 모르면 제1야당으로 (AI가 '야당'이라고만 한 경우 대부분 제1야당)
+        return "ruling" if party == RULING_PARTY else "third"
+    return None
+
+
+def fill_party(article: dict, members: dict[str, str] | None = None) -> None:
+    """인용 문장의 party 칸이 비어 있으면 인용한 사람·원래 명칭에서 찾음 (국회의원 명단이 있으면 이름으로도)"""
+    for s in article["sentences"]:
+        if s.get("type") != "quote" or s.get("sourceType") not in ("gov", "opp", "etc"):
+            s.setdefault("party", None)
+            continue
+        if s.get("party"):
+            continue
+        p = find_party(s.get("sourceName"), s.get("sourceDetail"))
+        if not p and members and s.get("sourceName"):
+            hits = {members[n] for n in members if n in s["sourceName"]}
+            p = hits.pop() if len(hits) == 1 else None
+        s["party"] = p if p and "무소속" not in p else None
+
+
+def article_metrics(article: dict) -> dict:
+    """기사 하나의 진영별 인용 수와 양대 정당 기울기 (프론트가 그대로 그림)"""
+    c = Counter(x for x in (camp(s) for s in article["sentences"]) if x)
+    pair = Counter({"gov": c["ruling"], "opp": c["mainOpp"]})
+    raw, sm = quote_slope(pair), smoothed_slope(pair)
+    return {
+        "camps": {k: c.get(k, 0) for k in CAMPS},
+        "slope": None if raw is None else round(raw, 3),
+        "slopeSmoothed": None if sm is None else round(sm, 3),
+        "slopeBasis": c["ruling"] + c["mainOpp"],
+        "excludedFromSlope": c["third"] + c["independent"],
+    }
+
+
+def issue_distribution(issue_articles: list[dict]) -> dict:
+    """이슈 전체 진영별 인용 분포 (실제 비율 그대로) + 사각지대 여부 + 기사 기울기 평균"""
+    total = Counter()
+    slopes = []
+    for a in issue_articles:
+        m = a.get("metrics") or article_metrics(a)
+        total.update(m["camps"])
+        if m["slopeSmoothed"] is not None:
+            slopes.append(m["slopeSmoothed"])
+    pair = total["ruling"] + total["mainOpp"]
+    blind = None
+    if pair >= BLINDSPOT_MIN:
+        if total["mainOpp"] / pair < BLINDSPOT_SHARE:
+            blind = "mainOpp"     # 제1야당 인용이 거의 없음
+        elif total["ruling"] / pair < BLINDSPOT_SHARE:
+            blind = "ruling"
+    return {
+        "camps": {k: total.get(k, 0) for k in CAMPS},
+        "slopeMean": round(sum(slopes) / len(slopes), 3) if slopes else None,
+        "blindspot": blind,
+    }
+
+
+def ensure_metrics(data: dict) -> dict:
+    """예전에 만든 news.json 처럼 metrics·distribution 칸이 없으면 채움 (있으면 그대로)"""
+    arts = data.get("articles", [])
+    for a in arts:
+        if a.get("metrics") is None:
+            fill_party(a)
+            a["metrics"] = article_metrics(a)
+    for i in data.get("issues", []):
+        if i.get("distribution") is None:
+            i["distribution"] = issue_distribution([a for a in arts if a["issueId"] == i["id"]])
+    return data

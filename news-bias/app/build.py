@@ -23,6 +23,14 @@ REAL_OUTPUT = Path(__file__).resolve().parent.parent / "data" / "raw" / "news_�
 CURATED_OUTPUT = Path(__file__).resolve().parent.parent / "data" / "curated.json"
 
 
+def _members() -> dict[str, str]:
+    try:
+        from app.members import load
+        return load()
+    except Exception:
+        return {}
+
+
 def build_news(issues=ISSUES, articles=ARTICLES, outlets=OUTLETS, note=None) -> dict:
     issues = copy.deepcopy(issues)
     articles = copy.deepcopy(articles)
@@ -35,6 +43,8 @@ def build_news(issues=ISSUES, articles=ARTICLES, outlets=OUTLETS, note=None) -> 
             s.setdefault("sourceName", None)
             s.setdefault("sourceDetail", None)
         a.setdefault("framingTerms", [])
+        metrics.fill_party(a, _members())
+        a["metrics"] = metrics.article_metrics(a)
 
     for issue in issues:
         # 이슈에 속한 기사 목록 자동 채우기 (발행 시각 순)
@@ -47,6 +57,11 @@ def build_news(issues=ISSUES, articles=ARTICLES, outlets=OUTLETS, note=None) -> 
         if "missingViewpoints" not in a:
             same_issue = [x for x in articles if x["issueId"] == a["issueId"]]
             a["missingViewpoints"] = metrics.missing_viewpoints(a, same_issue)
+
+    for issue in issues:
+        # 진영별 인용 분포 (여당 | 제3정당 | 야당 | 무소속), 사각지대
+        same_issue = [x for x in articles if x["issueId"] == issue["id"]]
+        issue["distribution"] = metrics.issue_distribution(same_issue)
 
     for issue in issues:
         # 화면에 보여 줄 출처 유형 4개 (이 이슈에서 인용이 많은 순)

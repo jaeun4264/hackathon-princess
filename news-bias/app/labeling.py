@@ -149,15 +149,35 @@ def is_speaker_tag(line: str) -> bool:
     )
 
 
+TAG_LINE = re.compile(r"^\s*(?:[<\[(](?:인터뷰|녹취|싱크|현장음|SYNC|INT)[>\])]\s*)?\[?\s*([^\[\]<>]{2,40}?/[^\[\]<>]{1,40}?)\s*\]?\s*:?\s*$")
+
+
+def speaker_of_tag(line: str) -> str | None:
+    """방송 기사의 말한 사람 표시 줄 → '이름 / 직함' (아니면 None).
+    '<인터뷰> 김철수 / 시민', '[홍길동 / 국민의힘 의원]', '[녹취] 홍길동/의원' 모두 인정.
+    이 줄은 문장으로 세지 않고 다음 발언 문장 앞에 붙여, 인용이 두 번 세어지거나 '사실'로 잘못 분류되지 않게 함"""
+    m = TAG_LINE.match(line)
+    if not m or len(line) > 50 or line.rstrip()[-1] in ".?!\"”'’":
+        return None
+    left, _, right = m.group(1).partition("/")
+    if not re.search(r"[가-힣A-Za-z]{2,}", left) or not re.search(r"[가-힣A-Za-z]", right):
+        return None
+    return re.sub(r"\s*/\s*", " / ", m.group(1).strip())
+
+
 def body_to_sentences(raw: str) -> list[str]:
     """본문 → 문장 목록. 말한 사람 표시 줄은 바로 다음 문장 앞에 [ ]로 붙임"""
     sentences, speaker = [], None
     for line in raw.splitlines():
+        tag = speaker_of_tag(line)
+        if tag:
+            speaker = tag
+            continue
         line = clean_line(line)
         if not line:
             continue
         if is_speaker_tag(line):
-            speaker = line.rstrip(": ").strip()
+            speaker = line.rstrip(": ").strip().strip("[]").strip()
             continue
         sents = [s for s in split_sentences(line) if not is_broadcast_filler(s) and not RELATED.search(s)]
         if speaker and sents:
@@ -248,9 +268,35 @@ def prepare_round(n: int, candidates: Path, numbers: list[int], prefix: str | No
     return made
 
 
+def fetch_bodies(n: int, fetcher=None) -> list[tuple[str, str]]:
+    """n차 본문 파일 중 비어 있는 것을 원문 주소에서 자동으로 채움 (robots.txt 지킴, 내 컴퓨터에만 저장).
+    돌려줌: [(파일 이름, 결과)]"""
+    from app.daily import clean_body
+    from app.fetch import FetchError, Fetcher
+    f = fetcher or Fetcher()
+    body_dir, _ = round_paths(n)
+    out = []
+    for txt in sorted(body_dir.glob("*.txt")):
+        lines = txt.read_text(encoding="utf-8-sig").splitlines()
+        head = [l for l in lines if l.startswith("#")]
+        if any(l.strip() for l in lines if not l.startswith("#")):
+            out.append((txt.name, "이미 본문 있음"))
+            continue
+        url = next((l.split("원문:", 1)[1].strip() for l in head if "원문:" in l), "")
+        title = head[0].split("|", 1)[1].strip() if head and "|" in head[0] else ""
+        try:
+            body = clean_body(f.body(url), title)
+        except FetchError as e:
+            out.append((txt.name, f"실패: {e} → 직접 붙여 넣기"))
+            continue
+        txt.write_text("\n".join(head) + "\n" + body + "\n", encoding="utf-8-sig")
+        out.append((txt.name, f"{len(body)}자"))
+    return out
+
+
 def main(argv=None):
     p = argparse.ArgumentParser(description="라벨링 표에 기사 문장 채우기")
-    p.add_argument("명령", choices=["채우기", "정리", "준비"])
+    p.add_argument("명령", choices=["채우기", "정리", "준비", "본문받기"])
     p.add_argument("--후보", help="준비: 후보 CSV (python -m app.candidates 로 만든 것)")
     p.add_argument("--번호", help="준비: 고른 후보 번호, 쉼표로 (예: 2,7,11,15,20)")
     p.add_argument("--접두", help="준비: 기사 ID 앞글자 (기본: 1차 N, 2차 E, 3차 F …)")
@@ -268,7 +314,14 @@ def main(argv=None):
         print(f"만들었습니다: {table.name} + 본문 파일 {len(made)}개")
         for f in made:
             print("  ", f.relative_to(LABEL_DIR))
-        print(f"본문을 붙여 넣은 뒤: python -m app.labeling 채우기 --차수 {args.차수}")
+        print(f"본문 자동으로 받기: python -m app.labeling 본문받기 --차수 {args.차수}  (실패한 것만 직접 붙여 넣기)")
+        print(f"그다음: python -m app.labeling 채우기 --차수 {args.차수}")
+        return
+
+    if args.명령 == "본문받기":
+        for name, res in fetch_bodies(args.차수):
+            print(f"  {name}: {res}")
+        print(f"확인한 뒤: python -m app.labeling 채우기 --차수 {args.차수} --미리보기")
         return
 
     if args.명령 == "정리":
