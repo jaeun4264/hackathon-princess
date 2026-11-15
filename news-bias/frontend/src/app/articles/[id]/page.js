@@ -13,8 +13,6 @@ import {
   getArticlesOfIssue,
   getOutlet,
   opinionRatio,
-  averageSlope,
-  quoteSlope,
   averageDiversity,
   voiceDiversity,
   quoteCount,
@@ -26,6 +24,8 @@ import { RecordRead } from "@/components/news/record-read";
 import { OriginalLink } from "@/components/news/original-link";
 import { QuoteSlope } from "@/components/news/quote-slope";
 import { VoiceDiversity } from "@/components/news/voice-diversity";
+import { CampBar } from "@/components/news/camp-bar";
+import { articleSlope, slopeDiffText } from "@/lib/camps";
 
 export function generateStaticParams() {
   return data.articles.map((a) => ({ id: a.id }));
@@ -50,10 +50,16 @@ export default async function ArticlePage({ params }) {
   const quotedPeople = [
     ...new Map(
       article.sentences
-        .filter((s) => s.sourceType && s.sourceName)
-        .map((s) => [s.sourceName, { name: s.sourceName, sourceType: s.sourceType }]),
+        .filter((s) => s.sourceType && s.sourceType !== "etc" && s.sourceName)
+        .map((s) => [s.sourceName, { name: s.sourceName, sourceType: s.sourceType, party: s.party, stateBody: s.stateBody }]),
     ).values(),
   ];
+  // 양대 정당 기울기: 백엔드가 계산한 보정값을 그대로 씀 (화면에서 다시 계산하지 않음)
+  const slope = articleSlope(article);
+  const slopeMean = issue.distribution?.slopeMean ?? null;
+  const others = getArticlesOfIssue(article.issueId).filter((a) => a.id !== article.id);
+  const opinionAvg = others.length ? others.reduce((s, a) => s + opinionRatio(a), 0) / others.length : null;
+  const diffText = slope.enough ? slopeDiffText(slope.value, slopeMean) : null;
 
   return (
     <main className="mx-auto flex max-w-3xl flex-col gap-6 px-4 py-10">
@@ -94,11 +100,28 @@ export default async function ArticlePage({ params }) {
             count={quoteCount(article)}
             compare={averageDiversity(getArticlesOfIssue(article.issueId).filter((a) => a.id !== article.id))}
           />
-          <QuoteSlope
-            value={quoteSlope(article)}
-            compare={averageSlope(getArticlesOfIssue(article.issueId).filter((a) => a.id !== article.id))}
-          />
-          <span className="text-sm text-muted-foreground">의견 문장 비율 {Math.round(opinionRatio(article) * 100)}%</span>
+          <div className="flex flex-col gap-3 rounded-lg border p-3">
+            <CampBar camps={article.metrics?.camps} institution={slope.institution} label="이 기사의 진영별 인용" />
+            {slope.enough ? (
+              <>
+                <QuoteSlope value={slope.value} compare={slopeMean} label="양대 정당 기준 기울기" compareLabel="이 이슈 평균" />
+                {diffText && <span className="text-sm">{diffText}</span>}
+              </>
+            ) : (
+              <div className="flex flex-col gap-1">
+                <span className="text-xs text-muted-foreground">양대 정당 기준 기울기</span>
+                <span className="text-sm">인용이 적어 판단하기 어려움 (정부·여당·제1야당 인용 {slope.basis}건)</span>
+              </div>
+            )}
+            <span className="text-xs text-muted-foreground">
+              양대 정당 기준 기울기: 정부·여당과 제1야당 인용만으로 계산하고, 인용이 적은 기사가 ±1로 튀지 않도록 보정했습니다
+              {slope.excluded > 0 ? ` (제3정당·무소속 ${slope.excluded}건은 위 막대에만 별도 표시)` : ""}.
+            </span>
+          </div>
+          <span className="text-sm text-muted-foreground">
+            의견 문장 비율 {Math.round(opinionRatio(article) * 100)}%
+            {opinionAvg !== null && ` (같은 이슈 다른 기사 평균 ${Math.round(opinionAvg * 100)}%)`}
+          </span>
         </CardContent>
       </Card>
 
@@ -117,7 +140,7 @@ export default async function ArticlePage({ params }) {
                   {m.foundInArticleIds.map((aid, i) => (
                     <span key={aid}>
                       {i > 0 && ", "}
-                      <Link href={`/articles/${aid}`} className="underline underline-offset-2">
+                      <Link href={`/articles/${aid}?from=missing`} className="underline underline-offset-2">
                         {getOutlet(getArticle(aid)?.outletId)?.name}
                       </Link>
                     </span>
@@ -169,7 +192,9 @@ export default async function ArticlePage({ params }) {
                   {quotedPeople.map((q) => (
                     <Badge key={q.name} variant="outline" className="gap-1.5">
                       <span className="size-2 rounded-full" style={{ backgroundColor: sourceColor(q.sourceType) }} />
-                      {sourceLabel(q.sourceType)} · {q.name}
+                      {[q.party ?? (q.stateBody ? "수사·사법기관" : sourceLabel(q.sourceType)), q.name]
+                        .filter((x, i, arr) => arr.indexOf(x) === i)
+                        .join(" · ")}
                     </Badge>
                   ))}
                 </div>
@@ -188,7 +213,7 @@ export default async function ArticlePage({ params }) {
           </CardHeader>
           <CardContent className="flex flex-col gap-3">
             {recommendations.map((r) => (
-              <Link key={r.id} href={`/articles/${r.id}`} className="group flex flex-col gap-1.5 rounded-lg border p-3">
+              <Link key={r.id} href={`/articles/${r.id}?from=recommend`} className="group flex flex-col gap-1.5 rounded-lg border p-3">
                 <span className="text-xs text-muted-foreground">{getOutlet(r.outletId)?.name}</span>
                 <span className="font-medium group-hover:underline">{r.title}</span>
                 <ShareChart share={compareWithIssue(r).mine} size={72} />
