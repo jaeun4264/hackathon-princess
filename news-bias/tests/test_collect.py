@@ -78,3 +78,22 @@ def test_article_kind():
     for t in ["특검법 법사위 통과(종합)", "[종합] 가상자산 과세 2년 유예", "과세 유예 추진(종합2보)",
               "대통령실 브리핑서 과세 유예 언급", "전력 많이 쓰는 저녁시간 요금 인상"]:
         assert article_kind(t) == "기사", t
+
+
+def test_roundup_and_byline():
+    from app.collect import article_kind
+    from app.news_filters import clean_summary, is_roundup
+    for t in ["이번주 '계엄해제 표결 방해' 추경호 1심 선고…카카오 김범수 2심도",
+              "'계엄해제 방해' 추경호, 내란중요임무종사 1심 선고[주목,이주의재판]",
+              "'계엄표결 방해' 추경호 수요일 1심 선고...한덕수 상고심 주목",
+              "[금주 재판일정] '계엄 표결 방해' 추경호 1심 선고…檢은 20년 구형"]:
+        assert article_kind(t) == "묶음", t
+    for t in ["한덕수 이번주 석방 기로…대법원 선고할까, 추가 구속될까", "국회 예결위, 16일 예산안조정소위 가동",
+              "여야, 이번주 예산안 심사 돌입…쟁점 법안도 처리"]:
+        assert not is_roundup(t), t
+    assert clean_summary("신재현 이승재 기자 = 이재명 대통령은") == "이재명 대통령은"
+    assert clean_summary("(서울=연합뉴스) 홍길동 기자 = 여야는") == "여야는"
+    assert clean_summary("이투데이=윤혜원 기자 | 더불어민주당은") == "더불어민주당은"
+    assert clean_summary("뉴데일리 김보연 = 국민의힘 송언석") == "국민의힘 송언석"
+    assert clean_summary("(사진=연합뉴스) 송언석 의원은") == "송언석 의원은"
+    assert clean_summary("박성훈 수석대변인도 이날 국회에서 기자들과 만나") == "박성훈 수석대변인도 이날 국회에서 기자들과 만나"
