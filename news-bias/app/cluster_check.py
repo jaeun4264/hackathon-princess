@@ -187,8 +187,38 @@ def _ox(v) -> str | None:
     return v if v in ("O", "X") else None
 
 
+MIN_STYLES = (b'<?xml version="1.0" encoding="UTF-8" standalone="yes"?>'
+              b'<styleSheet xmlns="http://schemas.openxmlformats.org/spreadsheetml/2006/main">'
+              b'<fonts count="1"><font><sz val="11"/><name val="Calibri"/></font></fonts>'
+              b'<fills count="1"><fill><patternFill patternType="none"/></fill></fills>'
+              b'<borders count="1"><border/></borders>'
+              b'<cellStyleXfs count="1"><xf/></cellStyleXfs>'
+              b'<cellXfs count="1"><xf xfId="0"/></cellXfs></styleSheet>')
+
+
+def _open_book(path: Path):
+    """한셀·웹 스프레드시트 등에서 저장해 서식 정보가 깨진 파일도 값만 읽는다."""
+    try:
+        return load_workbook(path, data_only=True)
+    except (IndexError, KeyError):
+        import io, re, zipfile
+        buf = io.BytesIO()
+        with zipfile.ZipFile(path) as zin, zipfile.ZipFile(buf, "w", zipfile.ZIP_DEFLATED) as zout:
+            for item in zin.infolist():
+                data = zin.read(item.filename)
+                if item.filename.startswith("xl/worksheets/") and item.filename.endswith(".xml"):
+                    data = re.sub(rb'(<(?:\w+:)?(?:c|row)\b[^>]*?)\s+s="\d+"', rb"\1", data)
+                    data = re.sub(rb'(<(?:\w+:)?col\b[^>]*?)\s+style="\d+"', rb"\1", data)
+                elif item.filename == "xl/styles.xml":
+                    data = MIN_STYLES
+                zout.writestr(item, data)
+        buf.seek(0)
+        print("※ 서식 정보가 깨진 파일이라 서식은 무시하고 값만 읽었어요.")
+        return load_workbook(buf, data_only=True)
+
+
 def read_sheet(path: Path) -> tuple[list[dict], dict[int, str | None]]:
-    wb = load_workbook(path, data_only=True)
+    wb = _open_book(path)
     ai = {}
     if "_AI" in wb.sheetnames:
         for row in wb["_AI"].iter_rows(min_row=2, values_only=True):
