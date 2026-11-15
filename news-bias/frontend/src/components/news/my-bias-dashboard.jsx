@@ -6,7 +6,7 @@ import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/com
 import { SourceLegend } from "@/components/news/source-share-bar";
 import { BarOnlyLegend, CompareCharts, ShareChart } from "@/components/news/share-chart";
 import { clearHistory, interestedIssueCounts, loadSampleHistory, readArticleIds, recommendOpenStats, useReadingEvents } from "@/lib/reading-history";
-import { CampBar } from "@/components/news/camp-bar";
+import { CampDistributionBar, InstitutionNote } from "@/components/news/camp-distribution";
 import { campsTotal, readCamps, sumCamps } from "@/lib/camps";
 import { diversityOfShare, getAllArticles, getArticle, getIssue, getOutlet, readingBias, sourceShare, sourceTypes } from "@/lib/news";
 import { VoiceDiversity } from "@/components/news/voice-diversity";
@@ -171,8 +171,9 @@ export function MyBiasDashboard() {
           <CardDescription>읽은 기사에 담긴 정당·정부 인용을 모두 더했습니다. 아래는 사이트 전체 기사입니다.</CardDescription>
         </CardHeader>
         <CardContent className="flex flex-col gap-4">
-          <CampBar camps={myCamps.camps} institution={myCamps.institution} label="내가 읽은 기사" />
-          {campsTotal(allCamps.camps) > 0 && <CampBar camps={allCamps.camps} label="사이트 전체 기사" />}
+          <CampDistributionBar camps={myCamps.camps} label="내가 읽은 기사" height="h-5" />
+          <InstitutionNote count={myCamps.institution} />
+          {campsTotal(allCamps.camps) > 0 && <CampDistributionBar camps={allCamps.camps} label="사이트 전체 기사" height="h-5" />}
           {openStats.views > 0 && (
             <span className="text-xs text-muted-foreground">
               추천(다른 시각·빠진 관점·덜 접한 목소리)을 눌러 연 기사: {openStats.fromRecommend}건 / 분석 화면을 연 기사 {openStats.views}건
