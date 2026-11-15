@@ -5,7 +5,9 @@
 //   지금: 로그인 없이 이 브라우저(localStorage)에 저장
 //   나중: 백엔드 API(예: POST /reading-history, GET /reading-history)로 교체
 //
-// 기록 한 건: { articleId, kind, readAt }
+// 기록 한 건: { articleId, kind, readAt, from? }
+//   from = 어디서 눌러 들어왔는지 (recommend: 다른 시각 추천, missing: 빠진 관점, my: 내 읽기 편향 추천)
+//          → "반대 시각 기사를 연 비율"을 셀 때 씀
 //   kind = "view"     → 우리 사이트에서 기사 분석 화면을 열었을 때 → '관심 주제'로 사용
 //   kind = "original" → "원문 보기"를 눌러 언론사 기사로 이동했을 때 → '읽은 기사'로 사용
 //   (11/3 결정: 분석 화면에는 기사 문장을 보여 주지 않으므로 원문 클릭만 '읽음'으로 침)
@@ -96,29 +98,42 @@ export function interestedIssueCounts(events, getIssueId) {
   return [...counts.entries()].map(([issueId, count]) => ({ issueId, count })).sort((a, b) => b.count - a.count);
 }
 
-function addEvent(articleId, kind) {
+function addEvent(articleId, kind, from) {
   const list = getEvents();
   // 같은 기사·같은 종류는 최신 한 건만 남김
   const rest = list.filter((r) => !(r.articleId === articleId && r.kind === kind));
-  save([{ articleId, kind, readAt: new Date().toISOString() }, ...rest]);
+  const event = { articleId, kind, readAt: new Date().toISOString() };
+  if (from) event.from = from;
+  save([event, ...rest]);
 }
 
-export function recordRead(articleId) {
-  addEvent(articleId, "view");
+export const RECOMMEND_FROMS = ["recommend", "missing", "my"];
+
+export function recordRead(articleId, from) {
+  addEvent(articleId, "view", from);
 }
 
+// 원문 클릭은 그 기사 분석 화면에 들어온 경로(from)를 이어받음
 export function recordOriginalClick(articleId) {
-  addEvent(articleId, "original");
+  const view = getEvents().find((e) => e.articleId === articleId && e.kind === "view");
+  addEvent(articleId, "original", view?.from);
+}
+
+// 추천(다른 시각·빠진 관점·내 읽기 편향)을 눌러 연 기사 수와 비율
+export function recommendOpenStats(events) {
+  const views = events.filter((e) => e.kind === "view");
+  const fromRecommend = views.filter((e) => RECOMMEND_FROMS.includes(e.from));
+  return { views: views.length, fromRecommend: fromRecommend.length, rate: views.length ? fromRecommend.length / views.length : null };
 }
 
 export function clearHistory() {
   save([]);
 }
 
-// 시연용 예시 기록: 정부·여당 인용이 많은 기사 위주로 읽은 사용자
-export const SAMPLE_ARTICLE_IDS = ["art-001", "art-006", "art-004"];
-// 예시 관심 기록: 분석 화면만 본 기사 (청년 월세 이슈에 관심)
-export const SAMPLE_VIEW_ONLY_IDS = ["art-002", "art-003"];
+// 시연용 예시 기록 (사람이 라벨링한 1차·2차 기사): 원문까지 읽은 기사
+export const SAMPLE_ARTICLE_IDS = ["E01", "E02", "E03", "N01"];
+// 예시 관심 기록: 분석 화면만 본 기사
+export const SAMPLE_VIEW_ONLY_IDS = ["N03", "E04"];
 export function loadSampleHistory() {
   const now = Date.now();
   const at = (i) => new Date(now - i * 3600_000).toISOString();

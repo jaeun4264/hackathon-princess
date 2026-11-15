@@ -43,8 +43,10 @@ export function getArticlesOfIssue(issueId) {
 }
 
 // 기사 한 건의 인용 출처 비중: 출처가 있는 문장 중 각 유형이 차지하는 비율 (0~1)
+// '기타'(소속을 알 수 없는 인용 등)는 비중 계산에서 뺍니다.
+const KNOWN_SOURCE = new Set(sourceTypes.map((t) => t.id));
 export function sourceShare(article) {
-  const quoted = article.sentences.filter((s) => s.sourceType);
+  const quoted = article.sentences.filter((s) => KNOWN_SOURCE.has(s.sourceType));
   const share = Object.fromEntries(sourceTypes.map((t) => [t.id, 0]));
   if (quoted.length === 0) return share;
   for (const s of quoted) share[s.sourceType] = (share[s.sourceType] ?? 0) + 1;
@@ -97,7 +99,7 @@ export function diversityOfShare(share) {
 }
 
 export function quoteCount(article) {
-  return article.sentences.filter((s) => s.sourceType).length;
+  return article.sentences.filter((s) => KNOWN_SOURCE.has(s.sourceType)).length;
 }
 
 export function voiceDiversity(article) {
@@ -138,62 +140,6 @@ export function differentViewArticles(article, limit = 2) {
     .sort((x, y) => y.distance - x.distance)
     .slice(0, limit)
     .map((x) => x.article);
-}
-
-// ---------- 진영 분포 · 양대 정당 기울기 (11/14 확정, docs/API.md) ----------
-// 백엔드가 계산해 넣어 주는 article.metrics / issue.distribution 값을 그대로 씁니다 (화면에서 다시 계산하지 않음).
-// 막대 순서: 정부·여당 | 제3정당 | 제1야당 | 무소속. 색은 출처 유형 색과 맞춤 (정부·여당 = 정부·여당 출처 색).
-export const CAMPS = [
-  { id: "ruling", label: "정부·여당" },
-  { id: "third", label: "제3정당" },
-  { id: "mainOpp", label: "제1야당" },
-  { id: "independent", label: "무소속" },
-];
-const CAMP_COLORS = { ruling: sourceColor("gov"), third: "#64748b", mainOpp: sourceColor("opp"), independent: "#cbd5e1" };
-
-export function campLabel(campId) {
-  return CAMPS.find((c) => c.id === campId)?.label ?? campId;
-}
-
-// 분포 막대에 그릴 칸: 무소속은 인용이 있을 때만
-export function campEntries(camps = {}) {
-  return CAMPS.filter((c) => c.id !== "independent" || (camps.independent ?? 0) > 0).map((c) => ({
-    ...c,
-    color: CAMP_COLORS[c.id],
-    count: camps[c.id] ?? 0,
-  }));
-}
-
-// 백엔드가 진영 값을 넣어 준 데이터인지 (예전 데이터면 기존 지표만 보여 줌)
-export function hasCampData(issue) {
-  return Boolean(issue?.distribution);
-}
-
-// 이슈 다수 쪽: 기사 보정 기울기 평균의 부호 (+ 정부·여당 / − 제1야당, 0·없음이면 null)
-export function majorityCamp(issue) {
-  const mean = issue?.distribution?.slopeMean;
-  if (!mean) return null;
-  return mean > 0 ? "ruling" : "mainOpp";
-}
-
-// 소수 쪽 고정 자리: 보정 기울기 부호가 이슈 다수와 반대인 기사 하나
-//   인용이 충분한 기사(slopeBasis 3 이상)를 먼저, 그다음 반대 방향으로 더 기운 기사
-//   없으면 null → 빈자리를 채우지 않고 사각지대 안내로 대신
-export function minorityArticle(issue, articles) {
-  const majority = majorityCamp(issue);
-  if (!majority) return null;
-  const sign = majority === "ruling" ? 1 : -1;
-  const candidates = articles.filter((a) => {
-    const s = a.metrics?.slopeSmoothed;
-    return s !== null && s !== undefined && Math.sign(s) === -sign;
-  });
-  candidates.sort((x, y) => {
-    const enoughX = x.metrics.slopeBasis >= 3 ? 1 : 0;
-    const enoughY = y.metrics.slopeBasis >= 3 ? 1 : 0;
-    if (enoughX !== enoughY) return enoughY - enoughX;
-    return Math.abs(y.metrics.slopeSmoothed) - Math.abs(x.metrics.slopeSmoothed);
-  });
-  return candidates[0] ?? null;
 }
 
 export function formatDate(iso) {
