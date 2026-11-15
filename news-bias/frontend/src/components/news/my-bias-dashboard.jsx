@@ -5,8 +5,10 @@ import { Button } from "@/components/ui/button";
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card";
 import { SourceLegend } from "@/components/news/source-share-bar";
 import { BarOnlyLegend, CompareCharts, ShareChart } from "@/components/news/share-chart";
-import { clearHistory, interestedIssueCounts, loadSampleHistory, readArticleIds, useReadingEvents } from "@/lib/reading-history";
-import { diversityOfShare, getArticle, getIssue, getOutlet, readingBias, sourceShare, sourceTypes } from "@/lib/news";
+import { clearHistory, interestedIssueCounts, loadSampleHistory, readArticleIds, recommendOpenStats, useReadingEvents } from "@/lib/reading-history";
+import { CampBar } from "@/components/news/camp-bar";
+import { campsTotal, readCamps, sumCamps } from "@/lib/camps";
+import { diversityOfShare, getAllArticles, getArticle, getIssue, getOutlet, readingBias, sourceShare, sourceTypes } from "@/lib/news";
 import { VoiceDiversity } from "@/components/news/voice-diversity";
 
 const WEEK_MS = 7 * 24 * 60 * 60 * 1000;
@@ -66,7 +68,7 @@ function WeeklyReport({ events }) {
           </ul>
         )}
         {next && (
-          <Link href={`/articles/${next.id}`} className="group flex flex-col gap-1 rounded-lg border p-3">
+          <Link href={`/articles/${next.id}?from=my`} className="group flex flex-col gap-1 rounded-lg border p-3">
             <span className="text-xs text-muted-foreground">다음에 읽어 볼 기사 · {getOutlet(next.outletId)?.name}</span>
             <span className="font-medium group-hover:underline">{next.title}</span>
           </Link>
@@ -134,6 +136,9 @@ export function MyBiasDashboard() {
   }
 
   const maxOutlet = Math.max(...outletCounts.map((o) => o.count));
+  const myCamps = readCamps(ids);
+  const allCamps = sumCamps(getAllArticles());
+  const openStats = recommendOpenStats(events);
 
   return (
     <div className="flex flex-col gap-6">
@@ -159,6 +164,23 @@ export function MyBiasDashboard() {
         </CardContent>
       </Card>
 
+      {/* 1-2. 내가 접한 진영 분포 (이슈 화면과 같은 막대) */}
+      <Card>
+        <CardHeader>
+          <CardTitle>내가 접한 진영 분포</CardTitle>
+          <CardDescription>읽은 기사에 담긴 정당·정부 인용을 모두 더했습니다. 아래는 사이트 전체 기사입니다.</CardDescription>
+        </CardHeader>
+        <CardContent className="flex flex-col gap-4">
+          <CampBar camps={myCamps.camps} institution={myCamps.institution} label="내가 읽은 기사" />
+          {campsTotal(allCamps.camps) > 0 && <CampBar camps={allCamps.camps} label="사이트 전체 기사" />}
+          {openStats.views > 0 && (
+            <span className="text-xs text-muted-foreground">
+              추천(다른 시각·빠진 관점·덜 접한 목소리)을 눌러 연 기사: {openStats.fromRecommend}건 / 분석 화면을 연 기사 {openStats.views}건
+            </span>
+          )}
+        </CardContent>
+      </Card>
+
       {/* 2. 덜 접한 목소리 + 추천 기사 */}
       <Card>
         <CardHeader>
@@ -181,7 +203,7 @@ export function MyBiasDashboard() {
             <div className="flex flex-col gap-3">
               <span className="text-sm font-medium">이 목소리가 담긴 기사</span>
               {recommendations.map((a) => (
-                <Link key={a.id} href={`/articles/${a.id}`} className="group flex flex-col gap-1.5 rounded-lg border p-3">
+                <Link key={a.id} href={`/articles/${a.id}?from=my`} className="group flex flex-col gap-1.5 rounded-lg border p-3">
                   <span className="text-xs text-muted-foreground">{getOutlet(a.outletId)?.name}</span>
                   <span className="font-medium group-hover:underline">{a.title}</span>
                   <ShareChart share={sourceShare(a)} size={72} />

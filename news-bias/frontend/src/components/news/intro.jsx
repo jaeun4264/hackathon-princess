@@ -13,7 +13,7 @@ export function Intro() {
       <div className="flex flex-col gap-2">
         <h1 className="text-2xl font-bold tracking-tight sm:text-3xl">같은 사건, 다른 목소리</h1>
         <p className="text-muted-foreground">
-          사회·경제·생활 뉴스까지, 같은 사건을 다룬 기사를 언론사별로 모아 각 기사가 누구의 말을 담았는지 비교합니다.
+          입장이 갈리는 정치·사회 이슈마다 같은 사건을 다룬 기사를 언론사별로 모아 각 기사가 누구의 말을 담았는지 비교합니다.
         </p>
       </div>
       <ol className="grid gap-4 sm:grid-cols-3">

@@ -10,7 +10,7 @@ export function SiteHeader() {
           뉴스 편향도 분석
         </Link>
         <div className="flex items-center gap-3">
-          <span className="hidden text-xs text-muted-foreground md:inline">예시 데이터로 만든 화면입니다</span>
+          <span className="hidden text-xs text-muted-foreground md:inline">매일 2번 AI가 자동 분석합니다</span>
           <Link href="/me" className="text-sm font-medium hover:underline">
             내 읽기 편향
           </Link>
