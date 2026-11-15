@@ -1,15 +1,10 @@
 // 진영 분포·양대 정당 기울기 (백엔드가 계산해 넘겨 준 metrics / distribution 값을 그대로 씀)
+// 진영 목록·색·막대 부품은 lib/news.js 의 CAMPS 와 components/news/camp-distribution.jsx (과제 ①)를 함께 씀
 // 설명: news-bias/docs/API.md "진영 분포 · 양대 정당 기울기"
 //   camps: { ruling: 정부·여당, third: 제3정당, mainOpp: 제1야당, independent: 무소속 }
 //   기울기는 ruling·mainOpp만으로 계산, 경찰·검찰·법원 등 수사·사법기관(institution)은 제외
-import { getArticle } from "@/lib/news";
+import { CAMPS, getArticle } from "@/lib/news";
 
-export const CAMPS = [
-  { id: "ruling", label: "정부·여당", color: "#0f766e" },
-  { id: "third", label: "제3정당", color: "#a16207" },
-  { id: "mainOpp", label: "제1야당", color: "#6d28d9" },
-  { id: "independent", label: "무소속", color: "#64748b" },
-];
 
 // 기울기 숫자를 보여 줄 최소 인용 수 (이보다 적으면 "판단하기 어려움")
 export const MIN_SLOPE_BASIS = 3;
