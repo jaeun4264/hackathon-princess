@@ -24,7 +24,7 @@ import { RecordRead } from "@/components/news/record-read";
 import { OriginalLink } from "@/components/news/original-link";
 import { QuoteSlope } from "@/components/news/quote-slope";
 import { VoiceDiversity } from "@/components/news/voice-diversity";
-import { CampBar } from "@/components/news/camp-bar";
+import { CampDistributionBar, InstitutionNote } from "@/components/news/camp-distribution";
 import { articleSlope, slopeDiffText } from "@/lib/camps";
 
 export function generateStaticParams() {
@@ -101,7 +101,8 @@ export default async function ArticlePage({ params }) {
             compare={averageDiversity(getArticlesOfIssue(article.issueId).filter((a) => a.id !== article.id))}
           />
           <div className="flex flex-col gap-3 rounded-lg border p-3">
-            <CampBar camps={article.metrics?.camps} institution={slope.institution} label="이 기사의 진영별 인용" />
+            <CampDistributionBar camps={article.metrics?.camps} label="이 기사의 진영별 인용" height="h-5" />
+            <InstitutionNote count={slope.institution} />
             {slope.enough ? (
               <>
                 <QuoteSlope value={slope.value} compare={slopeMean} label="양대 정당 기준 기울기" compareLabel="이 이슈 평균" />
