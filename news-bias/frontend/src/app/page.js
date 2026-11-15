@@ -13,6 +13,7 @@ export default function Home() {
       title: issue.title,
       summary: issue.summary,
       category: issue.category,
+      verified: issue.origin === "curated",
       dateLabel: formatDate(issue.date),
       share: averageShare(articles),
       articleCount: articles.length,
