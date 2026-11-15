@@ -51,7 +51,7 @@ def _dot(a: dict, b: dict) -> float:
 
 def eligible(a: dict) -> bool:
     """분석 대상: 일반 기사(묶음·사설 제외) + 이름을 아는 언론사"""
-    return (a.get("kind") or article_kind(a.get("title", ""))) == "기사" and a.get("outlet") in KNOWN_OUTLETS
+    return article_kind(a.get("title", ""), a.get("summary", "")) == "기사" and a.get("kind", "기사") == "기사" and a.get("outlet") in KNOWN_OUTLETS
 
 
 def _merge(groups: list[dict], merge: float) -> list[dict]:

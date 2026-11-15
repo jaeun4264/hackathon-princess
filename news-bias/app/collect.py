@@ -18,6 +18,8 @@ import sys
 from datetime import datetime
 from email.utils import parsedate_to_datetime
 from pathlib import Path
+
+from app.news_filters import clean_summary
 from urllib.parse import urlparse
 
 import httpx
@@ -95,12 +97,15 @@ ROUNDUP = re.compile(
 OPINION_PIECE = re.compile(r"\[[^\]]*(?:사설|칼럼|시론|기고|논단|데스크|기자수첩|취재수첩|오피니언|기자의 눈)[^\]]*\]")
 
 
-def article_kind(title: str) -> str:
+def article_kind(title: str, summary: str = "") -> str:
     """'묶음' / '사설·칼럼' / '기사'"""
+    from app.news_filters import is_roundup  # 주간 재판 일정·'…김범수도' 같은 모아보기 (11/15 추가)
     if ROUNDUP.search(title):
         return "묶음"
     if OPINION_PIECE.search(title):
         return "사설·칼럼"
+    if is_roundup(title, summary):
+        return "묶음"
     return "기사"
 
 
@@ -108,12 +113,12 @@ def to_article(item: dict) -> dict:
     url = item.get("originallink") or item.get("link") or ""
     return {
         "title": clean(item.get("title")),
-        "summary": clean(item.get("description")),
+        "summary": clean_summary(clean(item.get("description"))),
         "url": url,
         "naverLink": item.get("link") or "",
         "outlet": outlet_of(url),
         "publishedAt": to_iso(item.get("pubDate")),
-        "kind": article_kind(clean(item.get("title"))),
+        "kind": article_kind(clean(item.get("title")), clean(item.get("description"))),
     }
 
 

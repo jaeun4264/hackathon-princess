@@ -59,7 +59,8 @@ ISSUE_PROMPT = """너는 뉴스 편집 보조다. 판정·평가 없이 사실�
 아래는 비슷하다고 자동으로 묶인 기사 제목과 요약이다.
 1) 대부분의 기사가 '같은 하나의 사건·결정·발표'를 다루면 same_event=true.
    서로 다른 사건이 섞였거나, 기사들이 한 사람의 발언 한 마디만 옮긴 것이면 false.
-2) 같은 사건이 아닌 기사 번호는 exclude 에 적는다.
+2) 같은 사건이 아닌 기사 번호는 exclude 에 적는다. 여러 사건을 한데 소개하는 기사(주간 재판 일정, 브리핑, '○○도 선고' 처럼
+   다른 사건을 덧붙인 기사)도 exclude 에 적는다.
 3) title: 이슈 제목 25자 이내, 평가 단어(강행·폭주·꼼수 등) 없이. summary: 누가 언제 무엇을 했는지 두 문장 이내.
 4) category: 정치 / 경제 / 사회 / 생활 / 국제 / 사건·사고 / 연예·스포츠 중 하나.
    국제 = 외국에서 일어난 일로 한국 정부·정당이 당사자가 아닌 것. 연예인·운동선수 관련은 재판이라도 연예·스포츠.
@@ -280,15 +281,31 @@ def prune(archive: dict, keep_days: int) -> dict:
     return {"issues": issues, "articles": [a for a in archive["articles"] if a["issueId"] in ids]}
 
 
+def drop_roundups(archive: dict, min_articles: int = 2) -> dict:
+    """이미 보관된 자동 기사 중 모아보기 기사를 빼고, 남은 기사가 너무 적은 이슈도 뺌"""
+    from app.news_filters import is_roundup
+    arts = [a for a in archive["articles"] if not is_roundup(a.get("title"), a.get("summary"))]
+    left = {}
+    for a in arts:
+        left[a["issueId"]] = left.get(a["issueId"], 0) + 1
+    issues = [i for i in archive["issues"] if left.get(i["id"], 0) >= min_articles]
+    keep = {i["id"] for i in issues}
+    return {"issues": issues, "articles": [a for a in arts if a["issueId"] in keep]}
+
+
 def assemble(archive: dict) -> dict:
     """보관 중인 자동 이슈 + 사람이 확인한 이슈 → 프론트용 news.json"""
+    from app.news_filters import clean_summary
+    archive = drop_roundups(archive)
     issues = [dict(i) for i in archive["issues"]]
-    articles = [{k: v for k, v in a.items() if k not in ("outletName", "analyzedBy")} for a in archive["articles"]]
+    articles = [{k: (clean_summary(v) if k == "summary" else v) for k, v in a.items() if k not in ("outletName", "analyzedBy")}
+                for a in archive["articles"]]
     outlets = {a["outletId"]: {"id": a["outletId"], "name": a["outletName"]} for a in archive["articles"]}
     if CURATED.exists():
         cur = json.loads(CURATED.read_text(encoding="utf-8"))
         issues = [{k: v for k, v in i.items() if k not in ("articleIds", "displaySourceTypes")} for i in cur["issues"]] + issues
-        articles = [{k: v for k, v in a.items() if k != "missingViewpoints"} for a in cur["articles"]] + articles
+        articles = [{k: (clean_summary(v) if k == "summary" else v) for k, v in a.items() if k != "missingViewpoints"}
+                    for a in cur["articles"]] + articles
         for o in cur["outlets"]:
             outlets.setdefault(o["id"], o)
     for i in issues:
