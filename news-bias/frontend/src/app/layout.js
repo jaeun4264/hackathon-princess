@@ -1,5 +1,6 @@
 import "./globals.css";
 import { SiteHeader } from "@/components/news/site-header";
+import { CompareModeCapture } from "@/lib/compare-mode";
 
 // 브라우저 탭에 보이는 제목과 설명
 export const metadata = {
@@ -13,6 +14,7 @@ export default function RootLayout({ children }) {
     <html lang="ko">
       <body className="antialiased">
         <SiteHeader />
+        <CompareModeCapture />
         {children}
       </body>
     </html>

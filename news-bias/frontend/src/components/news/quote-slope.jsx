@@ -11,7 +11,18 @@ export function formatSlope(v) {
   return `${r > 0 ? "+" : ""}${r.toFixed(2)}`;
 }
 
-export function QuoteSlope({ value, compare, label = "인용 기울기", compareLabel = "같은 이슈 다른 기사 평균", compact = false }) {
+// basis(선택): 기울기 계산에 쓴 양대 정당 인용 수. 3 미만이면 숫자 대신 "인용이 적어 판단하기 어려움"
+export function QuoteSlope({ value, compare, basis, label = "인용 기울기", compareLabel = "같은 이슈 다른 기사 평균", compact = false }) {
+  if (basis !== undefined && basis !== null && basis < 3) {
+    return (
+      <div className="flex flex-col gap-1">
+        <span className="text-xs text-muted-foreground">{label}</span>
+        <span className="text-xs text-muted-foreground">
+          인용이 적어 판단하기 어려움 (양대 정당 인용 {basis}건)
+        </span>
+      </div>
+    );
+  }
   if (value === null || value === undefined) {
     return (
       <div className="flex flex-col gap-1">

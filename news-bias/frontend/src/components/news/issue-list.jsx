@@ -2,6 +2,7 @@
 
 import Link from "next/link";
 import { useState } from "react";
+import { BadgeCheck } from "lucide-react";
 import { Badge } from "@/components/ui/badge";
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card";
 import { ShareChart } from "@/components/news/share-chart";
@@ -37,6 +38,12 @@ export function IssueList({ issues }) {
               <CardHeader>
                 <div className="flex items-center gap-2">
                   <Badge variant="secondary">{issue.category}</Badge>
+                  {issue.verified && (
+                    <Badge variant="outline">
+                      <BadgeCheck aria-hidden />
+                      검증됨
+                    </Badge>
+                  )}
                   <span className="text-xs text-muted-foreground">{issue.dateLabel}</span>
                 </div>
                 <CardTitle className="text-lg leading-snug group-hover:underline">{issue.title}</CardTitle>
