@@ -14,6 +14,7 @@ import {
   InstitutionNote,
 } from "@/components/news/camp-distribution";
 import { ComparePin } from "@/components/news/compare-pin";
+import { StanceSummary } from "@/components/news/stance-summary";
 import {
   averageShare,
   averageSlope,
@@ -81,6 +82,7 @@ export default async function IssuePage({ params }) {
             </>
           )}
         </p>
+        <StanceSummary stance={issue.stance} />
         {camps && <FocusPartyNotice party={dist.focusParty} />}
       </div>
 
