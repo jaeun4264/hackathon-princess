@@ -70,6 +70,19 @@ ISSUE_PROMPT = """너는 뉴스 편집 보조다. 판정·평가 없이 사실�
 5) '이미 있는 이슈' 목록이 주어지면, 그중 이 기사들과 같은 사건(같은 결정·발표·사고)이 있으면 duplicate_of 에 그 번호, 없으면 0.
    같은 주제라도 다른 날의 새 결정·새 사건이면 0.
 반드시 JSON 하나만 출력: {"same_event": true, "title": "", "summary": "", "category": "", "exclude": [], "duplicate_of": 0, "contested": true}"""
+# 쟁점 요약 (11/16): 사용자 테스트에서 "국민의힘은 유예, 민주당은 반대"처럼 여야가 실제로는 같은 입장인데
+# 정반대로 기억한 응답이 나와, 이슈마다 '같은 점 / 다른 점'을 한 줄씩 보여 주기로 함
+STANCE_PROMPT = """너는 뉴스 쟁점 정리 보조다. 판정·평가 없이 기사에 나온 사실만 쓴다. 누가 옳은지 쓰지 않는다.
+아래는 한 이슈를 다룬 기사들의 제목·요약과, 기사에서 인용된 사람(소속 정당·유형)이다.
+정부·여당과 야당(정당)의 입장을 비교해
+- common: 여야가 같은 입장인 점 한 문장 (예: '두 당 모두 과세 유예에 찬성한다'). 기사에서 확인되지 않으면 null.
+- diff: 여야 입장이 다른 점 한 문장 (예: '야당은 정부의 사과를 요구하고, 여당은 준비 기간 확보를 강조한다'). 확인되지 않으면 null.
+- sources: 근거로 쓴 기사의 언론사 이름 목록.
+각 문장은 60자 이내, 정당 이름은 공식 당명, 평가 단어(강행·폭주·꼼수·발목잡기 등)와 추측은 쓰지 않는다.
+한쪽 정당만 등장하거나 확신이 없으면 그쪽 칸은 null 로 둔다.
+반드시 JSON 하나만 출력: {"common": null, "diff": null, "sources": []}"""
+STANCE_MAX = 90       # 한 칸 최대 글자 수 (넘으면 버림)
+STANCE_BANNED = re.compile(r"강행|폭주|꼼수|발목|내로남불|막무가내|날치기|독주|횡포")
 FRAMING_MAX = 15  # 평가 표현으로 인정할 최대 글자 수 (단어·짧은 구)
 CATEGORIES = ("정치", "경제", "사회", "생활", "국제", "사건·사고", "연예·스포츠")
 
@@ -152,6 +165,64 @@ def describe_issue(llm: dict, members: list[dict], client: httpx.Client,
     dup = info.get("duplicate_of")
     info["duplicate_of"] = dup if isinstance(dup, int) and existing and 1 <= dup <= len(existing) else 0
     return info
+
+
+def stance_input(issue: dict, arts: list[dict]) -> str:
+    lines = [f"이슈: {issue.get('title', '')} — {issue.get('summary', '')}"]
+    for a in arts[:10]:
+        outlet = a.get("outletName") or a.get("outlet") or a.get("outletId", "")
+        lines.append(f"[{outlet}] {a.get('title', '')} — {(a.get('summary') or '')[:160]}")
+        who = []
+        for s in a.get("sentences", []):
+            if s.get("type") == "quote" and s.get("sourceName"):
+                tag = s.get("party") or {"gov": "정부·여당", "opp": "야당"}.get(s.get("sourceType"), s.get("sourceType") or "")
+                who.append(f"{s['sourceName']}({tag})")
+        if who:
+            lines.append("  인용: " + ", ".join(dict.fromkeys(who))[:300])
+    return "\n".join(lines)
+
+
+def clean_stance(raw: dict | None, outlets: set[str]) -> dict | None:
+    """AI 응답 검사: 길이·평가 단어·근거 언론사. 쓸 만한 칸이 없으면 None"""
+    if not isinstance(raw, dict):
+        return None
+    out = {}
+    for k in ("common", "diff"):
+        v = raw.get(k)
+        v = v.strip() if isinstance(v, str) else None
+        if not v or v.lower() in ("null", "없음") or len(v) > STANCE_MAX or STANCE_BANNED.search(v):
+            v = None
+        out[k] = v
+    if not out["common"] and not out["diff"]:
+        return None
+    src = [s for s in raw.get("sources") or [] if isinstance(s, str) and s in outlets]
+    out["sources"] = list(dict.fromkeys(src)) or sorted(outlets)[:3]
+    out["by"] = "ai"
+    return out
+
+
+def describe_stance(llm: dict, issue: dict, arts: list[dict], client: httpx.Client) -> dict | None:
+    outlets = {a.get("outletName") or a.get("outlet") or a.get("outletId", "") for a in arts}
+    try:
+        text = A.call_llm(llm, STANCE_PROMPT, stance_input(issue, arts), client)
+        m = re.search(r"\{.*\}", text, re.S)
+        return clean_stance(json.loads(m.group(0)) if m else None, outlets)
+    except (A.LLMError, ValueError) as e:
+        log(f"  쟁점 요약 실패: {e}")
+        return None
+
+
+def fill_stances(archive: dict, llm: dict, client: httpx.Client, cfg: dict) -> int:
+    """쟁점 요약이 없는 보관 이슈를 채움 (이미 시도한 이슈는 stance=None 으로 표시해 다시 묻지 않음)"""
+    done = 0
+    for iss in archive["issues"]:
+        if "stance" in iss or done >= cfg.get("stanceBackfill", 40):
+            continue
+        arts = [a for a in archive["articles"] if a["issueId"] == iss["id"]]
+        iss["stance"] = describe_stance(llm, iss, arts, client)
+        done += 1
+        time.sleep(cfg["llmGap"])
+    return done
 
 
 # ---------- 4. 기사 분석 ----------
@@ -380,7 +451,8 @@ def run(cfg: dict, preview: bool = False, collect_fn=None, fetcher: Fetcher | No
                                       "origin": "auto"})
             archive["articles"] += arts
             made += 1
-    log(f"4. 새 이슈 {made}개, 보관 중인 자동 이슈 {len(archive['issues'])}개")
+        filled = fill_stances(archive, llm, client, cfg)
+    log(f"4. 새 이슈 {made}개, 보관 중인 자동 이슈 {len(archive['issues'])}개, 쟁점 요약 {filled}개 작성")
 
     data = assemble(archive)
     problems = find_problems(data, need_url=True)

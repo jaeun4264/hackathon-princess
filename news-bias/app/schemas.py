@@ -58,6 +58,13 @@ class IssueDistribution(BaseModel):
     focusParty: str | None = Field(None, description="한 정당의 행사·입장 발표가 중심인 이슈면 그 정당 ('이슈 특성 안내')")
 
 
+class IssueStance(BaseModel):
+    common: str | None = Field(None, description="여야(정부·여당과 야당)가 같은 입장인 점 한 문장. 없으면 null")
+    diff: str | None = Field(None, description="여야 입장이 다른 점 한 문장. 없으면 null")
+    sources: list[str] = Field(default_factory=list, description="요약 근거가 된 언론사 이름")
+    by: Literal["ai", "human"] = Field("ai", description="ai = 자동 생성 / human = 사람이 쓰거나 확인")
+
+
 class Issue(BaseModel):
     id: str
     title: str
@@ -69,6 +76,7 @@ class Issue(BaseModel):
         description="화면에 보여 줄 출처 유형 (지금은 주요 5개 모두, 정해진 순서)"
     )
     distribution: IssueDistribution | None = None
+    stance: IssueStance | None = Field(None, description="쟁점 요약: 여야가 같은 점 / 다른 점 (11/16 사용자 테스트 의견으로 추가)")
     origin: Literal["curated", "auto"] = Field(
         "curated", description="curated = 사람이 고르고 정답 라벨 확인 / auto = 매일 자동 수집·AI 분석 (화면에 'AI 분석' 표시 권장)"
     )
