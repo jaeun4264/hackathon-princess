@@ -15,8 +15,9 @@ import {
 } from "@/components/news/camp-distribution";
 import { ComparePin } from "@/components/news/compare-pin";
 import { StanceSummary } from "@/components/news/stance-summary";
+import { CampCount } from "@/components/news/camp-count";
+import { issueSlope } from "@/lib/camps";
 import {
-  averageShare,
   averageSlope,
   quoteSlope,
   averageDiversity,
@@ -28,6 +29,9 @@ import {
   getIssues,
   getOutlet,
   hasCampData,
+  issueDiversity,
+  issueQuoteCount,
+  issueShare,
   majorityCamp,
   minorityArticle,
   opinionRatio,
@@ -50,6 +54,8 @@ export default async function IssuePage({ params }) {
   const camps = hasCampData(issue);
   const dist = issue.distribution;
   const pinned = camps ? minorityArticle(issue, articles) : null;
+  const slope = issueSlope(issue);
+  const shareAll = issueShare(articles);
 
   return (
     <main className="mx-auto flex max-w-5xl flex-col gap-6 px-4 py-10">
@@ -86,46 +92,51 @@ export default async function IssuePage({ params }) {
         {camps && <FocusPartyNotice party={dist.focusParty} />}
       </div>
 
-      {camps && (
-        <Card>
-          <CardHeader>
-            <CardTitle className="text-base">누구의 말을 전했나</CardTitle>
-          </CardHeader>
-          <CardContent className="flex flex-col gap-3">
-            <CampDistributionBar camps={dist.camps} label={`기사 ${articles.length}건의 진영별 인용 (실제 건수 그대로)`} />
-            <InstitutionNote count={dist.institution} />
-            <BlindspotNotice blindspot={dist.blindspot} />
-          </CardContent>
-        </Card>
-      )}
-
+      {/* 누구의 말을 전했나: 발언 비율 + 진영 막대 한 카드로 (11/16 사용자 테스트 반영, 기울기 숫자는 화면에서 뺌) */}
       <Card>
+        <CardHeader>
+          <CardTitle className="text-base">누구의 말을 전했나</CardTitle>
+        </CardHeader>
         <CardContent className="flex flex-col gap-3">
-          <ShareChart share={averageShare(articles)} label={`기사 ${articles.length}건의 평균 인용 출처`} barHeight="h-4" size={120} />
-          <BarOnlyLegend>
-            <SourceLegend share={averageShare(articles)} />
-          </BarOnlyLegend>
-          <VoiceDiversity value={averageDiversity(articles)} label={`기사 ${articles.length}건의 평균 목소리 다양성`} />
-          {camps ? (
-            <QuoteSlope value={dist.slopeMean} label={`기사 ${articles.length}건의 평균 기울기 (양대 정당 기준)`} />
-          ) : (
-            <QuoteSlope value={averageSlope(articles)} label={`기사 ${articles.length}건의 평균 인용 기울기`} />
+          {camps && (
+            <>
+              <CampCount camps={dist.camps} percent />
+              <CampDistributionBar camps={dist.camps} label={`기사 ${articles.length}건의 진영별 인용 (실제 건수 그대로)`} />
+              <InstitutionNote count={dist.institution} />
+              <BlindspotNotice blindspot={dist.blindspot} />
+            </>
           )}
+          <details className="text-sm" open={!camps}>
+            <summary className="cursor-pointer select-none text-muted-foreground">전문가·시민 등 모든 인용 출처 보기</summary>
+            <div className="mt-3 flex flex-col gap-3">
+              {/* 이슈 숫자는 분포 막대와 같은 기준: 기사별 값의 평균이 아니라 이슈 기사들의 인용을 모두 합쳐서 */}
+              <ShareChart share={shareAll} label={`기사 ${articles.length}건의 인용 출처 (전체 합계)`} barHeight="h-4" size={120} />
+              <BarOnlyLegend>
+                <SourceLegend share={shareAll} />
+              </BarOnlyLegend>
+              <VoiceDiversity
+                value={issueDiversity(articles)}
+                count={issueQuoteCount(articles)}
+                label={`기사 ${articles.length}건 전체의 목소리 다양성`}
+              />
+            </div>
+          </details>
         </CardContent>
       </Card>
 
       {camps && (
         <ComparePin
           majority={majorityCamp(issue)}
-          slopeMean={dist.slopeMean}
+          issueSlope={slope.enough ? slope.value : null}
           blindspot={dist.blindspot}
           pinned={
             pinned && {
               id: pinned.id,
               title: pinned.title,
               outletName: getOutlet(pinned.outletId)?.name ?? "",
-              slope: pinned.metrics.slopeSmoothed,
+              slope: pinned.metrics.slope,
               basis: pinned.metrics.slopeBasis,
+              camps: pinned.metrics.camps,
             }
           }
         />
@@ -139,19 +150,12 @@ export default async function IssuePage({ params }) {
               <CardHeader>
                 <span className="text-xs font-medium text-muted-foreground">{getOutlet(article.outletId)?.name}</span>
                 <CardTitle className="leading-snug group-hover:underline">{article.title}</CardTitle>
+                <p className="line-clamp-2 text-sm text-muted-foreground">{article.summary}</p>
               </CardHeader>
               <CardContent className="flex flex-col gap-3">
                 <ShareChart share={sourceShare(article)} label="인용 출처" size={80} />
-                <VoiceDiversity value={voiceDiversity(article)} count={quoteCount(article)} compare={averageDiversity(articles)} compact />
                 {camps && article.metrics ? (
-                  <QuoteSlope
-                    value={article.metrics.slopeSmoothed}
-                    basis={article.metrics.slopeBasis}
-                    compare={dist.slopeMean}
-                    compareLabel="이 이슈 평균"
-                    label="양대 정당 기준 기울기"
-                    compact
-                  />
+                  <CampCount camps={article.metrics.camps} size="sm" />
                 ) : (
                   <QuoteSlope value={quoteSlope(article)} compare={averageSlope(articles)} compact />
                 )}

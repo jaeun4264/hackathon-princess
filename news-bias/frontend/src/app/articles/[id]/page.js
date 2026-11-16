@@ -22,10 +22,10 @@ import {
 import data from "@/data/news-live.json";
 import { RecordRead } from "@/components/news/record-read";
 import { OriginalLink } from "@/components/news/original-link";
-import { QuoteSlope } from "@/components/news/quote-slope";
+import { CampCount } from "@/components/news/camp-count";
 import { VoiceDiversity } from "@/components/news/voice-diversity";
 import { CampDistributionBar, InstitutionNote } from "@/components/news/camp-distribution";
-import { articleSlope, issueSlope, slopeDiffText } from "@/lib/camps";
+import { articleSlope } from "@/lib/camps";
 
 export function generateStaticParams() {
   return data.articles.map((a) => ({ id: a.id }));
@@ -56,11 +56,8 @@ export default async function ArticlePage({ params }) {
   ];
   // 양대 정당 기울기: 보정 없는 값 (한쪽만 인용하면 ±1). 이슈 쪽은 이슈 전체 인용을 합친 값
   const slope = articleSlope(article);
-  const issueSl = issueSlope(issue);
-  const slopeMean = issueSl.enough ? issueSl.value : null;
   const others = getArticlesOfIssue(article.issueId).filter((a) => a.id !== article.id);
   const opinionAvg = others.length ? others.reduce((s, a) => s + opinionRatio(a), 0) / others.length : null;
-  const diffText = slope.enough ? slopeDiffText(slope.value, slopeMean) : null;
 
   return (
     <main className="mx-auto flex max-w-3xl flex-col gap-6 px-4 py-10">
@@ -74,9 +71,57 @@ export default async function ArticlePage({ params }) {
           {outlet?.name} · {formatDate(article.publishedAt)}
         </span>
         <h1 className="text-2xl font-bold leading-snug tracking-tight">{article.title}</h1>
-        <p className="text-muted-foreground">{article.summary}</p>
-        <OriginalLink articleId={article.id} url={article.url} outletName={outlet?.name} className="text-sm underline underline-offset-4" />
       </div>
+
+      {/* 한눈에 보기 (11/16 사용자 테스트: "정보가 너무 많다", "기울기·마이너스 숫자가 어렵다" → 요약과 발언 건수 먼저) */}
+      <Card className="gap-4">
+        <CardHeader>
+          <CardTitle>한눈에 보기</CardTitle>
+        </CardHeader>
+        <CardContent>
+          <dl className="grid gap-3 text-sm sm:grid-cols-[8rem_1fr]">
+            <dt className="font-medium text-muted-foreground">무슨 일</dt>
+            <dd className="leading-relaxed">{article.summary}</dd>
+            <dt className="font-medium text-muted-foreground">누가 말했나</dt>
+            <dd>
+              <CampCount camps={article.metrics?.camps} />
+            </dd>
+            <dt className="font-medium text-muted-foreground">빠진 목소리</dt>
+            <dd>
+              {article.missingViewpoints.length > 0
+                ? article.missingViewpoints.map((m) => sourceLabel(m.sourceType)).join(", ") + " 인용이 없어요 (같은 이슈 다른 기사에는 있음)"
+                : "같은 이슈의 다른 기사와 비교해 빠진 목소리가 없어요"}
+            </dd>
+          </dl>
+        </CardContent>
+      </Card>
+      <OriginalLink
+        articleId={article.id}
+        url={article.url}
+        outletName={outlet?.name}
+        className="self-start rounded-md border px-4 py-2 text-sm font-medium hover:bg-muted"
+      />
+
+      {/* 반대 시각 기사 추천 */}
+      {recommendations.length > 0 && (
+        <Card>
+          <CardHeader>
+            <CardTitle>다른 쪽 말도 들어 보기</CardTitle>
+            <CardDescription>같은 사건을 다룬 기사 중 인용한 사람이 이 기사와 가장 다른 기사예요.</CardDescription>
+          </CardHeader>
+          <CardContent className="flex flex-col gap-3">
+            {recommendations.map((r) => (
+              <Link key={r.id} href={`/articles/${r.id}?from=recommend`} className="group flex flex-col gap-1.5 rounded-lg border p-3">
+                <span className="text-xs text-muted-foreground">{getOutlet(r.outletId)?.name}</span>
+                <span className="font-medium group-hover:underline">{r.title}</span>
+                <CampCount camps={r.metrics?.camps} size="sm" />
+              </Link>
+            ))}
+          </CardContent>
+        </Card>
+      )}
+      <h2 className="pt-2 text-lg font-semibold">자세히 보기</h2>
+
 
       {/* 같은 이슈의 다른 기사와 비교 */}
       <Card>
@@ -104,22 +149,6 @@ export default async function ArticlePage({ params }) {
           <div className="flex flex-col gap-3 rounded-lg border p-3">
             <CampDistributionBar camps={article.metrics?.camps} label="이 기사의 진영별 인용" height="h-5" />
             <InstitutionNote count={slope.institution} />
-            {slope.enough ? (
-              <>
-                <QuoteSlope value={slope.value} compare={slopeMean} label="양대 정당 기준 기울기" compareLabel="이 이슈 전체" />
-                {diffText && <span className="text-sm">{diffText}</span>}
-              </>
-            ) : (
-              <div className="flex flex-col gap-1">
-                <span className="text-xs text-muted-foreground">양대 정당 기준 기울기</span>
-                <span className="text-sm">인용이 적어 판단하기 어려움 (정부·여당·제1야당 인용 {slope.basis}건)</span>
-              </div>
-            )}
-            <span className="text-xs text-muted-foreground">
-              양대 정당 기준 기울기: (정부·여당 인용 − 제1야당 인용) ÷ (둘의 합). 한쪽만 인용하면 ±1이고, 둘을 합쳐
-              3건 미만이면 숫자를 보여 주지 않습니다
-              {slope.excluded > 0 ? ` (제3정당·무소속 ${slope.excluded}건은 위 막대에만 별도 표시)` : ""}.
-            </span>
           </div>
           <span className="text-sm text-muted-foreground">
             의견 문장 비율 {Math.round(opinionRatio(article) * 100)}%
@@ -207,24 +236,6 @@ export default async function ArticlePage({ params }) {
         </Card>
       )}
 
-      {/* 반대 시각 기사 추천 */}
-      {recommendations.length > 0 && (
-        <Card>
-          <CardHeader>
-            <CardTitle>다른 시각의 기사</CardTitle>
-            <CardDescription>인용한 출처가 이 기사와 가장 다른 기사입니다.</CardDescription>
-          </CardHeader>
-          <CardContent className="flex flex-col gap-3">
-            {recommendations.map((r) => (
-              <Link key={r.id} href={`/articles/${r.id}?from=recommend`} className="group flex flex-col gap-1.5 rounded-lg border p-3">
-                <span className="text-xs text-muted-foreground">{getOutlet(r.outletId)?.name}</span>
-                <span className="font-medium group-hover:underline">{r.title}</span>
-                <ShareChart share={compareWithIssue(r).mine} size={72} />
-              </Link>
-            ))}
-          </CardContent>
-        </Card>
-      )}
     </main>
   );
 }
