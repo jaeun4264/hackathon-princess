@@ -171,14 +171,18 @@ export function hasCampData(issue) {
   return Boolean(issue?.distribution);
 }
 
-// 이슈 다수 쪽: 기사 보정 기울기 평균의 부호 (+ 정부·여당 / − 제1야당, 0·없음이면 null)
+// 이슈 다수 쪽: 이슈 전체 정부·여당 인용 vs 제1야당 인용 중 많은 쪽 (같으면·없으면 null)
+//   기사별 기울기 평균이 아니라 분포 막대와 같은 합계 기준
 export function majorityCamp(issue) {
-  const mean = issue?.distribution?.slopeMean;
-  if (!mean) return null;
-  return mean > 0 ? "ruling" : "mainOpp";
+  const camps = issue?.distribution?.camps;
+  if (!camps) return null;
+  const r = camps.ruling ?? 0;
+  const o = camps.mainOpp ?? 0;
+  if (r === o) return null;
+  return r > o ? "ruling" : "mainOpp";
 }
 
-// 소수 쪽 고정 자리: 보정 기울기 부호가 이슈 다수와 반대인 기사 하나
+// 소수 쪽 고정 자리: 기울기(metrics.slope) 부호가 이슈 다수와 반대인 기사 하나
 //   인용이 충분한 기사(slopeBasis 3 이상)를 먼저, 그다음 반대 방향으로 더 기운 기사
 //   없으면 null → 빈자리를 채우지 않고 사각지대 안내로 대신
 export function minorityArticle(issue, articles) {
@@ -186,16 +190,44 @@ export function minorityArticle(issue, articles) {
   if (!majority) return null;
   const sign = majority === "ruling" ? 1 : -1;
   const candidates = articles.filter((a) => {
-    const s = a.metrics?.slopeSmoothed;
+    const s = a.metrics?.slope;
     return s !== null && s !== undefined && Math.sign(s) === -sign;
   });
   candidates.sort((x, y) => {
     const enoughX = x.metrics.slopeBasis >= 3 ? 1 : 0;
     const enoughY = y.metrics.slopeBasis >= 3 ? 1 : 0;
     if (enoughX !== enoughY) return enoughY - enoughX;
-    return Math.abs(y.metrics.slopeSmoothed) - Math.abs(x.metrics.slopeSmoothed);
+    if (x.metrics.slopeBasis !== y.metrics.slopeBasis) return y.metrics.slopeBasis - x.metrics.slopeBasis;
+    return Math.abs(y.metrics.slope) - Math.abs(x.metrics.slope);
   });
   return candidates[0] ?? null;
+}
+
+// 이슈 전체 인용 출처 비중: 기사별 비중의 평균이 아니라 이슈 기사들의 인용을 모두 합쳐서 (합이 100%)
+//   (예전 averageShare 는 인용 없는 기사를 0으로 넣어 합이 100%가 안 됐음)
+export function issueShare(articles) {
+  const share = Object.fromEntries(sourceTypes.map((t) => [t.id, 0]));
+  let total = 0;
+  for (const a of articles) {
+    for (const s of a.sentences) {
+      if (!KNOWN_SOURCE.has(s.sourceType)) continue;
+      share[s.sourceType] += 1;
+      total += 1;
+    }
+  }
+  if (total === 0) return share;
+  for (const id of Object.keys(share)) share[id] = share[id] / total;
+  return share;
+}
+
+// 이슈 전체 목소리 다양성: 이슈 기사들의 인용을 합쳐서 계산
+//   (기사마다 한 유형만 인용해도 이슈 전체에 여러 목소리가 있으면 0보다 큼)
+export function issueDiversity(articles) {
+  return diversityOfShare(issueShare(articles));
+}
+
+export function issueQuoteCount(articles) {
+  return articles.reduce((sum, a) => sum + quoteCount(a), 0);
 }
 
 export function formatDate(iso) {
@@ -207,12 +239,14 @@ export function getAllArticles() {
   return data.articles;
 }
 
-// 내 읽기 편향: 내가 읽은 기사들의 인용 출처 비중을 전체 기사 평균과 비교
+// 내 읽기 편향: 내가 읽은 기사들의 인용 출처 비중을 사이트 전체 기사와 비교
+//   둘 다 기사별 비중의 평균이 아니라 인용을 모두 합친 비율 (합이 100%, '내가 접한 진영 분포'와 같은 기준)
+//   (예전 averageShare 는 인용 없는 기사를 0으로 넣어 사이트 전체 합이 92%, 야당이 40% → 30%로 낮게 잡혔음)
 export function readingBias(readArticleIds) {
   const read = readArticleIds.map(getArticle).filter(Boolean);
-  const mine = averageShare(read);
-  const all = averageShare(data.articles);
-  // 전체 평균보다 10%p 이상 적게 접한 출처 = 덜 접한 목소리
+  const mine = issueShare(read);
+  const all = issueShare(data.articles);
+  // 사이트 전체보다 10%p 이상 적게 접한 출처 = 덜 접한 목소리
   const lessHeard = sourceTypes
     .map((t) => ({ ...t, diff: mine[t.id] - all[t.id] }))
     .filter((t) => t.diff <= -0.1)

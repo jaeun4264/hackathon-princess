@@ -25,7 +25,7 @@ import { OriginalLink } from "@/components/news/original-link";
 import { QuoteSlope } from "@/components/news/quote-slope";
 import { VoiceDiversity } from "@/components/news/voice-diversity";
 import { CampDistributionBar, InstitutionNote } from "@/components/news/camp-distribution";
-import { articleSlope, slopeDiffText } from "@/lib/camps";
+import { articleSlope, issueSlope, slopeDiffText } from "@/lib/camps";
 
 export function generateStaticParams() {
   return data.articles.map((a) => ({ id: a.id }));
@@ -54,9 +54,10 @@ export default async function ArticlePage({ params }) {
         .map((s) => [s.sourceName, { name: s.sourceName, sourceType: s.sourceType, party: s.party, stateBody: s.stateBody }]),
     ).values(),
   ];
-  // 양대 정당 기울기: 백엔드가 계산한 보정값을 그대로 씀 (화면에서 다시 계산하지 않음)
+  // 양대 정당 기울기: 보정 없는 값 (한쪽만 인용하면 ±1). 이슈 쪽은 이슈 전체 인용을 합친 값
   const slope = articleSlope(article);
-  const slopeMean = issue.distribution?.slopeMean ?? null;
+  const issueSl = issueSlope(issue);
+  const slopeMean = issueSl.enough ? issueSl.value : null;
   const others = getArticlesOfIssue(article.issueId).filter((a) => a.id !== article.id);
   const opinionAvg = others.length ? others.reduce((s, a) => s + opinionRatio(a), 0) / others.length : null;
   const diffText = slope.enough ? slopeDiffText(slope.value, slopeMean) : null;
@@ -105,7 +106,7 @@ export default async function ArticlePage({ params }) {
             <InstitutionNote count={slope.institution} />
             {slope.enough ? (
               <>
-                <QuoteSlope value={slope.value} compare={slopeMean} label="양대 정당 기준 기울기" compareLabel="이 이슈 평균" />
+                <QuoteSlope value={slope.value} compare={slopeMean} label="양대 정당 기준 기울기" compareLabel="이 이슈 전체" />
                 {diffText && <span className="text-sm">{diffText}</span>}
               </>
             ) : (
@@ -115,7 +116,8 @@ export default async function ArticlePage({ params }) {
               </div>
             )}
             <span className="text-xs text-muted-foreground">
-              양대 정당 기준 기울기: 정부·여당과 제1야당 인용만으로 계산하고, 인용이 적은 기사가 ±1로 튀지 않도록 보정했습니다
+              양대 정당 기준 기울기: (정부·여당 인용 − 제1야당 인용) ÷ (둘의 합). 한쪽만 인용하면 ±1이고, 둘을 합쳐
+              3건 미만이면 숫자를 보여 주지 않습니다
               {slope.excluded > 0 ? ` (제3정당·무소속 ${slope.excluded}건은 위 막대에만 별도 표시)` : ""}.
             </span>
           </div>

@@ -15,8 +15,8 @@ import {
 } from "@/components/news/camp-distribution";
 import { ComparePin } from "@/components/news/compare-pin";
 import { StanceSummary } from "@/components/news/stance-summary";
+import { issueSlope } from "@/lib/camps";
 import {
-  averageShare,
   averageSlope,
   quoteSlope,
   averageDiversity,
@@ -28,6 +28,9 @@ import {
   getIssues,
   getOutlet,
   hasCampData,
+  issueDiversity,
+  issueQuoteCount,
+  issueShare,
   majorityCamp,
   minorityArticle,
   opinionRatio,
@@ -50,6 +53,8 @@ export default async function IssuePage({ params }) {
   const camps = hasCampData(issue);
   const dist = issue.distribution;
   const pinned = camps ? minorityArticle(issue, articles) : null;
+  const slope = issueSlope(issue);
+  const shareAll = issueShare(articles);
 
   return (
     <main className="mx-auto flex max-w-5xl flex-col gap-6 px-4 py-10">
@@ -101,13 +106,22 @@ export default async function IssuePage({ params }) {
 
       <Card>
         <CardContent className="flex flex-col gap-3">
-          <ShareChart share={averageShare(articles)} label={`기사 ${articles.length}건의 평균 인용 출처`} barHeight="h-4" size={120} />
+          {/* 이슈 숫자는 분포 막대와 같은 기준: 기사별 값의 평균이 아니라 이슈 기사들의 인용을 모두 합쳐서 */}
+          <ShareChart share={shareAll} label={`기사 ${articles.length}건의 인용 출처 (전체 합계)`} barHeight="h-4" size={120} />
           <BarOnlyLegend>
-            <SourceLegend share={averageShare(articles)} />
+            <SourceLegend share={shareAll} />
           </BarOnlyLegend>
-          <VoiceDiversity value={averageDiversity(articles)} label={`기사 ${articles.length}건의 평균 목소리 다양성`} />
+          <VoiceDiversity
+            value={issueDiversity(articles)}
+            count={issueQuoteCount(articles)}
+            label={`기사 ${articles.length}건 전체의 목소리 다양성`}
+          />
           {camps ? (
-            <QuoteSlope value={dist.slopeMean} label={`기사 ${articles.length}건의 평균 기울기 (양대 정당 기준)`} />
+            <QuoteSlope
+              value={slope.value}
+              basis={slope.basis}
+              label={`기사 ${articles.length}건 전체의 기울기 (양대 정당 기준)`}
+            />
           ) : (
             <QuoteSlope value={averageSlope(articles)} label={`기사 ${articles.length}건의 평균 인용 기울기`} />
           )}
@@ -117,14 +131,14 @@ export default async function IssuePage({ params }) {
       {camps && (
         <ComparePin
           majority={majorityCamp(issue)}
-          slopeMean={dist.slopeMean}
+          issueSlope={slope.enough ? slope.value : null}
           blindspot={dist.blindspot}
           pinned={
             pinned && {
               id: pinned.id,
               title: pinned.title,
               outletName: getOutlet(pinned.outletId)?.name ?? "",
-              slope: pinned.metrics.slopeSmoothed,
+              slope: pinned.metrics.slope,
               basis: pinned.metrics.slopeBasis,
             }
           }
@@ -145,10 +159,10 @@ export default async function IssuePage({ params }) {
                 <VoiceDiversity value={voiceDiversity(article)} count={quoteCount(article)} compare={averageDiversity(articles)} compact />
                 {camps && article.metrics ? (
                   <QuoteSlope
-                    value={article.metrics.slopeSmoothed}
+                    value={article.metrics.slope}
                     basis={article.metrics.slopeBasis}
-                    compare={dist.slopeMean}
-                    compareLabel="이 이슈 평균"
+                    compare={slope.enough ? slope.value : null}
+                    compareLabel="이 이슈 전체"
                     label="양대 정당 기준 기울기"
                     compact
                   />

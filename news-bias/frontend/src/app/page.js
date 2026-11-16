@@ -2,7 +2,7 @@ import { SourceLegend } from "@/components/news/source-share-bar";
 import { BarOnlyLegend } from "@/components/news/share-chart";
 import { Intro } from "@/components/news/intro";
 import { IssueList } from "@/components/news/issue-list";
-import { averageShare, formatDate, getArticlesOfIssue, getIssues } from "@/lib/news";
+import { formatDate, getArticlesOfIssue, getIssues, issueShare } from "@/lib/news";
 
 // 화면 1: 이슈 목록 (분야별로 골라 보기)
 export default function Home() {
@@ -15,7 +15,7 @@ export default function Home() {
       category: issue.category,
       verified: issue.origin === "curated",
       dateLabel: formatDate(issue.date),
-      share: averageShare(articles),
+      share: issueShare(articles),
       articleCount: articles.length,
     };
   });
