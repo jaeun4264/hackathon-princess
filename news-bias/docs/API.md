@@ -147,3 +147,16 @@ GitHub Actions(`.github/workflows/daily.yml`)가 한국 시간 08시·17시쯤 `
 ## Syntitan 준비 (11/8)
 `python -m app.syntitan 진단 정답_1차.xlsx` → 무료 진단 30줄, `전체` → 보강 씨앗. 보강 결과(열: 문장, 유형, 출처유형, 인용한사람)는
 `analyze --예시 보강.csv` 로 프롬프트 예시에 넣어 전후 비교. 씨앗은 1차, 평가는 2차 정답으로 분리.
+
+## 쟁점 요약 `issues[].stance` (11/16 추가)
+
+사용자 테스트에서 여야가 실제로는 같은 입장(가상자산 과세 유예 찬성)인데 정반대로 기억한 응답이 나와 추가했습니다.
+
+```json
+"stance": { "common": "여야가 같은 점 한 문장 또는 null", "diff": "여야가 다른 점 한 문장 또는 null",
+            "sources": ["근거 언론사"], "by": "ai | human" }
+```
+
+- 자동 이슈: 매일 실행 때 AI가 기사 제목·요약과 인용된 사람(정당)만 보고 작성. 평가 단어(강행·꼼수 등)나 90자를 넘는 칸은 버림. 둘 다 없으면 `stance: null`.
+- 사람이 확인한 이슈: `data/curated.json`에 직접 작성 (`by: "human"`).
+- 화면: 이슈 화면 제목 아래 '쟁점 요약' 칸 (`components/news/stance-summary.jsx`).
