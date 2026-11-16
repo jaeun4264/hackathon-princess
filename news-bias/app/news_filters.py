@@ -37,7 +37,20 @@ def clean_summary(text: str | None) -> str:
         if m:
             s = s[m.end():]
     s = _LEAD_TAG.sub("", s)
-    return s.strip()
+    return _drop_cut_start(s.strip())
+
+
+# 포털 요약이 문장 중간(주소 꼬리 등)부터 잘려 시작하면 첫 조각을 버림 (11/16: "kr)을 개설하고 …")
+_CUT_START = re.compile(r"^(?:[a-z][a-z0-9./-]*[)\]]|[)\]])")
+_SENT_END = re.compile(r"(?:다|요|음)\.+\s+|\.\.\.\s+|…\s+")
+
+
+def _drop_cut_start(s: str) -> str:
+    if not _CUT_START.match(s):
+        return s
+    m = _SENT_END.search(s)
+    rest = s[m.end():].strip() if m else ""
+    return rest or s
 
 
 # ---------- 2. 모아보기 기사 ----------

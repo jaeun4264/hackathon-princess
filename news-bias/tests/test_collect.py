@@ -97,3 +97,10 @@ def test_roundup_and_byline():
     assert clean_summary("뉴데일리 김보연 = 국민의힘 송언석") == "국민의힘 송언석"
     assert clean_summary("(사진=연합뉴스) 송언석 의원은") == "송언석 의원은"
     assert clean_summary("박성훈 수석대변인도 이날 국회에서 기자들과 만나") == "박성훈 수석대변인도 이날 국회에서 기자들과 만나"
+
+
+def test_summary_cut_start():
+    from app.news_filters import clean_summary
+    s = "kr)을 개설하고 공개토론회를 거쳐 권고안을 제출할 계획이라고 밝혔다.... 위원회는 다음 달 중 정부에 최종 권고안을 제출할 계획이다...."
+    assert clean_summary(s).startswith("위원회는")
+    assert clean_summary("이 대통령은 14일 말했다.") == "이 대통령은 14일 말했다."

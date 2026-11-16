@@ -131,7 +131,8 @@ export function compareWithIssue(article) {
 export function differentViewArticles(article, limit = 2) {
   const mine = sourceShare(article);
   return getArticlesOfIssue(article.issueId)
-    .filter((a) => a.id !== article.id)
+    // 직접 인용이 하나도 없는 기사는 '다른 쪽 말'을 들려줄 수 없으므로 추천에서 뺌 (11/16)
+    .filter((a) => a.id !== article.id && quoteCount(a) > 0)
     .map((a) => {
       const other = sourceShare(a);
       const distance = sourceTypes.reduce((sum, t) => sum + Math.abs(mine[t.id] - other[t.id]), 0);

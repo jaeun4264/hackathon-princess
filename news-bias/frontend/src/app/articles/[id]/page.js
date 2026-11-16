@@ -22,7 +22,7 @@ import {
 import data from "@/data/news-live.json";
 import { RecordRead } from "@/components/news/record-read";
 import { OriginalLink } from "@/components/news/original-link";
-import { CampCount } from "@/components/news/camp-count";
+import { CampCount, TopSpeakers } from "@/components/news/camp-count";
 import { VoiceDiversity } from "@/components/news/voice-diversity";
 import { CampDistributionBar, InstitutionNote } from "@/components/news/camp-distribution";
 import { articleSlope } from "@/lib/camps";
@@ -114,7 +114,7 @@ export default async function ArticlePage({ params }) {
               <Link key={r.id} href={`/articles/${r.id}?from=recommend`} className="group flex flex-col gap-1.5 rounded-lg border p-3">
                 <span className="text-xs text-muted-foreground">{getOutlet(r.outletId)?.name}</span>
                 <span className="font-medium group-hover:underline">{r.title}</span>
-                <CampCount camps={r.metrics?.camps} size="sm" />
+                <TopSpeakers article={r} />
               </Link>
             ))}
           </CardContent>
