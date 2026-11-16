@@ -240,3 +240,30 @@ def test_new_issue_id_never_collides(monkeypatch):
     arch = {"issues": [{"id": "auto-20261114-1747-1"}, {"id": "auto-20261114-1747-2"}], "articles": []}
     assert D.new_issue_id(arch, "2026-11-14") == "auto-20261114-1747-3"
     assert D.new_issue_id({"issues": [], "articles": []}, "2026-11-14") == "auto-20261114-1747-1"
+
+
+def test_stance_summary_is_filled_and_checked(daily_env):
+    """쟁점 요약: AI 응답을 검사해 이슈에 넣고, 평가 단어·너무 긴 문장은 버림"""
+    cfg, fetcher, llm = daily_env
+
+    def handler(req):
+        msgs = json.loads(req.content)["messages"]
+        if "쟁점 정리 보조" in msgs[0]["content"]:
+            assert "인용:" in msgs[-1]["content"]  # 인용된 사람 목록이 함께 감
+            body = {"common": "여야 모두 요금 인상의 필요성은 인정한다", "diff": "가상당은 시가 요금을 강행한다고 비판한다",
+                    "sources": ["연합뉴스", "없는언론"]}
+            return httpx.Response(200, json={"choices": [{"message": {"content": json.dumps(body, ensure_ascii=False)}}]})
+        return llm_handler(req)
+
+    data = D.run(cfg, collect_fn=fake_collect, fetcher=fetcher, llm=llm, client=httpx.Client(transport=httpx.MockTransport(handler)))
+    st = next(i for i in data["issues"] if i["origin"] == "auto")["stance"]
+    assert st["common"] == "여야 모두 요금 인상의 필요성은 인정한다"
+    assert st["diff"] is None              # '강행' 같은 평가 단어가 들어간 칸은 버림
+    assert "없는언론" not in st["sources"] and st["by"] == "ai"
+    archived = json.loads(D.ARCHIVE.read_text(encoding="utf-8"))
+    assert all("stance" in i for i in archived["issues"])   # 한 번 시도한 이슈는 다시 묻지 않음
+
+
+def test_clean_stance_rejects_empty():
+    assert D.clean_stance({"common": None, "diff": "null"}, {"a"}) is None
+    assert D.clean_stance("x", {"a"}) is None
