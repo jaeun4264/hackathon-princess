@@ -60,7 +60,7 @@ function WeeklyReport({ events }) {
             )}
             {lessHeard.length > 0 ? (
               <li>
-                <b>{lessHeard.map((t) => t.label).join(", ")}</b>의 목소리는 전체 평균보다 적게 접했습니다.
+                <b>{lessHeard.map((t) => t.label).join(", ")}</b>의 목소리는 사이트 전체보다 적게 접했습니다.
               </li>
             ) : (
               <li>여러 목소리를 고르게 접했습니다.</li>
@@ -153,10 +153,10 @@ export function MyBiasDashboard() {
       <Card>
         <CardHeader>
           <CardTitle>지금까지 내가 접한 인용 출처</CardTitle>
-          <CardDescription>읽은 기사에서 누구의 말을 많이 접했는지 사이트 전체 기사 평균과 비교합니다.</CardDescription>
+          <CardDescription>읽은 기사에서 누구의 말을 많이 접했는지 사이트 전체 기사와 비교합니다.</CardDescription>
         </CardHeader>
         <CardContent className="flex flex-col gap-4">
-          <CompareCharts mine={mine} avg={all} mineLabel="내가 읽은 기사" avgLabel="사이트 전체 기사 평균" />
+          <CompareCharts mine={mine} avg={all} mineLabel="내가 읽은 기사" avgLabel="사이트 전체 기사" />
           <VoiceDiversity value={diversityOfShare(mine)} compare={diversityOfShare(all)} label="내가 접한 목소리 다양성" compareLabel="사이트 전체 기사" />
           <BarOnlyLegend>
             <SourceLegend />
@@ -186,7 +186,7 @@ export function MyBiasDashboard() {
       <Card>
         <CardHeader>
           <CardTitle>덜 접한 목소리</CardTitle>
-          <CardDescription>사이트 전체 기사 평균보다 10%p 이상 적게 접한 출처입니다.</CardDescription>
+          <CardDescription>사이트 전체 기사보다 10%p 이상 적게 접한 출처입니다.</CardDescription>
         </CardHeader>
         <CardContent className="flex flex-col gap-4">
           {lessHeard.length === 0 ? (
@@ -195,7 +195,7 @@ export function MyBiasDashboard() {
             <ul className="list-disc space-y-1 pl-5 text-sm">
               {lessHeard.map((t) => (
                 <li key={t.id}>
-                  <b>{t.label}</b>의 목소리를 전체 평균보다 {Math.round(-t.diff * 100)}%p 적게 접했습니다
+                  <b>{t.label}</b>의 목소리를 사이트 전체보다 {Math.round(-t.diff * 100)}%p 적게 접했습니다
                 </li>
               ))}
             </ul>
