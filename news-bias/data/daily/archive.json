@@ -715,6 +715,74 @@
     ],
     "by": "ai"
    }
+  },
+  {
+   "id": "auto-20261118-1256-1",
+   "title": "조태용 전 국정원장 징역 2년 6개월 확정",
+   "summary": "대법원이 비상계엄 관련 위증 및 국정원법 위반 등 혐의로 기소된 조태용 전 국가정보원장에게 징역 2년 6개월을 선고한 원심을 확정했다. 조 전 원장은 계엄 당시 정치인 체포 지시 보고를 받고도 이를 부인하고 국회와 헌법재판소에서 허위 증언한 혐의 등으로 재판을 받아왔다.",
+   "category": "정치",
+   "date": "2026-11-18",
+   "origin": "auto",
+   "stance": null
+  },
+  {
+   "id": "auto-20261118-1257-1",
+   "title": "국회, 김종철 경찰청장 후보자 인사청문회 실시",
+   "summary": "국회 행정안전위원회는 18일 김종철 경찰청장 후보자에 대한 인사청문회를 열었다. 청문회에서는 AI 활용 시험 부정행위 수사 현황과 경찰의 정치적 중립성 등이 쟁점이 되었다.",
+   "category": "정치",
+   "date": "2026-11-18",
+   "origin": "auto",
+   "stance": null
+  },
+  {
+   "id": "auto-20261118-1259-1",
+   "title": "노만석 “尹 구속취소 당시 검찰 내부 의견”",
+   "summary": "노만석 전 대검찰청 차장검사가 심우정 전 검찰총장 재판에 증인으로 출석해 과거 윤석열 전 대통령 구속취소 결정 당시 검찰 내부 의견에 대해 증언했다.",
+   "category": "사회",
+   "date": "2026-11-17",
+   "origin": "auto",
+   "stance": null
+  },
+  {
+   "id": "auto-20261118-1300-1",
+   "title": "수능 AI 부정행위 방지 대책 및 포상금 지시 공방",
+   "summary": "이재명 대통령이 수능 인공지능 부정행위 방지를 위한 신고 포상금과 재난문자 발송 등을 지시한 것을 두고 야권의 비판과 여당의 검토 입장이 맞섰다.",
+   "category": "정치",
+   "date": "2026-11-18",
+   "origin": "auto",
+   "stance": {
+    "common": null,
+    "diff": "더불어민주당은 신고 포상금 도입 등 대책을 검토하고, 국민의힘은 무책임한 재래식 대응이라고 비판한다.",
+    "sources": [
+     "연합뉴스",
+     "뉴시스",
+     "TV조선",
+     "한국일보",
+     "서울신문",
+     "연합뉴스TV",
+     "뉴데일리",
+     "펜앤마이크"
+    ],
+    "by": "ai"
+   }
+  },
+  {
+   "id": "auto-20261118-1302-1",
+   "title": "공정위, 쿠팡·김범석 의장 검찰 고발 의견",
+   "summary": "공정거래위원회는 쿠팡과 김범석 의장이 총수 지정 관련 자료를 허위로 제출한 혐의로 검찰 고발 의견을 담은 심사보고서를 발송하고 심의에 착수했다.",
+   "category": "경제",
+   "date": "2026-11-17",
+   "origin": "auto",
+   "stance": null
+  },
+  {
+   "id": "auto-20261118-1303-1",
+   "title": "우원식, 민주당 내홍 비판",
+   "summary": "우원식 더불어민주당 의원은 18일 당내 갈등을 비판하며 김민석 대표와 정청래 전 대표를 향해 자성을 촉구하고, 추미애 경기지사에게는 경기도정에 집중하라고 밝혔다.",
+   "category": "정치",
+   "date": "2026-11-18",
+   "origin": "auto",
+   "stance": null
   }
  ],
  "articles": [
@@ -64378,6 +64446,6943 @@
     {
      "term": "반발",
      "sentenceId": "s7"
+    }
+   ],
+   "analyzedBy": "gemini-3.5-flash-lite"
+  },
+  {
+   "id": "a-5088d56dce",
+   "issueId": "auto-20261118-1256-1",
+   "outletId": "yna",
+   "outletName": "연합뉴스",
+   "title": "'체포지시 없었다' 허위 발언…조태용, 징역 2년6개월 확정(종합)",
+   "summary": "조태용 전 원장이 홍 전 차장의 동선이 담긴 국정원 폐쇄회로(CC)TV 영상을 국민의힘 측에만 제공하고, 자신의 동선이 담긴 영상은 더불어민주당 측에 제공하지 않아 국정원법을 위반한 혐의도 무죄 판단을 받았다. 조 전...",
+   "url": "https://www.yna.co.kr/view/AKR20261118082451004?input=1195m",
+   "publishedAt": "2026-11-18T11:29:00+09:00",
+   "sentences": [
+    {
+     "id": "s1",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s2",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s3",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s4",
+     "text": null,
+     "type": "quote",
+     "sourceType": "etc",
+     "sourceName": "대법원",
+     "sourceDetail": "법원",
+     "party": null
+    },
+    {
+     "id": "s5",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s6",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s7",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s8",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s9",
+     "text": null,
+     "type": "quote",
+     "sourceType": "etc",
+     "sourceName": "대법원",
+     "sourceDetail": "법원",
+     "party": null
+    },
+    {
+     "id": "s10",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s11",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s12",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s13",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s14",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s15",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s16",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s17",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s18",
+     "text": null,
+     "type": "quote",
+     "sourceType": "etc",
+     "sourceName": "2심 재판부",
+     "sourceDetail": "법원",
+     "party": null
+    },
+    {
+     "id": "s19",
+     "text": null,
+     "type": "quote",
+     "sourceType": "etc",
+     "sourceName": "2심 재판부",
+     "sourceDetail": "법원",
+     "party": null
+    },
+    {
+     "id": "s20",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    }
+   ],
+   "framingTerms": [],
+   "analyzedBy": "gemini-3.5-flash-lite"
+  },
+  {
+   "id": "a-1d84d96eb0",
+   "issueId": "auto-20261118-1256-1",
+   "outletId": "newsis",
+   "outletName": "뉴시스",
+   "title": "조태용 전 국정원장, 징역 2년6개월 확정…\"지위 이용해 정치관여\"(종합...",
+   "summary": "관련해 국회와 헌법재판소에서 위증한 혐의 등으로 재판에 넘겨진 조태용 전 국가정보원장에게 실형이 확정됐다. 대법원 3부(주심 오석준 대법관)는 18일 조 전 원장의 직무유기, 국가정보원법 위반, 국회에서의 증언...",
+   "url": "https://www.newsis.com/view/NISX20261118_0003873062",
+   "publishedAt": "2026-11-18T11:55:00+09:00",
+   "sentences": [
+    {
+     "id": "s1",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s2",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s3",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s4",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s5",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s6",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s7",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s8",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s9",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s10",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s11",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s12",
+     "text": null,
+     "type": "quote",
+     "sourceType": "etc",
+     "sourceName": "대법원",
+     "sourceDetail": "법원",
+     "party": null
+    },
+    {
+     "id": "s13",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s14",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s15",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s16",
+     "text": null,
+     "type": "quote",
+     "sourceType": "etc",
+     "sourceName": "대법원",
+     "sourceDetail": "법원",
+     "party": null
+    },
+    {
+     "id": "s17",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s18",
+     "text": null,
+     "type": "quote",
+     "sourceType": "etc",
+     "sourceName": "대법원",
+     "sourceDetail": "법원",
+     "party": null
+    },
+    {
+     "id": "s19",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s20",
+     "text": null,
+     "type": "quote",
+     "sourceType": "etc",
+     "sourceName": "대법원",
+     "sourceDetail": "법원",
+     "party": null
+    },
+    {
+     "id": "s21",
+     "text": null,
+     "type": "quote",
+     "sourceType": "etc",
+     "sourceName": "대법원",
+     "sourceDetail": "법원",
+     "party": null
+    },
+    {
+     "id": "s22",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s23",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s24",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s25",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s26",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s27",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s28",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s29",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s30",
+     "text": null,
+     "type": "quote",
+     "sourceType": "etc",
+     "sourceName": "대법원 관계자",
+     "sourceDetail": "법원",
+     "party": null
+    }
+   ],
+   "framingTerms": [
+    {
+     "term": "재판에 넘겨진",
+     "sentenceId": "s1"
+    },
+    {
+     "term": "재판에 넘겨졌다",
+     "sentenceId": "s3"
+    },
+    {
+     "term": "설명했다",
+     "sentenceId": "s12"
+    },
+    {
+     "term": "판시했다",
+     "sentenceId": "s16"
+    },
+    {
+     "term": "했다",
+     "sentenceId": "s18"
+    },
+    {
+     "term": "설명했다",
+     "sentenceId": "s20"
+    },
+    {
+     "term": "덧붙였다",
+     "sentenceId": "s21"
+    },
+    {
+     "term": "설명했다",
+     "sentenceId": "s30"
+    }
+   ],
+   "analyzedBy": "gemini-3.5-flash-lite"
+  },
+  {
+   "id": "a-c797136db8",
+   "issueId": "auto-20261118-1256-1",
+   "outletId": "kbs",
+   "outletName": "KBS",
+   "title": "대법 “조태용, 윤석열 정치인 체포 지시 보고받아”…징역 2년 6개월 확...",
+   "summary": "■ 홍장원 비화폰 기록 삭제·국회와 헌재 위증도 유죄 조 전 원장이 대통령경호처장과 공모해 홍 전 차장의... 국회 국정조사와 헌법재판소 탄핵심판에서 정치인 체포 지시 보고 사실을 부인한 위증 혐의도 유죄로...",
+   "url": "https://news.kbs.co.kr/news/pc/view/view.do?ncd=8716000&ref=A",
+   "publishedAt": "2026-11-18T11:40:00+09:00",
+   "sentences": [
+    {
+     "id": "s1",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s2",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s3",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s4",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s5",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s6",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s7",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s8",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s9",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s10",
+     "text": null,
+     "type": "quote",
+     "sourceType": "etc",
+     "sourceName": "조 전 원장",
+     "sourceDetail": "익명(소속 미상)",
+     "party": null
+    },
+    {
+     "id": "s11",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s12",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s13",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s14",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s15",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s16",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s17",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s18",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s19",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    }
+   ],
+   "framingTerms": [],
+   "analyzedBy": "gemini-3.5-flash-lite"
+  },
+  {
+   "id": "a-c7b16f13d0",
+   "issueId": "auto-20261118-1256-1",
+   "outletId": "chosun",
+   "outletName": "조선일보",
+   "title": "‘정치 관여’ 조태용 전 국정원장, 대법서 징역 2년 6개월 확정",
+   "summary": "2024년 3~4월 삼청동 안가 회동에서 윤 전 대통령이 ‘비상한 조치가 필요하다’는 취지로 언급한 것을 들었음에도 못 들었다고 말한 것, 대통령실 집무실 원탁에 놓인 비상계엄 관련 종이를 보고도 못 봤다고 한 것 등이다....",
+   "url": "https://www.chosun.com/national/court_law/2026/11/18/3SYWNG2CPFFUJFRUAOV7NQPGN4/?utm_source=naver&utm_medium=referral&utm_campaign=naver-news",
+   "publishedAt": "2026-11-18T11:04:00+09:00",
+   "sentences": [
+    {
+     "id": "s1",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s2",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s3",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s4",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s5",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s6",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    }
+   ],
+   "framingTerms": [],
+   "analyzedBy": "gemini-3.5-flash-lite"
+  },
+  {
+   "id": "a-dad59e60d2",
+   "issueId": "auto-20261118-1256-1",
+   "outletId": "joongang",
+   "outletName": "중앙일보",
+   "title": "대법, ‘정치관여’ 조태용 前국정원장 징역 2년6개월 확정",
+   "summary": "대법원 3부(주심 오석준 대법관)는 18일 조 전 원장의 직무유기, 국가정보원법 위반, 국회에서의 증언... 행위는 수사기관과 법원의 실체적 진실 발견이라는 기능을 저해할 가능성이 커 그 책임이 가볍지 않다”고 지적했다.",
+   "url": "https://www.joongang.co.kr/article/25479725",
+   "publishedAt": "2026-11-18T11:07:00+09:00",
+   "sentences": [
+    {
+     "id": "s1",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s2",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s3",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s4",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s5",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s6",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s7",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s8",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s9",
+     "text": null,
+     "type": "quote",
+     "sourceType": "etc",
+     "sourceName": "항소심 재판부",
+     "sourceDetail": "법원",
+     "party": null
+    }
+   ],
+   "framingTerms": [
+    {
+     "term": "기소된",
+     "sentenceId": "s1"
+    },
+    {
+     "term": "기소됐다",
+     "sentenceId": "s3"
+    },
+    {
+     "term": "유죄로 뒤집으면서",
+     "sentenceId": "s8"
+    }
+   ],
+   "analyzedBy": "gemini-3.5-flash-lite"
+  },
+  {
+   "id": "a-680f82c85a",
+   "issueId": "auto-20261118-1256-1",
+   "outletId": "donga",
+   "outletName": "동아일보",
+   "title": "조태용 前국정원장 징역 2년6개월 확정…“정치인 체포 지시 없었다” ...",
+   "summary": "대법원 3부(주심 오석준 대법관)는 18일 국가정보원법 위반, 국회증언감정법 위반, 직무유기 등 혐의로 기소된 조 전 원장의 상고심에서 징역 2년 6개월과 자격정지 2년 6개월을 선고한 원심판결을 확정했다. 대법원은...",
+   "url": "https://www.donga.com/news/Society/article/all/20261118/135044994/1",
+   "publishedAt": "2026-11-18T11:14:00+09:00",
+   "sentences": [
+    {
+     "id": "s1",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s2",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s3",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s4",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s5",
+     "text": null,
+     "type": "quote",
+     "sourceType": "etc",
+     "sourceName": "2심 재판부",
+     "sourceDetail": "법원",
+     "party": null
+    },
+    {
+     "id": "s6",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s7",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    }
+   ],
+   "framingTerms": [
+    {
+     "term": "유죄로 뒤집고",
+     "sentenceId": "s5"
+    }
+   ],
+   "analyzedBy": "gemini-3.5-flash-lite"
+  },
+  {
+   "id": "a-a21453c5e0",
+   "issueId": "auto-20261118-1256-1",
+   "outletId": "hani",
+   "outletName": "한겨레",
+   "title": "조태용, 징역 2년6개월 확정…내란 때 “정치인 체포 지시 없었다” 위...",
+   "summary": "부인하며 국회와 헌법재판소에서 위증한 혐의 등으로 재판에 넘겨진 조태용 전 국가정보원장에게 징역 2년6개월이 확정됐다. 대법원 3부(주심 오석준 대법관)는 18일 직무유기와 국가정보원법 위반, 국회증언감정법 위반...",
+   "url": "https://www.hani.co.kr/arti/society/society_general/1287893.html",
+   "publishedAt": "2026-11-18T12:14:00+09:00",
+   "sentences": [
+    {
+     "id": "s1",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s2",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s3",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s4",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s5",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s6",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s7",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s8",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s9",
+     "text": null,
+     "type": "quote",
+     "sourceType": "etc",
+     "sourceName": "대법원",
+     "sourceDetail": "대법원",
+     "party": null
+    },
+    {
+     "id": "s10",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s11",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s12",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    }
+   ],
+   "framingTerms": [],
+   "analyzedBy": "gemini-3.5-flash-lite"
+  },
+  {
+   "id": "a-6b9ef5f637",
+   "issueId": "auto-20261118-1256-1",
+   "outletId": "segye",
+   "outletName": "세계일보",
+   "title": "[속보] ‘尹 정치인 체포 지시’ 보고받고도 부인한 조태용…징역 2년 ...",
+   "summary": "홍 전 차장의 동선이 담긴 국정원 내부 폐쇄회로(CC)TV 영상을 국민의힘에 제공한 행위 역시 정치 관여로 인정되지 않았다. 이로써 지난해 11월 조은석 내란 특별검사팀이 조 전 원장을 구속 기소한 지 약 1년 만에 재판이...",
+   "url": "https://www.segye.com/newsView/20261118507840?OutUrl=naver",
+   "publishedAt": "2026-11-18T11:15:00+09:00",
+   "sentences": [
+    {
+     "id": "s1",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s2",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s3",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s4",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s5",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s6",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s7",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s8",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s9",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s10",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s11",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s12",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s13",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s14",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s15",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    }
+   ],
+   "framingTerms": [],
+   "analyzedBy": "gemini-3.5-flash-lite"
+  },
+  {
+   "id": "a-4ecaa730ee",
+   "issueId": "auto-20261118-1257-1",
+   "outletId": "yna",
+   "outletName": "연합뉴스",
+   "title": "경찰청장 후보 \"수능 부정행위 수사 아직 없어\"…\"뼈 깎는 쇄신\"",
+   "summary": "김 후보자는 이날 국회 행정안전위원회 인사청문회에서 인공지능(AI)을 활용한 시험 부정행위 신고·수사 의뢰 현황을 묻는 질의에 \"총 14건이 접수돼 그중 8건을 수사 중\"이라며 이번 수능 관련 수사에 한해서는 이같이...",
+   "url": "https://www.yna.co.kr/view/AKR20261118089000004?input=1195m",
+   "publishedAt": "2026-11-18T11:49:00+09:00",
+   "sentences": [
+    {
+     "id": "s1",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s2",
+     "text": null,
+     "type": "quote",
+     "sourceType": "gov",
+     "sourceName": "김종철 경찰청장 후보자",
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s3",
+     "text": null,
+     "type": "quote",
+     "sourceType": "gov",
+     "sourceName": "김 후보자",
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s4",
+     "text": null,
+     "type": "quote",
+     "sourceType": "gov",
+     "sourceName": "김 후보자",
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s5",
+     "text": null,
+     "type": "quote",
+     "sourceType": "gov",
+     "sourceName": "김 후보자",
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s6",
+     "text": null,
+     "type": "quote",
+     "sourceType": "gov",
+     "sourceName": "김 후보자",
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s7",
+     "text": null,
+     "type": "quote",
+     "sourceType": "gov",
+     "sourceName": "그",
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s8",
+     "text": null,
+     "type": "quote",
+     "sourceType": "gov",
+     "sourceName": "김 후보자",
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s9",
+     "text": null,
+     "type": "quote",
+     "sourceType": "gov",
+     "sourceName": "김 후보자",
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s10",
+     "text": null,
+     "type": "quote",
+     "sourceType": "gov",
+     "sourceName": "김 후보자",
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s11",
+     "text": null,
+     "type": "quote",
+     "sourceType": "gov",
+     "sourceName": "김 후보자",
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s12",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s13",
+     "text": null,
+     "type": "quote",
+     "sourceType": "opp",
+     "sourceName": "김 후보자",
+     "sourceDetail": null,
+     "party": "국민의힘"
+    },
+    {
+     "id": "s14",
+     "text": null,
+     "type": "quote",
+     "sourceType": "gov",
+     "sourceName": "김 후보자",
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s15",
+     "text": null,
+     "type": "quote",
+     "sourceType": "gov",
+     "sourceName": "김 후보자",
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s16",
+     "text": null,
+     "type": "quote",
+     "sourceType": "gov",
+     "sourceName": "김 후보자",
+     "sourceDetail": null,
+     "party": null
+    }
+   ],
+   "framingTerms": [
+    {
+     "term": "부인했다",
+     "sentenceId": "s12"
+    }
+   ],
+   "analyzedBy": "gemini-3.5-flash-lite"
+  },
+  {
+   "id": "a-628e283fcd",
+   "issueId": "auto-20261118-1257-1",
+   "outletId": "chosun",
+   "outletName": "조선일보",
+   "title": "경찰청장 후보자 “AI 부정행위 8건 수사 중... 불법행위 엄정 책임”",
+   "summary": "김 후보자는 18일 국회 인사청문회에서 AI 활용 시험 부정행위 관련 수사 현황을 묻는 국민의힘 박상웅 의원 질의에 “(고발·수사의뢰 등이) 현재까지 총 14건이 접수돼 8건을 수사하고 있다”고 답했다. 최근 세무사...",
+   "url": "https://www.chosun.com/national/incident/2026/11/18/TRQNJTBJ3RAPBGX4CH65MQSKQU/?utm_source=naver&utm_medium=referral&utm_campaign=naver-news",
+   "publishedAt": "2026-11-18T10:48:00+09:00",
+   "sentences": [
+    {
+     "id": "s1",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s2",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s3",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s4",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s5",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s6",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    }
+   ],
+   "framingTerms": [],
+   "analyzedBy": "gemini-3.5-flash-lite"
+  },
+  {
+   "id": "a-29270dc5fe",
+   "issueId": "auto-20261118-1257-1",
+   "outletId": "donga",
+   "outletName": "동아일보",
+   "title": "경찰, 수능날 전국 ‘경계강화’ 발령…“불법행위 공모·조력자까지 추...",
+   "summary": "경찰청장 후보자인 김종철 경찰청장 직무대행은 이날 국회 인사청문회에서 “AI를 활용한 시험 부정과 관련해서 현재까지 총 14건이 접수돼 이 중 8건을 수사하고 있다”며 “수능에서 공정을 해치는 불법행위가...",
+   "url": "https://www.donga.com/news/Society/article/all/20261118/135045139/1",
+   "publishedAt": "2026-11-18T11:34:00+09:00",
+   "sentences": [
+    {
+     "id": "s1",
+     "text": null,
+     "type": "quote",
+     "sourceType": "gov",
+     "sourceName": "경찰청",
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s2",
+     "text": "인공지능(AI) 기기를 활용한 시험 부정행위가 사회적 문제로 떠오르면서…",
+     "type": "opinion",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s3",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s4",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s5",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s6",
+     "text": null,
+     "type": "quote",
+     "sourceType": "gov",
+     "sourceName": "경찰",
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s7",
+     "text": null,
+     "type": "quote",
+     "sourceType": "gov",
+     "sourceName": "김종철 경찰청장 직무대행",
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s8",
+     "text": "경찰은 문·답지 호송 경비와 시험장 안전관리, 주변 교통 소통 등 수능…",
+     "type": "opinion",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    }
+   ],
+   "framingTerms": [
+    {
+     "term": "혼란",
+     "sentenceId": "s2"
+    },
+    {
+     "term": "엄단하겠다고",
+     "sentenceId": "s6"
+    },
+    {
+     "term": "엄정하게",
+     "sentenceId": "s7"
+    }
+   ],
+   "analyzedBy": "gemini-3.5-flash-lite"
+  },
+  {
+   "id": "a-6e178945d3",
+   "issueId": "auto-20261118-1257-1",
+   "outletId": "khan",
+   "outletName": "경향신문",
+   "title": "경찰청장 후보자 “AI 부정행위 8건 수사 중…수능 부정 발생 시 엄정 수...",
+   "summary": "김 후보자는 이날 국회 행정안전위원회의 인사청문회에서 AI 부정행위 수사 상황을 묻는 박상웅 국민의힘 의원 질의에 이같이 답했다. 김 후보자는 다만 “현재까지 수능과 관련한 구체적인 부정행위라든지, 장비 이용에...",
+   "url": "https://www.khan.co.kr/article/202611181053001",
+   "publishedAt": "2026-11-18T10:53:00+09:00",
+   "sentences": [
+    {
+     "id": "s1",
+     "text": null,
+     "type": "quote",
+     "sourceType": "gov",
+     "sourceName": "김종철 경찰청장 후보자",
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s2",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s3",
+     "text": null,
+     "type": "quote",
+     "sourceType": "gov",
+     "sourceName": "김 후보자",
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s4",
+     "text": null,
+     "type": "quote",
+     "sourceType": "gov",
+     "sourceName": "김 후보자",
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s5",
+     "text": null,
+     "type": "quote",
+     "sourceType": "gov",
+     "sourceName": "김 후보자",
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s6",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    }
+   ],
+   "framingTerms": [
+    {
+     "term": "엄정한",
+     "sentenceId": "s4"
+    },
+    {
+     "term": "왜곡",
+     "sentenceId": "s5"
+    },
+    {
+     "term": "엄정하게",
+     "sentenceId": "s5"
+    }
+   ],
+   "analyzedBy": "gemini-3.5-flash-lite"
+  },
+  {
+   "id": "a-143f9baab0",
+   "issueId": "auto-20261118-1257-1",
+   "outletId": "hankookilbo",
+   "outletName": "한국일보",
+   "title": "김종철 경찰청장 후보자 \"태산 같은 책임감…AI 부정행위 조력자까지 추...",
+   "summary": "김 후보자는 18일 국회 행정안전위원회 인사청문회에서 \"최근 연달아 벌어진 강력범죄로 불안감이 커지고, 달라진 형사소송법 체계에서 경찰이 수사를 잘할 수 있는지, 과연 믿어도 되는지 물음표를 던져주고 계신다\"며...",
+   "url": "https://www.hankookilbo.com/news/article/A2026111811000000797?did=NA",
+   "publishedAt": "2026-11-18T11:31:00+09:00",
+   "sentences": [
+    {
+     "id": "s1",
+     "text": null,
+     "type": "quote",
+     "sourceType": "gov",
+     "sourceName": "김종철 경찰청장 후보자",
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s2",
+     "text": null,
+     "type": "quote",
+     "sourceType": "gov",
+     "sourceName": "김종철 경찰청장 후보자",
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s3",
+     "text": null,
+     "type": "quote",
+     "sourceType": "gov",
+     "sourceName": "김 후보자",
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s4",
+     "text": "새로운 형사사법체계의 조기 안착도 강조했다.",
+     "type": "opinion",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s5",
+     "text": null,
+     "type": "quote",
+     "sourceType": "gov",
+     "sourceName": "김 후보자",
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s6",
+     "text": null,
+     "type": "quote",
+     "sourceType": "gov",
+     "sourceName": "김 후보자",
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s7",
+     "text": null,
+     "type": "quote",
+     "sourceType": "gov",
+     "sourceName": "김 후보자",
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s8",
+     "text": null,
+     "type": "quote",
+     "sourceType": "gov",
+     "sourceName": "김 후보자",
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s9",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s10",
+     "text": null,
+     "type": "quote",
+     "sourceType": "gov",
+     "sourceName": "김 후보자",
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s11",
+     "text": null,
+     "type": "quote",
+     "sourceType": "gov",
+     "sourceName": "김 후보자",
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s12",
+     "text": null,
+     "type": "quote",
+     "sourceType": "gov",
+     "sourceName": "김 후보자",
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s13",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s14",
+     "text": null,
+     "type": "quote",
+     "sourceType": "gov",
+     "sourceName": "김 후보자",
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s15",
+     "text": null,
+     "type": "quote",
+     "sourceType": "gov",
+     "sourceName": "김 후보자",
+     "sourceDetail": null,
+     "party": null
+    }
+   ],
+   "framingTerms": [
+    {
+     "term": "약속했다",
+     "sentenceId": "s1"
+    },
+    {
+     "term": "밝혔다",
+     "sentenceId": "s2"
+    },
+    {
+     "term": "강조했다",
+     "sentenceId": "s4"
+    },
+    {
+     "term": "강조했다",
+     "sentenceId": "s7"
+    },
+    {
+     "term": "약속했다",
+     "sentenceId": "s8"
+    },
+    {
+     "term": "강조했다",
+     "sentenceId": "s10"
+    }
+   ],
+   "analyzedBy": "gemini-3.5-flash-lite"
+  },
+  {
+   "id": "a-5296965138",
+   "issueId": "auto-20261118-1257-1",
+   "outletId": "munhwa",
+   "outletName": "문화일보",
+   "title": "김종철 경찰청장 후보 청문회… ‘한동훈 딸·신천지’ 수사 추궁",
+   "summary": "이재명 정부 첫 경찰청장 후보자 인사청문회에서 경찰의 정치적 중립성 등이 주요 쟁점이 됐다. 인공지능(AI)... 박상웅 국민의힘 의원은 “2003년부터 지금 이재명 정부 출범 전까지 경찰청장이 배석한 것은 단 7차례밖에...",
+   "url": "https://www.munhwa.com/article/11632260?ref=naver",
+   "publishedAt": "2026-11-18T12:05:00+09:00",
+   "sentences": [
+    {
+     "id": "s1",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s2",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s3",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s4",
+     "text": null,
+     "type": "quote",
+     "sourceType": "opp",
+     "sourceName": "국민의힘 의원들",
+     "sourceDetail": null,
+     "party": "국민의힘"
+    },
+    {
+     "id": "s5",
+     "text": null,
+     "type": "quote",
+     "sourceType": "opp",
+     "sourceName": "박상웅 의원",
+     "sourceDetail": null,
+     "party": "국민의힘"
+    },
+    {
+     "id": "s6",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s7",
+     "text": null,
+     "type": "quote",
+     "sourceType": "gov",
+     "sourceName": "김 후보자",
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s8",
+     "text": null,
+     "type": "quote",
+     "sourceType": "gov",
+     "sourceName": "김 후보자",
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s9",
+     "text": "청문회에서는 정치공방성 발언들도 나왔다.",
+     "type": "opinion",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s10",
+     "text": null,
+     "type": "quote",
+     "sourceType": "gov",
+     "sourceName": "김 후보자",
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s11",
+     "text": null,
+     "type": "quote",
+     "sourceType": "gov",
+     "sourceName": "김 후보자",
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s12",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s13",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s14",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s15",
+     "text": null,
+     "type": "quote",
+     "sourceType": "gov",
+     "sourceName": "김 후보자",
+     "sourceDetail": null,
+     "party": null
+    }
+   ],
+   "framingTerms": [
+    {
+     "term": "정치공방성",
+     "sentenceId": "s9"
+    }
+   ],
+   "analyzedBy": "gemini-3.5-flash-lite"
+  },
+  {
+   "id": "a-26ea859727",
+   "issueId": "auto-20261118-1257-1",
+   "outletId": "mt",
+   "outletName": "머니투데이",
+   "title": "김종철 경찰청장 후보자 \"시험 부정행위 8건 수사, 수능 관련은 아직 없...",
+   "summary": "김 후보자는 이날 국회 행정안전위원회에서 열린 경찰청장 후보자 인사청문회에서 이같이 말했다. '부정합격에 대한 수사를 진행하고 있는 일이 있는지' 묻는 박상웅 국민의힘 의원 질의에 대해서는 \"전국 사이버수사...",
+   "url": "https://www.mt.co.kr/society/2026/11/18/2026111810483398046",
+   "publishedAt": "2026-11-18T11:43:00+09:00",
+   "sentences": [
+    {
+     "id": "s1",
+     "text": null,
+     "type": "quote",
+     "sourceType": "gov",
+     "sourceName": "김종철 경찰청장 후보자",
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s2",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s3",
+     "text": null,
+     "type": "quote",
+     "sourceType": "gov",
+     "sourceName": "김 후보자",
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s4",
+     "text": null,
+     "type": "quote",
+     "sourceType": "gov",
+     "sourceName": "김 후보자",
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s5",
+     "text": null,
+     "type": "quote",
+     "sourceType": "gov",
+     "sourceName": "김 후보자",
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s6",
+     "text": null,
+     "type": "quote",
+     "sourceType": "gov",
+     "sourceName": "김 후보자",
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s7",
+     "text": null,
+     "type": "quote",
+     "sourceType": "gov",
+     "sourceName": "김 후보자",
+     "sourceDetail": null,
+     "party": "더불어민주당"
+    },
+    {
+     "id": "s8",
+     "text": null,
+     "type": "quote",
+     "sourceType": "gov",
+     "sourceName": "김 후보자",
+     "sourceDetail": null,
+     "party": null
+    }
+   ],
+   "framingTerms": [],
+   "analyzedBy": "gemini-3.5-flash-lite"
+  },
+  {
+   "id": "a-6303c7dccc",
+   "issueId": "auto-20261118-1259-1",
+   "outletId": "yna",
+   "outletName": "연합뉴스",
+   "title": "노만석 前대검차장 \"'尹구속취소' 법원결정 따르자는 의견 다수\"",
+   "summary": "심우정 前검찰총장 재판 증인 출석…\"즉시-보통항고 의견 분분\" \"참모들 보통항고 의견 전달…총장은 알겠다 했고 이후는 몰라\" 노만석 전 대검찰청 차장검사가 지난해 법원의 윤석열 전 대통령 구속취소 결정에 대해...",
+   "url": "https://www.yna.co.kr/view/AKR20261117161600004?input=1195m",
+   "publishedAt": "2026-11-17T19:00:00+09:00",
+   "sentences": [
+    {
+     "id": "s1",
+     "text": null,
+     "type": "quote",
+     "sourceType": "etc",
+     "sourceName": "노만석",
+     "sourceDetail": "익명(소속 미상)",
+     "party": null
+    },
+    {
+     "id": "s2",
+     "text": null,
+     "type": "quote",
+     "sourceType": "etc",
+     "sourceName": "심우정",
+     "sourceDetail": "익명(소속 미상)",
+     "party": null
+    },
+    {
+     "id": "s3",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s4",
+     "text": null,
+     "type": "quote",
+     "sourceType": "etc",
+     "sourceName": "노만석 전 대검찰청 차장검사",
+     "sourceDetail": "익명(소속 미상)",
+     "party": null
+    },
+    {
+     "id": "s5",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s6",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s7",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s8",
+     "text": null,
+     "type": "quote",
+     "sourceType": "etc",
+     "sourceName": "노 전 차장검사",
+     "sourceDetail": "익명(소속 미상)",
+     "party": null
+    },
+    {
+     "id": "s9",
+     "text": null,
+     "type": "quote",
+     "sourceType": "etc",
+     "sourceName": "노 전 차장검사",
+     "sourceDetail": "익명(소속 미상)",
+     "party": null
+    },
+    {
+     "id": "s10",
+     "text": null,
+     "type": "quote",
+     "sourceType": "etc",
+     "sourceName": "심 전 총장 측",
+     "sourceDetail": "익명(소속 미상)",
+     "party": null
+    },
+    {
+     "id": "s11",
+     "text": null,
+     "type": "quote",
+     "sourceType": "etc",
+     "sourceName": "심 전 총장 본인",
+     "sourceDetail": "익명(소속 미상)",
+     "party": null
+    },
+    {
+     "id": "s12",
+     "text": null,
+     "type": "quote",
+     "sourceType": "etc",
+     "sourceName": "노만석",
+     "sourceDetail": "익명(소속 미상)",
+     "party": null
+    },
+    {
+     "id": "s13",
+     "text": null,
+     "type": "quote",
+     "sourceType": "etc",
+     "sourceName": "노 전 차장검사",
+     "sourceDetail": "익명(소속 미상)",
+     "party": null
+    },
+    {
+     "id": "s14",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s15",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s16",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s17",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s18",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s19",
+     "text": null,
+     "type": "quote",
+     "sourceType": "etc",
+     "sourceName": "천 대법관",
+     "sourceDetail": "익명(소속 미상)",
+     "party": null
+    }
+   ],
+   "framingTerms": [],
+   "analyzedBy": "gemini-3.5-flash-lite"
+  },
+  {
+   "id": "a-92c5e7077a",
+   "issueId": "auto-20261118-1259-1",
+   "outletId": "ytn",
+   "outletName": "YTN",
+   "title": "노만석 전 대검차장 \"윤 구속취소 법원결정, 따르잔 의견 많아\"",
+   "summary": "노만석 전 대검찰청 차장검사가 지난해 법원의 윤석열 전 대통령 구속취소 결정에 대해, 대체로 불만은... 당시 마약조직범죄부장이던 노 전 차장검사는 오늘(17일) 서울중앙지법에서 열린 심우정 전 검찰총장과 전무곤 전...",
+   "url": "https://www.ytn.co.kr/_ln/0103_202611172054508264",
+   "publishedAt": "2026-11-17T20:54:00+09:00",
+   "sentences": [
+    {
+     "id": "s1",
+     "text": null,
+     "type": "quote",
+     "sourceType": "etc",
+     "sourceName": "노만석",
+     "sourceDetail": "전 대검찰청 차장검사",
+     "party": null
+    },
+    {
+     "id": "s2",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s3",
+     "text": null,
+     "type": "quote",
+     "sourceType": "etc",
+     "sourceName": "노만석",
+     "sourceDetail": "전 대검찰청 차장검사",
+     "party": null
+    },
+    {
+     "id": "s4",
+     "text": null,
+     "type": "quote",
+     "sourceType": "etc",
+     "sourceName": "노만석",
+     "sourceDetail": "전 대검찰청 차장검사",
+     "party": null
+    },
+    {
+     "id": "s5",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s6",
+     "text": "※ '당신의 제보가 뉴스가 됩니다'",
+     "type": "opinion",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    }
+   ],
+   "framingTerms": [],
+   "analyzedBy": "gemini-3.5-flash-lite"
+  },
+  {
+   "id": "a-660e32ab68",
+   "issueId": "auto-20261118-1259-1",
+   "outletId": "chosun",
+   "outletName": "조선일보",
+   "title": "노만석 “尹 구속 취소, 법원 결정에 불만 있어도 석방하자는 게 검찰 ...",
+   "summary": "대검찰청(현 공소청) 간부들 사이에선 윤 전 대통령을 석방해야 한다는 의견이 다수였다는 법원 증언이 17일 나왔다. 당시 대검 마약·조직범죄부장이던 노만석 전 검찰총장 직무대행은 이날 서울중앙지법 형사38-3부(재판장...",
+   "url": "https://www.chosun.com/national/court_law/2026/11/17/GXOJ6QZHIZELZACVJNNH3NKK7Q/?utm_source=naver&utm_medium=referral&utm_campaign=naver-news",
+   "publishedAt": "2026-11-17T13:35:00+09:00",
+   "sentences": [
+    {
+     "id": "s1",
+     "text": null,
+     "type": "quote",
+     "sourceType": "etc",
+     "sourceName": "윤석열 전 대통령",
+     "sourceDetail": "전직 대통령",
+     "party": null
+    },
+    {
+     "id": "s2",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s3",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s4",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s5",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    }
+   ],
+   "framingTerms": [],
+   "analyzedBy": "gemini-3.5-flash-lite"
+  },
+  {
+   "id": "a-b73790647c",
+   "issueId": "auto-20261118-1259-1",
+   "outletId": "segye",
+   "outletName": "세계일보",
+   "title": "노만석 前대검차장 “참모들, '尹구속취소' 법원 결정 따르자는 의견 다...",
+   "summary": "노만석 전 대검찰청 차장검사가 지난해 3월 법원의 윤석열 전 대통령 구속취소 결정 당시 “대검 간부들... 노 전 차장검사는 17일 서울중앙지법 38-3부(재판장 최영각) 심리로 열린 심우정 전 검찰총장과 전무곤 전 대검...",
+   "url": "https://www.segye.com/newsView/20261117518522?OutUrl=naver",
+   "publishedAt": "2026-11-17T20:16:00+09:00",
+   "sentences": [
+    {
+     "id": "s1",
+     "text": null,
+     "type": "quote",
+     "sourceType": "etc",
+     "sourceName": "노만석 전 대검찰청 차장검사",
+     "sourceDetail": "전 대검",
+     "party": null
+    },
+    {
+     "id": "s2",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s3",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s4",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s5",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s6",
+     "text": null,
+     "type": "quote",
+     "sourceType": "etc",
+     "sourceName": "노만석 전 차장검사",
+     "sourceDetail": "전 대검",
+     "party": null
+    },
+    {
+     "id": "s7",
+     "text": null,
+     "type": "quote",
+     "sourceType": "etc",
+     "sourceName": "노만석 전 차장검사",
+     "sourceDetail": "전 대검",
+     "party": null
+    },
+    {
+     "id": "s8",
+     "text": null,
+     "type": "quote",
+     "sourceType": "etc",
+     "sourceName": "심 전 총장 측",
+     "sourceDetail": "검찰·공소청",
+     "party": null
+    },
+    {
+     "id": "s9",
+     "text": null,
+     "type": "quote",
+     "sourceType": "etc",
+     "sourceName": "심 전 총장 측",
+     "sourceDetail": "검찰·공소청",
+     "party": null
+    },
+    {
+     "id": "s10",
+     "text": null,
+     "type": "quote",
+     "sourceType": "etc",
+     "sourceName": "심 전 총장 측",
+     "sourceDetail": "검찰·공소청",
+     "party": null
+    },
+    {
+     "id": "s11",
+     "text": null,
+     "type": "quote",
+     "sourceType": "etc",
+     "sourceName": "노만석 전 대검찰청 차장검사",
+     "sourceDetail": "전 대검",
+     "party": null
+    },
+    {
+     "id": "s12",
+     "text": null,
+     "type": "quote",
+     "sourceType": "etc",
+     "sourceName": "노만석 전 대검찰청 차장검사",
+     "sourceDetail": "전 대검",
+     "party": null
+    },
+    {
+     "id": "s13",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s14",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s15",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s16",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s17",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s18",
+     "text": null,
+     "type": "quote",
+     "sourceType": "etc",
+     "sourceName": "천 대법관",
+     "sourceDetail": "대법원",
+     "party": null
+    }
+   ],
+   "framingTerms": [
+    {
+     "term": "항변했다",
+     "sentenceId": "s8"
+    },
+    {
+     "term": "주장이다",
+     "sentenceId": "s9"
+    }
+   ],
+   "analyzedBy": "gemini-3.5-flash-lite"
+  },
+  {
+   "id": "a-9f4ceb4d40",
+   "issueId": "auto-20261118-1259-1",
+   "outletId": "seoul",
+   "outletName": "서울신문",
+   "title": "노만석 “참모들, 尹 구속취소 법원 결정 따르자는 의견 다수”",
+   "summary": "노만석 전 대검찰청 차장검사가 지난해 3월 법원의 윤석열 전 대통령 구속취소 결정 이후 검찰 참모들 사이에서 불만이 있었지만 법원 결정을 따라야 한다는 의견이 다수였다고 증언했다. 다만 즉시항고와 보통항고를...",
+   "url": "https://www.seoul.co.kr/news/society/2026/11/17/20261117500364?wlog_tag3=naver",
+   "publishedAt": "2026-11-17T19:34:00+09:00",
+   "sentences": [
+    {
+     "id": "s1",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s2",
+     "text": null,
+     "type": "quote",
+     "sourceType": "etc",
+     "sourceName": "노만석 전 대검찰청 차장검사",
+     "sourceDetail": "전 대검",
+     "party": null
+    },
+    {
+     "id": "s3",
+     "text": null,
+     "type": "quote",
+     "sourceType": "etc",
+     "sourceName": "노 전 차장",
+     "sourceDetail": "전 대검",
+     "party": null
+    },
+    {
+     "id": "s4",
+     "text": null,
+     "type": "quote",
+     "sourceType": "etc",
+     "sourceName": "노 전 차장",
+     "sourceDetail": "전 대검",
+     "party": null
+    },
+    {
+     "id": "s5",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s6",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s7",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s8",
+     "text": null,
+     "type": "quote",
+     "sourceType": "etc",
+     "sourceName": "노 전 차장",
+     "sourceDetail": "전 대검",
+     "party": null
+    },
+    {
+     "id": "s9",
+     "text": null,
+     "type": "quote",
+     "sourceType": "etc",
+     "sourceName": "노 전 차장",
+     "sourceDetail": "전 대검",
+     "party": null
+    },
+    {
+     "id": "s10",
+     "text": null,
+     "type": "quote",
+     "sourceType": "etc",
+     "sourceName": "노 전 차장의 설명",
+     "sourceDetail": "전 대검",
+     "party": null
+    },
+    {
+     "id": "s11",
+     "text": null,
+     "type": "quote",
+     "sourceType": "etc",
+     "sourceName": "그",
+     "sourceDetail": "전 대검",
+     "party": null
+    },
+    {
+     "id": "s12",
+     "text": null,
+     "type": "quote",
+     "sourceType": "etc",
+     "sourceName": "노 전 차장",
+     "sourceDetail": "전 대검",
+     "party": null
+    },
+    {
+     "id": "s13",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s14",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s15",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s16",
+     "text": "\"기사를 읽는 동안 깨어난 당신의 숨겨진 페르소나를 AI가 스캔합니다.\"",
+     "type": "opinion",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s17",
+     "text": "Q.",
+     "type": "opinion",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s18",
+     "text": "기사를 끝까지 읽으셨나요?",
+     "type": "opinion",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s19",
+     "text": "이제 AI 퀴즈로 기사의 핵심 내용을 점검해보세요.",
+     "type": "opinion",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s20",
+     "text": "윤 전 대통령 구속취소 당시 검찰 참모들의 다수 의견은?",
+     "type": "opinion",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    }
+   ],
+   "framingTerms": [
+    {
+     "term": "캐물었다",
+     "sentenceId": "s5"
+    }
+   ],
+   "analyzedBy": "gemini-3.5-flash-lite"
+  },
+  {
+   "id": "a-6efcad8bbe",
+   "issueId": "auto-20261118-1259-1",
+   "outletId": "mk",
+   "outletName": "매일경제",
+   "title": "노만석 “尹 구속취소, 불만 있어도 따르자는 게 檢 다수의견”",
+   "summary": "대검찰청(현 공소청) 간부들 사이에서는 법원의 결정에 따라야 한다는 의견이 다수였다는 법정 증언이 나왔다. 17일 노만석 전 검찰총장 직무대행은 서울중앙지법 형사38-3부(재판장 최영각) 심리로 열린 심우정 전...",
+   "url": "https://www.mk.co.kr/article/12211515",
+   "publishedAt": "2026-11-17T18:27:00+09:00",
+   "sentences": [
+    {
+     "id": "s1",
+     "text": null,
+     "type": "quote",
+     "sourceType": "etc",
+     "sourceName": "노만석 전 검찰총장 직무대행",
+     "sourceDetail": "법원",
+     "party": null
+    },
+    {
+     "id": "s2",
+     "text": "🗣️🏛️⚖️",
+     "type": "opinion",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s3",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s4",
+     "text": "⚠️🛑❓",
+     "type": "opinion",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s5",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s6",
+     "text": "📝🤝🏛️",
+     "type": "opinion",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s7",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s8",
+     "text": "🏛️🔒🚨",
+     "type": "opinion",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s9",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s10",
+     "text": "사건 개요: 무슨 일이 있었나?",
+     "type": "opinion",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s11",
+     "text": null,
+     "type": "quote",
+     "sourceType": "etc",
+     "sourceName": "노만석 전 검찰총장 직무대행",
+     "sourceDetail": "법원",
+     "party": null
+    },
+    {
+     "id": "s12",
+     "text": null,
+     "type": "quote",
+     "sourceType": "etc",
+     "sourceName": "노만석 전 검찰총장 직무대행",
+     "sourceDetail": "법원",
+     "party": null
+    },
+    {
+     "id": "s13",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s14",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s15",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s16",
+     "text": "심층 분석: 이 뉴스는 왜 나왔나?",
+     "type": "opinion",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s17",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s18",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s19",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s20",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s21",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s22",
+     "text": "🤝 이처럼 구속 취소와 석방을 둘러싼 복잡한 법리적 해석과 검찰 내부의…",
+     "type": "opinion",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s23",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s24",
+     "text": null,
+     "type": "quote",
+     "sourceType": "gov",
+     "sourceName": "대통령 측",
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s25",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s26",
+     "text": "⚖️🏛️🚨",
+     "type": "opinion",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s27",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s28",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s29",
+     "text": null,
+     "type": "quote",
+     "sourceType": "gov",
+     "sourceName": "윤 대통령",
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s30",
+     "text": "📝🕊️",
+     "type": "opinion",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s31",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s32",
+     "text": null,
+     "type": "quote",
+     "sourceType": "etc",
+     "sourceName": "노 전 대행",
+     "sourceDetail": "법원",
+     "party": null
+    },
+    {
+     "id": "s33",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s34",
+     "text": "🔍📋",
+     "type": "opinion",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s35",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s36",
+     "text": "다각도 분석: 누구에게 어떤 영향을 미칠까?",
+     "type": "opinion",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s37",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s38",
+     "text": "핵심 시사점: 그래서 무엇이 달라지는가?",
+     "type": "opinion",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s39",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s40",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s41",
+     "text": "🤔💭 이처럼 사법 절차를 둘러싼 크고 작은 논의들은 우리 사회의 법 집행…",
+     "type": "opinion",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s42",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s43",
+     "text": "🚨👥 법치의 상징이어야 할 법원 청사가 훼손되고 물리적 충돌이 발생하면서…",
+     "type": "opinion",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s44",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s45",
+     "text": "👮♂️⚖️",
+     "type": "opinion",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s46",
+     "text": "결과적으로 이번 사태는 개별 사건의 종결을 넘어, 국가 최고 권력자의 형…",
+     "type": "opinion",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s47",
+     "text": "📜🔍 수사 기관과 법원, 그리고 대검 참모진이 각자의 자리에서 법과 원칙…",
+     "type": "opinion",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s48",
+     "text": "🧭✨",
+     "type": "opinion",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s49",
+     "text": "- 현 상태 유지 및 안착 시나리오 법원의 사법적 판단과 검찰의 공소유지…",
+     "type": "opinion",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s50",
+     "text": "⚖️ 대검찰청 내부의 다수 의견처럼 사법부의 결정과 법적 절차를 존중하는…",
+     "type": "opinion",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s51",
+     "text": "🏛️ 수사기관과 재판부는 법과 원칙에 따라 차분하게 진실을 규명하는 절차…",
+     "type": "opinion",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s52",
+     "text": "- 영향력 확대 및 가속 시나리오 법적 절차와 공판 과정에서 관련자들의…",
+     "type": "opinion",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s53",
+     "text": "⚡ 사법 절차의 정당성이 강조되면서 향후 이어질 재판 전반에 강력한 영향…",
+     "type": "opinion",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s54",
+     "text": "🔍 사회 각계에서도 법적 판결과 절차를 중심으로 질서가 빠르게 재정립되는…",
+     "type": "opinion",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s55",
+     "text": "- 변수 발생 및 흐름 반전 시나리오 즉시항고 제도의 위헌성 논란이나 수…",
+     "type": "opinion",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s56",
+     "text": "🌪️ 사법 절차의 적법성을 두고 치열한 공방이 이어지며 예상치 못한 법적…",
+     "type": "opinion",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s57",
+     "text": "⚠️ 지지층의 반발이나 추가적인 돌발 변수가 불거질 경우 사건의 전개 양…",
+     "type": "opinion",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s58",
+     "text": "🛡️",
+     "type": "opinion",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s59",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s60",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s61",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s62",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s63",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s64",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s65",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s66",
+     "text": null,
+     "type": "quote",
+     "sourceType": "etc",
+     "sourceName": "대검 부장들",
+     "sourceDetail": "법원",
+     "party": null
+    },
+    {
+     "id": "s67",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s68",
+     "text": null,
+     "type": "quote",
+     "sourceType": "gov",
+     "sourceName": "윤석열 대통령 측",
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s69",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s70",
+     "text": "🔍 결국 이러한 법적 절차들을 통해 피의자 측은 사법적 판단에 적극적으로…",
+     "type": "opinion",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    }
+   ],
+   "framingTerms": [
+    {
+     "term": "강하게 반발했어요",
+     "sentenceId": "s24"
+    }
+   ],
+   "analyzedBy": "gemini-3.5-flash-lite"
+  },
+  {
+   "id": "a-533cb0f7aa",
+   "issueId": "auto-20261118-1259-1",
+   "outletId": "mt",
+   "outletName": "머니투데이",
+   "title": "노만석 전 차장검사 \"尹 석방 후 '보통항고 해야' 의견 총장에 전달\"",
+   "summary": "윤석열 전 대통령 구속이 취소됐을 당시 대검찰청 참모들이 \"보통항고를 해야 한다\"는 의견을 심우정 당시 검찰총장에게 전달했다는 증언이 나왔다. 심 전 총장은 윤 전 대통령 구속 취소 당시 항고 대신 석방을 지휘한...",
+   "url": "https://www.mt.co.kr/society/2026/11/17/2026111713033590606",
+   "publishedAt": "2026-11-17T13:44:00+09:00",
+   "sentences": [
+    {
+     "id": "s1",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s2",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s3",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s4",
+     "text": null,
+     "type": "quote",
+     "sourceType": "etc",
+     "sourceName": "노만석 전 대행",
+     "sourceDetail": "전직 공직자",
+     "party": null
+    },
+    {
+     "id": "s5",
+     "text": null,
+     "type": "quote",
+     "sourceType": "etc",
+     "sourceName": "노 전 대행",
+     "sourceDetail": "전직 공직자",
+     "party": null
+    },
+    {
+     "id": "s6",
+     "text": null,
+     "type": "quote",
+     "sourceType": "etc",
+     "sourceName": "노 전 대행",
+     "sourceDetail": "전직 공직자",
+     "party": null
+    },
+    {
+     "id": "s7",
+     "text": null,
+     "type": "quote",
+     "sourceType": "etc",
+     "sourceName": "노 전 대행",
+     "sourceDetail": "전직 공직자",
+     "party": null
+    },
+    {
+     "id": "s8",
+     "text": null,
+     "type": "quote",
+     "sourceType": "etc",
+     "sourceName": "노 전 대행",
+     "sourceDetail": "전직 공직자",
+     "party": null
+    },
+    {
+     "id": "s9",
+     "text": null,
+     "type": "quote",
+     "sourceType": "etc",
+     "sourceName": "노 전 대행",
+     "sourceDetail": "전직 공직자",
+     "party": null
+    },
+    {
+     "id": "s10",
+     "text": null,
+     "type": "quote",
+     "sourceType": "etc",
+     "sourceName": "노 전 대행",
+     "sourceDetail": "전직 공직자",
+     "party": null
+    },
+    {
+     "id": "s11",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s12",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s13",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s14",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s15",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    }
+   ],
+   "framingTerms": [],
+   "analyzedBy": "gemini-3.5-flash-lite"
+  },
+  {
+   "id": "a-f33d0774e2",
+   "issueId": "auto-20261118-1259-1",
+   "outletId": "m-i",
+   "outletName": "매일일보",
+   "title": "노만석 前대검차장 \"'尹구속취소' 법원 결정을 따르자는 의견이 다수\"",
+   "summary": "노만석 전 대검찰청 차장검사는 지난해 법원이 윤석열 전 대통령 구속취소... 노 전 차장검사는 이날 서울중앙지법 38-3부(최영각 장성진 정수영 부장판사) 심리로 열린 심우정 전 검찰총장과...",
+   "url": "https://www.m-i.kr/news/articleView.html?idxno=2019832",
+   "publishedAt": "2026-11-17T19:32:00+09:00",
+   "sentences": [
+    {
+     "id": "s1",
+     "text": null,
+     "type": "quote",
+     "sourceType": "etc",
+     "sourceName": "노만석 전 대검찰청 차장검사",
+     "sourceDetail": "전 검찰간부",
+     "party": null
+    },
+    {
+     "id": "s2",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s3",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s4",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s5",
+     "text": null,
+     "type": "quote",
+     "sourceType": "etc",
+     "sourceName": "노 전 차장검사",
+     "sourceDetail": "전 검찰간부",
+     "party": null
+    },
+    {
+     "id": "s6",
+     "text": null,
+     "type": "quote",
+     "sourceType": "etc",
+     "sourceName": "노만석 전 차장검사",
+     "sourceDetail": "전 검찰간부",
+     "party": null
+    },
+    {
+     "id": "s7",
+     "text": null,
+     "type": "quote",
+     "sourceType": "etc",
+     "sourceName": "심 전 총장 측",
+     "sourceDetail": "법원",
+     "party": null
+    },
+    {
+     "id": "s8",
+     "text": null,
+     "type": "quote",
+     "sourceType": "etc",
+     "sourceName": "심 전 총장 측",
+     "sourceDetail": "법원",
+     "party": null
+    },
+    {
+     "id": "s9",
+     "text": null,
+     "type": "quote",
+     "sourceType": "etc",
+     "sourceName": "노만석 전 차장검사",
+     "sourceDetail": "전 검찰간부",
+     "party": null
+    },
+    {
+     "id": "s10",
+     "text": null,
+     "type": "quote",
+     "sourceType": "etc",
+     "sourceName": "노만석 전 차장검사",
+     "sourceDetail": "전 검찰간부",
+     "party": null
+    },
+    {
+     "id": "s11",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s12",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s13",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s14",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s15",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s16",
+     "text": null,
+     "type": "quote",
+     "sourceType": "etc",
+     "sourceName": "천 대법관",
+     "sourceDetail": "법원",
+     "party": null
+    }
+   ],
+   "framingTerms": [],
+   "analyzedBy": "gemini-3.5-flash-lite"
+  },
+  {
+   "id": "a-5c2c6f0e3a",
+   "issueId": "auto-20261118-1300-1",
+   "outletId": "yna",
+   "outletName": "연합뉴스",
+   "title": "국힘, 李대통령 포상금·재난문자 지시에 \"재래식 대응 무책임\"",
+   "summary": "전가\" 국민의힘은 18일 이재명 대통령이 대학수학능력시험(수능) 인공지능(AI) 부정행위 대응을 위해 신고 포상금 지급과 시험 중 재난문자 발송 등을 지시한 데 대해 \"무책임한 재래식 대응책\"이라며 맹비난했다. 국민의힘...",
+   "url": "https://www.yna.co.kr/view/AKR20261118064500001?input=1195m",
+   "publishedAt": "2026-11-18T10:20:00+09:00",
+   "sentences": [
+    {
+     "id": "s1",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s2",
+     "text": null,
+     "type": "quote",
+     "sourceType": "opp",
+     "sourceName": "국민의힘",
+     "sourceDetail": null,
+     "party": "국민의힘"
+    },
+    {
+     "id": "s3",
+     "text": null,
+     "type": "quote",
+     "sourceType": "opp",
+     "sourceName": "장동혁 대표",
+     "sourceDetail": null,
+     "party": "국민의힘"
+    },
+    {
+     "id": "s4",
+     "text": null,
+     "type": "quote",
+     "sourceType": "opp",
+     "sourceName": "장 대표",
+     "sourceDetail": null,
+     "party": "국민의힘"
+    },
+    {
+     "id": "s5",
+     "text": null,
+     "type": "quote",
+     "sourceType": "opp",
+     "sourceName": "장 대표",
+     "sourceDetail": null,
+     "party": "국민의힘"
+    },
+    {
+     "id": "s6",
+     "text": null,
+     "type": "quote",
+     "sourceType": "opp",
+     "sourceName": "김미애 원내정책수석부대표",
+     "sourceDetail": null,
+     "party": "국민의힘"
+    },
+    {
+     "id": "s7",
+     "text": null,
+     "type": "quote",
+     "sourceType": "opp",
+     "sourceName": "김미애 원내정책수석부대표",
+     "sourceDetail": null,
+     "party": "국민의힘"
+    },
+    {
+     "id": "s8",
+     "text": null,
+     "type": "quote",
+     "sourceType": "opp",
+     "sourceName": "김미애 원내정책수석부대표",
+     "sourceDetail": null,
+     "party": "국민의힘"
+    },
+    {
+     "id": "s9",
+     "text": null,
+     "type": "quote",
+     "sourceType": "opp",
+     "sourceName": "박충권 수석대변인",
+     "sourceDetail": null,
+     "party": "국민의힘"
+    },
+    {
+     "id": "s10",
+     "text": null,
+     "type": "quote",
+     "sourceType": "opp",
+     "sourceName": "박충권 수석대변인",
+     "sourceDetail": null,
+     "party": "국민의힘"
+    },
+    {
+     "id": "s11",
+     "text": null,
+     "type": "quote",
+     "sourceType": "opp",
+     "sourceName": "조용술 대변인",
+     "sourceDetail": null,
+     "party": "국민의힘"
+    },
+    {
+     "id": "s12",
+     "text": null,
+     "type": "quote",
+     "sourceType": "opp",
+     "sourceName": "조용술 대변인",
+     "sourceDetail": null,
+     "party": "국민의힘"
+    },
+    {
+     "id": "s13",
+     "text": null,
+     "type": "quote",
+     "sourceType": "opp",
+     "sourceName": "나경원 의원",
+     "sourceDetail": null,
+     "party": "국민의힘"
+    },
+    {
+     "id": "s14",
+     "text": null,
+     "type": "quote",
+     "sourceType": "opp",
+     "sourceName": "유승민 전 의원",
+     "sourceDetail": null,
+     "party": "국민의힘"
+    }
+   ],
+   "framingTerms": [
+    {
+     "term": "맹비난했다",
+     "sentenceId": "s2"
+    },
+    {
+     "term": "적었다",
+     "sentenceId": "s3"
+    },
+    {
+     "term": "비판했다",
+     "sentenceId": "s4"
+    },
+    {
+     "term": "지적했다",
+     "sentenceId": "s5"
+    },
+    {
+     "term": "비판했다",
+     "sentenceId": "s6"
+    },
+    {
+     "term": "강조했다",
+     "sentenceId": "s7"
+    },
+    {
+     "term": "주장했다",
+     "sentenceId": "s8"
+    },
+    {
+     "term": "비판했다",
+     "sentenceId": "s9"
+    },
+    {
+     "term": "비꼬았다",
+     "sentenceId": "s10"
+    },
+    {
+     "term": "지적했다",
+     "sentenceId": "s11"
+    },
+    {
+     "term": "비판했다",
+     "sentenceId": "s12"
+    },
+    {
+     "term": "말했다",
+     "sentenceId": "s13"
+    },
+    {
+     "term": "적었다",
+     "sentenceId": "s14"
+    }
+   ],
+   "analyzedBy": "gemini-3.5-flash-lite"
+  },
+  {
+   "id": "a-c41fb7bf1f",
+   "issueId": "auto-20261118-1300-1",
+   "outletId": "newsis",
+   "outletName": "뉴시스",
+   "title": "당정 \"수능 부정행위 신고 시 1억원 포상금 도입 입법 취지 맞게 적극 검...",
+   "summary": "더불어민주당과 정부는 18일 2027학년도 대학수학능력시험을 앞두고 불거진 인공지능(AI) 부정행위 우려와 관련해 첨단 기기 전수 점검·부정행위 적발 및 사후 조사 강화 등에 나서겠다고...",
+   "url": "https://www.newsis.com/view/NISX20261118_0003872910",
+   "publishedAt": "2026-11-18T11:29:00+09:00",
+   "sentences": [
+    {
+     "id": "s1",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s2",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s3",
+     "text": null,
+     "type": "quote",
+     "sourceType": "gov",
+     "sourceName": "박성준 수석대변인",
+     "sourceDetail": null,
+     "party": "더불어민주당"
+    },
+    {
+     "id": "s4",
+     "text": null,
+     "type": "quote",
+     "sourceType": "gov",
+     "sourceName": "박성준 수석대변인",
+     "sourceDetail": null,
+     "party": "더불어민주당"
+    },
+    {
+     "id": "s5",
+     "text": null,
+     "type": "quote",
+     "sourceType": "gov",
+     "sourceName": "박성준 수석대변인",
+     "sourceDetail": null,
+     "party": "더불어민주당"
+    },
+    {
+     "id": "s6",
+     "text": null,
+     "type": "quote",
+     "sourceType": "gov",
+     "sourceName": "박성준 수석대변인",
+     "sourceDetail": null,
+     "party": "더불어민주당"
+    },
+    {
+     "id": "s7",
+     "text": null,
+     "type": "quote",
+     "sourceType": "gov",
+     "sourceName": "임기근 국무조정실장",
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s8",
+     "text": null,
+     "type": "quote",
+     "sourceType": "gov",
+     "sourceName": "이혜숙 교육부 고등평생정책실장",
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s9",
+     "text": null,
+     "type": "quote",
+     "sourceType": "gov",
+     "sourceName": "이혜숙 교육부 고등평생정책실장",
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s10",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s11",
+     "text": null,
+     "type": "quote",
+     "sourceType": "gov",
+     "sourceName": "박 수석대변인",
+     "sourceDetail": null,
+     "party": "더불어민주당"
+    },
+    {
+     "id": "s12",
+     "text": null,
+     "type": "quote",
+     "sourceType": "gov",
+     "sourceName": "박 수석대변인",
+     "sourceDetail": null,
+     "party": "더불어민주당"
+    },
+    {
+     "id": "s13",
+     "text": null,
+     "type": "quote",
+     "sourceType": "gov",
+     "sourceName": "박 수석대변인",
+     "sourceDetail": null,
+     "party": "더불어민주당"
+    },
+    {
+     "id": "s14",
+     "text": null,
+     "type": "quote",
+     "sourceType": "gov",
+     "sourceName": "박 수석대변인",
+     "sourceDetail": null,
+     "party": "더불어민주당"
+    },
+    {
+     "id": "s15",
+     "text": null,
+     "type": "quote",
+     "sourceType": "gov",
+     "sourceName": "김민석 민주당 대표",
+     "sourceDetail": null,
+     "party": "더불어민주당"
+    },
+    {
+     "id": "s16",
+     "text": null,
+     "type": "quote",
+     "sourceType": "gov",
+     "sourceName": "한성숙 국무총리",
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s17",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    }
+   ],
+   "framingTerms": [],
+   "analyzedBy": "gemini-3.5-flash-lite"
+  },
+  {
+   "id": "a-04a8b59201",
+   "issueId": "auto-20261118-1300-1",
+   "outletId": "tvchosun",
+   "outletName": "TV조선",
+   "title": "장동혁 \"李 수능 부정 대책 '신고 포상금 1억' 기막혀\"",
+   "summary": "장동혁 국민의힘 대표가 18일 이재명 대통령이 제시한 수능 부정행위 방지 대책과 관련해 \"기가 막히다\"고 비판했다. 장 대표는 이날 페이스북에 글을 올려 \"신고 포상금 건당 1억원, 이재명식 수능 부정행위 방지 대책...",
+   "url": "https://news.tvchosun.com/site/data/html_dir/2026/11/18/2026111890120.html",
+   "publishedAt": "2026-11-18T10:57:00+09:00",
+   "sentences": [
+    {
+     "id": "s1",
+     "text": null,
+     "type": "quote",
+     "sourceType": "opp",
+     "sourceName": "장동혁",
+     "sourceDetail": null,
+     "party": "국민의힘"
+    },
+    {
+     "id": "s2",
+     "text": null,
+     "type": "quote",
+     "sourceType": "opp",
+     "sourceName": "장동혁",
+     "sourceDetail": null,
+     "party": "국민의힘"
+    },
+    {
+     "id": "s3",
+     "text": null,
+     "type": "quote",
+     "sourceType": "gov",
+     "sourceName": "이재명 대통령",
+     "sourceDetail": null,
+     "party": "더불어민주당"
+    },
+    {
+     "id": "s4",
+     "text": null,
+     "type": "quote",
+     "sourceType": "opp",
+     "sourceName": "장동혁",
+     "sourceDetail": null,
+     "party": "국민의힘"
+    },
+    {
+     "id": "s5",
+     "text": null,
+     "type": "quote",
+     "sourceType": "opp",
+     "sourceName": "장동혁",
+     "sourceDetail": null,
+     "party": "국민의힘"
+    },
+    {
+     "id": "s6",
+     "text": null,
+     "type": "quote",
+     "sourceType": "opp",
+     "sourceName": "장동혁",
+     "sourceDetail": null,
+     "party": "국민의힘"
+    },
+    {
+     "id": "s7",
+     "text": null,
+     "type": "quote",
+     "sourceType": "opp",
+     "sourceName": "장동혁",
+     "sourceDetail": null,
+     "party": "국민의힘"
+    },
+    {
+     "id": "s8",
+     "text": null,
+     "type": "quote",
+     "sourceType": "opp",
+     "sourceName": "장동혁",
+     "sourceDetail": null,
+     "party": "국민의힘"
+    }
+   ],
+   "framingTerms": [],
+   "analyzedBy": "gemini-3.5-flash-lite"
+  },
+  {
+   "id": "a-66941cbe8f",
+   "issueId": "auto-20261118-1300-1",
+   "outletId": "hankookilbo",
+   "outletName": "한국일보",
+   "title": "국민의힘, 이 대통령 '신고 포상금·재난 문자' 수능 대책 맹공... \"무책...",
+   "summary": "국민의힘이 19일 이재명 대통령이 대학수학능력시험(수능) 부정행위 방지를 위해 신고 포상금 지급, 시험 중 재난문자 발송 등을 지시한 것과 관련해 \"무책임한 재래식 대응\"이라고 비판했다. 장동혁 대표는 이날...",
+   "url": "https://www.hankookilbo.com/news/article/A2026111810350000610?did=NA",
+   "publishedAt": "2026-11-18T11:06:00+09:00",
+   "sentences": [
+    {
+     "id": "s1",
+     "text": null,
+     "type": "quote",
+     "sourceType": "opp",
+     "sourceName": "국민의힘",
+     "sourceDetail": null,
+     "party": "국민의힘"
+    },
+    {
+     "id": "s2",
+     "text": null,
+     "type": "quote",
+     "sourceType": "opp",
+     "sourceName": "장동혁 대표",
+     "sourceDetail": null,
+     "party": "국민의힘"
+    },
+    {
+     "id": "s3",
+     "text": null,
+     "type": "quote",
+     "sourceType": "opp",
+     "sourceName": "장동혁 대표",
+     "sourceDetail": null,
+     "party": "국민의힘"
+    },
+    {
+     "id": "s4",
+     "text": null,
+     "type": "quote",
+     "sourceType": "opp",
+     "sourceName": "박충권 수석대변인",
+     "sourceDetail": null,
+     "party": "국민의힘"
+    },
+    {
+     "id": "s5",
+     "text": null,
+     "type": "quote",
+     "sourceType": "opp",
+     "sourceName": "나경원 의원",
+     "sourceDetail": null,
+     "party": "국민의힘"
+    },
+    {
+     "id": "s6",
+     "text": null,
+     "type": "quote",
+     "sourceType": "opp",
+     "sourceName": "유승민 전 의원",
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s7",
+     "text": null,
+     "type": "quote",
+     "sourceType": "opp",
+     "sourceName": "유승민 전 의원",
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s8",
+     "text": "교육부 장관을 경질해야 한다는 목소리도 나왔다.",
+     "type": "opinion",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s9",
+     "text": null,
+     "type": "quote",
+     "sourceType": "opp",
+     "sourceName": "최수진 원내수석대변인",
+     "sourceDetail": null,
+     "party": "국민의힘"
+    },
+    {
+     "id": "s10",
+     "text": null,
+     "type": "quote",
+     "sourceType": "opp",
+     "sourceName": "박정훈 의원",
+     "sourceDetail": null,
+     "party": "국민의힘"
+    },
+    {
+     "id": "s11",
+     "text": null,
+     "type": "quote",
+     "sourceType": "opp",
+     "sourceName": "박정훈 의원",
+     "sourceDetail": null,
+     "party": "국민의힘"
+    }
+   ],
+   "framingTerms": [
+    {
+     "term": "비판했다",
+     "sentenceId": "s1"
+    },
+    {
+     "term": "지적했다",
+     "sentenceId": "s2"
+    },
+    {
+     "term": "촉구했다",
+     "sentenceId": "s4"
+    },
+    {
+     "term": "지적했다",
+     "sentenceId": "s5"
+    },
+    {
+     "term": "비판했다",
+     "sentenceId": "s6"
+    },
+    {
+     "term": "강조했다",
+     "sentenceId": "s9"
+    }
+   ],
+   "analyzedBy": "gemini-3.5-flash-lite"
+  },
+  {
+   "id": "a-297b81b12b",
+   "issueId": "auto-20261118-1300-1",
+   "outletId": "seoul",
+   "outletName": "서울신문",
+   "title": "국민의힘 “李대통령 ‘수능 신고 1억원’, 북한식 5호 담당제”",
+   "summary": "국민의힘은 18일 이재명 대통령이 대학수학능력시험(수능) 부정행위 대응책으로 ‘신고 포상금 1억원’... 장동혁 국민의힘 대표는 페이스북에서 수능 부정행위 신고 포상금 1억원 지급 대책에 대해 “이재명식 수능...",
+   "url": "https://www.seoul.co.kr/news/politics/2026/11/18/20261118500050?wlog_tag3=naver",
+   "publishedAt": "2026-11-18T10:20:00+09:00",
+   "sentences": [
+    {
+     "id": "s1",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s2",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s3",
+     "text": null,
+     "type": "quote",
+     "sourceType": "opp",
+     "sourceName": "국민의힘",
+     "sourceDetail": null,
+     "party": "국민의힘"
+    },
+    {
+     "id": "s4",
+     "text": "‘신고 포상금 1억원’ 대책과 북한의 인민 상호 감시 체제인 5호 담당제…",
+     "type": "opinion",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s5",
+     "text": null,
+     "type": "quote",
+     "sourceType": "opp",
+     "sourceName": "장동혁 대표",
+     "sourceDetail": null,
+     "party": "국민의힘"
+    },
+    {
+     "id": "s6",
+     "text": null,
+     "type": "quote",
+     "sourceType": "opp",
+     "sourceName": "장동혁 대표",
+     "sourceDetail": null,
+     "party": "국민의힘"
+    },
+    {
+     "id": "s7",
+     "text": null,
+     "type": "quote",
+     "sourceType": "opp",
+     "sourceName": "장동혁 대표",
+     "sourceDetail": null,
+     "party": "국민의힘"
+    },
+    {
+     "id": "s8",
+     "text": null,
+     "type": "quote",
+     "sourceType": "opp",
+     "sourceName": "국민의힘",
+     "sourceDetail": null,
+     "party": "국민의힘"
+    },
+    {
+     "id": "s9",
+     "text": null,
+     "type": "quote",
+     "sourceType": "opp",
+     "sourceName": "나경원 의원",
+     "sourceDetail": null,
+     "party": "국민의힘"
+    },
+    {
+     "id": "s10",
+     "text": null,
+     "type": "quote",
+     "sourceType": "opp",
+     "sourceName": "유승민 전 의원",
+     "sourceDetail": null,
+     "party": "국민의힘"
+    },
+    {
+     "id": "s11",
+     "text": null,
+     "type": "quote",
+     "sourceType": "opp",
+     "sourceName": "박충권 수석대변인",
+     "sourceDetail": null,
+     "party": "국민의힘"
+    },
+    {
+     "id": "s12",
+     "text": null,
+     "type": "quote",
+     "sourceType": "opp",
+     "sourceName": "박충권 수석대변인",
+     "sourceDetail": null,
+     "party": "국민의힘"
+    },
+    {
+     "id": "s13",
+     "text": null,
+     "type": "quote",
+     "sourceType": "opp",
+     "sourceName": "박충권 수석대변인",
+     "sourceDetail": null,
+     "party": "국민의힘"
+    },
+    {
+     "id": "s14",
+     "text": null,
+     "type": "quote",
+     "sourceType": "opp",
+     "sourceName": "김미애 원내정책수석부대표",
+     "sourceDetail": null,
+     "party": "국민의힘"
+    },
+    {
+     "id": "s15",
+     "text": null,
+     "type": "quote",
+     "sourceType": "opp",
+     "sourceName": "김미애 원내정책수석부대표",
+     "sourceDetail": null,
+     "party": "국민의힘"
+    },
+    {
+     "id": "s16",
+     "text": null,
+     "type": "quote",
+     "sourceType": "opp",
+     "sourceName": "김미애 원내정책수석부대표",
+     "sourceDetail": null,
+     "party": "국민의힘"
+    }
+   ],
+   "framingTerms": [
+    {
+     "term": "비판하는",
+     "sentenceId": "s4"
+    }
+   ],
+   "analyzedBy": "gemini-3.5-flash-lite"
+  },
+  {
+   "id": "a-6dbb862fa0",
+   "issueId": "auto-20261118-1300-1",
+   "outletId": "yonhapnewstv",
+   "outletName": "연합뉴스TV",
+   "title": "국힘, 이 대통령 포상금·재난문자 지시에 \"재래식 대응 무책임\"",
+   "summary": "국민의힘은 이재명 대통령이 대학수학능력시험(수능) 인공지능(AI) 부정행위 대응을 위해 신고 포상금 지급과 시험 중 재난문자 발송 등을 지시한 데 대해 \"무책임한 재래식 대응책\"이라며 포화를 퍼부었습니다. 국민의힘...",
+   "url": "http://www.yonhapnewstv.co.kr/news/AKR202611181058387On",
+   "publishedAt": "2026-11-18T10:59:00+09:00",
+   "sentences": [
+    {
+     "id": "s1",
+     "text": null,
+     "type": "quote",
+     "sourceType": "opp",
+     "sourceName": "국민의힘",
+     "sourceDetail": null,
+     "party": "국민의힘"
+    },
+    {
+     "id": "s2",
+     "text": null,
+     "type": "quote",
+     "sourceType": "opp",
+     "sourceName": "장동혁 대표",
+     "sourceDetail": null,
+     "party": "국민의힘"
+    },
+    {
+     "id": "s3",
+     "text": null,
+     "type": "quote",
+     "sourceType": "opp",
+     "sourceName": "장 대표",
+     "sourceDetail": null,
+     "party": "국민의힘"
+    },
+    {
+     "id": "s4",
+     "text": null,
+     "type": "quote",
+     "sourceType": "opp",
+     "sourceName": "박충권 수석대변인",
+     "sourceDetail": null,
+     "party": "국민의힘"
+    },
+    {
+     "id": "s5",
+     "text": null,
+     "type": "quote",
+     "sourceType": "opp",
+     "sourceName": "나경원 의원",
+     "sourceDetail": null,
+     "party": "국민의힘"
+    },
+    {
+     "id": "s6",
+     "text": null,
+     "type": "quote",
+     "sourceType": "opp",
+     "sourceName": "유승민 전 의원",
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s7",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    }
+   ],
+   "framingTerms": [
+    {
+     "term": "포화를 퍼부었습니다",
+     "sentenceId": "s1"
+    },
+    {
+     "term": "적었습니다",
+     "sentenceId": "s2"
+    },
+    {
+     "term": "비판했습니다",
+     "sentenceId": "s3"
+    },
+    {
+     "term": "꼬집었습니다",
+     "sentenceId": "s4"
+    },
+    {
+     "term": "지적했습니다",
+     "sentenceId": "s5"
+    },
+    {
+     "term": "비판했습니다",
+     "sentenceId": "s6"
+    }
+   ],
+   "analyzedBy": "gemini-3.5-flash-lite"
+  },
+  {
+   "id": "a-a6cd9c3b45",
+   "issueId": "auto-20261118-1300-1",
+   "outletId": "newdaily",
+   "outletName": "뉴데일리",
+   "title": "국힘, 李가 내놓은 수능 대책 맹폭 … \"부정행위 잡겠다며 수험생 박살...",
+   "summary": "국민의힘이 18일 이재명 대통령의 대학수학능력시험(수능) 부정행위 방지 대책을 두고... 장동혁 국민의힘 대표는 이날 자신의 페이스북을 통해 \"신고 포상금 건당 1억 원! 이재명식 수능 부정행위 방지...",
+   "url": "https://www.newdaily.co.kr/site/data/html/2026/11/18/2026111850106.html",
+   "publishedAt": "2026-11-18T10:46:00+09:00",
+   "sentences": [
+    {
+     "id": "s1",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s2",
+     "text": "부정행위 신고자에게 건당 1억 원 이상의 포상금을 지급하고 시험 도중 재…",
+     "type": "opinion",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s3",
+     "text": null,
+     "type": "quote",
+     "sourceType": "opp",
+     "sourceName": "장동혁",
+     "sourceDetail": null,
+     "party": "국민의힘"
+    },
+    {
+     "id": "s4",
+     "text": null,
+     "type": "quote",
+     "sourceType": "opp",
+     "sourceName": "장동혁",
+     "sourceDetail": null,
+     "party": "국민의힘"
+    },
+    {
+     "id": "s5",
+     "text": null,
+     "type": "quote",
+     "sourceType": "gov",
+     "sourceName": "이재명",
+     "sourceDetail": null,
+     "party": "더불어민주당"
+    },
+    {
+     "id": "s6",
+     "text": null,
+     "type": "quote",
+     "sourceType": "gov",
+     "sourceName": "이재명",
+     "sourceDetail": null,
+     "party": "더불어민주당"
+    },
+    {
+     "id": "s7",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s8",
+     "text": null,
+     "type": "quote",
+     "sourceType": "opp",
+     "sourceName": "장동혁",
+     "sourceDetail": null,
+     "party": "국민의힘"
+    },
+    {
+     "id": "s9",
+     "text": "단순히 방해받은 시간만큼 시험시간을 늘려준다고 해서 수험생이 입은 피해를…",
+     "type": "opinion",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s10",
+     "text": "제한된 시간 안에 문제를 풀어야 하는 수능의 특성상 한 번 흐트러진 집중…",
+     "type": "opinion",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s11",
+     "text": null,
+     "type": "quote",
+     "sourceType": "opp",
+     "sourceName": "장동혁",
+     "sourceDetail": null,
+     "party": "국민의힘"
+    },
+    {
+     "id": "s12",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s13",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s14",
+     "text": null,
+     "type": "quote",
+     "sourceType": "opp",
+     "sourceName": "장동혁",
+     "sourceDetail": null,
+     "party": "국민의힘"
+    },
+    {
+     "id": "s15",
+     "text": null,
+     "type": "quote",
+     "sourceType": "opp",
+     "sourceName": "나경원",
+     "sourceDetail": null,
+     "party": "국민의힘"
+    },
+    {
+     "id": "s16",
+     "text": "나 의원은 특히 신고 포상금 제도의 부작용을 우려했다.",
+     "type": "opinion",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s17",
+     "text": "거액의 포상금을 내걸어 부정행위 신고를 유도할 경우 수험생들이 시험에 집…",
+     "type": "opinion",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s18",
+     "text": null,
+     "type": "quote",
+     "sourceType": "opp",
+     "sourceName": "나경원",
+     "sourceDetail": null,
+     "party": "국민의힘"
+    },
+    {
+     "id": "s19",
+     "text": null,
+     "type": "quote",
+     "sourceType": "opp",
+     "sourceName": "나경원",
+     "sourceDetail": null,
+     "party": "국민의힘"
+    },
+    {
+     "id": "s20",
+     "text": "신고 포상금으로 부정행위를 적발하는 사후 대응보다 시험장에 부정행위 기기…",
+     "type": "opinion",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s21",
+     "text": null,
+     "type": "quote",
+     "sourceType": "opp",
+     "sourceName": "나경원",
+     "sourceDetail": null,
+     "party": "국민의힘"
+    },
+    {
+     "id": "s22",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s23",
+     "text": null,
+     "type": "quote",
+     "sourceType": "opp",
+     "sourceName": "나경원",
+     "sourceDetail": null,
+     "party": "국민의힘"
+    },
+    {
+     "id": "s24",
+     "text": null,
+     "type": "quote",
+     "sourceType": "opp",
+     "sourceName": "나경원",
+     "sourceDetail": null,
+     "party": "국민의힘"
+    },
+    {
+     "id": "s25",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s26",
+     "text": null,
+     "type": "quote",
+     "sourceType": "opp",
+     "sourceName": "조용술",
+     "sourceDetail": null,
+     "party": "국민의힘"
+    },
+    {
+     "id": "s27",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s28",
+     "text": "부정행위자가 재난문자 발송 계획을 미리 알고 휴대전화의 알림 기능을 차단…",
+     "type": "opinion",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s29",
+     "text": null,
+     "type": "quote",
+     "sourceType": "opp",
+     "sourceName": "조용술",
+     "sourceDetail": null,
+     "party": "국민의힘"
+    },
+    {
+     "id": "s30",
+     "text": null,
+     "type": "quote",
+     "sourceType": "opp",
+     "sourceName": "조용술",
+     "sourceDetail": null,
+     "party": "국민의힘"
+    },
+    {
+     "id": "s31",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s32",
+     "text": null,
+     "type": "quote",
+     "sourceType": "opp",
+     "sourceName": "함인경",
+     "sourceDetail": null,
+     "party": "국민의힘"
+    },
+    {
+     "id": "s33",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s34",
+     "text": null,
+     "type": "quote",
+     "sourceType": "opp",
+     "sourceName": "함인경",
+     "sourceDetail": null,
+     "party": "국민의힘"
+    },
+    {
+     "id": "s35",
+     "text": null,
+     "type": "quote",
+     "sourceType": "opp",
+     "sourceName": "함인경",
+     "sourceDetail": null,
+     "party": "국민의힘"
+    }
+   ],
+   "framingTerms": [
+    {
+     "term": "집중포화를 퍼부었다",
+     "sentenceId": "s1"
+    },
+    {
+     "term": "꼬집었다",
+     "sentenceId": "s3"
+    },
+    {
+     "term": "적었다",
+     "sentenceId": "s4"
+    },
+    {
+     "term": "밝혔다",
+     "sentenceId": "s5"
+    },
+    {
+     "term": "밝혔다",
+     "sentenceId": "s6"
+    },
+    {
+     "term": "문제 삼은 것은",
+     "sentenceId": "s7"
+    },
+    {
+     "term": "지적했다",
+     "sentenceId": "s8"
+    },
+    {
+     "term": "짚었다",
+     "sentenceId": "s11"
+    },
+    {
+     "term": "맞받았다",
+     "sentenceId": "s12"
+    },
+    {
+     "term": "비판했다",
+     "sentenceId": "s15"
+    },
+    {
+     "term": "지적했다",
+     "sentenceId": "s18"
+    },
+    {
+     "term": "강조했다",
+     "sentenceId": "s21"
+    },
+    {
+     "term": "빗대기도 했다",
+     "sentenceId": "s22"
+    },
+    {
+     "term": "썼다",
+     "sentenceId": "s23"
+    },
+    {
+     "term": "촉구했다",
+     "sentenceId": "s24"
+    },
+    {
+     "term": "의문을 제기했다",
+     "sentenceId": "s25"
+    },
+    {
+     "term": "비판했다",
+     "sentenceId": "s26"
+    },
+    {
+     "term": "우려를 표했다",
+     "sentenceId": "s27"
+    },
+    {
+     "term": "직격했다",
+     "sentenceId": "s30"
+    },
+    {
+     "term": "문제 삼았다",
+     "sentenceId": "s31"
+    },
+    {
+     "term": "강조했다",
+     "sentenceId": "s32"
+    },
+    {
+     "term": "비판했다",
+     "sentenceId": "s33"
+    },
+    {
+     "term": "촉구했다",
+     "sentenceId": "s35"
+    }
+   ],
+   "analyzedBy": "gemini-3.5-flash-lite"
+  },
+  {
+   "id": "a-cf32d9bf03",
+   "issueId": "auto-20261118-1300-1",
+   "outletId": "pennmike",
+   "outletName": "펜앤마이크",
+   "title": "수능 D-1 '재난문자·포상금 1억' 대책...\"수험생 집중력 박살은 덤\"",
+   "summary": "장동혁 국민의힘 대표는 이날 페이스북에 \"포상금 건당 1억원! 이재명식 수능 부정행위 방지 대책이 기가 막히다\"고 직격했다. 박충권 수석대변인은 정부의 '복장검사 강화' 조치에 대해 \"AI 커닝 앞에서 맨눈과 머릿수에...",
+   "url": "https://www.pennmike.com/news/articleView.html?idxno=132128",
+   "publishedAt": "2026-11-18T11:24:00+09:00",
+   "sentences": [
+    {
+     "id": "s1",
+     "text": null,
+     "type": "quote",
+     "sourceType": "opp",
+     "sourceName": "박충권 수석대변인",
+     "sourceDetail": null,
+     "party": "국민의힘"
+    },
+    {
+     "id": "s2",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s3",
+     "text": "그러나 대개 복장검사나 처벌 강화 등 재래식 대책에 멈춰있어 'AI회사…",
+     "type": "opinion",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s4",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s5",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s6",
+     "text": "그러나 이또한 무고한 수험생들이 부정행위자 때문에 소음 피해를 받는단 비…",
+     "type": "opinion",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s7",
+     "text": null,
+     "type": "quote",
+     "sourceType": "gov",
+     "sourceName": "김문수 의원",
+     "sourceDetail": null,
+     "party": "더불어민주당"
+    },
+    {
+     "id": "s8",
+     "text": "해외 순방 중인 이재명 대통령은 신고 포상금으로 '건당 1억원'을 주자고…",
+     "type": "opinion",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s9",
+     "text": null,
+     "type": "quote",
+     "sourceType": "opp",
+     "sourceName": "장동혁 대표",
+     "sourceDetail": null,
+     "party": "국민의힘"
+    },
+    {
+     "id": "s10",
+     "text": null,
+     "type": "quote",
+     "sourceType": "opp",
+     "sourceName": "박충권 수석대변인",
+     "sourceDetail": null,
+     "party": "국민의힘"
+    },
+    {
+     "id": "s11",
+     "text": null,
+     "type": "quote",
+     "sourceType": "opp",
+     "sourceName": "함인경 대변인",
+     "sourceDetail": null,
+     "party": "국민의힘"
+    },
+    {
+     "id": "s12",
+     "text": null,
+     "type": "quote",
+     "sourceType": "opp",
+     "sourceName": "조용술 대변인",
+     "sourceDetail": null,
+     "party": "국민의힘"
+    }
+   ],
+   "framingTerms": [
+    {
+     "term": "멈춰있어",
+     "sentenceId": "s3"
+    },
+    {
+     "term": "받아들여지지 않았다",
+     "sentenceId": "s4"
+    },
+    {
+     "term": "비판으로 이어졌다",
+     "sentenceId": "s6"
+    },
+    {
+     "term": "뭇매를 맞았다",
+     "sentenceId": "s7"
+    },
+    {
+     "term": "논란에 직면했다",
+     "sentenceId": "s8"
+    },
+    {
+     "term": "직격했다",
+     "sentenceId": "s9"
+    },
+    {
+     "term": "일갈했다",
+     "sentenceId": "s10"
+    },
+    {
+     "term": "반문했다",
+     "sentenceId": "s11"
+    },
+    {
+     "term": "꼬집었다",
+     "sentenceId": "s12"
+    }
+   ],
+   "analyzedBy": "gemini-3.5-flash-lite"
+  },
+  {
+   "id": "a-e8a37ad6d6",
+   "issueId": "auto-20261118-1302-1",
+   "outletId": "yna",
+   "outletName": "연합뉴스",
+   "title": "공정위, '총수 지정자료 허위제출' 쿠팡·김범석 고발 의견",
+   "summary": "심사보고서는 검찰의 공소장 격에 해당하는 문서다. 공정위는 쿠팡을 공시집단으로 지정한 지 5년 만에 지난 4월 그간 쿠팡 법인으로 돼 있던 쿠팡의 동일인을 자연인 김 의장으로 변경해 지정했다. 김 의장 친동생인...",
+   "url": "https://www.yna.co.kr/view/AKR20261117163200002?input=1195m",
+   "publishedAt": "2026-11-17T18:47:00+09:00",
+   "sentences": [
+    {
+     "id": "s1",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s2",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s3",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s4",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s5",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s6",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s7",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s8",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    }
+   ],
+   "framingTerms": [],
+   "analyzedBy": "gemini-3.5-flash-lite"
+  },
+  {
+   "id": "a-0ae96f1cfb",
+   "issueId": "auto-20261118-1302-1",
+   "outletId": "newsis",
+   "outletName": "뉴시스",
+   "title": "공정위, 쿠팡·김범석 고발 여부 심의 착수…'총수 지정자료 허위 제출...",
+   "summary": "심사보고서는 조사부서가 조사 결과와 법 위반 판단, 필요한 조치 등을 정리한 문서로 검찰의 공소장 격에 해당한다. 현재 사무처가 고발이 필요하다는 의견을 낸 단계로, 고발 여부가 확정된 것은 아니다. 문제가 된...",
+   "url": "https://www.newsis.com/view/NISX20261117_0003872169",
+   "publishedAt": "2026-11-17T19:07:00+09:00",
+   "sentences": [
+    {
+     "id": "s1",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s2",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s3",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s4",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s5",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s6",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s7",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s8",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s9",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s10",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s11",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s12",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s13",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s14",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s15",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s16",
+     "text": null,
+     "type": "quote",
+     "sourceType": "etc",
+     "sourceName": "공정위 관계자",
+     "sourceDetail": "공정거래위원회",
+     "party": null
+    }
+   ],
+   "framingTerms": [],
+   "analyzedBy": "gemini-3.5-flash-lite"
+  },
+  {
+   "id": "a-86b464f82e",
+   "issueId": "auto-20261118-1302-1",
+   "outletId": "news1",
+   "outletName": "뉴스1",
+   "title": "\"법원 판단도 안 나왔는데\"…공정위, 쿠팡·김범석 고발 추진 논란",
+   "summary": "공정거래위원회가 법원의 집행정지 결정으로 효력이 정지된 쿠팡의 동일인(총수) 지정 문제와 관련해... 서울고등법원은 지난 7월 김 의장에 대한 동일인 변경 지정 처분의 효력을 본안 1심 판결 선고 후 30일까지...",
+   "url": "https://www.news1.kr/industry/distribution/6357523",
+   "publishedAt": "2026-11-18T08:54:00+09:00",
+   "sentences": [
+    {
+     "id": "s1",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s2",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s3",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s4",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s5",
+     "text": null,
+     "type": "quote",
+     "sourceType": "etc",
+     "sourceName": "재판부",
+     "sourceDetail": "법원",
+     "party": null
+    },
+    {
+     "id": "s6",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s7",
+     "text": null,
+     "type": "quote",
+     "sourceType": "industry",
+     "sourceName": "쿠팡 측",
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s8",
+     "text": null,
+     "type": "quote",
+     "sourceType": "industry",
+     "sourceName": "쿠팡 측",
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s9",
+     "text": null,
+     "type": "quote",
+     "sourceType": "gov",
+     "sourceName": "공정위",
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s10",
+     "text": "다만 두 사안 모두 김 씨의 실질적인 경영 참여 여부를 쟁점으로 삼고 있…",
+     "type": "opinion",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s11",
+     "text": null,
+     "type": "quote",
+     "sourceType": "expert",
+     "sourceName": "법조계 일각",
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s12",
+     "text": null,
+     "type": "quote",
+     "sourceType": "expert",
+     "sourceName": "법조계 일각",
+     "sourceDetail": null,
+     "party": null
+    }
+   ],
+   "framingTerms": [
+    {
+     "term": "불가피할 전망이다",
+     "sentenceId": "s10"
+    }
+   ],
+   "analyzedBy": "gemini-3.5-flash-lite"
+  },
+  {
+   "id": "a-3f70f2b17b",
+   "issueId": "auto-20261118-1302-1",
+   "outletId": "sbs",
+   "outletName": "SBS",
+   "title": "공정위, '총수 지정자료 허위 제출' 쿠팡·김범석 고발 의견",
+   "summary": "심사보고서는 검찰의 공소장 격에 해당하는 문서입니다. 공정위는 쿠팡을 공시집단으로 지정한 지 5년 만에 지난 4월 그간 쿠팡 법인으로 돼 있던 쿠팡의 동일인을 자연인 김 의장으로 변경해 지정했습니다. 김 의장...",
+   "url": "https://news.sbs.co.kr/news/endPage.do?news_id=N1008850483&plink=ORI&cooper=NAVER",
+   "publishedAt": "2026-11-17T19:48:00+09:00",
+   "sentences": [
+    {
+     "id": "s1",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s2",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s3",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s4",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s5",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s6",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s7",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    }
+   ],
+   "framingTerms": [],
+   "analyzedBy": "gemini-3.5-flash-lite"
+  },
+  {
+   "id": "a-de8196f22c",
+   "issueId": "auto-20261118-1302-1",
+   "outletId": "ytn",
+   "outletName": "YTN",
+   "title": "공정위 심사관, 동일인 지정자료 허위제출로 쿠팡·김범석 고발 의견",
+   "summary": "심사보고서는 검찰의 공소장 격에 해당합니다. 공정위는 쿠팡을 공시집단으로 지정한 지 5년 만인 지난 4월 그동안 쿠팡 법인으로 돼 있던 쿠팡의 동일인을 자연인인 김 의장으로 변경해 지정했습니다. 김 의장 친동생인...",
+   "url": "https://www.ytn.co.kr/_ln/0102_202611172055180982",
+   "publishedAt": "2026-11-17T20:55:00+09:00",
+   "sentences": [
+    {
+     "id": "s1",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s2",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s3",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s4",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s5",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s6",
+     "text": null,
+     "type": "quote",
+     "sourceType": "industry",
+     "sourceName": "쿠팡",
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s7",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s8",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    }
+   ],
+   "framingTerms": [
+    {
+     "term": "유출 사태",
+     "sentenceId": "s6"
+    }
+   ],
+   "analyzedBy": "gemini-3.5-flash-lite"
+  },
+  {
+   "id": "a-d43677d10a",
+   "issueId": "auto-20261118-1302-1",
+   "outletId": "hankookilbo",
+   "outletName": "한국일보",
+   "title": "공정위, '쿠팡·김범석' 고발 심의 착수… \"총수 지정자료 허위 제출 혐...",
+   "summary": "심사보고서는 조사를 맡은 심사관이 위법성과 조치 의견을 적은 문서로, 검찰의 공소장에 해당한다. 당국은 쿠팡 측에 6주간 의견 제출 기간을 준 뒤 소회의에서 고발 여부를 결정할 예정이다. 공정거래법은 지정자료를...",
+   "url": "https://www.hankookilbo.com/news/article/A2026111720380002887?did=NA",
+   "publishedAt": "2026-11-17T21:02:00+09:00",
+   "sentences": [
+    {
+     "id": "s1",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s2",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s3",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s4",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s5",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s6",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s7",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s8",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s9",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s10",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s11",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s12",
+     "text": null,
+     "type": "quote",
+     "sourceType": "industry",
+     "sourceName": "쿠팡",
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s13",
+     "text": null,
+     "type": "quote",
+     "sourceType": "industry",
+     "sourceName": "쿠팡",
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s14",
+     "text": null,
+     "type": "quote",
+     "sourceType": "gov",
+     "sourceName": "공정위 관계자",
+     "sourceDetail": null,
+     "party": null
+    }
+   ],
+   "framingTerms": [],
+   "analyzedBy": "gemini-3.5-flash-lite"
+  },
+  {
+   "id": "a-0e444ceea4",
+   "issueId": "auto-20261118-1302-1",
+   "outletId": "kmib",
+   "outletName": "국민일보",
+   "title": "공정위, 쿠팡·김범석 고발 의견… 총수 지정자료 허위 제출 혐의",
+   "summary": "심사보고서는 검찰의 공소장 격에 해당하는 문서다. 공정위는 쿠팡 측 의견을 듣고 심의를 거쳐 최종 고발 여부를 결정하기로 했다. 쟁점은 김 의장 동생인 김유석씨의 국내 경영 참여 여부다. 공정위는 김씨가 쿠팡...",
+   "url": "https://www.kmib.co.kr/article/20261117502143",
+   "publishedAt": "2026-11-18T00:19:00+09:00",
+   "sentences": [
+    {
+     "id": "s1",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s2",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s3",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s4",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s5",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s6",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s7",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s8",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s9",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s10",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s11",
+     "text": null,
+     "type": "quote",
+     "sourceType": "gov",
+     "sourceName": "주병기 위원장",
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s12",
+     "text": "쿠팡 입장은 정반대다.",
+     "type": "opinion",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s13",
+     "text": null,
+     "type": "quote",
+     "sourceType": "industry",
+     "sourceName": "쿠팡",
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s14",
+     "text": null,
+     "type": "quote",
+     "sourceType": "industry",
+     "sourceName": "쿠팡",
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s15",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    }
+   ],
+   "framingTerms": [],
+   "analyzedBy": "gemini-3.5-flash-lite"
+  },
+  {
+   "id": "a-b0f6c6586e",
+   "issueId": "auto-20261118-1302-1",
+   "outletId": "edaily",
+   "outletName": "이데일리",
+   "title": "공정위, '쿠팡·김범석' 고발 의견…“총수 지정자료 허위 제출 혐의”",
+   "summary": "심사보고서는 조사를 맡은 심사관이 위법성과 조치 의견을 적은 문서로, 검찰의 공소장에 해당한다. 공정위는 쿠팡 측에 6주간 의견 제출 기간을 준 뒤 소회의에서 고발 여부를 결정할 예정이다. 공정거래법은...",
+   "url": "https://www.edaily.co.kr/News/Read?newsId=05261126645646704&mediaCodeNo=257&utm_source=naver&utm_medium=referral&utm_campaign=news_syndication&utm_content=original_article",
+   "publishedAt": "2026-11-17T21:32:00+09:00",
+   "sentences": [
+    {
+     "id": "s1",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s2",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s3",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s4",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s5",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s6",
+     "text": null,
+     "type": "quote",
+     "sourceType": "gov",
+     "sourceName": "공정위 관계자",
+     "sourceDetail": null,
+     "party": null
+    }
+   ],
+   "framingTerms": [],
+   "analyzedBy": "gemini-3.5-flash-lite"
+  },
+  {
+   "id": "a-f90b7ff37a",
+   "issueId": "auto-20261118-1303-1",
+   "outletId": "newsis",
+   "outletName": "뉴시스",
+   "title": "우원식 \"민주당은 김민석·정청래 당 아냐…추미애는 경기도 집중해야\"",
+   "summary": "우원식 더불어민주당 의원이 18일 \"민주당이 김민석의 당도 아니고 정청래 당도 아니다\"라며 두 사람이 만나 갈등을 풀어야 한다고 거듭 강조했다. 22대 국회 전반기 국회의장을 지낸 우 의원은 이날 MBC 라디오 '김종배의...",
+   "url": "https://www.newsis.com/view/NISX20261118_0003872647",
+   "publishedAt": "2026-11-18T09:39:00+09:00",
+   "sentences": [
+    {
+     "id": "s1",
+     "text": null,
+     "type": "quote",
+     "sourceType": "gov",
+     "sourceName": "추미애",
+     "sourceDetail": null,
+     "party": "더불어민주당"
+    },
+    {
+     "id": "s2",
+     "text": null,
+     "type": "quote",
+     "sourceType": "gov",
+     "sourceName": "우원식",
+     "sourceDetail": null,
+     "party": "더불어민주당"
+    },
+    {
+     "id": "s3",
+     "text": null,
+     "type": "quote",
+     "sourceType": "gov",
+     "sourceName": "우원식",
+     "sourceDetail": null,
+     "party": "더불어민주당"
+    },
+    {
+     "id": "s4",
+     "text": null,
+     "type": "quote",
+     "sourceType": "gov",
+     "sourceName": "우원식",
+     "sourceDetail": null,
+     "party": "더불어민주당"
+    },
+    {
+     "id": "s5",
+     "text": null,
+     "type": "quote",
+     "sourceType": "gov",
+     "sourceName": "우원식",
+     "sourceDetail": null,
+     "party": "더불어민주당"
+    },
+    {
+     "id": "s6",
+     "text": null,
+     "type": "quote",
+     "sourceType": "gov",
+     "sourceName": "우원식",
+     "sourceDetail": null,
+     "party": "더불어민주당"
+    },
+    {
+     "id": "s7",
+     "text": null,
+     "type": "quote",
+     "sourceType": "gov",
+     "sourceName": "우원식",
+     "sourceDetail": null,
+     "party": "더불어민주당"
+    },
+    {
+     "id": "s8",
+     "text": null,
+     "type": "quote",
+     "sourceType": "gov",
+     "sourceName": "우원식",
+     "sourceDetail": null,
+     "party": "더불어민주당"
+    },
+    {
+     "id": "s9",
+     "text": null,
+     "type": "quote",
+     "sourceType": "gov",
+     "sourceName": "우원식",
+     "sourceDetail": null,
+     "party": "더불어민주당"
+    },
+    {
+     "id": "s10",
+     "text": null,
+     "type": "quote",
+     "sourceType": "gov",
+     "sourceName": "우원식",
+     "sourceDetail": null,
+     "party": "더불어민주당"
+    },
+    {
+     "id": "s11",
+     "text": "우 의원은 당내 갈등이 계속될 경우 다음 총선에서 참패할 수 있다고 경고…",
+     "type": "opinion",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s12",
+     "text": null,
+     "type": "quote",
+     "sourceType": "gov",
+     "sourceName": "우원식",
+     "sourceDetail": null,
+     "party": "더불어민주당"
+    },
+    {
+     "id": "s13",
+     "text": null,
+     "type": "quote",
+     "sourceType": "gov",
+     "sourceName": "우원식",
+     "sourceDetail": null,
+     "party": "더불어민주당"
+    }
+   ],
+   "framingTerms": [
+    {
+     "term": "강조했다",
+     "sentenceId": "s2"
+    },
+    {
+     "term": "경고했다",
+     "sentenceId": "s11"
+    }
+   ],
+   "analyzedBy": "gemini-3.5-flash-lite"
+  },
+  {
+   "id": "a-1eba42d10a",
+   "issueId": "auto-20261118-1303-1",
+   "outletId": "joins",
+   "outletName": "JTBC",
+   "title": "우원식 “민주당은 김민석·정청래 당 아냐…추미애는 말 얹지 말아야\"",
+   "summary": "우원식 더불어민주당 의원이 \"내부 권력투쟁만 계속하고 있는데 이렇게 되면 다음 총선은 굉장히 어렵다\"면서 '신천지 의혹' 등을 놓고 대립하는 김민석 대표와 정청래 의원 모두를 강하게 비판했습니다. 우 의원은 오늘...",
+   "url": "https://news.jtbc.co.kr/article/NB12328635?influxDiv=NAVER",
+   "publishedAt": "2026-11-18T11:42:00+09:00",
+   "sentences": [
+    {
+     "id": "s1",
+     "text": null,
+     "type": "quote",
+     "sourceType": "gov",
+     "sourceName": "우원식 의원",
+     "sourceDetail": null,
+     "party": "더불어민주당"
+    },
+    {
+     "id": "s2",
+     "text": null,
+     "type": "quote",
+     "sourceType": "gov",
+     "sourceName": "우 의원",
+     "sourceDetail": null,
+     "party": "더불어민주당"
+    },
+    {
+     "id": "s3",
+     "text": null,
+     "type": "quote",
+     "sourceType": "gov",
+     "sourceName": "우 의원",
+     "sourceDetail": null,
+     "party": "더불어민주당"
+    },
+    {
+     "id": "s4",
+     "text": null,
+     "type": "quote",
+     "sourceType": "gov",
+     "sourceName": "우 의원",
+     "sourceDetail": null,
+     "party": "더불어민주당"
+    },
+    {
+     "id": "s5",
+     "text": null,
+     "type": "quote",
+     "sourceType": "gov",
+     "sourceName": "우 의원",
+     "sourceDetail": null,
+     "party": "더불어민주당"
+    },
+    {
+     "id": "s6",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s7",
+     "text": null,
+     "type": "quote",
+     "sourceType": "gov",
+     "sourceName": "우 의원",
+     "sourceDetail": null,
+     "party": "더불어민주당"
+    },
+    {
+     "id": "s8",
+     "text": null,
+     "type": "quote",
+     "sourceType": "gov",
+     "sourceName": "우 의원",
+     "sourceDetail": null,
+     "party": "더불어민주당"
+    },
+    {
+     "id": "s9",
+     "text": null,
+     "type": "quote",
+     "sourceType": "gov",
+     "sourceName": "우 의원",
+     "sourceDetail": null,
+     "party": "더불어민주당"
+    },
+    {
+     "id": "s10",
+     "text": null,
+     "type": "quote",
+     "sourceType": "gov",
+     "sourceName": "우 의원",
+     "sourceDetail": null,
+     "party": "더불어민주당"
+    },
+    {
+     "id": "s11",
+     "text": null,
+     "type": "quote",
+     "sourceType": "gov",
+     "sourceName": "우 의원",
+     "sourceDetail": null,
+     "party": "더불어민주당"
+    },
+    {
+     "id": "s12",
+     "text": null,
+     "type": "quote",
+     "sourceType": "gov",
+     "sourceName": "우 의원",
+     "sourceDetail": null,
+     "party": "더불어민주당"
+    }
+   ],
+   "framingTerms": [
+    {
+     "term": "강하게 비판했습니다",
+     "sentenceId": "s1"
+    },
+    {
+     "term": "지적했습니다",
+     "sentenceId": "s3"
+    },
+    {
+     "term": "비판했습니다",
+     "sentenceId": "s4"
+    },
+    {
+     "term": "촉구했습니다",
+     "sentenceId": "s5"
+    },
+    {
+     "term": "강조했습니다",
+     "sentenceId": "s8"
+    },
+    {
+     "term": "비판했습니다",
+     "sentenceId": "s10"
+    },
+    {
+     "term": "경고했습니다",
+     "sentenceId": "s12"
+    }
+   ],
+   "analyzedBy": "gemini-3.5-flash-lite"
+  },
+  {
+   "id": "a-9ba6814f2c",
+   "issueId": "auto-20261118-1303-1",
+   "outletId": "chosun",
+   "outletName": "조선일보",
+   "title": "우원식 “민주당은 김민석·정청래 당 아냐…추미애는 말 얹지 말고 경...",
+   "summary": "우원식 더불어민주당 의원이 18일 “민주당이 김민석의 당도, 정청래의 당도 아니다”라고 했다. 그러면서 지금처럼 분열과 갈등으로 간다면 다음 총선 때 의석 수가 쪼그라들 수 있다고 우려했다. 22대 국회 전반기...",
+   "url": "https://www.chosun.com/politics/politics_general/2026/11/18/53Z33TRVUFEZREO3IC4I4U2VDA/?utm_source=naver&utm_medium=referral&utm_campaign=naver-news",
+   "publishedAt": "2026-11-18T10:17:00+09:00",
+   "sentences": [
+    {
+     "id": "s1",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s2",
+     "text": null,
+     "type": "quote",
+     "sourceType": "gov",
+     "sourceName": "송영길 전 대표, 정 전 대표",
+     "sourceDetail": null,
+     "party": "더불어민주당"
+    },
+    {
+     "id": "s3",
+     "text": null,
+     "type": "quote",
+     "sourceType": "gov",
+     "sourceName": "정 전 대표",
+     "sourceDetail": null,
+     "party": "더불어민주당"
+    },
+    {
+     "id": "s4",
+     "text": null,
+     "type": "quote",
+     "sourceType": "gov",
+     "sourceName": "조계원 대변인",
+     "sourceDetail": null,
+     "party": "더불어민주당"
+    },
+    {
+     "id": "s5",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    }
+   ],
+   "framingTerms": [
+    {
+     "term": "감정싸움을 벌이기도 했다",
+     "sentenceId": "s1"
+    },
+    {
+     "term": "막 가자는 얘기",
+     "sentenceId": "s4"
+    }
+   ],
+   "analyzedBy": "gemini-3.5-flash-lite"
+  },
+  {
+   "id": "a-c8ab33c6b9",
+   "issueId": "auto-20261118-1303-1",
+   "outletId": "hani",
+   "outletName": "한겨레",
+   "title": "우원식 “민주당, 정청래당도 김민석당도 아냐…의석 수 쪼그라들 수도...",
+   "summary": "22대 국회 전반기 국회의장을 지낸 우원식 더불어민주당 의원이 ‘신천지 3자 비밀연합’ 의혹 논란에 이어 최민희 최고위원 징계 문제로 내분이 심화되는 민주당 내 갈등으로 2028년 총선에서 민주당 의석수가 쪼그라들 수...",
+   "url": "https://www.hani.co.kr/arti/politics/politics_general/1287865.html",
+   "publishedAt": "2026-11-18T09:38:00+09:00",
+   "sentences": [
+    {
+     "id": "s1",
+     "text": null,
+     "type": "quote",
+     "sourceType": "gov",
+     "sourceName": "우원식 의원",
+     "sourceDetail": null,
+     "party": "더불어민주당"
+    },
+    {
+     "id": "s2",
+     "text": null,
+     "type": "quote",
+     "sourceType": "gov",
+     "sourceName": "우 전 의장",
+     "sourceDetail": null,
+     "party": "더불어민주당"
+    },
+    {
+     "id": "s3",
+     "text": null,
+     "type": "quote",
+     "sourceType": "gov",
+     "sourceName": "우 전 의장",
+     "sourceDetail": null,
+     "party": "더불어민주당"
+    },
+    {
+     "id": "s4",
+     "text": null,
+     "type": "quote",
+     "sourceType": "gov",
+     "sourceName": "우 전 의장",
+     "sourceDetail": null,
+     "party": "더불어민주당"
+    },
+    {
+     "id": "s5",
+     "text": null,
+     "type": "quote",
+     "sourceType": "gov",
+     "sourceName": "우 전 의장",
+     "sourceDetail": null,
+     "party": "더불어민주당"
+    },
+    {
+     "id": "s6",
+     "text": null,
+     "type": "quote",
+     "sourceType": "gov",
+     "sourceName": "우 전 의장",
+     "sourceDetail": null,
+     "party": "더불어민주당"
+    },
+    {
+     "id": "s7",
+     "text": null,
+     "type": "quote",
+     "sourceType": "gov",
+     "sourceName": "우 전 의장",
+     "sourceDetail": null,
+     "party": "더불어민주당"
+    },
+    {
+     "id": "s8",
+     "text": null,
+     "type": "quote",
+     "sourceType": "gov",
+     "sourceName": "추 지사",
+     "sourceDetail": null,
+     "party": "더불어민주당"
+    }
+   ],
+   "framingTerms": [],
+   "analyzedBy": "gemini-3.5-flash-lite"
+  },
+  {
+   "id": "a-78d972c7b7",
+   "issueId": "auto-20261118-1303-1",
+   "outletId": "khan",
+   "outletName": "경향신문",
+   "title": "우원식 “추미애, 경기도에 집중했으면···왜 이렇게 자기주장 하나”",
+   "summary": "국회의장을 지낸 우원식 더불어민주당 의원은 18일 “추미애 경기도지사도 당이 이렇게 복잡하면 말을 얹지 말고 경기도에 집중해줬으면 좋겠다”고 말했다. . 우 의원은 이날 MBC 라디오에서 ‘김민석 대표의 신천지 의혹...",
+   "url": "https://weekly.khan.co.kr/article/202611181143001",
+   "publishedAt": "2026-11-18T11:43:00+09:00",
+   "sentences": [
+    {
+     "id": "s1",
+     "text": null,
+     "type": "quote",
+     "sourceType": "gov",
+     "sourceName": "우원식 의원",
+     "sourceDetail": null,
+     "party": "더불어민주당"
+    },
+    {
+     "id": "s2",
+     "text": null,
+     "type": "quote",
+     "sourceType": "gov",
+     "sourceName": "우원식 의원",
+     "sourceDetail": null,
+     "party": "더불어민주당"
+    },
+    {
+     "id": "s3",
+     "text": null,
+     "type": "quote",
+     "sourceType": "gov",
+     "sourceName": "우원식 의원",
+     "sourceDetail": null,
+     "party": "더불어민주당"
+    },
+    {
+     "id": "s4",
+     "text": null,
+     "type": "quote",
+     "sourceType": "gov",
+     "sourceName": "우원식 의원",
+     "sourceDetail": null,
+     "party": "더불어민주당"
+    },
+    {
+     "id": "s5",
+     "text": null,
+     "type": "quote",
+     "sourceType": "gov",
+     "sourceName": "추미애 경기도지사",
+     "sourceDetail": null,
+     "party": "더불어민주당"
+    },
+    {
+     "id": "s6",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s7",
+     "text": "친청계에 힘을 실어준 발언으로 해석됐다.",
+     "type": "opinion",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s8",
+     "text": null,
+     "type": "quote",
+     "sourceType": "gov",
+     "sourceName": "추미애 경기도지사",
+     "sourceDetail": null,
+     "party": "더불어민주당"
+    }
+   ],
+   "framingTerms": [],
+   "analyzedBy": "gemini-3.5-flash-lite"
+  },
+  {
+   "id": "a-04a0b04259",
+   "issueId": "auto-20261118-1303-1",
+   "outletId": "seoul",
+   "outletName": "서울신문",
+   "title": "우원식, 당내 현안 참전한 秋 향해 “경기도에 집중했으면”",
+   "summary": "국회의장을 지낸 우원식 더불어민주당 의원은 18일 추미애 경기지사를 향해 “경기도에 집중했으면 좋겠다”고 밝혔다. 우 의원은 이날 MBC 라디오에서 추 지사가 전날 김민석 대표의 신천지 의혹 제기에 대한 윤리심판원...",
+   "url": "https://www.seoul.co.kr/news/politics/2026/11/18/20261118500087?wlog_tag3=naver",
+   "publishedAt": "2026-11-18T11:22:00+09:00",
+   "sentences": [
+    {
+     "id": "s1",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s2",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s3",
+     "text": null,
+     "type": "quote",
+     "sourceType": "gov",
+     "sourceName": "우원식 의원",
+     "sourceDetail": null,
+     "party": "더불어민주당"
+    },
+    {
+     "id": "s4",
+     "text": null,
+     "type": "quote",
+     "sourceType": "gov",
+     "sourceName": "우 의원",
+     "sourceDetail": null,
+     "party": "더불어민주당"
+    },
+    {
+     "id": "s5",
+     "text": null,
+     "type": "quote",
+     "sourceType": "gov",
+     "sourceName": "우 의원",
+     "sourceDetail": null,
+     "party": "더불어민주당"
+    },
+    {
+     "id": "s6",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s7",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s8",
+     "text": null,
+     "type": "quote",
+     "sourceType": "gov",
+     "sourceName": "우 의원",
+     "sourceDetail": null,
+     "party": "더불어민주당"
+    },
+    {
+     "id": "s9",
+     "text": null,
+     "type": "quote",
+     "sourceType": "gov",
+     "sourceName": "채현일 의원",
+     "sourceDetail": null,
+     "party": "더불어민주당"
+    },
+    {
+     "id": "s10",
+     "text": null,
+     "type": "quote",
+     "sourceType": "gov",
+     "sourceName": "채 의원",
+     "sourceDetail": null,
+     "party": "더불어민주당"
+    },
+    {
+     "id": "s11",
+     "text": null,
+     "type": "quote",
+     "sourceType": "gov",
+     "sourceName": "채 의원",
+     "sourceDetail": null,
+     "party": "더불어민주당"
+    }
+   ],
+   "framingTerms": [
+    {
+     "term": "적절치 않아 보인다",
+     "sentenceId": "s5"
+    },
+    {
+     "term": "납득하기 어렵다",
+     "sentenceId": "s9"
+    },
+    {
+     "term": "지적했다",
+     "sentenceId": "s10"
+    }
+   ],
+   "analyzedBy": "gemini-3.5-flash-lite"
+  },
+  {
+   "id": "a-cfe9d73e5d",
+   "issueId": "auto-20261118-1303-1",
+   "outletId": "hankyung",
+   "outletName": "한국경제",
+   "title": "\"경기도에 집중하라\"…계파 갈등 참전한 秋에 일침 가한 우원식",
+   "summary": "우원식 더불어민주당 의원이 당내 계파 갈등에 가세한 추미애 경기지사를 향해 \"경기도에 집중하면 좋겠다\"고 직격했다. 우 의원은 18일 MBC 라디오 '김종배의 시선집중'에 출연해 \"이렇게 하면 민주당이 망하고 국민들에게...",
+   "url": "https://www.hankyung.com/article/202611184268H",
+   "publishedAt": "2026-11-18T11:25:00+09:00",
+   "sentences": [
+    {
+     "id": "s1",
+     "text": null,
+     "type": "quote",
+     "sourceType": "gov",
+     "sourceName": "우원식 의원",
+     "sourceDetail": null,
+     "party": "더불어민주당"
+    },
+    {
+     "id": "s2",
+     "text": null,
+     "type": "quote",
+     "sourceType": "gov",
+     "sourceName": "우 의원",
+     "sourceDetail": null,
+     "party": "더불어민주당"
+    },
+    {
+     "id": "s3",
+     "text": null,
+     "type": "quote",
+     "sourceType": "gov",
+     "sourceName": "그",
+     "sourceDetail": null,
+     "party": "더불어민주당"
+    },
+    {
+     "id": "s4",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s5",
+     "text": null,
+     "type": "quote",
+     "sourceType": "gov",
+     "sourceName": "우 의원",
+     "sourceDetail": null,
+     "party": "더불어민주당"
+    },
+    {
+     "id": "s6",
+     "text": null,
+     "type": "quote",
+     "sourceType": "gov",
+     "sourceName": "우 의원",
+     "sourceDetail": null,
+     "party": "더불어민주당"
+    },
+    {
+     "id": "s7",
+     "text": null,
+     "type": "quote",
+     "sourceType": "gov",
+     "sourceName": "그",
+     "sourceDetail": null,
+     "party": "더불어민주당"
+    },
+    {
+     "id": "s8",
+     "text": "정 전 대표의 대응에도 날을 세웠다.",
+     "type": "opinion",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s9",
+     "text": null,
+     "type": "quote",
+     "sourceType": "gov",
+     "sourceName": "우 의원",
+     "sourceDetail": null,
+     "party": "더불어민주당"
+    }
+   ],
+   "framingTerms": [
+    {
+     "term": "직격했다",
+     "sentenceId": "s1"
+    },
+    {
+     "term": "비판했다",
+     "sentenceId": "s2"
+    },
+    {
+     "term": "지적했다",
+     "sentenceId": "s5"
+    },
+    {
+     "term": "주장했다",
+     "sentenceId": "s6"
+    },
+    {
+     "term": "비판했다",
+     "sentenceId": "s7"
+    },
+    {
+     "term": "꼬집었다",
+     "sentenceId": "s9"
+    }
+   ],
+   "analyzedBy": "gemini-3.5-flash-lite"
+  },
+  {
+   "id": "a-6cfe8c6a42",
+   "issueId": "auto-20261118-1303-1",
+   "outletId": "jnilbo",
+   "outletName": "전남일보",
+   "title": "우원식, 정청래·김민석·추미애 작심 비판…\"이 꼴 보자고 민주주의 운...",
+   "summary": "국회의장을 지낸 우원식 더불어민주당 의원은 18일 격화하는 당내 계파 갈등을 두고 정청래 전 대표와 추미애 경기지사, 김민석 대표 등 당내 주요 인사들을 향해 작심 비판을 쏟아냈다. 우 의원은 이날 MBC 라디오 '김종배의...",
+   "url": "https://www.jnilbo.com/news/articleView.html?idxno=90000083928",
+   "publishedAt": "2026-11-18T10:40:00+09:00",
+   "sentences": [
+    {
+     "id": "s1",
+     "text": null,
+     "type": "quote",
+     "sourceType": "gov",
+     "sourceName": "우원식 의원",
+     "sourceDetail": null,
+     "party": "더불어민주당"
+    },
+    {
+     "id": "s2",
+     "text": null,
+     "type": "quote",
+     "sourceType": "gov",
+     "sourceName": "우원식 의원",
+     "sourceDetail": null,
+     "party": "더불어민주당"
+    },
+    {
+     "id": "s3",
+     "text": null,
+     "type": "quote",
+     "sourceType": "gov",
+     "sourceName": "우원식 의원",
+     "sourceDetail": null,
+     "party": "더불어민주당"
+    },
+    {
+     "id": "s4",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s5",
+     "text": null,
+     "type": "quote",
+     "sourceType": "gov",
+     "sourceName": "우원식 의원",
+     "sourceDetail": null,
+     "party": "더불어민주당"
+    },
+    {
+     "id": "s6",
+     "text": null,
+     "type": "quote",
+     "sourceType": "gov",
+     "sourceName": "우원식 의원",
+     "sourceDetail": null,
+     "party": "더불어민주당"
+    },
+    {
+     "id": "s7",
+     "text": null,
+     "type": "quote",
+     "sourceType": "gov",
+     "sourceName": "우원식 의원",
+     "sourceDetail": null,
+     "party": "더불어민주당"
+    },
+    {
+     "id": "s8",
+     "text": null,
+     "type": "quote",
+     "sourceType": "gov",
+     "sourceName": "우원식 의원",
+     "sourceDetail": null,
+     "party": "더불어민주당"
+    },
+    {
+     "id": "s9",
+     "text": null,
+     "type": "quote",
+     "sourceType": "gov",
+     "sourceName": "우원식 의원",
+     "sourceDetail": null,
+     "party": "더불어민주당"
+    }
+   ],
+   "framingTerms": [
+    {
+     "term": "작심 비판",
+     "sentenceId": "s1"
+    },
+    {
+     "term": "질타했다",
+     "sentenceId": "s2"
+    },
+    {
+     "term": "지적했다",
+     "sentenceId": "s3"
+    },
+    {
+     "term": "날을 세웠다",
+     "sentenceId": "s4"
+    },
+    {
+     "term": "비판했다",
+     "sentenceId": "s5"
+    },
+    {
+     "term": "꼬집었다",
+     "sentenceId": "s6"
+    },
+    {
+     "term": "강조했다",
+     "sentenceId": "s8"
+    },
+    {
+     "term": "토로한",
+     "sentenceId": "s9"
+    },
+    {
+     "term": "목소리를 높였다",
+     "sentenceId": "s9"
     }
    ],
    "analyzedBy": "gemini-3.5-flash-lite"
