@@ -1133,6 +1133,87 @@
    "date": "2026-11-20",
    "origin": "auto",
    "stance": null
+  },
+  {
+   "id": "auto-20261122-0040-1",
+   "title": "민주유공자법 국회 본회의 통과",
+   "summary": "민주화운동 관련자와 유가족에 대한 국가 지원을 담은 민주유공자법이 20일 국회 본회의를 통과했다. 국민의힘은 반발하며 표결에 불참했다.",
+   "category": "정치",
+   "date": "2026-11-20",
+   "origin": "auto",
+   "stance": {
+    "common": null,
+    "diff": "더불어민주당은 법안 처리를 주도하고, 국민의힘은 반발하며 표결에 불참했다.",
+    "sources": [
+     "뉴시스",
+     "SBS",
+     "YTN",
+     "JTBC",
+     "채널A",
+     "조선일보",
+     "중앙일보"
+    ],
+    "by": "ai"
+   }
+  },
+  {
+   "id": "auto-20261122-0044-1",
+   "title": "국회 예산소위, 지역사랑상품권 예산 심사 보류",
+   "summary": "국회 예산결산특별위원회 예산안조정소위는 21일 내년도 지역사랑상품권 예산을 두고 공방을 벌였으나 여야 이견으로 심사를 보류했다. 여당은 지역경제 활성화를 주장한 반면 야당은 보조금 반납 등을 이유로 감액을 요구했다.",
+   "category": "정치",
+   "date": "2026-11-21",
+   "origin": "auto",
+   "stance": {
+    "common": "두 당 모두 지역사랑상품권 예산 심사를 보류했다.",
+    "diff": "더불어민주당은 예산 유지를 주장하고, 국민의힘은 감액을 요구한다.",
+    "sources": [
+     "연합뉴스",
+     "뉴시스",
+     "뉴스1",
+     "SBS",
+     "YTN",
+     "이데일리",
+     "아주경제",
+     "브릿지경제"
+    ],
+    "by": "ai"
+   }
+  },
+  {
+   "id": "auto-20261122-0047-1",
+   "title": "더불어민주당, 국민의힘 대구 장외집회 비판",
+   "summary": "더불어민주당은 국민의힘이 대구에서 장외 집회를 연 것을 두고 길바닥 정치를 중단하고 국회로 돌아와 민생을 돌보라고 촉구했다.",
+   "category": "정치",
+   "date": "2026-11-21",
+   "origin": "auto",
+   "stance": null
+  },
+  {
+   "id": "auto-20261122-0048-1",
+   "title": "윤 전 대통령 영화비·특활비 공개소송 각하",
+   "summary": "법원이 시민단체가 제기한 윤석열 전 대통령 부부의 식사·영화 관람비 및 대통령실 특수활동비 정보공개 소송을 각하했다. 관련 자료가 대통령기록관으로 이관되어 소송의 실익이 없다는 이유에서다.",
+   "category": "사회",
+   "date": "2026-11-21",
+   "origin": "auto",
+   "stance": null
+  },
+  {
+   "id": "auto-20261122-0052-1",
+   "title": "김건희, 징역 4년 확정에 유죄 입장 발표",
+   "summary": "김건희 여사가 징역 4년 확정 판결 후 법정에서 도이치모터스 사건 유죄 판결을 이해할 수 없다는 입장을 밝혔다. 또한 과거 당 대표 선거 개입 및 공천 약속 의혹을 부인했다.",
+   "category": "사회",
+   "date": "2026-11-20",
+   "origin": "auto",
+   "stance": null
+  },
+  {
+   "id": "auto-20261122-0053-1",
+   "title": "추미애, 조희대 대법원장 탄핵 촉구",
+   "summary": "추미애 의원이 대법원의 판결을 비판하며 조희대 대법원장을 일찍 탄핵했어야 한다고 주장했다.",
+   "category": "정치",
+   "date": "2026-11-20",
+   "origin": "auto",
+   "stance": null
   }
  ],
  "articles": [
@@ -105910,6 +105991,5458 @@
      "id": "s56",
      "text": "그 원칙은 항소심에서도 달라지지 않는다.",
      "type": "opinion",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    }
+   ],
+   "framingTerms": [],
+   "analyzedBy": "gemini-3.5-flash-lite"
+  },
+  {
+   "id": "a-5921ab1ece",
+   "issueId": "auto-20261122-0040-1",
+   "outletId": "newsis",
+   "outletName": "뉴시스",
+   "title": "'민주유공자법' 국회 본회의서 與주도로 통과…국힘, 표결 불참",
+   "summary": "민주화운동에 기여한 인사를 국가가 예우·지원하는 내용의 민주유공자 예우에 관한 법률안(민주유공자법)이 20일 더불어민주당 주도로 국회 본회의를 통과했다. 국회는 이날 오후...",
+   "url": "https://www.newsis.com/view/NISX20261120_0003876952",
+   "publishedAt": "2026-11-20T15:17:00+09:00",
+   "sentences": [
+    {
+     "id": "s1",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s2",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s3",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s4",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s5",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s6",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s7",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s8",
+     "text": null,
+     "type": "quote",
+     "sourceType": "opp",
+     "sourceName": "국민의힘",
+     "sourceDetail": null,
+     "party": "국민의힘"
+    },
+    {
+     "id": "s9",
+     "text": null,
+     "type": "quote",
+     "sourceType": "gov",
+     "sourceName": "허영 민주당 의원",
+     "sourceDetail": null,
+     "party": "더불어민주당"
+    },
+    {
+     "id": "s10",
+     "text": null,
+     "type": "quote",
+     "sourceType": "opp",
+     "sourceName": "서일준 국민의힘 의원",
+     "sourceDetail": null,
+     "party": "국민의힘"
+    },
+    {
+     "id": "s11",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    }
+   ],
+   "framingTerms": [],
+   "analyzedBy": "gemini-3.5-flash-lite"
+  },
+  {
+   "id": "a-0ff47194d3",
+   "issueId": "auto-20261122-0040-1",
+   "outletId": "sbs",
+   "outletName": "SBS",
+   "title": "민주유공자법, 민주당 주도 국회 통과…'윤 거부권' 행사 2년여 만",
+   "summary": "▲ 20일 국회에서 열린 본회의에서 민주유공자 예우에 관한 법률안(민주유공자법)이 필리버스터(무제한... 주도로 국회를 통과했습니다. 국회는 이날 오후 본회의에서 민주유공자 예우에 관한 법률을 재석 178명 중 찬성...",
+   "url": "https://news.sbs.co.kr/news/endPage.do?news_id=N1008855986&plink=ORI&cooper=NAVER",
+   "publishedAt": "2026-11-20T15:34:00+09:00",
+   "sentences": [
+    {
+     "id": "s1",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s2",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s3",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s4",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s5",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s6",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s7",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s8",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s9",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s10",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s11",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s12",
+     "text": "이 시위는 이후 6·3 항쟁으로 이어졌다는 평가를 받습니다.",
+     "type": "opinion",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s13",
+     "text": "이 법안은 4·19혁명과 5·18민주화운동 관련자들과 달리 유신반대 투쟁…",
+     "type": "opinion",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s14",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s15",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s16",
+     "text": null,
+     "type": "quote",
+     "sourceType": "opp",
+     "sourceName": "국민의힘",
+     "sourceDetail": null,
+     "party": "국민의힘"
+    }
+   ],
+   "framingTerms": [
+    {
+     "term": "주도",
+     "sentenceId": "s1"
+    },
+    {
+     "term": "통과했습니다",
+     "sentenceId": "s1"
+    },
+    {
+     "term": "가결했습니다",
+     "sentenceId": "s2"
+    },
+    {
+     "term": "참여하지 않았습니다",
+     "sentenceId": "s3"
+    },
+    {
+     "term": "종결한 뒤",
+     "sentenceId": "s4"
+    },
+    {
+     "term": "처리했습니다",
+     "sentenceId": "s4"
+    },
+    {
+     "term": "평가를 받습니다",
+     "sentenceId": "s12"
+    },
+    {
+     "term": "지적이 제기되면서",
+     "sentenceId": "s13"
+    },
+    {
+     "term": "행사하면서",
+     "sentenceId": "s14"
+    },
+    {
+     "term": "폐기됐습니다",
+     "sentenceId": "s14"
+    },
+    {
+     "term": "재추진",
+     "sentenceId": "s15"
+    },
+    {
+     "term": "지정한 뒤",
+     "sentenceId": "s15"
+    },
+    {
+     "term": "가결됐습니다",
+     "sentenceId": "s15"
+    },
+    {
+     "term": "돌입했습니다",
+     "sentenceId": "s16"
+    }
+   ],
+   "analyzedBy": "gemini-3.5-flash-lite"
+  },
+  {
+   "id": "a-4011348244",
+   "issueId": "auto-20261122-0040-1",
+   "outletId": "ytn",
+   "outletName": "YTN",
+   "title": "'민주유공자 예우법', 범여권 주도 국회 본회의 통과",
+   "summary": "민주화운동에 기여한 인사를 국가가 예우하기 위한 법적 근거를 담은 '민주유공자 예우법'이 범여권 주도로 국회 본회의를 통과했습니다. 더불어민주당 등 범여권은 오늘(20일) 본회의에서 표결로 국민의힘이 신청한...",
+   "url": "https://www.ytn.co.kr/_ln/0101_202611201543043486",
+   "publishedAt": "2026-11-20T15:43:00+09:00",
+   "sentences": [
+    {
+     "id": "s1",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s2",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s3",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s4",
+     "text": null,
+     "type": "quote",
+     "sourceType": "opp",
+     "sourceName": "국민의힘",
+     "sourceDetail": null,
+     "party": "국민의힘"
+    },
+    {
+     "id": "s5",
+     "text": "※ '당신의 제보가 뉴스가 됩니다'",
+     "type": "opinion",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    }
+   ],
+   "framingTerms": [
+    {
+     "term": "강제 종결한 뒤",
+     "sentenceId": "s2"
+    }
+   ],
+   "analyzedBy": "gemini-3.5-flash-lite"
+  },
+  {
+   "id": "a-f84d4b30ef",
+   "issueId": "auto-20261122-0040-1",
+   "outletId": "joins",
+   "outletName": "JTBC",
+   "title": "'민주유공자법' 국회 통과…\"운동권 특혜\" 국힘은 불참",
+   "summary": "민주화운동에 기여한 당사자와 유가족을 위한 민주유공자법이 오늘 국회 본회의를 통과했습니다. 윤석열 전... 고생하셨습니다!] 전국민족민주유가족협의회가 지켜보는 가운데 '민주유공자법'이 여권 주도로 국회 문턱을...",
+   "url": "https://news.jtbc.co.kr/article/NB12329111?influxDiv=NAVER",
+   "publishedAt": "2026-11-20T20:35:00+09:00",
+   "sentences": [
+    {
+     "id": "s1",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s2",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s3",
+     "text": null,
+     "type": "quote",
+     "sourceType": "opp",
+     "sourceName": "국민의힘",
+     "sourceDetail": null,
+     "party": "국민의힘"
+    },
+    {
+     "id": "s4",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s5",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s6",
+     "text": null,
+     "type": "quote",
+     "sourceType": "citizen",
+     "sourceName": "장남수",
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s7",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s8",
+     "text": null,
+     "type": "quote",
+     "sourceType": "opp",
+     "sourceName": "국민의힘",
+     "sourceDetail": null,
+     "party": "국민의힘"
+    },
+    {
+     "id": "s9",
+     "text": null,
+     "type": "quote",
+     "sourceType": "opp",
+     "sourceName": "국민의힘",
+     "sourceDetail": null,
+     "party": "국민의힘"
+    },
+    {
+     "id": "s10",
+     "text": null,
+     "type": "quote",
+     "sourceType": "opp",
+     "sourceName": "박대출",
+     "sourceDetail": null,
+     "party": "국민의힘"
+    },
+    {
+     "id": "s11",
+     "text": null,
+     "type": "quote",
+     "sourceType": "gov",
+     "sourceName": "보훈부",
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s12",
+     "text": "민주유공자법은 하위 법령 제정 등을 거쳐 내년 6월경 시행될 것으로 보입…",
+     "type": "opinion",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    }
+   ],
+   "framingTerms": [
+    {
+     "term": "불참했습니다",
+     "sentenceId": "s3"
+    },
+    {
+     "term": "비판했습니다",
+     "sentenceId": "s8"
+    },
+    {
+     "term": "문제 삼았습니다",
+     "sentenceId": "s9"
+    },
+    {
+     "term": "강조했습니다",
+     "sentenceId": "s11"
+    }
+   ],
+   "analyzedBy": "gemini-3.5-flash-lite"
+  },
+  {
+   "id": "a-87597a1449",
+   "issueId": "auto-20261122-0040-1",
+   "outletId": "ichannela",
+   "outletName": "채널A",
+   "title": "민주유공자법 본회의 통과…국민의힘 불참 속 여당 주도",
+   "summary": "운동권 특혜 법안이라며 반발한 국민의힘은 어제 오후부터 24시간 동안 필리버스터(무제한 토론을 통한 합법적 의사진행 방해)를 이어왔고 표결에는 불참했습니다, 민주유공자법은 4·19 혁명과 5·18 민주화 운동과...",
+   "url": "https://www.ichannela.com/news/main/news_detailPage.do?publishId=000000560899",
+   "publishedAt": "2026-11-20T15:16:00+09:00",
+   "sentences": [
+    {
+     "id": "s1",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s2",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s3",
+     "text": null,
+     "type": "quote",
+     "sourceType": "opp",
+     "sourceName": "국민의힘",
+     "sourceDetail": null,
+     "party": "국민의힘"
+    },
+    {
+     "id": "s4",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s5",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s6",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    }
+   ],
+   "framingTerms": [
+    {
+     "term": "주도로",
+     "sentenceId": "s1"
+    },
+    {
+     "term": "주도로",
+     "sentenceId": "s6"
+    }
+   ],
+   "analyzedBy": "gemini-3.5-flash-lite"
+  },
+  {
+   "id": "a-83996f1675",
+   "issueId": "auto-20261122-0040-1",
+   "outletId": "chosun",
+   "outletName": "조선일보",
+   "title": "민주당, 민주유공자법 무제한토론 종결 후 강행 처리",
+   "summary": "국민의힘 불참한 가운데 표결 처리 국회 본회의에서 더불어민주당이 민주유공자 예우에 관한 법률안(민주유공자법)을 20일 강행 처리했다. 민주당은 전날 본회의를 열고 민주유공자법을 상정했다. 국민의힘은...",
+   "url": "https://www.chosun.com/politics/assembly/2026/11/20/OYPWO5I6Y5EKBFVTL3IRUXNJYY/?utm_source=naver&utm_medium=referral&utm_campaign=naver-news",
+   "publishedAt": "2026-11-20T15:05:00+09:00",
+   "sentences": [
+    {
+     "id": "s1",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s2",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s3",
+     "text": null,
+     "type": "quote",
+     "sourceType": "opp",
+     "sourceName": "국민의힘",
+     "sourceDetail": null,
+     "party": "국민의힘"
+    },
+    {
+     "id": "s4",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s5",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s6",
+     "text": null,
+     "type": "quote",
+     "sourceType": "gov",
+     "sourceName": "허영 의원",
+     "sourceDetail": null,
+     "party": "더불어민주당"
+    }
+   ],
+   "framingTerms": [
+    {
+     "term": "강행 처리할",
+     "sentenceId": "s4"
+    }
+   ],
+   "analyzedBy": "gemini-3.5-flash-lite"
+  },
+  {
+   "id": "a-7814b92982",
+   "issueId": "auto-20261122-0040-1",
+   "outletId": "joongang",
+   "outletName": "중앙일보",
+   "title": "민주유공자법 여당 주도 국회 통과…야권 “셀프 특혜”",
+   "summary": "주도로 국회 본회의를 통과했다. 이재명 대통령이 거부권(재의요구권)을 행사하지 않으면 2000년 12월 첫 법안 발의 이후 26년 만에 입법이 완성된다. 국회는 이날 오후 본회의에서 민주유공자법을 재석 178명 전원 찬성으로...",
+   "url": "https://www.joongang.co.kr/article/25480630",
+   "publishedAt": "2026-11-21T01:16:00+09:00",
+   "sentences": [
+    {
+     "id": "s1",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s2",
+     "text": "이재명 대통령이 거부권(재의요구권)을 행사하지 않으면 2000년 12월…",
+     "type": "opinion",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s3",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s4",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s5",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s6",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s7",
+     "text": null,
+     "type": "quote",
+     "sourceType": "gov",
+     "sourceName": "서영교",
+     "sourceDetail": null,
+     "party": "더불어민주당"
+    },
+    {
+     "id": "s8",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s9",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s10",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s11",
+     "text": null,
+     "type": "quote",
+     "sourceType": "opp",
+     "sourceName": "국민의힘",
+     "sourceDetail": null,
+     "party": "국민의힘"
+    },
+    {
+     "id": "s12",
+     "text": null,
+     "type": "quote",
+     "sourceType": "opp",
+     "sourceName": "나경원",
+     "sourceDetail": null,
+     "party": "국민의힘"
+    },
+    {
+     "id": "s13",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s14",
+     "text": "현재 여권의 핵심 주류라, 야권에서 ‘운동권 셀프 특혜’라는 비판이 제기…",
+     "type": "opinion",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s15",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s16",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s17",
+     "text": "2024년 8월 국회 검토보고서에서도 지적됐듯, 유공자 자녀가 대입 시험…",
+     "type": "opinion",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s18",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s19",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s20",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s21",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s22",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s23",
+     "text": null,
+     "type": "quote",
+     "sourceType": "opp",
+     "sourceName": "박충권",
+     "sourceDetail": null,
+     "party": "국민의힘"
+    }
+   ],
+   "framingTerms": [],
+   "analyzedBy": "gemini-3.5-flash-lite"
+  },
+  {
+   "id": "a-fc00fdf02d",
+   "issueId": "auto-20261122-0044-1",
+   "outletId": "yna",
+   "outletName": "연합뉴스",
+   "title": "예산소위, '감액 이견'에 지역사랑상품권 심사 일단 보류",
+   "summary": "野 \"보조금 반납 반영해 3천억 감액\"…與 \"지역경제 선순환 역할\" 국회 예산결산특별위원회... 이에 김민재 행안부 차관은 \"원래 국비 지원 근거가 없었는데 지난해 5월 법을 바꿔 근거 규정을 마련했다\"며 \"국회 심의...",
+   "url": "https://www.yna.co.kr/view/AKR20261121030100001?input=1195m",
+   "publishedAt": "2026-11-21T11:50:00+09:00",
+   "sentences": [
+    {
+     "id": "s1",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s2",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s3",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s4",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s5",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s6",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s7",
+     "text": null,
+     "type": "quote",
+     "sourceType": "opp",
+     "sourceName": "송언석 의원",
+     "sourceDetail": null,
+     "party": "국민의힘"
+    },
+    {
+     "id": "s8",
+     "text": null,
+     "type": "quote",
+     "sourceType": "opp",
+     "sourceName": "송 의원",
+     "sourceDetail": null,
+     "party": "국민의힘"
+    },
+    {
+     "id": "s9",
+     "text": null,
+     "type": "quote",
+     "sourceType": "opp",
+     "sourceName": "나경원 의원",
+     "sourceDetail": null,
+     "party": "국민의힘"
+    },
+    {
+     "id": "s10",
+     "text": null,
+     "type": "quote",
+     "sourceType": "gov",
+     "sourceName": "황명선 의원",
+     "sourceDetail": null,
+     "party": "더불어민주당"
+    },
+    {
+     "id": "s11",
+     "text": null,
+     "type": "quote",
+     "sourceType": "gov",
+     "sourceName": "정태호 의원",
+     "sourceDetail": null,
+     "party": "더불어민주당"
+    },
+    {
+     "id": "s12",
+     "text": null,
+     "type": "quote",
+     "sourceType": "gov",
+     "sourceName": "정태호 의원",
+     "sourceDetail": null,
+     "party": "더불어민주당"
+    },
+    {
+     "id": "s13",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s14",
+     "text": null,
+     "type": "quote",
+     "sourceType": "opp",
+     "sourceName": "서 의원",
+     "sourceDetail": null,
+     "party": "국민의힘"
+    },
+    {
+     "id": "s15",
+     "text": null,
+     "type": "quote",
+     "sourceType": "gov",
+     "sourceName": "김민재 행안부 차관",
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s16",
+     "text": null,
+     "type": "quote",
+     "sourceType": "gov",
+     "sourceName": "김민재 행안부 차관",
+     "sourceDetail": null,
+     "party": null
+    }
+   ],
+   "framingTerms": [
+    {
+     "term": "공방을 벌인",
+     "sentenceId": "s2"
+    },
+    {
+     "term": "보류키로 했다",
+     "sentenceId": "s2"
+    },
+    {
+     "term": "강조하며",
+     "sentenceId": "s3"
+    },
+    {
+     "term": "요구하면서다",
+     "sentenceId": "s3"
+    },
+    {
+     "term": "문제 삼았다",
+     "sentenceId": "s13"
+    }
+   ],
+   "analyzedBy": "gemini-3.5-flash-lite"
+  },
+  {
+   "id": "a-a84d0f9391",
+   "issueId": "auto-20261122-0044-1",
+   "outletId": "newsis",
+   "outletName": "뉴시스",
+   "title": "여야, 예산소위서 '지역사랑상품권' 두고 공방…\"지역경제 선순환\" \"보조...",
+   "summary": "여야가 21일 국회 예산결산특별위원회 예산안등조정소위원회에서 '지역사랑상품권 발행 지원' 예산을 두고 공방을 벌였다. 더불어민주당은 지역 경제의 선순환 효과를 강조하며 정부 원안 유지 필요성을 제기했다....",
+   "url": "https://www.newsis.com/view/NISX20261121_0003877752",
+   "publishedAt": "2026-11-21T16:05:00+09:00",
+   "sentences": [
+    {
+     "id": "s1",
+     "text": null,
+     "type": "quote",
+     "sourceType": "gov",
+     "sourceName": "더불어민주당",
+     "sourceDetail": null,
+     "party": "더불어민주당"
+    },
+    {
+     "id": "s2",
+     "text": null,
+     "type": "quote",
+     "sourceType": "opp",
+     "sourceName": "국민의힘",
+     "sourceDetail": null,
+     "party": "국민의힘"
+    },
+    {
+     "id": "s3",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s4",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s5",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s6",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s7",
+     "text": null,
+     "type": "quote",
+     "sourceType": "opp",
+     "sourceName": "송언석 의원",
+     "sourceDetail": null,
+     "party": "국민의힘"
+    },
+    {
+     "id": "s8",
+     "text": null,
+     "type": "quote",
+     "sourceType": "opp",
+     "sourceName": "송언석 의원",
+     "sourceDetail": null,
+     "party": "국민의힘"
+    },
+    {
+     "id": "s9",
+     "text": null,
+     "type": "quote",
+     "sourceType": "opp",
+     "sourceName": "서지영 의원",
+     "sourceDetail": null,
+     "party": "국민의힘"
+    },
+    {
+     "id": "s10",
+     "text": null,
+     "type": "quote",
+     "sourceType": "opp",
+     "sourceName": "서지영 의원",
+     "sourceDetail": null,
+     "party": "국민의힘"
+    },
+    {
+     "id": "s11",
+     "text": null,
+     "type": "quote",
+     "sourceType": "gov",
+     "sourceName": "황명선 의원",
+     "sourceDetail": null,
+     "party": "더불어민주당"
+    },
+    {
+     "id": "s12",
+     "text": null,
+     "type": "quote",
+     "sourceType": "gov",
+     "sourceName": "정태호 의원",
+     "sourceDetail": null,
+     "party": "더불어민주당"
+    },
+    {
+     "id": "s13",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s14",
+     "text": null,
+     "type": "quote",
+     "sourceType": "gov",
+     "sourceName": "이광재 소위원장",
+     "sourceDetail": null,
+     "party": "더불어민주당"
+    },
+    {
+     "id": "s15",
+     "text": null,
+     "type": "quote",
+     "sourceType": "gov",
+     "sourceName": "이광재 소위원장",
+     "sourceDetail": null,
+     "party": "더불어민주당"
+    }
+   ],
+   "framingTerms": [
+    {
+     "term": "강조하며",
+     "sentenceId": "s1"
+    },
+    {
+     "term": "요구했다",
+     "sentenceId": "s2"
+    },
+    {
+     "term": "예상",
+     "sentenceId": "s4"
+    }
+   ],
+   "analyzedBy": "gemini-3.5-flash-lite"
+  },
+  {
+   "id": "a-2c58c4c547",
+   "issueId": "auto-20261122-0044-1",
+   "outletId": "news1",
+   "outletName": "뉴스1",
+   "title": "여야, 예산소위서 석유최고가격제·지역사랑상품권 예산 공방",
+   "summary": "국회 예산결산특별위원회 예산안조정소위원회에서 내년도 예산안을 놓고 여야가 공방을 벌였다.... 이에 김민재 행안부 차관은 \"국회 심의 과정에서 두 차례 추경을 통해 반영하다 보니 지방정부가 지방비를 매칭하는데...",
+   "url": "https://www.news1.kr/politics/assembly/6361623",
+   "publishedAt": "2026-11-21T15:16:00+09:00",
+   "sentences": [
+    {
+     "id": "s1",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s2",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s3",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s4",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s5",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s6",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s7",
+     "text": null,
+     "type": "quote",
+     "sourceType": "opp",
+     "sourceName": "나경원 의원",
+     "sourceDetail": null,
+     "party": "국민의힘"
+    },
+    {
+     "id": "s8",
+     "text": null,
+     "type": "quote",
+     "sourceType": "opp",
+     "sourceName": "송언석 의원",
+     "sourceDetail": null,
+     "party": "국민의힘"
+    },
+    {
+     "id": "s9",
+     "text": null,
+     "type": "quote",
+     "sourceType": "opp",
+     "sourceName": "이종욱 의원",
+     "sourceDetail": null,
+     "party": "국민의힘"
+    },
+    {
+     "id": "s10",
+     "text": null,
+     "type": "quote",
+     "sourceType": "gov",
+     "sourceName": "허성무 의원",
+     "sourceDetail": null,
+     "party": "더불어민주당"
+    },
+    {
+     "id": "s11",
+     "text": null,
+     "type": "quote",
+     "sourceType": "gov",
+     "sourceName": "이광재 예결위원장",
+     "sourceDetail": null,
+     "party": "더불어민주당"
+    },
+    {
+     "id": "s12",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s13",
+     "text": null,
+     "type": "quote",
+     "sourceType": "opp",
+     "sourceName": "송 의원",
+     "sourceDetail": null,
+     "party": "국민의힘"
+    },
+    {
+     "id": "s14",
+     "text": null,
+     "type": "quote",
+     "sourceType": "gov",
+     "sourceName": "전진숙 의원",
+     "sourceDetail": null,
+     "party": "더불어민주당"
+    },
+    {
+     "id": "s15",
+     "text": null,
+     "type": "quote",
+     "sourceType": "gov",
+     "sourceName": "정태호 의원",
+     "sourceDetail": null,
+     "party": "더불어민주당"
+    },
+    {
+     "id": "s16",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s17",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s18",
+     "text": null,
+     "type": "quote",
+     "sourceType": "opp",
+     "sourceName": "서지영 의원",
+     "sourceDetail": null,
+     "party": "국민의힘"
+    },
+    {
+     "id": "s19",
+     "text": null,
+     "type": "quote",
+     "sourceType": "opp",
+     "sourceName": "송 의원",
+     "sourceDetail": null,
+     "party": "국민의힘"
+    },
+    {
+     "id": "s20",
+     "text": null,
+     "type": "quote",
+     "sourceType": "gov",
+     "sourceName": "황명선 의원",
+     "sourceDetail": null,
+     "party": "더불어민주당"
+    },
+    {
+     "id": "s21",
+     "text": null,
+     "type": "quote",
+     "sourceType": "gov",
+     "sourceName": "김민재 차관",
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s22",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s23",
+     "text": null,
+     "type": "quote",
+     "sourceType": "etc",
+     "sourceName": "이 위원장",
+     "sourceDetail": "익명(소속 미상)",
+     "party": null
+    },
+    {
+     "id": "s24",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s25",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s26",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s27",
+     "text": null,
+     "type": "quote",
+     "sourceType": "etc",
+     "sourceName": "선관위 측",
+     "sourceDetail": "익명(소속 미상)",
+     "party": null
+    }
+   ],
+   "framingTerms": [
+    {
+     "term": "공방을 벌였다",
+     "sentenceId": "s1"
+    },
+    {
+     "term": "문제 삼으며",
+     "sentenceId": "s2"
+    },
+    {
+     "term": "감액을 요구했다",
+     "sentenceId": "s2"
+    },
+    {
+     "term": "맞섰다",
+     "sentenceId": "s3"
+    },
+    {
+     "term": "쟁점으로 떠올랐다",
+     "sentenceId": "s5"
+    },
+    {
+     "term": "논란이 됐다",
+     "sentenceId": "s12"
+    },
+    {
+     "term": "입장이 엇갈렸다",
+     "sentenceId": "s16"
+    },
+    {
+     "term": "삭감을 요구했다",
+     "sentenceId": "s17"
+    },
+    {
+     "term": "도마 위에 올랐다",
+     "sentenceId": "s24"
+    },
+    {
+     "term": "지적했다",
+     "sentenceId": "s25"
+    },
+    {
+     "term": "주장하며",
+     "sentenceId": "s26"
+    },
+    {
+     "term": "요구했다",
+     "sentenceId": "s26"
+    }
+   ],
+   "analyzedBy": "gemini-3.5-flash-lite"
+  },
+  {
+   "id": "a-7aaa7460c5",
+   "issueId": "auto-20261122-0044-1",
+   "outletId": "sbs",
+   "outletName": "SBS",
+   "title": "예산소위, '감액 이견'에 지역사랑상품권 심사 일단 보류",
+   "summary": "▲ 여야, 예결소위 심사 국회 예산결산특별위원회 예산안조정소위는 오늘(21일) 내년도 지역사랑상품권 예산을 놓고 공방을 벌인 끝에 심사를 일단 보류키로 했습니다. 더불어민주당은 지역사랑상품권의 지역경제...",
+   "url": "https://news.sbs.co.kr/news/endPage.do?news_id=N1008856953&plink=ORI&cooper=NAVER",
+   "publishedAt": "2026-11-21T14:22:00+09:00",
+   "sentences": [
+    {
+     "id": "s1",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s2",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s3",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s4",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s5",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s6",
+     "text": null,
+     "type": "quote",
+     "sourceType": "opp",
+     "sourceName": "송언석 의원",
+     "sourceDetail": null,
+     "party": "국민의힘"
+    },
+    {
+     "id": "s7",
+     "text": null,
+     "type": "quote",
+     "sourceType": "opp",
+     "sourceName": "송 의원",
+     "sourceDetail": null,
+     "party": "국민의힘"
+    },
+    {
+     "id": "s8",
+     "text": null,
+     "type": "quote",
+     "sourceType": "opp",
+     "sourceName": "나경원 의원",
+     "sourceDetail": null,
+     "party": "국민의힘"
+    },
+    {
+     "id": "s9",
+     "text": null,
+     "type": "quote",
+     "sourceType": "gov",
+     "sourceName": "황명선 의원",
+     "sourceDetail": null,
+     "party": "더불어민주당"
+    },
+    {
+     "id": "s10",
+     "text": null,
+     "type": "quote",
+     "sourceType": "gov",
+     "sourceName": "정태호 의원",
+     "sourceDetail": null,
+     "party": "더불어민주당"
+    },
+    {
+     "id": "s11",
+     "text": null,
+     "type": "quote",
+     "sourceType": "gov",
+     "sourceName": "정태호 의원",
+     "sourceDetail": null,
+     "party": "더불어민주당"
+    }
+   ],
+   "framingTerms": [
+    {
+     "term": "공방을 벌인",
+     "sentenceId": "s1"
+    },
+    {
+     "term": "보류키로 했습니다",
+     "sentenceId": "s1"
+    },
+    {
+     "term": "강조하며",
+     "sentenceId": "s2"
+    },
+    {
+     "term": "요구하면서입니다",
+     "sentenceId": "s2"
+    },
+    {
+     "term": "지적했습니다",
+     "sentenceId": "s6"
+    },
+    {
+     "term": "말했습니다",
+     "sentenceId": "s7"
+    },
+    {
+     "term": "문제 삼으며",
+     "sentenceId": "s8"
+    },
+    {
+     "term": "주장했습니다",
+     "sentenceId": "s8"
+    },
+    {
+     "term": "말했습니다",
+     "sentenceId": "s9"
+    },
+    {
+     "term": "강조하며",
+     "sentenceId": "s10"
+    },
+    {
+     "term": "강조했습니다",
+     "sentenceId": "s10"
+    },
+    {
+     "term": "고민해야 한다",
+     "sentenceId": "s11"
+    },
+    {
+     "term": "공감했습니다",
+     "sentenceId": "s11"
+    }
+   ],
+   "analyzedBy": "gemini-3.5-flash-lite"
+  },
+  {
+   "id": "a-24dc895e34",
+   "issueId": "auto-20261122-0044-1",
+   "outletId": "ytn",
+   "outletName": "YTN",
+   "title": "국회 예산소위, 공방 끝 지역사랑상품권 심사 보류",
+   "summary": "국회 예산결산특별위원회 예산안조정소위가 1조4천5백억 원 규모 내년도 지역사랑상품권 예산을 놓고 공방을 벌인 끝에 심사를 보류하기로 했습니다. 국민의힘 송언석 의원은 지역사랑상품권이 필요하다면 200조 원이라도...",
+   "url": "https://www.ytn.co.kr/_ln/0101_202611211233386473",
+   "publishedAt": "2026-11-21T12:33:00+09:00",
+   "sentences": [
+    {
+     "id": "s1",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s2",
+     "text": null,
+     "type": "quote",
+     "sourceType": "opp",
+     "sourceName": "송언석 의원",
+     "sourceDetail": null,
+     "party": "국민의힘"
+    },
+    {
+     "id": "s3",
+     "text": null,
+     "type": "quote",
+     "sourceType": "opp",
+     "sourceName": "나경원 의원",
+     "sourceDetail": null,
+     "party": "국민의힘"
+    },
+    {
+     "id": "s4",
+     "text": null,
+     "type": "quote",
+     "sourceType": "gov",
+     "sourceName": "황명선 의원",
+     "sourceDetail": null,
+     "party": "더불어민주당"
+    },
+    {
+     "id": "s5",
+     "text": null,
+     "type": "quote",
+     "sourceType": "gov",
+     "sourceName": "정태호 의원",
+     "sourceDetail": null,
+     "party": "더불어민주당"
+    },
+    {
+     "id": "s6",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    }
+   ],
+   "framingTerms": [
+    {
+     "term": "공방을 벌인 끝에",
+     "sentenceId": "s1"
+    },
+    {
+     "term": "지적했습니다",
+     "sentenceId": "s2"
+    },
+    {
+     "term": "꼬집었습니다",
+     "sentenceId": "s3"
+    },
+    {
+     "term": "반박했습니다",
+     "sentenceId": "s4"
+    },
+    {
+     "term": "강조했습니다",
+     "sentenceId": "s5"
+    }
+   ],
+   "analyzedBy": "gemini-3.5-flash-lite"
+  },
+  {
+   "id": "a-096ece69f3",
+   "issueId": "auto-20261122-0044-1",
+   "outletId": "edaily",
+   "outletName": "이데일리",
+   "title": "지역사랑상품권 예산 놓고 여야 공방…3000억 증액 제동",
+   "summary": "충돌하면서 국회 심사가 일단 보류됐다. 야당은 지난해 국고보조금의 20% 이상이 반납된 점을 들어 예산 삭감을 요구한 반면 여당은 지역경제 활성화를 위해 지원을 유지해야 한다고 맞섰다. 국회 예산결산특별위원회...",
+   "url": "https://www.edaily.co.kr/News/Read?newsId=01990966645648016&mediaCodeNo=257&utm_source=naver&utm_medium=referral&utm_campaign=news_syndication&utm_content=original_article",
+   "publishedAt": "2026-11-21T13:36:00+09:00",
+   "sentences": [
+    {
+     "id": "s1",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s2",
+     "text": null,
+     "type": "quote",
+     "sourceType": "opp",
+     "sourceName": "야당",
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s3",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s4",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s5",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s6",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s7",
+     "text": null,
+     "type": "quote",
+     "sourceType": "opp",
+     "sourceName": "송언석 의원",
+     "sourceDetail": null,
+     "party": "국민의힘"
+    },
+    {
+     "id": "s8",
+     "text": null,
+     "type": "quote",
+     "sourceType": "opp",
+     "sourceName": "나경원 의원",
+     "sourceDetail": null,
+     "party": "국민의힘"
+    },
+    {
+     "id": "s9",
+     "text": null,
+     "type": "quote",
+     "sourceType": "gov",
+     "sourceName": "더불어민주당",
+     "sourceDetail": null,
+     "party": "더불어민주당"
+    },
+    {
+     "id": "s10",
+     "text": null,
+     "type": "quote",
+     "sourceType": "gov",
+     "sourceName": "황명선 의원",
+     "sourceDetail": null,
+     "party": "더불어민주당"
+    },
+    {
+     "id": "s11",
+     "text": null,
+     "type": "quote",
+     "sourceType": "gov",
+     "sourceName": "정태호 의원",
+     "sourceDetail": null,
+     "party": "더불어민주당"
+    },
+    {
+     "id": "s12",
+     "text": null,
+     "type": "quote",
+     "sourceType": "gov",
+     "sourceName": "정부",
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s13",
+     "text": null,
+     "type": "quote",
+     "sourceType": "gov",
+     "sourceName": "김민재 행정안전부 차관",
+     "sourceDetail": null,
+     "party": null
+    }
+   ],
+   "framingTerms": [
+    {
+     "term": "충돌하면서",
+     "sentenceId": "s1"
+    }
+   ],
+   "analyzedBy": "gemini-3.5-flash-lite"
+  },
+  {
+   "id": "a-e787500f44",
+   "issueId": "auto-20261122-0044-1",
+   "outletId": "ajunews",
+   "outletName": "아주경제",
+   "title": "지역사랑상품권 예산 1조4500억원 놓고 여야 충돌...심사 보류",
+   "summary": "반면 더불어민주당은 지역사랑상품권이 소상공인 지원과 지역경제 활성화에 기여한다며 정부 원안 유지를 주장했다. 황명선 민주당 의원은 \"지역화폐는 지역경제 선순환 구조 역할을 하는 것\"이라며 논산시장 재임...",
+   "url": "https://www.ajunews.com/view/20261121120048961",
+   "publishedAt": "2026-11-21T12:06:00+09:00",
+   "sentences": [
+    {
+     "id": "s1",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s2",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s3",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s4",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s5",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s6",
+     "text": null,
+     "type": "quote",
+     "sourceType": "opp",
+     "sourceName": "국민의힘",
+     "sourceDetail": null,
+     "party": "국민의힘"
+    },
+    {
+     "id": "s7",
+     "text": null,
+     "type": "quote",
+     "sourceType": "opp",
+     "sourceName": "송언석 의원",
+     "sourceDetail": null,
+     "party": "국민의힘"
+    },
+    {
+     "id": "s8",
+     "text": "상품권 발행 자체에는 동의하지만 할인율과 국고 부담률을 낮출 필요가 있다…",
+     "type": "opinion",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s9",
+     "text": null,
+     "type": "quote",
+     "sourceType": "opp",
+     "sourceName": "나경원 의원",
+     "sourceDetail": null,
+     "party": "국민의힘"
+    },
+    {
+     "id": "s10",
+     "text": "지방자치단체의 재정 여건에 따라 상품권 발행 규모에 차이가 발생하는 문제…",
+     "type": "opinion",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s11",
+     "text": null,
+     "type": "quote",
+     "sourceType": "gov",
+     "sourceName": "더불어민주당",
+     "sourceDetail": null,
+     "party": "더불어민주당"
+    },
+    {
+     "id": "s12",
+     "text": null,
+     "type": "quote",
+     "sourceType": "gov",
+     "sourceName": "황명선 의원",
+     "sourceDetail": null,
+     "party": "더불어민주당"
+    },
+    {
+     "id": "s13",
+     "text": null,
+     "type": "quote",
+     "sourceType": "gov",
+     "sourceName": "정태호 의원",
+     "sourceDetail": null,
+     "party": "더불어민주당"
+    },
+    {
+     "id": "s14",
+     "text": "국민의힘은 지난해 예산 집행 실적도 문제 삼았다.",
+     "type": "opinion",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s15",
+     "text": null,
+     "type": "quote",
+     "sourceType": "opp",
+     "sourceName": "서지영 의원",
+     "sourceDetail": null,
+     "party": "국민의힘"
+    },
+    {
+     "id": "s16",
+     "text": null,
+     "type": "quote",
+     "sourceType": "gov",
+     "sourceName": "김민재 차관",
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s17",
+     "text": null,
+     "type": "quote",
+     "sourceType": "gov",
+     "sourceName": "김 차관",
+     "sourceDetail": null,
+     "party": null
+    }
+   ],
+   "framingTerms": [
+    {
+     "term": "지적했다",
+     "sentenceId": "s7"
+    },
+    {
+     "term": "주장했다",
+     "sentenceId": "s9"
+    },
+    {
+     "term": "주장했다",
+     "sentenceId": "s11"
+    },
+    {
+     "term": "강조하면서도",
+     "sentenceId": "s13"
+    },
+    {
+     "term": "문제 삼았다",
+     "sentenceId": "s14"
+    },
+    {
+     "term": "설명했다",
+     "sentenceId": "s16"
+    }
+   ],
+   "analyzedBy": "gemini-3.5-flash-lite"
+  },
+  {
+   "id": "a-2acf693273",
+   "issueId": "auto-20261122-0044-1",
+   "outletId": "viva100",
+   "outletName": "브릿지경제",
+   "title": "지역사랑상품권 예산 3000억 증액 ‘제동’…여야 충돌에 심사 보류",
+   "summary": "야당이 지난해 국고보조금 반납 실적과 높은 할인율을 근거로 증액분 전액 삭감을 요구한 반면, 여당은 소상공인 지원을 위해 예산 확대가 필요하다고 맞서면서 국회 심사가 중단됐다. 21일 국회에 따르면...",
+   "url": "https://www.viva100.com/article/20261121500110",
+   "publishedAt": "2026-11-21T13:48:00+09:00",
+   "sentences": [
+    {
+     "id": "s1",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s2",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s3",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s4",
+     "text": "쟁점은 정부가 제시한 예산 증가분 3000억원의 적정성이다.",
+     "type": "opinion",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s5",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s6",
+     "text": null,
+     "type": "quote",
+     "sourceType": "gov",
+     "sourceName": "정부",
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s7",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s8",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s9",
+     "text": "지역별로 지원 수준이 다른 만큼 재정 부담의 적정성과 혜택의 형평성도 논…",
+     "type": "opinion",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s10",
+     "text": null,
+     "type": "quote",
+     "sourceType": "opp",
+     "sourceName": "국민의힘",
+     "sourceDetail": null,
+     "party": "국민의힘"
+    },
+    {
+     "id": "s11",
+     "text": null,
+     "type": "quote",
+     "sourceType": "opp",
+     "sourceName": "서지영",
+     "sourceDetail": null,
+     "party": "국민의힘"
+    },
+    {
+     "id": "s12",
+     "text": null,
+     "type": "quote",
+     "sourceType": "opp",
+     "sourceName": "서지영",
+     "sourceDetail": null,
+     "party": "국민의힘"
+    },
+    {
+     "id": "s13",
+     "text": "할인율을 낮춰야 한다는 주장도 나왔다.",
+     "type": "opinion",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s14",
+     "text": null,
+     "type": "quote",
+     "sourceType": "opp",
+     "sourceName": "송언석",
+     "sourceDetail": null,
+     "party": "국민의힘"
+    },
+    {
+     "id": "s15",
+     "text": null,
+     "type": "quote",
+     "sourceType": "opp",
+     "sourceName": "송언석",
+     "sourceDetail": null,
+     "party": "국민의힘"
+    },
+    {
+     "id": "s16",
+     "text": null,
+     "type": "quote",
+     "sourceType": "opp",
+     "sourceName": "나경원",
+     "sourceDetail": null,
+     "party": "국민의힘"
+    },
+    {
+     "id": "s17",
+     "text": null,
+     "type": "quote",
+     "sourceType": "opp",
+     "sourceName": "나경원",
+     "sourceDetail": null,
+     "party": "국민의힘"
+    },
+    {
+     "id": "s18",
+     "text": null,
+     "type": "quote",
+     "sourceType": "gov",
+     "sourceName": "더불어민주당",
+     "sourceDetail": null,
+     "party": "더불어민주당"
+    },
+    {
+     "id": "s19",
+     "text": null,
+     "type": "quote",
+     "sourceType": "gov",
+     "sourceName": "황명선",
+     "sourceDetail": null,
+     "party": "더불어민주당"
+    },
+    {
+     "id": "s20",
+     "text": null,
+     "type": "quote",
+     "sourceType": "gov",
+     "sourceName": "황명선",
+     "sourceDetail": null,
+     "party": "더불어민주당"
+    },
+    {
+     "id": "s21",
+     "text": null,
+     "type": "quote",
+     "sourceType": "gov",
+     "sourceName": "정태호",
+     "sourceDetail": null,
+     "party": "더불어민주당"
+    },
+    {
+     "id": "s22",
+     "text": null,
+     "type": "quote",
+     "sourceType": "gov",
+     "sourceName": "정태호",
+     "sourceDetail": null,
+     "party": "더불어민주당"
+    },
+    {
+     "id": "s23",
+     "text": null,
+     "type": "quote",
+     "sourceType": "gov",
+     "sourceName": "정태호",
+     "sourceDetail": null,
+     "party": "더불어민주당"
+    },
+    {
+     "id": "s24",
+     "text": null,
+     "type": "quote",
+     "sourceType": "gov",
+     "sourceName": "행정안전부",
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s25",
+     "text": null,
+     "type": "quote",
+     "sourceType": "gov",
+     "sourceName": "김민재",
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s26",
+     "text": null,
+     "type": "quote",
+     "sourceType": "gov",
+     "sourceName": "김민재",
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s27",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s28",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s29",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s30",
+     "text": "향후 심사에서는 지난해 미집행 예산에 대한 평가와 지역경제 지원 효과,…",
+     "type": "opinion",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    }
+   ],
+   "framingTerms": [
+    {
+     "term": "제동이 걸렸다",
+     "sentenceId": "s1"
+    },
+    {
+     "term": "요구한",
+     "sentenceId": "s2"
+    },
+    {
+     "term": "맞서면서",
+     "sentenceId": "s2"
+    },
+    {
+     "term": "중단됐다",
+     "sentenceId": "s2"
+    },
+    {
+     "term": "지적했다",
+     "sentenceId": "s11"
+    },
+    {
+     "term": "거론하며",
+     "sentenceId": "s14"
+    },
+    {
+     "term": "지적했다",
+     "sentenceId": "s14"
+    },
+    {
+     "term": "제기했다",
+     "sentenceId": "s16"
+    },
+    {
+     "term": "주장했다",
+     "sentenceId": "s17"
+    },
+    {
+     "term": "강조했다",
+     "sentenceId": "s19"
+    },
+    {
+     "term": "강조하며",
+     "sentenceId": "s21"
+    },
+    {
+     "term": "설명했다",
+     "sentenceId": "s25"
+    },
+    {
+     "term": "밝혔다",
+     "sentenceId": "s26"
+    },
+    {
+     "term": "엇갈렸다",
+     "sentenceId": "s28"
+    }
+   ],
+   "analyzedBy": "gemini-3.5-flash-lite"
+  },
+  {
+   "id": "a-807938cee4",
+   "issueId": "auto-20261122-0047-1",
+   "outletId": "newsis",
+   "outletName": "뉴시스",
+   "title": "한병도, 국힘 대구 장외 집회에 \"길바닥 정치 그만두고 국회서 민생 돌...",
+   "summary": "그만두고 국회에서 민생을 돌보라\"고 했다. 한 원내대표는 이날 자신의 페이스북 글을 통해 \"민생을 내팽개친... 그러면서 \"국민의힘은 전국을 막말의 무대로 삼는 행태를 중단하고, 국회로 돌아와 제1야당으로서의 책무부터...",
+   "url": "https://www.newsis.com/view/NISX20261121_0003877806",
+   "publishedAt": "2026-11-21T19:23:00+09:00",
+   "sentences": [
+    {
+     "id": "s1",
+     "text": null,
+     "type": "quote",
+     "sourceType": "gov",
+     "sourceName": "한 원내대표",
+     "sourceDetail": null,
+     "party": "더불어민주당"
+    },
+    {
+     "id": "s2",
+     "text": null,
+     "type": "quote",
+     "sourceType": "gov",
+     "sourceName": "한 원내대표",
+     "sourceDetail": null,
+     "party": "더불어민주당"
+    },
+    {
+     "id": "s3",
+     "text": null,
+     "type": "quote",
+     "sourceType": "gov",
+     "sourceName": "한 원내대표",
+     "sourceDetail": null,
+     "party": "더불어민주당"
+    },
+    {
+     "id": "s4",
+     "text": null,
+     "type": "quote",
+     "sourceType": "gov",
+     "sourceName": "한 원내대표",
+     "sourceDetail": null,
+     "party": "더불어민주당"
+    },
+    {
+     "id": "s5",
+     "text": null,
+     "type": "quote",
+     "sourceType": "gov",
+     "sourceName": "한 원내대표",
+     "sourceDetail": null,
+     "party": "더불어민주당"
+    }
+   ],
+   "framingTerms": [],
+   "analyzedBy": "gemini-3.5-flash-lite"
+  },
+  {
+   "id": "a-1993e215e7",
+   "issueId": "auto-20261122-0047-1",
+   "outletId": "news1",
+   "outletName": "뉴스1",
+   "title": "한병도 \"국힘 오늘도 막말…길바닥 정치 그만두고 민생 돌보길\"",
+   "summary": "그만두고 국회에서 민생을 돌보라\"고 비판했다. 한 원내대표는 이날 사회관계망서비스(SNS)에 올린 글에서... 중단하고, 국회로 돌아와 제1야당으로서의 책무부터 다하라\"고 촉구했다. 앞서 국민의힘은 이날 오후 대구...",
+   "url": "https://www.news1.kr/politics/assembly/6361724",
+   "publishedAt": "2026-11-21T20:22:00+09:00",
+   "sentences": [
+    {
+     "id": "s1",
+     "text": null,
+     "type": "quote",
+     "sourceType": "gov",
+     "sourceName": "한병도 더불어민주당 원내대표",
+     "sourceDetail": null,
+     "party": "더불어민주당"
+    },
+    {
+     "id": "s2",
+     "text": null,
+     "type": "quote",
+     "sourceType": "gov",
+     "sourceName": "한 원내대표",
+     "sourceDetail": null,
+     "party": "더불어민주당"
+    },
+    {
+     "id": "s3",
+     "text": null,
+     "type": "quote",
+     "sourceType": "gov",
+     "sourceName": "한 원내대표",
+     "sourceDetail": null,
+     "party": "더불어민주당"
+    },
+    {
+     "id": "s4",
+     "text": null,
+     "type": "quote",
+     "sourceType": "gov",
+     "sourceName": "그",
+     "sourceDetail": null,
+     "party": "더불어민주당"
+    },
+    {
+     "id": "s5",
+     "text": null,
+     "type": "quote",
+     "sourceType": "gov",
+     "sourceName": "그",
+     "sourceDetail": null,
+     "party": "더불어민주당"
+    },
+    {
+     "id": "s6",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s7",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s8",
+     "text": null,
+     "type": "quote",
+     "sourceType": "opp",
+     "sourceName": "장 대표",
+     "sourceDetail": null,
+     "party": "국민의힘"
+    },
+    {
+     "id": "s9",
+     "text": null,
+     "type": "quote",
+     "sourceType": "opp",
+     "sourceName": "정점식 원내대표",
+     "sourceDetail": null,
+     "party": "국민의힘"
+    }
+   ],
+   "framingTerms": [
+    {
+     "term": "비판했다",
+     "sentenceId": "s1"
+    },
+    {
+     "term": "밝혔다",
+     "sentenceId": "s2"
+    },
+    {
+     "term": "반박했다",
+     "sentenceId": "s3"
+    },
+    {
+     "term": "촉구했다",
+     "sentenceId": "s5"
+    },
+    {
+     "term": "주장했다",
+     "sentenceId": "s8"
+    }
+   ],
+   "analyzedBy": "gemini-3.5-flash-lite"
+  },
+  {
+   "id": "a-752c7410ff",
+   "issueId": "auto-20261122-0047-1",
+   "outletId": "sbs",
+   "outletName": "SBS",
+   "title": "한병도, 국힘 대구 장외집회에 \"민생 팽개친 길바닥 정치\" 비판",
+   "summary": "그만두고 국회에서 민생을 돌보라\"고 비판했습니다. 한 원내대표는 이날 페이스북에 \"민생을 내팽개친... 중단하고 국회로 돌아와 제1야당으로서의 책무부터 다하라\"고 했습니다. 조계원 대변인도 이날 국회 기자회견에서...",
+   "url": "https://news.sbs.co.kr/news/endPage.do?news_id=N1008857131&plink=ORI&cooper=NAVER",
+   "publishedAt": "2026-11-21T19:44:00+09:00",
+   "sentences": [
+    {
+     "id": "s1",
+     "text": null,
+     "type": "quote",
+     "sourceType": "gov",
+     "sourceName": "한병도 원내대표",
+     "sourceDetail": null,
+     "party": "더불어민주당"
+    },
+    {
+     "id": "s2",
+     "text": null,
+     "type": "quote",
+     "sourceType": "gov",
+     "sourceName": "한 원내대표",
+     "sourceDetail": null,
+     "party": "더불어민주당"
+    },
+    {
+     "id": "s3",
+     "text": null,
+     "type": "quote",
+     "sourceType": "gov",
+     "sourceName": "한 원내대표",
+     "sourceDetail": null,
+     "party": "더불어민주당"
+    },
+    {
+     "id": "s4",
+     "text": null,
+     "type": "quote",
+     "sourceType": "gov",
+     "sourceName": "한 원내대표",
+     "sourceDetail": null,
+     "party": "더불어민주당"
+    },
+    {
+     "id": "s5",
+     "text": null,
+     "type": "quote",
+     "sourceType": "gov",
+     "sourceName": "조계원 대변인",
+     "sourceDetail": null,
+     "party": "더불어민주당"
+    }
+   ],
+   "framingTerms": [],
+   "analyzedBy": "gemini-3.5-flash-lite"
+  },
+  {
+   "id": "a-b0a8b84a84",
+   "issueId": "auto-20261122-0047-1",
+   "outletId": "mt",
+   "outletName": "머니투데이",
+   "title": "TK에 결집한 국민의힘...한병도 \"전국을 막말 무대로 삼아\" 비판",
+   "summary": "중단하고 국회로 돌아와 제1야당으로서의 책무부터 다하라\"고 비판했다. 한 원내대표는 21일 SNS(소셜미디어)... 그만두고 국회에서 민생을 돌보라\"고 촉구했다. 국민의힘은 이날 오후 대구 중구 반월당역 앞에 모여 '100...",
+   "url": "https://www.mt.co.kr/politics/2026/11/21/2026112119492853512",
+   "publishedAt": "2026-11-21T20:09:00+09:00",
+   "sentences": [
+    {
+     "id": "s1",
+     "text": null,
+     "type": "quote",
+     "sourceType": "gov",
+     "sourceName": "한병도 더불어민주당 원내대표",
+     "sourceDetail": null,
+     "party": "더불어민주당"
+    },
+    {
+     "id": "s2",
+     "text": null,
+     "type": "quote",
+     "sourceType": "gov",
+     "sourceName": "한 원내대표",
+     "sourceDetail": null,
+     "party": "더불어민주당"
+    },
+    {
+     "id": "s3",
+     "text": null,
+     "type": "quote",
+     "sourceType": "gov",
+     "sourceName": "한 원내대표",
+     "sourceDetail": null,
+     "party": "더불어민주당"
+    },
+    {
+     "id": "s4",
+     "text": null,
+     "type": "quote",
+     "sourceType": "gov",
+     "sourceName": "한 원내대표",
+     "sourceDetail": null,
+     "party": "더불어민주당"
+    },
+    {
+     "id": "s5",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s6",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s7",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s8",
+     "text": null,
+     "type": "quote",
+     "sourceType": "opp",
+     "sourceName": "장 대표",
+     "sourceDetail": null,
+     "party": "국민의힘"
+    },
+    {
+     "id": "s9",
+     "text": null,
+     "type": "quote",
+     "sourceType": "opp",
+     "sourceName": "장 대표",
+     "sourceDetail": null,
+     "party": "국민의힘"
+    }
+   ],
+   "framingTerms": [
+    {
+     "term": "비판했다",
+     "sentenceId": "s1"
+    },
+    {
+     "term": "적었다",
+     "sentenceId": "s2"
+    },
+    {
+     "term": "맹비난했다",
+     "sentenceId": "s3"
+    },
+    {
+     "term": "촉구했다",
+     "sentenceId": "s4"
+    },
+    {
+     "term": "비판을 쏟아냈다",
+     "sentenceId": "s8"
+    },
+    {
+     "term": "목소리를 높였다",
+     "sentenceId": "s9"
+    }
+   ],
+   "analyzedBy": "gemini-3.5-flash-lite"
+  },
+  {
+   "id": "a-0a10331000",
+   "issueId": "auto-20261122-0047-1",
+   "outletId": "heraldcorp",
+   "outletName": "헤럴드경제",
+   "title": "한병도 “길바닥 정치 그만두고 국회로”…국민의힘 대구 집회 직격 [이...",
+   "summary": "그만두고 국회에서 민생을 돌보라”고 비판했다. 한 원내대표는 이날 페이스북에 “민생을 내팽개친... 중단하고 국회로 돌아와 제1야당으로서의 책무부터 다하라”고 촉구했다. 조계원 대변인도 이날 국회 기자회견에서...",
+   "url": "https://biz.heraldcorp.com/article/10944787?ref=naver",
+   "publishedAt": "2026-11-21T19:36:00+09:00",
+   "sentences": [
+    {
+     "id": "s1",
+     "text": null,
+     "type": "quote",
+     "sourceType": "gov",
+     "sourceName": "한병도 더불어민주당 원내대표",
+     "sourceDetail": null,
+     "party": "더불어민주당"
+    },
+    {
+     "id": "s2",
+     "text": null,
+     "type": "quote",
+     "sourceType": "gov",
+     "sourceName": "한 원내대표",
+     "sourceDetail": null,
+     "party": "더불어민주당"
+    },
+    {
+     "id": "s3",
+     "text": null,
+     "type": "quote",
+     "sourceType": "gov",
+     "sourceName": "한 원내대표",
+     "sourceDetail": null,
+     "party": "더불어민주당"
+    },
+    {
+     "id": "s4",
+     "text": null,
+     "type": "quote",
+     "sourceType": "gov",
+     "sourceName": "한 원내대표",
+     "sourceDetail": null,
+     "party": "더불어민주당"
+    },
+    {
+     "id": "s5",
+     "text": null,
+     "type": "quote",
+     "sourceType": "gov",
+     "sourceName": "조계원 대변인",
+     "sourceDetail": null,
+     "party": "더불어민주당"
+    },
+    {
+     "id": "s6",
+     "text": null,
+     "type": "quote",
+     "sourceType": "gov",
+     "sourceName": "조 대변인",
+     "sourceDetail": null,
+     "party": "더불어민주당"
+    },
+    {
+     "id": "s7",
+     "text": null,
+     "type": "quote",
+     "sourceType": "gov",
+     "sourceName": "조 대변인",
+     "sourceDetail": null,
+     "party": "더불어민주당"
+    }
+   ],
+   "framingTerms": [],
+   "analyzedBy": "gemini-3.5-flash-lite"
+  },
+  {
+   "id": "a-5ecea33391",
+   "issueId": "auto-20261122-0047-1",
+   "outletId": "yonhapnewstv",
+   "outletName": "연합뉴스TV",
+   "title": "한병도, 野 대구 장외집회에 \"민생 팽개친 길바닥 정치\"",
+   "summary": "그만두고 국회에서 민생을 돌보라\"고 날을 세웠습니다. 한 원내대표는 이날 페이스북에 \"민생을 내팽개친... 중단하고 국회로 돌아와 제1야당으로서의 책무부터 다하라\"고 했습니다. 조계원 대변인도 이날 국회...",
+   "url": "http://www.yonhapnewstv.co.kr/news/AKR20261121212829nPh",
+   "publishedAt": "2026-11-21T21:29:00+09:00",
+   "sentences": [
+    {
+     "id": "s1",
+     "text": null,
+     "type": "quote",
+     "sourceType": "gov",
+     "sourceName": "한병도 원내대표",
+     "sourceDetail": null,
+     "party": "더불어민주당"
+    },
+    {
+     "id": "s2",
+     "text": null,
+     "type": "quote",
+     "sourceType": "gov",
+     "sourceName": "한 원내대표",
+     "sourceDetail": null,
+     "party": "더불어민주당"
+    },
+    {
+     "id": "s3",
+     "text": null,
+     "type": "quote",
+     "sourceType": "gov",
+     "sourceName": "한 원내대표",
+     "sourceDetail": null,
+     "party": "더불어민주당"
+    },
+    {
+     "id": "s4",
+     "text": null,
+     "type": "quote",
+     "sourceType": "gov",
+     "sourceName": "한 원내대표",
+     "sourceDetail": null,
+     "party": "더불어민주당"
+    },
+    {
+     "id": "s5",
+     "text": null,
+     "type": "quote",
+     "sourceType": "gov",
+     "sourceName": "조계원 대변인",
+     "sourceDetail": null,
+     "party": "더불어민주당"
+    },
+    {
+     "id": "s6",
+     "text": null,
+     "type": "quote",
+     "sourceType": "gov",
+     "sourceName": "조 대변인",
+     "sourceDetail": null,
+     "party": "더불어민주당"
+    },
+    {
+     "id": "s7",
+     "text": null,
+     "type": "quote",
+     "sourceType": "gov",
+     "sourceName": "조 대변인",
+     "sourceDetail": null,
+     "party": "더불어민주당"
+    },
+    {
+     "id": "s8",
+     "text": "당신이 담은 순간이 뉴스입니다!",
+     "type": "opinion",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    }
+   ],
+   "framingTerms": [
+    {
+     "term": "날을 세웠습니다",
+     "sentenceId": "s1"
+    },
+    {
+     "term": "지적했습니다",
+     "sentenceId": "s3"
+    },
+    {
+     "term": "비판했습니다",
+     "sentenceId": "s5"
+    },
+    {
+     "term": "지적했습니다",
+     "sentenceId": "s6"
+    }
+   ],
+   "analyzedBy": "gemini-3.5-flash-lite"
+  },
+  {
+   "id": "a-8bcf75e93c",
+   "issueId": "auto-20261122-0047-1",
+   "outletId": "asiae",
+   "outletName": "아시아경제",
+   "title": "민주당, 국힘 '대구 집회'에 “막말 선동 중단하고 국회 돌아오라”",
+   "summary": "그만두고 국회에서 민생을 돌보라\"고 밝혔다. 장 대표가 이 대통령을 향해 \"국민을 속여 청와대를 점거하고... 중단하고 국회로 돌아와 제1야당으로서의 책무부터 다하라\"고 촉구했다. 조계원 민주당 대변인도 이날 국회...",
+   "url": "https://view.asiae.co.kr/article/2026112119365654484",
+   "publishedAt": "2026-11-21T19:36:00+09:00",
+   "sentences": [
+    {
+     "id": "s1",
+     "text": null,
+     "type": "quote",
+     "sourceType": "gov",
+     "sourceName": "더불어민주당",
+     "sourceDetail": null,
+     "party": "더불어민주당"
+    },
+    {
+     "id": "s2",
+     "text": null,
+     "type": "quote",
+     "sourceType": "opp",
+     "sourceName": "더불어민주당",
+     "sourceDetail": null,
+     "party": "국민의힘"
+    },
+    {
+     "id": "s3",
+     "text": null,
+     "type": "quote",
+     "sourceType": "gov",
+     "sourceName": "한병도 민주당 원내대표",
+     "sourceDetail": null,
+     "party": "더불어민주당"
+    },
+    {
+     "id": "s4",
+     "text": null,
+     "type": "quote",
+     "sourceType": "gov",
+     "sourceName": "한병도 원내대표",
+     "sourceDetail": null,
+     "party": "더불어민주당"
+    },
+    {
+     "id": "s5",
+     "text": null,
+     "type": "quote",
+     "sourceType": "gov",
+     "sourceName": "한병도 원내대표",
+     "sourceDetail": null,
+     "party": "더불어민주당"
+    },
+    {
+     "id": "s6",
+     "text": null,
+     "type": "quote",
+     "sourceType": "gov",
+     "sourceName": "조계원 민주당 대변인",
+     "sourceDetail": null,
+     "party": "더불어민주당"
+    },
+    {
+     "id": "s7",
+     "text": null,
+     "type": "quote",
+     "sourceType": "gov",
+     "sourceName": "조 대변인",
+     "sourceDetail": null,
+     "party": "더불어민주당"
+    },
+    {
+     "id": "s8",
+     "text": null,
+     "type": "quote",
+     "sourceType": "gov",
+     "sourceName": "조 대변인",
+     "sourceDetail": null,
+     "party": "더불어민주당"
+    },
+    {
+     "id": "s9",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    }
+   ],
+   "framingTerms": [],
+   "analyzedBy": "gemini-3.5-flash-lite"
+  },
+  {
+   "id": "a-b33e4f3864",
+   "issueId": "auto-20261122-0048-1",
+   "outletId": "yna",
+   "outletName": "연합뉴스",
+   "title": "'尹 영화비·특활비 공개소송' 각하…\"대통령기록관 이관\"",
+   "summary": "영화관람비와 대통령실 특수활동비 등 내역을 공개하라며 제기한 소송이 법원에서 각하됐다. 21일 법조계에... 앞서 한국납세자연맹은 윤석열 정권이던 2023년 대통령실 특수활동비 지출내역과 업무추진비 집행내역 등을...",
+   "url": "https://www.yna.co.kr/view/AKR20261120151500004?input=1195m",
+   "publishedAt": "2026-11-21T07:00:00+09:00",
+   "sentences": [
+    {
+     "id": "s1",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s2",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s3",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s4",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s5",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s6",
+     "text": null,
+     "type": "quote",
+     "sourceType": "etc",
+     "sourceName": "재판부",
+     "sourceDetail": "법원",
+     "party": null
+    },
+    {
+     "id": "s7",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s8",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s9",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s10",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s11",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s12",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s13",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s14",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s15",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s16",
+     "text": null,
+     "type": "quote",
+     "sourceType": "etc",
+     "sourceName": "대법원",
+     "sourceDetail": "법원",
+     "party": null
+    },
+    {
+     "id": "s17",
+     "text": "납세자연맹이 공개를 청구한 정보 역시 대통령기록관에 이관돼 대통령실에 남…",
+     "type": "opinion",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s18",
+     "text": null,
+     "type": "quote",
+     "sourceType": "etc",
+     "sourceName": "대법원",
+     "sourceDetail": "법원",
+     "party": null
+    }
+   ],
+   "framingTerms": [],
+   "analyzedBy": "gemini-3.5-flash-lite"
+  },
+  {
+   "id": "a-81a31fef69",
+   "issueId": "auto-20261122-0048-1",
+   "outletId": "sbs",
+   "outletName": "SBS",
+   "title": "'윤석열 영화비·특활비 공개 소송' 각하…\"대통령기록관 이관\"",
+   "summary": "영화관람비와 대통령실 특수활동비 등 내역을 공개하라며 제기한 소송이 법원에서 각하됐습니다. 서울고법... 앞서 한국납세자연맹은 윤석열 정부이던 2023년 대통령실 특수활동비 지출 내역과 업무추진비 집행 내역...",
+   "url": "https://news.sbs.co.kr/news/endPage.do?news_id=N1008856877&plink=ORI&cooper=NAVER",
+   "publishedAt": "2026-11-21T11:42:00+09:00",
+   "sentences": [
+    {
+     "id": "s1",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s2",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s3",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s4",
+     "text": null,
+     "type": "quote",
+     "sourceType": "etc",
+     "sourceName": "재판부",
+     "sourceDetail": "법원",
+     "party": null
+    },
+    {
+     "id": "s5",
+     "text": null,
+     "type": "quote",
+     "sourceType": "etc",
+     "sourceName": "재판부",
+     "sourceDetail": "법원",
+     "party": null
+    },
+    {
+     "id": "s6",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s7",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s8",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s9",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s10",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s11",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s12",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s13",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s14",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s15",
+     "text": null,
+     "type": "quote",
+     "sourceType": "etc",
+     "sourceName": "대법원",
+     "sourceDetail": "법원",
+     "party": null
+    },
+    {
+     "id": "s16",
+     "text": "납세자연맹이 공개를 청구한 정보 역시 대통령기록관에 이관돼 대통령실에 남…",
+     "type": "opinion",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s17",
+     "text": null,
+     "type": "quote",
+     "sourceType": "etc",
+     "sourceName": "대법원",
+     "sourceDetail": "법원",
+     "party": null
+    }
+   ],
+   "framingTerms": [],
+   "analyzedBy": "gemini-3.5-flash-lite"
+  },
+  {
+   "id": "a-fdace45970",
+   "issueId": "auto-20261122-0048-1",
+   "outletId": "ytn",
+   "outletName": "YTN",
+   "title": "윤석열 영화관람비 공개소송 각하...\"이미 대통령기록관 이관\"",
+   "summary": "시민단체가 윤석열 전 대통령의 식대와 영화관람비 등 대통령실 특수활동비 정보를 공개하라며 낸 소송이... 앞서 한국납세자연맹은 윤석열 정권이던 2023년 윤 전 대통령 부부가 영화 '브로커'를 관람한 비용 등 대통령실...",
+   "url": "https://www.ytn.co.kr/_ln/0103_202611211055294589",
+   "publishedAt": "2026-11-21T10:55:00+09:00",
+   "sentences": [
+    {
+     "id": "s1",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s2",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s3",
+     "text": null,
+     "type": "quote",
+     "sourceType": "etc",
+     "sourceName": "재판부",
+     "sourceDetail": "법원",
+     "party": null
+    },
+    {
+     "id": "s4",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s5",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s6",
+     "text": "※ '당신의 제보가 뉴스가 됩니다'",
+     "type": "opinion",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    }
+   ],
+   "framingTerms": [],
+   "analyzedBy": "gemini-3.5-flash-lite"
+  },
+  {
+   "id": "a-f1e4aefa36",
+   "issueId": "auto-20261122-0048-1",
+   "outletId": "chosun",
+   "outletName": "조선일보",
+   "title": "‘尹 영화비·특활비 정보공개 소송’ 각하…“이미 대통령기록관에 정...",
+   "summary": "윤석열 전 대통령 부부의 영화 관람비와 대통령실 특수활동비 등을 공개하라며 시민단체가 낸 소송이... 당시 대통령실의 특수활동비·업무추진비 집행 내역 등을 공개해 달라고 청구했다. 이후 대통령 비서실이 대부분...",
+   "url": "https://www.chosun.com/national/court_law/2026/11/21/LDZEUKHZKJAFPKTOOWEA5CIZWI/?utm_source=naver&utm_medium=referral&utm_campaign=naver-news",
+   "publishedAt": "2026-11-21T11:22:00+09:00",
+   "sentences": [
+    {
+     "id": "s1",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s2",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s3",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s4",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s5",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    }
+   ],
+   "framingTerms": [],
+   "analyzedBy": "gemini-3.5-flash-lite"
+  },
+  {
+   "id": "a-bd2cc2b63b",
+   "issueId": "auto-20261122-0048-1",
+   "outletId": "edaily",
+   "outletName": "이데일리",
+   "title": "尹 부부 식사·영화비 공개 소송 각하…\"기록관 이관\"",
+   "summary": "윤석열 전 대통령 부부의 식사비와 영화 관람비, 대통령실 특수활동비 등 내역을 공개하라는 시민단체의 소송이 법원에서 각하됐다. 관련 자료가 대통령기록관으로 이관되면서 대통령실을 상대로 정보공개를 요구할...",
+   "url": "https://www.edaily.co.kr/News/Read?newsId=01830246645648016&mediaCodeNo=257&utm_source=naver&utm_medium=referral&utm_campaign=news_syndication&utm_content=original_article",
+   "publishedAt": "2026-11-21T10:23:00+09:00",
+   "sentences": [
+    {
+     "id": "s1",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s2",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s3",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s4",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s5",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s6",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s7",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s8",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s9",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s10",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s11",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s12",
+     "text": null,
+     "type": "quote",
+     "sourceType": "etc",
+     "sourceName": "서울고법 행정3부",
+     "sourceDetail": "법원",
+     "party": null
+    }
+   ],
+   "framingTerms": [],
+   "analyzedBy": "gemini-3.5-flash-lite"
+  },
+  {
+   "id": "a-31d9420fc6",
+   "issueId": "auto-20261122-0048-1",
+   "outletId": "dailian",
+   "outletName": "데일리안",
+   "title": "尹 부부 식사·영화비 공개 소송 각하…법원 \"소송 이익 없어\"",
+   "summary": "윤석열 전 대통령 부부의 식사비와 영화 관람비, 대통령실 특수활동비 등의 공개를 요구한 시민단체의... 이번 소송은 2022년 한국납세자연맹이 윤 전 대통령 부부의 식사·영화 관람 비용과 대통령실 특수활동비 등의...",
+   "url": "https://www.dailian.co.kr/news/view/1717988/?sc=Naver",
+   "publishedAt": "2026-11-21T12:00:00+09:00",
+   "sentences": [
+    {
+     "id": "s1",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s2",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s3",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s4",
+     "text": null,
+     "type": "quote",
+     "sourceType": "etc",
+     "sourceName": "재판부",
+     "sourceDetail": "법원",
+     "party": null
+    },
+    {
+     "id": "s5",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s6",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s7",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s8",
+     "text": null,
+     "type": "quote",
+     "sourceType": "etc",
+     "sourceName": "재판부",
+     "sourceDetail": "법원",
+     "party": null
+    }
+   ],
+   "framingTerms": [],
+   "analyzedBy": "gemini-3.5-flash-lite"
+  },
+  {
+   "id": "a-70bc680f74",
+   "issueId": "auto-20261122-0048-1",
+   "outletId": "newscj",
+   "outletName": "천지일보",
+   "title": "尹 영화 관람비·대통령실 특활비 공개 소송 각하… 법원 \"다툴 이익 없...",
+   "summary": "이후 납세자연맹이 제기한 행정소송에서 1·2심 재판부는 영화 관람비와 식사비, 윤석열 정부 출범 이후 사용된 대통령실 특수활동비 일부를 공개하라고 판결했다. 다만 업무추진비 내역은 이미 공개됐다는 이유로 소송을...",
+   "url": "https://www.newscj.com/news/articleView.html?idxno=3450896",
+   "publishedAt": "2026-11-21T16:44:00+09:00",
+   "sentences": [
+    {
+     "id": "s1",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s2",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s3",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s4",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s5",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s6",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s7",
+     "text": null,
+     "type": "quote",
+     "sourceType": "etc",
+     "sourceName": "대통령기록관",
+     "sourceDetail": "대통령기록관",
+     "party": null
+    },
+    {
+     "id": "s8",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s9",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s10",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s11",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s12",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s13",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s14",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s15",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s16",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s17",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s18",
+     "text": null,
+     "type": "quote",
+     "sourceType": "etc",
+     "sourceName": "대법원",
+     "sourceDetail": "법원",
+     "party": null
+    },
+    {
+     "id": "s19",
+     "text": null,
+     "type": "quote",
+     "sourceType": "etc",
+     "sourceName": "대법원",
+     "sourceDetail": "법원",
+     "party": null
+    },
+    {
+     "id": "s20",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    }
+   ],
+   "framingTerms": [],
+   "analyzedBy": "gemini-3.5-flash-lite"
+  },
+  {
+   "id": "a-1ca0eb920e",
+   "issueId": "auto-20261122-0052-1",
+   "outletId": "yna",
+   "outletName": "연합뉴스",
+   "title": "김건희 \"유죄 죽어도 이해 못해…언제까지 정치 눈치 보나\"(종합)",
+   "summary": "김 여사는 \"비례대표가 뭔지, 간단한 상식도 없었다\"며 \"특히 권성동은 '검수완박'부터 검찰총장까지 지냈던 우리 남편과 철학이 맞지 않아서 그에 대한 지원을 요청할 이유는 없었다\"고 항변했다. 미리 준비해 온 입장문을...",
+   "url": "https://www.yna.co.kr/view/AKR20261120086051004?input=1195m",
+   "publishedAt": "2026-11-20T17:26:00+09:00",
+   "sentences": [
+    {
+     "id": "s1",
+     "text": "전체 내용을 이해하기 위해서는 기사 본문과 함께 읽어야 합니다.",
+     "type": "opinion",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s2",
+     "text": null,
+     "type": "quote",
+     "sourceType": "opp",
+     "sourceName": "김건희 여사",
+     "sourceDetail": null,
+     "party": "국민의힘"
+    },
+    {
+     "id": "s3",
+     "text": null,
+     "type": "quote",
+     "sourceType": "opp",
+     "sourceName": "김건희 여사",
+     "sourceDetail": null,
+     "party": "국민의힘"
+    },
+    {
+     "id": "s4",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s5",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s6",
+     "text": null,
+     "type": "quote",
+     "sourceType": "etc",
+     "sourceName": "김 여사의 변호인",
+     "sourceDetail": "익명(소속 미상)",
+     "party": null
+    },
+    {
+     "id": "s7",
+     "text": null,
+     "type": "quote",
+     "sourceType": "etc",
+     "sourceName": "김 여사",
+     "sourceDetail": "익명(소속 미상)",
+     "party": null
+    },
+    {
+     "id": "s8",
+     "text": null,
+     "type": "quote",
+     "sourceType": "etc",
+     "sourceName": "그",
+     "sourceDetail": "익명(소속 미상)",
+     "party": null
+    },
+    {
+     "id": "s9",
+     "text": null,
+     "type": "quote",
+     "sourceType": "etc",
+     "sourceName": "김 여사",
+     "sourceDetail": "익명(소속 미상)",
+     "party": null
+    },
+    {
+     "id": "s10",
+     "text": null,
+     "type": "quote",
+     "sourceType": "etc",
+     "sourceName": "김 여사",
+     "sourceDetail": "익명(소속 미상)",
+     "party": null
+    },
+    {
+     "id": "s11",
+     "text": null,
+     "type": "quote",
+     "sourceType": "opp",
+     "sourceName": "김건희 여사",
+     "sourceDetail": null,
+     "party": "국민의힘"
+    },
+    {
+     "id": "s12",
+     "text": null,
+     "type": "quote",
+     "sourceType": "etc",
+     "sourceName": "김 여사",
+     "sourceDetail": "익명(소속 미상)",
+     "party": null
+    },
+    {
+     "id": "s13",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s14",
+     "text": null,
+     "type": "quote",
+     "sourceType": "etc",
+     "sourceName": "김 여사",
+     "sourceDetail": "익명(소속 미상)",
+     "party": null
+    },
+    {
+     "id": "s15",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s16",
+     "text": null,
+     "type": "quote",
+     "sourceType": "etc",
+     "sourceName": "김 여사",
+     "sourceDetail": "익명(소속 미상)",
+     "party": null
+    },
+    {
+     "id": "s17",
+     "text": null,
+     "type": "quote",
+     "sourceType": "etc",
+     "sourceName": "김 여사",
+     "sourceDetail": "익명(소속 미상)",
+     "party": null
+    },
+    {
+     "id": "s18",
+     "text": null,
+     "type": "quote",
+     "sourceType": "etc",
+     "sourceName": "김 여사",
+     "sourceDetail": "익명(소속 미상)",
+     "party": null
+    },
+    {
+     "id": "s19",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s20",
+     "text": null,
+     "type": "quote",
+     "sourceType": "gov",
+     "sourceName": "특검팀",
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s21",
+     "text": null,
+     "type": "quote",
+     "sourceType": "etc",
+     "sourceName": "김 여사",
+     "sourceDetail": "익명(소속 미상)",
+     "party": null
+    },
+    {
+     "id": "s22",
+     "text": null,
+     "type": "quote",
+     "sourceType": "etc",
+     "sourceName": "김 여사",
+     "sourceDetail": "익명(소속 미상)",
+     "party": null
+    },
+    {
+     "id": "s23",
+     "text": null,
+     "type": "quote",
+     "sourceType": "etc",
+     "sourceName": "김 여사",
+     "sourceDetail": "익명(소속 미상)",
+     "party": null
+    },
+    {
+     "id": "s24",
+     "text": null,
+     "type": "quote",
+     "sourceType": "etc",
+     "sourceName": "김 여사",
+     "sourceDetail": "익명(소속 미상)",
+     "party": null
+    },
+    {
+     "id": "s25",
+     "text": null,
+     "type": "quote",
+     "sourceType": "etc",
+     "sourceName": "김 여사",
+     "sourceDetail": "익명(소속 미상)",
+     "party": null
+    },
+    {
+     "id": "s26",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s27",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s28",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    }
+   ],
+   "framingTerms": [
+    {
+     "term": "일갈하기도 했다",
+     "sentenceId": "s3"
+    },
+    {
+     "term": "항변했다",
+     "sentenceId": "s10"
+    },
+    {
+     "term": "울분을 토했다",
+     "sentenceId": "s12"
+    },
+    {
+     "term": "역정을 내기도 했다",
+     "sentenceId": "s16"
+    },
+    {
+     "term": "일축했다",
+     "sentenceId": "s17"
+    },
+    {
+     "term": "반문했다",
+     "sentenceId": "s21"
+    },
+    {
+     "term": "쏘아붙였다",
+     "sentenceId": "s22"
+    },
+    {
+     "term": "한탄했다",
+     "sentenceId": "s24"
+    }
+   ],
+   "analyzedBy": "gemini-3.5-flash-lite"
+  },
+  {
+   "id": "a-49c31bf403",
+   "issueId": "auto-20261122-0052-1",
+   "outletId": "joins",
+   "outletName": "JTBC",
+   "title": "김건희 \"도이치 유죄? 죽어도 이해 못 해…억울해서 한숨도 못 자\"",
+   "summary": "아울러 \"비례대표가 뭔지, 간단한 상식도 없었다\"며 \"특히 권성동은 '검수완박'부터 검찰총장까지 지냈던 남편과 철학이 맞지 않아서 그에 대한 지원을 요청할 이유는 없었다\"고 항변했습니다.",
+   "url": "https://news.jtbc.co.kr/article/NB12329120?influxDiv=NAVER",
+   "publishedAt": "2026-11-20T17:44:00+09:00",
+   "sentences": [
+    {
+     "id": "s1",
+     "text": null,
+     "type": "quote",
+     "sourceType": "opp",
+     "sourceName": "김건희 씨",
+     "sourceDetail": null,
+     "party": "국민의힘"
+    },
+    {
+     "id": "s2",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s3",
+     "text": null,
+     "type": "quote",
+     "sourceType": "opp",
+     "sourceName": "김건희 씨",
+     "sourceDetail": null,
+     "party": "국민의힘"
+    },
+    {
+     "id": "s4",
+     "text": null,
+     "type": "quote",
+     "sourceType": "opp",
+     "sourceName": "김건희 씨",
+     "sourceDetail": null,
+     "party": "국민의힘"
+    },
+    {
+     "id": "s5",
+     "text": null,
+     "type": "quote",
+     "sourceType": "opp",
+     "sourceName": "김건희 씨",
+     "sourceDetail": null,
+     "party": "국민의힘"
+    },
+    {
+     "id": "s6",
+     "text": null,
+     "type": "quote",
+     "sourceType": "opp",
+     "sourceName": "김건희 씨",
+     "sourceDetail": null,
+     "party": "국민의힘"
+    },
+    {
+     "id": "s7",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s8",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s9",
+     "text": null,
+     "type": "quote",
+     "sourceType": "opp",
+     "sourceName": "김건희 씨",
+     "sourceDetail": null,
+     "party": "국민의힘"
+    },
+    {
+     "id": "s10",
+     "text": null,
+     "type": "quote",
+     "sourceType": "opp",
+     "sourceName": "김건희 씨",
+     "sourceDetail": null,
+     "party": "국민의힘"
+    }
+   ],
+   "framingTerms": [],
+   "analyzedBy": "gemini-3.5-flash-lite"
+  },
+  {
+   "id": "a-bfde6964b4",
+   "issueId": "auto-20261122-0052-1",
+   "outletId": "m-i",
+   "outletName": "매일일보",
+   "title": "김건희 \"유죄 죽어도 이해 못해…언제까지 정치 눈치 보나\"",
+   "summary": "김 여사는 \"비례대표가 뭔지, 간단한 상식도 없었다\"며 \"특히 권성동은 '검수완박'부터 검찰총장까지 지냈던 우리 남편과 철학이 맞지 않아서 그에 대한 지원을 요청할 이유는 없었다\"고 항변했다. 미리 준비해 온 입장문을...",
+   "url": "https://www.m-i.kr/news/articleView.html?idxno=2021581",
+   "publishedAt": "2026-11-20T18:28:00+09:00",
+   "sentences": [
+    {
+     "id": "s1",
+     "text": null,
+     "type": "quote",
+     "sourceType": "opp",
+     "sourceName": "김건희",
+     "sourceDetail": null,
+     "party": "국민의힘"
+    },
+    {
+     "id": "s2",
+     "text": null,
+     "type": "quote",
+     "sourceType": "opp",
+     "sourceName": "김건희",
+     "sourceDetail": null,
+     "party": "국민의힘"
+    },
+    {
+     "id": "s3",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s4",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s5",
+     "text": null,
+     "type": "quote",
+     "sourceType": "opp",
+     "sourceName": "김건희의 변호인",
+     "sourceDetail": null,
+     "party": "국민의힘"
+    },
+    {
+     "id": "s6",
+     "text": null,
+     "type": "quote",
+     "sourceType": "opp",
+     "sourceName": "김건희",
+     "sourceDetail": null,
+     "party": "국민의힘"
+    },
+    {
+     "id": "s7",
+     "text": null,
+     "type": "quote",
+     "sourceType": "opp",
+     "sourceName": "김건희",
+     "sourceDetail": null,
+     "party": "국민의힘"
+    },
+    {
+     "id": "s8",
+     "text": null,
+     "type": "quote",
+     "sourceType": "opp",
+     "sourceName": "김건희",
+     "sourceDetail": null,
+     "party": "국민의힘"
+    },
+    {
+     "id": "s9",
+     "text": null,
+     "type": "quote",
+     "sourceType": "opp",
+     "sourceName": "김건희",
+     "sourceDetail": null,
+     "party": "국민의힘"
+    },
+    {
+     "id": "s10",
+     "text": null,
+     "type": "quote",
+     "sourceType": "opp",
+     "sourceName": "김건희",
+     "sourceDetail": null,
+     "party": "국민의힘"
+    },
+    {
+     "id": "s11",
+     "text": null,
+     "type": "quote",
+     "sourceType": "opp",
+     "sourceName": "김건희",
+     "sourceDetail": null,
+     "party": "국민의힘"
+    },
+    {
+     "id": "s12",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s13",
+     "text": null,
+     "type": "quote",
+     "sourceType": "opp",
+     "sourceName": "김건희",
+     "sourceDetail": null,
+     "party": "국민의힘"
+    },
+    {
+     "id": "s14",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s15",
+     "text": null,
+     "type": "quote",
+     "sourceType": "opp",
+     "sourceName": "김건희",
+     "sourceDetail": null,
+     "party": "국민의힘"
+    },
+    {
+     "id": "s16",
+     "text": null,
+     "type": "quote",
+     "sourceType": "opp",
+     "sourceName": "김건희",
+     "sourceDetail": null,
+     "party": "국민의힘"
+    },
+    {
+     "id": "s17",
+     "text": null,
+     "type": "quote",
+     "sourceType": "opp",
+     "sourceName": "김건희",
+     "sourceDetail": null,
+     "party": "국민의힘"
+    },
+    {
+     "id": "s18",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s19",
+     "text": null,
+     "type": "quote",
+     "sourceType": "gov",
+     "sourceName": "특검팀",
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s20",
+     "text": null,
+     "type": "quote",
+     "sourceType": "opp",
+     "sourceName": "김건희",
+     "sourceDetail": null,
+     "party": "국민의힘"
+    },
+    {
+     "id": "s21",
+     "text": null,
+     "type": "quote",
+     "sourceType": "opp",
+     "sourceName": "김건희",
+     "sourceDetail": null,
+     "party": "국민의힘"
+    },
+    {
+     "id": "s22",
+     "text": null,
+     "type": "quote",
+     "sourceType": "opp",
+     "sourceName": "김건희",
+     "sourceDetail": null,
+     "party": "국민의힘"
+    },
+    {
+     "id": "s23",
+     "text": null,
+     "type": "quote",
+     "sourceType": "opp",
+     "sourceName": "김건희",
+     "sourceDetail": null,
+     "party": "국민의힘"
+    },
+    {
+     "id": "s24",
+     "text": null,
+     "type": "quote",
+     "sourceType": "opp",
+     "sourceName": "김건희",
+     "sourceDetail": null,
+     "party": "국민의힘"
+    },
+    {
+     "id": "s25",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s26",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s27",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    }
+   ],
+   "framingTerms": [
+    {
+     "term": "일갈하기도 했다",
+     "sentenceId": "s2"
+    },
+    {
+     "term": "주장했다",
+     "sentenceId": "s7"
+    },
+    {
+     "term": "항변했다",
+     "sentenceId": "s9"
+    },
+    {
+     "term": "요구했다",
+     "sentenceId": "s10"
+    },
+    {
+     "term": "울분을 토했다",
+     "sentenceId": "s11"
+    },
+    {
+     "term": "역정을 내기도 했다",
+     "sentenceId": "s15"
+    },
+    {
+     "term": "일축했다",
+     "sentenceId": "s16"
+    },
+    {
+     "term": "반문했다",
+     "sentenceId": "s20"
+    },
+    {
+     "term": "쏘아붙였다",
+     "sentenceId": "s21"
+    },
+    {
+     "term": "한탄했다",
+     "sentenceId": "s23"
+    }
+   ],
+   "analyzedBy": "gemini-3.5-flash-lite"
+  },
+  {
+   "id": "a-d3e216ef35",
+   "issueId": "auto-20261122-0052-1",
+   "outletId": "newspim",
+   "outletName": "뉴스핌",
+   "title": "김건희, 징역 4년 확정에 \"도이치 유죄, 이해 죽어도 못해…억울하고 비...",
+   "summary": "또 \"국민의힘 당 대표 선거에서 김기현이든 권성동이든 누굴 지원하는 대가로 공천을 약속한 사실이 없다\"며 \"특히 권성동은 '검수완박'부터 검찰총장까지 지냈던 우리 남편과 철학이 맞지 않아서 그에 대한 지원을 요청할...",
+   "url": "https://www.newspim.com/news/view/20261120000800",
+   "publishedAt": "2026-11-20T15:42:00+09:00",
+   "sentences": [
+    {
+     "id": "s1",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s2",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s3",
+     "text": null,
+     "type": "quote",
+     "sourceType": "opp",
+     "sourceName": "김건희 여사",
+     "sourceDetail": null,
+     "party": "국민의힘"
+    },
+    {
+     "id": "s4",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s5",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s6",
+     "text": null,
+     "type": "quote",
+     "sourceType": "opp",
+     "sourceName": "김건희 여사",
+     "sourceDetail": null,
+     "party": "국민의힘"
+    },
+    {
+     "id": "s7",
+     "text": null,
+     "type": "quote",
+     "sourceType": "opp",
+     "sourceName": "김건희 여사",
+     "sourceDetail": null,
+     "party": "국민의힘"
+    },
+    {
+     "id": "s8",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s9",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s10",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s11",
+     "text": null,
+     "type": "quote",
+     "sourceType": "citizen",
+     "sourceName": "채명성 변호사",
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s12",
+     "text": null,
+     "type": "quote",
+     "sourceType": "opp",
+     "sourceName": "김건희 여사",
+     "sourceDetail": null,
+     "party": "국민의힘"
+    },
+    {
+     "id": "s13",
+     "text": null,
+     "type": "quote",
+     "sourceType": "opp",
+     "sourceName": "김건희 여사",
+     "sourceDetail": null,
+     "party": "국민의힘"
+    },
+    {
+     "id": "s14",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s15",
+     "text": null,
+     "type": "quote",
+     "sourceType": "opp",
+     "sourceName": "김건희 여사",
+     "sourceDetail": null,
+     "party": "국민의힘"
+    },
+    {
+     "id": "s16",
+     "text": null,
+     "type": "quote",
+     "sourceType": "opp",
+     "sourceName": "김건희 여사",
+     "sourceDetail": null,
+     "party": "국민의힘"
+    },
+    {
+     "id": "s17",
+     "text": null,
+     "type": "quote",
+     "sourceType": "opp",
+     "sourceName": "김건희 여사",
+     "sourceDetail": null,
+     "party": "국민의힘"
+    },
+    {
+     "id": "s18",
+     "text": null,
+     "type": "quote",
+     "sourceType": "opp",
+     "sourceName": "김건희 여사",
+     "sourceDetail": null,
+     "party": "국민의힘"
+    }
+   ],
+   "framingTerms": [
+    {
+     "term": "전면 부인했다",
+     "sentenceId": "s1"
+    },
+    {
+     "term": "부인했다",
+     "sentenceId": "s2"
+    },
+    {
+     "term": "비판했다",
+     "sentenceId": "s3"
+    },
+    {
+     "term": "일갈",
+     "sentenceId": "s5"
+    },
+    {
+     "term": "일갈했다",
+     "sentenceId": "s7"
+    },
+    {
+     "term": "부인했다",
+     "sentenceId": "s12"
+    },
+    {
+     "term": "밝혔다",
+     "sentenceId": "s13"
+    },
+    {
+     "term": "주장했다",
+     "sentenceId": "s18"
+    }
+   ],
+   "analyzedBy": "gemini-3.5-flash-lite"
+  },
+  {
+   "id": "a-548d6ae5d2",
+   "issueId": "auto-20261122-0052-1",
+   "outletId": "newscj",
+   "outletName": "천지일보",
+   "title": "'징역 4년 확정' 김건희 여사, 법정서 울분… \"대법관 사건 봤는지 의문...",
+   "summary": "또한 \"비례대표가 뭔지 간단한 상식도 없었다\"며 \"특히 권성동은 '검수완박'부터 검찰총장까지 지냈던 우리 남편과 철학이 맞지 않아서 그에 대한 지원을 요청할 이유는 없었다\"고 덧붙였다. 입장문 낭독 후 민중기...",
+   "url": "https://www.newscj.com/news/articleView.html?idxno=3450795",
+   "publishedAt": "2026-11-20T23:18:00+09:00",
+   "sentences": [
+    {
+     "id": "s1",
+     "text": null,
+     "type": "quote",
+     "sourceType": "opp",
+     "sourceName": "김건희 여사",
+     "sourceDetail": null,
+     "party": "국민의힘"
+    },
+    {
+     "id": "s2",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s3",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s4",
+     "text": null,
+     "type": "quote",
+     "sourceType": "opp",
+     "sourceName": "김 여사 측 변호인",
+     "sourceDetail": null,
+     "party": "국민의힘"
+    },
+    {
+     "id": "s5",
+     "text": null,
+     "type": "quote",
+     "sourceType": "opp",
+     "sourceName": "김 여사",
+     "sourceDetail": null,
+     "party": "국민의힘"
+    },
+    {
+     "id": "s6",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s7",
+     "text": null,
+     "type": "quote",
+     "sourceType": "opp",
+     "sourceName": "그",
+     "sourceDetail": null,
+     "party": "국민의힘"
+    },
+    {
+     "id": "s8",
+     "text": null,
+     "type": "quote",
+     "sourceType": "opp",
+     "sourceName": "김 여사",
+     "sourceDetail": null,
+     "party": "국민의힘"
+    },
+    {
+     "id": "s9",
+     "text": null,
+     "type": "quote",
+     "sourceType": "opp",
+     "sourceName": "김 여사",
+     "sourceDetail": null,
+     "party": "국민의힘"
+    },
+    {
+     "id": "s10",
+     "text": null,
+     "type": "quote",
+     "sourceType": "opp",
+     "sourceName": "김 여사",
+     "sourceDetail": null,
+     "party": "국민의힘"
+    },
+    {
+     "id": "s11",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s12",
+     "text": null,
+     "type": "quote",
+     "sourceType": "opp",
+     "sourceName": "김 여사",
+     "sourceDetail": null,
+     "party": "국민의힘"
+    },
+    {
+     "id": "s13",
+     "text": null,
+     "type": "quote",
+     "sourceType": "opp",
+     "sourceName": "김 여사",
+     "sourceDetail": null,
+     "party": "국민의힘"
+    },
+    {
+     "id": "s14",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s15",
+     "text": null,
+     "type": "quote",
+     "sourceType": "opp",
+     "sourceName": "김 여사",
+     "sourceDetail": null,
+     "party": "국민의힘"
+    },
+    {
+     "id": "s16",
+     "text": null,
+     "type": "quote",
+     "sourceType": "opp",
+     "sourceName": "김 여사",
+     "sourceDetail": null,
+     "party": "국민의힘"
+    },
+    {
+     "id": "s17",
+     "text": null,
+     "type": "quote",
+     "sourceType": "opp",
+     "sourceName": "김 여사",
+     "sourceDetail": null,
+     "party": "국민의힘"
+    },
+    {
+     "id": "s18",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s19",
+     "text": null,
+     "type": "quote",
+     "sourceType": "opp",
+     "sourceName": "그",
+     "sourceDetail": null,
+     "party": "국민의힘"
+    },
+    {
+     "id": "s20",
+     "text": null,
+     "type": "quote",
+     "sourceType": "opp",
+     "sourceName": "김 여사",
+     "sourceDetail": null,
+     "party": "국민의힘"
+    },
+    {
+     "id": "s21",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s22",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    }
+   ],
+   "framingTerms": [
+    {
+     "term": "토로했다",
+     "sentenceId": "s1"
+    },
+    {
+     "term": "알렸다",
+     "sentenceId": "s4"
+    },
+    {
+     "term": "말했다",
+     "sentenceId": "s5"
+    },
+    {
+     "term": "주장했다",
+     "sentenceId": "s7"
+    },
+    {
+     "term": "강조했다",
+     "sentenceId": "s8"
+    },
+    {
+     "term": "요구했다",
+     "sentenceId": "s10"
+    },
+    {
+     "term": "격앙된",
+     "sentenceId": "s11"
+    },
+    {
+     "term": "말했다",
+     "sentenceId": "s13"
+    },
+    {
+     "term": "추궁",
+     "sentenceId": "s14"
+    },
+    {
+     "term": "날 선",
+     "sentenceId": "s14"
+    },
+    {
+     "term": "토로했다",
+     "sentenceId": "s15"
+    },
+    {
+     "term": "반박했다",
+     "sentenceId": "s17"
+    },
+    {
+     "term": "지적했다",
+     "sentenceId": "s19"
+    },
+    {
+     "term": "호소했다",
+     "sentenceId": "s20"
+    }
+   ],
+   "analyzedBy": "gemini-3.5-flash-lite"
+  },
+  {
+   "id": "a-95102a942a",
+   "issueId": "auto-20261122-0053-1",
+   "outletId": "newsis",
+   "outletName": "뉴시스",
+   "title": "추미애 \"조희대는 내란범 사법세탁 공장장…탄핵했어야\"",
+   "summary": "그러면서 \"윤석열 검찰이 쪼개기 기소로 불기소처분하듯 조희대 사법부도 내란공범들의 일련의 행위를 쪼개기하고 있다\"며 \"일찍이 조희대를 탄핵했어야 했다\"고 덧붙였다. 앞서 대법원 전원합의체는 지난 19일 한 전...",
+   "url": "https://www.newsis.com/view/NISX20261120_0003876936",
+   "publishedAt": "2026-11-20T15:17:00+09:00",
+   "sentences": [
+    {
+     "id": "s1",
+     "text": null,
+     "type": "quote",
+     "sourceType": "gov",
+     "sourceName": "추미애 경기도지사",
+     "sourceDetail": null,
+     "party": "더불어민주당"
+    },
+    {
+     "id": "s2",
+     "text": null,
+     "type": "quote",
+     "sourceType": "gov",
+     "sourceName": "추 지사",
+     "sourceDetail": null,
+     "party": "더불어민주당"
+    },
+    {
+     "id": "s3",
+     "text": null,
+     "type": "quote",
+     "sourceType": "gov",
+     "sourceName": "추 지사",
+     "sourceDetail": null,
+     "party": "더불어민주당"
+    },
+    {
+     "id": "s4",
+     "text": null,
+     "type": "quote",
+     "sourceType": "gov",
+     "sourceName": "그",
+     "sourceDetail": null,
+     "party": "더불어민주당"
+    },
+    {
+     "id": "s5",
+     "text": null,
+     "type": "quote",
+     "sourceType": "gov",
+     "sourceName": "추 지사",
+     "sourceDetail": null,
+     "party": "더불어민주당"
+    },
+    {
+     "id": "s6",
+     "text": null,
+     "type": "quote",
+     "sourceType": "gov",
+     "sourceName": "추 지사",
+     "sourceDetail": null,
+     "party": "더불어민주당"
+    },
+    {
+     "id": "s7",
+     "text": null,
+     "type": "quote",
+     "sourceType": "gov",
+     "sourceName": "추 지사",
+     "sourceDetail": null,
+     "party": "더불어민주당"
+    },
+    {
+     "id": "s8",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    }
+   ],
+   "framingTerms": [],
+   "analyzedBy": "gemini-3.5-flash-lite"
+  },
+  {
+   "id": "a-fceeaab5d6",
+   "issueId": "auto-20261122-0053-1",
+   "outletId": "khan",
+   "outletName": "경향신문",
+   "title": "추미애 “한덕수 판결 순억지···조희대 탄핵, 좌고우면하면 안 돼”",
+   "summary": "내란범 사법세탁 공장장 조희대를 일찍이 탄핵했어야 했다”고 밝혔다. 더불어민주당은 12·3 비상계엄 2주기인 다음 달 3일 조 대법원장에 대한 탄핵 소추안을 발의할 것으로 전망된다.",
+   "url": "https://www.khan.co.kr/article/202611211912001",
+   "publishedAt": "2026-11-21T19:12:00+09:00",
+   "sentences": [
+    {
+     "id": "s1",
+     "text": null,
+     "type": "quote",
+     "sourceType": "gov",
+     "sourceName": "추미애 경기도지사",
+     "sourceDetail": null,
+     "party": "더불어민주당"
+    },
+    {
+     "id": "s2",
+     "text": null,
+     "type": "quote",
+     "sourceType": "gov",
+     "sourceName": "추 지사",
+     "sourceDetail": null,
+     "party": "더불어민주당"
+    },
+    {
+     "id": "s3",
+     "text": null,
+     "type": "quote",
+     "sourceType": "gov",
+     "sourceName": "추 지사",
+     "sourceDetail": null,
+     "party": "더불어민주당"
+    },
+    {
+     "id": "s4",
+     "text": null,
+     "type": "quote",
+     "sourceType": "gov",
+     "sourceName": "추 지사",
+     "sourceDetail": null,
+     "party": "더불어민주당"
+    },
+    {
+     "id": "s5",
+     "text": null,
+     "type": "quote",
+     "sourceType": "gov",
+     "sourceName": "추 지사",
+     "sourceDetail": null,
+     "party": "더불어민주당"
+    },
+    {
+     "id": "s6",
+     "text": null,
+     "type": "quote",
+     "sourceType": "gov",
+     "sourceName": "추 지사",
+     "sourceDetail": null,
+     "party": "더불어민주당"
+    },
+    {
+     "id": "s7",
+     "text": null,
+     "type": "quote",
+     "sourceType": "gov",
+     "sourceName": "그",
+     "sourceDetail": null,
+     "party": "더불어민주당"
+    },
+    {
+     "id": "s8",
+     "text": null,
+     "type": "quote",
+     "sourceType": "gov",
+     "sourceName": "추 지사",
+     "sourceDetail": null,
+     "party": "더불어민주당"
+    },
+    {
+     "id": "s9",
+     "text": "더불어민주당은 12·3 비상계엄 2주기인 다음 달 3일 조 대법원장에 대…",
+     "type": "opinion",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    }
+   ],
+   "framingTerms": [
+    {
+     "term": "비판했다",
+     "sentenceId": "s6"
+    }
+   ],
+   "analyzedBy": "gemini-3.5-flash-lite"
+  },
+  {
+   "id": "a-80cbc20dc6",
+   "issueId": "auto-20261122-0053-1",
+   "outletId": "edaily",
+   "outletName": "이데일리",
+   "title": "추미애 \"조희대 일찍 탄핵했어야…내란범 사법세탁 공장장\"",
+   "summary": "그러면서 “윤석열 검찰이 쪼개기 기소로 불기소처분하듯 조희대 사법부도 내란공범들의 일련의 행위를 쪼개기하고 있다”고 덧붙였다. 대법원장 탄핵은 국회 재적의원 3분의 1 이상이 탄핵소추안을 발의하고 재적의원...",
+   "url": "https://www.edaily.co.kr/News/Read?newsId=04375526645647688&mediaCodeNo=257&utm_source=naver&utm_medium=referral&utm_campaign=news_syndication&utm_content=original_article",
+   "publishedAt": "2026-11-20T21:52:00+09:00",
+   "sentences": [
+    {
+     "id": "s1",
+     "text": null,
+     "type": "quote",
+     "sourceType": "gov",
+     "sourceName": "추미애 경기도지사",
+     "sourceDetail": null,
+     "party": "더불어민주당"
+    },
+    {
+     "id": "s2",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s3",
+     "text": null,
+     "type": "quote",
+     "sourceType": "gov",
+     "sourceName": "추미애 지사",
+     "sourceDetail": null,
+     "party": "더불어민주당"
+    },
+    {
+     "id": "s4",
+     "text": null,
+     "type": "quote",
+     "sourceType": "gov",
+     "sourceName": "추 지사",
+     "sourceDetail": null,
+     "party": "더불어민주당"
+    },
+    {
+     "id": "s5",
+     "text": null,
+     "type": "quote",
+     "sourceType": "gov",
+     "sourceName": "추 지사",
+     "sourceDetail": null,
+     "party": "더불어민주당"
+    },
+    {
+     "id": "s6",
+     "text": null,
+     "type": "quote",
+     "sourceType": "gov",
+     "sourceName": "추 지사",
+     "sourceDetail": null,
+     "party": "더불어민주당"
+    },
+    {
+     "id": "s7",
+     "text": null,
+     "type": "quote",
+     "sourceType": "gov",
+     "sourceName": "추 지사",
+     "sourceDetail": null,
+     "party": "더불어민주당"
+    },
+    {
+     "id": "s8",
+     "text": null,
+     "type": "quote",
+     "sourceType": "gov",
+     "sourceName": "추 지사",
+     "sourceDetail": null,
+     "party": "더불어민주당"
+    },
+    {
+     "id": "s9",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s10",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s11",
+     "text": null,
+     "type": "fact",
      "sourceType": null,
      "sourceName": null,
      "sourceDetail": null,
