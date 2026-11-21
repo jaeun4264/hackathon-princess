@@ -1051,6 +1051,88 @@
    "date": "2026-11-20",
    "origin": "auto",
    "stance": null
+  },
+  {
+   "id": "auto-20261121-1234-1",
+   "title": "이 대통령, 김종철 경찰청장 임명 재가",
+   "summary": "이재명 대통령이 김종철 경찰청장 임명안을 재가해 2년 만에 수장 공백이 해소됐다. 국회 인사청문 과정에서 여당은 적격 의견을 냈고 야당은 부동산 보유 등 지적사항을 보고서에 담았다.",
+   "category": "정치",
+   "date": "2026-11-20",
+   "origin": "auto",
+   "stance": {
+    "common": null,
+    "diff": "더불어민주당은 적격 의견을 냈고, 국민의힘은 부동산 보유 등 지적사항을 보고서에 담았다.",
+    "sources": [
+     "뉴스1",
+     "JTBC",
+     "세계일보",
+     "서울신문",
+     "한국경제",
+     "머니투데이",
+     "이데일리",
+     "서울경제"
+    ],
+    "by": "ai"
+   }
+  },
+  {
+   "id": "auto-20261121-1236-1",
+   "title": "민주당 윤리심판원, 27일 최민희·김민석 징계 논의",
+   "summary": "더불어민주당 윤리심판원은 오는 27일 회의를 열고 최민희 최고위원에 대한 징계 안건과 김민석 대표의 징계 청원 건을 함께 심의한다.",
+   "category": "정치",
+   "date": "2026-11-20",
+   "origin": "auto",
+   "stance": null
+  },
+  {
+   "id": "auto-20261121-1237-1",
+   "title": "나경원, 코스피 급락 관련 정부 책임론 제기",
+   "summary": "나경원 국민의힘 의원이 코스피 폭락에 따른 투자자 피해를 언급하며 이재명 정부의 증시 정책을 비판했다.",
+   "category": "정치",
+   "date": "2026-11-21",
+   "origin": "auto",
+   "stance": null
+  },
+  {
+   "id": "auto-20261121-1238-1",
+   "title": "최교진 교육장관 사퇴 발언과 정치권 반응",
+   "summary": "수능 준비 부실 논란에 휩싸였던 최교진 교육부 장관이 사퇴 관련 입장을 밝혔고, 정치권에서 이에 대한 사퇴 촉구와 비판이 이어졌다.",
+   "category": "정치",
+   "date": "2026-11-20",
+   "origin": "auto",
+   "stance": {
+    "common": null,
+    "diff": "국민의힘은 최교진 교육부 장관의 즉각적인 사퇴를 촉구했다.",
+    "sources": [
+     "뉴시스",
+     "SBS",
+     "YTN",
+     "세계일보",
+     "이데일리",
+     "디지털타임스",
+     "데일리안",
+     "펜앤마이크"
+    ],
+    "by": "ai"
+   }
+  },
+  {
+   "id": "auto-20261121-1240-1",
+   "title": "재건축초과이익환수제 부담금 부과 본격화",
+   "summary": "정부가 재건축초과이익환수제 부담금 부과 기한을 연장하지 않기로 하면서 전국 재건축 단지에 부담금 통보가 이어지고 있다. 조합 측은 소송과 이의신청을 검토하는 등 반발하고 있다.",
+   "category": "경제",
+   "date": "2026-11-20",
+   "origin": "auto",
+   "stance": null
+  },
+  {
+   "id": "auto-20261121-1243-1",
+   "title": "공소청, TV조선 점수조작 1심 항소",
+   "summary": "공소청은 'TV조선 재승인 심사 점수 조작 의혹' 1심 판결에 불복해 항소했으나, 한상혁 전 방송통신위원장은 항소 대상에서 제외했다.",
+   "category": "사회",
+   "date": "2026-11-20",
+   "origin": "auto",
+   "stance": null
   }
  ],
  "articles": [
@@ -98278,6 +98360,7563 @@
      "sentenceId": "s3"
     }
    ],
+   "analyzedBy": "gemini-3.5-flash-lite"
+  },
+  {
+   "id": "a-2151807d1a",
+   "issueId": "auto-20261121-1234-1",
+   "outletId": "news1",
+   "outletName": "뉴스1",
+   "title": "李대통령, 김종철 경찰청장 임명안 재가…청문보고서 채택 이틀만",
+   "summary": "보고서에는 적격 의견과 함께 부동산 의혹 등을 이유로 한 부적격 의견도 담긴 것으로 전해졌다. 청문회에서 국민의힘은 김 후보자가 경찰청장 직무대행 시절 국무회의에 여러 차례 배석한 점을 들어 정치적 중립성에...",
+   "url": "https://www.news1.kr/politics/president/6361399",
+   "publishedAt": "2026-11-20T19:02:00+09:00",
+   "sentences": [
+    {
+     "id": "s1",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s2",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s3",
+     "text": null,
+     "type": "quote",
+     "sourceType": "gov",
+     "sourceName": "강유정 청와대 수석대변인",
+     "sourceDetail": null,
+     "party": "더불어민주당"
+    },
+    {
+     "id": "s4",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s5",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s6",
+     "text": null,
+     "type": "quote",
+     "sourceType": "opp",
+     "sourceName": "국민의힘",
+     "sourceDetail": null,
+     "party": "국민의힘"
+    },
+    {
+     "id": "s7",
+     "text": null,
+     "type": "quote",
+     "sourceType": "gov",
+     "sourceName": "더불어민주당",
+     "sourceDetail": null,
+     "party": "더불어민주당"
+    },
+    {
+     "id": "s8",
+     "text": null,
+     "type": "quote",
+     "sourceType": "gov",
+     "sourceName": "더불어민주당",
+     "sourceDetail": null,
+     "party": "더불어민주당"
+    },
+    {
+     "id": "s9",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s10",
+     "text": null,
+     "type": "quote",
+     "sourceType": "etc",
+     "sourceName": "김 후보자",
+     "sourceDetail": "익명(소속 미상)",
+     "party": null
+    }
+   ],
+   "framingTerms": [],
+   "analyzedBy": "gemini-3.5-flash-lite"
+  },
+  {
+   "id": "a-fd74762c2c",
+   "issueId": "auto-20261121-1234-1",
+   "outletId": "joins",
+   "outletName": "JTBC",
+   "title": "이 대통령, 김종철 경찰청장 임명 재가…공석 2년만에 해소",
+   "summary": "더불어민주당은 보고서에 김 후보자가 경찰청장으로 적격하다는 의견을 담았습니다. 국민의힘은 적격·부적격 여부를 명시하지 않았고 경기도 성남시 재개발구역 부동산 보유 문제 등 인사청문회에서 제기된 지적사항을...",
+   "url": "https://news.jtbc.co.kr/article/NB12329136?influxDiv=NAVER",
+   "publishedAt": "2026-11-20T20:49:00+09:00",
+   "sentences": [
+    {
+     "id": "s1",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s2",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s3",
+     "text": null,
+     "type": "quote",
+     "sourceType": "gov",
+     "sourceName": "강유정 청와대 수석대변인",
+     "sourceDetail": null,
+     "party": "더불어민주당"
+    },
+    {
+     "id": "s4",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s5",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s6",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s7",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s8",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    }
+   ],
+   "framingTerms": [],
+   "analyzedBy": "gemini-3.5-flash-lite"
+  },
+  {
+   "id": "a-b5428668b6",
+   "issueId": "auto-20261121-1234-1",
+   "outletId": "segye",
+   "outletName": "세계일보",
+   "title": "李대통령, 김종철 경찰청장 임명안 재가…1년11개월 공백 해소",
+   "summary": "민주당은 보고서에 적격 의견을 담았고, 국민의힘은 적격·부적격 의견을 따로 명시하지 않는 대신 성남 재개발구역 부동산 보유 등 청문 과정에서 나온 지적사항을 포함했다. 임명안은 청문경과보고서 채택 이틀 만에...",
+   "url": "https://www.segye.com/newsView/20261120514495?OutUrl=naver",
+   "publishedAt": "2026-11-20T19:20:00+09:00",
+   "sentences": [
+    {
+     "id": "s1",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s2",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s3",
+     "text": null,
+     "type": "quote",
+     "sourceType": "gov",
+     "sourceName": "강유정 청와대 수석대변인",
+     "sourceDetail": null,
+     "party": "더불어민주당"
+    },
+    {
+     "id": "s4",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s5",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s6",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s7",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    }
+   ],
+   "framingTerms": [],
+   "analyzedBy": "gemini-3.5-flash-lite"
+  },
+  {
+   "id": "a-ac3460093c",
+   "issueId": "auto-20261121-1234-1",
+   "outletId": "seoul",
+   "outletName": "서울신문",
+   "title": "李대통령, 김종철 경찰청장 후보자 임명안 재가",
+   "summary": "더불어민주당은 보고서에서 김 후보자에 대해 경찰청장으로 적격했다는 의견을 담았다. 반면 국민의힘은 김 후보자가 성남시 재개발구역 부동산 보유 등 인사청문회 과정에서 나온 지적사항을 보고서에 포함했다.",
+   "url": "https://www.seoul.co.kr/news/politics/2026/11/20/20261120500334?wlog_tag3=naver",
+   "publishedAt": "2026-11-20T19:48:00+09:00",
+   "sentences": [
+    {
+     "id": "s1",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s2",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s3",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s4",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s5",
+     "text": null,
+     "type": "quote",
+     "sourceType": "gov",
+     "sourceName": "강유정 청와대 수석대변인",
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s6",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s7",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s8",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    }
+   ],
+   "framingTerms": [],
+   "analyzedBy": "gemini-3.5-flash-lite"
+  },
+  {
+   "id": "a-7cd8037238",
+   "issueId": "auto-20261121-1234-1",
+   "outletId": "hankyung",
+   "outletName": "한국경제",
+   "title": "李대통령, 김종철 경찰청장 임명 재가",
+   "summary": "국민의힘은 적격·부적격 여부를 명시하지 않고 경기 성남시 재개발구역 부동산 보유 문제 등 인사청문회에서 제기된 지적사항을 보고서에 포함했다. 이 대통령의 임명안 재가로 약 2년간 이어진 경찰청장 공백 사태가...",
+   "url": "https://www.hankyung.com/article/2026112008661",
+   "publishedAt": "2026-11-20T19:40:00+09:00",
+   "sentences": [
+    {
+     "id": "s1",
+     "text": null,
+     "type": "quote",
+     "sourceType": "gov",
+     "sourceName": "강유정 청와대 수석대변인",
+     "sourceDetail": null,
+     "party": "더불어민주당"
+    },
+    {
+     "id": "s2",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s3",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s4",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s5",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s6",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s7",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s8",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s9",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    }
+   ],
+   "framingTerms": [],
+   "analyzedBy": "gemini-3.5-flash-lite"
+  },
+  {
+   "id": "a-c312f7a658",
+   "issueId": "auto-20261121-1234-1",
+   "outletId": "mt",
+   "outletName": "머니투데이",
+   "title": "경찰청장 2년 공백 해소…이 대통령, 김종철 임명안 재가",
+   "summary": "보고서에는 적격 의견과 함께 부동산 의혹 등을 이유로 한 부적격 의견도 담긴 것으로 전해졌다. 청문회에서 국민의힘은 김 후보자가 경찰청장 직무대행 시절 국무회의에 여러 차례 배석한 점을 들어 정치적 중립성에...",
+   "url": "https://www.mt.co.kr/politics/2026/11/20/2026112019071095036",
+   "publishedAt": "2026-11-20T19:30:00+09:00",
+   "sentences": [
+    {
+     "id": "s1",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s2",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s3",
+     "text": null,
+     "type": "quote",
+     "sourceType": "gov",
+     "sourceName": "강유정 청와대 수석대변인",
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s4",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s5",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s6",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s7",
+     "text": null,
+     "type": "quote",
+     "sourceType": "opp",
+     "sourceName": "국민의힘",
+     "sourceDetail": null,
+     "party": "국민의힘"
+    },
+    {
+     "id": "s8",
+     "text": null,
+     "type": "quote",
+     "sourceType": "gov",
+     "sourceName": "더불어민주당",
+     "sourceDetail": null,
+     "party": "더불어민주당"
+    },
+    {
+     "id": "s9",
+     "text": null,
+     "type": "quote",
+     "sourceType": "gov",
+     "sourceName": "더불어민주당",
+     "sourceDetail": null,
+     "party": "더불어민주당"
+    },
+    {
+     "id": "s10",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s11",
+     "text": null,
+     "type": "quote",
+     "sourceType": "etc",
+     "sourceName": "김 후보자",
+     "sourceDetail": "익명(소속 미상)",
+     "party": null
+    }
+   ],
+   "framingTerms": [],
+   "analyzedBy": "gemini-3.5-flash-lite"
+  },
+  {
+   "id": "a-33f234dcbc",
+   "issueId": "auto-20261121-1234-1",
+   "outletId": "edaily",
+   "outletName": "이데일리",
+   "title": "李대통령, 김종철 경찰청장 임명안 재가",
+   "summary": "국민의힘은 별도의 적격·부적격을 명시하는 대신 성남시 재개발구역 부동산 보유 등 후보자의 청문회 과정에 나온 각 위원들의 지적사항을 보고서에 포함했다. 한편, 김 청장은 지난 9월 경찰청 차장에 임명돼 경찰청장...",
+   "url": "https://www.edaily.co.kr/News/Read?newsId=04218086645647688&mediaCodeNo=257&utm_source=naver&utm_medium=referral&utm_campaign=news_syndication&utm_content=original_article",
+   "publishedAt": "2026-11-20T19:09:00+09:00",
+   "sentences": [
+    {
+     "id": "s1",
+     "text": null,
+     "type": "quote",
+     "sourceType": "gov",
+     "sourceName": "강유정 청와대 수석대변인",
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s2",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s3",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s4",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s5",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s6",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    }
+   ],
+   "framingTerms": [],
+   "analyzedBy": "gemini-3.5-flash-lite"
+  },
+  {
+   "id": "a-9f9d7a85f7",
+   "issueId": "auto-20261121-1234-1",
+   "outletId": "sedaily",
+   "outletName": "서울경제",
+   "title": "李 대통령, 김종철 경찰청장 후보자 임명안 재가",
+   "summary": "국민의힘은 적격·부적격 여부를 명시하지 않고 성남시 재개발구역 내 부동산 보유 등 청문회에서 제기된 지적 사항을 보고서에 포함했다. 김 신임 청장은 이재명 정부의 첫 경찰청장이다. 경찰청은 2024년 12월 조지호...",
+   "url": "https://www.sedaily.com/article/20117152?ref=naver",
+   "publishedAt": "2026-11-20T19:42:00+09:00",
+   "sentences": [
+    {
+     "id": "s1",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s2",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s3",
+     "text": null,
+     "type": "quote",
+     "sourceType": "gov",
+     "sourceName": "강유정 청와대 수석대변인",
+     "sourceDetail": null,
+     "party": "더불어민주당"
+    },
+    {
+     "id": "s4",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s5",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s6",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s7",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s8",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s9",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    }
+   ],
+   "framingTerms": [],
+   "analyzedBy": "gemini-3.5-flash-lite"
+  },
+  {
+   "id": "a-8409e4fad9",
+   "issueId": "auto-20261121-1236-1",
+   "outletId": "kbs",
+   "outletName": "KBS",
+   "title": "민주당 윤리심판원, 27일 최민희 징계 심의…김민석 징계도 함께 논의",
+   "summary": "더불어민주당 윤리심판원은 오는 27일, 발언 논란을 일으킨 최민희 최고위원 징계를 논의합니다. 신천지 등 이른바 '3자 비밀 연합' 발언으로 징계 청원이 접수된 김민석 대표 징계 여부도 함께 논의할 예정입니다. 민주당...",
+   "url": "https://news.kbs.co.kr/news/pc/view/view.do?ncd=8718162&ref=A",
+   "publishedAt": "2026-11-20T09:42:00+09:00",
+   "sentences": [
+    {
+     "id": "s1",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s2",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s3",
+     "text": null,
+     "type": "quote",
+     "sourceType": "gov",
+     "sourceName": "이창환 윤리심판원장",
+     "sourceDetail": null,
+     "party": "더불어민주당"
+    },
+    {
+     "id": "s4",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s5",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s6",
+     "text": null,
+     "type": "quote",
+     "sourceType": "gov",
+     "sourceName": "정청래 전 민주당 대표 등 '친정청래계' 인사들",
+     "sourceDetail": null,
+     "party": "더불어민주당"
+    },
+    {
+     "id": "s7",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s8",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    }
+   ],
+   "framingTerms": [],
+   "analyzedBy": "gemini-3.5-flash-lite"
+  },
+  {
+   "id": "a-dc5599605e",
+   "issueId": "auto-20261121-1236-1",
+   "outletId": "joins",
+   "outletName": "JTBC",
+   "title": "민주당 윤리심판원, 27일에 최민희 징계 심의…김민석 징계 청원도 검토",
+   "summary": "더불어민주당 윤리심판원이 오는 27일 최민희 최고위원에 대한 징계를 심의합니다. 지난 8.17 전당대회 당시 신천지 집단 가입 의혹을 제기했던 김민석 대표의 발언에 대한 징계 청원을 심사에 회부할지 여부도 함께 논의할...",
+   "url": "https://news.jtbc.co.kr/article/NB12329018?influxDiv=NAVER",
+   "publishedAt": "2026-11-20T11:42:00+09:00",
+   "sentences": [
+    {
+     "id": "s1",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s2",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s3",
+     "text": null,
+     "type": "quote",
+     "sourceType": "gov",
+     "sourceName": "이창환 윤리심판원장",
+     "sourceDetail": null,
+     "party": "더불어민주당"
+    },
+    {
+     "id": "s4",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s5",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s6",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s7",
+     "text": "최 최고위원은 올해 초 '딸 축의금 논란'으로 이미 경고 징계를 받은 바…",
+     "type": "opinion",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s8",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s9",
+     "text": null,
+     "type": "quote",
+     "sourceType": "gov",
+     "sourceName": "친청계",
+     "sourceDetail": null,
+     "party": "더불어민주당"
+    },
+    {
+     "id": "s10",
+     "text": null,
+     "type": "quote",
+     "sourceType": "gov",
+     "sourceName": "이성윤 최고위원",
+     "sourceDetail": null,
+     "party": "더불어민주당"
+    }
+   ],
+   "framingTerms": [
+    {
+     "term": "가능성이 있습니다",
+     "sentenceId": "s7"
+    },
+    {
+     "term": "주장해왔습니다",
+     "sentenceId": "s9"
+    },
+    {
+     "term": "촉구했습니다",
+     "sentenceId": "s10"
+    }
+   ],
+   "analyzedBy": "gemini-3.5-flash-lite"
+  },
+  {
+   "id": "a-424475a179",
+   "issueId": "auto-20261121-1236-1",
+   "outletId": "hankookilbo",
+   "outletName": "한국일보",
+   "title": "[단독] 민주당, 27일 최민희 징계 심의… 김민석 징계 청원도 논의",
+   "summary": "더불어민주당 윤리심판원이 오는 27일 회의를 열고 최민희 최고위원에 대한 징계를 심의할 예정이다. 김민석 당대표에 대한 징계 여부도 논의한다. 20일 민주당에 따르면, 윤리심판원은 27일 오전 10시 회의를 소집했다....",
+   "url": "https://www.hankookilbo.com/news/article/A2026112008550004676?did=NA",
+   "publishedAt": "2026-11-20T09:09:00+09:00",
+   "sentences": [
+    {
+     "id": "s1",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s2",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s3",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s4",
+     "text": null,
+     "type": "quote",
+     "sourceType": "etc",
+     "sourceName": "윤리심판원 관계자",
+     "sourceDetail": "익명(소속 미상)",
+     "party": null
+    },
+    {
+     "id": "s5",
+     "text": "최 최고위원의 경우 징계 수위를 결정할 예정이고, 김 대표의 경우 접수된…",
+     "type": "opinion",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s6",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s7",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s8",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s9",
+     "text": null,
+     "type": "quote",
+     "sourceType": "gov",
+     "sourceName": "정청래 전 대표와 친정청래계 인사들",
+     "sourceDetail": null,
+     "party": "더불어민주당"
+    },
+    {
+     "id": "s10",
+     "text": null,
+     "type": "quote",
+     "sourceType": "gov",
+     "sourceName": "정 전 대표",
+     "sourceDetail": null,
+     "party": "더불어민주당"
+    },
+    {
+     "id": "s11",
+     "text": "최 최고위원 발언이 징계감이라면 김 대표 역시 징계받는 게 마땅하다는 뜻…",
+     "type": "opinion",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s12",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s13",
+     "text": "최 최고위원 건의 경우 당직자격정지 이상의 징계만 가능하다는 해석이 대체…",
+     "type": "opinion",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s14",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s15",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    }
+   ],
+   "framingTerms": [
+    {
+     "term": "강력",
+     "sentenceId": "s10"
+    }
+   ],
+   "analyzedBy": "gemini-3.5-flash-lite"
+  },
+  {
+   "id": "a-98ecfa7607",
+   "issueId": "auto-20261121-1236-1",
+   "outletId": "segye",
+   "outletName": "세계일보",
+   "title": "민주당, 27일 최민희 징계 여부 논의…김민석 징계 청원도 검토",
+   "summary": "더불어민주당 윤리심판원이 27일 최민희 최고위원에 대한 징계 요구를 심의한다. 같은 회의에서 김민석 대표의 전당대회 당시 신천지 관련 발언에 대한 징계 청원을 정식 심사에 넘길지도 논의한다. 더불어민주당 김민석...",
+   "url": "https://www.segye.com/newsView/20261120507418?OutUrl=naver",
+   "publishedAt": "2026-11-20T11:39:00+09:00",
+   "sentences": [
+    {
+     "id": "s1",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s2",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s3",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s4",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s5",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s6",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s7",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s8",
+     "text": null,
+     "type": "quote",
+     "sourceType": "gov",
+     "sourceName": "청와대",
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s9",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s10",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s11",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s12",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s13",
+     "text": null,
+     "type": "quote",
+     "sourceType": "gov",
+     "sourceName": "최 최고위원 등 이른바 친청(친정청래)계",
+     "sourceDetail": null,
+     "party": "더불어민주당"
+    },
+    {
+     "id": "s14",
+     "text": null,
+     "type": "quote",
+     "sourceType": "gov",
+     "sourceName": "박성준 수석대변인",
+     "sourceDetail": null,
+     "party": "더불어민주당"
+    }
+   ],
+   "framingTerms": [
+    {
+     "term": "논란을 샀다",
+     "sentenceId": "s6"
+    },
+    {
+     "term": "주장해 왔다",
+     "sentenceId": "s13"
+    },
+    {
+     "term": "설명했다",
+     "sentenceId": "s14"
+    }
+   ],
+   "analyzedBy": "gemini-3.5-flash-lite"
+  },
+  {
+   "id": "a-ca23f41a58",
+   "issueId": "auto-20261121-1236-1",
+   "outletId": "munhwa",
+   "outletName": "문화일보",
+   "title": "민주당 윤리심판원, ‘탄핵 반대 발언’ 최민희 27일 심의",
+   "summary": "더불어민주당 윤리심판원은 최민희 민주당 최고위원의 발언 논란과 관련한 징계 요구를 오는 27일 심의한다. 당대표 선거 당시 불거진 신천지 관련 발언에 대한 징계 청원도 이날 함께 다뤄질 예정이다. 20일 정치권에...",
+   "url": "https://www.munhwa.com/article/11632772?ref=naver",
+   "publishedAt": "2026-11-20T09:50:00+09:00",
+   "sentences": [
+    {
+     "id": "s1",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s2",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s3",
+     "text": null,
+     "type": "quote",
+     "sourceType": "gov",
+     "sourceName": "이창환 민주당 윤리심판원장",
+     "sourceDetail": null,
+     "party": "더불어민주당"
+    },
+    {
+     "id": "s4",
+     "text": null,
+     "type": "quote",
+     "sourceType": "gov",
+     "sourceName": "이창환 민주당 윤리심판원장",
+     "sourceDetail": null,
+     "party": "더불어민주당"
+    },
+    {
+     "id": "s5",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s6",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s7",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s8",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s9",
+     "text": null,
+     "type": "quote",
+     "sourceType": "gov",
+     "sourceName": "최 최고위원",
+     "sourceDetail": null,
+     "party": "더불어민주당"
+    },
+    {
+     "id": "s10",
+     "text": null,
+     "type": "quote",
+     "sourceType": "gov",
+     "sourceName": "친청계",
+     "sourceDetail": null,
+     "party": "더불어민주당"
+    },
+    {
+     "id": "s11",
+     "text": null,
+     "type": "quote",
+     "sourceType": "gov",
+     "sourceName": "이들",
+     "sourceDetail": null,
+     "party": "더불어민주당"
+    },
+    {
+     "id": "s12",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s13",
+     "text": null,
+     "type": "quote",
+     "sourceType": "citizen",
+     "sourceName": "민주당 권리당원",
+     "sourceDetail": null,
+     "party": "더불어민주당"
+    }
+   ],
+   "framingTerms": [],
+   "analyzedBy": "gemini-3.5-flash-lite"
+  },
+  {
+   "id": "a-282b9cbe5f",
+   "issueId": "auto-20261121-1236-1",
+   "outletId": "mk",
+   "outletName": "매일경제",
+   "title": "민주당 윤리심판원, 27일 최민희 징계 심의…김민석 징계 청원도 논의",
+   "summary": "더불어민주당 윤리심판원이 오는 27일 최민희 최고위원에 대한 징계 요구 안건을 심의한다. 김민석 대표가 지난 8·17 전당대회 당시 제기한 ‘반명·분열주의·신천지 3자 연합’ 의혹과 관련한 징계 청원도 함께 논의될...",
+   "url": "https://www.mk.co.kr/article/12214470",
+   "publishedAt": "2026-11-20T13:00:00+09:00",
+   "sentences": [
+    {
+     "id": "s1",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s2",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s3",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s4",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s5",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s6",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s7",
+     "text": "당내 친청계 등 일각에서는 김 대표의 과거 발언 역시 해당 행위에 해당한…",
+     "type": "opinion",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s8",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s9",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s10",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s11",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s12",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s13",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s14",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s15",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s16",
+     "text": null,
+     "type": "quote",
+     "sourceType": "gov",
+     "sourceName": "친청계",
+     "sourceDetail": null,
+     "party": "더불어민주당"
+    },
+    {
+     "id": "s17",
+     "text": "⚖️ 이처럼 당내 주요 인사들을 둘러싼 징계와 책임 논공행위가 맞물리면서…",
+     "type": "opinion",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s18",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s19",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s20",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s21",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s22",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s23",
+     "text": null,
+     "type": "quote",
+     "sourceType": "gov",
+     "sourceName": "친청계",
+     "sourceDetail": null,
+     "party": "더불어민주당"
+    },
+    {
+     "id": "s24",
+     "text": "⚔️ 결국 이번 윤리심판원 회의는 지도부 내부의 갈등과 계파 간의 팽팽한…",
+     "type": "opinion",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s25",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s26",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s27",
+     "text": "🗣️ 이 발언은 이후 당내 징계 청원과 갈등의 불씨가 되었답니다.",
+     "type": "opinion",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s28",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s29",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s30",
+     "text": null,
+     "type": "quote",
+     "sourceType": "gov",
+     "sourceName": "더불어민주당 윤리심판원",
+     "sourceDetail": null,
+     "party": "더불어민주당"
+    },
+    {
+     "id": "s31",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s32",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s33",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s34",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s35",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s36",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s37",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s38",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s39",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s40",
+     "text": "🗳️⚖️ 당 지도부를 향한 감찰 지시와 이에 맞선 친청계의 징계 청원 맞…",
+     "type": "opinion",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s41",
+     "text": "🏛️🔍 향후 윤리심판원의 심의 결과에 따라 당내 역학 구도와 의사결정 과…",
+     "type": "opinion",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s42",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s43",
+     "text": "- 현 상태 유지 및 안착 시나리오 더불어민주당 윤리심판원이 오는 27일…",
+     "type": "opinion",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s44",
+     "text": "🧐📝 당 지도부와 윤리심판원이 정해진 규정과 절차에 따라 사안을 다루면서…",
+     "type": "opinion",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s45",
+     "text": "🏛️⚖️ 이 경우 양측의 주장이 공식적인 기구를 통해 검토되면서 추가적인…",
+     "type": "opinion",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s46",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s47",
+     "text": "- 영향력 확대 및 가속 시나리오 윤리심판원의 심의 결과가 발표되는 과정…",
+     "type": "opinion",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s48",
+     "text": "⚡🔥 만약 징계 여부나 심사 회부를 둘러싸고 어느 한쪽이 타격을 입거나…",
+     "type": "opinion",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s49",
+     "text": "📈📣 당원들과 지지층 사이에서도 찬반 여론이 거세게 부딪히면서 향후 당…",
+     "type": "opinion",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s50",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s51",
+     "text": "- 변수 발생 및 흐름 반전 시나리오 윤리심판원 심의를 앞두고 당내에서…",
+     "type": "opinion",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s52",
+     "text": "🔄🚧 만약 관련 당사자들이 강력하게 반발하며 재심 청구 가능성을 시사하거…",
+     "type": "opinion",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s53",
+     "text": "🛡️❓ 이로 인해 당 지도부가 내홍을 수습하기 위해 징계 절차와 관련된…",
+     "type": "opinion",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s54",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s55",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s56",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s57",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s58",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s59",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s60",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s61",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s62",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s63",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s64",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s65",
+     "text": "이처럼 당내 갈등이나 논란이 발생했을 때 공식적인 절차를 통해 문제를 해…",
+     "type": "opinion",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s66",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    }
+   ],
+   "framingTerms": [],
+   "analyzedBy": "gemini-3.5-flash-lite"
+  },
+  {
+   "id": "a-5776cbf268",
+   "issueId": "auto-20261121-1236-1",
+   "outletId": "kyeonggi",
+   "outletName": "경기일보",
+   "title": "민주당 윤리심판원, 27일 최민희 징계 심의…김민석 ‘신천지 발언’도...",
+   "summary": "더불어민주당 윤리심판원이 오는 27일 최민희 최고위원에 대한 징계 요구 안건을 심의한다. 이와 함께 김민석 대표가 8·17 전당대회 당시 제기한 신천지 관련 발언에 대한 징계 청원을 심사에 넘길지도 논의할 예정이다....",
+   "url": "https://www.kyeonggi.com/article/20261120580074",
+   "publishedAt": "2026-11-20T11:42:00+09:00",
+   "sentences": [
+    {
+     "id": "s1",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s2",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s3",
+     "text": null,
+     "type": "quote",
+     "sourceType": "gov",
+     "sourceName": "이창환 더불어민주당 윤리심판원장",
+     "sourceDetail": null,
+     "party": "더불어민주당"
+    },
+    {
+     "id": "s4",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s5",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s6",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s7",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s8",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s9",
+     "text": "이런 가운데 최 최고위원을 비롯한 친청계에서는 김 대표가 전당대회 당시…",
+     "type": "opinion",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s10",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s11",
+     "text": null,
+     "type": "quote",
+     "sourceType": "gov",
+     "sourceName": "추미애 경기도지사",
+     "sourceDetail": null,
+     "party": "더불어민주당"
+    }
+   ],
+   "framingTerms": [
+    {
+     "term": "논란",
+     "sentenceId": "s4"
+    },
+    {
+     "term": "논란이 됐다",
+     "sentenceId": "s7"
+    },
+    {
+     "term": "주장이 제기돼 왔다",
+     "sentenceId": "s9"
+    },
+    {
+     "term": "문제 삼으며",
+     "sentenceId": "s10"
+    }
+   ],
+   "analyzedBy": "gemini-3.5-flash-lite"
+  },
+  {
+   "id": "a-9af2d8c94a",
+   "issueId": "auto-20261121-1236-1",
+   "outletId": "inews24",
+   "outletName": "아이뉴스24",
+   "title": "민주당 윤리심판원, 27일 최민희 징계 심의",
+   "summary": "더불어민주당 윤리심판원이 오는 27일 최민희 최고위원 발언 논란에 대한 징계 여부를 심의한다. 지난 전당대회 당시 김민석 대표의 신천지 발언과 관련해 당원이 낸 징계 청원을 심사에 회부할지 여부도 논의한다....",
+   "url": "http://www.inews24.com/view/2028587",
+   "publishedAt": "2026-11-20T11:28:00+09:00",
+   "sentences": [
+    {
+     "id": "s1",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s2",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s3",
+     "text": null,
+     "type": "quote",
+     "sourceType": "gov",
+     "sourceName": "이창환 윤리심판원장",
+     "sourceDetail": null,
+     "party": "더불어민주당"
+    },
+    {
+     "id": "s4",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s5",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s6",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s7",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s8",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    }
+   ],
+   "framingTerms": [],
+   "analyzedBy": "gemini-3.5-flash-lite"
+  },
+  {
+   "id": "a-8ac2bb4d72",
+   "issueId": "auto-20261121-1237-1",
+   "outletId": "news1",
+   "outletName": "뉴스1",
+   "title": "나경원 \"10개월만에 주가 반토막, 결혼·은퇴자금 사라져…돈 물어내고...",
+   "summary": "나경원 국민의힘 의원은 주가가 바닥을 쳐 국민 속은 타들어 가고 있는데 이재명 정권은 책임질 생각 않고 엉뚱한 곳으로 달려가고 있다고 비판했다. 나 의원은 21일 사회관계망서비스(SNS)에 \"전날...",
+   "url": "https://www.news1.kr/politics/assembly/6361499",
+   "publishedAt": "2026-11-21T08:38:00+09:00",
+   "sentences": [
+    {
+     "id": "s1",
+     "text": null,
+     "type": "quote",
+     "sourceType": "opp",
+     "sourceName": "나경원 국민의힘 의원",
+     "sourceDetail": null,
+     "party": "국민의힘"
+    },
+    {
+     "id": "s2",
+     "text": null,
+     "type": "quote",
+     "sourceType": "opp",
+     "sourceName": "나 의원",
+     "sourceDetail": null,
+     "party": "국민의힘"
+    },
+    {
+     "id": "s3",
+     "text": null,
+     "type": "quote",
+     "sourceType": "opp",
+     "sourceName": "나 의원",
+     "sourceDetail": null,
+     "party": "국민의힘"
+    },
+    {
+     "id": "s4",
+     "text": null,
+     "type": "quote",
+     "sourceType": "opp",
+     "sourceName": "나 의원",
+     "sourceDetail": null,
+     "party": "국민의힘"
+    },
+    {
+     "id": "s5",
+     "text": null,
+     "type": "quote",
+     "sourceType": "opp",
+     "sourceName": "나 의원은",
+     "sourceDetail": null,
+     "party": "국민의힘"
+    },
+    {
+     "id": "s6",
+     "text": null,
+     "type": "quote",
+     "sourceType": "opp",
+     "sourceName": "나 의원",
+     "sourceDetail": null,
+     "party": "국민의힘"
+    },
+    {
+     "id": "s7",
+     "text": null,
+     "type": "quote",
+     "sourceType": "opp",
+     "sourceName": "장동혁 국민의힘 대표",
+     "sourceDetail": null,
+     "party": "국민의힘"
+    }
+   ],
+   "framingTerms": [
+    {
+     "term": "단독 강행 처리했다",
+     "sentenceId": "s5"
+    }
+   ],
+   "analyzedBy": "gemini-3.5-flash-lite"
+  },
+  {
+   "id": "a-12f4a7bf0e",
+   "issueId": "auto-20261121-1237-1",
+   "outletId": "mk",
+   "outletName": "매일경제",
+   "title": "코스피 5% 폭락…나경원 “결혼자금 반토막, 은퇴자금 녹아내려”",
+   "summary": "21일 페이스북에 정부 비판 “李정권 무책임엔 바닥 없어” 나경원 국민의힘 의원이 코스피가 5% 넘게... 이재명 정부를 강하게 비판했다. 나 의원은 21일 자신의 페이스북에 “지금 이 순간에도 계좌를 열어보기가...",
+   "url": "https://www.mk.co.kr/article/12215191",
+   "publishedAt": "2026-11-21T10:26:00+09:00",
+   "sentences": [
+    {
+     "id": "s1",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s2",
+     "text": null,
+     "type": "quote",
+     "sourceType": "opp",
+     "sourceName": "나경원 의원",
+     "sourceDetail": null,
+     "party": "국민의힘"
+    },
+    {
+     "id": "s3",
+     "text": "🏛️",
+     "type": "opinion",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s4",
+     "text": "이재명 정부가 과거 주가 상승을 치적으로 내세우며 주식 투자를 독려했으나…",
+     "type": "opinion",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s5",
+     "text": null,
+     "type": "quote",
+     "sourceType": "opp",
+     "sourceName": "정치권",
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s6",
+     "text": "1.",
+     "type": "opinion",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s7",
+     "text": "사건 개요: 무슨 일이 있었나?",
+     "type": "opinion",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s8",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s9",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s10",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s11",
+     "text": null,
+     "type": "quote",
+     "sourceType": "opp",
+     "sourceName": "나경원 의원",
+     "sourceDetail": null,
+     "party": "국민의힘"
+    },
+    {
+     "id": "s12",
+     "text": null,
+     "type": "quote",
+     "sourceType": "opp",
+     "sourceName": "나 의원",
+     "sourceDetail": null,
+     "party": "국민의힘"
+    },
+    {
+     "id": "s13",
+     "text": null,
+     "type": "quote",
+     "sourceType": "opp",
+     "sourceName": "나 의원",
+     "sourceDetail": null,
+     "party": "국민의힘"
+    },
+    {
+     "id": "s14",
+     "text": null,
+     "type": "quote",
+     "sourceType": "opp",
+     "sourceName": "나 의원",
+     "sourceDetail": null,
+     "party": "국민의힘"
+    },
+    {
+     "id": "s15",
+     "text": null,
+     "type": "quote",
+     "sourceType": "opp",
+     "sourceName": "나 의원",
+     "sourceDetail": null,
+     "party": "국민의힘"
+    },
+    {
+     "id": "s16",
+     "text": "⚖️ 한편, 증시가 바닥을 치는 동안 이재명 대통령이 SNS를 통해 대장…",
+     "type": "opinion",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s17",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s18",
+     "text": "2.",
+     "type": "opinion",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s19",
+     "text": "심층 분석: 이 뉴스는 왜 나왔나?",
+     "type": "opinion",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s20",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s21",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s22",
+     "text": null,
+     "type": "quote",
+     "sourceType": "opp",
+     "sourceName": "나경원 의원",
+     "sourceDetail": null,
+     "party": "국민의힘"
+    },
+    {
+     "id": "s23",
+     "text": null,
+     "type": "quote",
+     "sourceType": "opp",
+     "sourceName": "나경원 의원",
+     "sourceDetail": null,
+     "party": "국민의힘"
+    },
+    {
+     "id": "s24",
+     "text": "⚖️ 이처럼 경제적 충격과 정치적 공방이 맞물리면서 이번 폭락 사태는 단…",
+     "type": "opinion",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s25",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s26",
+     "text": null,
+     "type": "quote",
+     "sourceType": "expert",
+     "sourceName": "전문가들",
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s27",
+     "text": "🌪️ 주식시장의 높은 위험성을 다시 한번 실감하게 만든 충격적인 사건이었…",
+     "type": "opinion",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s28",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s29",
+     "text": null,
+     "type": "quote",
+     "sourceType": "expert",
+     "sourceName": "전문가들",
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s30",
+     "text": "🧐 이후 스페이스X 상장 등이 우주 및 휴머노이드 로봇 산업으로의 외연…",
+     "type": "opinion",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s31",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s32",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s33",
+     "text": "💧 다만 연이은 악재 해소와 함께 바닥을 다지는 신호일 수 있다는 분석도…",
+     "type": "opinion",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s34",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s35",
+     "text": null,
+     "type": "quote",
+     "sourceType": "opp",
+     "sourceName": "정치권",
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s36",
+     "text": null,
+     "type": "quote",
+     "sourceType": "opp",
+     "sourceName": "정치권",
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s37",
+     "text": "4.",
+     "type": "opinion",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s38",
+     "text": "다각도 분석: 누구에게 어떤 영향을 미칠까?",
+     "type": "opinion",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s39",
+     "text": "5.",
+     "type": "opinion",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s40",
+     "text": "핵심 시사점: 그래서 무엇이 달라지는가?",
+     "type": "opinion",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s41",
+     "text": "📉 이번 코스피 5% 폭락 사태는 단순한 일회성 하락을 넘어, 과거 주가…",
+     "type": "opinion",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s42",
+     "text": "💸 부동산에 묶여 있던 시중 자금을 주식시장으로 유입시키겠다며 국민들을…",
+     "type": "opinion",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s43",
+     "text": "🏛️ 이처럼 시장의 변동성이 극도로 커진 상황에서 정치권에서는 조희대 대…",
+     "type": "opinion",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s44",
+     "text": "🔍 또한 이번 하락 국면에서는 단일종목 레버리지 상장지수펀드(ETF)의…",
+     "type": "opinion",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s45",
+     "text": "- 현 상태 유지 및 안착 시나리오 📉 코스피가 5% 넘게 폭락하며 매도…",
+     "type": "opinion",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s46",
+     "text": "🧊 투자자들은 계좌를 열어보기 두려워하며 몸을 사리게 되고, 증시는 무기…",
+     "type": "opinion",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s47",
+     "text": "🌊 정부의 정책적 대응이나 시장을 이끌어갈 뚜렷한 동력이 부재할 경우,…",
+     "type": "opinion",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s48",
+     "text": "- 영향력 확대 및 가속 시나리오 🔥 만약 증시 하방 압력이 더욱 거세지…",
+     "type": "opinion",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s49",
+     "text": "🌪️ 청년들의 결혼자금이나 부모 세대의 은퇴 자금이 타격 입은 것처럼 실…",
+     "type": "opinion",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s50",
+     "text": "💥 시장 내 악재가 연쇄적으로 작용하면서 지수의 낙폭이 예상보다 훨씬 깊…",
+     "type": "opinion",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s51",
+     "text": "- 변수 발생 및 흐름 반전 시나리오 ⚡ 반대로 철저한 수사와 책임자 처…",
+     "type": "opinion",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s52",
+     "text": "🛠️ 단일종목 레버리지 ETF 도입이나 국민연금 리밸런싱과 같은 논란이…",
+     "type": "opinion",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s53",
+     "text": "🌱 다만, 기사 내용에서 언급된 정치적 공방이나 정책적 실책에 대한 논란…",
+     "type": "opinion",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s54",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s55",
+     "text": null,
+     "type": "quote",
+     "sourceType": "etc",
+     "sourceName": "기사",
+     "sourceDetail": "익명(소속 미상)",
+     "party": null
+    },
+    {
+     "id": "s56",
+     "text": "🚨 예기치 못한 폭락 장세에서 투자자들이 냉정을 찾고 무더기 매물을 쏟아…",
+     "type": "opinion",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s57",
+     "text": "🛡️",
+     "type": "opinion",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s58",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s59",
+     "text": null,
+     "type": "quote",
+     "sourceType": "etc",
+     "sourceName": "기사",
+     "sourceDetail": "익명(소속 미상)",
+     "party": null
+    },
+    {
+     "id": "s60",
+     "text": null,
+     "type": "quote",
+     "sourceType": "opp",
+     "sourceName": "비판",
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s61",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s62",
+     "text": null,
+     "type": "quote",
+     "sourceType": "etc",
+     "sourceName": "본문 기사",
+     "sourceDetail": "익명(소속 미상)",
+     "party": null
+    },
+    {
+     "id": "s63",
+     "text": "🔄 시장의 수급 상황과 정부의 대응을 이해하는 데 중요한 경제적 개념으로…",
+     "type": "opinion",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    }
+   ],
+   "framingTerms": [
+    {
+     "term": "급락해",
+     "sentenceId": "s1"
+    },
+    {
+     "term": "떨어지며",
+     "sentenceId": "s1"
+    },
+    {
+     "term": "추락해",
+     "sentenceId": "s2"
+    },
+    {
+     "term": "비판했어요",
+     "sentenceId": "s2"
+    },
+    {
+     "term": "다쳤다는",
+     "sentenceId": "s4"
+    },
+    {
+     "term": "지적이 나오고 있어요",
+     "sentenceId": "s4"
+    },
+    {
+     "term": "촉구하고 있어요",
+     "sentenceId": "s5"
+    },
+    {
+     "term": "급락해",
+     "sentenceId": "s9"
+    },
+    {
+     "term": "떨어진",
+     "sentenceId": "s10"
+    },
+    {
+     "term": "주저앉았고",
+     "sentenceId": "s10"
+    },
+    {
+     "term": "폭락",
+     "sentenceId": "s11"
+    },
+    {
+     "term": "비판",
+     "sentenceId": "s11"
+    },
+    {
+     "term": "지적했답니다",
+     "sentenceId": "s12"
+    },
+    {
+     "term": "추락하면서",
+     "sentenceId": "s13"
+    },
+    {
+     "term": "강조했어요",
+     "sentenceId": "s13"
+    },
+    {
+     "term": "꼬집었어요",
+     "sentenceId": "s14"
+    },
+    {
+     "term": "피해",
+     "sentenceId": "s15"
+    },
+    {
+     "term": "촉구했어요",
+     "sentenceId": "s15"
+    },
+    {
+     "term": "비판이 이어졌어요",
+     "sentenceId": "s16"
+    },
+    {
+     "term": "급락해",
+     "sentenceId": "s20"
+    },
+    {
+     "term": "떨어지며",
+     "sentenceId": "s20"
+    },
+    {
+     "term": "주저앉으면서",
+     "sentenceId": "s21"
+    },
+    {
+     "term": "폭락",
+     "sentenceId": "s22"
+    },
+    {
+     "term": "질타했어요",
+     "sentenceId": "s22"
+    },
+    {
+     "term": "지적하며",
+     "sentenceId": "s23"
+    },
+    {
+     "term": "폭락하는",
+     "sentenceId": "s25"
+    },
+    {
+     "term": "우려",
+     "sentenceId": "s26"
+    },
+    {
+     "term": "꼽았답니다",
+     "sentenceId": "s26"
+    },
+    {
+     "term": "급락했어요",
+     "sentenceId": "s28"
+    },
+    {
+     "term": "분석했답니다",
+     "sentenceId": "s29"
+    },
+    {
+     "term": "전망이 나왔어요",
+     "sentenceId": "s30"
+    },
+    {
+     "term": "급락과",
+     "sentenceId": "s31"
+    },
+    {
+     "term": "얼어붙으며",
+     "sentenceId": "s31"
+    },
+    {
+     "term": "떨어지며",
+     "sentenceId": "s32"
+    },
+    {
+     "term": "분석도 제기되었어요",
+     "sentenceId": "s33"
+    },
+    {
+     "term": "폭락하며",
+     "sentenceId": "s34"
+    },
+    {
+     "term": "비판했답니다",
+     "sentenceId": "s35"
+    },
+    {
+     "term": "목소리가 커졌어요",
+     "sentenceId": "s36"
+    },
+    {
+     "term": "폭락",
+     "sentenceId": "s41"
+    },
+    {
+     "term": "괴리가 얼마나 큰지",
+     "sentenceId": "s41"
+    },
+    {
+     "term": "추락하고",
+     "sentenceId": "s42"
+    },
+    {
+     "term": "타격을 입게 되었어요",
+     "sentenceId": "s42"
+    },
+    {
+     "term": "불안감이 더욱 증폭되는",
+     "sentenceId": "s43"
+    },
+    {
+     "term": "허점과 수급 왜곡",
+     "sentenceId": "s44"
+    },
+    {
+     "term": "요구하는 목소리가 커지면서",
+     "sentenceId": "s44"
+    },
+    {
+     "term": "폭락하며",
+     "sentenceId": "s45"
+    },
+    {
+     "term": "이어질 수 있어요",
+     "sentenceId": "s45"
+    },
+    {
+     "term": "침체된",
+     "sentenceId": "s47"
+    },
+    {
+     "term": "가능성이 있어요",
+     "sentenceId": "s47"
+    },
+    {
+     "term": "우려도 존재해요",
+     "sentenceId": "s50"
+    },
+    {
+     "term": "실책에 대한 논란",
+     "sentenceId": "s53"
+    },
+    {
+     "term": "무너지면서",
+     "sentenceId": "s55"
+    },
+    {
+     "term": "전하고 있어요",
+     "sentenceId": "s55"
+    },
+    {
+     "term": "폭락 장세",
+     "sentenceId": "s56"
+    },
+    {
+     "term": "언급하고 있어요",
+     "sentenceId": "s59"
+    },
+    {
+     "term": "비판이 제기되기도 했답니다",
+     "sentenceId": "s60"
+    },
+    {
+     "term": "하락과 맞물려",
+     "sentenceId": "s62"
+    },
+    {
+     "term": "거론되며",
+     "sentenceId": "s62"
+    }
+   ],
+   "analyzedBy": "gemini-3.5-flash-lite"
+  },
+  {
+   "id": "a-f0f22cd001",
+   "issueId": "auto-20261121-1237-1",
+   "outletId": "hankyung",
+   "outletName": "한국경제",
+   "title": "나경원 \"10개월 만에 주가 반토막…결혼·은퇴자금 사라져\"",
+   "summary": "우려하며 정부에 책임을 촉구하고 나섰다. 나 의원은 21일 자신의 페이스북에서 \"전날 코스피가 5.21% 폭락한... 이어 \"이재명 정부는 주가가 오를 때 대통령 상장지수펀드(ETF) 수익률까지 공개하며 증시를 치적으로...",
+   "url": "https://www.hankyung.com/article/2026112112267",
+   "publishedAt": "2026-11-21T09:57:00+09:00",
+   "sentences": [
+    {
+     "id": "s1",
+     "text": null,
+     "type": "quote",
+     "sourceType": "opp",
+     "sourceName": "나경원 국민의힘 의원",
+     "sourceDetail": null,
+     "party": "국민의힘"
+    },
+    {
+     "id": "s2",
+     "text": null,
+     "type": "quote",
+     "sourceType": "opp",
+     "sourceName": "나 의원",
+     "sourceDetail": null,
+     "party": "국민의힘"
+    },
+    {
+     "id": "s3",
+     "text": null,
+     "type": "quote",
+     "sourceType": "opp",
+     "sourceName": "나 의원",
+     "sourceDetail": null,
+     "party": "국민의힘"
+    },
+    {
+     "id": "s4",
+     "text": null,
+     "type": "quote",
+     "sourceType": "opp",
+     "sourceName": "나 의원",
+     "sourceDetail": null,
+     "party": "국민의힘"
+    },
+    {
+     "id": "s5",
+     "text": null,
+     "type": "quote",
+     "sourceType": "opp",
+     "sourceName": "그",
+     "sourceDetail": null,
+     "party": "국민의힘"
+    },
+    {
+     "id": "s6",
+     "text": null,
+     "type": "quote",
+     "sourceType": "opp",
+     "sourceName": "그",
+     "sourceDetail": null,
+     "party": "국민의힘"
+    },
+    {
+     "id": "s7",
+     "text": null,
+     "type": "quote",
+     "sourceType": "opp",
+     "sourceName": "장동혁 국민의힘 대표",
+     "sourceDetail": null,
+     "party": "국민의힘"
+    }
+   ],
+   "framingTerms": [
+    {
+     "term": "우려하며",
+     "sentenceId": "s1"
+    },
+    {
+     "term": "촉구하고",
+     "sentenceId": "s1"
+    },
+    {
+     "term": "우려했다",
+     "sentenceId": "s2"
+    },
+    {
+     "term": "목소리를 높였다",
+     "sentenceId": "s4"
+    },
+    {
+     "term": "질타했다",
+     "sentenceId": "s5"
+    },
+    {
+     "term": "강조했다",
+     "sentenceId": "s6"
+    },
+    {
+     "term": "촉구했다",
+     "sentenceId": "s7"
+    }
+   ],
+   "analyzedBy": "gemini-3.5-flash-lite"
+  },
+  {
+   "id": "a-e797fb1cd1",
+   "issueId": "auto-20261121-1237-1",
+   "outletId": "edaily",
+   "outletName": "이데일리",
+   "title": "나경원 \"코스피 5% 폭락…이재명 정권 무책임엔 바닥 없어\"",
+   "summary": "나경원 국민의힘 의원이 코스피가 5% 넘게 폭락한 것을 두고 이재명 정부의 증시 정책을 강하게 비판했다.... 나 의원은 증시 하락에 따른 개인 투자자들의 피해를 언급하며 정부 책임론을 제기했다. 그는 “지금 이...",
+   "url": "https://www.edaily.co.kr/News/Read?newsId=01751526645648016&mediaCodeNo=257&utm_source=naver&utm_medium=referral&utm_campaign=news_syndication&utm_content=original_article",
+   "publishedAt": "2026-11-21T09:19:00+09:00",
+   "sentences": [
+    {
+     "id": "s1",
+     "text": null,
+     "type": "quote",
+     "sourceType": "opp",
+     "sourceName": "나경원 국민의힘 의원",
+     "sourceDetail": null,
+     "party": "국민의힘"
+    },
+    {
+     "id": "s2",
+     "text": null,
+     "type": "quote",
+     "sourceType": "opp",
+     "sourceName": "나경원 의원",
+     "sourceDetail": null,
+     "party": "국민의힘"
+    },
+    {
+     "id": "s3",
+     "text": null,
+     "type": "quote",
+     "sourceType": "opp",
+     "sourceName": "나 의원",
+     "sourceDetail": null,
+     "party": "국민의힘"
+    },
+    {
+     "id": "s4",
+     "text": null,
+     "type": "quote",
+     "sourceType": "opp",
+     "sourceName": "그",
+     "sourceDetail": null,
+     "party": "국민의힘"
+    },
+    {
+     "id": "s5",
+     "text": null,
+     "type": "quote",
+     "sourceType": "opp",
+     "sourceName": "나 의원",
+     "sourceDetail": null,
+     "party": "국민의힘"
+    },
+    {
+     "id": "s6",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s7",
+     "text": null,
+     "type": "quote",
+     "sourceType": "gov",
+     "sourceName": "이 대통령",
+     "sourceDetail": null,
+     "party": "더불어민주당"
+    },
+    {
+     "id": "s8",
+     "text": null,
+     "type": "quote",
+     "sourceType": "opp",
+     "sourceName": "나 의원",
+     "sourceDetail": null,
+     "party": "국민의힘"
+    }
+   ],
+   "framingTerms": [
+    {
+     "term": "강하게 비판했다",
+     "sentenceId": "s1"
+    },
+    {
+     "term": "밝혔다",
+     "sentenceId": "s2"
+    },
+    {
+     "term": "강조했다",
+     "sentenceId": "s3"
+    },
+    {
+     "term": "비판했다",
+     "sentenceId": "s5"
+    },
+    {
+     "term": "날을 세웠다",
+     "sentenceId": "s6"
+    },
+    {
+     "term": "반박했다",
+     "sentenceId": "s7"
+    },
+    {
+     "term": "촉구했다",
+     "sentenceId": "s8"
+    }
+   ],
+   "analyzedBy": "gemini-3.5-flash-lite"
+  },
+  {
+   "id": "a-f45896e124",
+   "issueId": "auto-20261121-1237-1",
+   "outletId": "sedaily",
+   "outletName": "서울경제",
+   "title": "10개월 만에 최저치 찍은 코스피…나경원 “국민들, 계좌 열기도 두려워...",
+   "summary": "코스피가 하루 새 5% 넘게 급락한 가운데 나경원 국민의힘 의원이 “국민들 돈 물어내라”며 이재명 정부의... 나 의원은 증시 급락에 따른 개인 투자자들의 피해를 거론하며 정부 책임론을 폈다. 그는 계좌를 열어보기...",
+   "url": "https://www.sedaily.com/article/20117195?ref=naver",
+   "publishedAt": "2026-11-21T10:10:00+09:00",
+   "sentences": [
+    {
+     "id": "s1",
+     "text": null,
+     "type": "quote",
+     "sourceType": "opp",
+     "sourceName": "나경원",
+     "sourceDetail": null,
+     "party": "국민의힘"
+    },
+    {
+     "id": "s2",
+     "text": null,
+     "type": "quote",
+     "sourceType": "opp",
+     "sourceName": "장동혁",
+     "sourceDetail": null,
+     "party": "국민의힘"
+    },
+    {
+     "id": "s3",
+     "text": null,
+     "type": "quote",
+     "sourceType": "opp",
+     "sourceName": "나 의원",
+     "sourceDetail": null,
+     "party": "국민의힘"
+    },
+    {
+     "id": "s4",
+     "text": null,
+     "type": "quote",
+     "sourceType": "opp",
+     "sourceName": "나 의원",
+     "sourceDetail": null,
+     "party": "국민의힘"
+    },
+    {
+     "id": "s5",
+     "text": null,
+     "type": "quote",
+     "sourceType": "opp",
+     "sourceName": "나 의원",
+     "sourceDetail": null,
+     "party": "국민의힘"
+    },
+    {
+     "id": "s6",
+     "text": "나 의원은 증시 급락에 따른 개인 투자자들의 피해를 거론하며 정부 책임론…",
+     "type": "opinion",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s7",
+     "text": null,
+     "type": "quote",
+     "sourceType": "opp",
+     "sourceName": "그",
+     "sourceDetail": null,
+     "party": "국민의힘"
+    },
+    {
+     "id": "s8",
+     "text": null,
+     "type": "quote",
+     "sourceType": "opp",
+     "sourceName": "그",
+     "sourceDetail": null,
+     "party": "국민의힘"
+    },
+    {
+     "id": "s9",
+     "text": "정부가 주식시장 투자를 독려해놓고 하락 국면에서는 책임 있는 대응을 내놓…",
+     "type": "opinion",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s10",
+     "text": "비판은 구체적인 금융정책에 대한 수사 요구로 이어졌다.",
+     "type": "opinion",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s11",
+     "text": null,
+     "type": "quote",
+     "sourceType": "opp",
+     "sourceName": "나 의원",
+     "sourceDetail": null,
+     "party": "국민의힘"
+    },
+    {
+     "id": "s12",
+     "text": null,
+     "type": "quote",
+     "sourceType": "opp",
+     "sourceName": "나 의원",
+     "sourceDetail": null,
+     "party": "국민의힘"
+    },
+    {
+     "id": "s13",
+     "text": "증시가 급락한 날 정부·여당이 보인 행보에도 날을 세웠다.",
+     "type": "opinion",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s14",
+     "text": null,
+     "type": "quote",
+     "sourceType": "opp",
+     "sourceName": "나 의원",
+     "sourceDetail": null,
+     "party": "국민의힘"
+    },
+    {
+     "id": "s15",
+     "text": null,
+     "type": "quote",
+     "sourceType": "opp",
+     "sourceName": "장 대표",
+     "sourceDetail": null,
+     "party": "국민의힘"
+    },
+    {
+     "id": "s16",
+     "text": null,
+     "type": "quote",
+     "sourceType": "opp",
+     "sourceName": "그",
+     "sourceDetail": null,
+     "party": "국민의힘"
+    },
+    {
+     "id": "s17",
+     "text": null,
+     "type": "quote",
+     "sourceType": "opp",
+     "sourceName": "그",
+     "sourceDetail": null,
+     "party": "국민의힘"
+    },
+    {
+     "id": "s18",
+     "text": null,
+     "type": "quote",
+     "sourceType": "opp",
+     "sourceName": "장 대표",
+     "sourceDetail": null,
+     "party": "국민의힘"
+    },
+    {
+     "id": "s19",
+     "text": null,
+     "type": "quote",
+     "sourceType": "opp",
+     "sourceName": "그",
+     "sourceDetail": null,
+     "party": "국민의힘"
+    },
+    {
+     "id": "s20",
+     "text": null,
+     "type": "quote",
+     "sourceType": "opp",
+     "sourceName": "그",
+     "sourceDetail": null,
+     "party": "국민의힘"
+    },
+    {
+     "id": "s21",
+     "text": "국내 증시가 급락한 뒤 미국 증시마저 기술주를 중심으로 무너지면서 다음…",
+     "type": "opinion",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s22",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s23",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s24",
+     "text": "미국발 기술주 매도세가 국내 시장으로 이어질 경우 삼성전자·SK하이닉스…",
+     "type": "opinion",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    }
+   ],
+   "framingTerms": [
+    {
+     "term": "정면 비판했다",
+     "sentenceId": "s1"
+    },
+    {
+     "term": "요구했다",
+     "sentenceId": "s2"
+    },
+    {
+     "term": "적었다",
+     "sentenceId": "s3"
+    },
+    {
+     "term": "언급했다",
+     "sentenceId": "s4"
+    },
+    {
+     "term": "주장했다",
+     "sentenceId": "s5"
+    },
+    {
+     "term": "거론하며",
+     "sentenceId": "s6"
+    },
+    {
+     "term": "책임론을 폈다",
+     "sentenceId": "s6"
+    },
+    {
+     "term": "언급하면서",
+     "sentenceId": "s7"
+    },
+    {
+     "term": "비판했다",
+     "sentenceId": "s8"
+    },
+    {
+     "term": "취지다",
+     "sentenceId": "s9"
+    },
+    {
+     "term": "이어졌다",
+     "sentenceId": "s10"
+    },
+    {
+     "term": "문제 삼으며",
+     "sentenceId": "s11"
+    },
+    {
+     "term": "주장했다",
+     "sentenceId": "s11"
+    },
+    {
+     "term": "요구도 덧붙였다",
+     "sentenceId": "s12"
+    },
+    {
+     "term": "날을 세웠다",
+     "sentenceId": "s13"
+    },
+    {
+     "term": "단독 처리했다",
+     "sentenceId": "s14"
+    },
+    {
+     "term": "비판했다",
+     "sentenceId": "s15"
+    },
+    {
+     "term": "지적했다",
+     "sentenceId": "s16"
+    },
+    {
+     "term": "거론하며",
+     "sentenceId": "s17"
+    },
+    {
+     "term": "주장했다",
+     "sentenceId": "s17"
+    },
+    {
+     "term": "비판했다",
+     "sentenceId": "s18"
+    },
+    {
+     "term": "주장하면서",
+     "sentenceId": "s19"
+    },
+    {
+     "term": "거론했다",
+     "sentenceId": "s20"
+    },
+    {
+     "term": "우려도 커졌다",
+     "sentenceId": "s21"
+    },
+    {
+     "term": "커질 수 있다",
+     "sentenceId": "s24"
+    }
+   ],
+   "analyzedBy": "gemini-3.5-flash-lite"
+  },
+  {
+   "id": "a-dd832904ed",
+   "issueId": "auto-20261121-1237-1",
+   "outletId": "newdaily",
+   "outletName": "뉴데일리",
+   "title": "나경원 \"청년 결혼자금 반 토막, 은퇴자금 녹아\" … 정부가 책임져야\"",
+   "summary": "나 의원은 \"이 정부는 주가가 오를 때 대통령의 ETF 수익률까지 공개하며 증시를 치적으로 내세웠고... 이 정부를 향해 날을 세웠다. 나 의원은 \"국민의 자산이 무너져 내린 바로 이날, 대통령은 SNS에서 자신의 대장동...",
+   "url": "https://www.newdaily.co.kr/site/data/html/2026/11/21/2026112150013.html",
+   "publishedAt": "2026-11-21T09:34:00+09:00",
+   "sentences": [
+    {
+     "id": "s1",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s2",
+     "text": null,
+     "type": "quote",
+     "sourceType": "opp",
+     "sourceName": "나경원 의원",
+     "sourceDetail": null,
+     "party": "국민의힘"
+    },
+    {
+     "id": "s3",
+     "text": null,
+     "type": "quote",
+     "sourceType": "opp",
+     "sourceName": "나경원 의원",
+     "sourceDetail": null,
+     "party": "국민의힘"
+    },
+    {
+     "id": "s4",
+     "text": null,
+     "type": "quote",
+     "sourceType": "opp",
+     "sourceName": "나경원 의원",
+     "sourceDetail": null,
+     "party": "국민의힘"
+    },
+    {
+     "id": "s5",
+     "text": null,
+     "type": "quote",
+     "sourceType": "opp",
+     "sourceName": "나경원 의원",
+     "sourceDetail": null,
+     "party": "국민의힘"
+    },
+    {
+     "id": "s6",
+     "text": null,
+     "type": "quote",
+     "sourceType": "opp",
+     "sourceName": "나경원 의원",
+     "sourceDetail": null,
+     "party": "국민의힘"
+    },
+    {
+     "id": "s7",
+     "text": null,
+     "type": "quote",
+     "sourceType": "opp",
+     "sourceName": "나경원 의원",
+     "sourceDetail": null,
+     "party": "국민의힘"
+    },
+    {
+     "id": "s8",
+     "text": null,
+     "type": "quote",
+     "sourceType": "opp",
+     "sourceName": "나경원 의원",
+     "sourceDetail": null,
+     "party": "국민의힘"
+    },
+    {
+     "id": "s9",
+     "text": null,
+     "type": "quote",
+     "sourceType": "opp",
+     "sourceName": "나경원 의원",
+     "sourceDetail": null,
+     "party": "국민의힘"
+    },
+    {
+     "id": "s10",
+     "text": null,
+     "type": "quote",
+     "sourceType": "etc",
+     "sourceName": "익명(소속 미상)",
+     "sourceDetail": "익명(소속 미상)",
+     "party": null
+    },
+    {
+     "id": "s11",
+     "text": null,
+     "type": "quote",
+     "sourceType": "opp",
+     "sourceName": "장동혁 대표",
+     "sourceDetail": null,
+     "party": "국민의힘"
+    },
+    {
+     "id": "s12",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s13",
+     "text": null,
+     "type": "quote",
+     "sourceType": "gov",
+     "sourceName": "이 대통령",
+     "sourceDetail": null,
+     "party": "더불어민주당"
+    }
+   ],
+   "framingTerms": [
+    {
+     "term": "비판을 이어졌다",
+     "sentenceId": "s1"
+    },
+    {
+     "term": "지적했다",
+     "sentenceId": "s2"
+    },
+    {
+     "term": "강조했다",
+     "sentenceId": "s3"
+    },
+    {
+     "term": "비판했다",
+     "sentenceId": "s4"
+    },
+    {
+     "term": "날을 세웠다",
+     "sentenceId": "s5"
+    },
+    {
+     "term": "꼬집었다",
+     "sentenceId": "s6"
+    },
+    {
+     "term": "단독 처리했다",
+     "sentenceId": "s7"
+    },
+    {
+     "term": "주장했다",
+     "sentenceId": "s8"
+    },
+    {
+     "term": "촉구했다",
+     "sentenceId": "s9"
+    },
+    {
+     "term": "요구도 덧붙였다",
+     "sentenceId": "s10"
+    },
+    {
+     "term": "촉구했다",
+     "sentenceId": "s11"
+    },
+    {
+     "term": "반박했다",
+     "sentenceId": "s13"
+    }
+   ],
+   "analyzedBy": "gemini-3.5-flash-lite"
+  },
+  {
+   "id": "a-6c58adc2ce",
+   "issueId": "auto-20261121-1237-1",
+   "outletId": "pressian",
+   "outletName": "프레시안",
+   "title": "\"쿠폰 등으로 지수 올린다\" 비판한 나경원, 코스피 하락에 \"이 정권 무책...",
+   "summary": "있다\"며 \"이 정부는 주가가 오를 때 대통령의 ETF 수익률까지 공개하며 증시를 치적으로 내세웠다\"라고... 이후 이재명 정부에 코스피가 5000을 넘자 나 의원은 자신의 페이스북을 통해 \"코스피 5000 돌파. 어려운 여건...",
+   "url": "https://www.pressian.com/pages/articles/2026112109275270534?utm_source=naver&utm_medium=search",
+   "publishedAt": "2026-11-21T09:28:00+09:00",
+   "sentences": [
+    {
+     "id": "s1",
+     "text": null,
+     "type": "quote",
+     "sourceType": "opp",
+     "sourceName": "나경원 국민의힘 의원",
+     "sourceDetail": null,
+     "party": "국민의힘"
+    },
+    {
+     "id": "s2",
+     "text": null,
+     "type": "quote",
+     "sourceType": "opp",
+     "sourceName": "나 의원",
+     "sourceDetail": null,
+     "party": "국민의힘"
+    },
+    {
+     "id": "s3",
+     "text": null,
+     "type": "quote",
+     "sourceType": "opp",
+     "sourceName": "나 의원",
+     "sourceDetail": null,
+     "party": "국민의힘"
+    },
+    {
+     "id": "s4",
+     "text": null,
+     "type": "quote",
+     "sourceType": "opp",
+     "sourceName": "나 의원",
+     "sourceDetail": null,
+     "party": "국민의힘"
+    },
+    {
+     "id": "s5",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s6",
+     "text": null,
+     "type": "quote",
+     "sourceType": "opp",
+     "sourceName": "나 의원",
+     "sourceDetail": null,
+     "party": "국민의힘"
+    },
+    {
+     "id": "s7",
+     "text": null,
+     "type": "quote",
+     "sourceType": "opp",
+     "sourceName": "나 의원",
+     "sourceDetail": null,
+     "party": "국민의힘"
+    }
+   ],
+   "framingTerms": [
+    {
+     "term": "강하게",
+     "sentenceId": "s1"
+    },
+    {
+     "term": "폭락해",
+     "sentenceId": "s3"
+    }
+   ],
+   "analyzedBy": "gemini-3.5-flash-lite"
+  },
+  {
+   "id": "a-ed6b3e4b26",
+   "issueId": "auto-20261121-1237-1",
+   "outletId": "fnnews",
+   "outletName": "파이낸셜뉴스",
+   "title": "나경원 \"주식 폭락, 결혼·은퇴자금 반토막...李정권, 국민 돈 물어내라...",
+   "summary": "나 의원은 \"지금 이 순간에도 계좌를 열어보기가 두렵다는 국민, 결혼자금이 반 토막 났다는 청년, 은퇴 자금이 녹아내리는 것을 지켜만 보는 부모 세대, 우리 국민들 속이 타들어가고 있다\"며 \"이재명 정부는 주가가...",
+   "url": "https://www.fnnews.com/news/202611211013306194",
+   "publishedAt": "2026-11-21T10:40:00+09:00",
+   "sentences": [
+    {
+     "id": "s1",
+     "text": null,
+     "type": "quote",
+     "sourceType": "opp",
+     "sourceName": "나경원 국민의힘 의원",
+     "sourceDetail": null,
+     "party": "국민의힘"
+    },
+    {
+     "id": "s2",
+     "text": null,
+     "type": "quote",
+     "sourceType": "opp",
+     "sourceName": "나 의원",
+     "sourceDetail": null,
+     "party": "국민의힘"
+    },
+    {
+     "id": "s3",
+     "text": null,
+     "type": "quote",
+     "sourceType": "opp",
+     "sourceName": "나 의원",
+     "sourceDetail": null,
+     "party": "국민의힘"
+    },
+    {
+     "id": "s4",
+     "text": null,
+     "type": "quote",
+     "sourceType": "opp",
+     "sourceName": "나 의원은",
+     "sourceDetail": null,
+     "party": "국민의힘"
+    },
+    {
+     "id": "s5",
+     "text": null,
+     "type": "quote",
+     "sourceType": "opp",
+     "sourceName": "나 의원",
+     "sourceDetail": null,
+     "party": "국민의힘"
+    },
+    {
+     "id": "s6",
+     "text": null,
+     "type": "quote",
+     "sourceType": "opp",
+     "sourceName": "나 의원",
+     "sourceDetail": null,
+     "party": "국민의힘"
+    }
+   ],
+   "framingTerms": [],
+   "analyzedBy": "gemini-3.5-flash-lite"
+  },
+  {
+   "id": "a-cc3238f221",
+   "issueId": "auto-20261121-1238-1",
+   "outletId": "newsis",
+   "outletName": "뉴시스",
+   "title": "국힘 \"'사퇴하라면 한다'는 최교진 교육부장관, 당장 물러나라\"",
+   "summary": "정부가 방치한 사이 정직하게 노력해 온 수험생들의 기회와 꿈이 얼마나 많은 부정행위로 도둑맞았는지... 것은 정부의 대책이 될 수 없다\"고 했다. 또 \"무거운 책임을 진 교육부 수장이 정작 사퇴 여부를 대통령의 판단에...",
+   "url": "https://www.newsis.com/view/NISX20261121_0003877625",
+   "publishedAt": "2026-11-21T10:56:00+09:00",
+   "sentences": [
+    {
+     "id": "s1",
+     "text": null,
+     "type": "quote",
+     "sourceType": "opp",
+     "sourceName": "박성훈 국민의힘 수석대변인",
+     "sourceDetail": null,
+     "party": "국민의힘"
+    },
+    {
+     "id": "s2",
+     "text": null,
+     "type": "quote",
+     "sourceType": "opp",
+     "sourceName": "박성훈 국민의힘 수석대변인",
+     "sourceDetail": null,
+     "party": "국민의힘"
+    },
+    {
+     "id": "s3",
+     "text": null,
+     "type": "quote",
+     "sourceType": "opp",
+     "sourceName": "박성훈 국민의힘 수석대변인",
+     "sourceDetail": null,
+     "party": "국민의힘"
+    },
+    {
+     "id": "s4",
+     "text": null,
+     "type": "quote",
+     "sourceType": "opp",
+     "sourceName": "박성훈 국민의힘 수석대변인",
+     "sourceDetail": null,
+     "party": "국민의힘"
+    },
+    {
+     "id": "s5",
+     "text": null,
+     "type": "quote",
+     "sourceType": "opp",
+     "sourceName": "박성훈 국민의힘 수석대변인",
+     "sourceDetail": null,
+     "party": "국민의힘"
+    }
+   ],
+   "framingTerms": [
+    {
+     "term": "우롱하는",
+     "sentenceId": "s2"
+    },
+    {
+     "term": "치졸한",
+     "sentenceId": "s2"
+    },
+    {
+     "term": "무능하고",
+     "sentenceId": "s3"
+    },
+    {
+     "term": "무책임한",
+     "sentenceId": "s3"
+    }
+   ],
+   "analyzedBy": "gemini-3.5-flash-lite"
+  },
+  {
+   "id": "a-fc0b8d1e8f",
+   "issueId": "auto-20261121-1238-1",
+   "outletId": "sbs",
+   "outletName": "SBS",
+   "title": "나흘 만에 나온 교육장관…\"사퇴하라면 해야죠\"",
+   "summary": "부실한 수능 준비에 실언까지 해 논란이 됐던 최교진 교육부 장관이 오늘(20일) 나흘 만에 모습을... <기자> 오늘 오후 '범정부 수능 부정행위 대응 TF' 회의장을 찾은 최교진 교육부 장관. 지난 16일 국회 교육위원회를...",
+   "url": "https://news.sbs.co.kr/news/endPage.do?news_id=N1008856374&plink=ORI&cooper=NAVER",
+   "publishedAt": "2026-11-20T20:07:00+09:00",
+   "sentences": [
+    {
+     "id": "s1",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s2",
+     "text": null,
+     "type": "quote",
+     "sourceType": "gov",
+     "sourceName": "최 장관",
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s3",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s4",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s5",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s6",
+     "text": null,
+     "type": "quote",
+     "sourceType": "gov",
+     "sourceName": "최 장관",
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s7",
+     "text": null,
+     "type": "quote",
+     "sourceType": "gov",
+     "sourceName": "최교진/교육부 장관",
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s8",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s9",
+     "text": null,
+     "type": "quote",
+     "sourceType": "gov",
+     "sourceName": "최교진/교육부 장관",
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s10",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s11",
+     "text": "보수 야권뿐 아니라 여당 내에서도 최 장관을 향한 시선은 곱지 않습니다.",
+     "type": "opinion",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s12",
+     "text": null,
+     "type": "quote",
+     "sourceType": "gov",
+     "sourceName": "고민정",
+     "sourceDetail": null,
+     "party": "더불어민주당"
+    },
+    {
+     "id": "s13",
+     "text": null,
+     "type": "quote",
+     "sourceType": "gov",
+     "sourceName": "청와대 관계자",
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s14",
+     "text": "교육계에서도 최 장관의 해임을 촉구하는 목소리가 터져 나왔습니다.",
+     "type": "opinion",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s15",
+     "text": null,
+     "type": "quote",
+     "sourceType": "citizen",
+     "sourceName": "교총",
+     "sourceDetail": null,
+     "party": null
+    }
+   ],
+   "framingTerms": [
+    {
+     "term": "실언까지 해 논란이 됐던",
+     "sentenceId": "s1"
+    },
+    {
+     "term": "비판 속에",
+     "sentenceId": "s6"
+    },
+    {
+     "term": "무책임한",
+     "sentenceId": "s8"
+    },
+    {
+     "term": "비난을 샀습니다",
+     "sentenceId": "s8"
+    },
+    {
+     "term": "거센 비판 속에",
+     "sentenceId": "s10"
+    },
+    {
+     "term": "곱지 않습니다",
+     "sentenceId": "s11"
+    },
+    {
+     "term": "자발적 책임감은 없는 거냐며",
+     "sentenceId": "s13"
+    },
+    {
+     "term": "아쉬움을 표현했습니다",
+     "sentenceId": "s13"
+    },
+    {
+     "term": "해임을 촉구하는",
+     "sentenceId": "s14"
+    },
+    {
+     "term": "주장했습니다",
+     "sentenceId": "s15"
+    }
+   ],
+   "analyzedBy": "gemini-3.5-flash-lite"
+  },
+  {
+   "id": "a-827fc86db5",
+   "issueId": "auto-20261121-1238-1",
+   "outletId": "ytn",
+   "outletName": "YTN",
+   "title": "수능 전후 사라진 교육부 장관...\"사퇴하라면 해야죠\"",
+   "summary": "[최은옥 / 차관 (지난 19일) : 국민 여러분을 포함하여 안정적인 수능시험이 치러질 수 있도록 도와주신 모든 분께 깊은 감사의 말씀을 드립니다.] 최 장관이 수능을 앞두고 국회에 나가 수능 부정행위를 막을 수 없다고 말한...",
+   "url": "https://www.ytn.co.kr/_ln/0103_202611210502331869",
+   "publishedAt": "2026-11-21T05:02:00+09:00",
+   "sentences": [
+    {
+     "id": "s1",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s2",
+     "text": null,
+     "type": "quote",
+     "sourceType": "gov",
+     "sourceName": "최교진 / 교육부 장관",
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s3",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s4",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s5",
+     "text": null,
+     "type": "quote",
+     "sourceType": "gov",
+     "sourceName": "최 장관",
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s6",
+     "text": null,
+     "type": "quote",
+     "sourceType": "gov",
+     "sourceName": "최교진",
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s7",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s8",
+     "text": null,
+     "type": "quote",
+     "sourceType": "gov",
+     "sourceName": "최은옥",
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s9",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s10",
+     "text": null,
+     "type": "quote",
+     "sourceType": "gov",
+     "sourceName": "최교진",
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s11",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s12",
+     "text": null,
+     "type": "quote",
+     "sourceType": "gov",
+     "sourceName": "고민정",
+     "sourceDetail": null,
+     "party": "더불어민주당"
+    },
+    {
+     "id": "s13",
+     "text": "손가락질을 피하려 했던 건지 다른 이유가 있었는지 모르지만, 수능 전후…",
+     "type": "opinion",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s14",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    }
+   ],
+   "framingTerms": [
+    {
+     "term": "지탄을 받았던",
+     "sentenceId": "s1"
+    },
+    {
+     "term": "두문불출했던",
+     "sentenceId": "s3"
+    },
+    {
+     "term": "수장 부재를 드러냈습니다",
+     "sentenceId": "s7"
+    },
+    {
+     "term": "평가입니다",
+     "sentenceId": "s13"
+    }
+   ],
+   "analyzedBy": "gemini-3.5-flash-lite"
+  },
+  {
+   "id": "a-12d6060303",
+   "issueId": "auto-20261121-1238-1",
+   "outletId": "segye",
+   "outletName": "세계일보",
+   "title": "“사퇴하라면 해야죠” 최교진 교육장관 발언에…국힘 “당장 물러나라...",
+   "summary": "박 수석대변인은 “수능이 끝났지만 수험생과 학부모의 불안은 여전하다”며 “정부가 방치한 사이... 수능 다음 날인 20일 정부서울청사에서 열린 범정부 수능 부정행위 대응 태스크포스(TF) 첫 회의에 참석한 뒤에는 사퇴...",
+   "url": "https://www.segye.com/newsView/20261121503319?OutUrl=naver",
+   "publishedAt": "2026-11-21T11:46:00+09:00",
+   "sentences": [
+    {
+     "id": "s1",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s2",
+     "text": null,
+     "type": "quote",
+     "sourceType": "opp",
+     "sourceName": "국민의힘",
+     "sourceDetail": null,
+     "party": "국민의힘"
+    },
+    {
+     "id": "s3",
+     "text": null,
+     "type": "quote",
+     "sourceType": "opp",
+     "sourceName": "박성훈",
+     "sourceDetail": null,
+     "party": "국민의힘"
+    },
+    {
+     "id": "s4",
+     "text": null,
+     "type": "quote",
+     "sourceType": "opp",
+     "sourceName": "박성훈",
+     "sourceDetail": null,
+     "party": "국민의힘"
+    },
+    {
+     "id": "s5",
+     "text": null,
+     "type": "quote",
+     "sourceType": "gov",
+     "sourceName": "최 장관",
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s6",
+     "text": null,
+     "type": "quote",
+     "sourceType": "gov",
+     "sourceName": "최 장관",
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s7",
+     "text": null,
+     "type": "quote",
+     "sourceType": "opp",
+     "sourceName": "박성훈",
+     "sourceDetail": null,
+     "party": "국민의힘"
+    },
+    {
+     "id": "s8",
+     "text": null,
+     "type": "quote",
+     "sourceType": "opp",
+     "sourceName": "박성훈",
+     "sourceDetail": null,
+     "party": "국민의힘"
+    },
+    {
+     "id": "s9",
+     "text": "교육부의 사전 대응이 미흡했다는 주장도 내놨다.",
+     "type": "opinion",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s10",
+     "text": null,
+     "type": "quote",
+     "sourceType": "opp",
+     "sourceName": "국민의힘",
+     "sourceDetail": null,
+     "party": "국민의힘"
+    },
+    {
+     "id": "s11",
+     "text": null,
+     "type": "quote",
+     "sourceType": "opp",
+     "sourceName": "박성훈",
+     "sourceDetail": null,
+     "party": "국민의힘"
+    },
+    {
+     "id": "s12",
+     "text": null,
+     "type": "quote",
+     "sourceType": "opp",
+     "sourceName": "박성훈",
+     "sourceDetail": null,
+     "party": "국민의힘"
+    },
+    {
+     "id": "s13",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s14",
+     "text": null,
+     "type": "quote",
+     "sourceType": "citizen",
+     "sourceName": "한국교원단체총연합회",
+     "sourceDetail": null,
+     "party": null
+    }
+   ],
+   "framingTerms": [
+    {
+     "term": "사퇴를 촉구했다",
+     "sentenceId": "s1"
+    },
+    {
+     "term": "무책임한",
+     "sentenceId": "s2"
+    },
+    {
+     "term": "강하게 비판했다",
+     "sentenceId": "s2"
+    },
+    {
+     "term": "밝혔다",
+     "sentenceId": "s3"
+    },
+    {
+     "term": "주장했다",
+     "sentenceId": "s4"
+    },
+    {
+     "term": "답했다",
+     "sentenceId": "s5"
+    },
+    {
+     "term": "말했다",
+     "sentenceId": "s6"
+    },
+    {
+     "term": "지적했다",
+     "sentenceId": "s7"
+    },
+    {
+     "term": "강조했다",
+     "sentenceId": "s8"
+    },
+    {
+     "term": "주장도 내놨다",
+     "sentenceId": "s9"
+    },
+    {
+     "term": "비판했다",
+     "sentenceId": "s10"
+    },
+    {
+     "term": "꼬집었다",
+     "sentenceId": "s11"
+    },
+    {
+     "term": "요구했다",
+     "sentenceId": "s12"
+    },
+    {
+     "term": "비판하며",
+     "sentenceId": "s13"
+    },
+    {
+     "term": "요구했다",
+     "sentenceId": "s13"
+    },
+    {
+     "term": "졸속 대응을 했다며",
+     "sentenceId": "s14"
+    },
+    {
+     "term": "촉구한 바 있다",
+     "sentenceId": "s14"
+    }
+   ],
+   "analyzedBy": "gemini-3.5-flash-lite"
+  },
+  {
+   "id": "a-bb54509461",
+   "issueId": "auto-20261121-1238-1",
+   "outletId": "edaily",
+   "outletName": "이데일리",
+   "title": "“사퇴하라면…” 수능 후 나타난 교육부 장관, 돌직구 질문에",
+   "summary": "2027학년도 대학수학능력시험(수능)을 앞두고 인공지능(AI) 부정행위 대응 관련 발언으로 논란을 빚었던 최교진 교육부 장관이 수능 다음 날인 20일 취재진 앞에 모습을 드러냈다. 곤혹스런 최교진 교육부 장관 최 장관은...",
+   "url": "https://www.edaily.co.kr/News/Read?newsId=04434566645647688&mediaCodeNo=257&utm_source=naver&utm_medium=referral&utm_campaign=news_syndication&utm_content=original_article",
+   "publishedAt": "2026-11-20T22:22:00+09:00",
+   "sentences": [
+    {
+     "id": "s1",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s2",
+     "text": null,
+     "type": "quote",
+     "sourceType": "gov",
+     "sourceName": "최 장관",
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s3",
+     "text": null,
+     "type": "quote",
+     "sourceType": "gov",
+     "sourceName": "최 장관",
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s4",
+     "text": "이를 두고 수험생들의 불안이 커지는 상황에서 교육 수장으로서 부적절한 발…",
+     "type": "opinion",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s5",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s6",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s7",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s8",
+     "text": null,
+     "type": "quote",
+     "sourceType": "gov",
+     "sourceName": "교육부 관계자",
+     "sourceDetail": null,
+     "party": null
+    }
+   ],
+   "framingTerms": [
+    {
+     "term": "부적절한",
+     "sentenceId": "s4"
+    },
+    {
+     "term": "키웠다는",
+     "sentenceId": "s4"
+    },
+    {
+     "term": "비판",
+     "sentenceId": "s4"
+    }
+   ],
+   "analyzedBy": "gemini-3.5-flash-lite"
+  },
+  {
+   "id": "a-472d4ec65e",
+   "issueId": "auto-20261121-1238-1",
+   "outletId": "dt",
+   "outletName": "디지털타임스",
+   "title": "최교진 “사퇴하라면 해야죠”에 국힘, “즉각 물러나라”",
+   "summary": "최 장관은 이날 오후 정부서울청사에서 열린 범정부 수능 부정행위 대응 태스크포스(TF) 첫 회의에 참석했다. 지난 16일 국회 교육위원회 출석 이후 나흘 만의 공개 일정이다. 취재진이 사퇴할 생각이 있느냐고 묻자 최...",
+   "url": "https://www.dt.co.kr/article/12096397?ref=naver",
+   "publishedAt": "2026-11-21T11:36:00+09:00",
+   "sentences": [
+    {
+     "id": "s1",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s2",
+     "text": null,
+     "type": "quote",
+     "sourceType": "gov",
+     "sourceName": "최 장관",
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s3",
+     "text": "야당과 교육계에 이어 여당 내부에서도 책임론이 제기되는 가운데 청와대에서…",
+     "type": "opinion",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s4",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s5",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s6",
+     "text": null,
+     "type": "quote",
+     "sourceType": "gov",
+     "sourceName": "최 장관",
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s7",
+     "text": null,
+     "type": "quote",
+     "sourceType": "gov",
+     "sourceName": "최 장관",
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s8",
+     "text": null,
+     "type": "quote",
+     "sourceType": "opp",
+     "sourceName": "국민의힘",
+     "sourceDetail": null,
+     "party": "국민의힘"
+    },
+    {
+     "id": "s9",
+     "text": null,
+     "type": "quote",
+     "sourceType": "opp",
+     "sourceName": "박성훈 국민의힘 수석대변인",
+     "sourceDetail": null,
+     "party": "국민의힘"
+    },
+    {
+     "id": "s10",
+     "text": null,
+     "type": "quote",
+     "sourceType": "opp",
+     "sourceName": "박성훈 국민의힘 수석대변인",
+     "sourceDetail": null,
+     "party": "국민의힘"
+    },
+    {
+     "id": "s11",
+     "text": null,
+     "type": "quote",
+     "sourceType": "opp",
+     "sourceName": "박성훈 국민의힘 수석대변인",
+     "sourceDetail": null,
+     "party": "국민의힘"
+    },
+    {
+     "id": "s12",
+     "text": null,
+     "type": "quote",
+     "sourceType": "opp",
+     "sourceName": "박 수석대변인",
+     "sourceDetail": null,
+     "party": "국민의힘"
+    }
+   ],
+   "framingTerms": [
+    {
+     "term": "부실 대응 논란",
+     "sentenceId": "s1"
+    },
+    {
+     "term": "사퇴 압박을 받고 있는",
+     "sentenceId": "s1"
+    },
+    {
+     "term": "부실한",
+     "sentenceId": "s2"
+    },
+    {
+     "term": "부적절한",
+     "sentenceId": "s2"
+    },
+    {
+     "term": "비판을 받은",
+     "sentenceId": "s2"
+    },
+    {
+     "term": "책임론이 제기되는",
+     "sentenceId": "s3"
+    },
+    {
+     "term": "부정적인 반응이 나왔다",
+     "sentenceId": "s3"
+    },
+    {
+     "term": "비판했다",
+     "sentenceId": "s8"
+    },
+    {
+     "term": "지적했다",
+     "sentenceId": "s10"
+    },
+    {
+     "term": "비판했다",
+     "sentenceId": "s11"
+    },
+    {
+     "term": "촉구했다",
+     "sentenceId": "s12"
+    }
+   ],
+   "analyzedBy": "gemini-3.5-flash-lite"
+  },
+  {
+   "id": "a-d9d2112f79",
+   "issueId": "auto-20261121-1238-1",
+   "outletId": "dailian",
+   "outletName": "데일리안",
+   "title": "\"나이 있어 못한다\" \"사퇴하라면 할 것\" 최교진에…주진우 \"핑계 말고 사...",
+   "summary": "뿐만 아니라 최 장관은 지난 20일 서울 종로구 정부서울청사에서 열린 '범정부 수능 부정행위 대응 TF' 첫 회의에 참석해선 취재진이 '사의를 표명할 생각이 있느냐'고 묻자 \"언제든지 임명해주신 분이 사퇴하라고 하면...",
+   "url": "https://www.dailian.co.kr/news/view/1717989/?sc=Naver",
+   "publishedAt": "2026-11-21T11:24:00+09:00",
+   "sentences": [
+    {
+     "id": "s1",
+     "text": null,
+     "type": "quote",
+     "sourceType": "opp",
+     "sourceName": "주진우 국민의힘 의원",
+     "sourceDetail": null,
+     "party": "국민의힘"
+    },
+    {
+     "id": "s2",
+     "text": null,
+     "type": "quote",
+     "sourceType": "opp",
+     "sourceName": "주진우 의원",
+     "sourceDetail": null,
+     "party": "국민의힘"
+    },
+    {
+     "id": "s3",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s4",
+     "text": "심지어 여당 내에서도 수험생들의 불안이 커지는 상황에서 교육수장으로서 부…",
+     "type": "opinion",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s5",
+     "text": null,
+     "type": "quote",
+     "sourceType": "gov",
+     "sourceName": "최 장관",
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s6",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s7",
+     "text": null,
+     "type": "quote",
+     "sourceType": "opp",
+     "sourceName": "주 의원",
+     "sourceDetail": null,
+     "party": "국민의힘"
+    },
+    {
+     "id": "s8",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s9",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s10",
+     "text": null,
+     "type": "quote",
+     "sourceType": "gov",
+     "sourceName": "국민권익위원회",
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s11",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s12",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s13",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s14",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s15",
+     "text": null,
+     "type": "quote",
+     "sourceType": "opp",
+     "sourceName": "주 의원",
+     "sourceDetail": null,
+     "party": "국민의힘"
+    }
+   ],
+   "framingTerms": [
+    {
+     "term": "직격했다",
+     "sentenceId": "s1"
+    },
+    {
+     "term": "질타했다",
+     "sentenceId": "s2"
+    },
+    {
+     "term": "논란의 중심에 섰다",
+     "sentenceId": "s3"
+    },
+    {
+     "term": "지적이 제기됐다",
+     "sentenceId": "s4"
+    },
+    {
+     "term": "설화에 휘말린",
+     "sentenceId": "s6"
+    },
+    {
+     "term": "목소리를 높였다",
+     "sentenceId": "s7"
+    },
+    {
+     "term": "촉구했다",
+     "sentenceId": "s15"
+    }
+   ],
+   "analyzedBy": "gemini-3.5-flash-lite"
+  },
+  {
+   "id": "a-b50da9b2c1",
+   "issueId": "auto-20261121-1238-1",
+   "outletId": "pennmike",
+   "outletName": "펜앤마이크",
+   "title": "최교진, \"임명권자가 사퇴하라면 한다\"...국민의힘 \"스스로 물러나라\"",
+   "summary": "이에 국민의힘은 최 장관이 \"무능과 무책임의 극치\"라면서 이재명 대통령을 향해 해임을 촉구했다. 최... 이를 두고 국민의힘은 '해임만 기다리지말고 사퇴하라'고 공격 수위를 높이고 있다. 박성훈 수석대변인은 21일...",
+   "url": "https://www.pennmike.com/news/articleView.html?idxno=132398",
+   "publishedAt": "2026-11-21T09:50:00+09:00",
+   "sentences": [
+    {
+     "id": "s1",
+     "text": "AI 부정행위로 얼룩진 수능이 '111건의 적발'과 'N건의 미적발 가능…",
+     "type": "opinion",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s2",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s3",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s4",
+     "text": null,
+     "type": "quote",
+     "sourceType": "opp",
+     "sourceName": "국민의힘",
+     "sourceDetail": null,
+     "party": "국민의힘"
+    },
+    {
+     "id": "s5",
+     "text": null,
+     "type": "quote",
+     "sourceType": "gov",
+     "sourceName": "최 장관",
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s6",
+     "text": "이를 두고 국민의힘은 '해임만 기다리지말고 사퇴하라'고 공격 수위를 높이…",
+     "type": "opinion",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s7",
+     "text": null,
+     "type": "quote",
+     "sourceType": "opp",
+     "sourceName": "박성훈 수석대변인",
+     "sourceDetail": null,
+     "party": "국민의힘"
+    }
+   ],
+   "framingTerms": [
+    {
+     "term": "얼룩진",
+     "sentenceId": "s1"
+    },
+    {
+     "term": "뜨거운",
+     "sentenceId": "s1"
+    },
+    {
+     "term": "고개를 들고 있다",
+     "sentenceId": "s1"
+    },
+    {
+     "term": "질타를 받았다",
+     "sentenceId": "s2"
+    },
+    {
+     "term": "번복해",
+     "sentenceId": "s3"
+    },
+    {
+     "term": "논란이 되기도 했다",
+     "sentenceId": "s3"
+    },
+    {
+     "term": "공격 수위를 높이고 있다",
+     "sentenceId": "s6"
+    },
+    {
+     "term": "직격했다",
+     "sentenceId": "s7"
+    }
+   ],
+   "analyzedBy": "gemini-3.5-flash-lite"
+  },
+  {
+   "id": "a-a928a28217",
+   "issueId": "auto-20261121-1240-1",
+   "outletId": "newsis",
+   "outletName": "뉴시스",
+   "title": "수억 부담금에 '술렁'…조합들 소송 불사·절감책 찾기 분주[재초환 후...",
+   "summary": "김효선 KB국민은행 부동산 수석전문위원은 \"강남권에서는 조합원 1인당 재초환 부담금 예정액만 평균 5억원에... 함영진 우리은행 부동산리서치랩장은 \"재건축 초기 단지는 재초환뿐 아니라 향후 사업비 증가와...",
+   "url": "https://www.newsis.com/view/NISX20261120_0003877389",
+   "publishedAt": "2026-11-21T12:00:00+09:00",
+   "sentences": [
+    {
+     "id": "s1",
+     "text": "조합원들 입장에서는 재건축 분담금을 내고도 추가로 억대 부담금 고지서를…",
+     "type": "opinion",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s2",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s3",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s4",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s5",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s6",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s7",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s8",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s9",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s10",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s11",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s12",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s13",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s14",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s15",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s16",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s17",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s18",
+     "text": "다만 이 경우 재건축 사업 비례율이 떨어져 사업성 자체가 악화되고 분담금…",
+     "type": "opinion",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s19",
+     "text": null,
+     "type": "quote",
+     "sourceType": "citizen",
+     "sourceName": "A재건축 단지 조합원",
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s20",
+     "text": null,
+     "type": "quote",
+     "sourceType": "citizen",
+     "sourceName": "B단지 재건축 조합장",
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s21",
+     "text": "재초환 부담금 집행이 현실화되면서 서울의 재건축 시장은 혼란을 피할 수…",
+     "type": "opinion",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s22",
+     "text": "강남권은 수억원대 재초환 부담금이, 강북권은 사업성 우려로 인한 추가분담…",
+     "type": "opinion",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s23",
+     "text": null,
+     "type": "quote",
+     "sourceType": "expert",
+     "sourceName": "김효선 KB국민은행 부동산 수석전문위원",
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s24",
+     "text": null,
+     "type": "quote",
+     "sourceType": "expert",
+     "sourceName": "김효선 KB국민은행 부동산 수석전문위원",
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s25",
+     "text": null,
+     "type": "quote",
+     "sourceType": "expert",
+     "sourceName": "함영진 우리은행 부동산리서치랩장",
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s26",
+     "text": null,
+     "type": "quote",
+     "sourceType": "expert",
+     "sourceName": "함영진 우리은행 부동산리서치랩장",
+     "sourceDetail": null,
+     "party": null
+    }
+   ],
+   "framingTerms": [
+    {
+     "term": "혼란을 피할 수 없게 됐다",
+     "sentenceId": "s21"
+    },
+    {
+     "term": "지적이 나온다",
+     "sentenceId": "s22"
+    }
+   ],
+   "analyzedBy": "gemini-3.5-flash-lite"
+  },
+  {
+   "id": "a-80802bccca",
+   "issueId": "auto-20261121-1240-1",
+   "outletId": "mk",
+   "outletName": "매일경제",
+   "title": "재초환 부담금 현실로…강남 재건축 시장 ‘발칵’",
+   "summary": "함영진 우리은행 부동산리서치랩장은 “일부 지자체가 특례 적용을 놓고 다른 해석을 내놨지만 국토부 해석으로 부과 시한에 대한 행정적 불확실성이 줄어들게 됐다”면서도 “부과 임박 단지는 공사비 상승...",
+   "url": "https://www.mk.co.kr/article/12214882",
+   "publishedAt": "2026-11-20T17:44:00+09:00",
+   "sentences": [
+    {
+     "id": "s1",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s2",
+     "text": "이에 강남권 재초환 1호 단지인 서울 서초구 반포현대 재건축조합에 재건축…",
+     "type": "opinion",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s3",
+     "text": null,
+     "type": "quote",
+     "sourceType": "gov",
+     "sourceName": "국토부",
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s4",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s5",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s6",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s7",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s8",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s9",
+     "text": null,
+     "type": "quote",
+     "sourceType": "industry",
+     "sourceName": "조합 측",
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s10",
+     "text": null,
+     "type": "quote",
+     "sourceType": "industry",
+     "sourceName": "조합 측",
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s11",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s12",
+     "text": null,
+     "type": "quote",
+     "sourceType": "gov",
+     "sourceName": "국토부",
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s13",
+     "text": null,
+     "type": "quote",
+     "sourceType": "gov",
+     "sourceName": "국토부",
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s14",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s15",
+     "text": null,
+     "type": "quote",
+     "sourceType": "gov",
+     "sourceName": "국토부",
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s16",
+     "text": "국토부의 판단이 나온 만큼 반포현대 재건축조합에는 다음 달 30일까지 최…",
+     "type": "opinion",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s17",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s18",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s19",
+     "text": "시장에서는 규제 기준이 분명해졌지만 재건축 사업성을 떨어뜨려 주택 공급에…",
+     "type": "opinion",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s20",
+     "text": null,
+     "type": "quote",
+     "sourceType": "industry",
+     "sourceName": "함영진 우리은행 부동산리서치랩장",
+     "sourceDetail": null,
+     "party": null
+    }
+   ],
+   "framingTerms": [
+    {
+     "term": "못 박았다",
+     "sentenceId": "s1"
+    },
+    {
+     "term": "받아들인 것이다",
+     "sentenceId": "s4"
+    },
+    {
+     "term": "주장했다",
+     "sentenceId": "s9"
+    },
+    {
+     "term": "진단했다",
+     "sentenceId": "s20"
+    }
+   ],
+   "analyzedBy": "gemini-3.5-flash-lite"
+  },
+  {
+   "id": "a-9dc92e75ff",
+   "issueId": "auto-20261121-1240-1",
+   "outletId": "edaily",
+   "outletName": "이데일리",
+   "title": "재건축 `부담금 폭탄` 현실로…산정부터 승계까지 혼란[똑똑한부동산]",
+   "summary": "재건축 부담금이 본격적으로 부과되면서 이를 둘러싼 혼란이 가중되고 있다. 재건축 부담금은 재건축 사업으로 인해 조합원 1인당 이득한 초과이익이 8천만원을 초과하면 납부해야 하는 일종의 개발부담금이다....",
+   "url": "https://www.edaily.co.kr/News/Read?newsId=01895846645648016&mediaCodeNo=257&utm_source=naver&utm_medium=referral&utm_campaign=news_syndication&utm_content=original_article",
+   "publishedAt": "2026-11-21T11:02:00+09:00",
+   "sentences": [
+    {
+     "id": "s1",
+     "text": null,
+     "type": "quote",
+     "sourceType": "citizen",
+     "sourceName": "김예림 법무법인 심목 대표변호사",
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s2",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s3",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s4",
+     "text": "재건축초과이익환수제도는 한 차례 개정이 되긴 했지만, 그에 따르더라도 여…",
+     "type": "opinion",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s5",
+     "text": "그렇다면 초과이익은 어떻게 산정하는 것일까?",
+     "type": "opinion",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s6",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s7",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s8",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s9",
+     "text": "이와 별개로 조합은 조합원으로부터 재건축 부담금을 징수해 행정청에 납부해…",
+     "type": "opinion",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s10",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s11",
+     "text": "재건축 단지마다 조합원에 대한 징수 기준 등이 달라 혼란스러울 수 있고,…",
+     "type": "opinion",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s12",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s13",
+     "text": "법적 분쟁을 줄이기 위해서는 법적 해석에 생기지 않도록 법령을 구체적이고…",
+     "type": "opinion",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s14",
+     "text": "특히 부담금 부과는 불이익한 처분이라는 점에서 명확한 근거규정이 존재해야…",
+     "type": "opinion",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    }
+   ],
+   "framingTerms": [
+    {
+     "term": "혼란이 가중되고 있다",
+     "sentenceId": "s1"
+    },
+    {
+     "term": "만만치는 않다",
+     "sentenceId": "s4"
+    },
+    {
+     "term": "혼란스러울",
+     "sentenceId": "s11"
+    },
+    {
+     "term": "명확하지 않다",
+     "sentenceId": "s11"
+    },
+    {
+     "term": "침해를 최소화할 수 있다",
+     "sentenceId": "s14"
+    }
+   ],
+   "analyzedBy": "gemini-3.5-flash-lite"
+  },
+  {
+   "id": "a-0d2df1bb00",
+   "issueId": "auto-20261121-1240-1",
+   "outletId": "yonhapnewstv",
+   "outletName": "연합뉴스TV",
+   "title": "재초환 부과 확정…억대 부담금에 재건축 '비상'",
+   "summary": "[기자] 재건축을 통해 발생한 이익 일부를 정부가 걷어가는 '재건축초과이익환수제' 최근 정부는 재초환 부담금 부과 기한을 연장하지 않기로 결정했고, 이에 따라 올해 말부터 전국 재건축 단지에 순차적으로 부담금이...",
+   "url": "http://www.yonhapnewstv.co.kr/news/MYH202611210908080tu",
+   "publishedAt": "2026-11-21T09:08:00+09:00",
+   "sentences": [
+    {
+     "id": "s1",
+     "text": "재건축초과이익환수제 부담금이 올해 말부터 본격적으로 부과될 전망입니다.",
+     "type": "opinion",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s2",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s3",
+     "text": "강남권 재건축 단지의 경우 부담금이 수억 원에 달해 파장이 클 것으로 예…",
+     "type": "opinion",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s4",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s5",
+     "text": "최근 정부는 재초환 부담금 부과 기한을 연장하지 않기로 결정했고, 이에…",
+     "type": "opinion",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s6",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s7",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s8",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s9",
+     "text": null,
+     "type": "quote",
+     "sourceType": "citizen",
+     "sourceName": "반포현대 재건축 조합",
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s10",
+     "text": null,
+     "type": "quote",
+     "sourceType": "citizen",
+     "sourceName": "이순복",
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s11",
+     "text": "재초환 부담금 부과가 현실화되면, 고액 부담금이 예상되는 강남권 재건축…",
+     "type": "opinion",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s12",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s13",
+     "text": null,
+     "type": "quote",
+     "sourceType": "industry",
+     "sourceName": "이한성",
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s14",
+     "text": "공사비 상승에 따른 추가 분담금에 재초환까지 내야 하기에, 재건축을 통한…",
+     "type": "opinion",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s15",
+     "text": null,
+     "type": "quote",
+     "sourceType": "expert",
+     "sourceName": "권대중",
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s16",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s17",
+     "text": "당신이 담은 순간이 뉴스입니다!",
+     "type": "opinion",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    }
+   ],
+   "framingTerms": [
+    {
+     "term": "예고했습니다",
+     "sentenceId": "s9"
+    },
+    {
+     "term": "속출하고 있습니다",
+     "sentenceId": "s12"
+    },
+    {
+     "term": "우려도 나옵니다",
+     "sentenceId": "s14"
+    }
+   ],
+   "analyzedBy": "gemini-3.5-flash-lite"
+  },
+  {
+   "id": "a-f299f7f35c",
+   "issueId": "auto-20261121-1240-1",
+   "outletId": "heraldcorp",
+   "outletName": "헤럴드경제",
+   "title": "“부담금 보고 결정합시다” 재초환 부과에 재건축 공급 늦어질까 [부동...",
+   "summary": "박합수 건국대 부동산대학원 겸임교수는 “재건축 부담금은 초기 단계 사업장엔 ‘미래의 청구서’지만 개별... 함영진 우리은행 부동산리서치랩장은 “공사비와 금융비용, 조합원 분담금이 겹치는 상황에서...",
+   "url": "https://biz.heraldcorp.com/article/10943814?ref=naver",
+   "publishedAt": "2026-11-20T10:49:00+09:00",
+   "sentences": [
+    {
+     "id": "s1",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s2",
+     "text": "공사비와 금융비용이 오른 상황에서 재건축부담금까지 조합원 부담으로 구체화…",
+     "type": "opinion",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s3",
+     "text": "이런 지연이 사업장마다 쌓이면 도심 신규 아파트의 착공과 입주 시기에도…",
+     "type": "opinion",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s4",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s5",
+     "text": null,
+     "type": "quote",
+     "sourceType": "industry",
+     "sourceName": "업계",
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s6",
+     "text": "특히 사업 초기에는 조합 설립에 필요한 소유주 동의 확보가 관건이다.",
+     "type": "opinion",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s7",
+     "text": "공사비를 반영한 사업비와 조합원 분담금도 가늠하기 어려운 단계에서 재건축…",
+     "type": "opinion",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s8",
+     "text": "일부 소유주가 예상 비용을 더 확인한 뒤 동의하겠다고 나서면 조합 설립부…",
+     "type": "opinion",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s9",
+     "text": "사업성이 낮은 소규모 단지는 리모델링 전환 등을 검토하면서 사업 방식 논…",
+     "type": "opinion",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s10",
+     "text": null,
+     "type": "quote",
+     "sourceType": "expert",
+     "sourceName": "박합수 건국대 부동산대학원 겸임교수",
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s11",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s12",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s13",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s14",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s15",
+     "text": "공사비 상승으로 추가분담금이 늘어난 상황에서 재건축부담금까지 예상되면 조…",
+     "type": "opinion",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s16",
+     "text": "총회 의결이나 인허가가 늦어지면 이주·철거와 착공 일정도 순차적으로 밀릴…",
+     "type": "opinion",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s17",
+     "text": null,
+     "type": "quote",
+     "sourceType": "etc",
+     "sourceName": "업계 관계자",
+     "sourceDetail": "익명(소속 미상)",
+     "party": null
+    },
+    {
+     "id": "s18",
+     "text": "더군다나 사업 지연은 다시 비용 부담으로 돌아올 수 있다.",
+     "type": "opinion",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s19",
+     "text": "사업 기간이 길어지면 금융비용이 늘고, 공사비를 다시 협의하는 과정에서…",
+     "type": "opinion",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s20",
+     "text": null,
+     "type": "quote",
+     "sourceType": "expert",
+     "sourceName": "함영진 우리은행 부동산리서치랩장",
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s21",
+     "text": "강북 외곽에선 사업성이 빠듯한 단지가 영향을 받을 수 있다는 지적이 나온…",
+     "type": "opinion",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s22",
+     "text": null,
+     "type": "quote",
+     "sourceType": "expert",
+     "sourceName": "송승현 도시와경제 대표",
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s23",
+     "text": "일반분양 수입으로 사업비를 충당하기 어려운곳일수록 조합원이 추가로 부담할…",
+     "type": "opinion",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s24",
+     "text": null,
+     "type": "quote",
+     "sourceType": "expert",
+     "sourceName": "김효선 KB국민은행 부동산수석전문위원",
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s25",
+     "text": "초기 단지의 조합 설립 지연은 중장기 공급 일정에, 사업이 진행된 단지의…",
+     "type": "opinion",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s26",
+     "text": "재건축 단지 내에서도 재초환 부담 여부 및 액수에 따라 집값 흐름이 달라…",
+     "type": "opinion",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s27",
+     "text": null,
+     "type": "quote",
+     "sourceType": "expert",
+     "sourceName": "김제경 투미부동산컨설팅 소장",
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s28",
+     "text": null,
+     "type": "quote",
+     "sourceType": "expert",
+     "sourceName": "함 랩장",
+     "sourceDetail": null,
+     "party": null
+    }
+   ],
+   "framingTerms": [
+    {
+     "term": "늦출 수 있다",
+     "sentenceId": "s2"
+    },
+    {
+     "term": "영향을 줄 수 있다",
+     "sentenceId": "s3"
+    },
+    {
+     "term": "더뎌질 수 있다",
+     "sentenceId": "s7"
+    },
+    {
+     "term": "늦춰질 가능성도 있다",
+     "sentenceId": "s8"
+    },
+    {
+     "term": "속도를 내기 어렵다",
+     "sentenceId": "s9"
+    },
+    {
+     "term": "이견을 제기할 수 있다",
+     "sentenceId": "s15"
+    },
+    {
+     "term": "밀릴 수 있다",
+     "sentenceId": "s16"
+    },
+    {
+     "term": "지적이 나온다",
+     "sentenceId": "s21"
+    },
+    {
+     "term": "전망도 나온다",
+     "sentenceId": "s26"
+    }
+   ],
+   "analyzedBy": "gemini-3.5-flash-lite"
+  },
+  {
+   "id": "a-ff503b816e",
+   "issueId": "auto-20261121-1240-1",
+   "outletId": "etoday",
+   "outletName": "이투데이",
+   "title": "재초환 부과기한 확정에 조합들 집단행동⋯폐지법안도 재등장",
+   "summary": "전국 82개 조합 내달 공동 집회 반포현대 179억원 부과 예고 부담금 산정 이의신청·소송 검토 국회서 재초환 폐지법안 재발의 정부가 재건축초과이익환수제(재초환) 부담금 부과기한을...",
+   "url": "https://www.etoday.co.kr/news/view/2651068",
+   "publishedAt": "2026-11-21T09:02:00+09:00",
+   "sentences": [
+    {
+     "id": "s1",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s2",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s3",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s4",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s5",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s6",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s7",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s8",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s9",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s10",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s11",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s12",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s13",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s14",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s15",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s16",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s17",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s18",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s19",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s20",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s21",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s22",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s23",
+     "text": null,
+     "type": "quote",
+     "sourceType": "opp",
+     "sourceName": "고동진 의원",
+     "sourceDetail": null,
+     "party": "국민의힘"
+    },
+    {
+     "id": "s24",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s25",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s26",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s27",
+     "text": "부담금 부과가 본격화하면 소송의 초점은 초과이익과 개발비용을 어떻게 산정…",
+     "type": "opinion",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s28",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s29",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s30",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s31",
+     "text": null,
+     "type": "quote",
+     "sourceType": "expert",
+     "sourceName": "신보연 교수",
+     "sourceDetail": null,
+     "party": null
+    }
+   ],
+   "framingTerms": [
+    {
+     "term": "반발",
+     "sentenceId": "s1"
+    },
+    {
+     "term": "갈등",
+     "sentenceId": "s2"
+    },
+    {
+     "term": "반발",
+     "sentenceId": "s6"
+    },
+    {
+     "term": "우려",
+     "sentenceId": "s18"
+    }
+   ],
+   "analyzedBy": "gemini-3.5-flash-lite"
+  },
+  {
+   "id": "a-fb71cc79ec",
+   "issueId": "auto-20261121-1243-1",
+   "outletId": "newsis",
+   "outletName": "뉴시스",
+   "title": "공소청, 'TV조선 점수조작 의혹' 1심 무죄에 항소…한상혁은 제외",
+   "summary": "검찰은 한 전위원장에게 징역 3년을 구형했었다. 한 전 위원장은 1심 선고 뒤 \"공영방송을 정부 입맛에 맞는 인사로 교체하기 위해 진행됐던 일련의 과정\"이라며 \"다시는 우리 사회에서 정치적 목적을 위해 수사를 왜곡...",
+   "url": "https://www.newsis.com/view/NISX20261120_0003876671",
+   "publishedAt": "2026-11-20T12:59:00+09:00",
+   "sentences": [
+    {
+     "id": "s1",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s2",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s3",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s4",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s5",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s6",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s7",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s8",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s9",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s10",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s11",
+     "text": null,
+     "type": "quote",
+     "sourceType": "etc",
+     "sourceName": "한 전 위원장",
+     "sourceDetail": "전 방통위원장",
+     "party": null
+    },
+    {
+     "id": "s12",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s13",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    }
+   ],
+   "framingTerms": [
+    {
+     "term": "부당하게 개입한",
+     "sentenceId": "s1"
+    },
+    {
+     "term": "비판해 온",
+     "sentenceId": "s7"
+    },
+    {
+     "term": "조작된",
+     "sentenceId": "s7"
+    },
+    {
+     "term": "허위",
+     "sentenceId": "s8"
+    }
+   ],
+   "analyzedBy": "gemini-3.5-flash-lite"
+  },
+  {
+   "id": "a-9157a91f77",
+   "issueId": "auto-20261121-1243-1",
+   "outletId": "tvchosun",
+   "outletName": "TV조선",
+   "title": "공소청, 'TV조선 점수조작 의혹' 1심 무죄 판결에 항소…과방위 민주 항...",
+   "summary": "국회 과학기술정보방송통신위원회 소속 더불어민주당 위원들은 이날 공소청의 항소를 규탄하는 성명을 발표했다. 위원들은 \"무리한 기소가 남긴 피해를 돌아보고 바로잡아야 할 공소청이 항소 시한 마지막 날 항소를...",
+   "url": "https://news.tvchosun.com/site/data/html_dir/2026/11/20/2026112090306.html",
+   "publishedAt": "2026-11-20T22:55:00+09:00",
+   "sentences": [
+    {
+     "id": "s1",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s2",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s3",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s4",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s5",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s6",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s7",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s8",
+     "text": null,
+     "type": "quote",
+     "sourceType": "gov",
+     "sourceName": "국회 과학기술정보방송통신위원회 소속 더불어민주당 위원들",
+     "sourceDetail": null,
+     "party": "더불어민주당"
+    }
+   ],
+   "framingTerms": [
+    {
+     "term": "무리한",
+     "sentenceId": "s8"
+    }
+   ],
+   "analyzedBy": "gemini-3.5-flash-lite"
+  },
+  {
+   "id": "a-0527b7f728",
+   "issueId": "auto-20261121-1243-1",
+   "outletId": "khan",
+   "outletName": "경향신문",
+   "title": "공소청, ‘종편 점수 조작’ 1심 무죄 한상혁 전 방통위원장 항소 포기",
+   "summary": "앞서 윤석열 정부 당시 감사원은 방통위를 대상으로 감사를 한 뒤, 점수 조작 의혹 관련 자료를 2022년 9월 대검찰청(현 공소청)에 넘겼다. 이후 검찰은 2023년 5월 한 전 위원장을 기소했고, 이를 근거로 한 전 위원장은...",
+   "url": "https://www.khan.co.kr/article/202611201419001",
+   "publishedAt": "2026-11-20T14:19:00+09:00",
+   "sentences": [
+    {
+     "id": "s1",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s2",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s3",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s4",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s5",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s6",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s7",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s8",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s9",
+     "text": null,
+     "type": "quote",
+     "sourceType": "etc",
+     "sourceName": "재판부",
+     "sourceDetail": "법원",
+     "party": null
+    },
+    {
+     "id": "s10",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s11",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s12",
+     "text": "정부가 방송 장악을 시도한다는 비판이 나왔다.",
+     "type": "opinion",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    }
+   ],
+   "framingTerms": [],
+   "analyzedBy": "gemini-3.5-flash-lite"
+  },
+  {
+   "id": "a-6ec5bae177",
+   "issueId": "auto-20261121-1243-1",
+   "outletId": "sedaily",
+   "outletName": "서울경제",
+   "title": "공소청, ‘TV조선 점수조작 의혹’ 항소…前 방통위원장 제외",
+   "summary": "일부 심사위원들이 TV조선의 재승인 평가점수를 수정한 사실은 인정하면서도 이들이 사전에 공모해 의도적으로 점수를 조작했다고 단정하기 어렵다고 판단했다. 검찰은 한 전위원장에게 징역 3년을 구형한 바 있다.",
+   "url": "https://www.sedaily.com/article/20116975?ref=naver",
+   "publishedAt": "2026-11-20T15:15:00+09:00",
+   "sentences": [
+    {
+     "id": "s1",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s2",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s3",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s4",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s5",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s6",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s7",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s8",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    }
+   ],
+   "framingTerms": [
+    {
+     "term": "부당하게",
+     "sentenceId": "s1"
+    },
+    {
+     "term": "조작한",
+     "sentenceId": "s6"
+    },
+    {
+     "term": "조작했다고",
+     "sentenceId": "s7"
+    }
+   ],
+   "analyzedBy": "gemini-3.5-flash-lite"
+  },
+  {
+   "id": "a-c79e0eb40c",
+   "issueId": "auto-20261121-1243-1",
+   "outletId": "ohmynews",
+   "outletName": "오마이뉴스",
+   "title": "한상혁 빼고 5명만 항소? 공소청의 목적은 대체 무엇인가",
+   "summary": "▲  공소청 출범을 앞둔 지난 9월 29일 서울 북부지방검찰청 청사에서 관계자들이 검찰 간판 자리에 공소청 간판 설치를 하고 있다. ⓒ 연합뉴스 서울북부지방공소청은 19일 이른바 'TV조선 재승인 심사 점수 조작 사건'과...",
+   "url": "https://www.ohmynews.com/NWS_Web/View/at_pg.aspx?CNTN_CD=A0003286685&CMPT_CD=P0010&utm_source=naver&utm_medium=newsearch&utm_campaign=naver_news",
+   "publishedAt": "2026-11-20T18:41:00+09:00",
+   "sentences": [
+    {
+     "id": "s1",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s2",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s3",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s4",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s5",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s6",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s7",
+     "text": null,
+     "type": "quote",
+     "sourceType": "etc",
+     "sourceName": "서울북부지방공소청",
+     "sourceDetail": "검찰",
+     "party": null
+    },
+    {
+     "id": "s8",
+     "text": null,
+     "type": "quote",
+     "sourceType": "etc",
+     "sourceName": "서울북부지방공소청",
+     "sourceDetail": "검찰",
+     "party": null
+    },
+    {
+     "id": "s9",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s10",
+     "text": "공소청이 추후에 제출할 항소이유서를 검토해야겠지만 1심 판결문을 근거로…",
+     "type": "opinion",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s11",
+     "text": "검찰이 범죄의 출발점으로 지목했던 한상혁의 무죄는 받아들이면서, 그 의중…",
+     "type": "opinion",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s12",
+     "text": "공소장 속 범죄의 출발점이자 목표는 한상혁이었다",
+     "type": "opinion",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s13",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s14",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s15",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s16",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s17",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s18",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s19",
+     "text": "즉 한상혁 당시 위원장의 의중과 관여가 전체 범죄를 연결하는 중요한 고리…",
+     "type": "opinion",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s20",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s21",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s22",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s23",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s24",
+     "text": null,
+     "type": "quote",
+     "sourceType": "etc",
+     "sourceName": "한상혁",
+     "sourceDetail": "익명(소속 미상)",
+     "party": null
+    },
+    {
+     "id": "s25",
+     "text": null,
+     "type": "quote",
+     "sourceType": "etc",
+     "sourceName": "한상혁",
+     "sourceDetail": "익명(소속 미상)",
+     "party": null
+    },
+    {
+     "id": "s26",
+     "text": "그렇다면 공소청은 한상혁 전 위원장을 제외하고도 어떤 범죄구성이 성립한다…",
+     "type": "opinion",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s27",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s28",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s29",
+     "text": "하지만 이번 사건에서는 반드시 짚어야 할 사실이 있다.",
+     "type": "opinion",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s30",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s31",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s32",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s33",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s34",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s35",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s36",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s37",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s38",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s39",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s40",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s41",
+     "text": "점수 수정은 있었지만 그것이 범죄에 해당한다는 검찰의 주장은 증명되지 않…",
+     "type": "opinion",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s42",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s43",
+     "text": "이 모든 판단은 한상혁 전 위원장의 무죄 여부에만 종속된 것이 아니다.",
+     "type": "opinion",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s44",
+     "text": "따라서 공소청이 한상혁 전 위원장을 제외하고 5명만 항소했다고 해서 1심…",
+     "type": "opinion",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s45",
+     "text": "공소청이 1심 판결의 문제점을 검토했다고 밝힌 만큼, 항소이유서에서 적어…",
+     "type": "opinion",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s46",
+     "text": "첫째, 한상혁 전 위원장의 지시와 관여를 더 이상 다투지 않으면서 나머지…",
+     "type": "opinion",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s47",
+     "text": "둘째, 양한열 전 국장과 차중호 전 과장의 공모를 부정하는 문자메시지에…",
+     "type": "opinion",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s48",
+     "text": "셋째, 윤석년 심사위원장과 두 심사위원 사이의 불법적인 공모가 증명되지…",
+     "type": "opinion",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s49",
+     "text": "검찰이 장기간 재판 끝에 증명하지 못한 범죄를 공소청이 도대체 어떻게 증…",
+     "type": "opinion",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s50",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s51",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s52",
+     "text": "이번 선택적 항소가 법적으로 허용된다는 사실만으로 그 결정의 타당성이 입…",
+     "type": "opinion",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s53",
+     "text": "한상혁 전 위원장을 제외하고도 어떤 범죄가 남는가.",
+     "type": "opinion",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s54",
+     "text": "그리고 1심이 이미 그 범죄의 증명이 부족하다고 판단했는데 무엇이 잘못됐…",
+     "type": "opinion",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s55",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s56",
+     "text": "그 원칙은 항소심에서도 달라지지 않는다.",
+     "type": "opinion",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    }
+   ],
+   "framingTerms": [],
    "analyzedBy": "gemini-3.5-flash-lite"
   }
  ]
