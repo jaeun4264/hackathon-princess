@@ -1214,6 +1214,74 @@
    "date": "2026-11-20",
    "origin": "auto",
    "stance": null
+  },
+  {
+   "id": "auto-20261122-1142-1",
+   "title": "국민의힘, 증시 '블랙먼데이' 우려…정부 긴급 대응 촉구",
+   "summary": "국민의힘 정점식 원내대표는 22일 국내외 주식시장 급락과 관련해 '블랙먼데이' 가능성을 경고하며 정부에 긴급 대응 조치 마련을 촉구했다.",
+   "category": "정치",
+   "date": "2026-11-22",
+   "origin": "auto",
+   "stance": null
+  },
+  {
+   "id": "auto-20261122-1143-1",
+   "title": "민주당 조희대 탄핵추진단, 연내 의결 추진",
+   "summary": "더불어민주당 조희대 대법원장 탄핵소추 추진단은 22일 기자간담회를 열고 12월 안에 국회에서 탄핵소추안을 의결하겠다고 밝혔다. 추진단은 대법관 제청 지연 등을 탄핵 사유로 제시했다.",
+   "category": "정치",
+   "date": "2026-11-22",
+   "origin": "auto",
+   "stance": null
+  },
+  {
+   "id": "auto-20261122-1144-1",
+   "title": "국민의힘, 대구서 특검법 규탄대회…여야 공방",
+   "summary": "국민의힘은 21일 대구에서 '조작기소 특검법' 폐지와 조희대 대법원장 탄핵 추진을 비판하는 대규모 장외집회를 개최했고, 더불어민주당은 이를 민생을 외면한 정쟁으로 규정하며 반발했다.",
+   "category": "정치",
+   "date": "2026-11-21",
+   "origin": "auto",
+   "stance": {
+    "common": null,
+    "diff": "국민의힘은 특검법 폐지와 대법원장 탄핵 추진을 규탄하고, 더불어민주당은 이를 비판하며 장외집회를 중단하라고 요구한다.",
+    "sources": [
+     "연합뉴스",
+     "뉴시스",
+     "SBS",
+     "YTN",
+     "TV조선",
+     "채널A",
+     "한겨레",
+     "경향신문"
+    ],
+    "by": "ai"
+   }
+  },
+  {
+   "id": "auto-20261122-1145-1",
+   "title": "오세훈 \"대법원장 탄핵 시 대통령 심판열차 출발\"",
+   "summary": "오세훈 서울시장은 22일 페이스북을 통해 더불어민주당의 조희대 대법원장 탄핵 추진을 사법부 장악 시도라고 비판하며, 탄핵안 처리 시 이재명 대통령을 향한 심판열차가 출발할 것이라고 밝혔다.",
+   "category": "정치",
+   "date": "2026-11-22",
+   "origin": "auto",
+   "stance": null
+  },
+  {
+   "id": "auto-20261122-1148-1",
+   "title": "이용철 법무장관 후보자 인사청문회 쟁점",
+   "summary": "국회 법제사법위원회가 24일 이용철 법무부 장관 후보자에 대한 인사청문회를 연다. 이번 청문회에서는 대통령 관련 사건의 공소취소 문제와 대장동 사업 등이 주요 쟁점으로 다뤄질 예정이다.",
+   "category": "정치",
+   "date": "2026-11-21",
+   "origin": "auto",
+   "stance": null
+  },
+  {
+   "id": "auto-20261122-1149-1",
+   "title": "한국 수출 1조 달러 전망…반도체 제외 시 세계 8위",
+   "summary": "산업통상자원부는 한국의 올해 수출이 1조 달러를 기록해 세계 4위로 전망되나 반도체를 제외하면 세계 8위 수준이라고 밝혔다. 정부는 첨단산업 연구개발 경쟁력 강화를 위해 초광역특구법 제정과 주 52시간제 예외 등 노동 특례 도입을 추진하고 있다.",
+   "category": "경제",
+   "date": "2026-11-22",
+   "origin": "auto",
+   "stance": null
   }
  ],
  "articles": [
@@ -111450,6 +111518,7340 @@
     }
    ],
    "framingTerms": [],
+   "analyzedBy": "gemini-3.5-flash-lite"
+  },
+  {
+   "id": "a-ad3abae5ac",
+   "issueId": "auto-20261122-1142-1",
+   "outletId": "yna",
+   "outletName": "연합뉴스",
+   "title": "정점식 \"정부, 블랙먼데이 가능성 대비 긴급조치 준비해야\"",
+   "summary": "\"지금 정부·여당이 신경 써야 할 일은 탄핵이 아니라 주식시장\" 국민의힘 정점식 원내대표는 22일 한국과 미국의 동반 주식시장 급락과 관련, \"정부는 '블랙 먼데이' 가능성에 대비한 긴급 대응 조치를 미리 준비하길...",
+   "url": "https://www.yna.co.kr/view/AKR20261122016800001?input=1195m",
+   "publishedAt": "2026-11-22T10:38:00+09:00",
+   "sentences": [
+    {
+     "id": "s1",
+     "text": "전체 내용을 이해하기 위해서는 기사 본문과 함께 읽어야 합니다.",
+     "type": "opinion",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s2",
+     "text": null,
+     "type": "quote",
+     "sourceType": "opp",
+     "sourceName": "정점식 원내대표",
+     "sourceDetail": null,
+     "party": "국민의힘"
+    },
+    {
+     "id": "s3",
+     "text": null,
+     "type": "quote",
+     "sourceType": "opp",
+     "sourceName": "정 원내대표",
+     "sourceDetail": null,
+     "party": "국민의힘"
+    },
+    {
+     "id": "s4",
+     "text": null,
+     "type": "quote",
+     "sourceType": "opp",
+     "sourceName": "정 원내대표",
+     "sourceDetail": null,
+     "party": "국민의힘"
+    },
+    {
+     "id": "s5",
+     "text": null,
+     "type": "quote",
+     "sourceType": "opp",
+     "sourceName": "그",
+     "sourceDetail": null,
+     "party": "국민의힘"
+    },
+    {
+     "id": "s6",
+     "text": null,
+     "type": "quote",
+     "sourceType": "opp",
+     "sourceName": "그",
+     "sourceDetail": null,
+     "party": "국민의힘"
+    }
+   ],
+   "framingTerms": [
+    {
+     "term": "꼬집었다",
+     "sentenceId": "s4"
+    },
+    {
+     "term": "비판했다",
+     "sentenceId": "s6"
+    }
+   ],
+   "analyzedBy": "gemini-3.5-flash-lite"
+  },
+  {
+   "id": "a-2d21ac9595",
+   "issueId": "auto-20261122-1142-1",
+   "outletId": "newsis",
+   "outletName": "뉴시스",
+   "title": "국힘 \"내일 증시 '블랙먼데이' 우려…정부, 긴급 대응조치 준비해야\"",
+   "summary": "국민의힘은 22일 국내 증시의 추가 급락 가능성을 거론하며 \"정부는 블랙먼데이 가능성에 대비한 긴급... 정부 주가 부양책을 겨냥해서는 \"단일종목 레버리지 상장지수펀드(ETF) 졸속 도입과 국민연금 리밸런싱 유예 등...",
+   "url": "https://www.newsis.com/view/NISX20261122_0003877971",
+   "publishedAt": "2026-11-22T10:00:00+09:00",
+   "sentences": [
+    {
+     "id": "s1",
+     "text": null,
+     "type": "quote",
+     "sourceType": "opp",
+     "sourceName": "국민의힘",
+     "sourceDetail": null,
+     "party": "국민의힘"
+    },
+    {
+     "id": "s2",
+     "text": null,
+     "type": "quote",
+     "sourceType": "opp",
+     "sourceName": "정점식 원내대표",
+     "sourceDetail": null,
+     "party": "국민의힘"
+    },
+    {
+     "id": "s3",
+     "text": null,
+     "type": "quote",
+     "sourceType": "opp",
+     "sourceName": "정점식",
+     "sourceDetail": null,
+     "party": "국민의힘"
+    },
+    {
+     "id": "s4",
+     "text": null,
+     "type": "quote",
+     "sourceType": "opp",
+     "sourceName": "정점식",
+     "sourceDetail": null,
+     "party": "국민의힘"
+    },
+    {
+     "id": "s5",
+     "text": null,
+     "type": "quote",
+     "sourceType": "opp",
+     "sourceName": "정점식",
+     "sourceDetail": null,
+     "party": "국민의힘"
+    },
+    {
+     "id": "s6",
+     "text": null,
+     "type": "quote",
+     "sourceType": "opp",
+     "sourceName": "정점식",
+     "sourceDetail": null,
+     "party": "국민의힘"
+    },
+    {
+     "id": "s7",
+     "text": null,
+     "type": "quote",
+     "sourceType": "opp",
+     "sourceName": "정점식",
+     "sourceDetail": null,
+     "party": "국민의힘"
+    },
+    {
+     "id": "s8",
+     "text": null,
+     "type": "quote",
+     "sourceType": "opp",
+     "sourceName": "최보윤 수석대변인",
+     "sourceDetail": null,
+     "party": "국민의힘"
+    },
+    {
+     "id": "s9",
+     "text": null,
+     "type": "quote",
+     "sourceType": "opp",
+     "sourceName": "최보윤",
+     "sourceDetail": null,
+     "party": "국민의힘"
+    },
+    {
+     "id": "s10",
+     "text": null,
+     "type": "quote",
+     "sourceType": "opp",
+     "sourceName": "최보윤",
+     "sourceDetail": null,
+     "party": "국민의힘"
+    },
+    {
+     "id": "s11",
+     "text": null,
+     "type": "quote",
+     "sourceType": "opp",
+     "sourceName": "최보윤",
+     "sourceDetail": null,
+     "party": "국민의힘"
+    },
+    {
+     "id": "s12",
+     "text": null,
+     "type": "quote",
+     "sourceType": "opp",
+     "sourceName": "나경원 의원",
+     "sourceDetail": null,
+     "party": "국민의힘"
+    },
+    {
+     "id": "s13",
+     "text": null,
+     "type": "quote",
+     "sourceType": "opp",
+     "sourceName": "나경원",
+     "sourceDetail": null,
+     "party": "국민의힘"
+    },
+    {
+     "id": "s14",
+     "text": null,
+     "type": "quote",
+     "sourceType": "opp",
+     "sourceName": "나 의원",
+     "sourceDetail": null,
+     "party": "국민의힘"
+    }
+   ],
+   "framingTerms": [
+    {
+     "term": "촉구했다",
+     "sentenceId": "s1"
+    },
+    {
+     "term": "밝혔다",
+     "sentenceId": "s2"
+    },
+    {
+     "term": "지적했다",
+     "sentenceId": "s3"
+    },
+    {
+     "term": "지적했다",
+     "sentenceId": "s8"
+    },
+    {
+     "term": "촉구했다",
+     "sentenceId": "s11"
+    },
+    {
+     "term": "요구했다",
+     "sentenceId": "s12"
+    },
+    {
+     "term": "강조했다",
+     "sentenceId": "s13"
+    }
+   ],
+   "analyzedBy": "gemini-3.5-flash-lite"
+  },
+  {
+   "id": "a-83e209154e",
+   "issueId": "auto-20261122-1142-1",
+   "outletId": "news1",
+   "outletName": "뉴스1",
+   "title": "정점식 \"정부, '블랙먼데이' 대비 긴급 대응조치 준비해야\"",
+   "summary": "바란다\"고 정부에 촉구했다. 정 원내대표는 이날 페이스북을 통해 \"지난 금요일 코스피와 코스닥이 모두 5... 그는 \"우선 정부 당국은 당장 내일 예상되는 주식시장 급락에 대해 긴급 대응조치를 미리 준비할 것을...",
+   "url": "https://www.news1.kr/politics/assembly/6361835",
+   "publishedAt": "2026-11-22T10:05:00+09:00",
+   "sentences": [
+    {
+     "id": "s1",
+     "text": null,
+     "type": "quote",
+     "sourceType": "opp",
+     "sourceName": "정점식 원내대표",
+     "sourceDetail": null,
+     "party": "국민의힘"
+    },
+    {
+     "id": "s2",
+     "text": null,
+     "type": "quote",
+     "sourceType": "opp",
+     "sourceName": "정 원내대표",
+     "sourceDetail": null,
+     "party": "국민의힘"
+    },
+    {
+     "id": "s3",
+     "text": null,
+     "type": "quote",
+     "sourceType": "opp",
+     "sourceName": "그",
+     "sourceDetail": null,
+     "party": "국민의힘"
+    },
+    {
+     "id": "s4",
+     "text": null,
+     "type": "quote",
+     "sourceType": "opp",
+     "sourceName": "그",
+     "sourceDetail": null,
+     "party": "국민의힘"
+    },
+    {
+     "id": "s5",
+     "text": null,
+     "type": "quote",
+     "sourceType": "opp",
+     "sourceName": "정 원내대표",
+     "sourceDetail": null,
+     "party": "국민의힘"
+    },
+    {
+     "id": "s6",
+     "text": null,
+     "type": "quote",
+     "sourceType": "opp",
+     "sourceName": "그",
+     "sourceDetail": null,
+     "party": "국민의힘"
+    },
+    {
+     "id": "s7",
+     "text": null,
+     "type": "quote",
+     "sourceType": "opp",
+     "sourceName": "최보윤 수석대변인",
+     "sourceDetail": null,
+     "party": "국민의힘"
+    },
+    {
+     "id": "s8",
+     "text": null,
+     "type": "quote",
+     "sourceType": "opp",
+     "sourceName": "최 대변인",
+     "sourceDetail": null,
+     "party": "국민의힘"
+    }
+   ],
+   "framingTerms": [
+    {
+     "term": "급락",
+     "sentenceId": "s2"
+    },
+    {
+     "term": "추락",
+     "sentenceId": "s3"
+    },
+    {
+     "term": "무리한",
+     "sentenceId": "s3"
+    },
+    {
+     "term": "낙관론",
+     "sentenceId": "s4"
+    },
+    {
+     "term": "무너졌다는",
+     "sentenceId": "s4"
+    },
+    {
+     "term": "급락",
+     "sentenceId": "s6"
+    },
+    {
+     "term": "혼란을",
+     "sentenceId": "s6"
+    }
+   ],
+   "analyzedBy": "gemini-3.5-flash-lite"
+  },
+  {
+   "id": "a-ab9a889293",
+   "issueId": "auto-20261122-1142-1",
+   "outletId": "kbs",
+   "outletName": "KBS",
+   "title": "국민의힘 “코스피 급락 ‘블랙먼데이’ 우려…긴급 대응 조치 준비해야...",
+   "summary": "국민의힘은 주가가 폭락하는 ‘블랙먼데이’가 우려된다며 정부에 긴급 대응 조치 마련을 촉구했습니다. 국민의힘 정점식 원내대표는 오늘(22일) 자신의 SNS에 “지금 정부·여당이 신경 써야 할 일은 (조희대 대법원장)...",
+   "url": "https://news.kbs.co.kr/news/pc/view/view.do?ncd=8719335&ref=A",
+   "publishedAt": "2026-11-22T10:45:00+09:00",
+   "sentences": [
+    {
+     "id": "s1",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s2",
+     "text": null,
+     "type": "quote",
+     "sourceType": "opp",
+     "sourceName": "정점식 원내대표",
+     "sourceDetail": null,
+     "party": "국민의힘"
+    },
+    {
+     "id": "s3",
+     "text": null,
+     "type": "quote",
+     "sourceType": "opp",
+     "sourceName": "정 원내대표",
+     "sourceDetail": null,
+     "party": "국민의힘"
+    },
+    {
+     "id": "s4",
+     "text": null,
+     "type": "quote",
+     "sourceType": "opp",
+     "sourceName": "정 원내대표",
+     "sourceDetail": null,
+     "party": "국민의힘"
+    },
+    {
+     "id": "s5",
+     "text": null,
+     "type": "quote",
+     "sourceType": "opp",
+     "sourceName": "정 원내대표",
+     "sourceDetail": null,
+     "party": "국민의힘"
+    },
+    {
+     "id": "s6",
+     "text": null,
+     "type": "quote",
+     "sourceType": "opp",
+     "sourceName": "최보윤 수석대변인",
+     "sourceDetail": null,
+     "party": "국민의힘"
+    },
+    {
+     "id": "s7",
+     "text": null,
+     "type": "quote",
+     "sourceType": "opp",
+     "sourceName": "최 수석대변인",
+     "sourceDetail": null,
+     "party": "국민의힘"
+    },
+    {
+     "id": "s8",
+     "text": null,
+     "type": "quote",
+     "sourceType": "opp",
+     "sourceName": "최 수석대변인",
+     "sourceDetail": null,
+     "party": "국민의힘"
+    },
+    {
+     "id": "s9",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    }
+   ],
+   "framingTerms": [],
+   "analyzedBy": "gemini-3.5-flash-lite"
+  },
+  {
+   "id": "a-11b0e3f9d4",
+   "issueId": "auto-20261122-1142-1",
+   "outletId": "sbs",
+   "outletName": "SBS",
+   "title": "정점식 \"블랙먼데이 가능성…탄핵 아니라 주식시장 신경 써야\"",
+   "summary": "▲ 정점식 국민의힘 원내대표 국민의힘 정점식 원내대표가 내일 이른바 '블랙먼데이' 가능성이 있다며 정부... 정 원내대표는 \"우선 정부 당국은 당장 내일 예상되는 주식시장 급락에 대해 긴급 대응조치를 미리 준비할...",
+   "url": "https://news.sbs.co.kr/news/endPage.do?news_id=N1008857498&plink=ORI&cooper=NAVER",
+   "publishedAt": "2026-11-22T10:34:00+09:00",
+   "sentences": [
+    {
+     "id": "s1",
+     "text": null,
+     "type": "quote",
+     "sourceType": "opp",
+     "sourceName": "정점식 원내대표",
+     "sourceDetail": null,
+     "party": "국민의힘"
+    },
+    {
+     "id": "s2",
+     "text": null,
+     "type": "quote",
+     "sourceType": "opp",
+     "sourceName": "정 원내대표",
+     "sourceDetail": null,
+     "party": "국민의힘"
+    },
+    {
+     "id": "s3",
+     "text": null,
+     "type": "quote",
+     "sourceType": "opp",
+     "sourceName": "정 원내대표",
+     "sourceDetail": null,
+     "party": "국민의힘"
+    },
+    {
+     "id": "s4",
+     "text": null,
+     "type": "quote",
+     "sourceType": "opp",
+     "sourceName": "정 원내대표",
+     "sourceDetail": null,
+     "party": "국민의힘"
+    },
+    {
+     "id": "s5",
+     "text": null,
+     "type": "quote",
+     "sourceType": "opp",
+     "sourceName": "정점식 원내대표",
+     "sourceDetail": null,
+     "party": "국민의힘"
+    }
+   ],
+   "framingTerms": [],
+   "analyzedBy": "gemini-3.5-flash-lite"
+  },
+  {
+   "id": "a-508a710189",
+   "issueId": "auto-20261122-1142-1",
+   "outletId": "ytn",
+   "outletName": "YTN",
+   "title": "정점식 \"블랙먼데이 대비해야...이재명 버블 붕괴\"",
+   "summary": "국민의힘 정점식 원내대표는 코스피와 코스닥 급락 사태에 블랙먼데이 가능성에 대비한 긴급 대응조치를 미리 준비해야 한다고 정부에 촉구했습니다. 정 원내대표는 오늘(22일) SNS를 통해 올해 한때 9천 포인트를...",
+   "url": "https://www.ytn.co.kr/_ln/0101_202611221040285101",
+   "publishedAt": "2026-11-22T10:40:00+09:00",
+   "sentences": [
+    {
+     "id": "s1",
+     "text": null,
+     "type": "quote",
+     "sourceType": "opp",
+     "sourceName": "정점식 원내대표",
+     "sourceDetail": null,
+     "party": "국민의힘"
+    },
+    {
+     "id": "s2",
+     "text": null,
+     "type": "quote",
+     "sourceType": "opp",
+     "sourceName": "정 원내대표",
+     "sourceDetail": null,
+     "party": "국민의힘"
+    },
+    {
+     "id": "s3",
+     "text": null,
+     "type": "quote",
+     "sourceType": "opp",
+     "sourceName": "정 원내대표",
+     "sourceDetail": null,
+     "party": "국민의힘"
+    },
+    {
+     "id": "s4",
+     "text": null,
+     "type": "quote",
+     "sourceType": "opp",
+     "sourceName": "최보윤 수석대변인",
+     "sourceDetail": null,
+     "party": "국민의힘"
+    },
+    {
+     "id": "s5",
+     "text": "※ '당신의 제보가 뉴스가 됩니다'",
+     "type": "opinion",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    }
+   ],
+   "framingTerms": [
+    {
+     "term": "촉구했습니다",
+     "sentenceId": "s1"
+    },
+    {
+     "term": "지적했습니다",
+     "sentenceId": "s2"
+    },
+    {
+     "term": "비판했습니다",
+     "sentenceId": "s3"
+    },
+    {
+     "term": "요구했습니다",
+     "sentenceId": "s4"
+    }
+   ],
+   "analyzedBy": "gemini-3.5-flash-lite"
+  },
+  {
+   "id": "a-4b6cda6597",
+   "issueId": "auto-20261122-1142-1",
+   "outletId": "tvchosun",
+   "outletName": "TV조선",
+   "title": "정점식 \"'이재명 버블' 붕괴…블랙먼데이 긴급 대응해야\"",
+   "summary": "정 원내대표는 \"정부 당국은 당장 내일 예상되는 주식시장 급락에 대해 긴급 대응조치를 미리 준비할 것을... 정 원내대표는 \"지금 정부여당이 신경 써야 할 일은 탄핵이 아니라 주식시장\"이라고 했다.",
+   "url": "https://news.tvchosun.com/site/data/html_dir/2026/11/22/2026112290005.html",
+   "publishedAt": "2026-11-22T09:45:00+09:00",
+   "sentences": [
+    {
+     "id": "s1",
+     "text": null,
+     "type": "quote",
+     "sourceType": "opp",
+     "sourceName": "정점식 국민의힘 원내대표",
+     "sourceDetail": null,
+     "party": "국민의힘"
+    },
+    {
+     "id": "s2",
+     "text": null,
+     "type": "quote",
+     "sourceType": "opp",
+     "sourceName": "정 원내대표",
+     "sourceDetail": null,
+     "party": "국민의힘"
+    },
+    {
+     "id": "s3",
+     "text": null,
+     "type": "quote",
+     "sourceType": "opp",
+     "sourceName": "정 원내대표",
+     "sourceDetail": null,
+     "party": "국민의힘"
+    },
+    {
+     "id": "s4",
+     "text": null,
+     "type": "quote",
+     "sourceType": "opp",
+     "sourceName": "정 원내대표",
+     "sourceDetail": null,
+     "party": "국민의힘"
+    },
+    {
+     "id": "s5",
+     "text": null,
+     "type": "quote",
+     "sourceType": "opp",
+     "sourceName": "정 원내대표",
+     "sourceDetail": null,
+     "party": "국민의힘"
+    },
+    {
+     "id": "s6",
+     "text": null,
+     "type": "quote",
+     "sourceType": "opp",
+     "sourceName": "정 원내대표",
+     "sourceDetail": null,
+     "party": "국민의힘"
+    },
+    {
+     "id": "s7",
+     "text": null,
+     "type": "quote",
+     "sourceType": "opp",
+     "sourceName": "정 원내대표",
+     "sourceDetail": null,
+     "party": "국민의힘"
+    },
+    {
+     "id": "s8",
+     "text": null,
+     "type": "quote",
+     "sourceType": "opp",
+     "sourceName": "정 원내대표",
+     "sourceDetail": null,
+     "party": "국민의힘"
+    },
+    {
+     "id": "s9",
+     "text": null,
+     "type": "quote",
+     "sourceType": "opp",
+     "sourceName": "정 원내대표",
+     "sourceDetail": null,
+     "party": "국민의힘"
+    },
+    {
+     "id": "s10",
+     "text": null,
+     "type": "quote",
+     "sourceType": "opp",
+     "sourceName": "정 원내대표",
+     "sourceDetail": null,
+     "party": "국민의힘"
+    },
+    {
+     "id": "s11",
+     "text": null,
+     "type": "quote",
+     "sourceType": "opp",
+     "sourceName": "정 원내대표",
+     "sourceDetail": null,
+     "party": "국민의힘"
+    }
+   ],
+   "framingTerms": [],
+   "analyzedBy": "gemini-3.5-flash-lite"
+  },
+  {
+   "id": "a-c5cd776cb4",
+   "issueId": "auto-20261122-1142-1",
+   "outletId": "ichannela",
+   "outletName": "채널A",
+   "title": "국민의힘 “‘블랙먼데이’ 우려…정부, 긴급 대응조치 준비해야”",
+   "summary": "국민의힘이 주가가 폭락하는 ‘블랙먼데이’가 우려된다며 정부에 긴급 대응 조치 마련 등을 촉구했습니다. 정점식 국민의힘 원내대표는 22일 사회관계망 서비스(SNS)를 통해 \"지난 금요일 코스피와 코스닥 모두 5% 넘게...",
+   "url": "https://www.ichannela.com/news/main/news_detailPage.do?publishId=000000561087",
+   "publishedAt": "2026-11-22T11:04:00+09:00",
+   "sentences": [
+    {
+     "id": "s1",
+     "text": null,
+     "type": "quote",
+     "sourceType": "opp",
+     "sourceName": "국민의힘",
+     "sourceDetail": null,
+     "party": "국민의힘"
+    },
+    {
+     "id": "s2",
+     "text": null,
+     "type": "quote",
+     "sourceType": "opp",
+     "sourceName": "정점식 국민의힘 원내대표",
+     "sourceDetail": null,
+     "party": "국민의힘"
+    },
+    {
+     "id": "s3",
+     "text": null,
+     "type": "quote",
+     "sourceType": "opp",
+     "sourceName": "정점식 원내대표",
+     "sourceDetail": null,
+     "party": "국민의힘"
+    },
+    {
+     "id": "s4",
+     "text": null,
+     "type": "quote",
+     "sourceType": "opp",
+     "sourceName": "정 원내대표",
+     "sourceDetail": null,
+     "party": "국민의힘"
+    },
+    {
+     "id": "s5",
+     "text": null,
+     "type": "quote",
+     "sourceType": "opp",
+     "sourceName": "정 원내대표",
+     "sourceDetail": null,
+     "party": "국민의힘"
+    },
+    {
+     "id": "s6",
+     "text": null,
+     "type": "quote",
+     "sourceType": "opp",
+     "sourceName": "최보윤 당 수석대변인",
+     "sourceDetail": null,
+     "party": "국민의힘"
+    },
+    {
+     "id": "s7",
+     "text": null,
+     "type": "quote",
+     "sourceType": "opp",
+     "sourceName": "최보윤 수석대변인",
+     "sourceDetail": null,
+     "party": "국민의힘"
+    }
+   ],
+   "framingTerms": [
+    {
+     "term": "졸속",
+     "sentenceId": "s3"
+    },
+    {
+     "term": "무리한",
+     "sentenceId": "s3"
+    },
+    {
+     "term": "불장난",
+     "sentenceId": "s3"
+    }
+   ],
+   "analyzedBy": "gemini-3.5-flash-lite"
+  },
+  {
+   "id": "a-8cf7cc58b6",
+   "issueId": "auto-20261122-1143-1",
+   "outletId": "ytn",
+   "outletName": "YTN",
+   "title": "민주당 조희대 탄핵추진단, 오늘 기자간담회 개최",
+   "summary": "더불어민주당이 조희대 대법원장 탄핵 소추를 당론으로 채택한 가운데, 당내 공식 기구로 출범한 탄핵 추진단에서 오늘(22일) 첫 기자간담회를 개최합니다. 추진단은 오늘(22일) 오전 국회에서 비공개회의를 진행한 뒤...",
+   "url": "https://www.ytn.co.kr/_ln/0101_202611220016394025",
+   "publishedAt": "2026-11-22T00:16:00+09:00",
+   "sentences": [
+    {
+     "id": "s1",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s2",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s3",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s4",
+     "text": null,
+     "type": "quote",
+     "sourceType": "gov",
+     "sourceName": "양부남 의원",
+     "sourceDetail": null,
+     "party": "더불어민주당"
+    },
+    {
+     "id": "s5",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    }
+   ],
+   "framingTerms": [],
+   "analyzedBy": "gemini-3.5-flash-lite"
+  },
+  {
+   "id": "a-29394da8f2",
+   "issueId": "auto-20261122-1143-1",
+   "outletId": "ichannela",
+   "outletName": "채널A",
+   "title": "[속보]與 “사법부 독립 위해 조희대 탄핵 추진…연내 처리 목표”",
+   "summary": "전에 국회에서 탄핵 소추안이 의결되도록 최선의 노력을 하겠다\"고 말했습니다. 전용기 수석부단장은 \"조... 민주당은 탄핵 사유로 대법관 제청 지연에 따른 직무유기, 국회 출석 및 선서 거부, 이재명 대통령 공직선거법...",
+   "url": "https://www.ichannela.com/news/main/news_detailPage.do?publishId=000000561086",
+   "publishedAt": "2026-11-22T10:59:00+09:00",
+   "sentences": [
+    {
+     "id": "s1",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s2",
+     "text": "다만 절차상 하자가 있다는 지적이 나온다며 이에 대한 포함 여부를 검토하…",
+     "type": "opinion",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s3",
+     "text": null,
+     "type": "quote",
+     "sourceType": "gov",
+     "sourceName": "양부남 추진단장",
+     "sourceDetail": null,
+     "party": "더불어민주당"
+    },
+    {
+     "id": "s4",
+     "text": null,
+     "type": "quote",
+     "sourceType": "gov",
+     "sourceName": "전용기 수석부단장",
+     "sourceDetail": null,
+     "party": "더불어민주당"
+    },
+    {
+     "id": "s5",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s6",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    }
+   ],
+   "framingTerms": [
+    {
+     "term": "지적이 나온다",
+     "sentenceId": "s2"
+    }
+   ],
+   "analyzedBy": "gemini-3.5-flash-lite"
+  },
+  {
+   "id": "a-04d9ec93de",
+   "issueId": "auto-20261122-1143-1",
+   "outletId": "chosun",
+   "outletName": "조선일보",
+   "title": "[속보] 與 “12월 가기 전 조희대 탄핵소추안 국회서 의결할 것”",
+   "summary": "탄핵소추 추진단장인 양부남 민주당 의원은 이날 국회에서 열린 기자간담회에서 “가능한 빠른 시간 내에 탄핵소추안을 정리해서 12월이 가기 전에 국회에서 탄핵소추안이 의결되도록 최선의 노력을 다하겠다”고...",
+   "url": "https://www.chosun.com/politics/politics_general/2026/11/22/JRZEWFPVPNAW7EAWW4KSSEJFQ4/?utm_source=naver&utm_medium=referral&utm_campaign=naver-news",
+   "publishedAt": "2026-11-22T10:57:00+09:00",
+   "sentences": [
+    {
+     "id": "s1",
+     "text": "한·미 간 전시작전통제권(전작권) 전환에 대한 우려가 연일 커지고 있다.",
+     "type": "opinion",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s2",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s3",
+     "text": null,
+     "type": "quote",
+     "sourceType": "gov",
+     "sourceName": "강신철 국방부 장관",
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s4",
+     "text": null,
+     "type": "quote",
+     "sourceType": "expert",
+     "sourceName": "빈센트 브룩스 전 주한미군 사령관",
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s5",
+     "text": null,
+     "type": "quote",
+     "sourceType": "expert",
+     "sourceName": "국내 안보·국방 분야 전문가들",
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s6",
+     "text": "전작권 조기 전환을 주장하는 이들의 공통된 논리는 ‘한국의 자주국방 가능…",
+     "type": "opinion",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    }
+   ],
+   "framingTerms": [
+    {
+     "term": "우려가 연일 커지고 있다",
+     "sentenceId": "s1"
+    },
+    {
+     "term": "적극적으로 반기는",
+     "sentenceId": "s2"
+    },
+    {
+     "term": "강조하고 있다",
+     "sentenceId": "s3"
+    }
+   ],
+   "analyzedBy": "gemini-3.5-flash-lite"
+  },
+  {
+   "id": "a-1d8b912721",
+   "issueId": "auto-20261122-1143-1",
+   "outletId": "joongang",
+   "outletName": "중앙일보",
+   "title": "[속보] 與 “조희대 대법원장 탄핵 소추안, 12월 내 국회서 의결”",
+   "summary": "탄핵소추 추진단장인 양부남 민주당 의원은 이날 국회에서 열린 기자간담회에서 “이번 한덕수 판결은 우리의 인내심을 한계에 이르게 했다”며 “가능한 빠른 시간 내에 탄핵 소추안을 정리해서 12월이 가기 전에 국회에...",
+   "url": "https://www.joongang.co.kr/article/25480752",
+   "publishedAt": "2026-11-22T11:04:00+09:00",
+   "sentences": [
+    {
+     "id": "s1",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s2",
+     "text": null,
+     "type": "quote",
+     "sourceType": "gov",
+     "sourceName": "양부남",
+     "sourceDetail": null,
+     "party": "더불어민주당"
+    },
+    {
+     "id": "s3",
+     "text": null,
+     "type": "quote",
+     "sourceType": "gov",
+     "sourceName": "양부남",
+     "sourceDetail": null,
+     "party": "더불어민주당"
+    },
+    {
+     "id": "s4",
+     "text": null,
+     "type": "quote",
+     "sourceType": "gov",
+     "sourceName": "양부남",
+     "sourceDetail": null,
+     "party": "더불어민주당"
+    },
+    {
+     "id": "s5",
+     "text": null,
+     "type": "quote",
+     "sourceType": "gov",
+     "sourceName": "양부남",
+     "sourceDetail": null,
+     "party": "더불어민주당"
+    },
+    {
+     "id": "s6",
+     "text": null,
+     "type": "quote",
+     "sourceType": "gov",
+     "sourceName": "양부남",
+     "sourceDetail": null,
+     "party": "더불어민주당"
+    },
+    {
+     "id": "s7",
+     "text": null,
+     "type": "quote",
+     "sourceType": "gov",
+     "sourceName": "양부남",
+     "sourceDetail": null,
+     "party": "더불어민주당"
+    },
+    {
+     "id": "s8",
+     "text": null,
+     "type": "quote",
+     "sourceType": "gov",
+     "sourceName": "전용기",
+     "sourceDetail": null,
+     "party": "더불어민주당"
+    },
+    {
+     "id": "s9",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s10",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    }
+   ],
+   "framingTerms": [],
+   "analyzedBy": "gemini-3.5-flash-lite"
+  },
+  {
+   "id": "a-42d77b6ddc",
+   "issueId": "auto-20261122-1143-1",
+   "outletId": "donga",
+   "outletName": "동아일보",
+   "title": "[속보]與 “12월 가기 전 국회서 조희대 탄핵소추안 의결”",
+   "summary": "더불어민주당이 조희대 대법원장에 대한 탄핵소추를 추진하며 “12월이 가기 전 국회에서 소추안이... 민주당 탄핵소추 추진단은 22일 오전 국회에서 기자간담회를 열고 이같이 밝혔다. 단장을 맡은 민주당 양부남 의원은...",
+   "url": "https://www.donga.com/news/Politics/article/all/20261122/135066171/1",
+   "publishedAt": "2026-11-22T11:28:00+09:00",
+   "sentences": [
+    {
+     "id": "s1",
+     "text": null,
+     "type": "quote",
+     "sourceType": "gov",
+     "sourceName": "더불어민주당",
+     "sourceDetail": null,
+     "party": "더불어민주당"
+    },
+    {
+     "id": "s2",
+     "text": null,
+     "type": "quote",
+     "sourceType": "gov",
+     "sourceName": "민주당 탄핵소추 추진단",
+     "sourceDetail": null,
+     "party": "더불어민주당"
+    },
+    {
+     "id": "s3",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s4",
+     "text": null,
+     "type": "quote",
+     "sourceType": "gov",
+     "sourceName": "양부남",
+     "sourceDetail": null,
+     "party": "더불어민주당"
+    },
+    {
+     "id": "s5",
+     "text": null,
+     "type": "quote",
+     "sourceType": "gov",
+     "sourceName": "양부남",
+     "sourceDetail": null,
+     "party": "더불어민주당"
+    },
+    {
+     "id": "s6",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s7",
+     "text": null,
+     "type": "quote",
+     "sourceType": "gov",
+     "sourceName": "그",
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s8",
+     "text": null,
+     "type": "quote",
+     "sourceType": "gov",
+     "sourceName": "이용우",
+     "sourceDetail": null,
+     "party": "더불어민주당"
+    },
+    {
+     "id": "s9",
+     "text": null,
+     "type": "quote",
+     "sourceType": "gov",
+     "sourceName": "조상호",
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s10",
+     "text": null,
+     "type": "quote",
+     "sourceType": "gov",
+     "sourceName": "민주당 추진단 의원들",
+     "sourceDetail": null,
+     "party": "더불어민주당"
+    },
+    {
+     "id": "s11",
+     "text": null,
+     "type": "quote",
+     "sourceType": "gov",
+     "sourceName": "민주당 추진단 의원들",
+     "sourceDetail": null,
+     "party": "더불어민주당"
+    },
+    {
+     "id": "s12",
+     "text": null,
+     "type": "quote",
+     "sourceType": "gov",
+     "sourceName": "이건태",
+     "sourceDetail": null,
+     "party": "더불어민주당"
+    },
+    {
+     "id": "s13",
+     "text": null,
+     "type": "quote",
+     "sourceType": "gov",
+     "sourceName": "이 의원",
+     "sourceDetail": null,
+     "party": "더불어민주당"
+    },
+    {
+     "id": "s14",
+     "text": null,
+     "type": "quote",
+     "sourceType": "gov",
+     "sourceName": "전용기·김기표 의원",
+     "sourceDetail": null,
+     "party": "더불어민주당"
+    }
+   ],
+   "framingTerms": [],
+   "analyzedBy": "gemini-3.5-flash-lite"
+  },
+  {
+   "id": "a-cfb4f0f3bf",
+   "issueId": "auto-20261122-1143-1",
+   "outletId": "kmib",
+   "outletName": "국민일보",
+   "title": "[속보]민주당 “12월 前 조희대 탄핵소추안 의결할 것”",
+   "summary": "더불어민주당이 조희대 대법원장에 대한 탄핵을 추진하며 “공화국 보전을 위한 역사적 책무”라고 주장했다. 민주당은 12월 안에 탄핵소추안을 의결하겠다는 방침이다. 박성준 민주당 수석대변인은 22일 서면브리핑에서...",
+   "url": "https://www.kmib.co.kr/article/20261122500140",
+   "publishedAt": "2026-11-22T11:04:00+09:00",
+   "sentences": [
+    {
+     "id": "s1",
+     "text": null,
+     "type": "quote",
+     "sourceType": "gov",
+     "sourceName": "더불어민주당",
+     "sourceDetail": null,
+     "party": "더불어민주당"
+    },
+    {
+     "id": "s2",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s3",
+     "text": null,
+     "type": "quote",
+     "sourceType": "gov",
+     "sourceName": "박성준 수석대변인",
+     "sourceDetail": null,
+     "party": "더불어민주당"
+    },
+    {
+     "id": "s4",
+     "text": null,
+     "type": "quote",
+     "sourceType": "gov",
+     "sourceName": "박 수석대변인",
+     "sourceDetail": null,
+     "party": "더불어민주당"
+    },
+    {
+     "id": "s5",
+     "text": null,
+     "type": "quote",
+     "sourceType": "gov",
+     "sourceName": "조 대법원장",
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s6",
+     "text": null,
+     "type": "quote",
+     "sourceType": "gov",
+     "sourceName": "전은수 원내대변인",
+     "sourceDetail": null,
+     "party": "더불어민주당"
+    },
+    {
+     "id": "s7",
+     "text": null,
+     "type": "quote",
+     "sourceType": "gov",
+     "sourceName": "신현영 대변인",
+     "sourceDetail": null,
+     "party": "더불어민주당"
+    }
+   ],
+   "framingTerms": [],
+   "analyzedBy": "gemini-3.5-flash-lite"
+  },
+  {
+   "id": "a-623dcc8395",
+   "issueId": "auto-20261122-1144-1",
+   "outletId": "yna",
+   "outletName": "연합뉴스",
+   "title": "국힘 \"與 조작기소특검·조희대 탄핵은 반역\"…대구서 규탄집회",
+   "summary": "심판\" 국민의힘은 21일 대구에서 대규모 장외집회를 열어 여당의 '조작기소 특검법' 강행 처리와 조희대 대법원장 탄핵 추진을 맹비난했다. 그러면서 법원에 이재명 대통령에 대한 재판 재개도 촉구했다. 국민의힘은 이날...",
+   "url": "https://www.yna.co.kr/view/AKR20261121042300001?input=1195m",
+   "publishedAt": "2026-11-21T17:00:00+09:00",
+   "sentences": [
+    {
+     "id": "s1",
+     "text": "전체 내용을 이해하기 위해서는 기사 본문과 함께 읽어야 합니다.",
+     "type": "opinion",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s2",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s3",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s4",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s5",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s6",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s7",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s8",
+     "text": null,
+     "type": "quote",
+     "sourceType": "opp",
+     "sourceName": "장동혁 대표",
+     "sourceDetail": null,
+     "party": "국민의힘"
+    },
+    {
+     "id": "s9",
+     "text": null,
+     "type": "quote",
+     "sourceType": "opp",
+     "sourceName": "장동혁 대표",
+     "sourceDetail": null,
+     "party": "국민의힘"
+    },
+    {
+     "id": "s10",
+     "text": null,
+     "type": "quote",
+     "sourceType": "opp",
+     "sourceName": "장동혁 대표",
+     "sourceDetail": null,
+     "party": "국민의힘"
+    },
+    {
+     "id": "s11",
+     "text": null,
+     "type": "quote",
+     "sourceType": "opp",
+     "sourceName": "장동혁 대표",
+     "sourceDetail": null,
+     "party": "국민의힘"
+    },
+    {
+     "id": "s12",
+     "text": null,
+     "type": "quote",
+     "sourceType": "opp",
+     "sourceName": "정점식 원내대표",
+     "sourceDetail": null,
+     "party": "국민의힘"
+    },
+    {
+     "id": "s13",
+     "text": null,
+     "type": "quote",
+     "sourceType": "opp",
+     "sourceName": "정점식 원내대표",
+     "sourceDetail": null,
+     "party": "국민의힘"
+    },
+    {
+     "id": "s14",
+     "text": null,
+     "type": "quote",
+     "sourceType": "opp",
+     "sourceName": "정점식 원내대표",
+     "sourceDetail": null,
+     "party": "국민의힘"
+    },
+    {
+     "id": "s15",
+     "text": null,
+     "type": "quote",
+     "sourceType": "opp",
+     "sourceName": "정점식 원내대표",
+     "sourceDetail": null,
+     "party": "국민의힘"
+    },
+    {
+     "id": "s16",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s17",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s18",
+     "text": null,
+     "type": "quote",
+     "sourceType": "opp",
+     "sourceName": "주호영 의원",
+     "sourceDetail": null,
+     "party": "국민의힘"
+    }
+   ],
+   "framingTerms": [
+    {
+     "term": "강행 처리",
+     "sentenceId": "s2"
+    },
+    {
+     "term": "맹비난했다",
+     "sentenceId": "s2"
+    },
+    {
+     "term": "촉구했다",
+     "sentenceId": "s3"
+    },
+    {
+     "term": "맹비난했다",
+     "sentenceId": "s8"
+    },
+    {
+     "term": "강경 발언을 쏟아냈다",
+     "sentenceId": "s9"
+    },
+    {
+     "term": "촉구했다",
+     "sentenceId": "s10"
+    },
+    {
+     "term": "맹공을 퍼부었다",
+     "sentenceId": "s12"
+    },
+    {
+     "term": "언성을 높였다",
+     "sentenceId": "s13"
+    },
+    {
+     "term": "강조했다",
+     "sentenceId": "s14"
+    },
+    {
+     "term": "경고한다",
+     "sentenceId": "s15"
+    },
+    {
+     "term": "말했다",
+     "sentenceId": "s15"
+    },
+    {
+     "term": "말하기도 했다",
+     "sentenceId": "s18"
+    }
+   ],
+   "analyzedBy": "gemini-3.5-flash-lite"
+  },
+  {
+   "id": "a-c23d1e61e9",
+   "issueId": "auto-20261122-1144-1",
+   "outletId": "newsis",
+   "outletName": "뉴시스",
+   "title": "국힘, 대구서 '조작기소 특검법' 규탄 장외집회…\"이재명 탄핵만이 답\"...",
+   "summary": "국민의힘은 14일 대구에서 이른바 '조작기소 특검법' 강행 처리와 조희대 대법원장 탄핵 추진을 규탄하는 권역별 장외집회를 열고 정부·여당을 향한 공세 수위를 끌어올렸다. 국민의힘은 이날 오후 3시 대구 중구에 위치한...",
+   "url": "https://www.newsis.com/view/NISX20261121_0003877785",
+   "publishedAt": "2026-11-21T17:43:00+09:00",
+   "sentences": [
+    {
+     "id": "s1",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s2",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s3",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s4",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s5",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s6",
+     "text": null,
+     "type": "quote",
+     "sourceType": "opp",
+     "sourceName": "국민의힘",
+     "sourceDetail": null,
+     "party": "국민의힘"
+    },
+    {
+     "id": "s7",
+     "text": null,
+     "type": "quote",
+     "sourceType": "citizen",
+     "sourceName": "참석자들",
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s8",
+     "text": null,
+     "type": "quote",
+     "sourceType": "opp",
+     "sourceName": "장동혁 대표",
+     "sourceDetail": null,
+     "party": "국민의힘"
+    },
+    {
+     "id": "s9",
+     "text": null,
+     "type": "quote",
+     "sourceType": "opp",
+     "sourceName": "장 대표",
+     "sourceDetail": null,
+     "party": "국민의힘"
+    },
+    {
+     "id": "s10",
+     "text": null,
+     "type": "quote",
+     "sourceType": "opp",
+     "sourceName": "장 대표",
+     "sourceDetail": null,
+     "party": "국민의힘"
+    },
+    {
+     "id": "s11",
+     "text": null,
+     "type": "quote",
+     "sourceType": "opp",
+     "sourceName": "장 대표",
+     "sourceDetail": null,
+     "party": "국민의힘"
+    },
+    {
+     "id": "s12",
+     "text": null,
+     "type": "quote",
+     "sourceType": "opp",
+     "sourceName": "장 대표",
+     "sourceDetail": null,
+     "party": "국민의힘"
+    },
+    {
+     "id": "s13",
+     "text": null,
+     "type": "quote",
+     "sourceType": "opp",
+     "sourceName": "장 대표",
+     "sourceDetail": null,
+     "party": "국민의힘"
+    },
+    {
+     "id": "s14",
+     "text": null,
+     "type": "quote",
+     "sourceType": "opp",
+     "sourceName": "정 원내대표",
+     "sourceDetail": null,
+     "party": "국민의힘"
+    },
+    {
+     "id": "s15",
+     "text": null,
+     "type": "quote",
+     "sourceType": "opp",
+     "sourceName": "정 원내대표",
+     "sourceDetail": null,
+     "party": "국민의힘"
+    },
+    {
+     "id": "s16",
+     "text": null,
+     "type": "quote",
+     "sourceType": "opp",
+     "sourceName": "임이자 정책위의장",
+     "sourceDetail": null,
+     "party": "국민의힘"
+    },
+    {
+     "id": "s17",
+     "text": null,
+     "type": "quote",
+     "sourceType": "opp",
+     "sourceName": "정희용 사무총장",
+     "sourceDetail": null,
+     "party": "국민의힘"
+    },
+    {
+     "id": "s18",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s19",
+     "text": null,
+     "type": "quote",
+     "sourceType": "opp",
+     "sourceName": "주호영 의원",
+     "sourceDetail": null,
+     "party": "국민의힘"
+    },
+    {
+     "id": "s20",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s21",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    }
+   ],
+   "framingTerms": [
+    {
+     "term": "강행 처리",
+     "sentenceId": "s1"
+    },
+    {
+     "term": "공세 수위",
+     "sentenceId": "s1"
+    },
+    {
+     "term": "내란몰이",
+     "sentenceId": "s11"
+    },
+    {
+     "term": "날치기 통과",
+     "sentenceId": "s17"
+    },
+    {
+     "term": "야유",
+     "sentenceId": "s18"
+    }
+   ],
+   "analyzedBy": "gemini-3.5-flash-lite"
+  },
+  {
+   "id": "a-1302621ffd",
+   "issueId": "auto-20261122-1144-1",
+   "outletId": "sbs",
+   "outletName": "SBS",
+   "title": "국민의힘 \"조작기소특검·조희대 탄핵은 반역\"…대구서 여당 규탄 집회",
+   "summary": "▲ 국민의힘, 조작기소 특검법 대구경북 규탄대회 국민의힘은 '보수의 심장'으로 불리는 대구에서 대규모 장외집회를 열어 여당의 '조작기소 특검법' 강행 처리와 조희대 대법원장 탄핵 추진을 맹비난했습니다....",
+   "url": "https://news.sbs.co.kr/news/endPage.do?news_id=N1008857059&plink=ORI&cooper=NAVER",
+   "publishedAt": "2026-11-21T17:18:00+09:00",
+   "sentences": [
+    {
+     "id": "s1",
+     "text": null,
+     "type": "quote",
+     "sourceType": "opp",
+     "sourceName": "국민의힘",
+     "sourceDetail": null,
+     "party": "국민의힘"
+    },
+    {
+     "id": "s2",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s3",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s4",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s5",
+     "text": null,
+     "type": "quote",
+     "sourceType": "opp",
+     "sourceName": "국민의힘",
+     "sourceDetail": null,
+     "party": "국민의힘"
+    },
+    {
+     "id": "s6",
+     "text": null,
+     "type": "quote",
+     "sourceType": "opp",
+     "sourceName": "장 대표",
+     "sourceDetail": null,
+     "party": "국민의힘"
+    },
+    {
+     "id": "s7",
+     "text": null,
+     "type": "quote",
+     "sourceType": "opp",
+     "sourceName": "장 대표",
+     "sourceDetail": null,
+     "party": "국민의힘"
+    },
+    {
+     "id": "s8",
+     "text": null,
+     "type": "quote",
+     "sourceType": "opp",
+     "sourceName": "장 대표",
+     "sourceDetail": null,
+     "party": "국민의힘"
+    },
+    {
+     "id": "s9",
+     "text": null,
+     "type": "quote",
+     "sourceType": "opp",
+     "sourceName": "정점식 원내대표",
+     "sourceDetail": null,
+     "party": "국민의힘"
+    },
+    {
+     "id": "s10",
+     "text": null,
+     "type": "quote",
+     "sourceType": "opp",
+     "sourceName": "정 원내대표",
+     "sourceDetail": null,
+     "party": "국민의힘"
+    },
+    {
+     "id": "s11",
+     "text": null,
+     "type": "quote",
+     "sourceType": "opp",
+     "sourceName": "정 원내대표",
+     "sourceDetail": null,
+     "party": "국민의힘"
+    },
+    {
+     "id": "s12",
+     "text": null,
+     "type": "quote",
+     "sourceType": "opp",
+     "sourceName": "정 원내대표",
+     "sourceDetail": null,
+     "party": "국민의힘"
+    }
+   ],
+   "framingTerms": [
+    {
+     "term": "강행 처리",
+     "sentenceId": "s1"
+    },
+    {
+     "term": "맹비난했습니다",
+     "sentenceId": "s1"
+    },
+    {
+     "term": "거칠게 비난했습니다",
+     "sentenceId": "s6"
+    },
+    {
+     "term": "주장했습니다",
+     "sentenceId": "s8"
+    },
+    {
+     "term": "비난 수위를 높였습니다",
+     "sentenceId": "s11"
+    }
+   ],
+   "analyzedBy": "gemini-3.5-flash-lite"
+  },
+  {
+   "id": "a-6e4fe8d69f",
+   "issueId": "auto-20261122-1144-1",
+   "outletId": "ytn",
+   "outletName": "YTN",
+   "title": "국민의힘, 대구 대규모 규탄집회...\"조작기소 특검·조희대 탄핵은 반역...",
+   "summary": "국민의힘이 대구에서 대규모 장외집회를 열고 '조작기소 특검'과 조희대 대법원장 탄핵 추진을 거세게... 내란이라며, 국민이 조 대법원장을 지켜야 한다고 말했습니다. 이어 독재 국가 국민으로 살 것인가, 독재자를...",
+   "url": "https://www.ytn.co.kr/_ln/0101_202611211810167251",
+   "publishedAt": "2026-11-21T18:10:00+09:00",
+   "sentences": [
+    {
+     "id": "s1",
+     "text": null,
+     "type": "quote",
+     "sourceType": "opp",
+     "sourceName": "국민의힘",
+     "sourceDetail": null,
+     "party": "국민의힘"
+    },
+    {
+     "id": "s2",
+     "text": null,
+     "type": "quote",
+     "sourceType": "opp",
+     "sourceName": "장동혁 대표",
+     "sourceDetail": null,
+     "party": "국민의힘"
+    },
+    {
+     "id": "s3",
+     "text": null,
+     "type": "quote",
+     "sourceType": "opp",
+     "sourceName": "장동혁 대표",
+     "sourceDetail": null,
+     "party": "국민의힘"
+    },
+    {
+     "id": "s4",
+     "text": null,
+     "type": "quote",
+     "sourceType": "opp",
+     "sourceName": "정점식 원내대표",
+     "sourceDetail": null,
+     "party": "국민의힘"
+    },
+    {
+     "id": "s5",
+     "text": null,
+     "type": "quote",
+     "sourceType": "opp",
+     "sourceName": "정점식 원내대표",
+     "sourceDetail": null,
+     "party": "국민의힘"
+    },
+    {
+     "id": "s6",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s7",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    }
+   ],
+   "framingTerms": [
+    {
+     "term": "거세게",
+     "sentenceId": "s1"
+    }
+   ],
+   "analyzedBy": "gemini-3.5-flash-lite"
+  },
+  {
+   "id": "a-013f0cece2",
+   "issueId": "auto-20261122-1144-1",
+   "outletId": "tvchosun",
+   "outletName": "TV조선",
+   "title": "\"탄핵냥이 집단\"…국힘, 대구서 '이재명 탈옥법' 규탄 집회",
+   "summary": "이런가운데, 국민의힘은 주말 집회를 3주째 이어가고 있습니다. 오늘은 지지세가 강한 대구를 찾아 '범죄자... 국민의힘 의원들은 '재판재개'라고 쓰인 리본을 달았고, 조작기소 특검법을 겨냥한 '탈옥법 100% 위헌'이라고...",
+   "url": "https://news.tvchosun.com/site/data/html_dir/2026/11/21/2026112190098.html",
+   "publishedAt": "2026-11-21T19:14:00+09:00",
+   "sentences": [
+    {
+     "id": "s1",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s2",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s3",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s4",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s5",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s6",
+     "text": null,
+     "type": "quote",
+     "sourceType": "opp",
+     "sourceName": "국민의힘 의원들",
+     "sourceDetail": null,
+     "party": "국민의힘"
+    },
+    {
+     "id": "s7",
+     "text": null,
+     "type": "quote",
+     "sourceType": "opp",
+     "sourceName": "국민의힘",
+     "sourceDetail": null,
+     "party": "국민의힘"
+    },
+    {
+     "id": "s8",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s9",
+     "text": null,
+     "type": "quote",
+     "sourceType": "opp",
+     "sourceName": "국민의힘",
+     "sourceDetail": null,
+     "party": "국민의힘"
+    },
+    {
+     "id": "s10",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s11",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s12",
+     "text": null,
+     "type": "quote",
+     "sourceType": "opp",
+     "sourceName": "국민의힘",
+     "sourceDetail": null,
+     "party": "국민의힘"
+    },
+    {
+     "id": "s13",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s14",
+     "text": null,
+     "type": "quote",
+     "sourceType": "etc",
+     "sourceName": "한동훈 의원",
+     "sourceDetail": "무소속 의원",
+     "party": null
+    }
+   ],
+   "framingTerms": [
+    {
+     "term": "강도높은",
+     "sentenceId": "s2"
+    },
+    {
+     "term": "강하게",
+     "sentenceId": "s8"
+    },
+    {
+     "term": "직격했습니다",
+     "sentenceId": "s11"
+    },
+    {
+     "term": "비판했습니다",
+     "sentenceId": "s14"
+    }
+   ],
+   "analyzedBy": "gemini-3.5-flash-lite"
+  },
+  {
+   "id": "a-adb15900b9",
+   "issueId": "auto-20261122-1144-1",
+   "outletId": "ichannela",
+   "outletName": "채널A",
+   "title": "국민의힘 “독재 국가로 전락, 오직 탄핵만이 답”…대구서 규탄집회",
+   "summary": "국민의힘은 21일 대구에서 대규모 장외집회를 열고 여당의 ‘조작기소 특검법’ 강행 처리와 조희대... 살겠다고 국민을 향해서 폭력을 휘둘러 댄 것뿐”이라고 주장했습니다. 이어 \"내 편이 아니면 보복하고, 주먹부터...",
+   "url": "https://www.ichannela.com/news/main/news_detailPage.do?publishId=000000561032",
+   "publishedAt": "2026-11-21T16:45:00+09:00",
+   "sentences": [
+    {
+     "id": "s1",
+     "text": null,
+     "type": "quote",
+     "sourceType": "opp",
+     "sourceName": "장동혁 대표",
+     "sourceDetail": null,
+     "party": "국민의힘"
+    },
+    {
+     "id": "s2",
+     "text": null,
+     "type": "quote",
+     "sourceType": "opp",
+     "sourceName": "장동혁 대표",
+     "sourceDetail": null,
+     "party": "국민의힘"
+    },
+    {
+     "id": "s3",
+     "text": null,
+     "type": "quote",
+     "sourceType": "opp",
+     "sourceName": "정점식 원내대표",
+     "sourceDetail": null,
+     "party": "국민의힘"
+    },
+    {
+     "id": "s4",
+     "text": null,
+     "type": "quote",
+     "sourceType": "opp",
+     "sourceName": "정점식 원내대표",
+     "sourceDetail": null,
+     "party": "국민의힘"
+    },
+    {
+     "id": "s5",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    }
+   ],
+   "framingTerms": [],
+   "analyzedBy": "gemini-3.5-flash-lite"
+  },
+  {
+   "id": "a-a8b4777003",
+   "issueId": "auto-20261122-1144-1",
+   "outletId": "hani",
+   "outletName": "한겨레",
+   "title": "한병도, 국힘 순회 장외집회에 “길바닥 정치 그만두라”",
+   "summary": "한병도 더불어민주당 원내대표는 21일 조작기소 특검에 반대해 대구에서 장외집회를 연 국민의힘을 향해 “길바닥 정치를 그만두라”고 했다. 한 원내대표는 이날 페이스북에 올린 글에서 “민생을 내팽개친 국민의힘이...",
+   "url": "https://www.hani.co.kr/arti/politics/politics_general/1288444.html",
+   "publishedAt": "2026-11-21T19:06:00+09:00",
+   "sentences": [
+    {
+     "id": "s1",
+     "text": null,
+     "type": "quote",
+     "sourceType": "gov",
+     "sourceName": "한병도 더불어민주당 원내대표",
+     "sourceDetail": null,
+     "party": "더불어민주당"
+    },
+    {
+     "id": "s2",
+     "text": null,
+     "type": "quote",
+     "sourceType": "gov",
+     "sourceName": "한 원내대표",
+     "sourceDetail": null,
+     "party": "더불어민주당"
+    },
+    {
+     "id": "s3",
+     "text": null,
+     "type": "quote",
+     "sourceType": "gov",
+     "sourceName": "한 원내대표",
+     "sourceDetail": null,
+     "party": "더불어민주당"
+    },
+    {
+     "id": "s4",
+     "text": null,
+     "type": "quote",
+     "sourceType": "gov",
+     "sourceName": "한 원내대표",
+     "sourceDetail": null,
+     "party": "더불어민주당"
+    },
+    {
+     "id": "s5",
+     "text": null,
+     "type": "quote",
+     "sourceType": "gov",
+     "sourceName": "한 원내대표",
+     "sourceDetail": null,
+     "party": "더불어민주당"
+    },
+    {
+     "id": "s6",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s7",
+     "text": null,
+     "type": "quote",
+     "sourceType": "opp",
+     "sourceName": "장 대표",
+     "sourceDetail": null,
+     "party": "국민의힘"
+    }
+   ],
+   "framingTerms": [
+    {
+     "term": "반발하며",
+     "sentenceId": "s6"
+    },
+    {
+     "term": "맹비난했다",
+     "sentenceId": "s7"
+    }
+   ],
+   "analyzedBy": "gemini-3.5-flash-lite"
+  },
+  {
+   "id": "a-2a31f3568c",
+   "issueId": "auto-20261122-1144-1",
+   "outletId": "khan",
+   "outletName": "경향신문",
+   "title": "국힘, 대구서 장외집회 “이재명 돌돌말아 청와대서 강제 퇴거시켜야”",
+   "summary": "국민의힘은 21일 대구에서 대규모 장외집회를 열어 여당의 ‘조작기소 특검법’ 강행 처리와 조희대 대법원장 탄핵 추진을 비판했다. 법원에 이재명 대통령에 대한 재판 재개도 촉구했다. 국민의힘은 민주당의 조작기소...",
+   "url": "https://weekly.khan.co.kr/article/202611211935001",
+   "publishedAt": "2026-11-21T19:35:00+09:00",
+   "sentences": [
+    {
+     "id": "s1",
+     "text": null,
+     "type": "quote",
+     "sourceType": "opp",
+     "sourceName": "국민의힘",
+     "sourceDetail": null,
+     "party": "국민의힘"
+    },
+    {
+     "id": "s2",
+     "text": null,
+     "type": "quote",
+     "sourceType": "opp",
+     "sourceName": "국민의힘",
+     "sourceDetail": null,
+     "party": "국민의힘"
+    },
+    {
+     "id": "s3",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s4",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s5",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s6",
+     "text": null,
+     "type": "quote",
+     "sourceType": "opp",
+     "sourceName": "장동혁 대표",
+     "sourceDetail": null,
+     "party": "국민의힘"
+    },
+    {
+     "id": "s7",
+     "text": null,
+     "type": "quote",
+     "sourceType": "opp",
+     "sourceName": "장동혁 대표",
+     "sourceDetail": null,
+     "party": "국민의힘"
+    },
+    {
+     "id": "s8",
+     "text": null,
+     "type": "quote",
+     "sourceType": "opp",
+     "sourceName": "장동혁 대표",
+     "sourceDetail": null,
+     "party": "국민의힘"
+    },
+    {
+     "id": "s9",
+     "text": null,
+     "type": "quote",
+     "sourceType": "opp",
+     "sourceName": "정점식 원내대표",
+     "sourceDetail": null,
+     "party": "국민의힘"
+    },
+    {
+     "id": "s10",
+     "text": null,
+     "type": "quote",
+     "sourceType": "opp",
+     "sourceName": "정점식 원내대표",
+     "sourceDetail": null,
+     "party": "국민의힘"
+    },
+    {
+     "id": "s11",
+     "text": null,
+     "type": "quote",
+     "sourceType": "opp",
+     "sourceName": "정점식 원내대표",
+     "sourceDetail": null,
+     "party": "국민의힘"
+    }
+   ],
+   "framingTerms": [
+    {
+     "term": "비판했다",
+     "sentenceId": "s1"
+    },
+    {
+     "term": "촉구했다",
+     "sentenceId": "s2"
+    },
+    {
+     "term": "반발해",
+     "sentenceId": "s3"
+    },
+    {
+     "term": "비판했다",
+     "sentenceId": "s9"
+    },
+    {
+     "term": "주장했다",
+     "sentenceId": "s11"
+    }
+   ],
+   "analyzedBy": "gemini-3.5-flash-lite"
+  },
+  {
+   "id": "a-69903b3e40",
+   "issueId": "auto-20261122-1145-1",
+   "outletId": "yna",
+   "outletName": "연합뉴스",
+   "title": "오세훈 \"대법원장 탄핵 추진, 李대통령 재판 없애려는 것\"",
+   "summary": "오세훈 시장은 정부의 민생·경제 대응도 부실하다고 날을 세웠다. 그는 \"전월세는 치솟고, 정부를 믿고 투자한 주식은 추락하고, 급격히 얼어붙은 소비에 자영업자들이 무너지고 있다. 인공지능(AI) 부정행위 충격으로 온...",
+   "url": "https://www.yna.co.kr/view/AKR20261122018900004?input=1195m",
+   "publishedAt": "2026-11-22T10:57:00+09:00",
+   "sentences": [
+    {
+     "id": "s1",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s2",
+     "text": null,
+     "type": "quote",
+     "sourceType": "gov",
+     "sourceName": "오세훈 서울시장",
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s3",
+     "text": null,
+     "type": "quote",
+     "sourceType": "gov",
+     "sourceName": "오 시장",
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s4",
+     "text": null,
+     "type": "quote",
+     "sourceType": "gov",
+     "sourceName": "그",
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s5",
+     "text": null,
+     "type": "quote",
+     "sourceType": "gov",
+     "sourceName": "오 시장",
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s6",
+     "text": null,
+     "type": "quote",
+     "sourceType": "gov",
+     "sourceName": "오 시장",
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s7",
+     "text": "오세훈 시장은 정부의 민생·경제 대응도 부실하다고 날을 세웠다.",
+     "type": "opinion",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s8",
+     "text": null,
+     "type": "quote",
+     "sourceType": "gov",
+     "sourceName": "그",
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s9",
+     "text": null,
+     "type": "quote",
+     "sourceType": "gov",
+     "sourceName": "그",
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s10",
+     "text": null,
+     "type": "quote",
+     "sourceType": "gov",
+     "sourceName": "오 시장",
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s11",
+     "text": null,
+     "type": "quote",
+     "sourceType": "gov",
+     "sourceName": "오 시장",
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s12",
+     "text": null,
+     "type": "quote",
+     "sourceType": "gov",
+     "sourceName": "그",
+     "sourceDetail": null,
+     "party": null
+    }
+   ],
+   "framingTerms": [
+    {
+     "term": "강하게",
+     "sentenceId": "s3"
+    },
+    {
+     "term": "부실하다고",
+     "sentenceId": "s7"
+    },
+    {
+     "term": "날을 세웠다",
+     "sentenceId": "s7"
+    }
+   ],
+   "analyzedBy": "gemini-3.5-flash-lite"
+  },
+  {
+   "id": "a-e6684b241b",
+   "issueId": "auto-20261122-1145-1",
+   "outletId": "newsis",
+   "outletName": "뉴시스",
+   "title": "오세훈 \"대법원장 탄핵소추하면 李대통령 국민 심판열차 출발\"",
+   "summary": "오세훈 서울시장은 더불어민주당의 대법원장 탄핵 추진에 반발하며 이재명 대통령을 비난했다. 오 시장은 22일 페이스북에서 \"민주당이 헌정사상 초유의 대법원장 탄핵이라는 역사적 만행을 예고하고 있다\"며 \"결국 조희대...",
+   "url": "https://www.newsis.com/view/NISX20261122_0003877997",
+   "publishedAt": "2026-11-22T10:15:00+09:00",
+   "sentences": [
+    {
+     "id": "s1",
+     "text": null,
+     "type": "quote",
+     "sourceType": "gov",
+     "sourceName": "오세훈 서울시장",
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s2",
+     "text": null,
+     "type": "quote",
+     "sourceType": "gov",
+     "sourceName": "오 시장",
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s3",
+     "text": null,
+     "type": "quote",
+     "sourceType": "gov",
+     "sourceName": "그",
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s4",
+     "text": null,
+     "type": "quote",
+     "sourceType": "gov",
+     "sourceName": "오 시장",
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s5",
+     "text": null,
+     "type": "quote",
+     "sourceType": "gov",
+     "sourceName": "그",
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s6",
+     "text": null,
+     "type": "quote",
+     "sourceType": "gov",
+     "sourceName": "오 시장",
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s7",
+     "text": null,
+     "type": "quote",
+     "sourceType": "gov",
+     "sourceName": "오 시장",
+     "sourceDetail": null,
+     "party": null
+    }
+   ],
+   "framingTerms": [
+    {
+     "term": "반발하며",
+     "sentenceId": "s1"
+    },
+    {
+     "term": "비난했다",
+     "sentenceId": "s1"
+    },
+    {
+     "term": "꼬집었다",
+     "sentenceId": "s2"
+    },
+    {
+     "term": "비판했다",
+     "sentenceId": "s3"
+    },
+    {
+     "term": "짚었다",
+     "sentenceId": "s4"
+    },
+    {
+     "term": "말했다",
+     "sentenceId": "s5"
+    },
+    {
+     "term": "언급했다",
+     "sentenceId": "s6"
+    }
+   ],
+   "analyzedBy": "gemini-3.5-flash-lite"
+  },
+  {
+   "id": "a-dfc29ca6f4",
+   "issueId": "auto-20261122-1145-1",
+   "outletId": "news1",
+   "outletName": "뉴스1",
+   "title": "오세훈 \"대법원장 탄핵소추안 처리되는 날, 李 대통령 심판열차 출발\"",
+   "summary": "그는 \"전월세는 치솟고, 정부를 믿고 투자한 주식은 추락하고, 급격히 얼어붙은 소비에 자영업자들이 무너지고 있다\"며 \"AI 부정행위의 충격으로 온 나라가 혼란에 빠졌고, 가뜩이나 불안한 청년들은 갈 길을 잃었다\"고...",
+   "url": "https://www.news1.kr/local/moi/6361865",
+   "publishedAt": "2026-11-22T10:43:00+09:00",
+   "sentences": [
+    {
+     "id": "s1",
+     "text": null,
+     "type": "quote",
+     "sourceType": "gov",
+     "sourceName": "오세훈 서울시장",
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s2",
+     "text": null,
+     "type": "quote",
+     "sourceType": "gov",
+     "sourceName": "오 시장",
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s3",
+     "text": null,
+     "type": "quote",
+     "sourceType": "gov",
+     "sourceName": "그",
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s4",
+     "text": null,
+     "type": "quote",
+     "sourceType": "gov",
+     "sourceName": "오 시장",
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s5",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s6",
+     "text": null,
+     "type": "quote",
+     "sourceType": "gov",
+     "sourceName": "그",
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s7",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s8",
+     "text": null,
+     "type": "quote",
+     "sourceType": "gov",
+     "sourceName": "그",
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s9",
+     "text": null,
+     "type": "quote",
+     "sourceType": "gov",
+     "sourceName": "그",
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s10",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s11",
+     "text": null,
+     "type": "quote",
+     "sourceType": "gov",
+     "sourceName": "오 시장",
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s12",
+     "text": null,
+     "type": "quote",
+     "sourceType": "gov",
+     "sourceName": "오 시장",
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s13",
+     "text": null,
+     "type": "quote",
+     "sourceType": "gov",
+     "sourceName": "오 시장",
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s14",
+     "text": null,
+     "type": "quote",
+     "sourceType": "gov",
+     "sourceName": "오 시장",
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s15",
+     "text": null,
+     "type": "quote",
+     "sourceType": "gov",
+     "sourceName": "오 시장",
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s16",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s17",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    }
+   ],
+   "framingTerms": [
+    {
+     "term": "강하게 비판했다",
+     "sentenceId": "s1"
+    },
+    {
+     "term": "주장했다",
+     "sentenceId": "s2"
+    },
+    {
+     "term": "비판했다",
+     "sentenceId": "s4"
+    },
+    {
+     "term": "주장했다",
+     "sentenceId": "s6"
+    },
+    {
+     "term": "문제 삼았다",
+     "sentenceId": "s7"
+    },
+    {
+     "term": "지적했다",
+     "sentenceId": "s9"
+    },
+    {
+     "term": "주장했다",
+     "sentenceId": "s12"
+    },
+    {
+     "term": "강조했다",
+     "sentenceId": "s13"
+    },
+    {
+     "term": "경고했다",
+     "sentenceId": "s14"
+    }
+   ],
+   "analyzedBy": "gemini-3.5-flash-lite"
+  },
+  {
+   "id": "a-a821038030",
+   "issueId": "auto-20261122-1145-1",
+   "outletId": "sbs",
+   "outletName": "SBS",
+   "title": "오세훈 \"대법원장 탄핵 추진, 이재명 대통령 재판 없애려는 것\"",
+   "summary": "▲ 오세훈 서울시장 오세훈 서울시장은 오늘(22일) 더불어민주당의 조희대 대법원장 탄핵 추진에 대해 \"대통령 재판을 없애기 위한 사법부 장악의 마침표\"라고 주장했습니다. 오 시장은 오늘 페이스북에 올린 글에서...",
+   "url": "https://news.sbs.co.kr/news/endPage.do?news_id=N1008857571&plink=ORI&cooper=NAVER",
+   "publishedAt": "2026-11-22T11:37:00+09:00",
+   "sentences": [
+    {
+     "id": "s1",
+     "text": null,
+     "type": "quote",
+     "sourceType": "gov",
+     "sourceName": "오세훈 서울시장",
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s2",
+     "text": null,
+     "type": "quote",
+     "sourceType": "gov",
+     "sourceName": "오 시장",
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s3",
+     "text": null,
+     "type": "quote",
+     "sourceType": "gov",
+     "sourceName": "그는",
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s4",
+     "text": null,
+     "type": "quote",
+     "sourceType": "gov",
+     "sourceName": "그렇다면 등 생략 (오 시장)",
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s5",
+     "text": null,
+     "type": "quote",
+     "sourceType": "gov",
+     "sourceName": "오 시장",
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s6",
+     "text": null,
+     "type": "quote",
+     "sourceType": "gov",
+     "sourceName": "오 시장",
+     "sourceDetail": null,
+     "party": null
+    }
+   ],
+   "framingTerms": [
+    {
+     "term": "강하게 비판",
+     "sentenceId": "s2"
+    }
+   ],
+   "analyzedBy": "gemini-3.5-flash-lite"
+  },
+  {
+   "id": "a-a03afb2f12",
+   "issueId": "auto-20261122-1145-1",
+   "outletId": "ytn",
+   "outletName": "YTN",
+   "title": "오세훈 \"대법원장 탄핵 추진...대통령 심판열차의 출발\"",
+   "summary": "더불어민주당의 조희대 대법원장 탄핵 추진에 대해 오세훈 서울시장이 \"대통령 심판열차의 출발이 될 것\"이라고 비판했습니다. 오 시장은 오늘(22일) 자신의 페이스북에 \"대통령 재판을 없애기 위한 사법부 장악의 마침표를...",
+   "url": "https://www.ytn.co.kr/_ln/0115_202611221138334456",
+   "publishedAt": "2026-11-22T11:38:00+09:00",
+   "sentences": [
+    {
+     "id": "s1",
+     "text": null,
+     "type": "quote",
+     "sourceType": "opp",
+     "sourceName": "오세훈 서울시장",
+     "sourceDetail": null,
+     "party": "국민의힘"
+    },
+    {
+     "id": "s2",
+     "text": null,
+     "type": "quote",
+     "sourceType": "opp",
+     "sourceName": "오 시장",
+     "sourceDetail": null,
+     "party": "국민의힘"
+    },
+    {
+     "id": "s3",
+     "text": null,
+     "type": "quote",
+     "sourceType": "opp",
+     "sourceName": "오 시장",
+     "sourceDetail": null,
+     "party": "국민의힘"
+    },
+    {
+     "id": "s4",
+     "text": null,
+     "type": "quote",
+     "sourceType": "opp",
+     "sourceName": "오 시장",
+     "sourceDetail": null,
+     "party": "국민의힘"
+    },
+    {
+     "id": "s5",
+     "text": null,
+     "type": "quote",
+     "sourceType": "opp",
+     "sourceName": "오 시장",
+     "sourceDetail": null,
+     "party": "국민의힘"
+    },
+    {
+     "id": "s6",
+     "text": "※ '당신의 제보가 뉴스가 됩니다'",
+     "type": "opinion",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    }
+   ],
+   "framingTerms": [
+    {
+     "term": "비판했습니다",
+     "sentenceId": "s1"
+    },
+    {
+     "term": "주장했습니다",
+     "sentenceId": "s2"
+    },
+    {
+     "term": "분석했습니다",
+     "sentenceId": "s3"
+    },
+    {
+     "term": "언급했습니다",
+     "sentenceId": "s4"
+    },
+    {
+     "term": "단언했습니다",
+     "sentenceId": "s5"
+    }
+   ],
+   "analyzedBy": "gemini-3.5-flash-lite"
+  },
+  {
+   "id": "a-d927315e21",
+   "issueId": "auto-20261122-1145-1",
+   "outletId": "tvchosun",
+   "outletName": "TV조선",
+   "title": "오세훈 \"李대통령 재판 없애려고 조희대 탄핵 추진…사법부 장악 마침표...",
+   "summary": "오세훈 서울시장은 22일 더불어민주당의 조희대 대법원장 탄핵 추진에 대해 \"대통령 재판을 없애기 위한 사법부 장악의 마침표\"라고 주장했다. 오 시장은 이날 페이스북에서 \"민주당이 헌정사상 초유의 대법원장...",
+   "url": "https://news.tvchosun.com/site/data/html_dir/2026/11/22/2026112290041.html",
+   "publishedAt": "2026-11-22T11:35:00+09:00",
+   "sentences": [
+    {
+     "id": "s1",
+     "text": null,
+     "type": "quote",
+     "sourceType": "gov",
+     "sourceName": "오세훈 서울시장",
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s2",
+     "text": null,
+     "type": "quote",
+     "sourceType": "gov",
+     "sourceName": "오 시장",
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s3",
+     "text": null,
+     "type": "quote",
+     "sourceType": "gov",
+     "sourceName": "오 시장",
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s4",
+     "text": null,
+     "type": "quote",
+     "sourceType": "gov",
+     "sourceName": "오 시장",
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s5",
+     "text": null,
+     "type": "quote",
+     "sourceType": "gov",
+     "sourceName": "오 시장",
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s6",
+     "text": null,
+     "type": "quote",
+     "sourceType": "gov",
+     "sourceName": "오 시장",
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s7",
+     "text": null,
+     "type": "quote",
+     "sourceType": "gov",
+     "sourceName": "오 시장",
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s8",
+     "text": null,
+     "type": "quote",
+     "sourceType": "gov",
+     "sourceName": "오 시장",
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s9",
+     "text": null,
+     "type": "quote",
+     "sourceType": "gov",
+     "sourceName": "오 시장",
+     "sourceDetail": null,
+     "party": null
+    }
+   ],
+   "framingTerms": [],
+   "analyzedBy": "gemini-3.5-flash-lite"
+  },
+  {
+   "id": "a-1a9b37d789",
+   "issueId": "auto-20261122-1145-1",
+   "outletId": "ichannela",
+   "outletName": "채널A",
+   "title": "오세훈 “대법원장 탄핵소추안 처리 날, 이 대통령 심판열차 출발”",
+   "summary": "또 \"전월세는 치솟고, 정부를 믿고 투자한 주식은 추락하고, 급격히 얼어붙은 소비에 자영업자들이 무너지고 있다\"라며 \"AI 부정행위의 충격으로 온 나라가 혼란에 빠졌고, 가뜩이나 불안한 청년들은 갈 길을 잃었다\"라고...",
+   "url": "https://www.ichannela.com/news/main/news_detailPage.do?publishId=000000561088",
+   "publishedAt": "2026-11-22T11:23:00+09:00",
+   "sentences": [
+    {
+     "id": "s1",
+     "text": null,
+     "type": "quote",
+     "sourceType": "gov",
+     "sourceName": "오세훈 서울시장",
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s2",
+     "text": null,
+     "type": "quote",
+     "sourceType": "gov",
+     "sourceName": "오 시장",
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s3",
+     "text": null,
+     "type": "quote",
+     "sourceType": "gov",
+     "sourceName": "오 시장",
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s4",
+     "text": null,
+     "type": "quote",
+     "sourceType": "gov",
+     "sourceName": "오 시장",
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s5",
+     "text": null,
+     "type": "quote",
+     "sourceType": "gov",
+     "sourceName": "오 시장",
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s6",
+     "text": null,
+     "type": "quote",
+     "sourceType": "gov",
+     "sourceName": "오 시장",
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s7",
+     "text": null,
+     "type": "quote",
+     "sourceType": "gov",
+     "sourceName": "오 시장",
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s8",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    }
+   ],
+   "framingTerms": [
+    {
+     "term": "날을 세웠습니다",
+     "sentenceId": "s1"
+    },
+    {
+     "term": "주장했습니다",
+     "sentenceId": "s2"
+    },
+    {
+     "term": "목소리를 높였습니다",
+     "sentenceId": "s3"
+    },
+    {
+     "term": "지적했습니다",
+     "sentenceId": "s4"
+    },
+    {
+     "term": "따졌습니다",
+     "sentenceId": "s5"
+    },
+    {
+     "term": "주장했습니다",
+     "sentenceId": "s6"
+    },
+    {
+     "term": "덧붙였습니다",
+     "sentenceId": "s7"
+    }
+   ],
+   "analyzedBy": "gemini-3.5-flash-lite"
+  },
+  {
+   "id": "a-82abf8075a",
+   "issueId": "auto-20261122-1145-1",
+   "outletId": "chosun",
+   "outletName": "조선일보",
+   "title": "오세훈 “대법원장 탄핵, 李 대통령 향한 국민 심판 열차 출발할 것\"",
+   "summary": "오세훈 서울시장이 22일 더불어민주당의 조희대 대법원장 탄핵 추진에 대해 ‘대법원장 탄핵, 대통령 심판 열차의 출발이 될 것’이라는 글을 올리고 “민주당도 법리적으로 탄핵 사유가 될 수 없다는 사실을 모를 리...",
+   "url": "https://www.chosun.com/national/national_general/2026/11/22/F56QA4EMVFCJPLK2SNC6CRH7GA/?utm_source=naver&utm_medium=referral&utm_campaign=naver-news",
+   "publishedAt": "2026-11-22T11:37:00+09:00",
+   "sentences": [
+    {
+     "id": "s1",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s2",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s3",
+     "text": null,
+     "type": "quote",
+     "sourceType": "industry",
+     "sourceName": "이도씨",
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s4",
+     "text": "이씨의 강의를 들어온 수험생들로서는 수능이 불과 며칠 남지 않은 상황에서…",
+     "type": "opinion",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s5",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s6",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s7",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    }
+   ],
+   "framingTerms": [
+    {
+     "term": "황당한",
+     "sentenceId": "s1"
+    },
+    {
+     "term": "갑작스레",
+     "sentenceId": "s2"
+    },
+    {
+     "term": "돌연",
+     "sentenceId": "s2"
+    },
+    {
+     "term": "잃게 된 것이다",
+     "sentenceId": "s4"
+    }
+   ],
+   "analyzedBy": "gemini-3.5-flash-lite"
+  },
+  {
+   "id": "a-22a35283d2",
+   "issueId": "auto-20261122-1148-1",
+   "outletId": "yna",
+   "outletName": "연합뉴스",
+   "title": "이용철 법무장관 후보 청문회 D-2…핵심 쟁점은 '공소취소'",
+   "summary": "대한 국회 청문회에서는 이재명 대통령 형사재판의 공소 취소가 가장 큰 쟁점이 될 전망이다. 야당에서는 이... 그는 9일 \"대통령께서 국회에 특검은 진상 규명에만 집중할 수 있도록 기존 사건에 대한 이송권을 빼고 오로지...",
+   "url": "https://www.yna.co.kr/view/AKR20261120142900004?input=1195m",
+   "publishedAt": "2026-11-22T05:55:00+09:00",
+   "sentences": [
+    {
+     "id": "s1",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s2",
+     "text": "오는 24일 열릴 이용철 법무부 장관 후보자에 대한 국회 청문회에서는 이…",
+     "type": "opinion",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s3",
+     "text": "야당에서는 이 후보자가 이 대통령과 오랜 인연을 맺어왔으며 측근 그룹인…",
+     "type": "opinion",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s4",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s5",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s6",
+     "text": "최근 공포된 이른바 조작기소 특검법에는 공소 취소 권한이 담기지 않았지만…",
+     "type": "opinion",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s7",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s8",
+     "text": null,
+     "type": "quote",
+     "sourceType": "etc",
+     "sourceName": "이용철 후보자",
+     "sourceDetail": "익명(소속 미상)",
+     "party": null
+    },
+    {
+     "id": "s9",
+     "text": null,
+     "type": "quote",
+     "sourceType": "etc",
+     "sourceName": "이용철 후보자",
+     "sourceDetail": "익명(소속 미상)",
+     "party": null
+    },
+    {
+     "id": "s10",
+     "text": null,
+     "type": "quote",
+     "sourceType": "etc",
+     "sourceName": "이용철 후보자",
+     "sourceDetail": "익명(소속 미상)",
+     "party": null
+    },
+    {
+     "id": "s11",
+     "text": "일견 원론적 답변으로 보이지만, 일각에서는 이용철 후보자의 발언 취지가…",
+     "type": "opinion",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s12",
+     "text": null,
+     "type": "quote",
+     "sourceType": "opp",
+     "sourceName": "조응천 전 개혁신당 의원",
+     "sourceDetail": null,
+     "party": "개혁신당"
+    },
+    {
+     "id": "s13",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s14",
+     "text": null,
+     "type": "quote",
+     "sourceType": "etc",
+     "sourceName": "이 후보자",
+     "sourceDetail": "익명(소속 미상)",
+     "party": null
+    },
+    {
+     "id": "s15",
+     "text": null,
+     "type": "quote",
+     "sourceType": "gov",
+     "sourceName": "일부 공소청 검사들",
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s16",
+     "text": null,
+     "type": "quote",
+     "sourceType": "gov",
+     "sourceName": "한 부장검사",
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s17",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s18",
+     "text": null,
+     "type": "quote",
+     "sourceType": "opp",
+     "sourceName": "야당",
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s19",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s20",
+     "text": null,
+     "type": "quote",
+     "sourceType": "etc",
+     "sourceName": "이 후보자 측",
+     "sourceDetail": "익명(소속 미상)",
+     "party": null
+    },
+    {
+     "id": "s21",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    }
+   ],
+   "framingTerms": [
+    {
+     "term": "전망이다",
+     "sentenceId": "s2"
+    },
+    {
+     "term": "공세를 펼 것으로 보인다",
+     "sentenceId": "s3"
+    },
+    {
+     "term": "전망이 나오고 있다",
+     "sentenceId": "s6"
+    },
+    {
+     "term": "해석한다",
+     "sentenceId": "s11"
+    },
+    {
+     "term": "지적받는",
+     "sentenceId": "s13"
+    },
+    {
+     "term": "공격받는",
+     "sentenceId": "s13"
+    },
+    {
+     "term": "지적한다",
+     "sentenceId": "s15"
+    },
+    {
+     "term": "꼬집었다",
+     "sentenceId": "s16"
+    },
+    {
+     "term": "부인하고 있다",
+     "sentenceId": "s18"
+    },
+    {
+     "term": "공격받고 있다",
+     "sentenceId": "s21"
+    }
+   ],
+   "analyzedBy": "gemini-3.5-flash-lite"
+  },
+  {
+   "id": "a-61fcf56256",
+   "issueId": "auto-20261122-1148-1",
+   "outletId": "newsis",
+   "outletName": "뉴시스",
+   "title": "이번 주 이용철 법무장관 후보 청문회…'李공소취소' 입장 최대 쟁점",
+   "summary": "이용철 법무부 장관 후보자에 대한 국회 인사청문회가 이번주 열린다. 정성호 전 장관 후임으로 낙점됐던... 22일 법조계에 따르면 국회 법제사법위원회는 24일 이 후보자에 대한 인사청문회를 개최한다. 법무부는 이재명...",
+   "url": "https://www.newsis.com/view/NISX20261120_0003877343",
+   "publishedAt": "2026-11-22T08:00:00+09:00",
+   "sentences": [
+    {
+     "id": "s1",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s2",
+     "text": "정성호 전 장관 후임으로 낙점됐던 김승원 의원의 자진 사퇴로 석 달 가까…",
+     "type": "opinion",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s3",
+     "text": "'조작기소 특검법'이 지난 19일 공포된 가운데 이재명 대통령 사건의 공…",
+     "type": "opinion",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s4",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s5",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s6",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s7",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s8",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s9",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s10",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s11",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s12",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s13",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s14",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s15",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s16",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s17",
+     "text": null,
+     "type": "quote",
+     "sourceType": "opp",
+     "sourceName": "야당",
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s18",
+     "text": null,
+     "type": "quote",
+     "sourceType": "etc",
+     "sourceName": "김 의원",
+     "sourceDetail": "전 후보자였던 김 의원",
+     "party": null
+    },
+    {
+     "id": "s19",
+     "text": "새 장관이 임명되면 1년 4개월 넘게 공석인 검찰총장 인선에도 속도가 붙…",
+     "type": "opinion",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s20",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s21",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s22",
+     "text": "이르면 이번 주 개최될 가능성도 있다.",
+     "type": "opinion",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s23",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s24",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s25",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s26",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s27",
+     "text": null,
+     "type": "quote",
+     "sourceType": "etc",
+     "sourceName": "이 차관",
+     "sourceDetail": "이 차관",
+     "party": null
+    },
+    {
+     "id": "s28",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s29",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s30",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s31",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s32",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s33",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s34",
+     "text": null,
+     "type": "quote",
+     "sourceType": "etc",
+     "sourceName": "이 대행",
+     "sourceDetail": "이 대행",
+     "party": null
+    },
+    {
+     "id": "s35",
+     "text": null,
+     "type": "quote",
+     "sourceType": "etc",
+     "sourceName": "이 대행",
+     "sourceDetail": "이 대행",
+     "party": null
+    },
+    {
+     "id": "s36",
+     "text": null,
+     "type": "quote",
+     "sourceType": "etc",
+     "sourceName": "이 대행",
+     "sourceDetail": "이 대행",
+     "party": null
+    },
+    {
+     "id": "s37",
+     "text": "상황이 이렇다 보니, 이 대행의 발탁이 공소취소를 위한 포석이라는 우려의…",
+     "type": "opinion",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s38",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s39",
+     "text": "같은 법 제11조는 검찰총장이 검사 사무를 총괄하고 각급 공소청과 지청의…",
+     "type": "opinion",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s40",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s41",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s42",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s43",
+     "text": null,
+     "type": "quote",
+     "sourceType": "citizen",
+     "sourceName": "각계",
+     "sourceDetail": null,
+     "party": null
+    }
+   ],
+   "framingTerms": [
+    {
+     "term": "주목된다",
+     "sentenceId": "s2"
+    },
+    {
+     "term": "보인다",
+     "sentenceId": "s3"
+    },
+    {
+     "term": "비판",
+     "sentenceId": "s17"
+    },
+    {
+     "term": "전망이다",
+     "sentenceId": "s19"
+    },
+    {
+     "term": "가능성도 있다",
+     "sentenceId": "s22"
+    },
+    {
+     "term": "논란",
+     "sentenceId": "s34"
+    },
+    {
+     "term": "우려",
+     "sentenceId": "s37"
+    },
+    {
+     "term": "관측이 제기되는",
+     "sentenceId": "s39"
+    },
+    {
+     "term": "반발이 컸다",
+     "sentenceId": "s42"
+    },
+    {
+     "term": "지적하고",
+     "sentenceId": "s43"
+    }
+   ],
+   "analyzedBy": "gemini-3.5-flash-lite"
+  },
+  {
+   "id": "a-e342432046",
+   "issueId": "auto-20261122-1148-1",
+   "outletId": "news1",
+   "outletName": "뉴스1",
+   "title": "이용철 법무장관 후보 청문회 D-2…'공소취소·대장동·도덕성' 검증대",
+   "summary": "이용철 법무부 장관 후보자의 국회 인사청문회가 이틀 앞으로 다가왔다. 조작기소 특검과 맞물린 이재명... 22일 법조계와 정치권에 따르면 국회 법제사법위원회는 오는 24일 이 후보자에 대한 인사청문회를 연다. 이...",
+   "url": "https://www.news1.kr/society/court-prosecution/6361589",
+   "publishedAt": "2026-11-22T06:00:00+09:00",
+   "sentences": [
+    {
+     "id": "s1",
+     "text": "이외에도 이 후보자는 각종 도덕성 논란에 답해야 한다.",
+     "type": "opinion",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s2",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s3",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s4",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s5",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s6",
+     "text": null,
+     "type": "quote",
+     "sourceType": "etc",
+     "sourceName": "이 후보자 측",
+     "sourceDetail": "익명(소속 미상)",
+     "party": null
+    },
+    {
+     "id": "s7",
+     "text": null,
+     "type": "quote",
+     "sourceType": "etc",
+     "sourceName": "이 후보자 측",
+     "sourceDetail": "익명(소속 미상)",
+     "party": null
+    },
+    {
+     "id": "s8",
+     "text": "이른바 '백숙집 포커' 의혹도 쟁점으로 꼽힌다.",
+     "type": "opinion",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s9",
+     "text": null,
+     "type": "quote",
+     "sourceType": "etc",
+     "sourceName": "유 전 본부장",
+     "sourceDetail": "익명(소속 미상)",
+     "party": null
+    },
+    {
+     "id": "s10",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s11",
+     "text": null,
+     "type": "quote",
+     "sourceType": "gov",
+     "sourceName": "그",
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s12",
+     "text": null,
+     "type": "quote",
+     "sourceType": "etc",
+     "sourceName": "유 전 본부장",
+     "sourceDetail": "익명(소속 미상)",
+     "party": null
+    },
+    {
+     "id": "s13",
+     "text": "양측의 주장이 엇갈리는 만큼 관련 의혹을 둘러싼 공방이 이어질 것으로 보…",
+     "type": "opinion",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s14",
+     "text": "아울러 이 후보자를 둘러싸고는 비검찰 출신인 데다 법무행정 경험이 부족해…",
+     "type": "opinion",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s15",
+     "text": "이 후보자의 실무 능력 또한 야권의 집중 검증 대상이 될 것으로 전망된다…",
+     "type": "opinion",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s16",
+     "text": null,
+     "type": "quote",
+     "sourceType": "gov",
+     "sourceName": "이 후보자",
+     "sourceDetail": null,
+     "party": null
+    }
+   ],
+   "framingTerms": [
+    {
+     "term": "해명했다",
+     "sentenceId": "s6"
+    },
+    {
+     "term": "주장했다",
+     "sentenceId": "s9"
+    },
+    {
+     "term": "부인했다",
+     "sentenceId": "s10"
+    },
+    {
+     "term": "반박했다",
+     "sentenceId": "s11"
+    }
+   ],
+   "analyzedBy": "gemini-3.5-flash-lite"
+  },
+  {
+   "id": "a-b39485cab3",
+   "issueId": "auto-20261122-1148-1",
+   "outletId": "joongang",
+   "outletName": "중앙일보",
+   "title": "특검하면 李 공소취소?…“끝없는 폭탄 돌리기” 우려 터졌다",
+   "summary": "법무부 장관이 검찰총장을 지휘(공소청법 제9조)하면 검찰총장이 일선 공판 검사를 지휘(공소청법 제11조)하는 방식 등이다. 이용철 법무부 장관 후보자가 이전 법무부 장관 후보자들과 달리 “진상 규명에 집중하는 것이...",
+   "url": "https://www.joongang.co.kr/article/25480661",
+   "publishedAt": "2026-11-21T07:00:00+09:00",
+   "sentences": [
+    {
+     "id": "s1",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s2",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s3",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s4",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s5",
+     "text": "특검 수사 결과가 나오면 공소청이 이 대통령의 형사 재판에 대한 공소를…",
+     "type": "opinion",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s6",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s7",
+     "text": null,
+     "type": "quote",
+     "sourceType": "etc",
+     "sourceName": "이용철 법무부 장관 후보자",
+     "sourceDetail": "법조계",
+     "party": null
+    },
+    {
+     "id": "s8",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s9",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s10",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s11",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s12",
+     "text": null,
+     "type": "quote",
+     "sourceType": "etc",
+     "sourceName": "공소청 관계자",
+     "sourceDetail": "익명(소속 미상)",
+     "party": null
+    },
+    {
+     "id": "s13",
+     "text": null,
+     "type": "quote",
+     "sourceType": "expert",
+     "sourceName": "검사 출신 변호사",
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s14",
+     "text": "공소를 취소할 사정이 없는데도 법무부 장관이나 검찰총장이 무리하게 공소…",
+     "type": "opinion",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s15",
+     "text": null,
+     "type": "quote",
+     "sourceType": "expert",
+     "sourceName": "이창현",
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s16",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s17",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s18",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s19",
+     "text": null,
+     "type": "quote",
+     "sourceType": "etc",
+     "sourceName": "최기도",
+     "sourceDetail": "국회",
+     "party": null
+    }
+   ],
+   "framingTerms": [],
+   "analyzedBy": "gemini-3.5-flash-lite"
+  },
+  {
+   "id": "a-08931901d8",
+   "issueId": "auto-20261122-1148-1",
+   "outletId": "segye",
+   "outletName": "세계일보",
+   "title": "이용철 법무장관 후보자 24일 인사청문회…공소취소·대장동·자질 검증...",
+   "summary": "후 검찰총장(공소청장)에 대한 지휘권을 발동해 이 대통령 관련 사건의 옛 검찰의 공소를 취소하려 할 것이란 의구심을 거두지 않고 있다. 앞서 이 후보자가 지명 직후 출근길에서 관련 질문에 “조작기소 특검의...",
+   "url": "https://www.segye.com/newsView/20261120514693?OutUrl=naver",
+   "publishedAt": "2026-11-21T16:49:00+09:00",
+   "sentences": [
+    {
+     "id": "s1",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s2",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s3",
+     "text": "법조계에선 △이재명 대통령 관련 사건 공소취소 지휘권 행사 여부 △‘성남…",
+     "type": "opinion",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s4",
+     "text": "최대 쟁점은 이 대통령이 기소된 형사사건의 공소취소 문제다.",
+     "type": "opinion",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s5",
+     "text": null,
+     "type": "quote",
+     "sourceType": "opp",
+     "sourceName": "국민의힘 등 야권",
+     "sourceDetail": null,
+     "party": "국민의힘"
+    },
+    {
+     "id": "s6",
+     "text": null,
+     "type": "quote",
+     "sourceType": "opp",
+     "sourceName": "야당",
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s7",
+     "text": null,
+     "type": "quote",
+     "sourceType": "gov",
+     "sourceName": "이 후보자",
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s8",
+     "text": "전임 장관인 더불어민주당 정성호 의원과 직전 후보였다가 낙마한 같은 당…",
+     "type": "opinion",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s9",
+     "text": "과거 성남시 산하기관에 몸 담을 당시 불거진 대장동 개발사업 연루 의혹도…",
+     "type": "opinion",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s10",
+     "text": null,
+     "type": "quote",
+     "sourceType": "opp",
+     "sourceName": "야당",
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s11",
+     "text": "여기에 이 후보자가 유 전 본부장과 과거 거액의 판돈을 걸고 카드 도박까…",
+     "type": "opinion",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s12",
+     "text": null,
+     "type": "quote",
+     "sourceType": "gov",
+     "sourceName": "이 후보자",
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s13",
+     "text": null,
+     "type": "quote",
+     "sourceType": "gov",
+     "sourceName": "이 후보자 측",
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s14",
+     "text": null,
+     "type": "quote",
+     "sourceType": "gov",
+     "sourceName": "이 후보자",
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s15",
+     "text": null,
+     "type": "quote",
+     "sourceType": "gov",
+     "sourceName": "이 후보자",
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s16",
+     "text": "법무부 장관 후보자로서의 준법 의식과 변화한 형사사법체계를 이끌 전문성…",
+     "type": "opinion",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s17",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s18",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s19",
+     "text": null,
+     "type": "quote",
+     "sourceType": "gov",
+     "sourceName": "이 후보자 측",
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s20",
+     "text": null,
+     "type": "quote",
+     "sourceType": "gov",
+     "sourceName": "이 후보자 측",
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s21",
+     "text": "지난달 검찰 폐지와 함께 공소청·중대범죄수사청 신설 등 형사사법체계 전환…",
+     "type": "opinion",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    }
+   ],
+   "framingTerms": [
+    {
+     "term": "치열한",
+     "sentenceId": "s3"
+    }
+   ],
+   "analyzedBy": "gemini-3.5-flash-lite"
+  },
+  {
+   "id": "a-176359a916",
+   "issueId": "auto-20261122-1148-1",
+   "outletId": "dailian",
+   "outletName": "데일리안",
+   "title": "'李 탈옥법' 공포됐지만 끝나지 않은 '공소취소'…국민의힘, 이용철 정...",
+   "summary": "그러나 검찰청법상 법무부 장관은 검찰사무의 최고 감독자로서 검사를 일반적으로 지휘·감독하고, 구체적 사건에 대해서는 검찰총장만을 지휘·감독할 수 있다. 다만 법무부 장관이 직접 공소를 취소하는 것은 아니다....",
+   "url": "https://www.dailian.co.kr/news/view/1717901/?sc=Naver",
+   "publishedAt": "2026-11-21T08:10:00+09:00",
+   "sentences": [
+    {
+     "id": "s1",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s2",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s3",
+     "text": "특히 당 원내지도부에서는 이 후보자의 '법과 원칙에 따르겠다'는 입장을…",
+     "type": "opinion",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s4",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s5",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s6",
+     "text": "이에 법안 폐지 요구와 별개로 향후 특검 수사 결과가 이 대통령 관련 사…",
+     "type": "opinion",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s7",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s8",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s9",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s10",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s11",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s12",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s13",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s14",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s15",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s16",
+     "text": null,
+     "type": "quote",
+     "sourceType": "opp",
+     "sourceName": "국민의힘 원내 핵심 관계자",
+     "sourceDetail": null,
+     "party": "국민의힘"
+    },
+    {
+     "id": "s17",
+     "text": null,
+     "type": "quote",
+     "sourceType": "opp",
+     "sourceName": "국민의힘 원내 핵심 관계자",
+     "sourceDetail": null,
+     "party": "국민의힘"
+    },
+    {
+     "id": "s18",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s19",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s20",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s21",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s22",
+     "text": null,
+     "type": "quote",
+     "sourceType": "opp",
+     "sourceName": "원내 핵심 관계자",
+     "sourceDetail": null,
+     "party": "국민의힘"
+    },
+    {
+     "id": "s23",
+     "text": null,
+     "type": "quote",
+     "sourceType": "opp",
+     "sourceName": "원내 핵심 관계자",
+     "sourceDetail": null,
+     "party": "국민의힘"
+    },
+    {
+     "id": "s24",
+     "text": null,
+     "type": "quote",
+     "sourceType": "opp",
+     "sourceName": "국민의힘 법사위 소속 한 의원",
+     "sourceDetail": null,
+     "party": "국민의힘"
+    },
+    {
+     "id": "s25",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s26",
+     "text": null,
+     "type": "quote",
+     "sourceType": "opp",
+     "sourceName": "해당 의원",
+     "sourceDetail": null,
+     "party": "국민의힘"
+    },
+    {
+     "id": "s27",
+     "text": null,
+     "type": "quote",
+     "sourceType": "opp",
+     "sourceName": "해당 의원",
+     "sourceDetail": null,
+     "party": "국민의힘"
+    },
+    {
+     "id": "s28",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s29",
+     "text": null,
+     "type": "quote",
+     "sourceType": "opp",
+     "sourceName": "박충권 국민의힘 수석대변인",
+     "sourceDetail": null,
+     "party": "국민의힘"
+    },
+    {
+     "id": "s30",
+     "text": null,
+     "type": "quote",
+     "sourceType": "opp",
+     "sourceName": "박충권 수석대변인",
+     "sourceDetail": null,
+     "party": "국민의힘"
+    },
+    {
+     "id": "s31",
+     "text": "국민의힘 내부에서는 이 후보자가 공소취소 지휘권 불행사 여부에 명확한 입…",
+     "type": "opinion",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s32",
+     "text": null,
+     "type": "quote",
+     "sourceType": "opp",
+     "sourceName": "국민의힘 의원",
+     "sourceDetail": null,
+     "party": "국민의힘"
+    },
+    {
+     "id": "s33",
+     "text": "다만 공소취소 지휘권 문제만으로 후보자의 적격성 논란을 얼마나 확대할 수…",
+     "type": "opinion",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s34",
+     "text": "법무부 장관의 지휘권 행사 가능성과 실제 공소취소 절차 사이에는 법적 구…",
+     "type": "opinion",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s35",
+     "text": null,
+     "type": "quote",
+     "sourceType": "expert",
+     "sourceName": "한 정치평론가",
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s36",
+     "text": null,
+     "type": "quote",
+     "sourceType": "expert",
+     "sourceName": "한 정치평론가",
+     "sourceDetail": null,
+     "party": null
+    }
+   ],
+   "framingTerms": [
+    {
+     "term": "강도 높은",
+     "sentenceId": "s3"
+    },
+    {
+     "term": "강행",
+     "sentenceId": "s5"
+    },
+    {
+     "term": "반발",
+     "sentenceId": "s5"
+    },
+    {
+     "term": "총력전",
+     "sentenceId": "s5"
+    },
+    {
+     "term": "강경론",
+     "sentenceId": "s31"
+    }
+   ],
+   "analyzedBy": "gemini-3.5-flash-lite"
+  },
+  {
+   "id": "a-979bfae92b",
+   "issueId": "auto-20261122-1149-1",
+   "outletId": "yna",
+   "outletName": "연합뉴스",
+   "title": "'수출 1조달러' 한국, 세계 4위 전망…반도체 빼면 세계 8위",
+   "summary": "산업부는 첨단산업의 R&D 경쟁력을 높이려면 주 52시간제 예외 등 노동 특례를 초광역특구법에 반드시 포함해야 한다는 입장이다. 2026년 1∼7월 국가별 총수출과 반도체 제외 순위(단위: 억달러) ※ WTO, 반도체 실적은...",
+   "url": "https://www.yna.co.kr/view/AKR20261120179700003?input=1195m",
+   "publishedAt": "2026-11-22T06:15:00+09:00",
+   "sentences": [
+    {
+     "id": "s1",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s2",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s3",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s4",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s5",
+     "text": null,
+     "type": "quote",
+     "sourceType": "gov",
+     "sourceName": "산업통상부",
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s6",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s7",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s8",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s9",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s10",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s11",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s12",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s13",
+     "text": "세계 수출 상위 10개국에서 동일하게 반도체를 제외했는데도 순위가 뒤바뀌…",
+     "type": "opinion",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s14",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s15",
+     "text": "반도체 쏠림 현상은 갈수록 심해지는 추세다.",
+     "type": "opinion",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s16",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s17",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s18",
+     "text": "이처럼 반도체에 편중된 수출 구조는 대외 충격에 취약하다는 지적이 나온다…",
+     "type": "opinion",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s19",
+     "text": "특히 미국 중간선거에서 약진한 민주당이 데이터센터 규제를 강화하면 빅테크…",
+     "type": "opinion",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s20",
+     "text": "다만 특정 품목을 제외한 순위만으로 국가 수출 경쟁력을 평가하는 데는 한…",
+     "type": "opinion",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s21",
+     "text": "국가별 비교우위에 따라 주력 수출품이 다른 만큼 독일의 자동차나 프랑스·…",
+     "type": "opinion",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s22",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s23",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s24",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s25",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s26",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s27",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s28",
+     "text": "그럼에도 반도체가 전체 수출의 40% 이상을 차지할 정도로 특정 품목 의…",
+     "type": "opinion",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s29",
+     "text": "AI 산업의 변동성에 따라 반도체 경기도 크게 출렁일 수 있는 만큼 반도…",
+     "type": "opinion",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s30",
+     "text": null,
+     "type": "quote",
+     "sourceType": "gov",
+     "sourceName": "김정관 산업통상부 장관",
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s31",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s32",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s33",
+     "text": null,
+     "type": "quote",
+     "sourceType": "gov",
+     "sourceName": "산업부",
+     "sourceDetail": null,
+     "party": null
+    }
+   ],
+   "framingTerms": [
+    {
+     "term": "오를",
+     "sentenceId": "s2"
+    },
+    {
+     "term": "내려가는",
+     "sentenceId": "s3"
+    },
+    {
+     "term": "오를",
+     "sentenceId": "s9"
+    },
+    {
+     "term": "심해지는",
+     "sentenceId": "s15"
+    },
+    {
+     "term": "치솟았다",
+     "sentenceId": "s17"
+    },
+    {
+     "term": "타격받을",
+     "sentenceId": "s19"
+    },
+    {
+     "term": "성장세를",
+     "sentenceId": "s22"
+    },
+    {
+     "term": "확대됐다",
+     "sentenceId": "s25"
+    }
+   ],
+   "analyzedBy": "gemini-3.5-flash-lite"
+  },
+  {
+   "id": "a-15b5793139",
+   "issueId": "auto-20261122-1149-1",
+   "outletId": "sbs",
+   "outletName": "SBS",
+   "title": "'수출 1조 달러' 한국, 세계 4위 전망…반도체 빼면 세계 8위",
+   "summary": "최대 쟁점은 주 52시간제 예외 규정입니다. 산업부는 첨단산업의 R&D 경쟁력을 높이려면 주 52시간제 예외 등 노동 특례를 초광역특구법에 반드시 포함해야 한다는 입장입니다. (사진=연합뉴스)",
+   "url": "https://news.sbs.co.kr/news/endPage.do?news_id=N1008857438&plink=ORI&cooper=NAVER",
+   "publishedAt": "2026-11-22T09:15:00+09:00",
+   "sentences": [
+    {
+     "id": "s1",
+     "text": "한국이 올해 사상 처음으로 연간 수출 1조달러를 달성하며 세계 4위 수출…",
+     "type": "opinion",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s2",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s3",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s4",
+     "text": null,
+     "type": "quote",
+     "sourceType": "gov",
+     "sourceName": "산업통상부",
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s5",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s6",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s7",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s8",
+     "text": "산업부는 올해 연간 수출액이 1조 1천700억 달러에 달해 네덜란드를 제…",
+     "type": "opinion",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s9",
+     "text": "하지만 수출 실적을 떠받친 반도체를 제외하면 순위는 달라집니다.",
+     "type": "opinion",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s10",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s11",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s12",
+     "text": "세계 수출 상위 10개국에서 동일하게 반도체를 제외했는데도 순위가 뒤바뀌…",
+     "type": "opinion",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s13",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s14",
+     "text": "반도체 쏠림 현상은 갈수록 심해지는 추셉니다.",
+     "type": "opinion",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s15",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s16",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s17",
+     "text": "이처럼 반도체에 편중된 수출 구조는 대외 충격에 취약하다는 지적이 나옵니…",
+     "type": "opinion",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s18",
+     "text": "특히 미국 중간선거에서 약진한 민주당이 데이터센터 규제를 강화하면 빅테크…",
+     "type": "opinion",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s19",
+     "text": "다만 특정 품목을 제외한 순위만으로 국가 수출 경쟁력을 평가하는 데는 한…",
+     "type": "opinion",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s20",
+     "text": "국가별 비교우위에 따라 주력 수출품이 다른 만큼 독일의 자동차나 프랑스·…",
+     "type": "opinion",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s21",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s22",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s23",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s24",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s25",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s26",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s27",
+     "text": "그럼에도 반도체가 전체 수출의 40% 이상을 차지할 정도로 특정 품목 의…",
+     "type": "opinion",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s28",
+     "text": "AI 산업의 변동성에 따라 반도체 경기도 크게 출렁일 수 있는 만큼 반도…",
+     "type": "opinion",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s29",
+     "text": null,
+     "type": "quote",
+     "sourceType": "gov",
+     "sourceName": "김정관 산업통상부 장관",
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s30",
+     "text": null,
+     "type": "quote",
+     "sourceType": "gov",
+     "sourceName": "김정관 산업통상부 장관",
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s31",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s32",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s33",
+     "text": null,
+     "type": "quote",
+     "sourceType": "gov",
+     "sourceName": "산업부",
+     "sourceDetail": null,
+     "party": null
+    }
+   ],
+   "framingTerms": [
+    {
+     "term": "내려가는",
+     "sentenceId": "s2"
+    },
+    {
+     "term": "치솟았습니다",
+     "sentenceId": "s16"
+    },
+    {
+     "term": "성장세를 보입니다",
+     "sentenceId": "s21"
+    }
+   ],
+   "analyzedBy": "gemini-3.5-flash-lite"
+  },
+  {
+   "id": "a-b9817c9c1f",
+   "issueId": "auto-20261122-1149-1",
+   "outletId": "joins",
+   "outletName": "JTBC",
+   "title": "수출, 반도체 빼면 세계 8위…K-소비재·방산·원전 등 비반도체도 20% 껑...",
+   "summary": "\"새 성장동력 발굴 시급\" 정부도 반도체를 이을 새 수출 산업을 찾는 데 고심하고 있습니다. 김정관 산업통상부 장관 \"미래를 생각하면 앞으로 반도체와 같은 업종이 어떤 것이 있을지 큰 걱정도 된다\"며 \"그래서 첨단...",
+   "url": "https://news.jtbc.co.kr/article/NB12329229?influxDiv=NAVER",
+   "publishedAt": "2026-11-22T10:13:00+09:00",
+   "sentences": [
+    {
+     "id": "s1",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s2",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s3",
+     "text": "세계 수출 순위도 4위에 오를 전망입니다.",
+     "type": "opinion",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s4",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s5",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s6",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s7",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s8",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s9",
+     "text": null,
+     "type": "quote",
+     "sourceType": "gov",
+     "sourceName": "산업통상부",
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s10",
+     "text": "반도체를 제외하면 상황은 달라집니다.",
+     "type": "opinion",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s11",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s12",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s13",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s14",
+     "text": "수출에서 반도체 비중이 크기 때문입니다.",
+     "type": "opinion",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s15",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s16",
+     "text": "문제는 반도체 경기가 나빠지면, 한국 수출 전체가 흔들릴 수 있다는 겁니…",
+     "type": "opinion",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s17",
+     "text": "미국에서 데이터센터 규제가 강화되면 인공지능 투자가 줄 수 있습니다.",
+     "type": "opinion",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s18",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s19",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s20",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s21",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s22",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s23",
+     "text": "\"새 성장동력 발굴 시급\"",
+     "type": "opinion",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s24",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s25",
+     "text": null,
+     "type": "quote",
+     "sourceType": "gov",
+     "sourceName": "김정관 산업통상부 장관",
+     "sourceDetail": null,
+     "party": null
+    }
+   ],
+   "framingTerms": [
+    {
+     "term": "약점으로 지적되는",
+     "sentenceId": "s5"
+    }
+   ],
+   "analyzedBy": "gemini-3.5-flash-lite"
+  },
+  {
+   "id": "a-850e4541ae",
+   "issueId": "auto-20261122-1149-1",
+   "outletId": "mbn",
+   "outletName": "MBN",
+   "title": "수출 1조달러 한국, 세계 4위 전망…반도체 빼면 8위",
+   "summary": "김정관 산업통상부 장관은 지난 20일 경제 6단체 대표들과 만나 \"앞으로 반도체와 같은 업종이 어떤 것이 있을지 큰 걱정도 된다\"며 첨단 분야 연구개발을 지원하기 위한 초광역특구법 추진 필요성을 강조했습니다....",
+   "url": "http://mbnmoney.mbn.co.kr/news/view?news_no=MM1005963849",
+   "publishedAt": "2026-11-22T11:36:00+09:00",
+   "sentences": [
+    {
+     "id": "s1",
+     "text": "한국이 올해 사상 처음 연간 수출 1조달러를 돌파하며 세계 수출 4위에…",
+     "type": "opinion",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s2",
+     "text": "다만 반도체를 제외하면 순위가 8위로 내려가 수출 품목 다변화가 과제로…",
+     "type": "opinion",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s3",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s4",
+     "text": null,
+     "type": "quote",
+     "sourceType": "gov",
+     "sourceName": "산업통상부",
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s5",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s6",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s7",
+     "text": "반도체 의존도도 높아지고 있습니다.",
+     "type": "opinion",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s8",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s9",
+     "text": "AI 인프라 투자와 메모리 가격 변화에 따라 전체 수출이 영향을 받을 수…",
+     "type": "opinion",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s10",
+     "text": "다만 비반도체 수출도 성장하고 있습니다.",
+     "type": "opinion",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s11",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s12",
+     "text": "화장품·식품과 원전·방산 등으로 수출 저변도 넓어지고 있습니다.",
+     "type": "opinion",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s13",
+     "text": null,
+     "type": "quote",
+     "sourceType": "gov",
+     "sourceName": "김정관 산업통상부 장관",
+     "sourceDetail": null,
+     "party": null
+    }
+   ],
+   "framingTerms": [],
+   "analyzedBy": "gemini-3.5-flash-lite"
+  },
+  {
+   "id": "a-cd907a3a10",
+   "issueId": "auto-20261122-1149-1",
+   "outletId": "yonhapnewstv",
+   "outletName": "연합뉴스TV",
+   "title": "'수출 1조 달러' 한국 세계 4위 전망…반도체 빼면 8위",
+   "summary": "김정관 산업통상부 장관은 지난 20일 경제 6단체 대표들과 만나 \"미래를 생각하면 앞으로 반도체와 같은 업종이 어떤 것이 있을지 큰 걱정도 된다\"고 말했습니다. 그러면서 첨단 분야 연구개발을 뒷받침하기 위해...",
+   "url": "http://www.yonhapnewstv.co.kr/news/AKR202611221039117lC",
+   "publishedAt": "2026-11-22T10:40:00+09:00",
+   "sentences": [
+    {
+     "id": "s1",
+     "text": "한국이 올해 처음으로 연간 수출 1조 달러를 달성하며 세계 4위 수출 강…",
+     "type": "opinion",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s2",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s3",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s4",
+     "text": null,
+     "type": "quote",
+     "sourceType": "gov",
+     "sourceName": "산업통상부",
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s5",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s6",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s7",
+     "text": null,
+     "type": "quote",
+     "sourceType": "gov",
+     "sourceName": "산업부",
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s8",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s9",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s10",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s11",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s12",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s13",
+     "text": "이렇게 반도체에 쏠린 수출 구조는 외부 충격에 약하다는 지적이 나옵니다.",
+     "type": "opinion",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s14",
+     "text": "특히 미국 중간선거에서 약진한 민주당이 데이터센터 규제를 강화하면, 빅테…",
+     "type": "opinion",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s15",
+     "text": "다만 특정 품목을 뺀 순위만으로 수출 경쟁력을 평가하기는 어렵다는 반론도…",
+     "type": "opinion",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s16",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s17",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s18",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s19",
+     "text": null,
+     "type": "quote",
+     "sourceType": "gov",
+     "sourceName": "김정관 산업통상부 장관",
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s20",
+     "text": null,
+     "type": "quote",
+     "sourceType": "gov",
+     "sourceName": "김정관 산업통상부 장관",
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s21",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s22",
+     "text": "당신이 담은 순간이 뉴스입니다!",
+     "type": "opinion",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    }
+   ],
+   "framingTerms": [
+    {
+     "term": "전망입니다",
+     "sentenceId": "s1"
+    },
+    {
+     "term": "내려가는",
+     "sentenceId": "s2"
+    },
+    {
+     "term": "나타났습니다",
+     "sentenceId": "s2"
+    },
+    {
+     "term": "보고 있습니다",
+     "sentenceId": "s4"
+    },
+    {
+     "term": "내다봤습니다",
+     "sentenceId": "s7"
+    },
+    {
+     "term": "높아졌고",
+     "sentenceId": "s11"
+    },
+    {
+     "term": "치솟았습니다",
+     "sentenceId": "s11"
+    },
+    {
+     "term": "지적이 나옵니다",
+     "sentenceId": "s13"
+    },
+    {
+     "term": "강화하면",
+     "sentenceId": "s14"
+    },
+    {
+     "term": "줄고",
+     "sentenceId": "s14"
+    },
+    {
+     "term": "떨어져",
+     "sentenceId": "s14"
+    },
+    {
+     "term": "타격을 받을 수 있습니다",
+     "sentenceId": "s14"
+    },
+    {
+     "term": "반론도 있습니다",
+     "sentenceId": "s15"
+    },
+    {
+     "term": "늘어",
+     "sentenceId": "s16"
+    },
+    {
+     "term": "기록했습니다",
+     "sentenceId": "s16"
+    },
+    {
+     "term": "넓어졌습니다",
+     "sentenceId": "s17"
+    },
+    {
+     "term": "새로 썼습니다",
+     "sentenceId": "s18"
+    },
+    {
+     "term": "말했습니다",
+     "sentenceId": "s19"
+    },
+    {
+     "term": "강조했습니다",
+     "sentenceId": "s20"
+    }
+   ],
+   "analyzedBy": "gemini-3.5-flash-lite"
+  },
+  {
+   "id": "a-529f6659e7",
+   "issueId": "auto-20261122-1149-1",
+   "outletId": "jnilbo",
+   "outletName": "전남일보",
+   "title": "한국 수출 1조달러 돌파·세계 4위 전망…반도체 빼면 8위",
+   "summary": "김정관 산업통상부 장관은 지난 20일 경제 6단체 대표들과 만난 자리에서 \"미래를 생각하면 앞으로 반도체와 같은 업종이 어떤 것이 있을지 큰 걱정도 된다\"며 \"그래서 첨단 분야 연구개발(R&D)을 뒷받침할 수 있도록...",
+   "url": "https://www.jnilbo.com/news/articleView.html?idxno=90000085273",
+   "publishedAt": "2026-11-22T11:11:00+09:00",
+   "sentences": [
+    {
+     "id": "s1",
+     "text": "한국이 올해 사상 처음으로 연간 수출 1조달러를 돌파하며 세계 4위 수출…",
+     "type": "opinion",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s2",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s3",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s4",
+     "text": null,
+     "type": "quote",
+     "sourceType": "gov",
+     "sourceName": "산업통상부",
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s5",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s6",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s7",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s8",
+     "text": null,
+     "type": "quote",
+     "sourceType": "gov",
+     "sourceName": "산업부",
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s9",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s10",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s11",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s12",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s13",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s14",
+     "text": "반도체 쏠림 현상은 갈수록 심화하고 있다.",
+     "type": "opinion",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s15",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s16",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s17",
+     "text": "이처럼 특정 품목에 편중된 수출 구조는 대외 충격에 취약하다는 지적이 나…",
+     "type": "opinion",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s18",
+     "text": "특히 미국 중간선거에서 약진한 민주당이 데이터센터 규제를 강화할 경우 빅…",
+     "type": "opinion",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s19",
+     "text": "다만 특정 품목을 제외한 순위만으로 국가 수출 경쟁력을 평가하는 데는 한…",
+     "type": "opinion",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s20",
+     "text": "국가별 비교우위에 따라 주력 수출품이 다른 만큼 독일의 자동차나 프랑스·…",
+     "type": "opinion",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s21",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s22",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s23",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s24",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s25",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s26",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s27",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s28",
+     "text": "그럼에도 반도체가 전체 수출의 40% 이상을 차지할 정도로 특정 품목 의…",
+     "type": "opinion",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s29",
+     "text": "AI 산업의 변동성에 따라 반도체 경기도 크게 출렁일 수 있는 만큼 반도…",
+     "type": "opinion",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s30",
+     "text": null,
+     "type": "quote",
+     "sourceType": "gov",
+     "sourceName": "김정관 산업통상부 장관",
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s31",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s32",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s33",
+     "text": null,
+     "type": "quote",
+     "sourceType": "gov",
+     "sourceName": "산업부",
+     "sourceDetail": null,
+     "party": null
+    }
+   ],
+   "framingTerms": [
+    {
+     "term": "지적이 나온다",
+     "sentenceId": "s17"
+    },
+    {
+     "term": "반론도 있다",
+     "sentenceId": "s19"
+    },
+    {
+     "term": "시각이 지배적이다",
+     "sentenceId": "s28"
+    }
+   ],
+   "analyzedBy": "gemini-3.5-flash-lite"
+  },
+  {
+   "id": "a-314d344824",
+   "issueId": "auto-20261122-1149-1",
+   "outletId": "dt",
+   "outletName": "디지털타임스",
+   "title": "‘수출 1조달러’ 한국, “반도체 빼면 세계 8위권”",
+   "summary": "“올해는 좋은데 미래를 생각하면 ‘반도체’ 같은 업종이 뭐가 있을까 걱정이 됩니다.” 김정관 산업통상부 장관이 지난 20일 경제6단체 대표와 가진 ‘수출 1조달러 달성 계기 경제단체장 간담회’에서 한...",
+   "url": "https://www.dt.co.kr/article/12096476?ref=naver",
+   "publishedAt": "2026-11-22T11:11:00+09:00",
+   "sentences": [
+    {
+     "id": "s1",
+     "text": null,
+     "type": "quote",
+     "sourceType": "industry",
+     "sourceName": "기업·업계",
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s2",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s3",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s4",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s5",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s6",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s7",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s8",
+     "text": "반도체 쏠림 현상은 갈수록 심해지는 추세다.",
+     "type": "opinion",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s9",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s10",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s11",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s12",
+     "text": "반도체에 편중된 수출 구조는 대외 충격에 취약하다는 지적이 나온다.",
+     "type": "opinion",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s13",
+     "text": "앞서 김정관 장관의 고민도 같은 맥락으로 풀이된다.",
+     "type": "opinion",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s14",
+     "text": "특히 미국 중간선거에서 약진한 민주당이 데이터센터 규제를 강화하면 빅테크…",
+     "type": "opinion",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s15",
+     "text": "AI 산업의 변동성에 따라 반도체 경기도 크게 출렁일 수 있는 만큼 반도…",
+     "type": "opinion",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s16",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s17",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s18",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s19",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s20",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s21",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s22",
+     "text": "다만 반도체·대기업 중심의 수출 1조달러 달성의 성과가 중소·중견기업과…",
+     "type": "opinion",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s23",
+     "text": "수출 규모를 키우는 데만 그치지 않고, 수출의 성과가 중소·중견기업과 지…",
+     "type": "opinion",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s24",
+     "text": null,
+     "type": "quote",
+     "sourceType": "gov",
+     "sourceName": "김 장관",
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s25",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s26",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s27",
+     "text": null,
+     "type": "quote",
+     "sourceType": "gov",
+     "sourceName": "산업부",
+     "sourceDetail": null,
+     "party": null
+    }
+   ],
+   "framingTerms": [],
+   "analyzedBy": "gemini-3.5-flash-lite"
+  },
+  {
+   "id": "a-15ce56cba5",
+   "issueId": "auto-20261122-1149-1",
+   "outletId": "newdaily",
+   "outletName": "뉴데일리",
+   "title": "수출 1조 달러의 '허상' … 반도체 빼면 세계 8위, 취업 유발 효과도 미...",
+   "summary": "정부 역시 반도체에 이은 새로운 수출 성장동력 확보를 과제로 보고 있다. 김정관 산업통상부 장관은 지난... 정부는 첨단산업 연구개발 경쟁력 강화와 산업 기반 확대를 위해 초광역특구법 제정을 추진하고 있다....",
+   "url": "https://biz.newdaily.co.kr/site/data/html/2026/11/22/2026112250036.html",
+   "publishedAt": "2026-11-22T10:30:00+09:00",
+   "sentences": [
+    {
+     "id": "s1",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s2",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s3",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s4",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s5",
+     "text": null,
+     "type": "quote",
+     "sourceType": "gov",
+     "sourceName": "산업부",
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s6",
+     "text": "이 경우 네덜란드를 제치고 세계 수출 순위 4위에 올라설 전망이다.",
+     "type": "opinion",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s7",
+     "text": "문제는 수출 증가세가 특정 품목에 집중돼 있다는 점이다.",
+     "type": "opinion",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s8",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s9",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s10",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s11",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s12",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s13",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s14",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s15",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s16",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s17",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s18",
+     "text": null,
+     "type": "quote",
+     "sourceType": "gov",
+     "sourceName": "김현태 연구위원",
+     "sourceDetail": null,
+     "party": "더불어민주당"
+    },
+    {
+     "id": "s19",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s20",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s21",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s22",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s23",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s24",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s25",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s26",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s27",
+     "text": null,
+     "type": "quote",
+     "sourceType": "expert",
+     "sourceName": "보고서",
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s28",
+     "text": "다만 이번 반도체 호황이 과거보다 큰 규모로 전개되고 있다는 점은 변수다…",
+     "type": "opinion",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s29",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s30",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s31",
+     "text": null,
+     "type": "quote",
+     "sourceType": "expert",
+     "sourceName": "한국금융연구원",
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s32",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s33",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s34",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s35",
+     "text": "그럼에도 반도체 비중이 40%를 넘어선 상황에서 글로벌 AI 투자 흐름이…",
+     "type": "opinion",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s36",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s37",
+     "text": null,
+     "type": "quote",
+     "sourceType": "gov",
+     "sourceName": "김정관 산업통상부 장관",
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s38",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s39",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s40",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    }
+   ],
+   "framingTerms": [
+    {
+     "term": "돌파하며",
+     "sentenceId": "s1"
+    },
+    {
+     "term": "진입을 눈앞에 뒀지만",
+     "sentenceId": "s1"
+    },
+    {
+     "term": "밀리는",
+     "sentenceId": "s2"
+    },
+    {
+     "term": "제한적인 것으로 나타났다",
+     "sentenceId": "s2"
+    },
+    {
+     "term": "전망이다",
+     "sentenceId": "s6"
+    },
+    {
+     "term": "문제는",
+     "sentenceId": "s7"
+    },
+    {
+     "term": "그쳤다",
+     "sentenceId": "s8"
+    },
+    {
+     "term": "내려간다",
+     "sentenceId": "s9"
+    },
+    {
+     "term": "견인하는",
+     "sentenceId": "s11"
+    },
+    {
+     "term": "높이고 있는 셈이다",
+     "sentenceId": "s11"
+    },
+    {
+     "term": "끌어올린",
+     "sentenceId": "s16"
+    },
+    {
+     "term": "더딘",
+     "sentenceId": "s17"
+    },
+    {
+     "term": "분석됐다",
+     "sentenceId": "s17"
+    },
+    {
+     "term": "작다",
+     "sentenceId": "s22"
+    },
+    {
+     "term": "미치지 못하는",
+     "sentenceId": "s24"
+    },
+    {
+     "term": "차이가 컸다",
+     "sentenceId": "s25"
+    },
+    {
+     "term": "변수다",
+     "sentenceId": "s28"
+    },
+    {
+     "term": "확대되고 있다",
+     "sentenceId": "s34"
+    },
+    {
+     "term": "우려가 제기된다",
+     "sentenceId": "s35"
+    },
+    {
+     "term": "추진하고 있다",
+     "sentenceId": "s38"
+    },
+    {
+     "term": "부상하고 있다",
+     "sentenceId": "s40"
+    }
+   ],
    "analyzedBy": "gemini-3.5-flash-lite"
   }
  ]
