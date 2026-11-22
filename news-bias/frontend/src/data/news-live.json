@@ -408,6 +408,114 @@
       "origin": "auto"
     },
     {
+      "id": "auto-20261123-0043-1",
+      "title": "노동장관 \"27일 정년연장 합의 불발 시 정부안 발표\"",
+      "summary": "김영훈 고용노동부 장관은 22일 방송 인터뷰에서 오는 27일 더불어민주당 정년연장 특별위원회 회의에서 결론이 나지 않으면 정부안을 먼저 발표하겠다고 밝혔다.",
+      "category": "정치",
+      "date": "2026-11-22",
+      "articleIds": [
+        "a-d07a4167dd",
+        "a-3da92e335c",
+        "a-314855e51d",
+        "a-6486fd0fdf",
+        "a-d0e5c1fd69",
+        "a-d042d32062",
+        "a-0737f0abd7",
+        "a-8486112ceb"
+      ],
+      "displaySourceTypes": [
+        "gov",
+        "opp",
+        "expert",
+        "citizen",
+        "industry"
+      ],
+      "distribution": {
+        "camps": {
+          "ruling": 55,
+          "third": 0,
+          "mainOpp": 0,
+          "independent": 0
+        },
+        "slopeMean": 0.792,
+        "blindspot": "mainOpp",
+        "institution": 0,
+        "focusParty": null
+      },
+      "stance": null,
+      "origin": "auto"
+    },
+    {
+      "id": "auto-20261123-0047-1",
+      "title": "국민의힘, 제1호 청년정책 패키지 발표",
+      "summary": "국민의힘은 22일 국회 의원회관에서 제1호 청년정책 패키지 발표 및 전달식을 개최했다. 당 지도부는 이날 행사에서 연금·금융·주거·일자리 등 청년 지원 정책을 공개했다.",
+      "category": "정치",
+      "date": "2026-11-22",
+      "articleIds": [
+        "a-34fc292a37",
+        "a-3bea70d223",
+        "a-77bf48e874",
+        "a-2f2c292a4a",
+        "a-4f88cb2d68",
+        "a-1e9040b073"
+      ],
+      "displaySourceTypes": [
+        "gov",
+        "opp",
+        "expert",
+        "citizen",
+        "industry"
+      ],
+      "distribution": {
+        "camps": {
+          "ruling": 0,
+          "third": 0,
+          "mainOpp": 25,
+          "independent": 0
+        },
+        "slopeMean": -0.657,
+        "blindspot": "ruling",
+        "institution": 0,
+        "focusParty": "국민의힘"
+      },
+      "stance": null,
+      "origin": "auto"
+    },
+    {
+      "id": "auto-20261123-0052-1",
+      "title": "한국은행, 26일 올해 마지막 금통위 개최",
+      "summary": "한국은행 금융통화위원회가 26일 올해 마지막 기준금리 결정을 앞둔 가운데, 물가 상승과 성장률 회복을 근거로 금리 인상 전망이 나오고 있다.",
+      "category": "경제",
+      "date": "2026-11-22",
+      "articleIds": [
+        "a-6b2f292b34",
+        "a-4d74e95f4d",
+        "a-48e8dc2ef8",
+        "a-2c8708322a"
+      ],
+      "displaySourceTypes": [
+        "gov",
+        "opp",
+        "expert",
+        "citizen",
+        "industry"
+      ],
+      "distribution": {
+        "camps": {
+          "ruling": 7,
+          "third": 0,
+          "mainOpp": 0,
+          "independent": 0
+        },
+        "slopeMean": 0.633,
+        "blindspot": "mainOpp",
+        "institution": 0,
+        "focusParty": null
+      },
+      "stance": null,
+      "origin": "auto"
+    },
+    {
       "id": "auto-20261121-1237-1",
       "title": "나경원, 코스피 급락 관련 정부 책임론 제기",
       "summary": "나경원 국민의힘 의원이 코스피 폭락에 따른 투자자 피해를 언급하며 이재명 정부의 증시 정책을 비판했다.",
@@ -657,6 +765,56 @@
         "focusParty": null
       },
       "stance": null,
+      "origin": "auto"
+    },
+    {
+      "id": "auto-20261123-0045-1",
+      "title": "이 대통령, 대장동 의혹 거듭 반박",
+      "summary": "이재명 대통령은 성남시장 재직 시절 대장동 개발사업과 관련해 민간업자들과 결탁하지 않았으며, 오히려 시장 상황이 개선되자 업자들에게 1100억 원의 추가 부담을 시켰다고 반박했다. 야당은 이에 대해 억울하면 재판을 받으라고 맞섰다.",
+      "category": "정치",
+      "date": "2026-11-21",
+      "articleIds": [
+        "a-089fae93e2",
+        "a-e7eff75493",
+        "a-95d336bf28",
+        "a-8fc62e7548",
+        "a-0e02a20532",
+        "a-07a4f640ad",
+        "a-90d058d000"
+      ],
+      "displaySourceTypes": [
+        "gov",
+        "opp",
+        "expert",
+        "citizen",
+        "industry"
+      ],
+      "distribution": {
+        "camps": {
+          "ruling": 20,
+          "third": 0,
+          "mainOpp": 4,
+          "independent": 0
+        },
+        "slopeMean": 0.451,
+        "blindspot": null,
+        "institution": 0,
+        "focusParty": null
+      },
+      "stance": {
+        "common": null,
+        "diff": "더불어민주당은 결탁 의혹을 부인하고, 국민의힘은 재판을 받으라고 요구한다.",
+        "sources": [
+          "연합뉴스",
+          "뉴스1",
+          "JTBC",
+          "TV조선",
+          "중앙일보",
+          "경향신문",
+          "한국일보"
+        ],
+        "by": "ai"
+      },
       "origin": "auto"
     },
     {
@@ -151578,6 +151736,4164 @@
           "description": "기업·업계 인용 없음 (같은 이슈의 다른 기사에는 있습니다)",
           "foundInArticleIds": [
             "a-314d344824"
+          ]
+        }
+      ],
+      "metrics": {
+        "camps": {
+          "ruling": 3,
+          "third": 0,
+          "mainOpp": 0,
+          "independent": 0
+        },
+        "slope": 1.0,
+        "slopeSmoothed": 0.6,
+        "slopeBasis": 3,
+        "excludedFromSlope": 0,
+        "institution": 0
+      }
+    },
+    {
+      "id": "a-d07a4167dd",
+      "issueId": "auto-20261123-0043-1",
+      "outletId": "yna",
+      "title": "노동장관 \"정년연장, 27일 與 특위서 결론 안 나면 정부안 발표\"",
+      "summary": "방송 인터뷰 출연해 \"정부 제안 최대한 자제했지만 비겁하게 할 생각 없어\" 김영훈 고용노동부 장관이 22일 정년 연장 문제와 관련, 오는 27일로 예정된 더불어민주당 정년 연장 특별위원회 회의에서 결론이 나지 않는다면...",
+      "url": "https://www.yna.co.kr/view/AKR20261122019000530?input=1195m",
+      "publishedAt": "2026-11-22T11:05:00+09:00",
+      "sentences": [
+        {
+          "id": "s1",
+          "text": null,
+          "type": "fact",
+          "sourceType": null,
+          "sourceName": null,
+          "sourceDetail": null,
+          "party": null,
+          "stateBody": false
+        },
+        {
+          "id": "s2",
+          "text": null,
+          "type": "quote",
+          "sourceType": "gov",
+          "sourceName": "김영훈 고용노동부 장관",
+          "sourceDetail": null,
+          "party": null,
+          "stateBody": false
+        },
+        {
+          "id": "s3",
+          "text": "정년 연장과 관련 입법을 올해 안에 완료해야 한다고 강조해 온 김 장관이…",
+          "type": "opinion",
+          "sourceType": null,
+          "sourceName": null,
+          "sourceDetail": null,
+          "party": null,
+          "stateBody": false
+        },
+        {
+          "id": "s4",
+          "text": null,
+          "type": "quote",
+          "sourceType": "gov",
+          "sourceName": "김 장관",
+          "sourceDetail": null,
+          "party": null,
+          "stateBody": false
+        },
+        {
+          "id": "s5",
+          "text": null,
+          "type": "quote",
+          "sourceType": "gov",
+          "sourceName": "김 장관",
+          "sourceDetail": null,
+          "party": null,
+          "stateBody": false
+        },
+        {
+          "id": "s6",
+          "text": null,
+          "type": "quote",
+          "sourceType": "gov",
+          "sourceName": "김 장관",
+          "sourceDetail": null,
+          "party": null,
+          "stateBody": false
+        },
+        {
+          "id": "s7",
+          "text": null,
+          "type": "fact",
+          "sourceType": null,
+          "sourceName": null,
+          "sourceDetail": null,
+          "party": null,
+          "stateBody": false
+        },
+        {
+          "id": "s8",
+          "text": null,
+          "type": "fact",
+          "sourceType": null,
+          "sourceName": null,
+          "sourceDetail": null,
+          "party": null,
+          "stateBody": false
+        },
+        {
+          "id": "s9",
+          "text": null,
+          "type": "quote",
+          "sourceType": "gov",
+          "sourceName": "김 장관",
+          "sourceDetail": null,
+          "party": null,
+          "stateBody": false
+        },
+        {
+          "id": "s10",
+          "text": null,
+          "type": "quote",
+          "sourceType": "gov",
+          "sourceName": "김 장관",
+          "sourceDetail": null,
+          "party": null,
+          "stateBody": false
+        },
+        {
+          "id": "s11",
+          "text": null,
+          "type": "quote",
+          "sourceType": "gov",
+          "sourceName": "김 장관",
+          "sourceDetail": null,
+          "party": null,
+          "stateBody": false
+        },
+        {
+          "id": "s12",
+          "text": null,
+          "type": "quote",
+          "sourceType": "gov",
+          "sourceName": "김 장관",
+          "sourceDetail": null,
+          "party": null,
+          "stateBody": false
+        }
+      ],
+      "framingTerms": [
+        {
+          "term": "사실상",
+          "sentenceId": "s3"
+        }
+      ],
+      "missingViewpoints": [],
+      "metrics": {
+        "camps": {
+          "ruling": 8,
+          "third": 0,
+          "mainOpp": 0,
+          "independent": 0
+        },
+        "slope": 1.0,
+        "slopeSmoothed": 0.8,
+        "slopeBasis": 8,
+        "excludedFromSlope": 0,
+        "institution": 0
+      }
+    },
+    {
+      "id": "a-0737f0abd7",
+      "issueId": "auto-20261123-0043-1",
+      "outletId": "newsis",
+      "title": "김영훈 노동장관 \"정년 연장, 27일 여당 특위 결론 안나면 정부안 발표...",
+      "summary": "김영훈 고용노동부 장관이 정년 연장 문제 관련 오는 27일 열리는 더불어민주당 정년 연장 특별위원회... 하지만 특위는 지난 4월 전국민주노동조합총연맹(민주노총), 경영계와 간담회를 여는데 그쳤고 10개월간 진척이...",
+      "url": "https://www.newsis.com/view/NISX20261122_0003878106",
+      "publishedAt": "2026-11-22T13:51:00+09:00",
+      "sentences": [
+        {
+          "id": "s1",
+          "text": null,
+          "type": "quote",
+          "sourceType": "gov",
+          "sourceName": "김 장관",
+          "sourceDetail": null,
+          "party": null,
+          "stateBody": false
+        },
+        {
+          "id": "s2",
+          "text": null,
+          "type": "quote",
+          "sourceType": "gov",
+          "sourceName": "김 장관",
+          "sourceDetail": null,
+          "party": null,
+          "stateBody": false
+        },
+        {
+          "id": "s3",
+          "text": null,
+          "type": "fact",
+          "sourceType": null,
+          "sourceName": null,
+          "sourceDetail": null,
+          "party": null,
+          "stateBody": false
+        },
+        {
+          "id": "s4",
+          "text": null,
+          "type": "fact",
+          "sourceType": null,
+          "sourceName": null,
+          "sourceDetail": null,
+          "party": null,
+          "stateBody": false
+        },
+        {
+          "id": "s5",
+          "text": null,
+          "type": "quote",
+          "sourceType": "gov",
+          "sourceName": "김 장관",
+          "sourceDetail": null,
+          "party": null,
+          "stateBody": false
+        },
+        {
+          "id": "s6",
+          "text": null,
+          "type": "quote",
+          "sourceType": "gov",
+          "sourceName": "김 장관",
+          "sourceDetail": null,
+          "party": null,
+          "stateBody": false
+        },
+        {
+          "id": "s7",
+          "text": null,
+          "type": "fact",
+          "sourceType": null,
+          "sourceName": null,
+          "sourceDetail": null,
+          "party": null,
+          "stateBody": false
+        },
+        {
+          "id": "s8",
+          "text": null,
+          "type": "quote",
+          "sourceType": "gov",
+          "sourceName": "김 장관",
+          "sourceDetail": null,
+          "party": null,
+          "stateBody": false
+        },
+        {
+          "id": "s9",
+          "text": null,
+          "type": "quote",
+          "sourceType": "gov",
+          "sourceName": "김 장관",
+          "sourceDetail": null,
+          "party": null,
+          "stateBody": false
+        },
+        {
+          "id": "s10",
+          "text": null,
+          "type": "quote",
+          "sourceType": "gov",
+          "sourceName": "김 장관",
+          "sourceDetail": null,
+          "party": null,
+          "stateBody": false
+        },
+        {
+          "id": "s11",
+          "text": null,
+          "type": "quote",
+          "sourceType": "gov",
+          "sourceName": "김 장관",
+          "sourceDetail": null,
+          "party": null,
+          "stateBody": false
+        }
+      ],
+      "framingTerms": [],
+      "missingViewpoints": [],
+      "metrics": {
+        "camps": {
+          "ruling": 8,
+          "third": 0,
+          "mainOpp": 0,
+          "independent": 0
+        },
+        "slope": 1.0,
+        "slopeSmoothed": 0.8,
+        "slopeBasis": 8,
+        "excludedFromSlope": 0,
+        "institution": 0
+      }
+    },
+    {
+      "id": "a-d0e5c1fd69",
+      "issueId": "auto-20261123-0043-1",
+      "outletId": "news1",
+      "title": "김영훈 노동장관 \"정년연장, 27일 與 특위서 결론 안 나면 정부안 발표...",
+      "summary": "김영훈 고용노동부 장관이 오는 27일 더불어민주당 정년연장특별위원회 회의에서 결론이 나지 않으면... 그러나 이후에도 4월 전국민주노동조합총연맹(민주노총)과 경영계를 상대로 각각 간담회를 연 것 외에는 10개월째...",
+      "url": "https://www.news1.kr/economy/trend/6361944",
+      "publishedAt": "2026-11-22T13:08:00+09:00",
+      "sentences": [
+        {
+          "id": "s1",
+          "text": null,
+          "type": "quote",
+          "sourceType": "gov",
+          "sourceName": "김영훈 고용노동부 장관",
+          "sourceDetail": null,
+          "party": null,
+          "stateBody": false
+        },
+        {
+          "id": "s2",
+          "text": "정년 연장 입법을 연내 마무리해야 한다고 강조해 온 김 장관이 여당에 사…",
+          "type": "opinion",
+          "sourceType": null,
+          "sourceName": null,
+          "sourceDetail": null,
+          "party": null,
+          "stateBody": false
+        },
+        {
+          "id": "s3",
+          "text": null,
+          "type": "quote",
+          "sourceType": "gov",
+          "sourceName": "김 장관",
+          "sourceDetail": null,
+          "party": null,
+          "stateBody": false
+        },
+        {
+          "id": "s4",
+          "text": null,
+          "type": "quote",
+          "sourceType": "gov",
+          "sourceName": "김 장관",
+          "sourceDetail": null,
+          "party": null,
+          "stateBody": false
+        },
+        {
+          "id": "s5",
+          "text": "김 장관은 그동안 정부안 제시를 미뤄온 이유도 설명했다.",
+          "type": "opinion",
+          "sourceType": null,
+          "sourceName": null,
+          "sourceDetail": null,
+          "party": null,
+          "stateBody": false
+        },
+        {
+          "id": "s6",
+          "text": null,
+          "type": "quote",
+          "sourceType": "gov",
+          "sourceName": "그",
+          "sourceDetail": null,
+          "party": null,
+          "stateBody": false
+        },
+        {
+          "id": "s7",
+          "text": null,
+          "type": "quote",
+          "sourceType": "gov",
+          "sourceName": "이어",
+          "sourceDetail": null,
+          "party": null,
+          "stateBody": false
+        },
+        {
+          "id": "s8",
+          "text": null,
+          "type": "fact",
+          "sourceType": null,
+          "sourceName": null,
+          "sourceDetail": null,
+          "party": null,
+          "stateBody": false
+        },
+        {
+          "id": "s9",
+          "text": null,
+          "type": "fact",
+          "sourceType": null,
+          "sourceName": null,
+          "sourceDetail": null,
+          "party": null,
+          "stateBody": false
+        },
+        {
+          "id": "s10",
+          "text": null,
+          "type": "fact",
+          "sourceType": null,
+          "sourceName": null,
+          "sourceDetail": null,
+          "party": null,
+          "stateBody": false
+        },
+        {
+          "id": "s11",
+          "text": null,
+          "type": "fact",
+          "sourceType": null,
+          "sourceName": null,
+          "sourceDetail": null,
+          "party": null,
+          "stateBody": false
+        },
+        {
+          "id": "s12",
+          "text": null,
+          "type": "quote",
+          "sourceType": "gov",
+          "sourceName": "김 장관",
+          "sourceDetail": null,
+          "party": null,
+          "stateBody": false
+        },
+        {
+          "id": "s13",
+          "text": "정년 연장이 무산될 경우의 부작용도 언급했다.",
+          "type": "opinion",
+          "sourceType": null,
+          "sourceName": null,
+          "sourceDetail": null,
+          "party": null,
+          "stateBody": false
+        },
+        {
+          "id": "s14",
+          "text": null,
+          "type": "quote",
+          "sourceType": "gov",
+          "sourceName": "그",
+          "sourceDetail": null,
+          "party": null,
+          "stateBody": false
+        },
+        {
+          "id": "s15",
+          "text": null,
+          "type": "quote",
+          "sourceType": "gov",
+          "sourceName": "김 장관",
+          "sourceDetail": null,
+          "party": null,
+          "stateBody": false
+        }
+      ],
+      "framingTerms": [],
+      "missingViewpoints": [],
+      "metrics": {
+        "camps": {
+          "ruling": 8,
+          "third": 0,
+          "mainOpp": 0,
+          "independent": 0
+        },
+        "slope": 1.0,
+        "slopeSmoothed": 0.8,
+        "slopeBasis": 8,
+        "excludedFromSlope": 0,
+        "institution": 0
+      }
+    },
+    {
+      "id": "a-314855e51d",
+      "issueId": "auto-20261123-0043-1",
+      "outletId": "kbs",
+      "title": "김영훈 노동장관 “정년연장, 27일 여당 특위서 결론 못 내면 정부안 발...",
+      "summary": "김영훈 고용노동부 장관이 정년 연장 문제와 관련해 오는 27일 열리는 더불어민주당 정년 연장 특별위원회... 하지만 특위는 이후에도 4월 전국민주노동조합총연맹(민주노총), 경영계와 각각 간담회를 여는 데 그쳤고...",
+      "url": "https://news.kbs.co.kr/news/pc/view/view.do?ncd=8719343&ref=A",
+      "publishedAt": "2026-11-22T11:44:00+09:00",
+      "sentences": [
+        {
+          "id": "s1",
+          "text": null,
+          "type": "fact",
+          "sourceType": null,
+          "sourceName": null,
+          "sourceDetail": null,
+          "party": null,
+          "stateBody": false
+        },
+        {
+          "id": "s2",
+          "text": "그동안 정년 연장 관련 입법이 연내에 매듭지어야 한다면서도, 사회적 대화…",
+          "type": "opinion",
+          "sourceType": null,
+          "sourceName": null,
+          "sourceDetail": null,
+          "party": null,
+          "stateBody": false
+        },
+        {
+          "id": "s3",
+          "text": null,
+          "type": "quote",
+          "sourceType": "gov",
+          "sourceName": "김 장관",
+          "sourceDetail": null,
+          "party": null,
+          "stateBody": false
+        },
+        {
+          "id": "s4",
+          "text": null,
+          "type": "quote",
+          "sourceType": "gov",
+          "sourceName": "사회자",
+          "sourceDetail": null,
+          "party": null,
+          "stateBody": false
+        },
+        {
+          "id": "s5",
+          "text": null,
+          "type": "quote",
+          "sourceType": "gov",
+          "sourceName": "김영훈 장관",
+          "sourceDetail": null,
+          "party": null,
+          "stateBody": false
+        },
+        {
+          "id": "s6",
+          "text": null,
+          "type": "fact",
+          "sourceType": null,
+          "sourceName": null,
+          "sourceDetail": null,
+          "party": null,
+          "stateBody": false
+        },
+        {
+          "id": "s7",
+          "text": null,
+          "type": "fact",
+          "sourceType": null,
+          "sourceName": null,
+          "sourceDetail": null,
+          "party": null,
+          "stateBody": false
+        },
+        {
+          "id": "s8",
+          "text": null,
+          "type": "quote",
+          "sourceType": "gov",
+          "sourceName": "그",
+          "sourceDetail": null,
+          "party": null,
+          "stateBody": false
+        },
+        {
+          "id": "s9",
+          "text": null,
+          "type": "quote",
+          "sourceType": "gov",
+          "sourceName": "김 장관",
+          "sourceDetail": null,
+          "party": null,
+          "stateBody": false
+        },
+        {
+          "id": "s10",
+          "text": null,
+          "type": "quote",
+          "sourceType": "gov",
+          "sourceName": "김 장관",
+          "sourceDetail": null,
+          "party": null,
+          "stateBody": false
+        },
+        {
+          "id": "s11",
+          "text": null,
+          "type": "quote",
+          "sourceType": "gov",
+          "sourceName": "김 장관",
+          "sourceDetail": null,
+          "party": null,
+          "stateBody": false
+        },
+        {
+          "id": "s12",
+          "text": null,
+          "type": "quote",
+          "sourceType": "gov",
+          "sourceName": "정부·여당",
+          "sourceDetail": null,
+          "party": null,
+          "stateBody": false
+        },
+        {
+          "id": "s13",
+          "text": null,
+          "type": "fact",
+          "sourceType": null,
+          "sourceName": null,
+          "sourceDetail": null,
+          "party": null,
+          "stateBody": false
+        }
+      ],
+      "framingTerms": [
+        {
+          "term": "모양새입니다",
+          "sentenceId": "s2"
+        }
+      ],
+      "missingViewpoints": [],
+      "metrics": {
+        "camps": {
+          "ruling": 8,
+          "third": 0,
+          "mainOpp": 0,
+          "independent": 0
+        },
+        "slope": 1.0,
+        "slopeSmoothed": 0.8,
+        "slopeBasis": 8,
+        "excludedFromSlope": 0,
+        "institution": 0
+      }
+    },
+    {
+      "id": "a-3da92e335c",
+      "issueId": "auto-20261123-0043-1",
+      "outletId": "sbs",
+      "title": "노동장관 \"정년 연장, 27일 여당 특위 합의 없으면 정부안 발표 결단\"",
+      "summary": "▲ 연석회의 참석하는 노동부 장관 김영훈 고용노동부 장관이 오늘(22일) 정년 연장 문제와 관련, 오는 27일로 예정된 더불어민주당 정년 연장 특별위원회 회의에서 결론이 나지 않는다면 정부안을 먼저 발표하겠다고...",
+      "url": "https://news.sbs.co.kr/news/endPage.do?news_id=N1008857566&plink=ORI&cooper=NAVER",
+      "publishedAt": "2026-11-22T11:30:00+09:00",
+      "sentences": [
+        {
+          "id": "s1",
+          "text": null,
+          "type": "quote",
+          "sourceType": "gov",
+          "sourceName": "김영훈 고용노동부 장관",
+          "sourceDetail": null,
+          "party": null,
+          "stateBody": false
+        },
+        {
+          "id": "s2",
+          "text": "정년 연장과 관련 입법을 올해 안에 완료해야 한다고 강조해 온 김 장관이…",
+          "type": "opinion",
+          "sourceType": null,
+          "sourceName": null,
+          "sourceDetail": null,
+          "party": null,
+          "stateBody": false
+        },
+        {
+          "id": "s3",
+          "text": null,
+          "type": "quote",
+          "sourceType": "gov",
+          "sourceName": "김 장관",
+          "sourceDetail": null,
+          "party": null,
+          "stateBody": false
+        },
+        {
+          "id": "s4",
+          "text": null,
+          "type": "quote",
+          "sourceType": "gov",
+          "sourceName": "김 장관",
+          "sourceDetail": null,
+          "party": null,
+          "stateBody": false
+        },
+        {
+          "id": "s5",
+          "text": null,
+          "type": "quote",
+          "sourceType": "gov",
+          "sourceName": "김 장관",
+          "sourceDetail": null,
+          "party": null,
+          "stateBody": false
+        },
+        {
+          "id": "s6",
+          "text": null,
+          "type": "fact",
+          "sourceType": null,
+          "sourceName": null,
+          "sourceDetail": null,
+          "party": null,
+          "stateBody": false
+        },
+        {
+          "id": "s7",
+          "text": null,
+          "type": "fact",
+          "sourceType": null,
+          "sourceName": null,
+          "sourceDetail": null,
+          "party": null,
+          "stateBody": false
+        },
+        {
+          "id": "s8",
+          "text": null,
+          "type": "quote",
+          "sourceType": "gov",
+          "sourceName": "김 장관",
+          "sourceDetail": null,
+          "party": null,
+          "stateBody": false
+        },
+        {
+          "id": "s9",
+          "text": null,
+          "type": "quote",
+          "sourceType": "gov",
+          "sourceName": "김 장관",
+          "sourceDetail": null,
+          "party": null,
+          "stateBody": false
+        },
+        {
+          "id": "s10",
+          "text": null,
+          "type": "quote",
+          "sourceType": "gov",
+          "sourceName": "김 장관",
+          "sourceDetail": null,
+          "party": null,
+          "stateBody": false
+        },
+        {
+          "id": "s11",
+          "text": null,
+          "type": "quote",
+          "sourceType": "gov",
+          "sourceName": "김 장관",
+          "sourceDetail": null,
+          "party": null,
+          "stateBody": false
+        }
+      ],
+      "framingTerms": [
+        {
+          "term": "강조해 온",
+          "sentenceId": "s2"
+        },
+        {
+          "term": "마지노선을 제시한",
+          "sentenceId": "s2"
+        }
+      ],
+      "missingViewpoints": [],
+      "metrics": {
+        "camps": {
+          "ruling": 8,
+          "third": 0,
+          "mainOpp": 0,
+          "independent": 0
+        },
+        "slope": 1.0,
+        "slopeSmoothed": 0.8,
+        "slopeBasis": 8,
+        "excludedFromSlope": 0,
+        "institution": 0
+      }
+    },
+    {
+      "id": "a-d042d32062",
+      "issueId": "auto-20261123-0043-1",
+      "outletId": "chosun",
+      "title": "정년연장 논의 재개 앞두고…김영훈 “합의 안 되면 정부가 나설 것”",
+      "summary": "않으면 정부가 책임 있게 나서겠다고 밝혔다. 약 10개월간 멈춰 있던 정년 연장 노사 논의가 27일 재개되는 가운데, 논의가 진전되지 않을 경우 정부가 적극적으로 중재에 나서겠다는 취지다. 김 장관은 22일 KBS...",
+      "url": "https://www.chosun.com/national/labor/2026/11/22/4ENU5B5NBFH2NE3ME22UYORJPY/?utm_source=naver&utm_medium=referral&utm_campaign=naver-news",
+      "publishedAt": "2026-11-22T13:36:00+09:00",
+      "sentences": [
+        {
+          "id": "s1",
+          "text": null,
+          "type": "fact",
+          "sourceType": null,
+          "sourceName": null,
+          "sourceDetail": null,
+          "party": null,
+          "stateBody": false
+        },
+        {
+          "id": "s2",
+          "text": null,
+          "type": "fact",
+          "sourceType": null,
+          "sourceName": null,
+          "sourceDetail": null,
+          "party": null,
+          "stateBody": false
+        },
+        {
+          "id": "s3",
+          "text": "이를 놓고 “사실상 내용을 다 정해놓고도, 청년층의 반발을 살 수 있는…",
+          "type": "opinion",
+          "sourceType": null,
+          "sourceName": null,
+          "sourceDetail": null,
+          "party": null,
+          "stateBody": false
+        },
+        {
+          "id": "s4",
+          "text": "청년 실업 문제가 심각한 상황에서 정년 연장은 청년층의 신규 채용 감소로…",
+          "type": "opinion",
+          "sourceType": null,
+          "sourceName": null,
+          "sourceDetail": null,
+          "party": null,
+          "stateBody": false
+        },
+        {
+          "id": "s5",
+          "text": null,
+          "type": "fact",
+          "sourceType": null,
+          "sourceName": null,
+          "sourceDetail": null,
+          "party": null,
+          "stateBody": false
+        },
+        {
+          "id": "s6",
+          "text": null,
+          "type": "fact",
+          "sourceType": null,
+          "sourceName": null,
+          "sourceDetail": null,
+          "party": null,
+          "stateBody": false
+        }
+      ],
+      "framingTerms": [
+        {
+          "term": "반발하고 있다",
+          "sentenceId": "s1"
+        }
+      ],
+      "missingViewpoints": [
+        {
+          "sourceType": "gov",
+          "description": "정부·여당 인용 없음 (같은 이슈의 다른 기사에는 있습니다)",
+          "foundInArticleIds": [
+            "a-d07a4167dd",
+            "a-0737f0abd7",
+            "a-d0e5c1fd69",
+            "a-314855e51d",
+            "a-3da92e335c",
+            "a-6486fd0fdf",
+            "a-8486112ceb"
+          ]
+        }
+      ],
+      "metrics": {
+        "camps": {
+          "ruling": 0,
+          "third": 0,
+          "mainOpp": 0,
+          "independent": 0
+        },
+        "slope": null,
+        "slopeSmoothed": null,
+        "slopeBasis": 0,
+        "excludedFromSlope": 0,
+        "institution": 0
+      }
+    },
+    {
+      "id": "a-6486fd0fdf",
+      "issueId": "auto-20261123-0043-1",
+      "outletId": "joongang",
+      "title": "노동장관, 與에 ‘정년연장’ 최후통첩…“27일 넘기면 정부안”",
+      "summary": "김영훈 고용노동부 장관이 정년 연장 문제와 관련해 오는 27일 더불어민주당 정년연장특별위원회에서... 정년 연장에 따른 청년 일자리 충돌 문제에 대해서는 한국 노동시장의 임금 체계가 기업별로 크게 다르다는 점을...",
+      "url": "https://www.joongang.co.kr/article/25480762",
+      "publishedAt": "2026-11-22T12:06:00+09:00",
+      "sentences": [
+        {
+          "id": "s1",
+          "text": null,
+          "type": "quote",
+          "sourceType": "gov",
+          "sourceName": "김영훈 고용노동부 장관",
+          "sourceDetail": null,
+          "party": null,
+          "stateBody": false
+        },
+        {
+          "id": "s2",
+          "text": "정년 연장 입법을 올해 안에 마무리해야 한다고 강조해온 김 장관이 사실상…",
+          "type": "opinion",
+          "sourceType": null,
+          "sourceName": null,
+          "sourceDetail": null,
+          "party": null,
+          "stateBody": false
+        },
+        {
+          "id": "s3",
+          "text": null,
+          "type": "quote",
+          "sourceType": "gov",
+          "sourceName": "김 장관",
+          "sourceDetail": null,
+          "party": null,
+          "stateBody": false
+        },
+        {
+          "id": "s4",
+          "text": null,
+          "type": "quote",
+          "sourceType": "gov",
+          "sourceName": "김 장관",
+          "sourceDetail": null,
+          "party": null,
+          "stateBody": false
+        },
+        {
+          "id": "s5",
+          "text": null,
+          "type": "quote",
+          "sourceType": "gov",
+          "sourceName": "김 장관",
+          "sourceDetail": null,
+          "party": null,
+          "stateBody": false
+        },
+        {
+          "id": "s6",
+          "text": null,
+          "type": "quote",
+          "sourceType": "gov",
+          "sourceName": "김 장관",
+          "sourceDetail": null,
+          "party": null,
+          "stateBody": false
+        },
+        {
+          "id": "s7",
+          "text": null,
+          "type": "fact",
+          "sourceType": null,
+          "sourceName": null,
+          "sourceDetail": null,
+          "party": null,
+          "stateBody": false
+        },
+        {
+          "id": "s8",
+          "text": null,
+          "type": "fact",
+          "sourceType": null,
+          "sourceName": null,
+          "sourceDetail": null,
+          "party": null,
+          "stateBody": false
+        },
+        {
+          "id": "s9",
+          "text": null,
+          "type": "quote",
+          "sourceType": "gov",
+          "sourceName": "김 장관",
+          "sourceDetail": null,
+          "party": null,
+          "stateBody": false
+        },
+        {
+          "id": "s10",
+          "text": null,
+          "type": "fact",
+          "sourceType": null,
+          "sourceName": null,
+          "sourceDetail": null,
+          "party": null,
+          "stateBody": false
+        },
+        {
+          "id": "s11",
+          "text": null,
+          "type": "quote",
+          "sourceType": "gov",
+          "sourceName": "김 장관",
+          "sourceDetail": null,
+          "party": null,
+          "stateBody": false
+        },
+        {
+          "id": "s12",
+          "text": null,
+          "type": "quote",
+          "sourceType": "gov",
+          "sourceName": "김 장관",
+          "sourceDetail": null,
+          "party": null,
+          "stateBody": false
+        },
+        {
+          "id": "s13",
+          "text": null,
+          "type": "quote",
+          "sourceType": "gov",
+          "sourceName": "김 장관",
+          "sourceDetail": null,
+          "party": null,
+          "stateBody": false
+        },
+        {
+          "id": "s14",
+          "text": null,
+          "type": "quote",
+          "sourceType": "gov",
+          "sourceName": "김 장관",
+          "sourceDetail": null,
+          "party": null,
+          "stateBody": false
+        }
+      ],
+      "framingTerms": [
+        {
+          "term": "강조해온",
+          "sentenceId": "s2"
+        },
+        {
+          "term": "사실상",
+          "sentenceId": "s2"
+        }
+      ],
+      "missingViewpoints": [],
+      "metrics": {
+        "camps": {
+          "ruling": 10,
+          "third": 0,
+          "mainOpp": 0,
+          "independent": 0
+        },
+        "slope": 1.0,
+        "slopeSmoothed": 0.833,
+        "slopeBasis": 10,
+        "excludedFromSlope": 0,
+        "institution": 0
+      }
+    },
+    {
+      "id": "a-8486112ceb",
+      "issueId": "auto-20261123-0043-1",
+      "outletId": "donga",
+      "title": "노동장관 “정년연장, 27일 특위서 결론 안 나면 정부안 제시 검토”",
+      "summary": "27일에는 양대 노총과 경영계가 참여하는 가운데 더불어민주당 정년연장특별위원회 산하 노사 소위원회가 10개월 만에 열린다. 정년연장특위는 당초 지난해 입법을 목표로 출범했지만 노사 이견을 좁히지 못하고 있다....",
+      "url": "https://www.donga.com/news/Society/article/all/20261122/135067473/1",
+      "publishedAt": "2026-11-22T16:55:00+09:00",
+      "sentences": [
+        {
+          "id": "s1",
+          "text": null,
+          "type": "fact",
+          "sourceType": null,
+          "sourceName": null,
+          "sourceDetail": null,
+          "party": null,
+          "stateBody": false
+        },
+        {
+          "id": "s2",
+          "text": "10개월간 공회전하던 국회의 정년 연장 논의가 27일 재개되는 가운데 정…",
+          "type": "opinion",
+          "sourceType": null,
+          "sourceName": null,
+          "sourceDetail": null,
+          "party": null,
+          "stateBody": false
+        },
+        {
+          "id": "s3",
+          "text": null,
+          "type": "quote",
+          "sourceType": "gov",
+          "sourceName": "김영훈 고용노동부 장관",
+          "sourceDetail": null,
+          "party": null,
+          "stateBody": false
+        },
+        {
+          "id": "s4",
+          "text": null,
+          "type": "quote",
+          "sourceType": "gov",
+          "sourceName": "김 장관",
+          "sourceDetail": null,
+          "party": null,
+          "stateBody": false
+        },
+        {
+          "id": "s5",
+          "text": null,
+          "type": "fact",
+          "sourceType": null,
+          "sourceName": null,
+          "sourceDetail": null,
+          "party": null,
+          "stateBody": false
+        },
+        {
+          "id": "s6",
+          "text": null,
+          "type": "fact",
+          "sourceType": null,
+          "sourceName": null,
+          "sourceDetail": null,
+          "party": null,
+          "stateBody": false
+        },
+        {
+          "id": "s7",
+          "text": null,
+          "type": "fact",
+          "sourceType": null,
+          "sourceName": null,
+          "sourceDetail": null,
+          "party": null,
+          "stateBody": false
+        },
+        {
+          "id": "s8",
+          "text": null,
+          "type": "quote",
+          "sourceType": "gov",
+          "sourceName": "김 장관",
+          "sourceDetail": null,
+          "party": null,
+          "stateBody": false
+        },
+        {
+          "id": "s9",
+          "text": null,
+          "type": "fact",
+          "sourceType": null,
+          "sourceName": null,
+          "sourceDetail": null,
+          "party": null,
+          "stateBody": false
+        },
+        {
+          "id": "s10",
+          "text": null,
+          "type": "quote",
+          "sourceType": "gov",
+          "sourceName": "김 장관",
+          "sourceDetail": null,
+          "party": null,
+          "stateBody": false
+        },
+        {
+          "id": "s11",
+          "text": null,
+          "type": "quote",
+          "sourceType": "gov",
+          "sourceName": "그",
+          "sourceDetail": null,
+          "party": null,
+          "stateBody": false
+        },
+        {
+          "id": "s12",
+          "text": "27일 회의에서는 정년 연장 속도와 고용 방식, 임금 체계 개편 등을 놓…",
+          "type": "opinion",
+          "sourceType": null,
+          "sourceName": null,
+          "sourceDetail": null,
+          "party": null,
+          "stateBody": false
+        }
+      ],
+      "framingTerms": [
+        {
+          "term": "공회전하던",
+          "sentenceId": "s2"
+        },
+        {
+          "term": "적극적으로",
+          "sentenceId": "s2"
+        }
+      ],
+      "missingViewpoints": [],
+      "metrics": {
+        "camps": {
+          "ruling": 5,
+          "third": 0,
+          "mainOpp": 0,
+          "independent": 0
+        },
+        "slope": 1.0,
+        "slopeSmoothed": 0.714,
+        "slopeBasis": 5,
+        "excludedFromSlope": 0,
+        "institution": 0
+      }
+    },
+    {
+      "id": "a-e7eff75493",
+      "issueId": "auto-20261123-0045-1",
+      "outletId": "yna",
+      "title": "李대통령, '대장동 의혹' 또 반박…\"업자와 결탁한 시장 아냐\"",
+      "summary": "\"4천300억원 선확정…부동산 시장 개선에 1천100억원 추가부담시켜\" 이재명 대통령은 22일 이른바 '대장동... 달리 부동산 시장이 개선되자 업자들에게 1천100억원을 추가 부담시켰다\"고 설명했다. 이 대통령은 지난...",
+      "url": "https://www.yna.co.kr/view/AKR20261122043000001?input=1195m",
+      "publishedAt": "2026-11-22T18:17:00+09:00",
+      "sentences": [
+        {
+          "id": "s1",
+          "text": null,
+          "type": "fact",
+          "sourceType": null,
+          "sourceName": null,
+          "sourceDetail": null,
+          "party": null,
+          "stateBody": false
+        },
+        {
+          "id": "s2",
+          "text": null,
+          "type": "quote",
+          "sourceType": "gov",
+          "sourceName": "이재명 대통령",
+          "sourceDetail": null,
+          "party": "더불어민주당",
+          "stateBody": false
+        },
+        {
+          "id": "s3",
+          "text": null,
+          "type": "fact",
+          "sourceType": null,
+          "sourceName": null,
+          "sourceDetail": null,
+          "party": null,
+          "stateBody": false
+        },
+        {
+          "id": "s4",
+          "text": null,
+          "type": "quote",
+          "sourceType": "gov",
+          "sourceName": "이 대통령",
+          "sourceDetail": null,
+          "party": "더불어민주당",
+          "stateBody": false
+        },
+        {
+          "id": "s5",
+          "text": null,
+          "type": "quote",
+          "sourceType": "gov",
+          "sourceName": "이 대통령",
+          "sourceDetail": null,
+          "party": "더불어민주당",
+          "stateBody": false
+        },
+        {
+          "id": "s6",
+          "text": null,
+          "type": "quote",
+          "sourceType": "citizen",
+          "sourceName": "정 변호사",
+          "sourceDetail": null,
+          "party": null,
+          "stateBody": false
+        }
+      ],
+      "framingTerms": [
+        {
+          "term": "반박했다",
+          "sentenceId": "s2"
+        },
+        {
+          "term": "설명했다",
+          "sentenceId": "s4"
+        },
+        {
+          "term": "주장했다",
+          "sentenceId": "s6"
+        }
+      ],
+      "missingViewpoints": [
+        {
+          "sourceType": "opp",
+          "description": "야당 인용 없음 (같은 이슈의 다른 기사에는 있습니다)",
+          "foundInArticleIds": [
+            "a-95d336bf28",
+            "a-089fae93e2"
+          ]
+        }
+      ],
+      "metrics": {
+        "camps": {
+          "ruling": 3,
+          "third": 0,
+          "mainOpp": 0,
+          "independent": 0
+        },
+        "slope": 1.0,
+        "slopeSmoothed": 0.6,
+        "slopeBasis": 3,
+        "excludedFromSlope": 0,
+        "institution": 0
+      }
+    },
+    {
+      "id": "a-95d336bf28",
+      "issueId": "auto-20261123-0045-1",
+      "outletId": "news1",
+      "title": "李 \"업자와 결탁한 시장이 1100억 추가 부담시키나\"…대장동 의혹 또 반...",
+      "summary": "한편 국회를 통과해 공포된 조작기소 특검법에는 수사 대상 12개 항목 중 대장동 사건을 비롯해 위례·백현동 개발 관련 배임 사건과 쌍방울 대북 송금 사건 등 6개가 이 대통령과 관련돼 있다. 이 대통령의 대장동 사건...",
+      "url": "https://www.news1.kr/politics/president/6362104",
+      "publishedAt": "2026-11-22T18:30:00+09:00",
+      "sentences": [
+        {
+          "id": "s1",
+          "text": null,
+          "type": "quote",
+          "sourceType": "gov",
+          "sourceName": "이재명 대통령",
+          "sourceDetail": null,
+          "party": "더불어민주당",
+          "stateBody": false
+        },
+        {
+          "id": "s2",
+          "text": null,
+          "type": "quote",
+          "sourceType": "gov",
+          "sourceName": "이 대통령",
+          "sourceDetail": null,
+          "party": "더불어민주당",
+          "stateBody": false
+        },
+        {
+          "id": "s3",
+          "text": null,
+          "type": "quote",
+          "sourceType": "gov",
+          "sourceName": "이 대통령",
+          "sourceDetail": null,
+          "party": "더불어민주당",
+          "stateBody": false
+        },
+        {
+          "id": "s4",
+          "text": null,
+          "type": "fact",
+          "sourceType": null,
+          "sourceName": null,
+          "sourceDetail": null,
+          "party": null,
+          "stateBody": false
+        },
+        {
+          "id": "s5",
+          "text": null,
+          "type": "quote",
+          "sourceType": "citizen",
+          "sourceName": "정민용 변호사",
+          "sourceDetail": null,
+          "party": null,
+          "stateBody": false
+        },
+        {
+          "id": "s6",
+          "text": null,
+          "type": "quote",
+          "sourceType": "citizen",
+          "sourceName": "정민용 변호사",
+          "sourceDetail": null,
+          "party": null,
+          "stateBody": false
+        },
+        {
+          "id": "s7",
+          "text": null,
+          "type": "quote",
+          "sourceType": "citizen",
+          "sourceName": "정민용 변호사",
+          "sourceDetail": null,
+          "party": null,
+          "stateBody": false
+        },
+        {
+          "id": "s8",
+          "text": null,
+          "type": "fact",
+          "sourceType": null,
+          "sourceName": null,
+          "sourceDetail": null,
+          "party": null,
+          "stateBody": false
+        },
+        {
+          "id": "s9",
+          "text": null,
+          "type": "fact",
+          "sourceType": null,
+          "sourceName": null,
+          "sourceDetail": null,
+          "party": null,
+          "stateBody": false
+        },
+        {
+          "id": "s10",
+          "text": null,
+          "type": "quote",
+          "sourceType": "opp",
+          "sourceName": "장동혁 국민의힘 대표",
+          "sourceDetail": null,
+          "party": "국민의힘",
+          "stateBody": false
+        }
+      ],
+      "framingTerms": [],
+      "missingViewpoints": [],
+      "metrics": {
+        "camps": {
+          "ruling": 3,
+          "third": 0,
+          "mainOpp": 1,
+          "independent": 0
+        },
+        "slope": 0.5,
+        "slopeSmoothed": 0.333,
+        "slopeBasis": 4,
+        "excludedFromSlope": 0,
+        "institution": 0
+      }
+    },
+    {
+      "id": "a-089fae93e2",
+      "issueId": "auto-20261123-0045-1",
+      "outletId": "joins",
+      "title": "이 대통령 대장동 의혹 반박…장동혁 \"억울하면 재판받으라\"",
+      "summary": "시킨 건 해야죠' 이렇게 말씀하시더라고요.] 이 대통령은 해당 영상을 공유하며 \"개발허가 내주고 5500억원을 공익 환수한 게 배임죄라면, 개발이익 100% 민간업자가 취득하는 일반적인 개발 허가는 어찌 되는 거냐\"며 검찰...",
+      "url": "https://news.jtbc.co.kr/article/NB12329200?influxDiv=NAVER",
+      "publishedAt": "2026-11-21T18:58:00+09:00",
+      "sentences": [
+        {
+          "id": "s1",
+          "text": null,
+          "type": "quote",
+          "sourceType": "opp",
+          "sourceName": "국민의힘",
+          "sourceDetail": null,
+          "party": "국민의힘",
+          "stateBody": false
+        },
+        {
+          "id": "s2",
+          "text": null,
+          "type": "fact",
+          "sourceType": null,
+          "sourceName": null,
+          "sourceDetail": null,
+          "party": null,
+          "stateBody": false
+        },
+        {
+          "id": "s3",
+          "text": null,
+          "type": "fact",
+          "sourceType": null,
+          "sourceName": null,
+          "sourceDetail": null,
+          "party": null,
+          "stateBody": false
+        },
+        {
+          "id": "s4",
+          "text": null,
+          "type": "quote",
+          "sourceType": "citizen",
+          "sourceName": "정민용",
+          "sourceDetail": null,
+          "party": null,
+          "stateBody": false
+        },
+        {
+          "id": "s5",
+          "text": null,
+          "type": "quote",
+          "sourceType": "gov",
+          "sourceName": "이 대통령",
+          "sourceDetail": null,
+          "party": "더불어민주당",
+          "stateBody": false
+        },
+        {
+          "id": "s6",
+          "text": null,
+          "type": "fact",
+          "sourceType": null,
+          "sourceName": null,
+          "sourceDetail": null,
+          "party": null,
+          "stateBody": false
+        },
+        {
+          "id": "s7",
+          "text": null,
+          "type": "quote",
+          "sourceType": "opp",
+          "sourceName": "장동혁",
+          "sourceDetail": null,
+          "party": "국민의힘",
+          "stateBody": false
+        },
+        {
+          "id": "s8",
+          "text": null,
+          "type": "quote",
+          "sourceType": "opp",
+          "sourceName": "박성훈",
+          "sourceDetail": null,
+          "party": "국민의힘",
+          "stateBody": false
+        },
+        {
+          "id": "s9",
+          "text": null,
+          "type": "fact",
+          "sourceType": null,
+          "sourceName": null,
+          "sourceDetail": null,
+          "party": null,
+          "stateBody": false
+        },
+        {
+          "id": "s10",
+          "text": null,
+          "type": "quote",
+          "sourceType": "gov",
+          "sourceName": "조계원",
+          "sourceDetail": null,
+          "party": "더불어민주당",
+          "stateBody": false
+        }
+      ],
+      "framingTerms": [
+        {
+          "term": "비판한 겁니다",
+          "sentenceId": "s5"
+        },
+        {
+          "term": "반박했습니다",
+          "sentenceId": "s9"
+        }
+      ],
+      "missingViewpoints": [],
+      "metrics": {
+        "camps": {
+          "ruling": 2,
+          "third": 0,
+          "mainOpp": 3,
+          "independent": 0
+        },
+        "slope": -0.2,
+        "slopeSmoothed": -0.143,
+        "slopeBasis": 5,
+        "excludedFromSlope": 0,
+        "institution": 0
+      }
+    },
+    {
+      "id": "a-07a4f640ad",
+      "issueId": "auto-20261123-0045-1",
+      "outletId": "tvchosun",
+      "title": "李대통령 '대장동 의혹' 재반박…\"업자에 1100억 추가부담 시켰다\"",
+      "summary": "이어 \"성남시 몫 이익 4천300억원을 선 확정 보장하는 조건으로 대장동 사업자를 선정한 후에, 예상과 달리 부동산 시장이 개선되자 업자들에게 1천100억원을 추가 부담시켰다\"고 설명했다. 지난 20일에도 이 대통령은 정...",
+      "url": "https://news.tvchosun.com/site/data/html_dir/2026/11/22/2026112290144.html",
+      "publishedAt": "2026-11-22T19:16:00+09:00",
+      "sentences": [
+        {
+          "id": "s1",
+          "text": null,
+          "type": "quote",
+          "sourceType": "gov",
+          "sourceName": "이재명 대통령",
+          "sourceDetail": null,
+          "party": "더불어민주당",
+          "stateBody": false
+        },
+        {
+          "id": "s2",
+          "text": null,
+          "type": "fact",
+          "sourceType": null,
+          "sourceName": null,
+          "sourceDetail": null,
+          "party": null,
+          "stateBody": false
+        },
+        {
+          "id": "s3",
+          "text": null,
+          "type": "quote",
+          "sourceType": "gov",
+          "sourceName": "이재명 대통령",
+          "sourceDetail": null,
+          "party": "더불어민주당",
+          "stateBody": false
+        },
+        {
+          "id": "s4",
+          "text": null,
+          "type": "fact",
+          "sourceType": null,
+          "sourceName": null,
+          "sourceDetail": null,
+          "party": null,
+          "stateBody": false
+        },
+        {
+          "id": "s5",
+          "text": null,
+          "type": "quote",
+          "sourceType": "gov",
+          "sourceName": "이재명 대통령",
+          "sourceDetail": null,
+          "party": "더불어민주당",
+          "stateBody": false
+        },
+        {
+          "id": "s6",
+          "text": null,
+          "type": "quote",
+          "sourceType": "etc",
+          "sourceName": "정민용 변호사",
+          "sourceDetail": "익명(소속 미상)",
+          "party": null,
+          "stateBody": false
+        }
+      ],
+      "framingTerms": [],
+      "missingViewpoints": [
+        {
+          "sourceType": "opp",
+          "description": "야당 인용 없음 (같은 이슈의 다른 기사에는 있습니다)",
+          "foundInArticleIds": [
+            "a-95d336bf28",
+            "a-089fae93e2"
+          ]
+        },
+        {
+          "sourceType": "citizen",
+          "description": "시민·단체 인용 없음 (같은 이슈의 다른 기사에는 있습니다)",
+          "foundInArticleIds": [
+            "a-e7eff75493",
+            "a-95d336bf28",
+            "a-089fae93e2",
+            "a-90d058d000",
+            "a-0e02a20532"
+          ]
+        }
+      ],
+      "metrics": {
+        "camps": {
+          "ruling": 3,
+          "third": 0,
+          "mainOpp": 0,
+          "independent": 0
+        },
+        "slope": 1.0,
+        "slopeSmoothed": 0.6,
+        "slopeBasis": 3,
+        "excludedFromSlope": 0,
+        "institution": 0
+      }
+    },
+    {
+      "id": "a-8fc62e7548",
+      "issueId": "auto-20261123-0045-1",
+      "outletId": "joongang",
+      "title": "李, 대장동 결탁 의혹 반박…“업자들에게 1100억원 추가 부담시켜”",
+      "summary": "앞서 이 대통령은 지난 20일에도 정 변호사의 인터뷰를 공유하며 검찰의 배임 혐의 기소 논리를 비판했다.... 정 변호사는 유튜브 채널 ‘매봉쇼’ 인터뷰에서 검찰 조사 당시 대장동 사업이 왜 배임에 해당하느냐는...",
+      "url": "https://www.joongang.co.kr/article/25480842",
+      "publishedAt": "2026-11-22T18:57:00+09:00",
+      "sentences": [
+        {
+          "id": "s1",
+          "text": null,
+          "type": "quote",
+          "sourceType": "gov",
+          "sourceName": "이재명 대통령",
+          "sourceDetail": null,
+          "party": "더불어민주당",
+          "stateBody": false
+        },
+        {
+          "id": "s2",
+          "text": null,
+          "type": "fact",
+          "sourceType": null,
+          "sourceName": null,
+          "sourceDetail": null,
+          "party": null,
+          "stateBody": false
+        },
+        {
+          "id": "s3",
+          "text": null,
+          "type": "quote",
+          "sourceType": "gov",
+          "sourceName": "이 대통령",
+          "sourceDetail": null,
+          "party": "더불어민주당",
+          "stateBody": false
+        },
+        {
+          "id": "s4",
+          "text": null,
+          "type": "quote",
+          "sourceType": "gov",
+          "sourceName": "이 대통령",
+          "sourceDetail": null,
+          "party": "더불어민주당",
+          "stateBody": false
+        },
+        {
+          "id": "s5",
+          "text": null,
+          "type": "quote",
+          "sourceType": "gov",
+          "sourceName": "이 대통령",
+          "sourceDetail": null,
+          "party": "더불어민주당",
+          "stateBody": false
+        },
+        {
+          "id": "s6",
+          "text": null,
+          "type": "quote",
+          "sourceType": "etc",
+          "sourceName": "정 변호사",
+          "sourceDetail": "익명(소속 미상)",
+          "party": null,
+          "stateBody": false
+        },
+        {
+          "id": "s7",
+          "text": null,
+          "type": "quote",
+          "sourceType": "etc",
+          "sourceName": "정 변호사",
+          "sourceDetail": "익명(소속 미상)",
+          "party": null,
+          "stateBody": false
+        }
+      ],
+      "framingTerms": [
+        {
+          "term": "비판했다",
+          "sentenceId": "s4"
+        }
+      ],
+      "missingViewpoints": [
+        {
+          "sourceType": "opp",
+          "description": "야당 인용 없음 (같은 이슈의 다른 기사에는 있습니다)",
+          "foundInArticleIds": [
+            "a-95d336bf28",
+            "a-089fae93e2"
+          ]
+        },
+        {
+          "sourceType": "citizen",
+          "description": "시민·단체 인용 없음 (같은 이슈의 다른 기사에는 있습니다)",
+          "foundInArticleIds": [
+            "a-e7eff75493",
+            "a-95d336bf28",
+            "a-089fae93e2",
+            "a-90d058d000",
+            "a-0e02a20532"
+          ]
+        }
+      ],
+      "metrics": {
+        "camps": {
+          "ruling": 4,
+          "third": 0,
+          "mainOpp": 0,
+          "independent": 0
+        },
+        "slope": 1.0,
+        "slopeSmoothed": 0.667,
+        "slopeBasis": 4,
+        "excludedFromSlope": 0,
+        "institution": 0
+      }
+    },
+    {
+      "id": "a-90d058d000",
+      "issueId": "auto-20261123-0045-1",
+      "outletId": "khan",
+      "title": "이 대통령 ‘대장동 배임’ 또 반박, “업자들에 1100억원 추가 부담시...",
+      "summary": "앞서 검찰은 이 대통령이 성남시장 재직 당시 민간업자에게 유리한 사업 구조를 승인해... 정 변호사는 유튜브 채널 ‘매봉쇼’에서 영상에서 정 변호사는 대장동 수사 당시 검찰 조사 과정에서 배임 혐의에 의문을...",
+      "url": "https://weekly.khan.co.kr/article/202611222222001",
+      "publishedAt": "2026-11-22T22:22:00+09:00",
+      "sentences": [
+        {
+          "id": "s1",
+          "text": null,
+          "type": "quote",
+          "sourceType": "gov",
+          "sourceName": "이재명 대통령",
+          "sourceDetail": null,
+          "party": "더불어민주당",
+          "stateBody": false
+        },
+        {
+          "id": "s2",
+          "text": null,
+          "type": "fact",
+          "sourceType": null,
+          "sourceName": null,
+          "sourceDetail": null,
+          "party": null,
+          "stateBody": false
+        },
+        {
+          "id": "s3",
+          "text": null,
+          "type": "quote",
+          "sourceType": "gov",
+          "sourceName": "이 대통령",
+          "sourceDetail": null,
+          "party": "더불어민주당",
+          "stateBody": false
+        },
+        {
+          "id": "s4",
+          "text": null,
+          "type": "quote",
+          "sourceType": "gov",
+          "sourceName": "이 대통령",
+          "sourceDetail": null,
+          "party": "더불어민주당",
+          "stateBody": false
+        },
+        {
+          "id": "s5",
+          "text": null,
+          "type": "quote",
+          "sourceType": "citizen",
+          "sourceName": "정 변호사",
+          "sourceDetail": null,
+          "party": null,
+          "stateBody": false
+        },
+        {
+          "id": "s6",
+          "text": null,
+          "type": "fact",
+          "sourceType": null,
+          "sourceName": null,
+          "sourceDetail": null,
+          "party": null,
+          "stateBody": false
+        },
+        {
+          "id": "s7",
+          "text": null,
+          "type": "fact",
+          "sourceType": null,
+          "sourceName": null,
+          "sourceDetail": null,
+          "party": null,
+          "stateBody": false
+        }
+      ],
+      "framingTerms": [
+        {
+          "term": "강조하며",
+          "sentenceId": "s1"
+        },
+        {
+          "term": "반박했다",
+          "sentenceId": "s1"
+        },
+        {
+          "term": "기소했다",
+          "sentenceId": "s2"
+        },
+        {
+          "term": "밝혔다",
+          "sentenceId": "s3"
+        },
+        {
+          "term": "적었다",
+          "sentenceId": "s4"
+        },
+        {
+          "term": "주장했다",
+          "sentenceId": "s5"
+        },
+        {
+          "term": "기소했다",
+          "sentenceId": "s7"
+        }
+      ],
+      "missingViewpoints": [
+        {
+          "sourceType": "opp",
+          "description": "야당 인용 없음 (같은 이슈의 다른 기사에는 있습니다)",
+          "foundInArticleIds": [
+            "a-95d336bf28",
+            "a-089fae93e2"
+          ]
+        }
+      ],
+      "metrics": {
+        "camps": {
+          "ruling": 3,
+          "third": 0,
+          "mainOpp": 0,
+          "independent": 0
+        },
+        "slope": 1.0,
+        "slopeSmoothed": 0.6,
+        "slopeBasis": 3,
+        "excludedFromSlope": 0,
+        "institution": 0
+      }
+    },
+    {
+      "id": "a-0e02a20532",
+      "issueId": "auto-20261123-0045-1",
+      "outletId": "hankookilbo",
+      "title": "이 대통령 대장동 의혹 또 반박... \"업자와 결탁한 시장이 1100억 추가 부...",
+      "summary": "이는 검찰 기소 논리에 대한 반박으로 풀이된다. 앞서 검찰은 이 대통령이 성남시장 재직 당시 민간업자에게 유리한 사업구조를 승인함으로써 성남도시개발공사에 약 4,895억 원 규모의 손해를 끼쳤다고 보고 배임...",
+      "url": "https://www.hankookilbo.com/news/article/A2026112218540003433?did=NA",
+      "publishedAt": "2026-11-22T19:13:00+09:00",
+      "sentences": [
+        {
+          "id": "s1",
+          "text": null,
+          "type": "quote",
+          "sourceType": "gov",
+          "sourceName": "이재명",
+          "sourceDetail": null,
+          "party": "더불어민주당",
+          "stateBody": false
+        },
+        {
+          "id": "s2",
+          "text": null,
+          "type": "fact",
+          "sourceType": null,
+          "sourceName": null,
+          "sourceDetail": null,
+          "party": null,
+          "stateBody": false
+        },
+        {
+          "id": "s3",
+          "text": null,
+          "type": "quote",
+          "sourceType": "gov",
+          "sourceName": "이재명",
+          "sourceDetail": null,
+          "party": "더불어민주당",
+          "stateBody": false
+        },
+        {
+          "id": "s4",
+          "text": "이는 검찰 기소 논리에 대한 반박으로 풀이된다.",
+          "type": "opinion",
+          "sourceType": null,
+          "sourceName": null,
+          "sourceDetail": null,
+          "party": null,
+          "stateBody": false
+        },
+        {
+          "id": "s5",
+          "text": null,
+          "type": "fact",
+          "sourceType": null,
+          "sourceName": null,
+          "sourceDetail": null,
+          "party": null,
+          "stateBody": false
+        },
+        {
+          "id": "s6",
+          "text": null,
+          "type": "fact",
+          "sourceType": null,
+          "sourceName": null,
+          "sourceDetail": null,
+          "party": null,
+          "stateBody": false
+        },
+        {
+          "id": "s7",
+          "text": null,
+          "type": "quote",
+          "sourceType": "citizen",
+          "sourceName": "정민용",
+          "sourceDetail": null,
+          "party": null,
+          "stateBody": false
+        },
+        {
+          "id": "s8",
+          "text": null,
+          "type": "quote",
+          "sourceType": "citizen",
+          "sourceName": "정민용",
+          "sourceDetail": null,
+          "party": null,
+          "stateBody": false
+        }
+      ],
+      "framingTerms": [
+        {
+          "term": "반박했다",
+          "sentenceId": "s1"
+        },
+        {
+          "term": "강조했다",
+          "sentenceId": "s3"
+        },
+        {
+          "term": "풀이된다",
+          "sentenceId": "s4"
+        },
+        {
+          "term": "기소했다",
+          "sentenceId": "s5"
+        },
+        {
+          "term": "반박했다",
+          "sentenceId": "s6"
+        },
+        {
+          "term": "주장했다",
+          "sentenceId": "s8"
+        }
+      ],
+      "missingViewpoints": [
+        {
+          "sourceType": "opp",
+          "description": "야당 인용 없음 (같은 이슈의 다른 기사에는 있습니다)",
+          "foundInArticleIds": [
+            "a-95d336bf28",
+            "a-089fae93e2"
+          ]
+        }
+      ],
+      "metrics": {
+        "camps": {
+          "ruling": 2,
+          "third": 0,
+          "mainOpp": 0,
+          "independent": 0
+        },
+        "slope": 1.0,
+        "slopeSmoothed": 0.5,
+        "slopeBasis": 2,
+        "excludedFromSlope": 0,
+        "institution": 0
+      }
+    },
+    {
+      "id": "a-2f2c292a4a",
+      "issueId": "auto-20261123-0047-1",
+      "outletId": "kbs",
+      "title": "국민의힘, 청년 정책 전달식…“청년 정책으로 이재명 정권 폭정 압도”",
+      "summary": "국민의힘 정책위원회 청년정책기획단은 오늘(22일) 국회에서 “‘Re:Start, 다시 올라갈 기회: 제1호 청년정책... 진짜 싸움은 바로 이곳, 국회에서 벌이는 정책 전쟁“이라며 ”청년의 삶에 도움이 되는 진짜 정책들로...",
+      "url": "https://news.kbs.co.kr/news/pc/view/view.do?ncd=8719406&ref=A",
+      "publishedAt": "2026-11-22T18:36:00+09:00",
+      "sentences": [
+        {
+          "id": "s1",
+          "text": null,
+          "type": "fact",
+          "sourceType": null,
+          "sourceName": null,
+          "sourceDetail": null,
+          "party": null,
+          "stateBody": false
+        },
+        {
+          "id": "s2",
+          "text": null,
+          "type": "quote",
+          "sourceType": "opp",
+          "sourceName": "국민의힘 정책위원회 청년정책기획단",
+          "sourceDetail": null,
+          "party": "국민의힘",
+          "stateBody": false
+        },
+        {
+          "id": "s3",
+          "text": null,
+          "type": "fact",
+          "sourceType": null,
+          "sourceName": null,
+          "sourceDetail": null,
+          "party": null,
+          "stateBody": false
+        },
+        {
+          "id": "s4",
+          "text": null,
+          "type": "quote",
+          "sourceType": "opp",
+          "sourceName": "장 대표",
+          "sourceDetail": null,
+          "party": "국민의힘",
+          "stateBody": false
+        },
+        {
+          "id": "s5",
+          "text": null,
+          "type": "quote",
+          "sourceType": "opp",
+          "sourceName": "장 대표",
+          "sourceDetail": null,
+          "party": "국민의힘",
+          "stateBody": false
+        },
+        {
+          "id": "s6",
+          "text": null,
+          "type": "quote",
+          "sourceType": "opp",
+          "sourceName": "장 대표",
+          "sourceDetail": null,
+          "party": "국민의힘",
+          "stateBody": false
+        },
+        {
+          "id": "s7",
+          "text": null,
+          "type": "quote",
+          "sourceType": "opp",
+          "sourceName": "장 대표",
+          "sourceDetail": null,
+          "party": "국민의힘",
+          "stateBody": false
+        },
+        {
+          "id": "s8",
+          "text": null,
+          "type": "fact",
+          "sourceType": null,
+          "sourceName": null,
+          "sourceDetail": null,
+          "party": null,
+          "stateBody": false
+        },
+        {
+          "id": "s9",
+          "text": null,
+          "type": "fact",
+          "sourceType": null,
+          "sourceName": null,
+          "sourceDetail": null,
+          "party": null,
+          "stateBody": false
+        }
+      ],
+      "framingTerms": [],
+      "missingViewpoints": [],
+      "metrics": {
+        "camps": {
+          "ruling": 0,
+          "third": 0,
+          "mainOpp": 5,
+          "independent": 0
+        },
+        "slope": -1.0,
+        "slopeSmoothed": -0.714,
+        "slopeBasis": 5,
+        "excludedFromSlope": 0,
+        "institution": 0
+      }
+    },
+    {
+      "id": "a-34fc292a37",
+      "issueId": "auto-20261123-0047-1",
+      "outletId": "sbs",
+      "title": "국민의힘, 2030세대 공들이기…장동혁 \"청년 약탈 정권 맞서 정책전쟁\"",
+      "summary": "▲ 국민의힘 장동혁 대표가 22일 국회 의원회관에서 열린 제1호 청년정책 패키지 발표 및 전달식에서 국기에 경례하고 있다. 국민의힘은 오늘(22일) 청년정책 발표 행사를 개최하며 정부·여당의 실정을 비판하고, 대안...",
+      "url": "https://news.sbs.co.kr/news/endPage.do?news_id=N1008857808&plink=ORI&cooper=NAVER",
+      "publishedAt": "2026-11-22T16:26:00+09:00",
+      "sentences": [
+        {
+          "id": "s1",
+          "text": null,
+          "type": "fact",
+          "sourceType": null,
+          "sourceName": null,
+          "sourceDetail": null,
+          "party": null,
+          "stateBody": false
+        },
+        {
+          "id": "s2",
+          "text": "2028년 총선 전, 2030 세대가 공감하는 정책을 내세워 청년 민심을…",
+          "type": "opinion",
+          "sourceType": null,
+          "sourceName": null,
+          "sourceDetail": null,
+          "party": null,
+          "stateBody": false
+        },
+        {
+          "id": "s3",
+          "text": null,
+          "type": "fact",
+          "sourceType": null,
+          "sourceName": null,
+          "sourceDetail": null,
+          "party": null,
+          "stateBody": false
+        },
+        {
+          "id": "s4",
+          "text": null,
+          "type": "fact",
+          "sourceType": null,
+          "sourceName": null,
+          "sourceDetail": null,
+          "party": null,
+          "stateBody": false
+        },
+        {
+          "id": "s5",
+          "text": null,
+          "type": "quote",
+          "sourceType": "opp",
+          "sourceName": "기획단",
+          "sourceDetail": null,
+          "party": "국민의힘",
+          "stateBody": false
+        },
+        {
+          "id": "s6",
+          "text": null,
+          "type": "fact",
+          "sourceType": null,
+          "sourceName": null,
+          "sourceDetail": null,
+          "party": null,
+          "stateBody": false
+        },
+        {
+          "id": "s7",
+          "text": null,
+          "type": "quote",
+          "sourceType": "opp",
+          "sourceName": "기획단",
+          "sourceDetail": null,
+          "party": "국민의힘",
+          "stateBody": false
+        },
+        {
+          "id": "s8",
+          "text": null,
+          "type": "quote",
+          "sourceType": "opp",
+          "sourceName": "장동혁 대표",
+          "sourceDetail": null,
+          "party": "국민의힘",
+          "stateBody": false
+        },
+        {
+          "id": "s9",
+          "text": null,
+          "type": "quote",
+          "sourceType": "opp",
+          "sourceName": "장 대표",
+          "sourceDetail": null,
+          "party": "국민의힘",
+          "stateBody": false
+        },
+        {
+          "id": "s10",
+          "text": null,
+          "type": "quote",
+          "sourceType": "opp",
+          "sourceName": "장 대표",
+          "sourceDetail": null,
+          "party": "국민의힘",
+          "stateBody": false
+        },
+        {
+          "id": "s11",
+          "text": null,
+          "type": "quote",
+          "sourceType": "opp",
+          "sourceName": "임이자 정책위의장",
+          "sourceDetail": null,
+          "party": "국민의힘",
+          "stateBody": false
+        },
+        {
+          "id": "s12",
+          "text": null,
+          "type": "fact",
+          "sourceType": null,
+          "sourceName": null,
+          "sourceDetail": null,
+          "party": null,
+          "stateBody": false
+        }
+      ],
+      "framingTerms": [
+        {
+          "term": "전략으로 보입니다",
+          "sentenceId": "s2"
+        }
+      ],
+      "missingViewpoints": [],
+      "metrics": {
+        "camps": {
+          "ruling": 0,
+          "third": 0,
+          "mainOpp": 6,
+          "independent": 0
+        },
+        "slope": -1.0,
+        "slopeSmoothed": -0.75,
+        "slopeBasis": 6,
+        "excludedFromSlope": 0,
+        "institution": 0
+      }
+    },
+    {
+      "id": "a-4f88cb2d68",
+      "issueId": "auto-20261123-0047-1",
+      "outletId": "tvchosun",
+      "title": "국민의힘, '1호 청년정책 패키지' 발표…\"정책으로 이재명정권 폭정 압...",
+      "summary": "장동혁 국민의힘 대표는 22일 오후 국회 의원회관에서 열린 '청년정책 패키지 발표 및 전달식'에서 우리의 싸움터는 거리만이 아니다\"며 \"진짜 싸움은 바로 이곳 국회에서 벌이는 정책 전쟁\"이라고 밝혔다. 이어 \"이재명...",
+      "url": "https://news.tvchosun.com/site/data/html_dir/2026/11/22/2026112290143.html",
+      "publishedAt": "2026-11-22T18:45:00+09:00",
+      "sentences": [
+        {
+          "id": "s1",
+          "text": null,
+          "type": "fact",
+          "sourceType": null,
+          "sourceName": null,
+          "sourceDetail": null,
+          "party": null,
+          "stateBody": false
+        },
+        {
+          "id": "s2",
+          "text": null,
+          "type": "fact",
+          "sourceType": null,
+          "sourceName": null,
+          "sourceDetail": null,
+          "party": null,
+          "stateBody": false
+        },
+        {
+          "id": "s3",
+          "text": null,
+          "type": "quote",
+          "sourceType": "opp",
+          "sourceName": "장동혁 대표",
+          "sourceDetail": null,
+          "party": "국민의힘",
+          "stateBody": false
+        },
+        {
+          "id": "s4",
+          "text": null,
+          "type": "quote",
+          "sourceType": "opp",
+          "sourceName": "장동혁 대표",
+          "sourceDetail": null,
+          "party": "국민의힘",
+          "stateBody": false
+        },
+        {
+          "id": "s5",
+          "text": null,
+          "type": "quote",
+          "sourceType": "opp",
+          "sourceName": "임이자 정책위의장",
+          "sourceDetail": null,
+          "party": "국민의힘",
+          "stateBody": false
+        },
+        {
+          "id": "s6",
+          "text": null,
+          "type": "quote",
+          "sourceType": "opp",
+          "sourceName": "정희용 사무총장",
+          "sourceDetail": null,
+          "party": "국민의힘",
+          "stateBody": false
+        },
+        {
+          "id": "s7",
+          "text": null,
+          "type": "quote",
+          "sourceType": "opp",
+          "sourceName": "강호승 청년정책기획단장",
+          "sourceDetail": null,
+          "party": null,
+          "stateBody": false
+        },
+        {
+          "id": "s8",
+          "text": null,
+          "type": "fact",
+          "sourceType": null,
+          "sourceName": null,
+          "sourceDetail": null,
+          "party": null,
+          "stateBody": false
+        },
+        {
+          "id": "s9",
+          "text": null,
+          "type": "fact",
+          "sourceType": null,
+          "sourceName": null,
+          "sourceDetail": null,
+          "party": null,
+          "stateBody": false
+        },
+        {
+          "id": "s10",
+          "text": null,
+          "type": "fact",
+          "sourceType": null,
+          "sourceName": null,
+          "sourceDetail": null,
+          "party": null,
+          "stateBody": false
+        },
+        {
+          "id": "s11",
+          "text": null,
+          "type": "fact",
+          "sourceType": null,
+          "sourceName": null,
+          "sourceDetail": null,
+          "party": null,
+          "stateBody": false
+        }
+      ],
+      "framingTerms": [],
+      "missingViewpoints": [],
+      "metrics": {
+        "camps": {
+          "ruling": 0,
+          "third": 0,
+          "mainOpp": 5,
+          "independent": 0
+        },
+        "slope": -1.0,
+        "slopeSmoothed": -0.714,
+        "slopeBasis": 5,
+        "excludedFromSlope": 0,
+        "institution": 0
+      }
+    },
+    {
+      "id": "a-3bea70d223",
+      "issueId": "auto-20261123-0047-1",
+      "outletId": "mt",
+      "title": "국민의힘, '1호 청년정책 패키지' 발표…\"진짜 정책으로 이재명정권 압...",
+      "summary": "국민의힘이 '1호 청년정책 패키지'를 발표했다. 패키지에는 연금·금융·주거·일자리 등 4개 분야의 16개... 여러분의 제안을 하나하나 꼼꼼히 살펴서 국민의힘의 미래 정책으로 삼겠다\"고 밝혔다. 강호승...",
+      "url": "https://www.mt.co.kr/politics/2026/11/22/2026112216222893737",
+      "publishedAt": "2026-11-22T16:26:00+09:00",
+      "sentences": [
+        {
+          "id": "s1",
+          "text": null,
+          "type": "fact",
+          "sourceType": null,
+          "sourceName": null,
+          "sourceDetail": null,
+          "party": null,
+          "stateBody": false
+        },
+        {
+          "id": "s2",
+          "text": null,
+          "type": "fact",
+          "sourceType": null,
+          "sourceName": null,
+          "sourceDetail": null,
+          "party": null,
+          "stateBody": false
+        },
+        {
+          "id": "s3",
+          "text": "2028년 총선을 앞두고 2030세대의 취업, 주거, 자산형성을 돕는 민…",
+          "type": "opinion",
+          "sourceType": null,
+          "sourceName": null,
+          "sourceDetail": null,
+          "party": null,
+          "stateBody": false
+        },
+        {
+          "id": "s4",
+          "text": null,
+          "type": "fact",
+          "sourceType": null,
+          "sourceName": null,
+          "sourceDetail": null,
+          "party": null,
+          "stateBody": false
+        },
+        {
+          "id": "s5",
+          "text": null,
+          "type": "quote",
+          "sourceType": "opp",
+          "sourceName": "장동혁",
+          "sourceDetail": null,
+          "party": "국민의힘",
+          "stateBody": false
+        },
+        {
+          "id": "s6",
+          "text": null,
+          "type": "quote",
+          "sourceType": "opp",
+          "sourceName": "강호승",
+          "sourceDetail": null,
+          "party": "국민의힘",
+          "stateBody": false
+        },
+        {
+          "id": "s7",
+          "text": "청년정책이 실제 사회 진출 기회와 성과로 이어졌는지를 평가해야 한다는 취…",
+          "type": "opinion",
+          "sourceType": null,
+          "sourceName": null,
+          "sourceDetail": null,
+          "party": null,
+          "stateBody": false
+        },
+        {
+          "id": "s8",
+          "text": null,
+          "type": "fact",
+          "sourceType": null,
+          "sourceName": null,
+          "sourceDetail": null,
+          "party": null,
+          "stateBody": false
+        },
+        {
+          "id": "s9",
+          "text": null,
+          "type": "fact",
+          "sourceType": null,
+          "sourceName": null,
+          "sourceDetail": null,
+          "party": null,
+          "stateBody": false
+        },
+        {
+          "id": "s10",
+          "text": null,
+          "type": "fact",
+          "sourceType": null,
+          "sourceName": null,
+          "sourceDetail": null,
+          "party": null,
+          "stateBody": false
+        },
+        {
+          "id": "s11",
+          "text": null,
+          "type": "fact",
+          "sourceType": null,
+          "sourceName": null,
+          "sourceDetail": null,
+          "party": null,
+          "stateBody": false
+        },
+        {
+          "id": "s12",
+          "text": null,
+          "type": "fact",
+          "sourceType": null,
+          "sourceName": null,
+          "sourceDetail": null,
+          "party": null,
+          "stateBody": false
+        },
+        {
+          "id": "s13",
+          "text": null,
+          "type": "quote",
+          "sourceType": "opp",
+          "sourceName": "임이자",
+          "sourceDetail": null,
+          "party": "국민의힘",
+          "stateBody": false
+        },
+        {
+          "id": "s14",
+          "text": null,
+          "type": "fact",
+          "sourceType": null,
+          "sourceName": null,
+          "sourceDetail": null,
+          "party": null,
+          "stateBody": false
+        },
+        {
+          "id": "s15",
+          "text": null,
+          "type": "quote",
+          "sourceType": "opp",
+          "sourceName": "정희용",
+          "sourceDetail": null,
+          "party": "국민의힘",
+          "stateBody": false
+        },
+        {
+          "id": "s16",
+          "text": null,
+          "type": "fact",
+          "sourceType": null,
+          "sourceName": null,
+          "sourceDetail": null,
+          "party": null,
+          "stateBody": false
+        }
+      ],
+      "framingTerms": [
+        {
+          "term": "폭정",
+          "sentenceId": "s5"
+        }
+      ],
+      "missingViewpoints": [],
+      "metrics": {
+        "camps": {
+          "ruling": 0,
+          "third": 0,
+          "mainOpp": 4,
+          "independent": 0
+        },
+        "slope": -1.0,
+        "slopeSmoothed": -0.667,
+        "slopeBasis": 4,
+        "excludedFromSlope": 0,
+        "institution": 0
+      }
+    },
+    {
+      "id": "a-1e9040b073",
+      "issueId": "auto-20261123-0047-1",
+      "outletId": "ajunews",
+      "title": "국민의힘, 청년층 공략 행보…張 \"李 정권 최대 피해자는 청년\"",
+      "summary": "com 장동혁 국민의힘 대표와 임이자 정책위의장, 정희용 사무총장, 우재준 청년 최고위원이 22일 국회... 국민의힘 정책위원회 산하 청년정책기획단은 이날 국회 의원회관에서 'Re:Start, 다시 올라갈 기회: 제1호 청년정책...",
+      "url": "https://www.ajunews.com/view/20261122184145373",
+      "publishedAt": "2026-11-22T19:10:00+09:00",
+      "sentences": [
+        {
+          "id": "s1",
+          "text": null,
+          "type": "fact",
+          "sourceType": null,
+          "sourceName": null,
+          "sourceDetail": null,
+          "party": null,
+          "stateBody": false
+        },
+        {
+          "id": "s2",
+          "text": null,
+          "type": "fact",
+          "sourceType": null,
+          "sourceName": null,
+          "sourceDetail": null,
+          "party": null,
+          "stateBody": false
+        },
+        {
+          "id": "s3",
+          "text": null,
+          "type": "quote",
+          "sourceType": "opp",
+          "sourceName": "장동혁 대표",
+          "sourceDetail": null,
+          "party": "국민의힘",
+          "stateBody": false
+        },
+        {
+          "id": "s4",
+          "text": null,
+          "type": "quote",
+          "sourceType": "opp",
+          "sourceName": "장동혁 대표",
+          "sourceDetail": null,
+          "party": "국민의힘",
+          "stateBody": false
+        },
+        {
+          "id": "s5",
+          "text": null,
+          "type": "fact",
+          "sourceType": null,
+          "sourceName": null,
+          "sourceDetail": null,
+          "party": null,
+          "stateBody": false
+        },
+        {
+          "id": "s6",
+          "text": null,
+          "type": "fact",
+          "sourceType": null,
+          "sourceName": null,
+          "sourceDetail": null,
+          "party": null,
+          "stateBody": false
+        },
+        {
+          "id": "s7",
+          "text": null,
+          "type": "fact",
+          "sourceType": null,
+          "sourceName": null,
+          "sourceDetail": null,
+          "party": null,
+          "stateBody": false
+        },
+        {
+          "id": "s8",
+          "text": null,
+          "type": "fact",
+          "sourceType": null,
+          "sourceName": null,
+          "sourceDetail": null,
+          "party": null,
+          "stateBody": false
+        },
+        {
+          "id": "s9",
+          "text": null,
+          "type": "fact",
+          "sourceType": null,
+          "sourceName": null,
+          "sourceDetail": null,
+          "party": null,
+          "stateBody": false
+        },
+        {
+          "id": "s10",
+          "text": null,
+          "type": "fact",
+          "sourceType": null,
+          "sourceName": null,
+          "sourceDetail": null,
+          "party": null,
+          "stateBody": false
+        }
+      ],
+      "framingTerms": [
+        {
+          "term": "짓밟을",
+          "sentenceId": "s3"
+        },
+        {
+          "term": "겨냥해",
+          "sentenceId": "s4"
+        },
+        {
+          "term": "비판했다",
+          "sentenceId": "s4"
+        }
+      ],
+      "missingViewpoints": [],
+      "metrics": {
+        "camps": {
+          "ruling": 0,
+          "third": 0,
+          "mainOpp": 2,
+          "independent": 0
+        },
+        "slope": -1.0,
+        "slopeSmoothed": -0.5,
+        "slopeBasis": 2,
+        "excludedFromSlope": 0,
+        "institution": 0
+      }
+    },
+    {
+      "id": "a-77bf48e874",
+      "issueId": "auto-20261123-0047-1",
+      "outletId": "dt",
+      "title": "장외투쟁 넘어 청년 속으로… 국힘, ‘1호 청년정책 패키지’ 발표",
+      "summary": "국민의힘이 장외투쟁을 넘어 2030 청년층 공략에 시동을 건다. 2028년 제23대 총선을 앞두고 캐스팅보트가 될 청년층을 위해 다양한 정책들을 내놓고 있다. 국민의힘 청년정책기획단은 22일 국회 의원회관 대회의실에서...",
+      "url": "https://www.dt.co.kr/article/12096549?ref=naver",
+      "publishedAt": "2026-11-22T17:02:00+09:00",
+      "sentences": [
+        {
+          "id": "s1",
+          "text": null,
+          "type": "fact",
+          "sourceType": null,
+          "sourceName": null,
+          "sourceDetail": null,
+          "party": null,
+          "stateBody": false
+        },
+        {
+          "id": "s2",
+          "text": null,
+          "type": "fact",
+          "sourceType": null,
+          "sourceName": null,
+          "sourceDetail": null,
+          "party": null,
+          "stateBody": false
+        },
+        {
+          "id": "s3",
+          "text": null,
+          "type": "fact",
+          "sourceType": null,
+          "sourceName": null,
+          "sourceDetail": null,
+          "party": null,
+          "stateBody": false
+        },
+        {
+          "id": "s4",
+          "text": null,
+          "type": "fact",
+          "sourceType": null,
+          "sourceName": null,
+          "sourceDetail": null,
+          "party": null,
+          "stateBody": false
+        },
+        {
+          "id": "s5",
+          "text": null,
+          "type": "quote",
+          "sourceType": "opp",
+          "sourceName": "김택헌 부단장",
+          "sourceDetail": null,
+          "party": "국민의힘",
+          "stateBody": false
+        },
+        {
+          "id": "s6",
+          "text": null,
+          "type": "fact",
+          "sourceType": null,
+          "sourceName": null,
+          "sourceDetail": null,
+          "party": null,
+          "stateBody": false
+        },
+        {
+          "id": "s7",
+          "text": null,
+          "type": "fact",
+          "sourceType": null,
+          "sourceName": null,
+          "sourceDetail": null,
+          "party": null,
+          "stateBody": false
+        },
+        {
+          "id": "s8",
+          "text": null,
+          "type": "fact",
+          "sourceType": null,
+          "sourceName": null,
+          "sourceDetail": null,
+          "party": null,
+          "stateBody": false
+        },
+        {
+          "id": "s9",
+          "text": null,
+          "type": "fact",
+          "sourceType": null,
+          "sourceName": null,
+          "sourceDetail": null,
+          "party": null,
+          "stateBody": false
+        },
+        {
+          "id": "s10",
+          "text": null,
+          "type": "quote",
+          "sourceType": "opp",
+          "sourceName": "손종배 단원",
+          "sourceDetail": null,
+          "party": "국민의힘",
+          "stateBody": false
+        },
+        {
+          "id": "s11",
+          "text": null,
+          "type": "fact",
+          "sourceType": null,
+          "sourceName": null,
+          "sourceDetail": null,
+          "party": null,
+          "stateBody": false
+        },
+        {
+          "id": "s12",
+          "text": null,
+          "type": "quote",
+          "sourceType": "opp",
+          "sourceName": "최정호 단원",
+          "sourceDetail": null,
+          "party": "국민의힘",
+          "stateBody": false
+        },
+        {
+          "id": "s13",
+          "text": null,
+          "type": "fact",
+          "sourceType": null,
+          "sourceName": null,
+          "sourceDetail": null,
+          "party": null,
+          "stateBody": false
+        }
+      ],
+      "framingTerms": [
+        {
+          "term": "공략에 시동을 건다",
+          "sentenceId": "s1"
+        },
+        {
+          "term": "내놓고 있다",
+          "sentenceId": "s2"
+        }
+      ],
+      "missingViewpoints": [],
+      "metrics": {
+        "camps": {
+          "ruling": 0,
+          "third": 0,
+          "mainOpp": 3,
+          "independent": 0
+        },
+        "slope": -1.0,
+        "slopeSmoothed": -0.6,
+        "slopeBasis": 3,
+        "excludedFromSlope": 0,
+        "institution": 0
+      }
+    },
+    {
+      "id": "a-2c8708322a",
+      "issueId": "auto-20261123-0052-1",
+      "outletId": "chosun",
+      "title": "26일 올해 마지막 금통위… 금리 ‘3.25%’로 인상 전망",
+      "summary": "신 총재는 지난달 기자간담회에서 “다음 금리는 3분기 경제성장률과 10월 물가를 보고 결정하겠다”고 했었다. 3분기 성장률은 전 분기 대비 1.0%, 전년 대비로는 3.4%로 한은 전망치였던 0.3%, 2.6%를 모두 크게 웃돌았다....",
+      "url": "https://www.chosun.com/economy/economy_general/2026/11/23/B3Y72WWHR5FH5HMRUZIJ4MPIXQ/?utm_source=naver&utm_medium=referral&utm_campaign=naver-news",
+      "publishedAt": "2026-11-23T00:32:00+09:00",
+      "sentences": [
+        {
+          "id": "s1",
+          "text": "증시가 흔들리자 채권으로 투자자들 관심이 쏠린다.",
+          "type": "opinion",
+          "sourceType": null,
+          "sourceName": null,
+          "sourceDetail": null,
+          "party": null,
+          "stateBody": false
+        },
+        {
+          "id": "s2",
+          "text": null,
+          "type": "fact",
+          "sourceType": null,
+          "sourceName": null,
+          "sourceDetail": null,
+          "party": null,
+          "stateBody": false
+        },
+        {
+          "id": "s3",
+          "text": null,
+          "type": "quote",
+          "sourceType": "etc",
+          "sourceName": "블룸버그",
+          "sourceDetail": "외신",
+          "party": null,
+          "stateBody": false
+        },
+        {
+          "id": "s4",
+          "text": null,
+          "type": "fact",
+          "sourceType": null,
+          "sourceName": null,
+          "sourceDetail": null,
+          "party": null,
+          "stateBody": false
+        },
+        {
+          "id": "s5",
+          "text": null,
+          "type": "fact",
+          "sourceType": null,
+          "sourceName": null,
+          "sourceDetail": null,
+          "party": null,
+          "stateBody": false
+        },
+        {
+          "id": "s6",
+          "text": null,
+          "type": "fact",
+          "sourceType": null,
+          "sourceName": null,
+          "sourceDetail": null,
+          "party": null,
+          "stateBody": false
+        },
+        {
+          "id": "s7",
+          "text": null,
+          "type": "fact",
+          "sourceType": null,
+          "sourceName": null,
+          "sourceDetail": null,
+          "party": null,
+          "stateBody": false
+        },
+        {
+          "id": "s8",
+          "text": "7월 국내 증시 폭락 뒤 안전자산인 미 국채로 옮겨간 것으로 풀이된다.",
+          "type": "opinion",
+          "sourceType": null,
+          "sourceName": null,
+          "sourceDetail": null,
+          "party": null,
+          "stateBody": false
+        },
+        {
+          "id": "s9",
+          "text": "최근 증시 불안은 AI(...",
+          "type": "opinion",
+          "sourceType": null,
+          "sourceName": null,
+          "sourceDetail": null,
+          "party": null,
+          "stateBody": false
+        }
+      ],
+      "framingTerms": [
+        {
+          "term": "흔들리자",
+          "sentenceId": "s1"
+        },
+        {
+          "term": "쏠린다",
+          "sentenceId": "s1"
+        },
+        {
+          "term": "움직여",
+          "sentenceId": "s2"
+        },
+        {
+          "term": "무너지기 시작해",
+          "sentenceId": "s7"
+        },
+        {
+          "term": "급락했다",
+          "sentenceId": "s7"
+        },
+        {
+          "term": "폭락 뒤",
+          "sentenceId": "s8"
+        },
+        {
+          "term": "풀이된다",
+          "sentenceId": "s8"
+        },
+        {
+          "term": "불안은",
+          "sentenceId": "s9"
+        }
+      ],
+      "missingViewpoints": [
+        {
+          "sourceType": "gov",
+          "description": "정부·여당 인용 없음 (같은 이슈의 다른 기사에는 있습니다)",
+          "foundInArticleIds": [
+            "a-6b2f292b34",
+            "a-48e8dc2ef8"
+          ]
+        },
+        {
+          "sourceType": "expert",
+          "description": "전문가 인용 없음 (같은 이슈의 다른 기사에는 있습니다)",
+          "foundInArticleIds": [
+            "a-4d74e95f4d",
+            "a-6b2f292b34"
+          ]
+        },
+        {
+          "sourceType": "industry",
+          "description": "기업·업계 인용 없음 (같은 이슈의 다른 기사에는 있습니다)",
+          "foundInArticleIds": [
+            "a-4d74e95f4d",
+            "a-6b2f292b34",
+            "a-48e8dc2ef8"
+          ]
+        }
+      ],
+      "metrics": {
+        "camps": {
+          "ruling": 0,
+          "third": 0,
+          "mainOpp": 0,
+          "independent": 0
+        },
+        "slope": null,
+        "slopeSmoothed": null,
+        "slopeBasis": 0,
+        "excludedFromSlope": 0,
+        "institution": 0
+      }
+    },
+    {
+      "id": "a-4d74e95f4d",
+      "issueId": "auto-20261123-0052-1",
+      "outletId": "segye",
+      "title": "물가 상승·성장률 상향 조정… 한은, 기준금리 3.25%로 올리나",
+      "summary": "연합뉴스 물가와 경제성장률이 계속 오르면서 시장에서는 한은이 기준금리를 올릴 것이라는 전망을 내놓고 있다. 실제로 10월 소비자물가 상승률은 2.8%로 목표치(2%)를 0.8%포인트 웃돌았다. 변동성이 큰 품목을 제외한...",
+      "url": "https://www.segye.com/newsView/20261122507397?OutUrl=naver",
+      "publishedAt": "2026-11-22T15:28:00+09:00",
+      "sentences": [
+        {
+          "id": "s1",
+          "text": null,
+          "type": "fact",
+          "sourceType": null,
+          "sourceName": null,
+          "sourceDetail": null,
+          "party": null,
+          "stateBody": false
+        },
+        {
+          "id": "s2",
+          "text": null,
+          "type": "quote",
+          "sourceType": "expert",
+          "sourceName": "기관·전문가들",
+          "sourceDetail": null,
+          "party": null,
+          "stateBody": false
+        },
+        {
+          "id": "s3",
+          "text": null,
+          "type": "fact",
+          "sourceType": null,
+          "sourceName": null,
+          "sourceDetail": null,
+          "party": null,
+          "stateBody": false
+        },
+        {
+          "id": "s4",
+          "text": null,
+          "type": "fact",
+          "sourceType": null,
+          "sourceName": null,
+          "sourceDetail": null,
+          "party": null,
+          "stateBody": false
+        },
+        {
+          "id": "s5",
+          "text": null,
+          "type": "fact",
+          "sourceType": null,
+          "sourceName": null,
+          "sourceDetail": null,
+          "party": null,
+          "stateBody": false
+        },
+        {
+          "id": "s6",
+          "text": "물가와 경제성장률이 계속 오르면서 시장에서는 한은이 기준금리를 올릴 것이…",
+          "type": "opinion",
+          "sourceType": null,
+          "sourceName": null,
+          "sourceDetail": null,
+          "party": null,
+          "stateBody": false
+        },
+        {
+          "id": "s7",
+          "text": null,
+          "type": "fact",
+          "sourceType": null,
+          "sourceName": null,
+          "sourceDetail": null,
+          "party": null,
+          "stateBody": false
+        },
+        {
+          "id": "s8",
+          "text": null,
+          "type": "fact",
+          "sourceType": null,
+          "sourceName": null,
+          "sourceDetail": null,
+          "party": null,
+          "stateBody": false
+        },
+        {
+          "id": "s9",
+          "text": null,
+          "type": "fact",
+          "sourceType": null,
+          "sourceName": null,
+          "sourceDetail": null,
+          "party": null,
+          "stateBody": false
+        },
+        {
+          "id": "s10",
+          "text": null,
+          "type": "fact",
+          "sourceType": null,
+          "sourceName": null,
+          "sourceDetail": null,
+          "party": null,
+          "stateBody": false
+        },
+        {
+          "id": "s11",
+          "text": "그만큼 높은 성장세가 여러 지표에서 확인되고 있는 상황이다.",
+          "type": "opinion",
+          "sourceType": null,
+          "sourceName": null,
+          "sourceDetail": null,
+          "party": null,
+          "stateBody": false
+        },
+        {
+          "id": "s12",
+          "text": null,
+          "type": "fact",
+          "sourceType": null,
+          "sourceName": null,
+          "sourceDetail": null,
+          "party": null,
+          "stateBody": false
+        },
+        {
+          "id": "s13",
+          "text": "2021년(4.7%) 이후 5년 만의 최고치인데 이달 추가로 높아질 수…",
+          "type": "opinion",
+          "sourceType": null,
+          "sourceName": null,
+          "sourceDetail": null,
+          "party": null,
+          "stateBody": false
+        },
+        {
+          "id": "s14",
+          "text": null,
+          "type": "fact",
+          "sourceType": null,
+          "sourceName": null,
+          "sourceDetail": null,
+          "party": null,
+          "stateBody": false
+        },
+        {
+          "id": "s15",
+          "text": null,
+          "type": "quote",
+          "sourceType": "etc",
+          "sourceName": "IMF",
+          "sourceDetail": "국제기구",
+          "party": null,
+          "stateBody": false
+        },
+        {
+          "id": "s16",
+          "text": null,
+          "type": "fact",
+          "sourceType": null,
+          "sourceName": null,
+          "sourceDetail": null,
+          "party": null,
+          "stateBody": false
+        },
+        {
+          "id": "s17",
+          "text": null,
+          "type": "quote",
+          "sourceType": "expert",
+          "sourceName": "KDI",
+          "sourceDetail": null,
+          "party": null,
+          "stateBody": false
+        },
+        {
+          "id": "s18",
+          "text": null,
+          "type": "quote",
+          "sourceType": "industry",
+          "sourceName": "한국씨티은행",
+          "sourceDetail": null,
+          "party": null,
+          "stateBody": false
+        },
+        {
+          "id": "s19",
+          "text": null,
+          "type": "quote",
+          "sourceType": "industry",
+          "sourceName": "블룸버그 이코노믹스",
+          "sourceDetail": null,
+          "party": null,
+          "stateBody": false
+        },
+        {
+          "id": "s20",
+          "text": null,
+          "type": "fact",
+          "sourceType": null,
+          "sourceName": null,
+          "sourceDetail": null,
+          "party": null,
+          "stateBody": false
+        },
+        {
+          "id": "s21",
+          "text": null,
+          "type": "quote",
+          "sourceType": "expert",
+          "sourceName": "전문가들",
+          "sourceDetail": null,
+          "party": null,
+          "stateBody": false
+        },
+        {
+          "id": "s22",
+          "text": null,
+          "type": "quote",
+          "sourceType": "expert",
+          "sourceName": "조영무 NH금융연구소 소장",
+          "sourceDetail": null,
+          "party": null,
+          "stateBody": false
+        },
+        {
+          "id": "s23",
+          "text": null,
+          "type": "quote",
+          "sourceType": "expert",
+          "sourceName": "조영무 NH금융연구소 소장",
+          "sourceDetail": null,
+          "party": null,
+          "stateBody": false
+        },
+        {
+          "id": "s24",
+          "text": null,
+          "type": "quote",
+          "sourceType": "expert",
+          "sourceName": "조 소장",
+          "sourceDetail": null,
+          "party": null,
+          "stateBody": false
+        }
+      ],
+      "framingTerms": [],
+      "missingViewpoints": [
+        {
+          "sourceType": "gov",
+          "description": "정부·여당 인용 없음 (같은 이슈의 다른 기사에는 있습니다)",
+          "foundInArticleIds": [
+            "a-6b2f292b34",
+            "a-48e8dc2ef8"
+          ]
+        }
+      ],
+      "metrics": {
+        "camps": {
+          "ruling": 0,
+          "third": 0,
+          "mainOpp": 0,
+          "independent": 0
+        },
+        "slope": null,
+        "slopeSmoothed": null,
+        "slopeBasis": 0,
+        "excludedFromSlope": 0,
+        "institution": 0
+      }
+    },
+    {
+      "id": "a-6b2f292b34",
+      "issueId": "auto-20261123-0052-1",
+      "outletId": "newscj",
+      "title": "올해 마지막 금통위, 한은 추가 금리 인상 나설 듯",
+      "summary": "시장 안팎에선 반도체 호황에 기반한 성장세와 높은 소비자물가 상승률에 따라 한은이 추가 기준금리... 실제로 금통위 의사록에 따르면 한 금통위원은 \"기조적 물가가 상당 기간 물가 목표를 상회할 것으로...",
+      "url": "https://www.newscj.com/news/articleView.html?idxno=3451012",
+      "publishedAt": "2026-11-22T11:00:00+09:00",
+      "sentences": [
+        {
+          "id": "s1",
+          "text": null,
+          "type": "fact",
+          "sourceType": null,
+          "sourceName": null,
+          "sourceDetail": null,
+          "party": null,
+          "stateBody": false
+        },
+        {
+          "id": "s2",
+          "text": "시장 안팎에선 반도체 호황에 기반한 성장세와 높은 소비자물가 상승률에 따…",
+          "type": "opinion",
+          "sourceType": null,
+          "sourceName": null,
+          "sourceDetail": null,
+          "party": null,
+          "stateBody": false
+        },
+        {
+          "id": "s3",
+          "text": null,
+          "type": "fact",
+          "sourceType": null,
+          "sourceName": null,
+          "sourceDetail": null,
+          "party": null,
+          "stateBody": false
+        },
+        {
+          "id": "s4",
+          "text": null,
+          "type": "quote",
+          "sourceType": "gov",
+          "sourceName": "한은",
+          "sourceDetail": null,
+          "party": null,
+          "stateBody": false
+        },
+        {
+          "id": "s5",
+          "text": null,
+          "type": "fact",
+          "sourceType": null,
+          "sourceName": null,
+          "sourceDetail": null,
+          "party": null,
+          "stateBody": false
+        },
+        {
+          "id": "s6",
+          "text": null,
+          "type": "quote",
+          "sourceType": "gov",
+          "sourceName": "금통위원",
+          "sourceDetail": null,
+          "party": null,
+          "stateBody": false
+        },
+        {
+          "id": "s7",
+          "text": null,
+          "type": "quote",
+          "sourceType": "gov",
+          "sourceName": "신현송",
+          "sourceDetail": null,
+          "party": null,
+          "stateBody": false
+        },
+        {
+          "id": "s8",
+          "text": "한은이 예고한 추가 긴축 시점은 이달이 될 가능성이 높다.",
+          "type": "opinion",
+          "sourceType": null,
+          "sourceName": null,
+          "sourceDetail": null,
+          "party": null,
+          "stateBody": false
+        },
+        {
+          "id": "s9",
+          "text": "우리나라 경제가 반도체 수출 호황에 힘입어 높은 성장세를 보이고 있기 때…",
+          "type": "opinion",
+          "sourceType": null,
+          "sourceName": null,
+          "sourceDetail": null,
+          "party": null,
+          "stateBody": false
+        },
+        {
+          "id": "s10",
+          "text": null,
+          "type": "fact",
+          "sourceType": null,
+          "sourceName": null,
+          "sourceDetail": null,
+          "party": null,
+          "stateBody": false
+        },
+        {
+          "id": "s11",
+          "text": null,
+          "type": "fact",
+          "sourceType": null,
+          "sourceName": null,
+          "sourceDetail": null,
+          "party": null,
+          "stateBody": false
+        },
+        {
+          "id": "s12",
+          "text": "한은은 4분기 성장률이 0.0%를 기록해도 연간 3.6% 성장이 가능할…",
+          "type": "opinion",
+          "sourceType": null,
+          "sourceName": null,
+          "sourceDetail": null,
+          "party": null,
+          "stateBody": false
+        },
+        {
+          "id": "s13",
+          "text": "또 4분기 1.4% 이상 성장률을 기록하면 연간 4%대 성장률도 달성할…",
+          "type": "opinion",
+          "sourceType": null,
+          "sourceName": null,
+          "sourceDetail": null,
+          "party": null,
+          "stateBody": false
+        },
+        {
+          "id": "s14",
+          "text": "이 경우 지난 2021년(4.7%) 이후 5년 만의 최고치를 기록하게 된…",
+          "type": "opinion",
+          "sourceType": null,
+          "sourceName": null,
+          "sourceDetail": null,
+          "party": null,
+          "stateBody": false
+        },
+        {
+          "id": "s15",
+          "text": "4분기 성장률도 1~3분기의 흐름에서 크게 벗어나지 않을 것이라는 전망이…",
+          "type": "opinion",
+          "sourceType": null,
+          "sourceName": null,
+          "sourceDetail": null,
+          "party": null,
+          "stateBody": false
+        },
+        {
+          "id": "s16",
+          "text": null,
+          "type": "fact",
+          "sourceType": null,
+          "sourceName": null,
+          "sourceDetail": null,
+          "party": null,
+          "stateBody": false
+        },
+        {
+          "id": "s17",
+          "text": null,
+          "type": "fact",
+          "sourceType": null,
+          "sourceName": null,
+          "sourceDetail": null,
+          "party": null,
+          "stateBody": false
+        },
+        {
+          "id": "s18",
+          "text": null,
+          "type": "fact",
+          "sourceType": null,
+          "sourceName": null,
+          "sourceDetail": null,
+          "party": null,
+          "stateBody": false
+        },
+        {
+          "id": "s19",
+          "text": "2021년(4.7%) 이후 5년 만의 최고치지만 이달 금통위에서 추가로…",
+          "type": "opinion",
+          "sourceType": null,
+          "sourceName": null,
+          "sourceDetail": null,
+          "party": null,
+          "stateBody": false
+        },
+        {
+          "id": "s20",
+          "text": null,
+          "type": "fact",
+          "sourceType": null,
+          "sourceName": null,
+          "sourceDetail": null,
+          "party": null,
+          "stateBody": false
+        },
+        {
+          "id": "s21",
+          "text": null,
+          "type": "fact",
+          "sourceType": null,
+          "sourceName": null,
+          "sourceDetail": null,
+          "party": null,
+          "stateBody": false
+        },
+        {
+          "id": "s22",
+          "text": null,
+          "type": "quote",
+          "sourceType": "etc",
+          "sourceName": "IMF",
+          "sourceDetail": "국제기구",
+          "party": null,
+          "stateBody": false
+        },
+        {
+          "id": "s23",
+          "text": null,
+          "type": "fact",
+          "sourceType": null,
+          "sourceName": null,
+          "sourceDetail": null,
+          "party": null,
+          "stateBody": false
+        },
+        {
+          "id": "s24",
+          "text": null,
+          "type": "quote",
+          "sourceType": "expert",
+          "sourceName": "KDI",
+          "sourceDetail": null,
+          "party": null,
+          "stateBody": false
+        },
+        {
+          "id": "s25",
+          "text": "소비자물가가 목표치 대비 높은 수준을 기록하는 점도 금리 인상에 힘을 싣…",
+          "type": "opinion",
+          "sourceType": null,
+          "sourceName": null,
+          "sourceDetail": null,
+          "party": null,
+          "stateBody": false
+        },
+        {
+          "id": "s26",
+          "text": null,
+          "type": "fact",
+          "sourceType": null,
+          "sourceName": null,
+          "sourceDetail": null,
+          "party": null,
+          "stateBody": false
+        },
+        {
+          "id": "s27",
+          "text": null,
+          "type": "fact",
+          "sourceType": null,
+          "sourceName": null,
+          "sourceDetail": null,
+          "party": null,
+          "stateBody": false
+        },
+        {
+          "id": "s28",
+          "text": null,
+          "type": "fact",
+          "sourceType": null,
+          "sourceName": null,
+          "sourceDetail": null,
+          "party": null,
+          "stateBody": false
+        },
+        {
+          "id": "s29",
+          "text": null,
+          "type": "fact",
+          "sourceType": null,
+          "sourceName": null,
+          "sourceDetail": null,
+          "party": null,
+          "stateBody": false
+        },
+        {
+          "id": "s30",
+          "text": "근원물가의 높은 오름세를 고려하면 이달에도 소비자물가 상승률이 2%대 후…",
+          "type": "opinion",
+          "sourceType": null,
+          "sourceName": null,
+          "sourceDetail": null,
+          "party": null,
+          "stateBody": false
+        },
+        {
+          "id": "s31",
+          "text": "일각에선 올해 소비자물가 상승률 전망치가 기존 2.7% 수준을 유지하겠지…",
+          "type": "opinion",
+          "sourceType": null,
+          "sourceName": null,
+          "sourceDetail": null,
+          "party": null,
+          "stateBody": false
+        },
+        {
+          "id": "s32",
+          "text": null,
+          "type": "quote",
+          "sourceType": "gov",
+          "sourceName": "신 총재",
+          "sourceDetail": null,
+          "party": null,
+          "stateBody": false
+        },
+        {
+          "id": "s33",
+          "text": "역대 최대치를 경신한 가계부채도 인상 요인이다.",
+          "type": "opinion",
+          "sourceType": null,
+          "sourceName": null,
+          "sourceDetail": null,
+          "party": null,
+          "stateBody": false
+        },
+        {
+          "id": "s34",
+          "text": null,
+          "type": "fact",
+          "sourceType": null,
+          "sourceName": null,
+          "sourceDetail": null,
+          "party": null,
+          "stateBody": false
+        },
+        {
+          "id": "s35",
+          "text": null,
+          "type": "fact",
+          "sourceType": null,
+          "sourceName": null,
+          "sourceDetail": null,
+          "party": null,
+          "stateBody": false
+        },
+        {
+          "id": "s36",
+          "text": null,
+          "type": "fact",
+          "sourceType": null,
+          "sourceName": null,
+          "sourceDetail": null,
+          "party": null,
+          "stateBody": false
+        },
+        {
+          "id": "s37",
+          "text": null,
+          "type": "quote",
+          "sourceType": "industry",
+          "sourceName": "금융권",
+          "sourceDetail": null,
+          "party": null,
+          "stateBody": false
+        },
+        {
+          "id": "s38",
+          "text": null,
+          "type": "fact",
+          "sourceType": null,
+          "sourceName": null,
+          "sourceDetail": null,
+          "party": null,
+          "stateBody": false
+        },
+        {
+          "id": "s39",
+          "text": "이번 회의에서는 중간값이 3.25%에서 3.50%로 상향 조정될 가능성이…",
+          "type": "opinion",
+          "sourceType": null,
+          "sourceName": null,
+          "sourceDetail": null,
+          "party": null,
+          "stateBody": false
+        }
+      ],
+      "framingTerms": [
+        {
+          "term": "깜짝 성장",
+          "sentenceId": "s10"
+        }
+      ],
+      "missingViewpoints": [],
+      "metrics": {
+        "camps": {
+          "ruling": 4,
+          "third": 0,
+          "mainOpp": 0,
+          "independent": 0
+        },
+        "slope": 1.0,
+        "slopeSmoothed": 0.667,
+        "slopeBasis": 4,
+        "excludedFromSlope": 0,
+        "institution": 0
+      }
+    },
+    {
+      "id": "a-48e8dc2ef8",
+      "issueId": "auto-20261123-0052-1",
+      "outletId": "namdonews",
+      "title": "반도체가 밀어 올린 성장률…26일 기준금리 올리나",
+      "summary": "경기 확장세가 이어지는 반면 물가 상승률은 목표치를 웃돌아 통화긴축에 나설 여건이 마련됐다는... 물가 흐름은 추가 긴축 필요성을 뒷받침한다. 경기 회복에 따른 수요 증가도 물가를 자극할 수 있다. 10월...",
+      "url": "https://www.namdonews.com/news/articleView.html?idxno=930036",
+      "publishedAt": "2026-11-22T17:04:00+09:00",
+      "sentences": [
+        {
+          "id": "s1",
+          "text": "반도체 수출 호황으로 한국 경제의 성장 전망이 잇따라 높아지면서 한국은행…",
+          "type": "opinion",
+          "sourceType": null,
+          "sourceName": null,
+          "sourceDetail": null,
+          "party": null,
+          "stateBody": false
+        },
+        {
+          "id": "s2",
+          "text": "경기 확장세가 이어지는 반면 물가 상승률은 목표치를 웃돌아 통화긴축에 나…",
+          "type": "opinion",
+          "sourceType": null,
+          "sourceName": null,
+          "sourceDetail": null,
+          "party": null,
+          "stateBody": false
+        },
+        {
+          "id": "s3",
+          "text": null,
+          "type": "fact",
+          "sourceType": null,
+          "sourceName": null,
+          "sourceDetail": null,
+          "party": null,
+          "stateBody": false
+        },
+        {
+          "id": "s4",
+          "text": null,
+          "type": "fact",
+          "sourceType": null,
+          "sourceName": null,
+          "sourceDetail": null,
+          "party": null,
+          "stateBody": false
+        },
+        {
+          "id": "s5",
+          "text": null,
+          "type": "fact",
+          "sourceType": null,
+          "sourceName": null,
+          "sourceDetail": null,
+          "party": null,
+          "stateBody": false
+        },
+        {
+          "id": "s6",
+          "text": "금리 인상 전망의 배경에는 예상보다 강한 경제성장세가 있다.",
+          "type": "opinion",
+          "sourceType": null,
+          "sourceName": null,
+          "sourceDetail": null,
+          "party": null,
+          "stateBody": false
+        },
+        {
+          "id": "s7",
+          "text": "성장세가 강하면 금리 인상에 따른 경기 부담도 줄어든다는 판단이다.",
+          "type": "opinion",
+          "sourceType": null,
+          "sourceName": null,
+          "sourceDetail": null,
+          "party": null,
+          "stateBody": false
+        },
+        {
+          "id": "s8",
+          "text": null,
+          "type": "fact",
+          "sourceType": null,
+          "sourceName": null,
+          "sourceDetail": null,
+          "party": null,
+          "stateBody": false
+        },
+        {
+          "id": "s9",
+          "text": null,
+          "type": "quote",
+          "sourceType": "gov",
+          "sourceName": "한은",
+          "sourceDetail": null,
+          "party": null,
+          "stateBody": false
+        },
+        {
+          "id": "s10",
+          "text": "4분기에도 앞선 분기들의 흐름이 크게 꺾이지 않을 것이라는 관측이 나온다…",
+          "type": "opinion",
+          "sourceType": null,
+          "sourceName": null,
+          "sourceDetail": null,
+          "party": null,
+          "stateBody": false
+        },
+        {
+          "id": "s11",
+          "text": null,
+          "type": "fact",
+          "sourceType": null,
+          "sourceName": null,
+          "sourceDetail": null,
+          "party": null,
+          "stateBody": false
+        },
+        {
+          "id": "s12",
+          "text": null,
+          "type": "fact",
+          "sourceType": null,
+          "sourceName": null,
+          "sourceDetail": null,
+          "party": null,
+          "stateBody": false
+        },
+        {
+          "id": "s13",
+          "text": null,
+          "type": "fact",
+          "sourceType": null,
+          "sourceName": null,
+          "sourceDetail": null,
+          "party": null,
+          "stateBody": false
+        },
+        {
+          "id": "s14",
+          "text": null,
+          "type": "fact",
+          "sourceType": null,
+          "sourceName": null,
+          "sourceDetail": null,
+          "party": null,
+          "stateBody": false
+        },
+        {
+          "id": "s15",
+          "text": "2021년 4.7% 이후 5년 만에 가장 높은 전망치로, 이달 추가 상향…",
+          "type": "opinion",
+          "sourceType": null,
+          "sourceName": null,
+          "sourceDetail": null,
+          "party": null,
+          "stateBody": false
+        },
+        {
+          "id": "s16",
+          "text": null,
+          "type": "fact",
+          "sourceType": null,
+          "sourceName": null,
+          "sourceDetail": null,
+          "party": null,
+          "stateBody": false
+        },
+        {
+          "id": "s17",
+          "text": null,
+          "type": "quote",
+          "sourceType": "etc",
+          "sourceName": "두 기관",
+          "sourceDetail": "국제기구",
+          "party": null,
+          "stateBody": false
+        },
+        {
+          "id": "s18",
+          "text": "물가 흐름은 추가 긴축 필요성을 뒷받침한다.",
+          "type": "opinion",
+          "sourceType": null,
+          "sourceName": null,
+          "sourceDetail": null,
+          "party": null,
+          "stateBody": false
+        },
+        {
+          "id": "s19",
+          "text": "경기 회복에 따른 수요 증가도 물가를 자극할 수 있다.",
+          "type": "opinion",
+          "sourceType": null,
+          "sourceName": null,
+          "sourceDetail": null,
+          "party": null,
+          "stateBody": false
+        },
+        {
+          "id": "s20",
+          "text": null,
+          "type": "fact",
+          "sourceType": null,
+          "sourceName": null,
+          "sourceDetail": null,
+          "party": null,
+          "stateBody": false
+        },
+        {
+          "id": "s21",
+          "text": null,
+          "type": "quote",
+          "sourceType": "gov",
+          "sourceName": "한은",
+          "sourceDetail": null,
+          "party": null,
+          "stateBody": false
+        },
+        {
+          "id": "s22",
+          "text": null,
+          "type": "quote",
+          "sourceType": "gov",
+          "sourceName": "신현송 한은 총재",
+          "sourceDetail": null,
+          "party": null,
+          "stateBody": false
+        },
+        {
+          "id": "s23",
+          "text": "최근 주가 조정과 원·달러 환율 하락이 인상 부담으로 거론되지만 시장에서…",
+          "type": "opinion",
+          "sourceType": null,
+          "sourceName": null,
+          "sourceDetail": null,
+          "party": null,
+          "stateBody": false
+        },
+        {
+          "id": "s24",
+          "text": "주가 급락에도 디램 수출가격이 상승세를 유지하고 있으며, 과거 금리 인상…",
+          "type": "opinion",
+          "sourceType": null,
+          "sourceName": null,
+          "sourceDetail": null,
+          "party": null,
+          "stateBody": false
+        },
+        {
+          "id": "s25",
+          "text": null,
+          "type": "fact",
+          "sourceType": null,
+          "sourceName": null,
+          "sourceDetail": null,
+          "party": null,
+          "stateBody": false
+        },
+        {
+          "id": "s26",
+          "text": null,
+          "type": "fact",
+          "sourceType": null,
+          "sourceName": null,
+          "sourceDetail": null,
+          "party": null,
+          "stateBody": false
+        },
+        {
+          "id": "s27",
+          "text": "이번에는 중간값이 3.25%에서 3.50%로 높아질 가능성이 거론된다.",
+          "type": "opinion",
+          "sourceType": null,
+          "sourceName": null,
+          "sourceDetail": null,
+          "party": null,
+          "stateBody": false
+        },
+        {
+          "id": "s28",
+          "text": null,
+          "type": "quote",
+          "sourceType": "industry",
+          "sourceName": "박준우 하나증권 연구원",
+          "sourceDetail": null,
+          "party": null,
+          "stateBody": false
+        }
+      ],
+      "framingTerms": [],
+      "missingViewpoints": [
+        {
+          "sourceType": "expert",
+          "description": "전문가 인용 없음 (같은 이슈의 다른 기사에는 있습니다)",
+          "foundInArticleIds": [
+            "a-4d74e95f4d",
+            "a-6b2f292b34"
           ]
         }
       ],
