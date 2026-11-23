@@ -1331,6 +1331,60 @@
    "date": "2026-11-22",
    "origin": "auto",
    "stance": null
+  },
+  {
+   "id": "auto-20261123-1212-1",
+   "title": "민주당 최고위, 신천지 입당 의혹 공방",
+   "summary": "더불어민주당 최고위원회의에서 당원정비TF 단장인 박선원 최고위원이 신천지 교인 입당 조사 결과를 공개하자 친청계가 반발하며 계파 간 충돌이 발생했다. 이에 김민석 대표는 당 단합을 해치는 언행이라며 박 최고위원에게 경고했다.",
+   "category": "정치",
+   "date": "2026-11-23",
+   "origin": "auto",
+   "stance": null
+  },
+  {
+   "id": "auto-20261123-1214-1",
+   "title": "국민의힘, 조작기소 특검법 권한쟁의심판 청구",
+   "summary": "국민의힘은 23일 더불어민주당 주도로 처리된 '조작기소 특검법'의 심사 및 처리 과정에서 법률안 심의·표결권이 침해됐다며 헌법재판소에 권한쟁의심판을 청구했다. 당 법률자문위원회는 조정식 국회의장과 서영교 국회 법제사법위원장을 상대로 헌재에 청구서를 제출했다.",
+   "category": "정치",
+   "date": "2026-11-23",
+   "origin": "auto",
+   "stance": null
+  },
+  {
+   "id": "auto-20261123-1214-2",
+   "title": "리얼미터 대통령 지지율 37.3%",
+   "summary": "리얼미터 여론조사 결과 이 대통령의 국정 수행 지지도가 37.3%로 2주 연속 상승했다. 정당 지지도는 국민의힘 42.5%, 더불어민주당 35.6%로 집계됐다.",
+   "category": "정치",
+   "date": "2026-11-23",
+   "origin": "auto",
+   "stance": null
+  },
+  {
+   "id": "auto-20261123-1216-1",
+   "title": "야당 수도권 의원들, 정부 부동산 세법개정안 수정 촉구",
+   "summary": "국민의힘과 개혁신당 수도권 의원들은 23일 국회에서 기자회견을 열고 종합부동산세 실거주 차별 폐지 등 정부의 부동산 세법개정안 전면 수정을 요구했다.",
+   "category": "정치",
+   "date": "2026-11-23",
+   "origin": "auto",
+   "stance": null
+  },
+  {
+   "id": "auto-20261123-1217-1",
+   "title": "관저 이전 특혜 의혹 김건희·윤한홍 첫 재판",
+   "summary": "대통령실 관저 이전 과정에서 특혜를 준 혐의로 기소된 김건희 여사와 윤한홍 의원이 첫 정식 재판에 출석해 혐의를 부인했다.",
+   "category": "사회",
+   "date": "2026-11-23",
+   "origin": "auto",
+   "stance": null
+  },
+  {
+   "id": "auto-20261123-1219-1",
+   "title": "일부 지역 작년 수능 시험지 폐기 논란",
+   "summary": "정성국 의원은 경기도교육청, 전남광주교육청, 인천시교육청 산하 일부 학교에서 작년 수능 시험지가 이미 폐기됐다고 밝혔다. 교육부는 관련 규정에 따른 절차였다고 설명했다.",
+   "category": "사회",
+   "date": "2026-11-23",
+   "origin": "auto",
+   "stance": null
   }
  ],
  "articles": [
@@ -122315,6 +122369,6430 @@
     }
    ],
    "framingTerms": [],
+   "analyzedBy": "gemini-3.5-flash-lite"
+  },
+  {
+   "id": "a-6052c205cd",
+   "issueId": "auto-20261123-1212-1",
+   "outletId": "yna",
+   "outletName": "연합뉴스",
+   "title": "'曺탄핵'으로 단합하나 했더니…與 최고위서 신천지 또 공개충돌",
+   "summary": "더불어민주당 지도부가 23일 최고위원회의에서 다시 한번 신천지 집단 당원가입 의혹 문제를 두고 정면으로 충돌했다....",
+   "url": "https://www.yna.co.kr/view/AKR20261123072200001?input=1195m",
+   "publishedAt": "2026-11-23T11:14:00+09:00",
+   "sentences": [
+    {
+     "id": "s1",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s2",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s3",
+     "text": "조희대 대법원장 탄핵을 당론으로 채택하며 잠시나마 단일 대오를 형성하나…",
+     "type": "opinion",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s4",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s5",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s6",
+     "text": null,
+     "type": "quote",
+     "sourceType": "gov",
+     "sourceName": "박선원",
+     "sourceDetail": null,
+     "party": "더불어민주당"
+    },
+    {
+     "id": "s7",
+     "text": null,
+     "type": "quote",
+     "sourceType": "gov",
+     "sourceName": "박선원",
+     "sourceDetail": null,
+     "party": "더불어민주당"
+    },
+    {
+     "id": "s8",
+     "text": null,
+     "type": "quote",
+     "sourceType": "gov",
+     "sourceName": "박선원",
+     "sourceDetail": null,
+     "party": "더불어민주당"
+    },
+    {
+     "id": "s9",
+     "text": null,
+     "type": "quote",
+     "sourceType": "gov",
+     "sourceName": "박선원",
+     "sourceDetail": null,
+     "party": "더불어민주당"
+    },
+    {
+     "id": "s10",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s11",
+     "text": null,
+     "type": "quote",
+     "sourceType": "gov",
+     "sourceName": "한민수",
+     "sourceDetail": null,
+     "party": "더불어민주당"
+    },
+    {
+     "id": "s12",
+     "text": null,
+     "type": "quote",
+     "sourceType": "gov",
+     "sourceName": "한민수",
+     "sourceDetail": null,
+     "party": "더불어민주당"
+    },
+    {
+     "id": "s13",
+     "text": null,
+     "type": "quote",
+     "sourceType": "gov",
+     "sourceName": "한민수",
+     "sourceDetail": null,
+     "party": "더불어민주당"
+    },
+    {
+     "id": "s14",
+     "text": null,
+     "type": "quote",
+     "sourceType": "gov",
+     "sourceName": "한민수",
+     "sourceDetail": null,
+     "party": "더불어민주당"
+    },
+    {
+     "id": "s15",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s16",
+     "text": "당 일각에서는 김 대표의 취임 100일 시점에 맞춰 친청계가 조직적인 행…",
+     "type": "opinion",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s17",
+     "text": null,
+     "type": "quote",
+     "sourceType": "gov",
+     "sourceName": "김 대표",
+     "sourceDetail": null,
+     "party": "더불어민주당"
+    },
+    {
+     "id": "s18",
+     "text": null,
+     "type": "quote",
+     "sourceType": "gov",
+     "sourceName": "권미경",
+     "sourceDetail": null,
+     "party": "더불어민주당"
+    }
+   ],
+   "framingTerms": [
+    {
+     "term": "정면으로 충돌했다",
+     "sentenceId": "s2"
+    },
+    {
+     "term": "노출돼",
+     "sentenceId": "s3"
+    },
+    {
+     "term": "드러냈다",
+     "sentenceId": "s3"
+    },
+    {
+     "term": "맞받았다",
+     "sentenceId": "s10"
+    },
+    {
+     "term": "충돌에",
+     "sentenceId": "s15"
+    },
+    {
+     "term": "분석도 나온다",
+     "sentenceId": "s16"
+    }
+   ],
+   "analyzedBy": "gemini-3.5-flash-lite"
+  },
+  {
+   "id": "a-8b2afc1619",
+   "issueId": "auto-20261123-1212-1",
+   "outletId": "newsis",
+   "outletName": "뉴시스",
+   "title": "與, 최고위서 공개충돌…친명 \"신천지 교인 4만3000명 가입 추산\" 친청 ...",
+   "summary": "23일 더불어민주당 최고위원회의에서 친명(친이재명)계와 친청(친정청래)계가 신천지 교인의 당원 가입 의혹을 두고 공개 충돌했다. 신천지 입당 의혹을 조사해왔던 친명계 박선원 최고위원이...",
+   "url": "https://www.newsis.com/view/NISX20261123_0003878992",
+   "publishedAt": "2026-11-23T11:06:00+09:00",
+   "sentences": [
+    {
+     "id": "s1",
+     "text": null,
+     "type": "quote",
+     "sourceType": "gov",
+     "sourceName": "박 최고위원",
+     "sourceDetail": null,
+     "party": "더불어민주당"
+    },
+    {
+     "id": "s2",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s3",
+     "text": null,
+     "type": "quote",
+     "sourceType": "gov",
+     "sourceName": "박 최고위원",
+     "sourceDetail": null,
+     "party": "더불어민주당"
+    },
+    {
+     "id": "s4",
+     "text": null,
+     "type": "quote",
+     "sourceType": "gov",
+     "sourceName": "박 최고위원",
+     "sourceDetail": null,
+     "party": "더불어민주당"
+    },
+    {
+     "id": "s5",
+     "text": null,
+     "type": "quote",
+     "sourceType": "gov",
+     "sourceName": "박 최고위원",
+     "sourceDetail": null,
+     "party": "더불어민주당"
+    },
+    {
+     "id": "s6",
+     "text": null,
+     "type": "quote",
+     "sourceType": "gov",
+     "sourceName": "박 최고위원",
+     "sourceDetail": null,
+     "party": "더불어민주당"
+    },
+    {
+     "id": "s7",
+     "text": null,
+     "type": "quote",
+     "sourceType": "gov",
+     "sourceName": "박 최고위원",
+     "sourceDetail": null,
+     "party": "더불어민주당"
+    },
+    {
+     "id": "s8",
+     "text": null,
+     "type": "quote",
+     "sourceType": "gov",
+     "sourceName": "박 최고위원",
+     "sourceDetail": null,
+     "party": "더불어민주당"
+    },
+    {
+     "id": "s9",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s10",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s11",
+     "text": null,
+     "type": "quote",
+     "sourceType": "gov",
+     "sourceName": "한 최고위원",
+     "sourceDetail": null,
+     "party": "더불어민주당"
+    },
+    {
+     "id": "s12",
+     "text": null,
+     "type": "quote",
+     "sourceType": "gov",
+     "sourceName": "한 최고위원",
+     "sourceDetail": null,
+     "party": "더불어민주당"
+    },
+    {
+     "id": "s13",
+     "text": null,
+     "type": "quote",
+     "sourceType": "gov",
+     "sourceName": "한 최고위원",
+     "sourceDetail": null,
+     "party": "더불어민주당"
+    },
+    {
+     "id": "s14",
+     "text": null,
+     "type": "quote",
+     "sourceType": "gov",
+     "sourceName": "한 최고위원",
+     "sourceDetail": null,
+     "party": "더불어민주당"
+    },
+    {
+     "id": "s15",
+     "text": null,
+     "type": "quote",
+     "sourceType": "gov",
+     "sourceName": "한 최고위원",
+     "sourceDetail": null,
+     "party": "더불어민주당"
+    },
+    {
+     "id": "s16",
+     "text": null,
+     "type": "quote",
+     "sourceType": "gov",
+     "sourceName": "이성윤 최고위원",
+     "sourceDetail": null,
+     "party": "더불어민주당"
+    },
+    {
+     "id": "s17",
+     "text": null,
+     "type": "quote",
+     "sourceType": "gov",
+     "sourceName": "이 최고위원",
+     "sourceDetail": null,
+     "party": "더불어민주당"
+    },
+    {
+     "id": "s18",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s19",
+     "text": null,
+     "type": "quote",
+     "sourceType": "gov",
+     "sourceName": "김민석 대표",
+     "sourceDetail": null,
+     "party": "더불어민주당"
+    },
+    {
+     "id": "s20",
+     "text": null,
+     "type": "quote",
+     "sourceType": "gov",
+     "sourceName": "김 대표",
+     "sourceDetail": null,
+     "party": "더불어민주당"
+    }
+   ],
+   "framingTerms": [
+    {
+     "term": "반박에 나섰다",
+     "sentenceId": "s9"
+    }
+   ],
+   "analyzedBy": "gemini-3.5-flash-lite"
+  },
+  {
+   "id": "a-4e6fedf432",
+   "issueId": "auto-20261123-1212-1",
+   "outletId": "ytn",
+   "outletName": "YTN",
+   "title": "'김민석 100일' 전날 신천지 또 충돌...\"반민특위 방해\" vs \" 모두 공개\"",
+   "summary": "더불어민주당 김민석 대표의 취임 100일을 하루 앞둔 오늘(23일) 공개 최고위원회 회의 석상에서 신천지 내홍을 둘러싼 공개 충돌이 또 벌어졌습니다. 신천지 집단 입당 의혹을 조사해온 박선원 최고위원은 모두발언에서...",
+   "url": "https://www.ytn.co.kr/_ln/0101_202611231141501037",
+   "publishedAt": "2026-11-23T11:41:00+09:00",
+   "sentences": [
+    {
+     "id": "s1",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s2",
+     "text": null,
+     "type": "quote",
+     "sourceType": "gov",
+     "sourceName": "박선원 최고위원",
+     "sourceDetail": null,
+     "party": "더불어민주당"
+    },
+    {
+     "id": "s3",
+     "text": null,
+     "type": "quote",
+     "sourceType": "gov",
+     "sourceName": "박선원 최고위원",
+     "sourceDetail": null,
+     "party": "더불어민주당"
+    },
+    {
+     "id": "s4",
+     "text": null,
+     "type": "quote",
+     "sourceType": "gov",
+     "sourceName": "박선원 최고위원",
+     "sourceDetail": null,
+     "party": "더불어민주당"
+    },
+    {
+     "id": "s5",
+     "text": null,
+     "type": "quote",
+     "sourceType": "gov",
+     "sourceName": "한민수 최고위원",
+     "sourceDetail": null,
+     "party": "더불어민주당"
+    },
+    {
+     "id": "s6",
+     "text": null,
+     "type": "quote",
+     "sourceType": "gov",
+     "sourceName": "이성윤 최고위원",
+     "sourceDetail": null,
+     "party": "더불어민주당"
+    },
+    {
+     "id": "s7",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    }
+   ],
+   "framingTerms": [
+    {
+     "term": "포문을 열었습니다",
+     "sentenceId": "s2"
+    },
+    {
+     "term": "언급했습니다",
+     "sentenceId": "s4"
+    },
+    {
+     "term": "반발했습니다",
+     "sentenceId": "s5"
+    },
+    {
+     "term": "요구했습니다",
+     "sentenceId": "s6"
+    }
+   ],
+   "analyzedBy": "gemini-3.5-flash-lite"
+  },
+  {
+   "id": "a-7b62f407d0",
+   "issueId": "auto-20261123-1212-1",
+   "outletId": "ichannela",
+   "outletName": "채널A",
+   "title": "김민석, ‘신천지 발언’ 박선원에 구두 경고…“당 단합 해치는 언행 ...",
+   "summary": "김민석 더불어민주당 대표가 박선원 최고위원의 '신천지 입당 관련 '발언에 '구두 경고' 조치했습니다. 민주당 공보국은 23일 공지를 통해 \"김민석 대표가 금일 공개 최고위원회 중 박선원 최고위원 발언의 과도한 표현에...",
+   "url": "https://www.ichannela.com/news/main/news_detailPage.do?publishId=000000561203",
+   "publishedAt": "2026-11-23T11:58:00+09:00",
+   "sentences": [
+    {
+     "id": "s1",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s2",
+     "text": null,
+     "type": "quote",
+     "sourceType": "gov",
+     "sourceName": "민주당 공보국",
+     "sourceDetail": null,
+     "party": "더불어민주당"
+    },
+    {
+     "id": "s3",
+     "text": null,
+     "type": "quote",
+     "sourceType": "gov",
+     "sourceName": "민주당 공보국",
+     "sourceDetail": null,
+     "party": "더불어민주당"
+    },
+    {
+     "id": "s4",
+     "text": null,
+     "type": "quote",
+     "sourceType": "gov",
+     "sourceName": "박선원 최고위원",
+     "sourceDetail": null,
+     "party": "더불어민주당"
+    },
+    {
+     "id": "s5",
+     "text": null,
+     "type": "quote",
+     "sourceType": "gov",
+     "sourceName": "박선원 최고위원",
+     "sourceDetail": null,
+     "party": "더불어민주당"
+    },
+    {
+     "id": "s6",
+     "text": null,
+     "type": "quote",
+     "sourceType": "gov",
+     "sourceName": "박선원 최고위원",
+     "sourceDetail": null,
+     "party": "더불어민주당"
+    },
+    {
+     "id": "s7",
+     "text": null,
+     "type": "quote",
+     "sourceType": "gov",
+     "sourceName": "한민수 최고위원",
+     "sourceDetail": null,
+     "party": "더불어민주당"
+    },
+    {
+     "id": "s8",
+     "text": null,
+     "type": "quote",
+     "sourceType": "gov",
+     "sourceName": "한민수 최고위원",
+     "sourceDetail": null,
+     "party": "더불어민주당"
+    },
+    {
+     "id": "s9",
+     "text": null,
+     "type": "quote",
+     "sourceType": "gov",
+     "sourceName": "이성윤 최고위원",
+     "sourceDetail": null,
+     "party": "더불어민주당"
+    }
+   ],
+   "framingTerms": [],
+   "analyzedBy": "gemini-3.5-flash-lite"
+  },
+  {
+   "id": "a-43c540baca",
+   "issueId": "auto-20261123-1212-1",
+   "outletId": "chosun",
+   "outletName": "조선일보",
+   "title": "“신천지 4만3000명 입당” 친명 폭로에 뒤집힌 민주당",
+   "summary": "김민석 취임 100일 하루 앞두고 지도부 충돌 다시 불붙은 與 신천지 논란 친명 박선원 “신천지 4만3000명 입당 가능성” 친청 한민수 등 “증거 내놓으라니까 2차 가해” 김민석 더불어민주당 대표의 취임 100일을 하루 앞둔...",
+   "url": "https://www.chosun.com/politics/assembly/2026/11/23/CDEWQUIMSZDNNABQ6HBWECORLY/?utm_source=naver&utm_medium=referral&utm_campaign=naver-news",
+   "publishedAt": "2026-11-23T10:31:00+09:00",
+   "sentences": [
+    {
+     "id": "s1",
+     "text": "하지만 민주당은 김 대표 취임 100일을 앞두고 중도 확장이나 민생 정책…",
+     "type": "opinion",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s2",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s3",
+     "text": null,
+     "type": "quote",
+     "sourceType": "gov",
+     "sourceName": "민주당 관계자",
+     "sourceDetail": null,
+     "party": "더불어민주당"
+    },
+    {
+     "id": "s4",
+     "text": "그러나 일각에선 김 대표가 떨어지는 지지율을 반전시키기 위해 강성 지지층…",
+     "type": "opinion",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s5",
+     "text": "김 대표가 민생을 강조하며 40개 넘게 만든 각종 태스크포스(TF)와 특…",
+     "type": "opinion",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    }
+   ],
+   "framingTerms": [
+    {
+     "term": "집중하고 있다",
+     "sentenceId": "s1"
+    },
+    {
+     "term": "강행 처리한",
+     "sentenceId": "s2"
+    },
+    {
+     "term": "정했다",
+     "sentenceId": "s2"
+    },
+    {
+     "term": "해석도 나온다",
+     "sentenceId": "s4"
+    },
+    {
+     "term": "내지 못하고 있다",
+     "sentenceId": "s5"
+    }
+   ],
+   "analyzedBy": "gemini-3.5-flash-lite"
+  },
+  {
+   "id": "a-80f38d693a",
+   "issueId": "auto-20261123-1212-1",
+   "outletId": "hani",
+   "outletName": "한겨레",
+   "title": "박선원, 최고위서 “신천지 제보자 공개” 기습 발언…친청계 집단 반발",
+   "summary": "김 대표는 회의 말미에 “당내 현안들이 있지만, 최선을 다해서 힘을 모으고 정리하겠다”며 “당은 조희대 대법원장 탄핵 문제와 이재명 정부의 성공, 민생에 모든 역량을 집중해 가겠다”고 말했다. 이번 공개 충돌은...",
+   "url": "https://www.hani.co.kr/arti/politics/politics_general/1288613.html",
+   "publishedAt": "2026-11-23T11:38:00+09:00",
+   "sentences": [
+    {
+     "id": "s1",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s2",
+     "text": null,
+     "type": "quote",
+     "sourceType": "gov",
+     "sourceName": "박선원 최고위원",
+     "sourceDetail": null,
+     "party": "더불어민주당"
+    },
+    {
+     "id": "s3",
+     "text": null,
+     "type": "quote",
+     "sourceType": "gov",
+     "sourceName": "김민석 민주당 대표",
+     "sourceDetail": null,
+     "party": "더불어민주당"
+    },
+    {
+     "id": "s4",
+     "text": "지난 13일 당내 조사보고서 개별 일람을 마친 뒤 잠잠했던 신천지 내홍이…",
+     "type": "opinion",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s5",
+     "text": null,
+     "type": "quote",
+     "sourceType": "gov",
+     "sourceName": "민주당",
+     "sourceDetail": null,
+     "party": "더불어민주당"
+    },
+    {
+     "id": "s6",
+     "text": null,
+     "type": "quote",
+     "sourceType": "gov",
+     "sourceName": "박선원 최고위원",
+     "sourceDetail": null,
+     "party": "더불어민주당"
+    },
+    {
+     "id": "s7",
+     "text": null,
+     "type": "quote",
+     "sourceType": "gov",
+     "sourceName": "박 최고위원",
+     "sourceDetail": null,
+     "party": "더불어민주당"
+    },
+    {
+     "id": "s8",
+     "text": null,
+     "type": "quote",
+     "sourceType": "gov",
+     "sourceName": "박 최고위원",
+     "sourceDetail": null,
+     "party": "더불어민주당"
+    },
+    {
+     "id": "s9",
+     "text": null,
+     "type": "quote",
+     "sourceType": "gov",
+     "sourceName": "그",
+     "sourceDetail": null,
+     "party": "더불어민주당"
+    },
+    {
+     "id": "s10",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s11",
+     "text": null,
+     "type": "quote",
+     "sourceType": "gov",
+     "sourceName": "한민수 최고위원",
+     "sourceDetail": null,
+     "party": "더불어민주당"
+    },
+    {
+     "id": "s12",
+     "text": null,
+     "type": "quote",
+     "sourceType": "gov",
+     "sourceName": "한 최고위원",
+     "sourceDetail": null,
+     "party": "더불어민주당"
+    },
+    {
+     "id": "s13",
+     "text": null,
+     "type": "quote",
+     "sourceType": "gov",
+     "sourceName": "이성윤 최고위원",
+     "sourceDetail": null,
+     "party": "더불어민주당"
+    },
+    {
+     "id": "s14",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s15",
+     "text": null,
+     "type": "quote",
+     "sourceType": "gov",
+     "sourceName": "김 대표",
+     "sourceDetail": null,
+     "party": "더불어민주당"
+    },
+    {
+     "id": "s16",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s17",
+     "text": null,
+     "type": "quote",
+     "sourceType": "gov",
+     "sourceName": "민주당 지도부 관계자",
+     "sourceDetail": null,
+     "party": "더불어민주당"
+    }
+   ],
+   "framingTerms": [
+    {
+     "term": "공개 충돌했다",
+     "sentenceId": "s1"
+    },
+    {
+     "term": "반발하며",
+     "sentenceId": "s2"
+    },
+    {
+     "term": "경고했다",
+     "sentenceId": "s3"
+    },
+    {
+     "term": "재발하는 모양새다",
+     "sentenceId": "s4"
+    },
+    {
+     "term": "공지했다",
+     "sentenceId": "s5"
+    },
+    {
+     "term": "집단으로 반발했다",
+     "sentenceId": "s10"
+    },
+    {
+     "term": "터졌다",
+     "sentenceId": "s16"
+    }
+   ],
+   "analyzedBy": "gemini-3.5-flash-lite"
+  },
+  {
+   "id": "a-e82db12b0e",
+   "issueId": "auto-20261123-1212-1",
+   "outletId": "hankookilbo",
+   "outletName": "한국일보",
+   "title": "\"민주당 내 신천지 교인 4.3만명 추산\" 기습 공개에 뒤집어진 與 최고위",
+   "summary": "더불어민주당 당원 정비 태스크포스(TF) 단장인 박선원 최고위원이 23일 최고위원회의에서 신천지 교인 집단 입당 및 전당대회 개입 의혹에 대한 조사 결과를 전격 공개했다. 민주당은 당초 해당 조사 결과를 국회의원들을...",
+   "url": "https://www.hankookilbo.com/news/article/A2026112310230002665?did=NA",
+   "publishedAt": "2026-11-23T10:54:00+09:00",
+   "sentences": [
+    {
+     "id": "s1",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s2",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s3",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s4",
+     "text": null,
+     "type": "quote",
+     "sourceType": "gov",
+     "sourceName": "박선원",
+     "sourceDetail": null,
+     "party": "더불어민주당"
+    },
+    {
+     "id": "s5",
+     "text": null,
+     "type": "quote",
+     "sourceType": "gov",
+     "sourceName": "박선원",
+     "sourceDetail": null,
+     "party": "더불어민주당"
+    },
+    {
+     "id": "s6",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s7",
+     "text": null,
+     "type": "quote",
+     "sourceType": "gov",
+     "sourceName": "박선원",
+     "sourceDetail": null,
+     "party": "더불어민주당"
+    },
+    {
+     "id": "s8",
+     "text": null,
+     "type": "quote",
+     "sourceType": "gov",
+     "sourceName": "박선원",
+     "sourceDetail": null,
+     "party": "더불어민주당"
+    },
+    {
+     "id": "s9",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s10",
+     "text": null,
+     "type": "quote",
+     "sourceType": "gov",
+     "sourceName": "박선원",
+     "sourceDetail": null,
+     "party": "더불어민주당"
+    },
+    {
+     "id": "s11",
+     "text": null,
+     "type": "quote",
+     "sourceType": "gov",
+     "sourceName": "박선원",
+     "sourceDetail": null,
+     "party": "더불어민주당"
+    },
+    {
+     "id": "s12",
+     "text": null,
+     "type": "quote",
+     "sourceType": "gov",
+     "sourceName": "박선원",
+     "sourceDetail": null,
+     "party": "더불어민주당"
+    },
+    {
+     "id": "s13",
+     "text": null,
+     "type": "quote",
+     "sourceType": "gov",
+     "sourceName": "박선원",
+     "sourceDetail": null,
+     "party": "더불어민주당"
+    },
+    {
+     "id": "s14",
+     "text": "친청계 이성윤 최고위원 등이 그간 박 최고위원을 겨냥해 자체 조사의 신뢰…",
+     "type": "opinion",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s15",
+     "text": null,
+     "type": "quote",
+     "sourceType": "gov",
+     "sourceName": "박선원",
+     "sourceDetail": null,
+     "party": "더불어민주당"
+    },
+    {
+     "id": "s16",
+     "text": null,
+     "type": "quote",
+     "sourceType": "gov",
+     "sourceName": "한민수",
+     "sourceDetail": null,
+     "party": "더불어민주당"
+    },
+    {
+     "id": "s17",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s18",
+     "text": null,
+     "type": "quote",
+     "sourceType": "gov",
+     "sourceName": "한민수",
+     "sourceDetail": null,
+     "party": "더불어민주당"
+    },
+    {
+     "id": "s19",
+     "text": null,
+     "type": "quote",
+     "sourceType": "gov",
+     "sourceName": "한민수",
+     "sourceDetail": null,
+     "party": "더불어민주당"
+    },
+    {
+     "id": "s20",
+     "text": null,
+     "type": "quote",
+     "sourceType": "gov",
+     "sourceName": "한민수",
+     "sourceDetail": null,
+     "party": "더불어민주당"
+    },
+    {
+     "id": "s21",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s22",
+     "text": null,
+     "type": "quote",
+     "sourceType": "gov",
+     "sourceName": "권미경",
+     "sourceDetail": null,
+     "party": "더불어민주당"
+    },
+    {
+     "id": "s23",
+     "text": null,
+     "type": "quote",
+     "sourceType": "gov",
+     "sourceName": "권미경",
+     "sourceDetail": null,
+     "party": "더불어민주당"
+    },
+    {
+     "id": "s24",
+     "text": null,
+     "type": "quote",
+     "sourceType": "gov",
+     "sourceName": "김 대표",
+     "sourceDetail": null,
+     "party": "더불어민주당"
+    },
+    {
+     "id": "s25",
+     "text": null,
+     "type": "quote",
+     "sourceType": "gov",
+     "sourceName": "김 대표",
+     "sourceDetail": null,
+     "party": "더불어민주당"
+    },
+    {
+     "id": "s26",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    }
+   ],
+   "framingTerms": [
+    {
+     "term": "전격 공개했다",
+     "sentenceId": "s1"
+    },
+    {
+     "term": "촉구했고",
+     "sentenceId": "s3"
+    },
+    {
+     "term": "아수라장이 됐다",
+     "sentenceId": "s3"
+    },
+    {
+     "term": "왜곡",
+     "sentenceId": "s5"
+    },
+    {
+     "term": "반복적으로 이루어졌지만",
+     "sentenceId": "s5"
+    },
+    {
+     "term": "왜곡하며",
+     "sentenceId": "s8"
+    },
+    {
+     "term": "의문을 제기하며",
+     "sentenceId": "s14"
+    },
+    {
+     "term": "반박했다",
+     "sentenceId": "s17"
+    },
+    {
+     "term": "공개 충돌하자",
+     "sentenceId": "s21"
+    }
+   ],
+   "analyzedBy": "gemini-3.5-flash-lite"
+  },
+  {
+   "id": "a-5f0a6adab5",
+   "issueId": "auto-20261123-1212-1",
+   "outletId": "kmib",
+   "outletName": "국민일보",
+   "title": "與박선원 “당내 신천지 4만3000명 추산”…'친청' 즉각 반발",
+   "summary": "박선원 더불어민주당 최고위원이 23일 “신천지예수교 증거장막성전(신천지예수교회) 교인 명부 가운데 합법적으로 개인정보법 위반 없이 확보한 명단 10만5440명을 민주당 (당원) 명단과 대조한 결과 1만4388명이...",
+   "url": "https://www.kmib.co.kr/article/20261123500292",
+   "publishedAt": "2026-11-23T11:08:00+09:00",
+   "sentences": [
+    {
+     "id": "s1",
+     "text": null,
+     "type": "quote",
+     "sourceType": "gov",
+     "sourceName": "박선원 더불어민주당 최고위원",
+     "sourceDetail": null,
+     "party": "더불어민주당"
+    },
+    {
+     "id": "s2",
+     "text": null,
+     "type": "quote",
+     "sourceType": "gov",
+     "sourceName": "박 최고위원",
+     "sourceDetail": null,
+     "party": "더불어민주당"
+    },
+    {
+     "id": "s3",
+     "text": null,
+     "type": "quote",
+     "sourceType": "gov",
+     "sourceName": "박 최고위원",
+     "sourceDetail": null,
+     "party": "더불어민주당"
+    },
+    {
+     "id": "s4",
+     "text": null,
+     "type": "quote",
+     "sourceType": "gov",
+     "sourceName": "박 최고위원",
+     "sourceDetail": null,
+     "party": "더불어민주당"
+    },
+    {
+     "id": "s5",
+     "text": null,
+     "type": "quote",
+     "sourceType": "gov",
+     "sourceName": "그",
+     "sourceDetail": null,
+     "party": "더불어민주당"
+    },
+    {
+     "id": "s6",
+     "text": null,
+     "type": "quote",
+     "sourceType": "gov",
+     "sourceName": "박선원 최고위원",
+     "sourceDetail": null,
+     "party": "더불어민주당"
+    },
+    {
+     "id": "s7",
+     "text": null,
+     "type": "quote",
+     "sourceType": "gov",
+     "sourceName": "박 최고위원",
+     "sourceDetail": null,
+     "party": "더불어민주당"
+    },
+    {
+     "id": "s8",
+     "text": null,
+     "type": "quote",
+     "sourceType": "gov",
+     "sourceName": "박 최고위원",
+     "sourceDetail": null,
+     "party": "더불어민주당"
+    },
+    {
+     "id": "s9",
+     "text": null,
+     "type": "quote",
+     "sourceType": "gov",
+     "sourceName": "박 최고위원",
+     "sourceDetail": null,
+     "party": "더불어민주당"
+    },
+    {
+     "id": "s10",
+     "text": null,
+     "type": "quote",
+     "sourceType": "gov",
+     "sourceName": "그",
+     "sourceDetail": null,
+     "party": "더불어민주당"
+    },
+    {
+     "id": "s11",
+     "text": null,
+     "type": "quote",
+     "sourceType": "gov",
+     "sourceName": "박 최고위원",
+     "sourceDetail": null,
+     "party": "더불어민주당"
+    },
+    {
+     "id": "s12",
+     "text": null,
+     "type": "quote",
+     "sourceType": "gov",
+     "sourceName": "박선원 최고위원",
+     "sourceDetail": null,
+     "party": "더불어민주당"
+    },
+    {
+     "id": "s13",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s14",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s15",
+     "text": null,
+     "type": "quote",
+     "sourceType": "gov",
+     "sourceName": "한 최고위원",
+     "sourceDetail": null,
+     "party": "더불어민주당"
+    },
+    {
+     "id": "s16",
+     "text": null,
+     "type": "quote",
+     "sourceType": "gov",
+     "sourceName": "한 최고위원",
+     "sourceDetail": null,
+     "party": "더불어민주당"
+    },
+    {
+     "id": "s17",
+     "text": null,
+     "type": "quote",
+     "sourceType": "gov",
+     "sourceName": "그",
+     "sourceDetail": null,
+     "party": "더불어민주당"
+    },
+    {
+     "id": "s18",
+     "text": null,
+     "type": "quote",
+     "sourceType": "gov",
+     "sourceName": "이성윤 최고위원",
+     "sourceDetail": null,
+     "party": "더불어민주당"
+    }
+   ],
+   "framingTerms": [],
+   "analyzedBy": "gemini-3.5-flash-lite"
+  },
+  {
+   "id": "a-918f3dcaa4",
+   "issueId": "auto-20261123-1214-1",
+   "outletId": "kbs",
+   "outletName": "KBS",
+   "title": "국민의힘, 헌재에 ‘조작 기소 특검법’ 권한쟁의심판 청구…“심의·표...",
+   "summary": "국민의힘은 서영교 국회 법제사법위원장과 조정식 국회의장의 특검법 가결 선포 행위가 심의·표결권을 침해했다며, 권한 침해와 무효를 확인해 달라고 헌재에 요구했습니다.",
+   "url": "https://news.kbs.co.kr/news/pc/view/view.do?ncd=8719932&ref=A",
+   "publishedAt": "2026-11-23T11:51:00+09:00",
+   "sentences": [
+    {
+     "id": "s1",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s2",
+     "text": null,
+     "type": "quote",
+     "sourceType": "opp",
+     "sourceName": "국민의힘",
+     "sourceDetail": null,
+     "party": "국민의힘"
+    },
+    {
+     "id": "s3",
+     "text": null,
+     "type": "quote",
+     "sourceType": "opp",
+     "sourceName": "국민의힘",
+     "sourceDetail": null,
+     "party": "국민의힘"
+    },
+    {
+     "id": "s4",
+     "text": null,
+     "type": "quote",
+     "sourceType": "opp",
+     "sourceName": "국민의힘",
+     "sourceDetail": null,
+     "party": "국민의힘"
+    },
+    {
+     "id": "s5",
+     "text": null,
+     "type": "quote",
+     "sourceType": "gov",
+     "sourceName": "국민의힘",
+     "sourceDetail": null,
+     "party": "더불어민주당"
+    },
+    {
+     "id": "s6",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    }
+   ],
+   "framingTerms": [
+    {
+     "term": "주장했습니다",
+     "sentenceId": "s2"
+    },
+    {
+     "term": "지적했습니다",
+     "sentenceId": "s3"
+    },
+    {
+     "term": "했습니다",
+     "sentenceId": "s4"
+    },
+    {
+     "term": "요구했습니다",
+     "sentenceId": "s5"
+    }
+   ],
+   "analyzedBy": "gemini-3.5-flash-lite"
+  },
+  {
+   "id": "a-a2932ad5b5",
+   "issueId": "auto-20261123-1214-1",
+   "outletId": "hani",
+   "outletName": "한겨레",
+   "title": "국힘, 헌재에 조작기소 특검법 권한쟁의심판 청구",
+   "summary": "과정에서 국회의원의 헌법상 권한인 심의·표결권을 침해받았다며 23일 헌법재판소에 권한쟁의심판을 청구했다. 조작기소 특검법은 지난 4일 더불어민주당 주도로 법제사법위원회를 통과한 뒤, 6일 국회 본회의에서 최종...",
+   "url": "https://www.hani.co.kr/arti/politics/politics_general/1288621.html",
+   "publishedAt": "2026-11-23T12:04:00+09:00",
+   "sentences": [
+    {
+     "id": "s1",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s2",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s3",
+     "text": null,
+     "type": "quote",
+     "sourceType": "gov",
+     "sourceName": "국민의힘",
+     "sourceDetail": null,
+     "party": "더불어민주당"
+    },
+    {
+     "id": "s4",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s5",
+     "text": null,
+     "type": "quote",
+     "sourceType": "opp",
+     "sourceName": "국민의힘",
+     "sourceDetail": null,
+     "party": "국민의힘"
+    },
+    {
+     "id": "s6",
+     "text": null,
+     "type": "quote",
+     "sourceType": "opp",
+     "sourceName": "국민의힘",
+     "sourceDetail": null,
+     "party": "국민의힘"
+    },
+    {
+     "id": "s7",
+     "text": null,
+     "type": "quote",
+     "sourceType": "opp",
+     "sourceName": "국민의힘",
+     "sourceDetail": null,
+     "party": "국민의힘"
+    }
+   ],
+   "framingTerms": [],
+   "analyzedBy": "gemini-3.5-flash-lite"
+  },
+  {
+   "id": "a-dd3ef40107",
+   "issueId": "auto-20261123-1214-1",
+   "outletId": "munhwa",
+   "outletName": "문화일보",
+   "title": "국힘 ‘조작기소특검법’ 권한쟁의 청구… 장외투쟁 수위 높여",
+   "summary": "장동혁 대표는 이날 오전 국회에서 열린 최고위원회의에서 조 대법원장 탄핵안 발의와 관련해 “민주당이... 조작기소 특검법 국회 본회의 통과 이후 장외 집회를 하고 있는 국민의힘은 법적 다툼도 시작했다. 김태규...",
+   "url": "https://www.munhwa.com/article/11633327?ref=naver",
+   "publishedAt": "2026-11-23T11:58:00+09:00",
+   "sentences": [
+    {
+     "id": "s1",
+     "text": null,
+     "type": "quote",
+     "sourceType": "opp",
+     "sourceName": "국민의힘",
+     "sourceDetail": null,
+     "party": "국민의힘"
+    },
+    {
+     "id": "s2",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s3",
+     "text": null,
+     "type": "quote",
+     "sourceType": "opp",
+     "sourceName": "장동혁 대표",
+     "sourceDetail": null,
+     "party": "국민의힘"
+    },
+    {
+     "id": "s4",
+     "text": "국민의힘은 조 대법원장 탄핵안 발의와 조작기소 특검 추진에 대해 여론이…",
+     "type": "opinion",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s5",
+     "text": "국민의힘은 지난해 대선 직전 이재명 대통령 공직선거법 위반 사건 유죄 취…",
+     "type": "opinion",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s6",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s7",
+     "text": null,
+     "type": "quote",
+     "sourceType": "opp",
+     "sourceName": "김태규 국민의힘 법률자문위원장",
+     "sourceDetail": null,
+     "party": "국민의힘"
+    },
+    {
+     "id": "s8",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s9",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s10",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    }
+   ],
+   "framingTerms": [
+    {
+     "term": "강하게 비판했다",
+     "sentenceId": "s1"
+    },
+    {
+     "term": "비판했다",
+     "sentenceId": "s3"
+    }
+   ],
+   "analyzedBy": "gemini-3.5-flash-lite"
+  },
+  {
+   "id": "a-4cbb16cb0d",
+   "issueId": "auto-20261123-1214-1",
+   "outletId": "yonhapnewstv",
+   "outletName": "연합뉴스TV",
+   "title": "국힘, '與 조작기소 특검법 강행처리' 헌재 권한쟁의심판 청구",
+   "summary": "국민의힘은 더불어민주당의 이른바 '조작기소 특검법' 강행 처리로 국회의원의 헌법상 법률안 심의·표결권이 침해됐다며 조정식 국회의장과 서영교 법제사법위원장을 상대로 헌법재판소에 권한쟁의심판을 청구했습니다....",
+   "url": "http://www.yonhapnewstv.co.kr/news/AKR20261123112749il7",
+   "publishedAt": "2026-11-23T11:28:00+09:00",
+   "sentences": [
+    {
+     "id": "s1",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s2",
+     "text": null,
+     "type": "quote",
+     "sourceType": "opp",
+     "sourceName": "국민의힘",
+     "sourceDetail": null,
+     "party": "국민의힘"
+    },
+    {
+     "id": "s3",
+     "text": null,
+     "type": "quote",
+     "sourceType": "opp",
+     "sourceName": "국민의힘",
+     "sourceDetail": null,
+     "party": "국민의힘"
+    },
+    {
+     "id": "s4",
+     "text": null,
+     "type": "quote",
+     "sourceType": "opp",
+     "sourceName": "국민의힘",
+     "sourceDetail": null,
+     "party": "국민의힘"
+    },
+    {
+     "id": "s5",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s6",
+     "text": "당신이 담은 순간이 뉴스입니다!",
+     "type": "opinion",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    }
+   ],
+   "framingTerms": [],
+   "analyzedBy": "gemini-3.5-flash-lite"
+  },
+  {
+   "id": "a-400f68f08c",
+   "issueId": "auto-20261123-1214-1",
+   "outletId": "heraldcorp",
+   "outletName": "헤럴드경제",
+   "title": "국힘, ‘與 조작기소 특검법 강행처리’ 헌재 권한쟁의심판 청구…“심...",
+   "summary": "국민의힘은 23일 더불어민주당이 이른바 ‘조작기소 특검법’ 강행 처리 과정에서 국회의원의 헌법상 법률안 심의·표결권을 침해했다며 조정식 국회의장과 서영교 국회 법제사법위원장을 상대로 헌법재판소에...",
+   "url": "https://biz.heraldcorp.com/article/10946022?ref=naver",
+   "publishedAt": "2026-11-23T11:31:00+09:00",
+   "sentences": [
+    {
+     "id": "s1",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s2",
+     "text": null,
+     "type": "quote",
+     "sourceType": "opp",
+     "sourceName": "국민의힘",
+     "sourceDetail": null,
+     "party": "국민의힘"
+    },
+    {
+     "id": "s3",
+     "text": null,
+     "type": "quote",
+     "sourceType": "opp",
+     "sourceName": "국민의힘",
+     "sourceDetail": null,
+     "party": "국민의힘"
+    },
+    {
+     "id": "s4",
+     "text": null,
+     "type": "quote",
+     "sourceType": "opp",
+     "sourceName": "국민의힘",
+     "sourceDetail": null,
+     "party": "국민의힘"
+    },
+    {
+     "id": "s5",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s6",
+     "text": null,
+     "type": "quote",
+     "sourceType": "opp",
+     "sourceName": "국민의힘",
+     "sourceDetail": null,
+     "party": "국민의힘"
+    }
+   ],
+   "framingTerms": [],
+   "analyzedBy": "gemini-3.5-flash-lite"
+  },
+  {
+   "id": "a-3eb7c610b8",
+   "issueId": "auto-20261123-1214-2",
+   "outletId": "yna",
+   "outletName": "연합뉴스",
+   "title": "李대통령 지지율 37.3%…與 35.6%·국힘 42.5% 2주연속 오차 밖[리얼미터...",
+   "summary": "리얼미터가 아시아경제 의뢰로 16∼20일 전국 만 18세 이상 2천514명을 대상으로 조사한 결과, 이 대통령의... 리얼미터는 \"아세안 순방과 한중 정상회담, 수출 1조 달러 돌파 등 외교·경제 성과가 부각되며 긍정...",
+   "url": "https://www.yna.co.kr/view/AKR20261123019300001?input=1195m",
+   "publishedAt": "2026-11-23T08:17:00+09:00",
+   "sentences": [
+    {
+     "id": "s1",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s2",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s3",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s4",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s5",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s6",
+     "text": null,
+     "type": "quote",
+     "sourceType": "industry",
+     "sourceName": "리얼미터",
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s7",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s8",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s9",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s10",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s11",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s12",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s13",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s14",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s15",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    }
+   ],
+   "framingTerms": [],
+   "analyzedBy": "gemini-3.5-flash-lite"
+  },
+  {
+   "id": "a-5410d320e6",
+   "issueId": "auto-20261123-1214-2",
+   "outletId": "newsis",
+   "outletName": "뉴시스",
+   "title": "민주 35.6% 국힘 42.5%…민주 1.0%p↑ 국힘 0.5%p↓[리얼미터]",
+   "summary": "더불어민주당 지지율은 오르고 국민의힘은 떨어졌다는 여론조사 결과가 23일 나왔다. 여론조사 전문회사 리얼미터가 아시아경제 의뢰로 지난 19일~20일(11월 3주차) 전국 18세 이상 유권자 1010명을 대상으로 한...",
+   "url": "https://www.newsis.com/view/NISX20261123_0003878516",
+   "publishedAt": "2026-11-23T08:32:00+09:00",
+   "sentences": [
+    {
+     "id": "s1",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s2",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s3",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s4",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s5",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s6",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s7",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s8",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    }
+   ],
+   "framingTerms": [],
+   "analyzedBy": "gemini-3.5-flash-lite"
+  },
+  {
+   "id": "a-397188b01a",
+   "issueId": "auto-20261123-1214-2",
+   "outletId": "news1",
+   "outletName": "뉴스1",
+   "title": "李대통령 지지율 37.3%로 0.9%↑…2주 연속 상승[리얼미터]",
+   "summary": "리얼미터가 아시아경제 의뢰로 지난 16~20일 전국 18세 이상 2514명을 대상으로 조사한 결과, 이... 리얼미터는 \"아세안·APEC 순방과 한·중 정상회담, 수출 1조 달러 돌파 등 외교·경제 성과가 부각되며 긍정...",
+   "url": "https://www.news1.kr/politics/assembly/6362195",
+   "publishedAt": "2026-11-23T08:18:00+09:00",
+   "sentences": [
+    {
+     "id": "s1",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s2",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s3",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s4",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s5",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s6",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s7",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s8",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s9",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s10",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s11",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s12",
+     "text": null,
+     "type": "quote",
+     "sourceType": "industry",
+     "sourceName": "리얼미터",
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s13",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s14",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s15",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s16",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s17",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s18",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s19",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s20",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s21",
+     "text": null,
+     "type": "quote",
+     "sourceType": "industry",
+     "sourceName": "리얼미터",
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s22",
+     "text": null,
+     "type": "quote",
+     "sourceType": "gov",
+     "sourceName": "리얼미터",
+     "sourceDetail": null,
+     "party": "더불어민주당"
+    },
+    {
+     "id": "s23",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s24",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s25",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s26",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s27",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    }
+   ],
+   "framingTerms": [],
+   "analyzedBy": "gemini-3.5-flash-lite"
+  },
+  {
+   "id": "a-8fba8305a0",
+   "issueId": "auto-20261123-1214-2",
+   "outletId": "tvchosun",
+   "outletName": "TV조선",
+   "title": "李 대통령 지지율 37.3% 2주 연속 상승…국힘 42.5%·민주 35.6% [리얼미터...",
+   "summary": "여론조사업체 리얼미터가 아시아경제 의뢰로 지난 16일부터 20일까지 5일간 전국 18세 이상 유권자 2514명을 대상으로 조사한 결과, 이 대통령의 국정수행 지지도는 37.3%로 지난 주보다 0.9%포인트 올랐다. 부정...",
+   "url": "https://news.tvchosun.com/site/data/html_dir/2026/11/23/2026112390064.html",
+   "publishedAt": "2026-11-23T08:19:00+09:00",
+   "sentences": [
+    {
+     "id": "s1",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s2",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s3",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s4",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s5",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s6",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s7",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s8",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s9",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s10",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    }
+   ],
+   "framingTerms": [],
+   "analyzedBy": "gemini-3.5-flash-lite"
+  },
+  {
+   "id": "a-4624086838",
+   "issueId": "auto-20261123-1214-2",
+   "outletId": "khan",
+   "outletName": "경향신문",
+   "title": "이 대통령 지지율 37.3% 2주 연속 상승…국힘 42.5%·민주 35.6%",
+   "summary": "리얼미터가 아시아경제 의뢰로 지난 16~20일 전국 만 18세 이상 유권자 2514명을 대상으로 실시한 조사 결과... 리얼미터는 아세안(동남아시아국가연합)·아시아태평양경제협력체(APEC) 순방과 한중 정상회담, 수출...",
+   "url": "https://www.khan.co.kr/article/202611230832001",
+   "publishedAt": "2026-11-23T08:32:00+09:00",
+   "sentences": [
+    {
+     "id": "s1",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s2",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s3",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s4",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s5",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s6",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s7",
+     "text": null,
+     "type": "quote",
+     "sourceType": "industry",
+     "sourceName": "리얼미터",
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s8",
+     "text": null,
+     "type": "quote",
+     "sourceType": "industry",
+     "sourceName": "리얼미터",
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s9",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s10",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s11",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s12",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s13",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s14",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s15",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s16",
+     "text": null,
+     "type": "quote",
+     "sourceType": "industry",
+     "sourceName": "리얼미터",
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s17",
+     "text": null,
+     "type": "quote",
+     "sourceType": "gov",
+     "sourceName": "리얼미터",
+     "sourceDetail": null,
+     "party": "더불어민주당"
+    },
+    {
+     "id": "s18",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s19",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s20",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s21",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    }
+   ],
+   "framingTerms": [],
+   "analyzedBy": "gemini-3.5-flash-lite"
+  },
+  {
+   "id": "a-b0c079b7a8",
+   "issueId": "auto-20261123-1214-2",
+   "outletId": "kmib",
+   "outletName": "국민일보",
+   "title": "李 지지율 37.3%, 2주 연속 소폭 상승",
+   "summary": "리얼미터가 아시아경제 의뢰로 지난 16∼20일 전국 만 18세 이상 2514명을 대상으로 조사한 결과, 이... 리얼미터는 “아세안 순방과 한·중 정상회담, 수출 1조 달러 돌파 등 외교·경제 성과가 부각되며 긍정...",
+   "url": "https://www.kmib.co.kr/article/20261123500115",
+   "publishedAt": "2026-11-23T09:44:00+09:00",
+   "sentences": [
+    {
+     "id": "s1",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s2",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s3",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s4",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s5",
+     "text": null,
+     "type": "quote",
+     "sourceType": "industry",
+     "sourceName": "리얼미터",
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s6",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s7",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s8",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s9",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s10",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s11",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s12",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s13",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s14",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    }
+   ],
+   "framingTerms": [],
+   "analyzedBy": "gemini-3.5-flash-lite"
+  },
+  {
+   "id": "a-e392cdfd51",
+   "issueId": "auto-20261123-1214-2",
+   "outletId": "seoul",
+   "outletName": "서울신문",
+   "title": "李대통령 지지율 37.3%…국힘 42.5%·민주 35.6% [리얼미터]",
+   "summary": "리얼미터가 아시아경제 의뢰로 지난 16~20일 전국 만 18세 이상 2514명을 대상으로 조사한 결과, 이... 리얼미터는 아세안 순방과 한중 정상회담, 수출 1조 달러 돌파 등 외교·경제 성과가 긍정 평가 상승에 영향을...",
+   "url": "https://www.seoul.co.kr/news/politics/2026/11/23/20261123500012?wlog_tag3=naver",
+   "publishedAt": "2026-11-23T08:25:00+09:00",
+   "sentences": [
+    {
+     "id": "s1",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s2",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s3",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s4",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s5",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s6",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s7",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s8",
+     "text": null,
+     "type": "quote",
+     "sourceType": "industry",
+     "sourceName": "리얼미터",
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s9",
+     "text": null,
+     "type": "quote",
+     "sourceType": "industry",
+     "sourceName": "리얼미터",
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s10",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s11",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s12",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s13",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s14",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s15",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s16",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s17",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s18",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    }
+   ],
+   "framingTerms": [],
+   "analyzedBy": "gemini-3.5-flash-lite"
+  },
+  {
+   "id": "a-6279cad9c6",
+   "issueId": "auto-20261123-1214-2",
+   "outletId": "mk",
+   "outletName": "매일경제",
+   "title": "[속보] 이 대통령 지지율 37.3%…민주 35.6%·국힘 42.5% [리얼미터]",
+   "summary": "리얼미터가 아시아경제 의뢰로 지난 16일부터 20일(11월 3주)까지 전국 18세 이상 유권자 2514명을 대상으로... 리얼미터 측은 “아세안·APEC 순방과 한·중 정상회담, 수출 1조 달러 돌파 등 외교·경제 성과가 부각되며...",
+   "url": "https://www.mk.co.kr/article/12215788",
+   "publishedAt": "2026-11-23T08:01:00+09:00",
+   "sentences": [
+    {
+     "id": "s1",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s2",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s3",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s4",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s5",
+     "text": null,
+     "type": "quote",
+     "sourceType": "industry",
+     "sourceName": "리얼미터 측",
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s6",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s7",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s8",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s9",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s10",
+     "text": null,
+     "type": "quote",
+     "sourceType": "industry",
+     "sourceName": "리얼미터 측",
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s11",
+     "text": null,
+     "type": "quote",
+     "sourceType": "industry",
+     "sourceName": "리얼미터 측",
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s12",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s13",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s14",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s15",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    }
+   ],
+   "framingTerms": [],
+   "analyzedBy": "gemini-3.5-flash-lite"
+  },
+  {
+   "id": "a-df2c7b5232",
+   "issueId": "auto-20261123-1216-1",
+   "outletId": "yna",
+   "outletName": "연합뉴스",
+   "title": "野의원모임 \"부동산 세법개정안 수정해야…총선 연계 안돼\"",
+   "summary": "4대원칙 8대 수정요구 발표…\"2028년 부동산 심판 선거될 것\" 국민의힘 등 보수 야권 국회의원들이 이재명 정부 세법 개정안의 전면 수정을 요구하며 부동산 정책 때리기에 나섰다. 국민의힘 조정훈 의원과 개혁신당...",
+   "url": "https://www.yna.co.kr/view/AKR20261123064700001?input=1195m",
+   "publishedAt": "2026-11-23T10:54:00+09:00",
+   "sentences": [
+    {
+     "id": "s1",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s2",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s3",
+     "text": null,
+     "type": "quote",
+     "sourceType": "opp",
+     "sourceName": "수도권주거혁신포럼",
+     "sourceDetail": null,
+     "party": "국민의힘"
+    },
+    {
+     "id": "s4",
+     "text": null,
+     "type": "quote",
+     "sourceType": "opp",
+     "sourceName": "모임",
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s5",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s6",
+     "text": null,
+     "type": "quote",
+     "sourceType": "opp",
+     "sourceName": "모임",
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s7",
+     "text": null,
+     "type": "quote",
+     "sourceType": "opp",
+     "sourceName": "모임",
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s8",
+     "text": null,
+     "type": "quote",
+     "sourceType": "opp",
+     "sourceName": "모임",
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s9",
+     "text": null,
+     "type": "quote",
+     "sourceType": "opp",
+     "sourceName": "모임",
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s10",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    }
+   ],
+   "framingTerms": [
+    {
+     "term": "때리기에 나섰다",
+     "sentenceId": "s2"
+    }
+   ],
+   "analyzedBy": "gemini-3.5-flash-lite"
+  },
+  {
+   "id": "a-1c22311f95",
+   "issueId": "auto-20261123-1216-1",
+   "outletId": "newsis",
+   "outletName": "뉴시스",
+   "title": "국힘·개혁신당 '수도권 부동산 포럼' \"거주·비거주 세제 차별 금지해...",
+   "summary": "그때도 부동산 선거였다\"며 \"민주당과 이재명 정부가 지금의 이념정책, 이념행정을 유지한다면 2028년은 2008년보다 더한 결과가 나올 것\"이라고 답했다. 이 의원은 \"정권이 생각 바꾸지 않으면 국민이 정권을 바꿀 것...",
+   "url": "https://www.newsis.com/view/NISX20261123_0003878878",
+   "publishedAt": "2026-11-23T10:23:00+09:00",
+   "sentences": [
+    {
+     "id": "s1",
+     "text": null,
+     "type": "quote",
+     "sourceType": "opp",
+     "sourceName": "김소희·박수민·조정훈·이준석 의원",
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s2",
+     "text": null,
+     "type": "quote",
+     "sourceType": "opp",
+     "sourceName": "포럼 의원들",
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s3",
+     "text": null,
+     "type": "quote",
+     "sourceType": "opp",
+     "sourceName": "포럼 의원들",
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s4",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s5",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s6",
+     "text": null,
+     "type": "quote",
+     "sourceType": "opp",
+     "sourceName": "조정훈 의원",
+     "sourceDetail": null,
+     "party": "국민의힘"
+    },
+    {
+     "id": "s7",
+     "text": null,
+     "type": "quote",
+     "sourceType": "opp",
+     "sourceName": "이준석 의원",
+     "sourceDetail": null,
+     "party": "개혁신당"
+    }
+   ],
+   "framingTerms": [],
+   "analyzedBy": "gemini-3.5-flash-lite"
+  },
+  {
+   "id": "a-06f5b7f37b",
+   "issueId": "auto-20261123-1216-1",
+   "outletId": "kbs",
+   "outletName": "KBS",
+   "title": "보수 야권 수도권 의원들 “종부세 실거주 차별 폐지해야…부동산 심판...",
+   "summary": "국민의힘과 개혁신당 수도권 의원들이 모인 ‘수도권주거혁신포럼’이 “이대로 가면 2028년 총선은 부동산... 포럼 소속 의원들은 정부의 부동산 세법 개정안이 ▲종합부동산세 기본공제의 실거주 차별을 폐지하고...",
+   "url": "https://news.kbs.co.kr/news/pc/view/view.do?ncd=8719766&ref=A",
+   "publishedAt": "2026-11-23T10:17:00+09:00",
+   "sentences": [
+    {
+     "id": "s1",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s2",
+     "text": null,
+     "type": "quote",
+     "sourceType": "opp",
+     "sourceName": "조정훈·박수민·김소희·이준석 의원",
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s3",
+     "text": null,
+     "type": "quote",
+     "sourceType": "opp",
+     "sourceName": "포럼 소속 의원들",
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s4",
+     "text": null,
+     "type": "quote",
+     "sourceType": "opp",
+     "sourceName": "포럼 소속 의원들",
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s5",
+     "text": null,
+     "type": "quote",
+     "sourceType": "opp",
+     "sourceName": "포럼 소속 의원들",
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s6",
+     "text": null,
+     "type": "quote",
+     "sourceType": "opp",
+     "sourceName": "포럼 소속 의원들",
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s7",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s8",
+     "text": "이후 여론을 고려해 비거주자 공제를 12억 원으로 조정한 수정안을 국회에…",
+     "type": "opinion",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s9",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    }
+   ],
+   "framingTerms": [],
+   "analyzedBy": "gemini-3.5-flash-lite"
+  },
+  {
+   "id": "a-f510d3574c",
+   "issueId": "auto-20261123-1216-1",
+   "outletId": "ytn",
+   "outletName": "YTN",
+   "title": "국힘·개혁신당 \"종부세 비거주 차별 폐지해야...총선과 연계 말라\"",
+   "summary": "국민의힘 조정훈·개혁신당 이준석 의원이 공동 대표를 맡은 이 포럼은 오늘(23일) 국회 기자회견에서 세금으로 실거주를 무리하게 강요하면 임대시장을 위축시키고 거주 이전 자유를 제약할 수 있다고 강조했습니다....",
+   "url": "https://www.ytn.co.kr/_ln/0101_202611231141419998",
+   "publishedAt": "2026-11-23T11:41:00+09:00",
+   "sentences": [
+    {
+     "id": "s1",
+     "text": null,
+     "type": "quote",
+     "sourceType": "opp",
+     "sourceName": "수도권 주거혁신포럼",
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s2",
+     "text": null,
+     "type": "quote",
+     "sourceType": "opp",
+     "sourceName": "수도권 주거혁신포럼",
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s3",
+     "text": null,
+     "type": "quote",
+     "sourceType": "opp",
+     "sourceName": "수도권 주거혁신포럼",
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s4",
+     "text": null,
+     "type": "quote",
+     "sourceType": "opp",
+     "sourceName": "수도권 주거혁신포럼",
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s5",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    }
+   ],
+   "framingTerms": [],
+   "analyzedBy": "gemini-3.5-flash-lite"
+  },
+  {
+   "id": "a-2716356a5d",
+   "issueId": "auto-20261123-1216-1",
+   "outletId": "hankookilbo",
+   "outletName": "한국일보",
+   "title": "野, 이재명 정부 세법 개정안 비판 \"다음 총선은 부동산 심판 선거\"",
+   "summary": "국민의힘과 개혁신당의 보수 야권 국회의원들이 23일 정부의 세제개편안에 대해 \"이재명 정부가 이번 세법 개정안을 철회하지 않는다면 오는 2028년 국회의원 총선거는 부동산정책에 대한 심판 선거가 될 수밖에 없다\"고...",
+   "url": "https://www.hankookilbo.com/news/article/A2026112311110002647?did=NA",
+   "publishedAt": "2026-11-23T11:29:00+09:00",
+   "sentences": [
+    {
+     "id": "s1",
+     "text": null,
+     "type": "quote",
+     "sourceType": "opp",
+     "sourceName": "국민의힘과 개혁신당의 보수 야권 국회의원들",
+     "sourceDetail": null,
+     "party": "국민의힘"
+    },
+    {
+     "id": "s2",
+     "text": null,
+     "type": "quote",
+     "sourceType": "opp",
+     "sourceName": "수도권 주거혁신포럼",
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s3",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s4",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s5",
+     "text": null,
+     "type": "quote",
+     "sourceType": "opp",
+     "sourceName": "포럼",
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s6",
+     "text": null,
+     "type": "quote",
+     "sourceType": "opp",
+     "sourceName": "조정훈 의원",
+     "sourceDetail": null,
+     "party": "국민의힘"
+    },
+    {
+     "id": "s7",
+     "text": null,
+     "type": "quote",
+     "sourceType": "opp",
+     "sourceName": "이 의원",
+     "sourceDetail": null,
+     "party": "개혁신당"
+    }
+   ],
+   "framingTerms": [
+    {
+     "term": "경고했다",
+     "sentenceId": "s1"
+    },
+    {
+     "term": "밝혔다",
+     "sentenceId": "s2"
+    },
+    {
+     "term": "강조했다",
+     "sentenceId": "s5"
+    },
+    {
+     "term": "답했다",
+     "sentenceId": "s6"
+    },
+    {
+     "term": "말했다",
+     "sentenceId": "s7"
+    }
+   ],
+   "analyzedBy": "gemini-3.5-flash-lite"
+  },
+  {
+   "id": "a-0147c24c80",
+   "issueId": "auto-20261123-1216-1",
+   "outletId": "seoul",
+   "outletName": "서울신문",
+   "title": "野 수도권, ‘어게인 2008’ 경고…“다음 총선은 부동산 심판 선거”",
+   "summary": "국민의힘과 개혁신당이 23일 이재명 정부의 세법개정안에 반대하며 “2028년 총선은 부동산 정책에 대한... 국민의힘·개혁신당 수도권 지역구 의원들의 모임인 수도권주거혁신포럼은 이날 국회에서 기자회견을 열고...",
+   "url": "https://www.seoul.co.kr/news/politics/2026/11/23/20261123500072?wlog_tag3=naver",
+   "publishedAt": "2026-11-23T10:43:00+09:00",
+   "sentences": [
+    {
+     "id": "s1",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s2",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s3",
+     "text": null,
+     "type": "quote",
+     "sourceType": "opp",
+     "sourceName": "국민의힘·개혁신당",
+     "sourceDetail": null,
+     "party": "국민의힘"
+    },
+    {
+     "id": "s4",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s5",
+     "text": null,
+     "type": "quote",
+     "sourceType": "opp",
+     "sourceName": "수도권주거혁신포럼",
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s6",
+     "text": null,
+     "type": "quote",
+     "sourceType": "opp",
+     "sourceName": "조정훈 의원",
+     "sourceDetail": null,
+     "party": "국민의힘"
+    },
+    {
+     "id": "s7",
+     "text": null,
+     "type": "quote",
+     "sourceType": "opp",
+     "sourceName": "조정훈 의원",
+     "sourceDetail": null,
+     "party": "국민의힘"
+    },
+    {
+     "id": "s8",
+     "text": null,
+     "type": "quote",
+     "sourceType": "opp",
+     "sourceName": "이준석 의원",
+     "sourceDetail": null,
+     "party": "개혁신당"
+    },
+    {
+     "id": "s9",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s10",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s11",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s12",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s13",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s14",
+     "text": null,
+     "type": "quote",
+     "sourceType": "opp",
+     "sourceName": "수도권주거혁신포럼 소속 의원들",
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s15",
+     "text": null,
+     "type": "quote",
+     "sourceType": "opp",
+     "sourceName": "수도권주거혁신포럼 소속 의원들",
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s16",
+     "text": null,
+     "type": "quote",
+     "sourceType": "opp",
+     "sourceName": "박수민 의원",
+     "sourceDetail": null,
+     "party": "국민의힘"
+    },
+    {
+     "id": "s17",
+     "text": null,
+     "type": "quote",
+     "sourceType": "opp",
+     "sourceName": "박수민 의원",
+     "sourceDetail": null,
+     "party": "국민의힘"
+    },
+    {
+     "id": "s18",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s19",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    }
+   ],
+   "framingTerms": [
+    {
+     "term": "열고 있다",
+     "sentenceId": "s1"
+    },
+    {
+     "term": "반대하며",
+     "sentenceId": "s3"
+    },
+    {
+     "term": "경고했다",
+     "sentenceId": "s3"
+    },
+    {
+     "term": "문제 삼으며",
+     "sentenceId": "s4"
+    },
+    {
+     "term": "요구했다",
+     "sentenceId": "s4"
+    },
+    {
+     "term": "말했다",
+     "sentenceId": "s6"
+    },
+    {
+     "term": "경고했다",
+     "sentenceId": "s7"
+    },
+    {
+     "term": "주장했다",
+     "sentenceId": "s8"
+    },
+    {
+     "term": "발표했다",
+     "sentenceId": "s9"
+    },
+    {
+     "term": "요구했다",
+     "sentenceId": "s10"
+    },
+    {
+     "term": "촉구했다",
+     "sentenceId": "s11"
+    },
+    {
+     "term": "찬성했다",
+     "sentenceId": "s12"
+    },
+    {
+     "term": "문제 삼았다",
+     "sentenceId": "s13"
+    },
+    {
+     "term": "촉구했다",
+     "sentenceId": "s14"
+    },
+    {
+     "term": "밝혔다",
+     "sentenceId": "s15"
+    },
+    {
+     "term": "강조했다",
+     "sentenceId": "s16"
+    },
+    {
+     "term": "말했다",
+     "sentenceId": "s17"
+    },
+    {
+     "term": "열고 있다",
+     "sentenceId": "s18"
+    }
+   ],
+   "analyzedBy": "gemini-3.5-flash-lite"
+  },
+  {
+   "id": "a-a3795e0a50",
+   "issueId": "auto-20261123-1216-1",
+   "outletId": "sedaily",
+   "outletName": "서울경제",
+   "title": "국힘·개혁신당 “종부세 실거주 차별 폐지”…세제개편 8대 수정 요구",
+   "summary": "국민의힘과 개혁신당 수도권 의원들이 이재명 정부의 부동산 세제개편안에 반대하며 실거주 여부에 따른 종합부동산세 차등공제 방안 철회를 촉구했다. 종부세 공정시장가액비율 인상과 양도소득세 장기보유특별공제...",
+   "url": "https://www.sedaily.com/article/20117639?ref=naver",
+   "publishedAt": "2026-11-23T10:31:00+09:00",
+   "sentences": [
+    {
+     "id": "s1",
+     "text": null,
+     "type": "quote",
+     "sourceType": "opp",
+     "sourceName": "국민의힘·개혁신당 수도권 의원들",
+     "sourceDetail": null,
+     "party": "국민의힘"
+    },
+    {
+     "id": "s2",
+     "text": null,
+     "type": "quote",
+     "sourceType": "opp",
+     "sourceName": "국민의힘·개혁신당 수도권 의원들",
+     "sourceDetail": null,
+     "party": "국민의힘"
+    },
+    {
+     "id": "s3",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s4",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s5",
+     "text": null,
+     "type": "quote",
+     "sourceType": "opp",
+     "sourceName": "포럼",
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s6",
+     "text": null,
+     "type": "quote",
+     "sourceType": "opp",
+     "sourceName": "포럼",
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s7",
+     "text": null,
+     "type": "quote",
+     "sourceType": "opp",
+     "sourceName": "포럼",
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s8",
+     "text": null,
+     "type": "quote",
+     "sourceType": "opp",
+     "sourceName": "포럼",
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s9",
+     "text": null,
+     "type": "quote",
+     "sourceType": "opp",
+     "sourceName": "포럼",
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s10",
+     "text": null,
+     "type": "quote",
+     "sourceType": "opp",
+     "sourceName": "포럼",
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s11",
+     "text": null,
+     "type": "quote",
+     "sourceType": "opp",
+     "sourceName": "포럼",
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s12",
+     "text": null,
+     "type": "quote",
+     "sourceType": "opp",
+     "sourceName": "포럼",
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s13",
+     "text": null,
+     "type": "quote",
+     "sourceType": "opp",
+     "sourceName": "포럼",
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s14",
+     "text": null,
+     "type": "quote",
+     "sourceType": "opp",
+     "sourceName": "포럼",
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s15",
+     "text": null,
+     "type": "quote",
+     "sourceType": "opp",
+     "sourceName": "포럼",
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s16",
+     "text": null,
+     "type": "quote",
+     "sourceType": "opp",
+     "sourceName": "포럼",
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s17",
+     "text": null,
+     "type": "quote",
+     "sourceType": "opp",
+     "sourceName": "포럼",
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s18",
+     "text": null,
+     "type": "quote",
+     "sourceType": "opp",
+     "sourceName": "포럼",
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s19",
+     "text": null,
+     "type": "quote",
+     "sourceType": "opp",
+     "sourceName": "포럼",
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s20",
+     "text": null,
+     "type": "quote",
+     "sourceType": "opp",
+     "sourceName": "포럼",
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s21",
+     "text": null,
+     "type": "quote",
+     "sourceType": "opp",
+     "sourceName": "포럼",
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s22",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s23",
+     "text": null,
+     "type": "quote",
+     "sourceType": "opp",
+     "sourceName": "조 의원",
+     "sourceDetail": null,
+     "party": "국민의힘"
+    },
+    {
+     "id": "s24",
+     "text": null,
+     "type": "quote",
+     "sourceType": "opp",
+     "sourceName": "조 의원",
+     "sourceDetail": null,
+     "party": "국민의힘"
+    },
+    {
+     "id": "s25",
+     "text": null,
+     "type": "quote",
+     "sourceType": "opp",
+     "sourceName": "이 의원",
+     "sourceDetail": null,
+     "party": "개혁신당"
+    },
+    {
+     "id": "s26",
+     "text": "여당과의 정책 협의 가능성도 제기됐다.",
+     "type": "opinion",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s27",
+     "text": null,
+     "type": "quote",
+     "sourceType": "opp",
+     "sourceName": "조 의원",
+     "sourceDetail": null,
+     "party": "국민의힘"
+    },
+    {
+     "id": "s28",
+     "text": null,
+     "type": "quote",
+     "sourceType": "opp",
+     "sourceName": "조 의원",
+     "sourceDetail": null,
+     "party": "국민의힘"
+    }
+   ],
+   "framingTerms": [
+    {
+     "term": "반대하며",
+     "sentenceId": "s1"
+    },
+    {
+     "term": "철회를 촉구했다",
+     "sentenceId": "s1"
+    },
+    {
+     "term": "반대하며",
+     "sentenceId": "s2"
+    },
+    {
+     "term": "수정을 요구했다",
+     "sentenceId": "s2"
+    },
+    {
+     "term": "주장했다",
+     "sentenceId": "s5"
+    },
+    {
+     "term": "요구했다",
+     "sentenceId": "s7"
+    },
+    {
+     "term": "지적했다",
+     "sentenceId": "s8"
+    },
+    {
+     "term": "반대했다",
+     "sentenceId": "s9"
+    },
+    {
+     "term": "주장이다",
+     "sentenceId": "s10"
+    },
+    {
+     "term": "반대했다",
+     "sentenceId": "s11"
+    },
+    {
+     "term": "제시했다",
+     "sentenceId": "s12"
+    },
+    {
+     "term": "촉구했다",
+     "sentenceId": "s13"
+    },
+    {
+     "term": "반대하며",
+     "sentenceId": "s14"
+    },
+    {
+     "term": "주장했다",
+     "sentenceId": "s14"
+    },
+    {
+     "term": "반대했다",
+     "sentenceId": "s15"
+    },
+    {
+     "term": "요구했다",
+     "sentenceId": "s16"
+    },
+    {
+     "term": "주문했다",
+     "sentenceId": "s18"
+    },
+    {
+     "term": "요구",
+     "sentenceId": "s19"
+    },
+    {
+     "term": "경고했다",
+     "sentenceId": "s20"
+    },
+    {
+     "term": "강조했다",
+     "sentenceId": "s21"
+    },
+    {
+     "term": "밝혔다",
+     "sentenceId": "s23"
+    },
+    {
+     "term": "강조했다",
+     "sentenceId": "s24"
+    },
+    {
+     "term": "주장했다",
+     "sentenceId": "s25"
+    },
+    {
+     "term": "밝혔다",
+     "sentenceId": "s27"
+    },
+    {
+     "term": "설명했다",
+     "sentenceId": "s28"
+    }
+   ],
+   "analyzedBy": "gemini-3.5-flash-lite"
+  },
+  {
+   "id": "a-5ab0138ef7",
+   "issueId": "auto-20261123-1216-1",
+   "outletId": "biz",
+   "outletName": "조선비즈",
+   "title": "국힘·개혁신당 수도권 의원들 “종부세 실거주 차별 폐지해야”",
+   "summary": "정부의 부동산 관련 세법개정안에 대한 수정을 요구했다. 우선 거주·비거주에 따른 세제 차별을 금지해야... 이어 “이재명 정부가 이번 세법개정안을 철회하지 않는다면, 2028년 총선은 부동산정책에 대한 심판 선거가 될...",
+   "url": "https://biz.chosun.com/policy/politics/assembly/2026/11/23/TO36ZEP4CNADHFM57CPEMRJDBE/?utm_source=naver&utm_medium=original&utm_campaign=biz",
+   "publishedAt": "2026-11-23T09:20:00+09:00",
+   "sentences": [
+    {
+     "id": "s1",
+     "text": null,
+     "type": "quote",
+     "sourceType": "opp",
+     "sourceName": "국민의힘과 개혁신당 수도권 지역구 의원들",
+     "sourceDetail": null,
+     "party": "국민의힘"
+    },
+    {
+     "id": "s2",
+     "text": null,
+     "type": "quote",
+     "sourceType": "opp",
+     "sourceName": "수도권 주거혁신포럼",
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s3",
+     "text": null,
+     "type": "quote",
+     "sourceType": "opp",
+     "sourceName": "국민의힘과 개혁신당 수도권 지역구 의원들",
+     "sourceDetail": null,
+     "party": "국민의힘"
+    },
+    {
+     "id": "s4",
+     "text": null,
+     "type": "quote",
+     "sourceType": "opp",
+     "sourceName": "국민의힘과 개혁신당 수도권 지역구 의원들",
+     "sourceDetail": null,
+     "party": "국민의힘"
+    },
+    {
+     "id": "s5",
+     "text": null,
+     "type": "quote",
+     "sourceType": "opp",
+     "sourceName": "국민의힘과 개혁신당 수도권 지역구 의원들",
+     "sourceDetail": null,
+     "party": "국민의힘"
+    },
+    {
+     "id": "s6",
+     "text": null,
+     "type": "quote",
+     "sourceType": "opp",
+     "sourceName": "국민의힘과 개혁신당 수도권 지역구 의원들",
+     "sourceDetail": null,
+     "party": "국민의힘"
+    },
+    {
+     "id": "s7",
+     "text": null,
+     "type": "quote",
+     "sourceType": "opp",
+     "sourceName": "국민의힘과 개혁신당 수도권 지역구 의원들",
+     "sourceDetail": null,
+     "party": "국민의힘"
+    },
+    {
+     "id": "s8",
+     "text": null,
+     "type": "quote",
+     "sourceType": "opp",
+     "sourceName": "국민의힘과 개혁신당 수도권 지역구 의원들",
+     "sourceDetail": null,
+     "party": "국민의힘"
+    },
+    {
+     "id": "s9",
+     "text": null,
+     "type": "quote",
+     "sourceType": "opp",
+     "sourceName": "의원들",
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s10",
+     "text": null,
+     "type": "quote",
+     "sourceType": "opp",
+     "sourceName": "의원들",
+     "sourceDetail": null,
+     "party": null
+    }
+   ],
+   "framingTerms": [],
+   "analyzedBy": "gemini-3.5-flash-lite"
+  },
+  {
+   "id": "a-a3373ef6e7",
+   "issueId": "auto-20261123-1217-1",
+   "outletId": "yna",
+   "outletName": "연합뉴스",
+   "title": "尹 관저이전 특혜 있었나…김건희·윤한홍 오늘 첫 정식 공판",
+   "summary": "실무진인 대통령실 관계자들을 직권남용 권리행사방해 등 혐의로 별도 기소했으나 지난 20일 1심은 이들의 핵심 혐의를 무죄로 판단했다. 특검팀은 김오진 전 국토교통부 차관(당시 대통령실 관리비서관)과...",
+   "url": "https://www.yna.co.kr/view/AKR20261122048400004?input=1195m",
+   "publishedAt": "2026-11-23T05:55:00+09:00",
+   "sentences": [
+    {
+     "id": "s1",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s2",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s3",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s4",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s5",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s6",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s7",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s8",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s9",
+     "text": null,
+     "type": "quote",
+     "sourceType": "opp",
+     "sourceName": "김 여사 측 변호인",
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s10",
+     "text": null,
+     "type": "quote",
+     "sourceType": "opp",
+     "sourceName": "김 여사 측 변호인",
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s11",
+     "text": null,
+     "type": "quote",
+     "sourceType": "opp",
+     "sourceName": "윤 의원 측",
+     "sourceDetail": null,
+     "party": "국민의힘"
+    },
+    {
+     "id": "s12",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s13",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s14",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s15",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    }
+   ],
+   "framingTerms": [],
+   "analyzedBy": "gemini-3.5-flash-lite"
+  },
+  {
+   "id": "a-07069cc7a9",
+   "issueId": "auto-20261123-1217-1",
+   "outletId": "tvchosun",
+   "outletName": "TV조선",
+   "title": "'관저 이전 특혜' 김건희·윤한홍 오늘 첫 정식 재판",
+   "summary": "윤석열 정부 대통령 관저 이전 과정에 부당하게 개입한 혐의를 받는 김건희 여사와 윤한홍 국민의힘 의원의 첫 정식 재판이 오늘 열린다. 23일 법조계에 따르면 서울중앙지법 형사합의22부는 오늘 오전 10시 김 여사와 윤...",
+   "url": "https://news.tvchosun.com/site/data/html_dir/2026/11/23/2026112390128.html",
+   "publishedAt": "2026-11-23T11:21:00+09:00",
+   "sentences": [
+    {
+     "id": "s1",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s2",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s3",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s4",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s5",
+     "text": null,
+     "type": "quote",
+     "sourceType": "opp",
+     "sourceName": "김 여사와 윤 의원 측",
+     "sourceDetail": null,
+     "party": "국민의힘"
+    }
+   ],
+   "framingTerms": [
+    {
+     "term": "부당하게",
+     "sentenceId": "s1"
+    }
+   ],
+   "analyzedBy": "gemini-3.5-flash-lite"
+  },
+  {
+   "id": "a-76df3df013",
+   "issueId": "auto-20261123-1217-1",
+   "outletId": "hankyung",
+   "outletName": "한국경제",
+   "title": "'尹 관저 공사 특혜' 김건희·윤한홍 오늘 첫 정식 재판",
+   "summary": "앞서 같은 사건으로 기소된 대통령실 실무진의 핵심 혐의가 1심에서 무죄로 판단된 가운데 김 여사와 윤... 이번 재판에서는 앞서 나온 대통령실 실무진에 대한 1심 판단도 주목된다. 서울중앙지법은 지난 20일 관저 이전...",
+   "url": "https://www.hankyung.com/article/2026112328197",
+   "publishedAt": "2026-11-23T07:07:00+09:00",
+   "sentences": [
+    {
+     "id": "s1",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s2",
+     "text": "앞서 같은 사건으로 기소된 대통령실 실무진의 핵심 혐의가 1심에서 무죄로…",
+     "type": "opinion",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s3",
+     "text": null,
+     "type": "quote",
+     "sourceType": "etc",
+     "sourceName": "서울중앙지법 형사합의22부",
+     "sourceDetail": "법조계",
+     "party": null
+    },
+    {
+     "id": "s4",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s5",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s6",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s7",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s8",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s9",
+     "text": null,
+     "type": "quote",
+     "sourceType": "etc",
+     "sourceName": "두 사람",
+     "sourceDetail": "익명(소속 미상)",
+     "party": null
+    },
+    {
+     "id": "s10",
+     "text": null,
+     "type": "quote",
+     "sourceType": "etc",
+     "sourceName": "김 여사 측",
+     "sourceDetail": "익명(소속 미상)",
+     "party": null
+    },
+    {
+     "id": "s11",
+     "text": null,
+     "type": "quote",
+     "sourceType": "etc",
+     "sourceName": "김 여사 측",
+     "sourceDetail": "익명(소속 미상)",
+     "party": null
+    },
+    {
+     "id": "s12",
+     "text": null,
+     "type": "quote",
+     "sourceType": "opp",
+     "sourceName": "윤 의원 측",
+     "sourceDetail": null,
+     "party": "국민의힘"
+    },
+    {
+     "id": "s13",
+     "text": "이번 재판에서는 앞서 나온 대통령실 실무진에 대한 1심 판단도 주목된다.",
+     "type": "opinion",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s14",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s15",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s16",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s17",
+     "text": null,
+     "type": "quote",
+     "sourceType": "etc",
+     "sourceName": "재판부",
+     "sourceDetail": "익명(소속 미상)",
+     "party": null
+    },
+    {
+     "id": "s18",
+     "text": "실무진의 핵심 혐의를 인정하지 않으면서도 관저 공사업체 선정 과정의 부적…",
+     "type": "opinion",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    }
+   ],
+   "framingTerms": [
+    {
+     "term": "따르면",
+     "sentenceId": "s3"
+    },
+    {
+     "term": "주장했다",
+     "sentenceId": "s10"
+    },
+    {
+     "term": "주장했다",
+     "sentenceId": "s11"
+    },
+    {
+     "term": "지적했다",
+     "sentenceId": "s17"
+    }
+   ],
+   "analyzedBy": "gemini-3.5-flash-lite"
+  },
+  {
+   "id": "a-7069513d69",
+   "issueId": "auto-20261123-1217-1",
+   "outletId": "newspim",
+   "outletName": "뉴스핌",
+   "title": "윤한홍 의원, 관저 공사 특혜 의혹 공판 출석",
+   "summary": "사진공동취재단 = 윤석열 정부 당시 대통령 관저 이전 과정에 부당하게 개입한 혐의를 받는 윤한홍 국민의힘 의원이 23일 오전 서울 서초구 서울중앙지방법원에서 열린 첫 공판에 출석하고 있다. 2026.11.23...",
+   "url": "https://www.newspim.com/news/view/20261123000455",
+   "publishedAt": "2026-11-23T10:38:00+09:00",
+   "sentences": [
+    {
+     "id": "s1",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s2",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s3",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s4",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s5",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s6",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s7",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s8",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s9",
+     "text": null,
+     "type": "quote",
+     "sourceType": "etc",
+     "sourceName": "민병복",
+     "sourceDetail": "익명(소속 미상)",
+     "party": null
+    },
+    {
+     "id": "s10",
+     "text": null,
+     "type": "quote",
+     "sourceType": "etc",
+     "sourceName": "민병복",
+     "sourceDetail": "익명(소속 미상)",
+     "party": null
+    },
+    {
+     "id": "s11",
+     "text": null,
+     "type": "quote",
+     "sourceType": "etc",
+     "sourceName": "민병복",
+     "sourceDetail": "익명(소속 미상)",
+     "party": null
+    },
+    {
+     "id": "s12",
+     "text": null,
+     "type": "quote",
+     "sourceType": "etc",
+     "sourceName": "민병복",
+     "sourceDetail": "익명(소속 미상)",
+     "party": null
+    },
+    {
+     "id": "s13",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s14",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s15",
+     "text": "글로벌 K팝 플랫폼을 통해 해외 참가자와 국내 지역 축제 등을 연결할 수…",
+     "type": "opinion",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s16",
+     "text": null,
+     "type": "quote",
+     "sourceType": "etc",
+     "sourceName": "민병복",
+     "sourceDetail": "익명(소속 미상)",
+     "party": null
+    },
+    {
+     "id": "s17",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s18",
+     "text": null,
+     "type": "quote",
+     "sourceType": "opp",
+     "sourceName": "김태호",
+     "sourceDetail": null,
+     "party": "국민의힘"
+    },
+    {
+     "id": "s19",
+     "text": "이어 참가자들의 꿈이 실현되기를 기원했다.",
+     "type": "opinion",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s20",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s21",
+     "text": null,
+     "type": "quote",
+     "sourceType": "gov",
+     "sourceName": "민병덕",
+     "sourceDetail": null,
+     "party": "더불어민주당"
+    },
+    {
+     "id": "s22",
+     "text": null,
+     "type": "quote",
+     "sourceType": "opp",
+     "sourceName": "천하람",
+     "sourceDetail": null,
+     "party": "개혁신당"
+    },
+    {
+     "id": "s23",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s24",
+     "text": null,
+     "type": "quote",
+     "sourceType": "opp",
+     "sourceName": "강경숙",
+     "sourceDetail": null,
+     "party": "조국혁신당"
+    },
+    {
+     "id": "s25",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s26",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s27",
+     "text": null,
+     "type": "quote",
+     "sourceType": "gov",
+     "sourceName": "임영아",
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s28",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s29",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s30",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s31",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s32",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s33",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s34",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s35",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s36",
+     "text": null,
+     "type": "quote",
+     "sourceType": "gov",
+     "sourceName": "한국전력",
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s37",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s38",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s39",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s40",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s41",
+     "text": null,
+     "type": "quote",
+     "sourceType": "gov",
+     "sourceName": "한전",
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s42",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s43",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s44",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s45",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s46",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s47",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s48",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s49",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s50",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s51",
+     "text": null,
+     "type": "quote",
+     "sourceType": "gov",
+     "sourceName": "김동철",
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s52",
+     "text": null,
+     "type": "quote",
+     "sourceType": "gov",
+     "sourceName": "김동철",
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s53",
+     "text": "우크라이나 안보 지원 강화 기대감으로 방산 수요 증가 직접적.",
+     "type": "opinion",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s54",
+     "text": "미·러 긴장 완화 불확실성 속에서도 방위산업 매출 안정성 강화 예상됨.",
+     "type": "opinion",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s55",
+     "text": "우크라이나 전쟁 장기화 시 건설 및 중장비 수요 불확실성 직접적.",
+     "type": "opinion",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s56",
+     "text": "글로벌 인프라 투자 지연으로 매출 성장 둔화 가능성 있음.",
+     "type": "opinion",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s57",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s58",
+     "text": "정보 제공 목적으로만 작성되었으며, 특정 종목 매매를 권유하지 않습니다.",
+     "type": "opinion",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s59",
+     "text": "투자 판단 및 결과에 대한 책임은 투자자 본인에게 있습니다.",
+     "type": "opinion",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s60",
+     "text": "주식 투자는 원금 손실 가능성이 있으므로, 투자 전 충분한 조사와 전문가…",
+     "type": "opinion",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    }
+   ],
+   "framingTerms": [
+    {
+     "term": "심각한 상황이다",
+     "sentenceId": "s35"
+    }
+   ],
+   "analyzedBy": "gemini-3.5-flash-lite"
+  },
+  {
+   "id": "a-49d7cca0b0",
+   "issueId": "auto-20261123-1217-1",
+   "outletId": "jnilbo",
+   "outletName": "전남일보",
+   "title": "'21그램 특혜' 김건희·윤한홍 법정 선다…실무진 무죄 변수",
+   "summary": "실무진인 대통령실 관계자들을 직권남용 권리행사방해 등 혐의로 별도 기소했으나 지난 20일 1심은 이들의 핵심 혐의를 무죄로 판단했다. 특검팀은 김오진 전 국토교통부 차관(당시 대통령실 관리비서관)과...",
+   "url": "https://www.jnilbo.com/news/articleView.html?idxno=90000085443",
+   "publishedAt": "2026-11-23T07:38:00+09:00",
+   "sentences": [
+    {
+     "id": "s1",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s2",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s3",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s4",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s5",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s6",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s7",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s8",
+     "text": null,
+     "type": "quote",
+     "sourceType": "etc",
+     "sourceName": "김 여사 측 변호인",
+     "sourceDetail": "법원",
+     "party": null
+    },
+    {
+     "id": "s9",
+     "text": null,
+     "type": "quote",
+     "sourceType": "etc",
+     "sourceName": "김 여사 측 변호인",
+     "sourceDetail": "법원",
+     "party": null
+    },
+    {
+     "id": "s10",
+     "text": null,
+     "type": "quote",
+     "sourceType": "opp",
+     "sourceName": "윤 의원 측",
+     "sourceDetail": null,
+     "party": "국민의힘"
+    },
+    {
+     "id": "s11",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s12",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s13",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s14",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    }
+   ],
+   "framingTerms": [
+    {
+     "term": "부당하게",
+     "sentenceId": "s4"
+    },
+    {
+     "term": "시사했다",
+     "sentenceId": "s14"
+    }
+   ],
+   "analyzedBy": "gemini-3.5-flash-lite"
+  },
+  {
+   "id": "a-86aa774085",
+   "issueId": "auto-20261123-1219-1",
+   "outletId": "yna",
+   "outletName": "연합뉴스",
+   "title": "野정성국 \"작년 수능시험지, 전남·인천·경기 일부 이미 폐기\"",
+   "summary": "최근 인공지능(AI)을 활용한 부정행위에 대한 국민적 우려가 커지면서 정부가 작년 수능시험지를 보관하라는 긴급 지침을 내려보냈으나...",
+   "url": "https://www.yna.co.kr/view/AKR20261123026200001?input=1195m",
+   "publishedAt": "2026-11-23T09:08:00+09:00",
+   "sentences": [
+    {
+     "id": "s1",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s2",
+     "text": null,
+     "type": "quote",
+     "sourceType": "opp",
+     "sourceName": "국민의힘 정성국 의원",
+     "sourceDetail": null,
+     "party": "국민의힘"
+    },
+    {
+     "id": "s3",
+     "text": null,
+     "type": "quote",
+     "sourceType": "opp",
+     "sourceName": "정 의원",
+     "sourceDetail": null,
+     "party": "국민의힘"
+    },
+    {
+     "id": "s4",
+     "text": null,
+     "type": "quote",
+     "sourceType": "etc",
+     "sourceName": "교육청 관계자",
+     "sourceDetail": "익명(소속 미상)",
+     "party": null
+    },
+    {
+     "id": "s5",
+     "text": null,
+     "type": "quote",
+     "sourceType": "etc",
+     "sourceName": "교육청 관계자",
+     "sourceDetail": "익명(소속 미상)",
+     "party": null
+    },
+    {
+     "id": "s6",
+     "text": "수학이나 과학탐구처럼 풀이 과정이 남는 과목은 시험지에 필기 흔적이 있는…",
+     "type": "opinion",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s7",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s8",
+     "text": null,
+     "type": "quote",
+     "sourceType": "gov",
+     "sourceName": "한성숙 국무총리",
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s9",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s10",
+     "text": "2026학년도 수능은 지난해 11월 13일 치러진 만큼, 총리실과 교육부…",
+     "type": "opinion",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s11",
+     "text": null,
+     "type": "quote",
+     "sourceType": "opp",
+     "sourceName": "정 의원",
+     "sourceDetail": null,
+     "party": "국민의힘"
+    }
+   ],
+   "framingTerms": [],
+   "analyzedBy": "gemini-3.5-flash-lite"
+  },
+  {
+   "id": "a-68e3d24541",
+   "issueId": "auto-20261123-1219-1",
+   "outletId": "newsis",
+   "outletName": "뉴시스",
+   "title": "교육부 \"작년 수능 시험지 일부 폐기…부정행위 검증 방식 다양해\"",
+   "summary": "교육부 관계자는 이날 정부세종청사에서 진행된 정례브리핑에서 수능 시험지 보관 및 폐기 문제와 관련해 \"시험지는 보존기한이 있고, 1년간 보존한 뒤에는 폐기할 수 있도록 돼 있다\"고 설명했다. 학교들은 통상 다음 해...",
+   "url": "https://www.newsis.com/view/NISX20261123_0003879112",
+   "publishedAt": "2026-11-23T11:47:00+09:00",
+   "sentences": [
+    {
+     "id": "s1",
+     "text": null,
+     "type": "quote",
+     "sourceType": "gov",
+     "sourceName": "교육부",
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s2",
+     "text": null,
+     "type": "quote",
+     "sourceType": "gov",
+     "sourceName": "교육부",
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s3",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s4",
+     "text": null,
+     "type": "quote",
+     "sourceType": "gov",
+     "sourceName": "교육부 관계자",
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s5",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s6",
+     "text": "올해 수능은 지난해보다 6일 늦은 11월 19일 치러진 만큼, 일부 학교…",
+     "type": "opinion",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s7",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s8",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s9",
+     "text": null,
+     "type": "quote",
+     "sourceType": "gov",
+     "sourceName": "교육부 관계자",
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s10",
+     "text": "시험지 폐기 여부가 논란이 되는 것은 과거 수능 부정행위 의혹을 확인하는…",
+     "type": "opinion",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s11",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s12",
+     "text": null,
+     "type": "quote",
+     "sourceType": "gov",
+     "sourceName": "정병익 교육부 대변인",
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s13",
+     "text": null,
+     "type": "quote",
+     "sourceType": "gov",
+     "sourceName": "교육부",
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s14",
+     "text": null,
+     "type": "quote",
+     "sourceType": "gov",
+     "sourceName": "교육부 관계자",
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s15",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s16",
+     "text": null,
+     "type": "quote",
+     "sourceType": "gov",
+     "sourceName": "교육부",
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s17",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s18",
+     "text": null,
+     "type": "quote",
+     "sourceType": "gov",
+     "sourceName": "교육부",
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s19",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s20",
+     "text": null,
+     "type": "quote",
+     "sourceType": "gov",
+     "sourceName": "교육부 관계자",
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s21",
+     "text": null,
+     "type": "quote",
+     "sourceType": "gov",
+     "sourceName": "교육부 관계자",
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s22",
+     "text": null,
+     "type": "quote",
+     "sourceType": "gov",
+     "sourceName": "교육부 관계자",
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s23",
+     "text": null,
+     "type": "quote",
+     "sourceType": "gov",
+     "sourceName": "교육부 관계자",
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s24",
+     "text": null,
+     "type": "quote",
+     "sourceType": "gov",
+     "sourceName": "해당 관계자",
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s25",
+     "text": null,
+     "type": "quote",
+     "sourceType": "gov",
+     "sourceName": "교육부 관계자",
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s26",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s27",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s28",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s29",
+     "text": null,
+     "type": "quote",
+     "sourceType": "gov",
+     "sourceName": "교육부 관계자",
+     "sourceDetail": null,
+     "party": null
+    }
+   ],
+   "framingTerms": [
+    {
+     "term": "설명이다",
+     "sentenceId": "s6"
+    }
+   ],
+   "analyzedBy": "gemini-3.5-flash-lite"
+  },
+  {
+   "id": "a-655b5f053b",
+   "issueId": "auto-20261123-1219-1",
+   "outletId": "sbs",
+   "outletName": "SBS",
+   "title": "[자막뉴스] '텅 빈 풀이과정' 찾을 마지막 단서인데…\"일부 지역 작년 수...",
+   "summary": "국회 교육위원회 소속 국민의힘 정성국 의원은 최근 경기도와 전남광주, 인천 교육청으로부터 산하 학교의 지난해 수능 시험지가 상당수 폐기됐다는 내용의 구두 보고를 받았다고 밝혔습니다. 한 교육청 관계자는 \"산하...",
+   "url": "https://news.sbs.co.kr/news/endPage.do?news_id=N1008858402&plink=ORI&cooper=NAVER",
+   "publishedAt": "2026-11-23T10:45:00+09:00",
+   "sentences": [
+    {
+     "id": "s1",
+     "text": null,
+     "type": "quote",
+     "sourceType": "opp",
+     "sourceName": "국민의힘 정성국 의원",
+     "sourceDetail": null,
+     "party": "국민의힘"
+    },
+    {
+     "id": "s2",
+     "text": null,
+     "type": "quote",
+     "sourceType": "etc",
+     "sourceName": "한 교육청 관계자",
+     "sourceDetail": "익명(소속 미상)",
+     "party": null
+    },
+    {
+     "id": "s3",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s4",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s5",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s6",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s7",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s8",
+     "text": "지난해 수능이 11월 13일에 치러진 만큼, 정부 지침이 내려지기 전인…",
+     "type": "opinion",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s9",
+     "text": null,
+     "type": "quote",
+     "sourceType": "opp",
+     "sourceName": "정 의원",
+     "sourceDetail": null,
+     "party": "국민의힘"
+    }
+   ],
+   "framingTerms": [
+    {
+     "term": "애매한",
+     "sentenceId": "s8"
+    },
+    {
+     "term": "안일한",
+     "sentenceId": "s9"
+    }
+   ],
+   "analyzedBy": "gemini-3.5-flash-lite"
+  },
+  {
+   "id": "a-99406b95d1",
+   "issueId": "auto-20261123-1219-1",
+   "outletId": "hankookilbo",
+   "outletName": "한국일보",
+   "title": "과거 수능 'AI 커닝' 캔다는데… 일부 학교 시험지 이미 폐기",
+   "summary": "정성국 국민의힘 의원실에 따르면, 경기도교육청과 전남광주통합특별시교육청, 인천시교육청은 이미 2026학년도 수능 시험지를 상당수 폐기했다고 국회 교육위원회에 보고했다. 수능 시험지는 학생의 부정행위를 입증할...",
+   "url": "https://www.hankookilbo.com/news/article/A2026112311090003432?did=NA",
+   "publishedAt": "2026-11-23T11:33:00+09:00",
+   "sentences": [
+    {
+     "id": "s1",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s2",
+     "text": "보존 기간이 1년인 수능 시험지는 학교별로 보관 상황이 다른 만큼 전수조…",
+     "type": "opinion",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s3",
+     "text": null,
+     "type": "quote",
+     "sourceType": "gov",
+     "sourceName": "교육부 관계자",
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s4",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s5",
+     "text": null,
+     "type": "quote",
+     "sourceType": "opp",
+     "sourceName": "정성국 의원실",
+     "sourceDetail": null,
+     "party": "국민의힘"
+    },
+    {
+     "id": "s6",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s7",
+     "text": "그러나 시도교육청과 학교 상황에 따라 시험지 보관 상태가 다른 만큼 전수…",
+     "type": "opinion",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s8",
+     "text": null,
+     "type": "quote",
+     "sourceType": "gov",
+     "sourceName": "교육부 관계자",
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s9",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s10",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s11",
+     "text": null,
+     "type": "quote",
+     "sourceType": "gov",
+     "sourceName": "교육부",
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s12",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s13",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s14",
+     "text": null,
+     "type": "quote",
+     "sourceType": "gov",
+     "sourceName": "교육부 관계자",
+     "sourceDetail": null,
+     "party": null
+    }
+   ],
+   "framingTerms": [
+    {
+     "term": "어려워진 셈이다",
+     "sentenceId": "s2"
+    },
+    {
+     "term": "어려울 것으로 보인다",
+     "sentenceId": "s7"
+    }
+   ],
+   "analyzedBy": "gemini-3.5-flash-lite"
+  },
+  {
+   "id": "a-9ab27e36bc",
+   "issueId": "auto-20261123-1219-1",
+   "outletId": "edaily",
+   "outletName": "이데일리",
+   "title": "\"작년 수능 시험지 상당수 폐기\"…AI 커닝 검증 '비상'",
+   "summary": "23일 국회 교육위원회 소속 정성국 국민의힘 의원에 따르면 경기도교육청과 전남광주통합특별시교육청, 인천시교육청은 최근 교육위 측에 관할 학교의 2026학년도 수능 시험지 일부가 폐기됐다는 취지로...",
+   "url": "https://www.edaily.co.kr/News/Read?newsId=01964726645648672&mediaCodeNo=257&utm_source=naver&utm_medium=referral&utm_campaign=news_syndication&utm_content=original_article",
+   "publishedAt": "2026-11-23T10:48:00+09:00",
+   "sentences": [
+    {
+     "id": "s1",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s2",
+     "text": null,
+     "type": "quote",
+     "sourceType": "etc",
+     "sourceName": "교육청 관계자",
+     "sourceDetail": "익명(소속 미상)",
+     "party": null
+    },
+    {
+     "id": "s3",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s4",
+     "text": "시험지가 이미 파쇄됐다면 사후 검증이 사실상 불가능해진다.",
+     "type": "opinion",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s5",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s6",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s7",
+     "text": null,
+     "type": "quote",
+     "sourceType": "opp",
+     "sourceName": "정 의원",
+     "sourceDetail": null,
+     "party": null
+    }
+   ],
+   "framingTerms": [
+    {
+     "term": "안일한 대응",
+     "sentenceId": "s7"
+    }
+   ],
+   "analyzedBy": "gemini-3.5-flash-lite"
+  },
+  {
+   "id": "a-185a31ddba",
+   "issueId": "auto-20261123-1219-1",
+   "outletId": "biz",
+   "outletName": "조선비즈",
+   "title": "“작년 수능 시험지, 60~70% 이미 폐기”… AI 부정행위 어떻게 잡나",
+   "summary": "23일 정성국 국민의힘 의원에 따르면 경기도교육청, 전남광주통합특별시교육청, 인천시교육청은 이 같은 내용을 최근 교육위에 구두로 보고했다. 이들 중 한 교육청 관계자는 정 의원실에 “산하 학교 몇몇 곳에서 이미...",
+   "url": "https://biz.chosun.com/topics/topics_social/2026/11/23/J2QHLBJYFRFRBEDPJFJRAHAAEY/?utm_source=naver&utm_medium=original&utm_campaign=biz",
+   "publishedAt": "2026-11-23T10:39:00+09:00",
+   "sentences": [
+    {
+     "id": "s1",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s2",
+     "text": null,
+     "type": "quote",
+     "sourceType": "opp",
+     "sourceName": "정성국 국민의힘 의원",
+     "sourceDetail": null,
+     "party": "국민의힘"
+    },
+    {
+     "id": "s3",
+     "text": null,
+     "type": "quote",
+     "sourceType": "etc",
+     "sourceName": "교육청 관계자",
+     "sourceDetail": "익명(소속 미상)",
+     "party": null
+    },
+    {
+     "id": "s4",
+     "text": null,
+     "type": "quote",
+     "sourceType": "etc",
+     "sourceName": "교육청 관계자",
+     "sourceDetail": "익명(소속 미상)",
+     "party": null
+    },
+    {
+     "id": "s5",
+     "text": "수학이나 과학탐구처럼 풀이 과정이 남는 과목은 시험지에 필기 흔적이 있는…",
+     "type": "opinion",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s6",
+     "text": "반대로 시험지가 없다면 의혹을 확인하기가 사실상 어려워진다.",
+     "type": "opinion",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s7",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s8",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s9",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s10",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s11",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s12",
+     "text": null,
+     "type": "quote",
+     "sourceType": "opp",
+     "sourceName": "정 의원",
+     "sourceDetail": null,
+     "party": "국민의힘"
+    }
+   ],
+   "framingTerms": [
+    {
+     "term": "안일하게",
+     "sentenceId": "s12"
+    }
+   ],
+   "analyzedBy": "gemini-3.5-flash-lite"
+  },
+  {
+   "id": "a-9dd99ad43b",
+   "issueId": "auto-20261123-1219-1",
+   "outletId": "ajunews",
+   "outletName": "아주경제",
+   "title": "\"작년 수능 시험지 이미 60~70% 폐기\"…정성국 의원, 경기·전남광주·인...",
+   "summary": "com 정성국 국민의힘 의원이 지난 9월 국회에서 열린 정기국회 제8차 본회의 교육·사회·문화 분야... 국회 교육위원회 소속 정성국 국민의힘 의원은 23일 경기도교육청, 전남광주통합특별시교육청...",
+   "url": "https://www.ajunews.com/view/20261123103523426",
+   "publishedAt": "2026-11-23T10:38:00+09:00",
+   "sentences": [
+    {
+     "id": "s1",
+     "text": null,
+     "type": "quote",
+     "sourceType": "opp",
+     "sourceName": "정성국",
+     "sourceDetail": null,
+     "party": "국민의힘"
+    },
+    {
+     "id": "s2",
+     "text": null,
+     "type": "quote",
+     "sourceType": "etc",
+     "sourceName": "교육청 관계자",
+     "sourceDetail": "익명(소속 미상)",
+     "party": null
+    },
+    {
+     "id": "s3",
+     "text": null,
+     "type": "quote",
+     "sourceType": "etc",
+     "sourceName": "교육청 관계자",
+     "sourceDetail": "익명(소속 미상)",
+     "party": null
+    },
+    {
+     "id": "s4",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s5",
+     "text": "시험지가 이미 파쇄됐다면 향후 제보나 수사 과정에서 과거 부정행위 의혹이…",
+     "type": "opinion",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s6",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s7",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s8",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s9",
+     "text": "문제는 수능 문답지 보관 규정과 정부 지침 하달 시점 사이의 공백이다.",
+     "type": "opinion",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s10",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s11",
+     "text": "2026학년도 수능이 지난해 11월 13일 시행된 만큼, 총리실과 교육부…",
+     "type": "opinion",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s12",
+     "text": null,
+     "type": "quote",
+     "sourceType": "opp",
+     "sourceName": "정성국",
+     "sourceDetail": null,
+     "party": "국민의힘"
+    },
+    {
+     "id": "s13",
+     "text": null,
+     "type": "quote",
+     "sourceType": "opp",
+     "sourceName": "정성국",
+     "sourceDetail": null,
+     "party": "국민의힘"
+    },
+    {
+     "id": "s14",
+     "text": null,
+     "type": "quote",
+     "sourceType": "gov",
+     "sourceName": "이재명",
+     "sourceDetail": null,
+     "party": "더불어민주당"
+    },
+    {
+     "id": "s15",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s16",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    }
+   ],
+   "framingTerms": [],
+   "analyzedBy": "gemini-3.5-flash-lite"
+  },
+  {
+   "id": "a-e8fcea01e7",
+   "issueId": "auto-20261123-1219-1",
+   "outletId": "heraldcorp",
+   "outletName": "헤럴드경제",
+   "title": "정성국 “지난해 수능 시험지 보관 지침에도 일부 학교 폐기”",
+   "summary": "정성국 국민의힘 의원은 23일 경기도교육청, 전남광주통합특별시교육청, 인천시교육청은 이 같은 내용을 최근 교육위에 구두로 보고했다고 밝혔다. 이들 가운데 한 교육청 관계자는 정 의원실에 “산하 학교 몇몇 곳에서...",
+   "url": "https://biz.heraldcorp.com/article/10945903?ref=naver",
+   "publishedAt": "2026-11-23T10:52:00+09:00",
+   "sentences": [
+    {
+     "id": "s1",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s2",
+     "text": null,
+     "type": "quote",
+     "sourceType": "opp",
+     "sourceName": "정성국 의원",
+     "sourceDetail": null,
+     "party": "국민의힘"
+    },
+    {
+     "id": "s3",
+     "text": null,
+     "type": "quote",
+     "sourceType": "etc",
+     "sourceName": "교육청 관계자",
+     "sourceDetail": "익명(소속 미상)",
+     "party": null
+    },
+    {
+     "id": "s4",
+     "text": null,
+     "type": "quote",
+     "sourceType": "etc",
+     "sourceName": "교육청 관계자",
+     "sourceDetail": "익명(소속 미상)",
+     "party": null
+    },
+    {
+     "id": "s5",
+     "text": "수학이나 과학탐구처럼 풀이 과정이 남는 과목은 시험지에 필기 흔적이 있는…",
+     "type": "opinion",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s6",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s7",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s8",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s9",
+     "text": "2026학년도 수능은 지난해 11월 13일 치러진 만큼, 총리실과 교육부…",
+     "type": "opinion",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s10",
+     "text": null,
+     "type": "quote",
+     "sourceType": "opp",
+     "sourceName": "정 의원",
+     "sourceDetail": null,
+     "party": "국민의힘"
+    }
+   ],
+   "framingTerms": [
+    {
+     "term": "밝혔다",
+     "sentenceId": "s2"
+    },
+    {
+     "term": "설명했다",
+     "sentenceId": "s3"
+    },
+    {
+     "term": "전달했다",
+     "sentenceId": "s4"
+    },
+    {
+     "term": "어려워진다",
+     "sentenceId": "s5"
+    },
+    {
+     "term": "모호해질 가능성이 있다",
+     "sentenceId": "s9"
+    },
+    {
+     "term": "촉구했다",
+     "sentenceId": "s10"
+    }
+   ],
    "analyzedBy": "gemini-3.5-flash-lite"
   }
  ]
