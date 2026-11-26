@@ -1612,6 +1612,60 @@
    "date": "2026-11-25",
    "origin": "auto",
    "stance": null
+  },
+  {
+   "id": "auto-20261126-1329-1",
+   "title": "조희대 대법원장 탄핵 추진에 사법부 반발",
+   "summary": "창원지방법원 판사들이 조희대 대법원장 탄핵 추진에 대해 헌법가치 훼손이라며 일선 법원 중 처음으로 우려를 표명했다. 이어 전국법관대표회의와 전국법원장회의가 잇따라 개최되어 관련 대응 논의가 이어지고 있다.",
+   "category": "정치",
+   "date": "2026-11-25",
+   "origin": "auto",
+   "stance": null
+  },
+  {
+   "id": "auto-20261126-1331-1",
+   "title": "NBS 여론조사: 대통령 지지율 43%·탄핵 반대 44%",
+   "summary": "전국지표조사(NBS) 결과 이재명 대통령의 국정운영 긍정 평가는 43%, 조희대 대법원장 탄핵 추진 반대는 44%로 집계됐다. 정당 지지도는 더불어민주당 35%, 국민의힘 23%를 기록했다.",
+   "category": "정치",
+   "date": "2026-11-26",
+   "origin": "auto",
+   "stance": null
+  },
+  {
+   "id": "auto-20261126-1334-1",
+   "title": "철도노조 준법투쟁 돌입…일부 열차 운행 지연",
+   "summary": "전국철도노동조합이 26일 오전 9시부터 인력 확충과 승진제도 개선 등을 요구하며 준법투쟁에 돌입하여 일부 열차 운행이 지연됐다.",
+   "category": "사회",
+   "date": "2026-11-26",
+   "origin": "auto",
+   "stance": null
+  },
+  {
+   "id": "auto-20261126-1339-1",
+   "title": "국민의힘, '조작징계' 폭로 황경성 윤리위원 해임",
+   "summary": "국민의힘은 26일 한동훈 의원 등 관련 징계 과정에 개입했다는 의혹을 제기한 황경성 윤리위원을 해임하고 업무방해 혐의로 고발했다.",
+   "category": "정치",
+   "date": "2026-11-25",
+   "origin": "auto",
+   "stance": null
+  },
+  {
+   "id": "auto-20261126-1342-1",
+   "title": "국민의힘 최고위서 '조작 징계' 의혹 설전",
+   "summary": "국민의힘 지도부는 26일 최고위원회의에서 윤리위원회의 '조작 징계' 의혹을 두고 공개 충돌했다. 우재준 최고위원이 사적 징계 의혹을 제기하자, 당 지도부 측에서 탈당과 창당 언급 등이 나오며 내홍이 빚어졌다.",
+   "category": "정치",
+   "date": "2026-11-26",
+   "origin": "auto",
+   "stance": null
+  },
+  {
+   "id": "auto-20261126-1346-1",
+   "title": "민주당 정성호, 조희대 대법원장 탄핵 신중론 제기",
+   "summary": "더불어민주당 정성호 의원이 라디오 방송에서 조희대 대법원장 탄핵 추진과 관련해 국민 설득과 명분 축적이 필요하며 최종 책임은 여당이 져야 한다고 밝혔다.",
+   "category": "정치",
+   "date": "2026-11-26",
+   "origin": "auto",
+   "stance": null
   }
  ],
  "articles": [
@@ -154275,6 +154329,5831 @@
     {
      "term": "절박하다고",
      "sentenceId": "s1"
+    }
+   ],
+   "analyzedBy": "gemini-3.5-flash-lite"
+  },
+  {
+   "id": "a-37cbb01f3a",
+   "issueId": "auto-20261126-1329-1",
+   "outletId": "yna",
+   "outletName": "연합뉴스",
+   "title": "창원지법, 오늘 전체 판사회의…'사법부 독립' 안건 논의",
+   "summary": "민주, 대법원장 탄핵 추진 후 일선 법원 첫 논의…회의 후 입장 표명 가능성 여권의 조희대 대법원장 탄핵 추진을 두고 판사들 사이에서 비판이 나오는 상황에서 창원지방법원이 사법부 독립과 관련한 논의를 하기 위한...",
+   "url": "https://www.yna.co.kr/view/AKR20261125054500052?input=1195m",
+   "publishedAt": "2026-11-25T09:59:00+09:00",
+   "sentences": [
+    {
+     "id": "s1",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s2",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s3",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s4",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s5",
+     "text": "정확한 회의 참석 예상 인원 등은 확인되지 않았으나, 회의가 끝난 뒤 창…",
+     "type": "opinion",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s6",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s7",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s8",
+     "text": null,
+     "type": "quote",
+     "sourceType": "etc",
+     "sourceName": "창원지방법원 관계자",
+     "sourceDetail": "법원",
+     "party": null
+    },
+    {
+     "id": "s9",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s10",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s11",
+     "text": null,
+     "type": "quote",
+     "sourceType": "etc",
+     "sourceName": "이 법원장",
+     "sourceDetail": "법원",
+     "party": null
+    },
+    {
+     "id": "s12",
+     "text": null,
+     "type": "quote",
+     "sourceType": "etc",
+     "sourceName": "이 법원장",
+     "sourceDetail": "법원",
+     "party": null
+    }
+   ],
+   "framingTerms": [
+    {
+     "term": "제기된다",
+     "sentenceId": "s5"
+    }
+   ],
+   "analyzedBy": "gemini-3.5-flash-lite"
+  },
+  {
+   "id": "a-ef7be61f31",
+   "issueId": "auto-20261126-1329-1",
+   "outletId": "newsis",
+   "outletName": "뉴시스",
+   "title": "전국법원장회의도 내달 4일 개최 확정…'조희대 탄핵' 논의하나",
+   "summary": "조희대 대법원장에 대한 탄핵소추가 추진되면서 법관 사회 여론이 격앙되는 중 전국법원장회의가 내달 4일 정기회 개최를 확정했다. 25일 법조계에 따르면 전국법원장회의는 다음 달 4일 오후 2시 대법원에서 올해...",
+   "url": "https://www.newsis.com/view/NISX20261125_0003883426",
+   "publishedAt": "2026-11-25T18:09:00+09:00",
+   "sentences": [
+    {
+     "id": "s1",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s2",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s3",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s4",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s5",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s6",
+     "text": "한덕수 전 국무총리 내란 혐의 전원합의체 판결을 계기로 대법원장에 대한…",
+     "type": "opinion",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s7",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s8",
+     "text": "아직 관련 안건은 없지만, 현장에서 재판 독립 등에 대한 의견을 내자는…",
+     "type": "opinion",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s9",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s10",
+     "text": null,
+     "type": "quote",
+     "sourceType": "etc",
+     "sourceName": "법관 사회",
+     "sourceDetail": "법원",
+     "party": null
+    },
+    {
+     "id": "s11",
+     "text": null,
+     "type": "quote",
+     "sourceType": "etc",
+     "sourceName": "창원지법 전체판사회의",
+     "sourceDetail": "법원",
+     "party": null
+    },
+    {
+     "id": "s12",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    }
+   ],
+   "framingTerms": [
+    {
+     "term": "가능성이 있다",
+     "sentenceId": "s6"
+    },
+    {
+     "term": "가능성이 있다",
+     "sentenceId": "s8"
+    }
+   ],
+   "analyzedBy": "gemini-3.5-flash-lite"
+  },
+  {
+   "id": "a-450b5aec1a",
+   "issueId": "auto-20261126-1329-1",
+   "outletId": "kbs",
+   "outletName": "KBS",
+   "title": "“재판 이유로 탄핵, 헌법 가치 훼손”…판사들 나서나",
+   "summary": "조희대 대법원장에 대한 민주당의 탄핵 시도에, 판사들의 집단 반발이 시작됐습니다. 창원지법 판사들이... [리포트] '조희대 대법원장 탄핵' 논란 뒤 법원 중 처음으로 전체 회의를 연 창원지방법원 판사들. 약 60명이 날 선...",
+   "url": "https://news.kbs.co.kr/news/pc/view/view.do?ncd=8723152&ref=A",
+   "publishedAt": "2026-11-26T10:54:00+09:00",
+   "sentences": [
+    {
+     "id": "s1",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s2",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s3",
+     "text": null,
+     "type": "quote",
+     "sourceType": "etc",
+     "sourceName": "창원지법 판사들",
+     "sourceDetail": "법원",
+     "party": null
+    },
+    {
+     "id": "s4",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s5",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s6",
+     "text": null,
+     "type": "quote",
+     "sourceType": "etc",
+     "sourceName": "창원지법 판사들",
+     "sourceDetail": "법원",
+     "party": null
+    },
+    {
+     "id": "s7",
+     "text": null,
+     "type": "quote",
+     "sourceType": "etc",
+     "sourceName": "창원지법 판사들",
+     "sourceDetail": "법원",
+     "party": null
+    },
+    {
+     "id": "s8",
+     "text": null,
+     "type": "quote",
+     "sourceType": "etc",
+     "sourceName": "법원 내부망에 글을 올린 판사",
+     "sourceDetail": "법원",
+     "party": null
+    },
+    {
+     "id": "s9",
+     "text": null,
+     "type": "quote",
+     "sourceType": "etc",
+     "sourceName": "한 부장판사",
+     "sourceDetail": "법원",
+     "party": null
+    },
+    {
+     "id": "s10",
+     "text": "이견도 있습니다.",
+     "type": "opinion",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s11",
+     "text": null,
+     "type": "quote",
+     "sourceType": "etc",
+     "sourceName": "또 다른 부장판사",
+     "sourceDetail": "법원",
+     "party": null
+    },
+    {
+     "id": "s12",
+     "text": "오는 30일 열리는 전국법관대표회의에서는 집단 대응 여부 등을 논의할 거…",
+     "type": "opinion",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s13",
+     "text": "다음 달 4일엔 전국법원장회의도 열려, 자유토론에서 탄핵 관련 의견이 오…",
+     "type": "opinion",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s14",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s15",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    }
+   ],
+   "framingTerms": [
+    {
+     "term": "날 선",
+     "sentenceId": "s5"
+    }
+   ],
+   "analyzedBy": "gemini-3.5-flash-lite"
+  },
+  {
+   "id": "a-a37592cde0",
+   "issueId": "auto-20261126-1329-1",
+   "outletId": "sbs",
+   "outletName": "SBS",
+   "title": "\"법관 탄핵 추진은 헌법가치 훼손\" 일선 법원 첫 입장",
+   "summary": "여권이 조희대 대법원장 탄핵을 추진하는 가운데, 창원지법 판사들이 일선 법원 중 처음으로 공식 입장을 밝혔습니다. 법관 탄핵을 추진하는 것은 헌법적 가치를 훼손하는 일이라며, 사법부의 독립이 보장돼야 한다고...",
+   "url": "https://news.sbs.co.kr/news/endPage.do?news_id=N1008863517&plink=ORI&cooper=NAVER",
+   "publishedAt": "2026-11-25T21:13:00+09:00",
+   "sentences": [
+    {
+     "id": "s1",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s2",
+     "text": null,
+     "type": "quote",
+     "sourceType": "etc",
+     "sourceName": "창원지법 판사들",
+     "sourceDetail": "익명(소속 미상)",
+     "party": null
+    },
+    {
+     "id": "s3",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s4",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s5",
+     "text": null,
+     "type": "quote",
+     "sourceType": "etc",
+     "sourceName": "창원지법 판사들",
+     "sourceDetail": "익명(소속 미상)",
+     "party": null
+    },
+    {
+     "id": "s6",
+     "text": null,
+     "type": "quote",
+     "sourceType": "etc",
+     "sourceName": "창원지법 판사들",
+     "sourceDetail": "익명(소속 미상)",
+     "party": null
+    },
+    {
+     "id": "s7",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s8",
+     "text": null,
+     "type": "quote",
+     "sourceType": "citizen",
+     "sourceName": "대한변협",
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s9",
+     "text": null,
+     "type": "quote",
+     "sourceType": "etc",
+     "sourceName": "강동원 전국법관대표회의 의장",
+     "sourceDetail": "익명(소속 미상)",
+     "party": null
+    },
+    {
+     "id": "s10",
+     "text": "법원의 자성을 촉구하는 글도 올라오고 있는 가운데, 오는 30일과 다음…",
+     "type": "opinion",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    }
+   ],
+   "framingTerms": [
+    {
+     "term": "주목됩니다",
+     "sentenceId": "s10"
+    }
+   ],
+   "analyzedBy": "gemini-3.5-flash-lite"
+  },
+  {
+   "id": "a-28339759fe",
+   "issueId": "auto-20261126-1329-1",
+   "outletId": "tvchosun",
+   "outletName": "TV조선",
+   "title": "'조희대 탄핵' 내달 4일 법원장회의…법관대표회의 이어 두번째",
+   "summary": "더불어민주당의 조희대 대법원장 탄핵 추진을 둘러싸고 사법부 안팎에서 논란이 이어지는 가운데 다음 달 4일 전국 법원장회의가 열린다. 민주당의 조 대법원장 탄핵소추 추진 시점으로 거론되는 12월 3일의 바로 다음...",
+   "url": "https://news.tvchosun.com/site/data/html_dir/2026/11/25/2026112590216.html",
+   "publishedAt": "2026-11-25T17:16:00+09:00",
+   "sentences": [
+    {
+     "id": "s1",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s2",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s3",
+     "text": "오는 30일 전국법관대표회의에 이어 전국 법원장회의에서도 사법부 독립 침…",
+     "type": "opinion",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s4",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s5",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s6",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s7",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s8",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s9",
+     "text": "다만 회의 마지막 순서인 자유토론에서 대법원장 탄핵 추진과 사법부 독립…",
+     "type": "opinion",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s10",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s11",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s12",
+     "text": "이에 앞서 오는 30일 열리는 전국법관대표회의 정기회의에서도 사법부 독립…",
+     "type": "opinion",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s13",
+     "text": null,
+     "type": "quote",
+     "sourceType": "expert",
+     "sourceName": "강동원 전국법관대표회의 의장",
+     "sourceDetail": null,
+     "party": null
+    }
+   ],
+   "framingTerms": [
+    {
+     "term": "강한",
+     "sentenceId": "s11"
+    }
+   ],
+   "analyzedBy": "gemini-3.5-flash-lite"
+  },
+  {
+   "id": "a-75b60caf54",
+   "issueId": "auto-20261126-1329-1",
+   "outletId": "chosun",
+   "outletName": "조선일보",
+   "title": "“탄핵은 헌법훼손” 일선 법원 첫 반발",
+   "summary": "더불어민주당이 지난 19일 대법원 전원합의체의 한덕수 전 국무총리 내란 사건 판결 직후, 조희대 대법원장 탄핵소추를 추진하겠다고 밝힌 지 엿새 만이다. 법원 내부에서 판사들 비판이 터져나온 데 이어 일선 법원...",
+   "url": "https://www.chosun.com/national/court_law/2026/11/26/SW2FRAK4CZDGVACSFEVTQRVBTQ/?utm_source=naver&utm_medium=referral&utm_campaign=naver-news",
+   "publishedAt": "2026-11-26T00:57:00+09:00",
+   "sentences": [
+    {
+     "id": "s1",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s2",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s3",
+     "text": null,
+     "type": "quote",
+     "sourceType": "etc",
+     "sourceName": "창원지법",
+     "sourceDetail": "법원",
+     "party": null
+    },
+    {
+     "id": "s4",
+     "text": "법조계 내부에서는 전국법관대표회의(30일)와 전국 법원장 정기회의(12월…",
+     "type": "opinion",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s5",
+     "text": null,
+     "type": "quote",
+     "sourceType": "citizen",
+     "sourceName": "부산·대한변호사협회 등 법조단체",
+     "sourceDetail": null,
+     "party": null
+    }
+   ],
+   "framingTerms": [
+    {
+     "term": "본격 논의될",
+     "sentenceId": "s4"
+    }
+   ],
+   "analyzedBy": "gemini-3.5-flash-lite"
+  },
+  {
+   "id": "a-46cde741ad",
+   "issueId": "auto-20261126-1329-1",
+   "outletId": "khan",
+   "outletName": "경향신문",
+   "title": "[단독]다음달 4일 전국 법원장들도 모인다…‘조희대 탄핵’ 대응 논의...",
+   "summary": "더불어민주당의 조희대 대법원장 탄핵 추진을 놓고 법관들의 반발이 이어지는 가운데 전국 법원장들이 다음달 4일 한자리에 모인다. 오는 30일 열릴 전국법관대표회의에 이어 일선 법원의 사법행정을 책임지는 법원장들의...",
+   "url": "https://www.khan.co.kr/article/202611251525001",
+   "publishedAt": "2026-11-25T15:25:00+09:00",
+   "sentences": [
+    {
+     "id": "s1",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s2",
+     "text": "오는 30일 열릴 전국법관대표회의에 이어 일선 법원의 사법행정을 책임지는…",
+     "type": "opinion",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s3",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s4",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s5",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s6",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s7",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s8",
+     "text": "다만 회의 마지막 순서인 자유토론 시간에 사법부 독립 등에 관한 논의가…",
+     "type": "opinion",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s9",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s10",
+     "text": "예년에는 대법원장이 회의에 참석해 인사말을 했지만, 국회에서 탄핵소추안이…",
+     "type": "opinion",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s11",
+     "text": "이에 따라 회의 날짜가 조정될 여지도 있다.",
+     "type": "opinion",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s12",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s13",
+     "text": "일선 법관 대표들에 이어 전국 법원장들도 모이는만큼 사법부 차원의 대응…",
+     "type": "opinion",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    }
+   ],
+   "framingTerms": [
+    {
+     "term": "주목된다",
+     "sentenceId": "s2"
+    },
+    {
+     "term": "보인다",
+     "sentenceId": "s8"
+    },
+    {
+     "term": "영향을 미칠 수 있다",
+     "sentenceId": "s10"
+    },
+    {
+     "term": "여지도 있다",
+     "sentenceId": "s11"
+    },
+    {
+     "term": "전망된다",
+     "sentenceId": "s13"
+    }
+   ],
+   "analyzedBy": "gemini-3.5-flash-lite"
+  },
+  {
+   "id": "a-458ecbc49b",
+   "issueId": "auto-20261126-1329-1",
+   "outletId": "hankookilbo",
+   "outletName": "한국일보",
+   "title": "조희대 탄핵 추진에 일선 법원 첫 반발… 창원지법 \"헌법질서 위태롭게...",
+   "summary": "창원지법 판사들이 더불어민주당의 조희대 대법원장 탄핵소추와 관련해 \"재판을 이유로 한 법관 탄핵 등 권력분립과 헌법질서를 위태롭게 하는 시도에 깊은 우려를 표한다\"고 공식 입장을 밝혔다. 민주당이 조 대법원장...",
+   "url": "https://www.hankookilbo.com/news/article/A2026112516150001518?did=NA",
+   "publishedAt": "2026-11-25T16:32:00+09:00",
+   "sentences": [
+    {
+     "id": "s1",
+     "text": null,
+     "type": "quote",
+     "sourceType": "etc",
+     "sourceName": "창원지법 판사들",
+     "sourceDetail": "법원",
+     "party": null
+    },
+    {
+     "id": "s2",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s3",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s4",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s5",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s6",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s7",
+     "text": null,
+     "type": "quote",
+     "sourceType": "etc",
+     "sourceName": "창원지법 전체판사회의",
+     "sourceDetail": "법원",
+     "party": null
+    },
+    {
+     "id": "s8",
+     "text": null,
+     "type": "quote",
+     "sourceType": "etc",
+     "sourceName": "창원지법 전체판사회의",
+     "sourceDetail": "법원",
+     "party": null
+    },
+    {
+     "id": "s9",
+     "text": null,
+     "type": "quote",
+     "sourceType": "etc",
+     "sourceName": "이영훈 창원지법원장",
+     "sourceDetail": "법원",
+     "party": null
+    },
+    {
+     "id": "s10",
+     "text": "민주당의 조 대법원장 탄핵 추진에 일선 법원 판사들이 집단 행동에 나서면…",
+     "type": "opinion",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s11",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s12",
+     "text": null,
+     "type": "quote",
+     "sourceType": "etc",
+     "sourceName": "강동원 전국법관대표회의 의장",
+     "sourceDetail": "법원",
+     "party": null
+    },
+    {
+     "id": "s13",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    }
+   ],
+   "framingTerms": [],
+   "analyzedBy": "gemini-3.5-flash-lite"
+  },
+  {
+   "id": "a-7e6570b29a",
+   "issueId": "auto-20261126-1331-1",
+   "outletId": "yna",
+   "outletName": "연합뉴스",
+   "title": "李대통령 지지율, 2주전보다 1%p 내린 43%…부정평가는 45%[NBS](종합)",
+   "summary": "정당별 지지도는 더불어민주당은 35%, 국민의힘 23%로 나타났다. 지난 조사와 비교해 국민의힘은 2%p 내렸고, 민주당은 동일하게 집계돼 양당 간 격차는 10%p에서 12%p로 늘었다. 조국혁신당은 3%, 개혁신당은 2...",
+   "url": "https://www.yna.co.kr/view/AKR20261126083651001?input=1195m",
+   "publishedAt": "2026-11-26T11:39:00+09:00",
+   "sentences": [
+    {
+     "id": "s1",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s2",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s3",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s4",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s5",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s6",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s7",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s8",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s9",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s10",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s11",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s12",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s13",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s14",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s15",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s16",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s17",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    }
+   ],
+   "framingTerms": [],
+   "analyzedBy": "gemini-3.5-flash-lite"
+  },
+  {
+   "id": "a-5db8966d6e",
+   "issueId": "auto-20261126-1331-1",
+   "outletId": "newsis",
+   "outletName": "뉴시스",
+   "title": "민주당 35%, 국민의힘 23%…민주 동일, 국힘 2%p↓[NBS]",
+   "summary": "더불어민주당과 국민의힘의 정당 지지율이 각각 35%, 23%를 기록했다는 여론조사 결과가 26일 나왔다. 엠브레인퍼블릭·케이스탯리서치·코리아리서치·한국리서치는 지난 23~25일 만 18세 이상 남녀 1000명을 대상으로...",
+   "url": "https://www.newsis.com/view/NISX20261126_0003884302",
+   "publishedAt": "2026-11-26T11:18:00+09:00",
+   "sentences": [
+    {
+     "id": "s1",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s2",
+     "text": null,
+     "type": "quote",
+     "sourceType": "industry",
+     "sourceName": "엠브레인퍼블릭·케이스탯리서치·코리아리서치·한국리서치",
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s3",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s4",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s5",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s6",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s7",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s8",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    }
+   ],
+   "framingTerms": [],
+   "analyzedBy": "gemini-3.5-flash-lite"
+  },
+  {
+   "id": "a-f5b354be0e",
+   "issueId": "auto-20261126-1331-1",
+   "outletId": "news1",
+   "outletName": "뉴스1",
+   "title": "李대통령 국정 지지율 1%p 내린 43%…민주 35%·국힘 23%[NBS]",
+   "summary": "정당 지지도는 더불어민주당이 35%, 국민의힘이 23%로 집계됐다. 엠브레인퍼블릭·케이스탯리서치·코리아리서치·한국리서치가 지난 23~25일 전국 성인 1000명을 대상으로 실시해 이날 발표한 전국지표조사(NBS)에...",
+   "url": "https://www.news1.kr/politics/assembly/6366872",
+   "publishedAt": "2026-11-26T11:27:00+09:00",
+   "sentences": [
+    {
+     "id": "s1",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s2",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s3",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s4",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s5",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s6",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s7",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s8",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s9",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s10",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s11",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s12",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s13",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s14",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s15",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s16",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    }
+   ],
+   "framingTerms": [],
+   "analyzedBy": "gemini-3.5-flash-lite"
+  },
+  {
+   "id": "a-f30f4cacd8",
+   "issueId": "auto-20261126-1331-1",
+   "outletId": "joins",
+   "outletName": "JTBC",
+   "title": "이 대통령 지지율 43%…부정평가 45%, 2주 전보다 격차 줄어",
+   "summary": "정당 지지도에서는 민주당이 35%, 국민의힘은 23%를 기록했습니다. 직전 조사와 비교하면 민주당은 변동이 없었고, 국민의힘은 2%p 하락했습니다. 이에 따라 양당의 지지도 격차는 기존 10%p에서 12%p로 늘었습니다. 이...",
+   "url": "https://news.jtbc.co.kr/article/NB12329943?influxDiv=NAVER",
+   "publishedAt": "2026-11-26T13:18:00+09:00",
+   "sentences": [
+    {
+     "id": "s1",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s2",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s3",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s4",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s5",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s6",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s7",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s8",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s9",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s10",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s11",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s12",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s13",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s14",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s15",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s16",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s17",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s18",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    }
+   ],
+   "framingTerms": [],
+   "analyzedBy": "gemini-3.5-flash-lite"
+  },
+  {
+   "id": "a-495baabc98",
+   "issueId": "auto-20261126-1331-1",
+   "outletId": "hani",
+   "outletName": "한겨레",
+   "title": "“조희대 탄핵 찬성” 34%, “반대” 44% [NBS]",
+   "summary": "더불어민주당이 당론으로 추진하는 조희대 대법원장 탄핵에 대해 찬성한다는 응답이 34%, 반대한다는 응답이 44%라는 여론조사 결과가 나왔다. 엠브레인퍼블릭·케이스탯리서치·코리아리서치·한국리서치가 지난...",
+   "url": "https://www.hani.co.kr/arti/politics/politics_general/1289192.html",
+   "publishedAt": "2026-11-26T11:34:00+09:00",
+   "sentences": [
+    {
+     "id": "s1",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s2",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s3",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s4",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s5",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s6",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s7",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s8",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s9",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    }
+   ],
+   "framingTerms": [
+    {
+     "term": "압도적이었다",
+     "sentenceId": "s5"
+    },
+    {
+     "term": "절대적이었다",
+     "sentenceId": "s6"
+    }
+   ],
+   "analyzedBy": "gemini-3.5-flash-lite"
+  },
+  {
+   "id": "a-c1ad1c10df",
+   "issueId": "auto-20261126-1331-1",
+   "outletId": "khan",
+   "outletName": "경향신문",
+   "title": "‘조희대 탄핵’에 “반대” 44%, “찬성” 34%···이 대통령 지지율은...",
+   "summary": "정당 지지도는 더불어민주당 35%, 국민의힘 23%, 조국혁신당 3%, 개혁신당 2%, 진보당 1% 순으로 집계됐다. 태도를 유보한 응답은 36%였다. 직전 조사인 2주 전 대비 민주당은 동일했고, 국민의힘은 2%포인트 하락했다....",
+   "url": "https://www.khan.co.kr/article/202611261118001",
+   "publishedAt": "2026-11-26T11:18:00+09:00",
+   "sentences": [
+    {
+     "id": "s1",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s2",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s3",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s4",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s5",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s6",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s7",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s8",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s9",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s10",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s11",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s12",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s13",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s14",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s15",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s16",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    }
+   ],
+   "framingTerms": [],
+   "analyzedBy": "gemini-3.5-flash-lite"
+  },
+  {
+   "id": "a-cf535124b2",
+   "issueId": "auto-20261126-1331-1",
+   "outletId": "kmib",
+   "outletName": "국민일보",
+   "title": "대법원장 탄핵 반대 44%…李대통령 지지율 43%",
+   "summary": "정부의 국정운영 방향에 대해서는 ‘올바른 방향으로 가고 있다’는 응답이 42%, ‘잘못된 방향으로 가고 있다’는 응답이 46%였다. 지난달 26~28일 조사 당시 긍정 46%, 부정 45%였던 것과 비교하면 긍정 응답은 4...",
+   "url": "https://www.kmib.co.kr/article/20261126500440",
+   "publishedAt": "2026-11-26T12:31:00+09:00",
+   "sentences": [
+    {
+     "id": "s1",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s2",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s3",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s4",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s5",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s6",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s7",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s8",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s9",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s10",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s11",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s12",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s13",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s14",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s15",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s16",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s17",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    }
+   ],
+   "framingTerms": [],
+   "analyzedBy": "gemini-3.5-flash-lite"
+  },
+  {
+   "id": "a-b03fd95f74",
+   "issueId": "auto-20261126-1331-1",
+   "outletId": "edaily",
+   "outletName": "이데일리",
+   "title": "李대통령 지지율 43%…2주 전보다 1%p 하락[NBS]",
+   "summary": "이재명 대통령의 국정운영 평가(자료=NBS) 정당 지지도는 더불어민주당 35%, 국민의힘 23%였다. 직전 조사와 비교해 민주당 지지율은 같았으며, 국민의힘 지지율은 2%포인트 하락했다. 양당 간 격차는 12%포인트로...",
+   "url": "https://www.edaily.co.kr/News/Read?newsId=02630566645649656&mediaCodeNo=257&utm_source=naver&utm_medium=referral&utm_campaign=news_syndication&utm_content=original_article",
+   "publishedAt": "2026-11-26T11:21:00+09:00",
+   "sentences": [
+    {
+     "id": "s1",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s2",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s3",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s4",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s5",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s6",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s7",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s8",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s9",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s10",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s11",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s12",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s13",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s14",
+     "text": null,
+     "type": "quote",
+     "sourceType": "citizen",
+     "sourceName": "NBS 측",
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s15",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s16",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s17",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    }
+   ],
+   "framingTerms": [],
+   "analyzedBy": "gemini-3.5-flash-lite"
+  },
+  {
+   "id": "a-2013055882",
+   "issueId": "auto-20261126-1334-1",
+   "outletId": "newsis",
+   "outletName": "뉴시스",
+   "title": "철도노조 준법투쟁 첫날…호남선 지연 없지만 주말 '변수'",
+   "summary": "전국철도노동조합이 준법투쟁에 돌입한 첫날 호남선 열차는 일부 내부 문제 지연을 제외하고 큰 차질 없이 정상 운행하고 있다. 하지만 노조는 배차 간격 축소와 정비 인력 부족 탓에 주말부터 열차 운행에 차질을 빚을...",
+   "url": "https://www.newsis.com/view/NISX20261126_0003884387",
+   "publishedAt": "2026-11-26T11:43:00+09:00",
+   "sentences": [
+    {
+     "id": "s1",
+     "text": null,
+     "type": "quote",
+     "sourceType": "citizen",
+     "sourceName": "노조",
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s2",
+     "text": null,
+     "type": "quote",
+     "sourceType": "citizen",
+     "sourceName": "철도노조 호남본부",
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s3",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s4",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s5",
+     "text": "수도권 노선보다 배차 간격이 길어 준법투쟁으로 열차가 다소 늦어지더라도…",
+     "type": "opinion",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s6",
+     "text": "다만 열차 운행이 늘어나 배차 간격이 좁아지는 주말에는 운행 지연이 발생…",
+     "type": "opinion",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s7",
+     "text": null,
+     "type": "quote",
+     "sourceType": "etc",
+     "sourceName": "노조 관계자",
+     "sourceDetail": "익명(소속 미상)",
+     "party": null
+    },
+    {
+     "id": "s8",
+     "text": null,
+     "type": "quote",
+     "sourceType": "gov",
+     "sourceName": "한국철도공사 관계자",
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s9",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    }
+   ],
+   "framingTerms": [],
+   "analyzedBy": "gemini-3.5-flash-lite"
+  },
+  {
+   "id": "a-c40f55584e",
+   "issueId": "auto-20261126-1334-1",
+   "outletId": "news1",
+   "outletName": "뉴스1",
+   "title": "철도노조 준법투쟁 여파 열차 최대 30분 지연…\"일상 지연 수준\"",
+   "summary": "전국철도노동조합이 26일 오전 9시부터 안전규정과 근무시간을 준수하는 준법투쟁에 돌입하면서 일부 열차 운행이 지연되고 있다. 이런 가운데 한국철도공사(코레일)는 아직 준법투쟁으로 고속·일반열차 운행 지연은...",
+   "url": "https://www.news1.kr/local/daejeon-chungnam/6366974",
+   "publishedAt": "2026-11-26T12:16:00+09:00",
+   "sentences": [
+    {
+     "id": "s1",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s2",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s3",
+     "text": null,
+     "type": "quote",
+     "sourceType": "industry",
+     "sourceName": "한국철도공사",
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s4",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s5",
+     "text": null,
+     "type": "quote",
+     "sourceType": "industry",
+     "sourceName": "코레일",
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s6",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s7",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s8",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s9",
+     "text": null,
+     "type": "quote",
+     "sourceType": "industry",
+     "sourceName": "코레일 관계자",
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s10",
+     "text": null,
+     "type": "quote",
+     "sourceType": "citizen",
+     "sourceName": "철도노조",
+     "sourceDetail": null,
+     "party": null
+    }
+   ],
+   "framingTerms": [],
+   "analyzedBy": "gemini-3.5-flash-lite"
+  },
+  {
+   "id": "a-3c8af3636f",
+   "issueId": "auto-20261126-1334-1",
+   "outletId": "joongang",
+   "outletName": "중앙일보",
+   "title": "철도노조 준법투쟁 돌입…퇴근길 열차 ‘줄지연’ 우려",
+   "summary": "전국철도노동조합(철도노조)이 인력 확충과 승진제도 개선, 추가 수당 지급 등을 요구하며 26일 준법투쟁(안전운행 투쟁)에 돌입했다. 이날 오전부터 KTX 등 일부 열차 운행에 차질이 빚어진 가운데 퇴근길 시민 불편이 커질...",
+   "url": "https://www.joongang.co.kr/article/25482201",
+   "publishedAt": "2026-11-26T12:06:00+09:00",
+   "sentences": [
+    {
+     "id": "s1",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s2",
+     "text": "이날 오전부터 KTX 등 일부 열차 운행에 차질이 빚어진 가운데 퇴근길…",
+     "type": "opinion",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s3",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s4",
+     "text": null,
+     "type": "quote",
+     "sourceType": "citizen",
+     "sourceName": "노조",
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s5",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s6",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s7",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s8",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s9",
+     "text": "문제는 수도권 전철과 경부선 등 열차 운행이 밀집된 구간에선 앞선 열차의…",
+     "type": "opinion",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s10",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s11",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s12",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s13",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s14",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s15",
+     "text": null,
+     "type": "quote",
+     "sourceType": "gov",
+     "sourceName": "국토교통부",
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s16",
+     "text": null,
+     "type": "quote",
+     "sourceType": "citizen",
+     "sourceName": "철도노조",
+     "sourceDetail": null,
+     "party": null
+    }
+   ],
+   "framingTerms": [
+    {
+     "term": "압박하기로 했다",
+     "sentenceId": "s5"
+    }
+   ],
+   "analyzedBy": "gemini-3.5-flash-lite"
+  },
+  {
+   "id": "a-89b3ed0abf",
+   "issueId": "auto-20261126-1334-1",
+   "outletId": "hani",
+   "outletName": "한겨레",
+   "title": "철도노조, 오늘부터 ‘준법투쟁’…“상시적 인력난으로 안전 확보 어려...",
+   "summary": "전국철도노동조합(철도노조)이 안전 확보를 위한 인력 확충, 공정한 승진제도 마련 등을 요구하며 26일 오전... 이어 “사고 때마다 일선 노동자 문책에 집중하는 대응도 문제”라며 “소속기관장은 예산·인력운영...",
+   "url": "https://www.hani.co.kr/arti/society/labor/1289200.html",
+   "publishedAt": "2026-11-26T11:52:00+09:00",
+   "sentences": [
+    {
+     "id": "s1",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s2",
+     "text": "이에 따라 한국철도공사(코레일)가 운영하는 케이티엑스(KTX)와 에스알티…",
+     "type": "opinion",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s3",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s4",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s5",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s6",
+     "text": null,
+     "type": "quote",
+     "sourceType": "citizen",
+     "sourceName": "철도노조",
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s7",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s8",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s9",
+     "text": null,
+     "type": "quote",
+     "sourceType": "citizen",
+     "sourceName": "철도노조",
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s10",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s11",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s12",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s13",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s14",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s15",
+     "text": null,
+     "type": "quote",
+     "sourceType": "citizen",
+     "sourceName": "철도노조",
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s16",
+     "text": null,
+     "type": "quote",
+     "sourceType": "citizen",
+     "sourceName": "철도노조",
+     "sourceDetail": null,
+     "party": null
+    }
+   ],
+   "framingTerms": [
+    {
+     "term": "예상된다",
+     "sentenceId": "s2"
+    },
+    {
+     "term": "비판했다",
+     "sentenceId": "s15"
+    },
+    {
+     "term": "지적했다",
+     "sentenceId": "s16"
+    }
+   ],
+   "analyzedBy": "gemini-3.5-flash-lite"
+  },
+  {
+   "id": "a-1a52116c0e",
+   "issueId": "auto-20261126-1334-1",
+   "outletId": "mk",
+   "outletName": "매일경제",
+   "title": "“규정 지키면 열차가 늦는다?”…철도노조 준법투쟁에 열차 지연 우려",
+   "summary": "회복 운전·시간외 근무 거부 출근길·퇴근길 승객 불편 예상 전국철도노동조합(철도노조)이 승진 제도 개선과 추가 수당 지급, 인력 충원을 요구하며 26일 오전 9시부터 ‘안전운행 투쟁’에 들어갔다. 다음 달 4일까지...",
+   "url": "https://www.mk.co.kr/article/12219188",
+   "publishedAt": "2026-11-26T11:24:00+09:00",
+   "sentences": [
+    {
+     "id": "s1",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s2",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s3",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s4",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s5",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s6",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s7",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s8",
+     "text": null,
+     "type": "quote",
+     "sourceType": "citizen",
+     "sourceName": "노조",
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s9",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s10",
+     "text": "열차 지연은 불가피할 전망이다.",
+     "type": "opinion",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s11",
+     "text": "열차 운행이 촘촘한 수도권 전철(1·3·4호선 코레일 구간, 경의중앙선,…",
+     "type": "opinion",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s12",
+     "text": "투쟁이 오전 9시에 시작돼 이날 출근길 영향은 크지 않았지만, 저녁 퇴근…",
+     "type": "opinion",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s13",
+     "text": null,
+     "type": "quote",
+     "sourceType": "gov",
+     "sourceName": "한국철도공사(코레일)",
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s14",
+     "text": null,
+     "type": "quote",
+     "sourceType": "gov",
+     "sourceName": "한국철도공사(코레일)",
+     "sourceDetail": null,
+     "party": null
+    }
+   ],
+   "framingTerms": [
+    {
+     "term": "요구하며",
+     "sentenceId": "s1"
+    },
+    {
+     "term": "주장했다",
+     "sentenceId": "s8"
+    },
+    {
+     "term": "전망이다",
+     "sentenceId": "s10"
+    },
+    {
+     "term": "벌어질 수 있다",
+     "sentenceId": "s11"
+    },
+    {
+     "term": "예상된다",
+     "sentenceId": "s12"
+    },
+    {
+     "term": "밝혔다",
+     "sentenceId": "s13"
+    },
+    {
+     "term": "당부했다",
+     "sentenceId": "s14"
+    }
+   ],
+   "analyzedBy": "gemini-3.5-flash-lite"
+  },
+  {
+   "id": "a-353b6f5179",
+   "issueId": "auto-20261126-1334-1",
+   "outletId": "sedaily",
+   "outletName": "서울경제",
+   "title": "철도노조 준법투쟁 첫날…열차 일부 지연에 시민들 ‘혼란’ [르포]",
+   "summary": "한국철도공사(코레일)의 제1노조인 전국철도노동조합(철도노조)이 준법투쟁에 돌입한 26일 오전 9시 30분. 서울역은 열차를 기다리는 승객들로 북적이고 있었지만 대부분의 출발 열차가 정상적으로 운행되면서 차분한...",
+   "url": "https://www.sedaily.com/article/20119265?ref=naver",
+   "publishedAt": "2026-11-26T11:35:00+09:00",
+   "sentences": [
+    {
+     "id": "s1",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s2",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s3",
+     "text": "철도노조가 준법투쟁을 시작하면 큰 혼란이 벌어질 것이라는 우려가 있었지만…",
+     "type": "opinion",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s4",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s5",
+     "text": null,
+     "type": "quote",
+     "sourceType": "citizen",
+     "sourceName": "박희달",
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s6",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s7",
+     "text": null,
+     "type": "quote",
+     "sourceType": "citizen",
+     "sourceName": "한수아",
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s8",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s9",
+     "text": null,
+     "type": "quote",
+     "sourceType": "citizen",
+     "sourceName": "이원준",
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s10",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s11",
+     "text": null,
+     "type": "quote",
+     "sourceType": "etc",
+     "sourceName": "안내원",
+     "sourceDetail": "익명(소속 미상)",
+     "party": null
+    },
+    {
+     "id": "s12",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s13",
+     "text": null,
+     "type": "quote",
+     "sourceType": "citizen",
+     "sourceName": "강 모 씨",
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s14",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s15",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s16",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s17",
+     "text": null,
+     "type": "quote",
+     "sourceType": "citizen",
+     "sourceName": "철도노조",
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s18",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    }
+   ],
+   "framingTerms": [
+    {
+     "term": "우려",
+     "sentenceId": "s3"
+    }
+   ],
+   "analyzedBy": "gemini-3.5-flash-lite"
+  },
+  {
+   "id": "a-accd7410bc",
+   "issueId": "auto-20261126-1339-1",
+   "outletId": "yna",
+   "outletName": "연합뉴스",
+   "title": "장동혁, '친한계 조작징계 의혹 제기' 황경성 윤리위원 해임",
+   "summary": "\"윤리위원으로 결격사유 발생…윤리위원장이 요청해 수용\" 국민의힘 장동혁 대표가 26일 '친한(한동훈)계 조작 징계 의혹'을 제기한 황경성 윤리위원을 해임했다. 국민의힘 당무감사실은 이날 언론 공지를 통해 윤민우...",
+   "url": "https://www.yna.co.kr/view/AKR20261126098900001?input=1195m",
+   "publishedAt": "2026-11-26T11:57:00+09:00",
+   "sentences": [
+    {
+     "id": "s1",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s2",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s3",
+     "text": null,
+     "type": "quote",
+     "sourceType": "opp",
+     "sourceName": "국민의힘 당무감사실",
+     "sourceDetail": null,
+     "party": "국민의힘"
+    },
+    {
+     "id": "s4",
+     "text": null,
+     "type": "quote",
+     "sourceType": "opp",
+     "sourceName": "당무감사실",
+     "sourceDetail": null,
+     "party": "국민의힘"
+    },
+    {
+     "id": "s5",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    }
+   ],
+   "framingTerms": [
+    {
+     "term": "부적절하게",
+     "sentenceId": "s5"
+    }
+   ],
+   "analyzedBy": "gemini-3.5-flash-lite"
+  },
+  {
+   "id": "a-a13c1c7c63",
+   "issueId": "auto-20261126-1339-1",
+   "outletId": "newsis",
+   "outletName": "뉴시스",
+   "title": "국힘, '조작 징계' 주장 황경성 윤리위원 해임",
+   "summary": "국민의힘은 26일 한동훈 무소속 의원과 친한(친한동훈)계 인사들에 대한 이른바 '조작 징계' 의혹을 제기한 황경성 윤리위원을 해임했다. 국민의힘 당무감사실은 이날 입장문을 내고 \"윤민우 중앙윤리위원장은 '황 위원이...",
+   "url": "https://www.newsis.com/view/NISX20261126_0003884427",
+   "publishedAt": "2026-11-26T12:02:00+09:00",
+   "sentences": [
+    {
+     "id": "s1",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s2",
+     "text": null,
+     "type": "quote",
+     "sourceType": "opp",
+     "sourceName": "국민의힘 당무감사실",
+     "sourceDetail": null,
+     "party": "국민의힘"
+    },
+    {
+     "id": "s3",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s4",
+     "text": null,
+     "type": "quote",
+     "sourceType": "etc",
+     "sourceName": "황경성 위원",
+     "sourceDetail": "익명(소속 미상)",
+     "party": null
+    },
+    {
+     "id": "s5",
+     "text": null,
+     "type": "quote",
+     "sourceType": "etc",
+     "sourceName": "황 위원 측",
+     "sourceDetail": "익명(소속 미상)",
+     "party": null
+    },
+    {
+     "id": "s6",
+     "text": null,
+     "type": "quote",
+     "sourceType": "opp",
+     "sourceName": "장 대표 측",
+     "sourceDetail": null,
+     "party": "국민의힘"
+    }
+   ],
+   "framingTerms": [
+    {
+     "term": "해임했다",
+     "sentenceId": "s1"
+    },
+    {
+     "term": "의혹을 제기했다",
+     "sentenceId": "s4"
+    },
+    {
+     "term": "주장이다",
+     "sentenceId": "s5"
+    },
+    {
+     "term": "부인하면서",
+     "sentenceId": "s6"
+    },
+    {
+     "term": "반박했다",
+     "sentenceId": "s6"
+    }
+   ],
+   "analyzedBy": "gemini-3.5-flash-lite"
+  },
+  {
+   "id": "a-6ed4f25631",
+   "issueId": "auto-20261126-1339-1",
+   "outletId": "news1",
+   "outletName": "뉴스1",
+   "title": "국힘, '조작 징계' 의혹 폭로 황경성 윤리위원 해임",
+   "summary": "국민의힘이 26일 장동혁 대표의 당 중앙윤리위원회 징계 개입 의혹을 제기한 황경성 윤리위원을 해임했다. 국민의힘은 이날 언론 공지를 통해 \"윤민우 중앙윤리위원장은 황 위원에 대해 업무방해 혐의로 당으로부터...",
+   "url": "https://www.news1.kr/politics/assembly/6366937",
+   "publishedAt": "2026-11-26T11:46:00+09:00",
+   "sentences": [
+    {
+     "id": "s1",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s2",
+     "text": null,
+     "type": "quote",
+     "sourceType": "opp",
+     "sourceName": "국민의힘",
+     "sourceDetail": null,
+     "party": "국민의힘"
+    },
+    {
+     "id": "s3",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s4",
+     "text": null,
+     "type": "quote",
+     "sourceType": "citizen",
+     "sourceName": "황 위원",
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s5",
+     "text": null,
+     "type": "quote",
+     "sourceType": "expert",
+     "sourceName": "최 모 교수",
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s6",
+     "text": null,
+     "type": "quote",
+     "sourceType": "opp",
+     "sourceName": "장 대표 측",
+     "sourceDetail": null,
+     "party": "국민의힘"
+    }
+   ],
+   "framingTerms": [],
+   "analyzedBy": "gemini-3.5-flash-lite"
+  },
+  {
+   "id": "a-eff6e3666e",
+   "issueId": "auto-20261126-1339-1",
+   "outletId": "ytn",
+   "outletName": "YTN",
+   "title": "국민의힘, '조작징계 의혹 제기' 황경성 윤리위원 해임",
+   "summary": "국민의힘은 최규동 전 윤리위원과 함께 이른바 '조작 징계' 의혹을 외부에서 제기해 온 황경성 윤리위원을 해임했습니다. 국민의힘 당무감사실은 오늘(26일) 출입기자 공지에서, 윤민우 중앙윤리위원장이 당헌당규에 따라...",
+   "url": "https://www.ytn.co.kr/_ln/0101_202611261250398709",
+   "publishedAt": "2026-11-26T12:50:00+09:00",
+   "sentences": [
+    {
+     "id": "s1",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s2",
+     "text": null,
+     "type": "quote",
+     "sourceType": "opp",
+     "sourceName": "국민의힘 당무감사실",
+     "sourceDetail": null,
+     "party": "국민의힘"
+    },
+    {
+     "id": "s3",
+     "text": null,
+     "type": "quote",
+     "sourceType": "gov",
+     "sourceName": "당무감사실",
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s4",
+     "text": null,
+     "type": "quote",
+     "sourceType": "opp",
+     "sourceName": "황 위원",
+     "sourceDetail": null,
+     "party": "국민의힘"
+    },
+    {
+     "id": "s5",
+     "text": "※ '당신의 제보가 뉴스가 됩니다'",
+     "type": "opinion",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    }
+   ],
+   "framingTerms": [
+    {
+     "term": "설명했습니다",
+     "sentenceId": "s3"
+    },
+    {
+     "term": "개입해왔다면서",
+     "sentenceId": "s4"
+    },
+    {
+     "term": "공개했습니다",
+     "sentenceId": "s4"
+    }
+   ],
+   "analyzedBy": "gemini-3.5-flash-lite"
+  },
+  {
+   "id": "a-e5c38d421e",
+   "issueId": "auto-20261126-1339-1",
+   "outletId": "ichannela",
+   "outletName": "채널A",
+   "title": "[단독]국민의힘, ‘조작징계 폭로’ 윤리위원 ‘업무방해’ 고발",
+   "summary": "국민의힘이 이른바 '한동훈 조작 징계' 의혹을 제기한 황경성 윤리위원에 대해 법적 조치에 들어간 것으로... 채널A 취재를 종합하면, 국민의힘 당 대표실은 지난 23일 황 위원에 대해 업무방해 혐의로 서울영등포경찰서에...",
+   "url": "https://www.ichannela.com/news/main/news_detailPage.do?publishId=000000561600",
+   "publishedAt": "2026-11-25T15:48:00+09:00",
+   "sentences": [
+    {
+     "id": "s1",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s2",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s3",
+     "text": null,
+     "type": "quote",
+     "sourceType": "opp",
+     "sourceName": "장 대표",
+     "sourceDetail": null,
+     "party": "국민의힘"
+    },
+    {
+     "id": "s4",
+     "text": "윤민우 윤리위원장도 이날 최 전 위원을 향한 공격에 가세했습니다.",
+     "type": "opinion",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s5",
+     "text": null,
+     "type": "quote",
+     "sourceType": "opp",
+     "sourceName": "윤 위원장",
+     "sourceDetail": null,
+     "party": "국민의힘"
+    },
+    {
+     "id": "s6",
+     "text": null,
+     "type": "quote",
+     "sourceType": "opp",
+     "sourceName": "최 전 위원",
+     "sourceDetail": null,
+     "party": "국민의힘"
+    },
+    {
+     "id": "s7",
+     "text": null,
+     "type": "quote",
+     "sourceType": "opp",
+     "sourceName": "최 전 위원",
+     "sourceDetail": null,
+     "party": "국민의힘"
+    }
+   ],
+   "framingTerms": [
+    {
+     "term": "공격",
+     "sentenceId": "s4"
+    }
+   ],
+   "analyzedBy": "gemini-3.5-flash-lite"
+  },
+  {
+   "id": "a-81da435d4d",
+   "issueId": "auto-20261126-1339-1",
+   "outletId": "joongang",
+   "outletName": "중앙일보",
+   "title": "[속보] 국힘, ‘조작징계’폭로 황경성 윤리위원 해임",
+   "summary": "한동훈 무소속 의원 제명 등을 둘러싼 국민의힘의 ‘조작 징계 의혹’ 의혹을 폭로한 황경성 윤리위원이 26일 해임됐다. 국민의힘 당무감사실은 이날 오전 ”윤민우 중앙윤리위원장은 황 위원에 대해 업무방해 혐의로...",
+   "url": "https://www.joongang.co.kr/article/25482189",
+   "publishedAt": "2026-11-26T11:46:00+09:00",
+   "sentences": [
+    {
+     "id": "s1",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s2",
+     "text": null,
+     "type": "quote",
+     "sourceType": "opp",
+     "sourceName": "국민의힘 당무감사실",
+     "sourceDetail": null,
+     "party": "국민의힘"
+    },
+    {
+     "id": "s3",
+     "text": null,
+     "type": "quote",
+     "sourceType": "opp",
+     "sourceName": "국민의힘 당무감사실",
+     "sourceDetail": null,
+     "party": "국민의힘"
+    },
+    {
+     "id": "s4",
+     "text": null,
+     "type": "quote",
+     "sourceType": "etc",
+     "sourceName": "황 전 위원",
+     "sourceDetail": "무소속 의원",
+     "party": null
+    },
+    {
+     "id": "s5",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s6",
+     "text": null,
+     "type": "quote",
+     "sourceType": "citizen",
+     "sourceName": "황 위원",
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s7",
+     "text": null,
+     "type": "quote",
+     "sourceType": "expert",
+     "sourceName": "최 모 교수",
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s8",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    }
+   ],
+   "framingTerms": [
+    {
+     "term": "고발했다",
+     "sentenceId": "s5"
+    },
+    {
+     "term": "반발해",
+     "sentenceId": "s6"
+    },
+    {
+     "term": "촉구했다",
+     "sentenceId": "s7"
+    },
+    {
+     "term": "부인하며",
+     "sentenceId": "s8"
+    },
+    {
+     "term": "제기했다",
+     "sentenceId": "s8"
+    }
+   ],
+   "analyzedBy": "gemini-3.5-flash-lite"
+  },
+  {
+   "id": "a-64737b3ccb",
+   "issueId": "auto-20261126-1339-1",
+   "outletId": "hani",
+   "outletName": "한겨레",
+   "title": "국민의힘, ‘조작 징계’ 의혹 제기한 황경성 윤리위원 해임",
+   "summary": "국민의힘이 26일 장동혁 대표가 친한동훈(친한)계 ‘조작 징계’에 관여했다는 의혹을 제기한 황경성 중앙윤리위원을 해임했다. 국민의힘 당무감사실은 이날 오전 “금일 부로 황 윤리위원은 해임됐음을 알려드린다”고...",
+   "url": "https://www.hani.co.kr/arti/politics/assembly/1289204.html",
+   "publishedAt": "2026-11-26T12:00:00+09:00",
+   "sentences": [
+    {
+     "id": "s1",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s2",
+     "text": null,
+     "type": "quote",
+     "sourceType": "opp",
+     "sourceName": "국민의힘 당무감사실",
+     "sourceDetail": null,
+     "party": "국민의힘"
+    },
+    {
+     "id": "s3",
+     "text": null,
+     "type": "quote",
+     "sourceType": "opp",
+     "sourceName": "당무감사실",
+     "sourceDetail": null,
+     "party": "국민의힘"
+    },
+    {
+     "id": "s4",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s5",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s6",
+     "text": null,
+     "type": "quote",
+     "sourceType": "etc",
+     "sourceName": "황 윤리위원과 최규동 국제사이버대 특임교수",
+     "sourceDetail": "익명(소속 미상)",
+     "party": null
+    }
+   ],
+   "framingTerms": [],
+   "analyzedBy": "gemini-3.5-flash-lite"
+  },
+  {
+   "id": "a-1edfe5032a",
+   "issueId": "auto-20261126-1339-1",
+   "outletId": "munhwa",
+   "outletName": "문화일보",
+   "title": "국힘, 황경성 윤리위원 해임… ‘조작징계’ 폭로 진압",
+   "summary": "국민의힘이 26일 이른바 ‘조작징계’ 의혹을 제기해온 황경성 윤리위원을 전격 해촉했다. 황 윤리위원의... 국민의힘 당무감사실은 이날 공지를 통해 “오늘부로 황 윤리위원이 해임되었음을 알린다”며 “윤민우...",
+   "url": "https://www.munhwa.com/article/11634388?ref=naver",
+   "publishedAt": "2026-11-26T12:16:00+09:00",
+   "sentences": [
+    {
+     "id": "s1",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s2",
+     "text": "황 윤리위원의 의혹 제기에도 특별한 반응을 보이지 않았던 장동혁 대표가…",
+     "type": "opinion",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s3",
+     "text": null,
+     "type": "quote",
+     "sourceType": "opp",
+     "sourceName": "국민의힘 당무감사실",
+     "sourceDetail": null,
+     "party": "국민의힘"
+    },
+    {
+     "id": "s4",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s5",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s6",
+     "text": null,
+     "type": "quote",
+     "sourceType": "opp",
+     "sourceName": "윤 위원장",
+     "sourceDetail": null,
+     "party": "국민의힘"
+    },
+    {
+     "id": "s7",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s8",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s9",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s10",
+     "text": null,
+     "type": "quote",
+     "sourceType": "citizen",
+     "sourceName": "황 윤리위원",
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s11",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s12",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s13",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s14",
+     "text": null,
+     "type": "quote",
+     "sourceType": "citizen",
+     "sourceName": "황 윤리위원",
+     "sourceDetail": null,
+     "party": null
+    }
+   ],
+   "framingTerms": [
+    {
+     "term": "전격 해촉했다",
+     "sentenceId": "s1"
+    },
+    {
+     "term": "전망이 나온다",
+     "sentenceId": "s2"
+    },
+    {
+     "term": "연거푸 폭로하며",
+     "sentenceId": "s5"
+    },
+    {
+     "term": "반박한",
+     "sentenceId": "s6"
+    },
+    {
+     "term": "빗발치고 있다",
+     "sentenceId": "s8"
+    },
+    {
+     "term": "주장했다",
+     "sentenceId": "s10"
+    },
+    {
+     "term": "알려졌다",
+     "sentenceId": "s11"
+    },
+    {
+     "term": "알려졌다",
+     "sentenceId": "s12"
+    },
+    {
+     "term": "주장한",
+     "sentenceId": "s14"
+    }
+   ],
+   "analyzedBy": "gemini-3.5-flash-lite"
+  },
+  {
+   "id": "a-0bc4987b60",
+   "issueId": "auto-20261126-1342-1",
+   "outletId": "newsis",
+   "outletName": "뉴시스",
+   "title": "국힘, 최고위서 '조작 징계' 의혹 공개 설전…張 \"탈당·창당이라는 좋...",
+   "summary": "국민의힘 지도부는 26일 열린 최고위원회의에서 당 윤리위원의 제기한 한동훈... 당원과 국민을 기만하고, 공정한 심의를 기대했던 동료 의원들의 신뢰까지 저버린 일\"이라고 했다. 그는 \"이에...",
+   "url": "https://www.newsis.com/view/NISX20261126_0003884204",
+   "publishedAt": "2026-11-26T11:05:00+09:00",
+   "sentences": [
+    {
+     "id": "s1",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s2",
+     "text": null,
+     "type": "quote",
+     "sourceType": "opp",
+     "sourceName": "우재준 청년최고위원",
+     "sourceDetail": null,
+     "party": "국민의힘"
+    },
+    {
+     "id": "s3",
+     "text": null,
+     "type": "quote",
+     "sourceType": "opp",
+     "sourceName": "우재준 청년최고위원",
+     "sourceDetail": null,
+     "party": "국민의힘"
+    },
+    {
+     "id": "s4",
+     "text": null,
+     "type": "quote",
+     "sourceType": "opp",
+     "sourceName": "우재준 청년최고위원",
+     "sourceDetail": null,
+     "party": "국민의힘"
+    },
+    {
+     "id": "s5",
+     "text": null,
+     "type": "quote",
+     "sourceType": "opp",
+     "sourceName": "우재준 청년최고위원",
+     "sourceDetail": null,
+     "party": "국민의힘"
+    },
+    {
+     "id": "s6",
+     "text": null,
+     "type": "quote",
+     "sourceType": "opp",
+     "sourceName": "우재준 청년최고위원",
+     "sourceDetail": null,
+     "party": "국민의힘"
+    },
+    {
+     "id": "s7",
+     "text": null,
+     "type": "quote",
+     "sourceType": "opp",
+     "sourceName": "우재준 청년최고위원",
+     "sourceDetail": null,
+     "party": "국민의힘"
+    },
+    {
+     "id": "s8",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s9",
+     "text": null,
+     "type": "quote",
+     "sourceType": "opp",
+     "sourceName": "정점식 원내대표",
+     "sourceDetail": null,
+     "party": "국민의힘"
+    },
+    {
+     "id": "s10",
+     "text": null,
+     "type": "quote",
+     "sourceType": "opp",
+     "sourceName": "신동욱 최고위원",
+     "sourceDetail": null,
+     "party": "국민의힘"
+    },
+    {
+     "id": "s11",
+     "text": null,
+     "type": "quote",
+     "sourceType": "opp",
+     "sourceName": "신동욱 최고위원",
+     "sourceDetail": null,
+     "party": "국민의힘"
+    },
+    {
+     "id": "s12",
+     "text": null,
+     "type": "quote",
+     "sourceType": "opp",
+     "sourceName": "우재준 청년최고위원",
+     "sourceDetail": null,
+     "party": "국민의힘"
+    },
+    {
+     "id": "s13",
+     "text": null,
+     "type": "quote",
+     "sourceType": "opp",
+     "sourceName": "김민수 최고위원",
+     "sourceDetail": null,
+     "party": "국민의힘"
+    },
+    {
+     "id": "s14",
+     "text": null,
+     "type": "quote",
+     "sourceType": "opp",
+     "sourceName": "조광한 최고위원",
+     "sourceDetail": null,
+     "party": "국민의힘"
+    },
+    {
+     "id": "s15",
+     "text": null,
+     "type": "quote",
+     "sourceType": "opp",
+     "sourceName": "김재원 최고위원",
+     "sourceDetail": null,
+     "party": "조국혁신당"
+    },
+    {
+     "id": "s16",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    }
+   ],
+   "framingTerms": [
+    {
+     "term": "충돌했다",
+     "sentenceId": "s1"
+    },
+    {
+     "term": "전해졌다",
+     "sentenceId": "s2"
+    },
+    {
+     "term": "훼손하고",
+     "sentenceId": "s4"
+    },
+    {
+     "term": "기만하고",
+     "sentenceId": "s4"
+    },
+    {
+     "term": "저버린",
+     "sentenceId": "s4"
+    },
+    {
+     "term": "침해하고",
+     "sentenceId": "s5"
+    },
+    {
+     "term": "훼손한",
+     "sentenceId": "s5"
+    },
+    {
+     "term": "잘못된",
+     "sentenceId": "s7"
+    },
+    {
+     "term": "공방",
+     "sentenceId": "s8"
+    },
+    {
+     "term": "어려운",
+     "sentenceId": "s8"
+    },
+    {
+     "term": "일방적으로",
+     "sentenceId": "s10"
+    },
+    {
+     "term": "부당한",
+     "sentenceId": "s10"
+    },
+    {
+     "term": "침해됐다고",
+     "sentenceId": "s11"
+    },
+    {
+     "term": "반박했고",
+     "sentenceId": "s12"
+    },
+    {
+     "term": "잘못됐다고",
+     "sentenceId": "s12"
+    },
+    {
+     "term": "폭정",
+     "sentenceId": "s14"
+    },
+    {
+     "term": "해악을",
+     "sentenceId": "s14"
+    },
+    {
+     "term": "불량",
+     "sentenceId": "s14"
+    },
+    {
+     "term": "유포하는",
+     "sentenceId": "s15"
+    }
+   ],
+   "analyzedBy": "gemini-3.5-flash-lite"
+  },
+  {
+   "id": "a-b740494e0e",
+   "issueId": "auto-20261126-1342-1",
+   "outletId": "ytn",
+   "outletName": "YTN",
+   "title": "국민의힘 최고위서 '조작 징계' 고성 충돌...\"권한남용\" vs \"창당해라\"",
+   "summary": "국민의힘이 과거 한동훈 의원과 친한계 의원들에 대한 이른바 '조작 징계' 의혹으로 내홍에 휩싸인 가운데, 최고위원회의에서 공개 고성 설전이 벌어졌습니다. 친한계 우재준 최고위원은 오늘(26일) 최고위 회의에서, 윤리위...",
+   "url": "https://www.ytn.co.kr/_ln/0101_202611261134157410",
+   "publishedAt": "2026-11-26T11:34:00+09:00",
+   "sentences": [
+    {
+     "id": "s1",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s2",
+     "text": null,
+     "type": "quote",
+     "sourceType": "opp",
+     "sourceName": "우재준 최고위원",
+     "sourceDetail": null,
+     "party": "국민의힘"
+    },
+    {
+     "id": "s3",
+     "text": null,
+     "type": "quote",
+     "sourceType": "opp",
+     "sourceName": "신동욱 수석최고위원, 김재원 최고위원",
+     "sourceDetail": null,
+     "party": "국민의힘"
+    },
+    {
+     "id": "s4",
+     "text": null,
+     "type": "quote",
+     "sourceType": "opp",
+     "sourceName": "정점식 원내대표, 임이자 정책위의장은",
+     "sourceDetail": null,
+     "party": "국민의힘"
+    },
+    {
+     "id": "s5",
+     "text": null,
+     "type": "quote",
+     "sourceType": "opp",
+     "sourceName": "우 최고위원",
+     "sourceDetail": null,
+     "party": "국민의힘"
+    },
+    {
+     "id": "s6",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    }
+   ],
+   "framingTerms": [
+    {
+     "term": "내홍에 휩싸인",
+     "sentenceId": "s1"
+    },
+    {
+     "term": "촉구했습니다",
+     "sentenceId": "s2"
+    },
+    {
+     "term": "반문했고",
+     "sentenceId": "s3"
+    },
+    {
+     "term": "요구했습니다",
+     "sentenceId": "s3"
+    },
+    {
+     "term": "내비쳤습니다",
+     "sentenceId": "s4"
+    },
+    {
+     "term": "주장했습니다",
+     "sentenceId": "s5"
+    }
+   ],
+   "analyzedBy": "gemini-3.5-flash-lite"
+  },
+  {
+   "id": "a-1689456e65",
+   "issueId": "auto-20261126-1342-1",
+   "outletId": "chosun",
+   "outletName": "조선일보",
+   "title": "“당 꼬라지하고는” “탈당해라”… 국힘 최고위서 ‘윤리위 내홍’",
+   "summary": "당원게시판 사건이 100% 조작이라는 확신이 있다면 국회의원직을 걸기 바란다”고 했다. 그러자 우 최고위원은 “장동혁 대표의 사적 징계 의혹은 최고위의 심의·의결권을 침해하고 윤리위의 독립성을 무너뜨린 중대한...",
+   "url": "https://www.chosun.com/politics/assembly/2026/11/26/UJ3U7E2OLFEIPCXQTFYQBUYSJU/?utm_source=naver&utm_medium=referral&utm_campaign=naver-news",
+   "publishedAt": "2026-11-26T12:13:00+09:00",
+   "sentences": [
+    {
+     "id": "s1",
+     "text": null,
+     "type": "quote",
+     "sourceType": "etc",
+     "sourceName": "한동훈 의원",
+     "sourceDetail": "무소속 의원",
+     "party": null
+    },
+    {
+     "id": "s2",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s3",
+     "text": null,
+     "type": "quote",
+     "sourceType": "etc",
+     "sourceName": "한 의원",
+     "sourceDetail": "무소속 의원",
+     "party": null
+    },
+    {
+     "id": "s4",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s5",
+     "text": null,
+     "type": "quote",
+     "sourceType": "opp",
+     "sourceName": "황경성 국민의힘 윤리위원",
+     "sourceDetail": null,
+     "party": "국민의힘"
+    }
+   ],
+   "framingTerms": [
+    {
+     "term": "알려졌다",
+     "sentenceId": "s2"
+    }
+   ],
+   "analyzedBy": "gemini-3.5-flash-lite"
+  },
+  {
+   "id": "a-d5f9370469",
+   "issueId": "auto-20261126-1342-1",
+   "outletId": "munhwa",
+   "outletName": "문화일보",
+   "title": "정점식 “당 꼬라지하고는”…최고위서 자리 박차고나가",
+   "summary": "우 최고위원은 이날 오전 국회에서 열린 최고위원회의에서 “당무감사위원회, 윤리위원회 구성, 당원의 제명 모두 최고위 의결을 통해 이뤄졌다”며 “이번 장 대표의 사적 징계 의혹은 최고위의 심의·의결권을 침해하고...",
+   "url": "https://www.munhwa.com/article/11634385?ref=naver",
+   "publishedAt": "2026-11-26T12:15:00+09:00",
+   "sentences": [
+    {
+     "id": "s1",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s2",
+     "text": null,
+     "type": "quote",
+     "sourceType": "opp",
+     "sourceName": "장 대표",
+     "sourceDetail": null,
+     "party": "국민의힘"
+    },
+    {
+     "id": "s3",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s4",
+     "text": null,
+     "type": "quote",
+     "sourceType": "opp",
+     "sourceName": "우 최고위원",
+     "sourceDetail": null,
+     "party": "국민의힘"
+    },
+    {
+     "id": "s5",
+     "text": null,
+     "type": "quote",
+     "sourceType": "opp",
+     "sourceName": "우 최고위원",
+     "sourceDetail": null,
+     "party": "국민의힘"
+    },
+    {
+     "id": "s6",
+     "text": null,
+     "type": "quote",
+     "sourceType": "opp",
+     "sourceName": "조광한 최고위원",
+     "sourceDetail": null,
+     "party": "국민의힘"
+    },
+    {
+     "id": "s7",
+     "text": null,
+     "type": "quote",
+     "sourceType": "opp",
+     "sourceName": "임이자 정책위의장은",
+     "sourceDetail": null,
+     "party": "국민의힘"
+    },
+    {
+     "id": "s8",
+     "text": null,
+     "type": "quote",
+     "sourceType": "opp",
+     "sourceName": "신동욱 최고위원",
+     "sourceDetail": null,
+     "party": "국민의힘"
+    },
+    {
+     "id": "s9",
+     "text": null,
+     "type": "quote",
+     "sourceType": "opp",
+     "sourceName": "정 원내대표",
+     "sourceDetail": null,
+     "party": "국민의힘"
+    },
+    {
+     "id": "s10",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s11",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s12",
+     "text": null,
+     "type": "quote",
+     "sourceType": "opp",
+     "sourceName": "김재원 최고위원",
+     "sourceDetail": null,
+     "party": "조국혁신당"
+    },
+    {
+     "id": "s13",
+     "text": null,
+     "type": "quote",
+     "sourceType": "opp",
+     "sourceName": "김민수 최고위원",
+     "sourceDetail": null,
+     "party": "국민의힘"
+    },
+    {
+     "id": "s14",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s15",
+     "text": null,
+     "type": "quote",
+     "sourceType": "opp",
+     "sourceName": "우 최고위원",
+     "sourceDetail": null,
+     "party": "국민의힘"
+    }
+   ],
+   "framingTerms": [
+    {
+     "term": "표출됐다",
+     "sentenceId": "s1"
+    },
+    {
+     "term": "맹비난했다",
+     "sentenceId": "s6"
+    },
+    {
+     "term": "탄식했다",
+     "sentenceId": "s7"
+    },
+    {
+     "term": "중재했지만",
+     "sentenceId": "s9"
+    },
+    {
+     "term": "설전은 이어졌다",
+     "sentenceId": "s11"
+    }
+   ],
+   "analyzedBy": "gemini-3.5-flash-lite"
+  },
+  {
+   "id": "a-9c82930040",
+   "issueId": "auto-20261126-1342-1",
+   "outletId": "dt",
+   "outletName": "디지털타임스",
+   "title": "‘조작징계’ 의혹 비판한 우재준에… 張 “탈당과 창당이란 좋은 제도...",
+   "summary": "이날 오전 국회에서 열린 국민의힘 최고위원회의에서 우 최고위원은 “당무감사위원회, 윤리위원회 구성, 당원의 제명 모두 최고위 의결을 통해 이루어졌다”며 “그런 점에서 이번 장 당 대표의 ‘사적 징계’ 의혹은...",
+   "url": "https://www.dt.co.kr/article/12097390?ref=naver",
+   "publishedAt": "2026-11-26T12:29:00+09:00",
+   "sentences": [
+    {
+     "id": "s1",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s2",
+     "text": null,
+     "type": "quote",
+     "sourceType": "opp",
+     "sourceName": "우재준 최고위원",
+     "sourceDetail": null,
+     "party": "국민의힘"
+    },
+    {
+     "id": "s3",
+     "text": null,
+     "type": "quote",
+     "sourceType": "opp",
+     "sourceName": "신동욱 최고위원",
+     "sourceDetail": null,
+     "party": "국민의힘"
+    },
+    {
+     "id": "s4",
+     "text": null,
+     "type": "quote",
+     "sourceType": "opp",
+     "sourceName": "우 최고위원",
+     "sourceDetail": null,
+     "party": "국민의힘"
+    },
+    {
+     "id": "s5",
+     "text": null,
+     "type": "quote",
+     "sourceType": "opp",
+     "sourceName": "우 최고위원",
+     "sourceDetail": null,
+     "party": "국민의힘"
+    },
+    {
+     "id": "s6",
+     "text": null,
+     "type": "quote",
+     "sourceType": "opp",
+     "sourceName": "우 최고위원",
+     "sourceDetail": null,
+     "party": "국민의힘"
+    },
+    {
+     "id": "s7",
+     "text": null,
+     "type": "quote",
+     "sourceType": "opp",
+     "sourceName": "우 최고위원",
+     "sourceDetail": null,
+     "party": "국민의힘"
+    },
+    {
+     "id": "s8",
+     "text": null,
+     "type": "quote",
+     "sourceType": "opp",
+     "sourceName": "신동욱 최고위원",
+     "sourceDetail": null,
+     "party": "국민의힘"
+    },
+    {
+     "id": "s9",
+     "text": null,
+     "type": "quote",
+     "sourceType": "opp",
+     "sourceName": "신동욱 최고위원",
+     "sourceDetail": null,
+     "party": "국민의힘"
+    },
+    {
+     "id": "s10",
+     "text": null,
+     "type": "quote",
+     "sourceType": "opp",
+     "sourceName": "김민수 최고위원",
+     "sourceDetail": null,
+     "party": "국민의힘"
+    },
+    {
+     "id": "s11",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s12",
+     "text": null,
+     "type": "quote",
+     "sourceType": "opp",
+     "sourceName": "우 최고위원",
+     "sourceDetail": null,
+     "party": "국민의힘"
+    }
+   ],
+   "framingTerms": [
+    {
+     "term": "터져 나오고 있다",
+     "sentenceId": "s1"
+    },
+    {
+     "term": "맞불을 놨다",
+     "sentenceId": "s3"
+    },
+    {
+     "term": "지적했다",
+     "sentenceId": "s5"
+    },
+    {
+     "term": "비판했다",
+     "sentenceId": "s6"
+    },
+    {
+     "term": "비판했다",
+     "sentenceId": "s10"
+    }
+   ],
+   "analyzedBy": "gemini-3.5-flash-lite"
+  },
+  {
+   "id": "a-caa7a99afe",
+   "issueId": "auto-20261126-1342-1",
+   "outletId": "nocutnews",
+   "outletName": "노컷뉴스",
+   "title": "\"저도 제명하려 했습니까?\" 우재준, 장동혁 공개 저격…국힘 최고위 '아...",
+   "summary": "26일 국회에서 열린 국민의힘 최고위원회의에서 윤리위원회의 이른바 '조작 징계' 의혹을 둘러싸고 지도부가 공개 충돌했습니다. 우재준 최고위원은 장동혁 대표의 사적 징계 의혹을 제기하며 개입 경위에 대한 설명과...",
+   "url": "https://www.nocutnews.co.kr/news/6612978?utm_source=naver&utm_medium=article&utm_campaign=20261126113524",
+   "publishedAt": "2026-11-26T11:36:00+09:00",
+   "sentences": [
+    {
+     "id": "s1",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s2",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s3",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s4",
+     "text": null,
+     "type": "quote",
+     "sourceType": "opp",
+     "sourceName": "우 최고위원",
+     "sourceDetail": null,
+     "party": "국민의힘"
+    },
+    {
+     "id": "s5",
+     "text": null,
+     "type": "quote",
+     "sourceType": "etc",
+     "sourceName": "익명(소속 미상)",
+     "sourceDetail": "익명(소속 미상)",
+     "party": null
+    },
+    {
+     "id": "s6",
+     "text": "영상으로 확인해 보시죠.",
+     "type": "opinion",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    }
+   ],
+   "framingTerms": [
+    {
+     "term": "반발하면서",
+     "sentenceId": "s2"
+    },
+    {
+     "term": "따져 물었습니다",
+     "sentenceId": "s4"
+    }
+   ],
+   "analyzedBy": "gemini-3.5-flash-lite"
+  },
+  {
+   "id": "a-5c959240d3",
+   "issueId": "auto-20261126-1342-1",
+   "outletId": "heraldcorp",
+   "outletName": "헤럴드경제",
+   "title": "野, ‘조작징계’ 의혹 두고 공개 설전…“공개사과”vs“탈당·창당 있...",
+   "summary": "국민의힘 지도부가 26일 윤리위원회의 ‘조작징계’ 의혹을 두고 최고위원회의에서 공개 설전을 벌였다.... 이날 오전 국민의힘 최고위원회의는 대여투쟁 메시지보다 내홍이 화두에 올랐다. 우 최고위원은 “당의 권한이 한...",
+   "url": "https://biz.heraldcorp.com/article/10950271?ref=naver",
+   "publishedAt": "2026-11-26T12:01:00+09:00",
+   "sentences": [
+    {
+     "id": "s1",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s2",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s3",
+     "text": "이날 오전 국민의힘 최고위원회의는 대여투쟁 메시지보다 내홍이 화두에 올랐…",
+     "type": "opinion",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s4",
+     "text": null,
+     "type": "quote",
+     "sourceType": "opp",
+     "sourceName": "우재준",
+     "sourceDetail": null,
+     "party": "국민의힘"
+    },
+    {
+     "id": "s5",
+     "text": null,
+     "type": "quote",
+     "sourceType": "opp",
+     "sourceName": "우재준",
+     "sourceDetail": null,
+     "party": "국민의힘"
+    },
+    {
+     "id": "s6",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s7",
+     "text": null,
+     "type": "quote",
+     "sourceType": "opp",
+     "sourceName": "조광한",
+     "sourceDetail": null,
+     "party": "국민의힘"
+    },
+    {
+     "id": "s8",
+     "text": null,
+     "type": "quote",
+     "sourceType": "opp",
+     "sourceName": "신동욱",
+     "sourceDetail": null,
+     "party": "국민의힘"
+    },
+    {
+     "id": "s9",
+     "text": null,
+     "type": "quote",
+     "sourceType": "opp",
+     "sourceName": "김민수",
+     "sourceDetail": null,
+     "party": "국민의힘"
+    },
+    {
+     "id": "s10",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s11",
+     "text": null,
+     "type": "quote",
+     "sourceType": "opp",
+     "sourceName": "우재준",
+     "sourceDetail": null,
+     "party": "국민의힘"
+    },
+    {
+     "id": "s12",
+     "text": null,
+     "type": "quote",
+     "sourceType": "opp",
+     "sourceName": "우재준",
+     "sourceDetail": null,
+     "party": "국민의힘"
+    }
+   ],
+   "framingTerms": [
+    {
+     "term": "설전을 벌였다",
+     "sentenceId": "s1"
+    },
+    {
+     "term": "맞선 것으로 전해졌다",
+     "sentenceId": "s2"
+    },
+    {
+     "term": "화두에 올랐다",
+     "sentenceId": "s3"
+    },
+    {
+     "term": "지적했다",
+     "sentenceId": "s4"
+    },
+    {
+     "term": "촉구했다",
+     "sentenceId": "s5"
+    },
+    {
+     "term": "반발했다",
+     "sentenceId": "s6"
+    },
+    {
+     "term": "비판했다",
+     "sentenceId": "s7"
+    },
+    {
+     "term": "반발했다",
+     "sentenceId": "s8"
+    },
+    {
+     "term": "설전이 오가자",
+     "sentenceId": "s10"
+    }
+   ],
+   "analyzedBy": "gemini-3.5-flash-lite"
+  },
+  {
+   "id": "a-d0bf31e594",
+   "issueId": "auto-20261126-1342-1",
+   "outletId": "metroseoul",
+   "outletName": "메트로신문",
+   "title": "'한동훈·배현진 징계 조작 의혹'에 野 공개 충돌… 우재준 \"장동혁 공개...",
+   "summary": "사진은 장 대표가 이날 오전 서울 여의도 국회에서 열린 최고위원회의에 참석해 발언하고 있는 모습./뉴시스... 우재준 최고위원은 이날 오전 서울 여의도 국회에서 열린 최고위원회의에서 장 대표를 향해 \"이번 정치적 징계...",
+   "url": "http://www.metroseoul.co.kr/article/20261126500272",
+   "publishedAt": "2026-11-26T13:04:00+09:00",
+   "sentences": [
+    {
+     "id": "s1",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s2",
+     "text": null,
+     "type": "quote",
+     "sourceType": "opp",
+     "sourceName": "조광한 최고위원",
+     "sourceDetail": null,
+     "party": "국민의힘"
+    },
+    {
+     "id": "s3",
+     "text": null,
+     "type": "quote",
+     "sourceType": "opp",
+     "sourceName": "우재준 최고위원",
+     "sourceDetail": null,
+     "party": "국민의힘"
+    },
+    {
+     "id": "s4",
+     "text": null,
+     "type": "quote",
+     "sourceType": "opp",
+     "sourceName": "우재준 최고위원",
+     "sourceDetail": null,
+     "party": "국민의힘"
+    },
+    {
+     "id": "s5",
+     "text": null,
+     "type": "quote",
+     "sourceType": "opp",
+     "sourceName": "우재준 최고위원",
+     "sourceDetail": null,
+     "party": "국민의힘"
+    },
+    {
+     "id": "s6",
+     "text": null,
+     "type": "quote",
+     "sourceType": "opp",
+     "sourceName": "우재준 최고위원",
+     "sourceDetail": null,
+     "party": "국민의힘"
+    },
+    {
+     "id": "s7",
+     "text": null,
+     "type": "quote",
+     "sourceType": "opp",
+     "sourceName": "우재준 최고위원",
+     "sourceDetail": null,
+     "party": "국민의힘"
+    },
+    {
+     "id": "s8",
+     "text": null,
+     "type": "quote",
+     "sourceType": "opp",
+     "sourceName": "우재준 최고위원",
+     "sourceDetail": null,
+     "party": "국민의힘"
+    },
+    {
+     "id": "s9",
+     "text": null,
+     "type": "quote",
+     "sourceType": "opp",
+     "sourceName": "조광한 최고위원",
+     "sourceDetail": null,
+     "party": "국민의힘"
+    },
+    {
+     "id": "s10",
+     "text": null,
+     "type": "quote",
+     "sourceType": "opp",
+     "sourceName": "조광한 최고위원",
+     "sourceDetail": null,
+     "party": "국민의힘"
+    },
+    {
+     "id": "s11",
+     "text": null,
+     "type": "quote",
+     "sourceType": "opp",
+     "sourceName": "신동욱 최고위원",
+     "sourceDetail": null,
+     "party": "국민의힘"
+    },
+    {
+     "id": "s12",
+     "text": null,
+     "type": "quote",
+     "sourceType": "opp",
+     "sourceName": "신동욱 최고위원",
+     "sourceDetail": null,
+     "party": "국민의힘"
+    },
+    {
+     "id": "s13",
+     "text": null,
+     "type": "quote",
+     "sourceType": "opp",
+     "sourceName": "우재준 최고위원",
+     "sourceDetail": null,
+     "party": "국민의힘"
+    },
+    {
+     "id": "s14",
+     "text": null,
+     "type": "quote",
+     "sourceType": "opp",
+     "sourceName": "우재준 최고위원",
+     "sourceDetail": null,
+     "party": "국민의힘"
+    },
+    {
+     "id": "s15",
+     "text": null,
+     "type": "quote",
+     "sourceType": "opp",
+     "sourceName": "김재원 최고위원",
+     "sourceDetail": null,
+     "party": "조국혁신당"
+    },
+    {
+     "id": "s16",
+     "text": null,
+     "type": "quote",
+     "sourceType": "opp",
+     "sourceName": "김재원 최고위원",
+     "sourceDetail": null,
+     "party": "조국혁신당"
+    },
+    {
+     "id": "s17",
+     "text": null,
+     "type": "quote",
+     "sourceType": "opp",
+     "sourceName": "김민수 최고위원",
+     "sourceDetail": null,
+     "party": "국민의힘"
+    },
+    {
+     "id": "s18",
+     "text": null,
+     "type": "quote",
+     "sourceType": "opp",
+     "sourceName": "김민수 최고위원",
+     "sourceDetail": null,
+     "party": "국민의힘"
+    },
+    {
+     "id": "s19",
+     "text": null,
+     "type": "quote",
+     "sourceType": "opp",
+     "sourceName": "우재준 최고위원",
+     "sourceDetail": null,
+     "party": "국민의힘"
+    },
+    {
+     "id": "s20",
+     "text": null,
+     "type": "quote",
+     "sourceType": "opp",
+     "sourceName": "신동욱 최고위원",
+     "sourceDetail": null,
+     "party": "국민의힘"
+    },
+    {
+     "id": "s21",
+     "text": null,
+     "type": "quote",
+     "sourceType": "opp",
+     "sourceName": "우재준 최고위원",
+     "sourceDetail": null,
+     "party": "국민의힘"
+    },
+    {
+     "id": "s22",
+     "text": null,
+     "type": "quote",
+     "sourceType": "opp",
+     "sourceName": "우재준 최고위원",
+     "sourceDetail": null,
+     "party": "국민의힘"
+    },
+    {
+     "id": "s23",
+     "text": null,
+     "type": "quote",
+     "sourceType": "opp",
+     "sourceName": "우재준 최고위원",
+     "sourceDetail": null,
+     "party": "국민의힘"
+    },
+    {
+     "id": "s24",
+     "text": null,
+     "type": "quote",
+     "sourceType": "opp",
+     "sourceName": "우재준 최고위원",
+     "sourceDetail": null,
+     "party": "국민의힘"
+    },
+    {
+     "id": "s25",
+     "text": null,
+     "type": "quote",
+     "sourceType": "opp",
+     "sourceName": "최보윤 수석대변인",
+     "sourceDetail": null,
+     "party": "국민의힘"
+    },
+    {
+     "id": "s26",
+     "text": null,
+     "type": "quote",
+     "sourceType": "opp",
+     "sourceName": "최보윤 수석대변인",
+     "sourceDetail": null,
+     "party": "국민의힘"
+    },
+    {
+     "id": "s27",
+     "text": null,
+     "type": "quote",
+     "sourceType": "opp",
+     "sourceName": "최보윤 수석대변인",
+     "sourceDetail": null,
+     "party": "국민의힘"
+    },
+    {
+     "id": "s28",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s29",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s30",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s31",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s32",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s33",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s34",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s35",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    }
+   ],
+   "framingTerms": [
+    {
+     "term": "정면충돌했다",
+     "sentenceId": "s1"
+    },
+    {
+     "term": "날을 세웠다",
+     "sentenceId": "s2"
+    },
+    {
+     "term": "주장했다",
+     "sentenceId": "s5"
+    },
+    {
+     "term": "제기했다",
+     "sentenceId": "s7"
+    },
+    {
+     "term": "비판했다",
+     "sentenceId": "s8"
+    },
+    {
+     "term": "따져 물었다",
+     "sentenceId": "s11"
+    },
+    {
+     "term": "목소리를 높였다",
+     "sentenceId": "s17"
+    },
+    {
+     "term": "질책했다",
+     "sentenceId": "s18"
+    },
+    {
+     "term": "해임됐다",
+     "sentenceId": "s28"
+    }
+   ],
+   "analyzedBy": "gemini-3.5-flash-lite"
+  },
+  {
+   "id": "a-b7d1e078da",
+   "issueId": "auto-20261126-1346-1",
+   "outletId": "yna",
+   "outletName": "연합뉴스",
+   "title": "정성호 \"조희대 탄핵시 후과…국민 설득하고 명분 더 쌓아야\"",
+   "summary": "김영진 \"탄핵시 책임 회피 방법 없다\"면서도 \"당론 결정 따라야\" 더불어민주당이 조희대 대법원장 탄핵 소추에 속도를 내는 가운데 친명(친이재명)계 좌장인 정성호 의원이 26일 신중한 입장을 재차 피력했다. 5선인 정...",
+   "url": "https://www.yna.co.kr/view/AKR20261126060700001?input=1195m",
+   "publishedAt": "2026-11-26T10:29:00+09:00",
+   "sentences": [
+    {
+     "id": "s1",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s2",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s3",
+     "text": null,
+     "type": "quote",
+     "sourceType": "gov",
+     "sourceName": "정성호 의원",
+     "sourceDetail": null,
+     "party": "더불어민주당"
+    },
+    {
+     "id": "s4",
+     "text": null,
+     "type": "quote",
+     "sourceType": "gov",
+     "sourceName": "정성호 의원",
+     "sourceDetail": null,
+     "party": "더불어민주당"
+    },
+    {
+     "id": "s5",
+     "text": null,
+     "type": "quote",
+     "sourceType": "gov",
+     "sourceName": "정성호 의원",
+     "sourceDetail": null,
+     "party": "더불어민주당"
+    },
+    {
+     "id": "s6",
+     "text": null,
+     "type": "quote",
+     "sourceType": "gov",
+     "sourceName": "정성호 의원",
+     "sourceDetail": null,
+     "party": "더불어민주당"
+    },
+    {
+     "id": "s7",
+     "text": null,
+     "type": "quote",
+     "sourceType": "gov",
+     "sourceName": "정성호 의원",
+     "sourceDetail": null,
+     "party": "더불어민주당"
+    },
+    {
+     "id": "s8",
+     "text": null,
+     "type": "quote",
+     "sourceType": "gov",
+     "sourceName": "김영진 의원",
+     "sourceDetail": null,
+     "party": "더불어민주당"
+    },
+    {
+     "id": "s9",
+     "text": null,
+     "type": "quote",
+     "sourceType": "gov",
+     "sourceName": "김영진 의원",
+     "sourceDetail": null,
+     "party": "더불어민주당"
+    },
+    {
+     "id": "s10",
+     "text": null,
+     "type": "quote",
+     "sourceType": "gov",
+     "sourceName": "김영진 의원",
+     "sourceDetail": null,
+     "party": "더불어민주당"
+    },
+    {
+     "id": "s11",
+     "text": "이는 탄핵 추진이 당론으로 결정된 만큼 이제는 불가피하게 됐다는 의미로…",
+     "type": "opinion",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s12",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    }
+   ],
+   "framingTerms": [
+    {
+     "term": "풀이된다",
+     "sentenceId": "s11"
+    }
+   ],
+   "analyzedBy": "gemini-3.5-flash-lite"
+  },
+  {
+   "id": "a-8d5b8b8eb1",
+   "issueId": "auto-20261126-1346-1",
+   "outletId": "newsis",
+   "outletName": "뉴시스",
+   "title": "與 일각서 '조희대 탄핵' 신중론…\"후과 책임져야\" \"책임 회피 방법 없어...",
+   "summary": "더불어민주당이 조희대 대법원장에 대한 탄핵을 추진하는 가운데 26일 당내에서도 \"후과에 대한 책임은 여당이 져야 한다\"며 우려하는 목소리가 나왔다. 이재명 정부 초대 법무부 장관을 지낸 정성호 민주당 의원은 이날 CBS...",
+   "url": "https://www.newsis.com/view/NISX20261126_0003884051",
+   "publishedAt": "2026-11-26T10:20:00+09:00",
+   "sentences": [
+    {
+     "id": "s1",
+     "text": null,
+     "type": "quote",
+     "sourceType": "gov",
+     "sourceName": "당내 관계자",
+     "sourceDetail": null,
+     "party": "더불어민주당"
+    },
+    {
+     "id": "s2",
+     "text": null,
+     "type": "quote",
+     "sourceType": "gov",
+     "sourceName": "정성호 의원",
+     "sourceDetail": null,
+     "party": "더불어민주당"
+    },
+    {
+     "id": "s3",
+     "text": null,
+     "type": "quote",
+     "sourceType": "gov",
+     "sourceName": "정성호 의원",
+     "sourceDetail": null,
+     "party": "더불어민주당"
+    },
+    {
+     "id": "s4",
+     "text": null,
+     "type": "quote",
+     "sourceType": "gov",
+     "sourceName": "정성호 의원",
+     "sourceDetail": null,
+     "party": "더불어민주당"
+    },
+    {
+     "id": "s5",
+     "text": null,
+     "type": "quote",
+     "sourceType": "gov",
+     "sourceName": "정성호 의원",
+     "sourceDetail": null,
+     "party": "더불어민주당"
+    },
+    {
+     "id": "s6",
+     "text": null,
+     "type": "quote",
+     "sourceType": "gov",
+     "sourceName": "정성호 의원",
+     "sourceDetail": null,
+     "party": "더불어민주당"
+    },
+    {
+     "id": "s7",
+     "text": null,
+     "type": "quote",
+     "sourceType": "gov",
+     "sourceName": "김영진 의원",
+     "sourceDetail": null,
+     "party": "더불어민주당"
+    },
+    {
+     "id": "s8",
+     "text": null,
+     "type": "quote",
+     "sourceType": "gov",
+     "sourceName": "김영진 의원",
+     "sourceDetail": null,
+     "party": "더불어민주당"
+    },
+    {
+     "id": "s9",
+     "text": "다만, 민주당이 조희대 대법원장 탄핵을 추진하기로 결정한 만큼 '속도전'…",
+     "type": "opinion",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s10",
+     "text": null,
+     "type": "quote",
+     "sourceType": "gov",
+     "sourceName": "윤건영 의원",
+     "sourceDetail": null,
+     "party": "더불어민주당"
+    },
+    {
+     "id": "s11",
+     "text": null,
+     "type": "quote",
+     "sourceType": "gov",
+     "sourceName": "윤건영 의원",
+     "sourceDetail": null,
+     "party": "더불어민주당"
+    },
+    {
+     "id": "s12",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s13",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s14",
+     "text": null,
+     "type": "quote",
+     "sourceType": "etc",
+     "sourceName": "원내 관계자",
+     "sourceDetail": "익명(소속 미상)",
+     "party": null
+    }
+   ],
+   "framingTerms": [],
+   "analyzedBy": "gemini-3.5-flash-lite"
+  },
+  {
+   "id": "a-23508c06f9",
+   "issueId": "auto-20261126-1346-1",
+   "outletId": "kbs",
+   "outletName": "KBS",
+   "title": "‘친명’ 정성호·김영진 “대법원장 탄핵에 대한 책임, 여당이 져야…...",
+   "summary": "더불어민주당이 조희대 대법원장 탄핵 소추에 속도를 내는 가운데 친명계(친이재명계) 좌장인 정성호 의원이 \"국민들에게 충분히 설득하고 더 명분을 쌓아야 된다\"며 재차 신중한 입장을 밝혔습니다. 민주당 정성호...",
+   "url": "https://news.kbs.co.kr/news/pc/view/view.do?ncd=8723249&ref=A",
+   "publishedAt": "2026-11-26T11:38:00+09:00",
+   "sentences": [
+    {
+     "id": "s1",
+     "text": null,
+     "type": "quote",
+     "sourceType": "gov",
+     "sourceName": "정성호·김영진",
+     "sourceDetail": null,
+     "party": "더불어민주당"
+    },
+    {
+     "id": "s2",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s3",
+     "text": null,
+     "type": "quote",
+     "sourceType": "gov",
+     "sourceName": "정성호",
+     "sourceDetail": null,
+     "party": "더불어민주당"
+    },
+    {
+     "id": "s4",
+     "text": null,
+     "type": "quote",
+     "sourceType": "gov",
+     "sourceName": "정성호",
+     "sourceDetail": null,
+     "party": "더불어민주당"
+    },
+    {
+     "id": "s5",
+     "text": null,
+     "type": "quote",
+     "sourceType": "gov",
+     "sourceName": "정성호",
+     "sourceDetail": null,
+     "party": "더불어민주당"
+    },
+    {
+     "id": "s6",
+     "text": null,
+     "type": "quote",
+     "sourceType": "gov",
+     "sourceName": "김영진",
+     "sourceDetail": null,
+     "party": "더불어민주당"
+    },
+    {
+     "id": "s7",
+     "text": null,
+     "type": "quote",
+     "sourceType": "gov",
+     "sourceName": "김영진",
+     "sourceDetail": null,
+     "party": "더불어민주당"
+    },
+    {
+     "id": "s8",
+     "text": null,
+     "type": "quote",
+     "sourceType": "gov",
+     "sourceName": "김영진",
+     "sourceDetail": null,
+     "party": "더불어민주당"
+    },
+    {
+     "id": "s9",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    }
+   ],
+   "framingTerms": [],
+   "analyzedBy": "gemini-3.5-flash-lite"
+  },
+  {
+   "id": "a-878cbd7694",
+   "issueId": "auto-20261126-1346-1",
+   "outletId": "joongang",
+   "outletName": "중앙일보",
+   "title": "與 정성호 “조희대 탄핵시 후과, 책임은 집권 여당이 져야”",
+   "summary": "친명(친이재명)계 좌장인 정성호 더불어민주당 의원이 26일 당의 조희대 대법원장 탄핵 추진에 대해 “당론으로 결정됐으니까 따라가겠지만, 그 책임, 최종적인 그 후과에 대한 책임은 집권당인 여당이 져야 된다”고...",
+   "url": "https://www.joongang.co.kr/article/25482181",
+   "publishedAt": "2026-11-26T11:29:00+09:00",
+   "sentences": [
+    {
+     "id": "s1",
+     "text": null,
+     "type": "quote",
+     "sourceType": "gov",
+     "sourceName": "정성호 더불어민주당 의원",
+     "sourceDetail": null,
+     "party": "더불어민주당"
+    },
+    {
+     "id": "s2",
+     "text": null,
+     "type": "quote",
+     "sourceType": "gov",
+     "sourceName": "정 의원",
+     "sourceDetail": null,
+     "party": "더불어민주당"
+    },
+    {
+     "id": "s3",
+     "text": null,
+     "type": "quote",
+     "sourceType": "gov",
+     "sourceName": "정 의원",
+     "sourceDetail": null,
+     "party": "더불어민주당"
+    },
+    {
+     "id": "s4",
+     "text": null,
+     "type": "quote",
+     "sourceType": "gov",
+     "sourceName": "정 의원",
+     "sourceDetail": null,
+     "party": "더불어민주당"
+    },
+    {
+     "id": "s5",
+     "text": null,
+     "type": "quote",
+     "sourceType": "gov",
+     "sourceName": "정 의원",
+     "sourceDetail": null,
+     "party": "더불어민주당"
+    },
+    {
+     "id": "s6",
+     "text": null,
+     "type": "quote",
+     "sourceType": "gov",
+     "sourceName": "정 의원",
+     "sourceDetail": null,
+     "party": "더불어민주당"
+    }
+   ],
+   "framingTerms": [],
+   "analyzedBy": "gemini-3.5-flash-lite"
+  },
+  {
+   "id": "a-0f84fbc6f4",
+   "issueId": "auto-20261126-1346-1",
+   "outletId": "mediatoday",
+   "outletName": "미디어오늘",
+   "title": "정성호 \"조희대 탄핵 후과 결국 여당 책임…헌재도 국민 부담 느낄 것\"",
+   "summary": "조희대 대법원장 탄핵을 추진하기로 한 더불어민주당 내부에서도 우려의 목소리가 나오고 있다. 다른 범여권 정당들과 연대하겠다는 입장에 대해서도 집권여당인 민주당이 탄핵 심판 결과에 대한 모든 책임을 질 수밖에...",
+   "url": "https://www.mediatoday.co.kr/news/articleView.html?idxno=338720",
+   "publishedAt": "2026-11-26T11:24:00+09:00",
+   "sentences": [
+    {
+     "id": "s1",
+     "text": "조희대 대법원장 탄핵을 추진하기로 한 더불어민주당 내부에서도 우려의 목소…",
+     "type": "opinion",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s2",
+     "text": "다른 범여권 정당들과 연대하겠다는 입장에 대해서도 집권여당인 민주당이 탄…",
+     "type": "opinion",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s3",
+     "text": "헌법재판소 역시 헌법과 법률 위반이 드러나지 않을 경우 인용할 수 있겠느…",
+     "type": "opinion",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s4",
+     "text": null,
+     "type": "fact",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s5",
+     "text": "다만 잘못된 판결을 했다고 해서 이를 계기로 법관 탄핵을 하겠다는 것 역…",
+     "type": "opinion",
+     "sourceType": null,
+     "sourceName": null,
+     "sourceDetail": null,
+     "party": null
+    },
+    {
+     "id": "s6",
+     "text": null,
+     "type": "quote",
+     "sourceType": "gov",
+     "sourceName": "정성호",
+     "sourceDetail": null,
+     "party": "더불어민주당"
+    },
+    {
+     "id": "s7",
+     "text": null,
+     "type": "quote",
+     "sourceType": "gov",
+     "sourceName": "정성호",
+     "sourceDetail": null,
+     "party": "더불어민주당"
+    },
+    {
+     "id": "s8",
+     "text": null,
+     "type": "quote",
+     "sourceType": "gov",
+     "sourceName": "정성호",
+     "sourceDetail": null,
+     "party": "더불어민주당"
+    },
+    {
+     "id": "s9",
+     "text": null,
+     "type": "quote",
+     "sourceType": "gov",
+     "sourceName": "정성호",
+     "sourceDetail": null,
+     "party": "더불어민주당"
+    },
+    {
+     "id": "s10",
+     "text": null,
+     "type": "quote",
+     "sourceType": "gov",
+     "sourceName": "김영진",
+     "sourceDetail": null,
+     "party": "더불어민주당"
+    },
+    {
+     "id": "s11",
+     "text": null,
+     "type": "quote",
+     "sourceType": "gov",
+     "sourceName": "김영진",
+     "sourceDetail": null,
+     "party": "더불어민주당"
+    },
+    {
+     "id": "s12",
+     "text": null,
+     "type": "quote",
+     "sourceType": "gov",
+     "sourceName": "김유정",
+     "sourceDetail": null,
+     "party": "더불어민주당"
+    }
+   ],
+   "framingTerms": [
+    {
+     "term": "우려의 목소리",
+     "sentenceId": "s1"
+    },
+    {
+     "term": "지적",
+     "sentenceId": "s2"
+    },
+    {
+     "term": "부담",
+     "sentenceId": "s3"
+    },
+    {
+     "term": "평가",
+     "sentenceId": "s3"
+    },
+    {
+     "term": "거센 국민적 반발을 샀다",
+     "sentenceId": "s4"
+    },
+    {
+     "term": "우려",
+     "sentenceId": "s5"
+    },
+    {
+     "term": "비판했다",
+     "sentenceId": "s6"
+    },
+    {
+     "term": "쓴소리했다",
+     "sentenceId": "s7"
+    },
+    {
+     "term": "우려했다",
+     "sentenceId": "s8"
+    },
+    {
+     "term": "말했다",
+     "sentenceId": "s9"
+    },
+    {
+     "term": "밝혔다",
+     "sentenceId": "s10"
+    },
+    {
+     "term": "선을 그었다",
+     "sentenceId": "s11"
+    },
+    {
+     "term": "우려했다",
+     "sentenceId": "s12"
+    }
+   ],
+   "analyzedBy": "gemini-3.5-flash-lite"
+  },
+  {
+   "id": "a-2ae5244452",
+   "issueId": "auto-20261126-1346-1",
+   "outletId": "dailian",
+   "outletName": "데일리안",
+   "title": "'조희대 탄핵 회의론' 정성호 \"여당이 책임져야 하는 것…명분 더 쌓았...",
+   "summary": "조 대법원장 탄핵 추진이 내부 결속을 높이는 계기는 된다는 일각의 해석에 대해선 \"일시적인 효과지 그게 지속적으로 가겠나\"라며 \"여당이 국민 지지율을 확보하려 하면 대통령과 함께 물가 문제, 일자리 문제, 양극화 문제...",
+   "url": "https://www.dailian.co.kr/news/view/1720010/?sc=Naver",
+   "publishedAt": "2026-11-26T11:00:00+09:00",
+   "sentences": [
+    {
+     "id": "s1",
+     "text": null,
+     "type": "quote",
+     "sourceType": "gov",
+     "sourceName": "정성호 의원",
+     "sourceDetail": null,
+     "party": "더불어민주당"
+    },
+    {
+     "id": "s2",
+     "text": null,
+     "type": "quote",
+     "sourceType": "gov",
+     "sourceName": "정성호 의원",
+     "sourceDetail": null,
+     "party": "더불어민주당"
+    },
+    {
+     "id": "s3",
+     "text": null,
+     "type": "quote",
+     "sourceType": "gov",
+     "sourceName": "정성호 의원",
+     "sourceDetail": null,
+     "party": "더불어민주당"
+    },
+    {
+     "id": "s4",
+     "text": null,
+     "type": "quote",
+     "sourceType": "gov",
+     "sourceName": "정성호 의원",
+     "sourceDetail": null,
+     "party": "더불어민주당"
+    },
+    {
+     "id": "s5",
+     "text": null,
+     "type": "quote",
+     "sourceType": "gov",
+     "sourceName": "정성호 의원",
+     "sourceDetail": null,
+     "party": "더불어민주당"
+    },
+    {
+     "id": "s6",
+     "text": null,
+     "type": "quote",
+     "sourceType": "gov",
+     "sourceName": "정성호 의원",
+     "sourceDetail": null,
+     "party": "더불어민주당"
+    },
+    {
+     "id": "s7",
+     "text": null,
+     "type": "quote",
+     "sourceType": "gov",
+     "sourceName": "정성호 의원",
+     "sourceDetail": null,
+     "party": "더불어민주당"
+    },
+    {
+     "id": "s8",
+     "text": null,
+     "type": "quote",
+     "sourceType": "gov",
+     "sourceName": "정성호 의원",
+     "sourceDetail": null,
+     "party": "더불어민주당"
+    },
+    {
+     "id": "s9",
+     "text": null,
+     "type": "quote",
+     "sourceType": "gov",
+     "sourceName": "정성호 의원",
+     "sourceDetail": null,
+     "party": "더불어민주당"
+    }
+   ],
+   "framingTerms": [
+    {
+     "term": "우려를 표했다",
+     "sentenceId": "s1"
+    },
+    {
+     "term": "지적했다",
+     "sentenceId": "s2"
+    },
+    {
+     "term": "토로했다",
+     "sentenceId": "s5"
+    },
+    {
+     "term": "강조했다",
+     "sentenceId": "s6"
+    },
+    {
+     "term": "질타했다",
+     "sentenceId": "s7"
     }
    ],
    "analyzedBy": "gemini-3.5-flash-lite"
