@@ -2,7 +2,7 @@
   "meta": {
     "note": "매일 자동 수집·AI 분석 결과(origin=auto)와 사람이 확인한 이슈(origin=curated). 기사 문장의 저작권은 각 언론사에 있어 사실·인용 문장은 싣지 않고 원문 링크를 표시합니다.",
     "version": "0.1",
-    "generatedAt": "2026-11-26"
+    "generatedAt": "2026-11-27"
   },
   "sourceTypes": [
     {
@@ -261,6 +261,156 @@
     }
   ],
   "issues": [
+    {
+      "id": "auto-20261127-1337-1",
+      "title": "경찰, '한동훈 수사자료 유출 의혹' 법무부 압수수색",
+      "summary": "경찰은 김승원 전 법무부 장관 후보자 관련 검찰 수사자료 유출 의혹을 받는 무소속 한동훈 의원과 관련해 법무부와 공소청 등을 압수수색했다. 한 의원은 경찰의 압수수색에 대해 반발하며 입장을 밝혔다.",
+      "category": "정치",
+      "date": "2026-11-27",
+      "articleIds": [
+        "a-2c140dacef",
+        "a-486b759c6c",
+        "a-c6d4f138ea",
+        "a-2416dbe10d",
+        "a-2e096bf380",
+        "a-4d20409759",
+        "a-5b9a2371bc"
+      ],
+      "displaySourceTypes": [
+        "gov",
+        "opp",
+        "expert",
+        "citizen",
+        "industry"
+      ],
+      "distribution": {
+        "camps": {
+          "ruling": 4,
+          "third": 0,
+          "mainOpp": 0,
+          "independent": 9
+        },
+        "slopeMean": 0.333,
+        "blindspot": null,
+        "institution": 3,
+        "focusParty": null
+      },
+      "stance": null,
+      "origin": "auto"
+    },
+    {
+      "id": "auto-20261127-1338-1",
+      "title": "한국갤럽 이재명 대통령 지지율 41%",
+      "summary": "한국갤럽이 전국 유권자 1000명을 대상으로 실시한 여론조사에서 이재명 대통령의 국정 수행 긍정 평가는 41%, 부정 평가는 50%로 집계됐다. 정당 지지도는 더불어민주당 37%, 국민의힘 30%를 기록했다.",
+      "category": "정치",
+      "date": "2026-11-27",
+      "articleIds": [
+        "a-fe404905d1",
+        "a-610740ea31",
+        "a-12bbb3e489",
+        "a-93b111094f",
+        "a-d9a6723b04",
+        "a-dad1f26c80",
+        "a-02ff8e04a6",
+        "a-6b125fbbf0"
+      ],
+      "displaySourceTypes": [
+        "gov",
+        "opp",
+        "expert",
+        "citizen",
+        "industry"
+      ],
+      "distribution": {
+        "camps": {
+          "ruling": 2,
+          "third": 0,
+          "mainOpp": 0,
+          "independent": 0
+        },
+        "slopeMean": 0.5,
+        "blindspot": null,
+        "institution": 0,
+        "focusParty": null
+      },
+      "stance": null,
+      "origin": "auto"
+    },
+    {
+      "id": "auto-20261127-1340-1",
+      "title": "민주당 정년연장특위, 10개월 만에 노사 협의 재개",
+      "summary": "더불어민주당 정년연장특별위원회가 27일 10개월 만에 노사 협의를 재개하고 법정 정년 연장과 관련된 합의안 도출에 나섰다. 특위는 노사 간 이견으로 결론을 내지 못한 채 다음 달 2일 다시 논의를 이어가기로 했다.",
+      "category": "정치",
+      "date": "2026-11-27",
+      "articleIds": [
+        "a-280e04f453",
+        "a-b7589b7281",
+        "a-c62a96105d",
+        "a-a422336226",
+        "a-ec76f09e7c",
+        "a-a522162ac2",
+        "a-2a5da13da5"
+      ],
+      "displaySourceTypes": [
+        "gov",
+        "opp",
+        "expert",
+        "citizen",
+        "industry"
+      ],
+      "distribution": {
+        "camps": {
+          "ruling": 18,
+          "third": 0,
+          "mainOpp": 0,
+          "independent": 0
+        },
+        "slopeMean": 0.531,
+        "blindspot": "mainOpp",
+        "institution": 0,
+        "focusParty": "더불어민주당"
+      },
+      "stance": null,
+      "origin": "auto"
+    },
+    {
+      "id": "auto-20261127-1342-1",
+      "title": "국민의힘, 법무부 검찰총장 후보 추가 천거 비판",
+      "summary": "국민의힘 정점식 원내대표는 법무부의 검찰총장 후보자 추가 천거와 이용철 법무부 장관 후보자 인선 등을 두고 공소취소를 위한 수순이라고 비판했다. 이어 야당의 관련 움직임이 형사사법 시스템의 파국을 초래할 것이라고 경고했다.",
+      "category": "정치",
+      "date": "2026-11-27",
+      "articleIds": [
+        "a-3dcdf87e88",
+        "a-47ff8a0e40",
+        "a-83bb18ae29",
+        "a-82d5002bd2",
+        "a-70bc76051e",
+        "a-4fbe96a3f6",
+        "a-4989c15325",
+        "a-6bcb4cdbb3"
+      ],
+      "displaySourceTypes": [
+        "gov",
+        "opp",
+        "expert",
+        "citizen",
+        "industry"
+      ],
+      "distribution": {
+        "camps": {
+          "ruling": 0,
+          "third": 0,
+          "mainOpp": 80,
+          "independent": 0
+        },
+        "slopeMean": -0.81,
+        "blindspot": "ruling",
+        "institution": 0,
+        "focusParty": "국민의힘"
+      },
+      "stance": null,
+      "origin": "auto"
+    },
     {
       "id": "auto-20261126-1331-1",
       "title": "NBS 여론조사: 대통령 지지율 43%·탄핵 반대 44%",
@@ -617,6 +767,79 @@
         },
         "slopeMean": 0.0,
         "blindspot": null,
+        "institution": 0,
+        "focusParty": null
+      },
+      "stance": null,
+      "origin": "auto"
+    },
+    {
+      "id": "auto-20261127-1339-1",
+      "title": "민주당 윤리심판원, 최민희 최고위원 징계 심의",
+      "summary": "더불어민주당 윤리심판원은 27일 잇단 발언 논란에 휩싸인 최민희 최고위원에 대한 징계 안건을 심의한다. 최 최고위원은 최고위원회의에서 직접 출석해 소명하겠다는 입장을 밝혔다.",
+      "category": "정치",
+      "date": "2026-11-26",
+      "articleIds": [
+        "a-09d8f261ad",
+        "a-e5cf97d267",
+        "a-3e5b5ca27e",
+        "a-514b24cbfb",
+        "a-ae65284cfb",
+        "a-f410e974be",
+        "a-da846d2d28"
+      ],
+      "displaySourceTypes": [
+        "gov",
+        "opp",
+        "expert",
+        "citizen",
+        "industry"
+      ],
+      "distribution": {
+        "camps": {
+          "ruling": 23,
+          "third": 0,
+          "mainOpp": 0,
+          "independent": 0
+        },
+        "slopeMean": 0.545,
+        "blindspot": "mainOpp",
+        "institution": 0,
+        "focusParty": "더불어민주당"
+      },
+      "stance": null,
+      "origin": "auto"
+    },
+    {
+      "id": "auto-20261127-1341-1",
+      "title": "학교 비정규직 노동자 총파업…급식·돌봄 비상대응",
+      "summary": "학교 비정규직 노동자들이 임금체계 개선 등을 요구하며 총파업에 돌입한 가운데, 교육당국이 대체 급식과 돌봄 프로그램 운영 등 비상 대응에 나섰다.",
+      "category": "사회",
+      "date": "2026-11-26",
+      "articleIds": [
+        "a-b46d9bd717",
+        "a-0cfed23ccf",
+        "a-fcabdf89bc",
+        "a-42c19aa21e",
+        "a-9e8ad28dea",
+        "a-9259caf082"
+      ],
+      "displaySourceTypes": [
+        "gov",
+        "opp",
+        "expert",
+        "citizen",
+        "industry"
+      ],
+      "distribution": {
+        "camps": {
+          "ruling": 8,
+          "third": 0,
+          "mainOpp": 0,
+          "independent": 0
+        },
+        "slopeMean": 0.433,
+        "blindspot": "mainOpp",
         "institution": 0,
         "focusParty": null
       },
@@ -208728,6 +208951,6667 @@
         "slope": null,
         "slopeSmoothed": null,
         "slopeBasis": 0,
+        "excludedFromSlope": 0,
+        "institution": 0
+      }
+    },
+    {
+      "id": "a-486b759c6c",
+      "issueId": "auto-20261127-1337-1",
+      "outletId": "yna",
+      "title": "경찰, '한동훈 자료유출 의혹' 법무부·공소청 등 압수수색",
+      "summary": "김승원 법무부 장관 후보자 관련 검찰 수사자료를 유출했다는 의혹을 수사 중인 경찰이 법무부와 공소청에 대한 강제수사에 나섰다. 서울경찰청 광역수사단 광역범죄수사대는 27일 오전 9시부터 한 의원에 대한 공무상...",
+      "url": "https://www.yna.co.kr/view/AKR20261127044300004?input=1195m",
+      "publishedAt": "2026-11-27T09:49:00+09:00",
+      "sentences": [
+        {
+          "id": "s1",
+          "text": null,
+          "type": "fact",
+          "sourceType": null,
+          "sourceName": null,
+          "sourceDetail": null,
+          "party": null,
+          "stateBody": false
+        },
+        {
+          "id": "s2",
+          "text": null,
+          "type": "fact",
+          "sourceType": null,
+          "sourceName": null,
+          "sourceDetail": null,
+          "party": null,
+          "stateBody": false
+        },
+        {
+          "id": "s3",
+          "text": null,
+          "type": "fact",
+          "sourceType": null,
+          "sourceName": null,
+          "sourceDetail": null,
+          "party": null,
+          "stateBody": false
+        },
+        {
+          "id": "s4",
+          "text": null,
+          "type": "fact",
+          "sourceType": null,
+          "sourceName": null,
+          "sourceDetail": null,
+          "party": null,
+          "stateBody": false
+        },
+        {
+          "id": "s5",
+          "text": null,
+          "type": "fact",
+          "sourceType": null,
+          "sourceName": null,
+          "sourceDetail": null,
+          "party": null,
+          "stateBody": false
+        }
+      ],
+      "framingTerms": [],
+      "missingViewpoints": [
+        {
+          "sourceType": "gov",
+          "description": "정부·여당 인용 없음 (같은 이슈의 다른 기사에는 있습니다)",
+          "foundInArticleIds": [
+            "a-2c140dacef",
+            "a-4d20409759",
+            "a-5b9a2371bc",
+            "a-2e096bf380",
+            "a-c6d4f138ea"
+          ]
+        }
+      ],
+      "metrics": {
+        "camps": {
+          "ruling": 0,
+          "third": 0,
+          "mainOpp": 0,
+          "independent": 0
+        },
+        "slope": null,
+        "slopeSmoothed": null,
+        "slopeBasis": 0,
+        "excludedFromSlope": 0,
+        "institution": 0
+      }
+    },
+    {
+      "id": "a-2416dbe10d",
+      "issueId": "auto-20261127-1337-1",
+      "outletId": "news1",
+      "title": "한동훈 \"경찰 '민주당의 지팡이' 자처…제보자 색출 마음대로 해보라\"",
+      "summary": "이어 \"그 후 로비 당사자가 법원에서 법정 구속되기도 했다\"며 \"이재명 정권 검찰이 로비 당사자에게 징역형을 구형하기도 했다\"고 적었다. 한 의원은 \"민주당 정권, '오빠독약로비 공익제보자 색출', 경찰 동원해서 어디...",
+      "url": "https://www.news1.kr/politics/assembly/6368123",
+      "publishedAt": "2026-11-27T10:31:00+09:00",
+      "sentences": [
+        {
+          "id": "s1",
+          "text": null,
+          "type": "quote",
+          "sourceType": "etc",
+          "sourceName": "한동훈 무소속 의원",
+          "sourceDetail": "무소속 의원",
+          "party": null,
+          "stateBody": false
+        },
+        {
+          "id": "s2",
+          "text": null,
+          "type": "quote",
+          "sourceType": "etc",
+          "sourceName": "한 의원",
+          "sourceDetail": "무소속 의원",
+          "party": null,
+          "stateBody": false
+        },
+        {
+          "id": "s3",
+          "text": null,
+          "type": "quote",
+          "sourceType": "etc",
+          "sourceName": "한 의원",
+          "sourceDetail": "무소속 의원",
+          "party": null,
+          "stateBody": false
+        },
+        {
+          "id": "s4",
+          "text": null,
+          "type": "quote",
+          "sourceType": "etc",
+          "sourceName": "한 의원",
+          "sourceDetail": "무소속 의원",
+          "party": null,
+          "stateBody": false
+        },
+        {
+          "id": "s5",
+          "text": null,
+          "type": "quote",
+          "sourceType": "etc",
+          "sourceName": "한 의원",
+          "sourceDetail": "무소속 의원",
+          "party": null,
+          "stateBody": false
+        },
+        {
+          "id": "s6",
+          "text": null,
+          "type": "quote",
+          "sourceType": "etc",
+          "sourceName": "한 의원",
+          "sourceDetail": "무소속 의원",
+          "party": null,
+          "stateBody": false
+        },
+        {
+          "id": "s7",
+          "text": null,
+          "type": "fact",
+          "sourceType": null,
+          "sourceName": null,
+          "sourceDetail": null,
+          "party": null,
+          "stateBody": false
+        }
+      ],
+      "framingTerms": [
+        {
+          "term": "비판했다",
+          "sentenceId": "s1"
+        },
+        {
+          "term": "밝혔다",
+          "sentenceId": "s2"
+        },
+        {
+          "term": "꼬집었다",
+          "sentenceId": "s3"
+        },
+        {
+          "term": "적었다",
+          "sentenceId": "s4"
+        },
+        {
+          "term": "덧붙였다",
+          "sentenceId": "s6"
+        }
+      ],
+      "missingViewpoints": [
+        {
+          "sourceType": "gov",
+          "description": "정부·여당 인용 없음 (같은 이슈의 다른 기사에는 있습니다)",
+          "foundInArticleIds": [
+            "a-2c140dacef",
+            "a-4d20409759",
+            "a-5b9a2371bc",
+            "a-2e096bf380",
+            "a-c6d4f138ea"
+          ]
+        }
+      ],
+      "metrics": {
+        "camps": {
+          "ruling": 0,
+          "third": 0,
+          "mainOpp": 0,
+          "independent": 6
+        },
+        "slope": null,
+        "slopeSmoothed": null,
+        "slopeBasis": 0,
+        "excludedFromSlope": 6,
+        "institution": 0
+      }
+    },
+    {
+      "id": "a-2c140dacef",
+      "issueId": "auto-20261127-1337-1",
+      "outletId": "sbs",
+      "title": "경찰, 한동훈 자료 유출 의혹 법무부·공소청 등 압수수색",
+      "summary": "▲ 무소속 한동훈 의원 김승원 법무부 장관 후보자 관련 검찰 수사자료 유출 의혹을 수사 중인 경찰이 법무부와 공소청에 대한 강제수사에 나섰습니다. 서울경찰청 광역수사단 광역범죄수사대는 오늘(27일) 오전 9시부터...",
+      "url": "https://news.sbs.co.kr/news/endPage.do?news_id=N1008866255&plink=ORI&cooper=NAVER",
+      "publishedAt": "2026-11-27T09:47:00+09:00",
+      "sentences": [
+        {
+          "id": "s1",
+          "text": null,
+          "type": "fact",
+          "sourceType": null,
+          "sourceName": null,
+          "sourceDetail": null,
+          "party": null,
+          "stateBody": false
+        },
+        {
+          "id": "s2",
+          "text": null,
+          "type": "quote",
+          "sourceType": "etc",
+          "sourceName": "서울경찰청 광역수사단 광역범죄수사대",
+          "sourceDetail": "익명(소속 미상)",
+          "party": null,
+          "stateBody": true
+        },
+        {
+          "id": "s3",
+          "text": null,
+          "type": "fact",
+          "sourceType": null,
+          "sourceName": null,
+          "sourceDetail": null,
+          "party": null,
+          "stateBody": false
+        },
+        {
+          "id": "s4",
+          "text": null,
+          "type": "fact",
+          "sourceType": null,
+          "sourceName": null,
+          "sourceDetail": null,
+          "party": null,
+          "stateBody": false
+        },
+        {
+          "id": "s5",
+          "text": null,
+          "type": "quote",
+          "sourceType": "gov",
+          "sourceName": "더불어민주당",
+          "sourceDetail": null,
+          "party": "더불어민주당",
+          "stateBody": false
+        },
+        {
+          "id": "s6",
+          "text": null,
+          "type": "fact",
+          "sourceType": null,
+          "sourceName": null,
+          "sourceDetail": null,
+          "party": null,
+          "stateBody": false
+        }
+      ],
+      "framingTerms": [
+        {
+          "term": "강제수사",
+          "sentenceId": "s1"
+        },
+        {
+          "term": "규정했습니다",
+          "sentenceId": "s5"
+        },
+        {
+          "term": "고발했습니다",
+          "sentenceId": "s6"
+        }
+      ],
+      "missingViewpoints": [],
+      "metrics": {
+        "camps": {
+          "ruling": 1,
+          "third": 0,
+          "mainOpp": 0,
+          "independent": 0
+        },
+        "slope": 1.0,
+        "slopeSmoothed": 0.333,
+        "slopeBasis": 1,
+        "excludedFromSlope": 0,
+        "institution": 1
+      }
+    },
+    {
+      "id": "a-4d20409759",
+      "issueId": "auto-20261127-1337-1",
+      "outletId": "ytn",
+      "title": "경찰, 법무부·공소청 등 압수수색...'한동훈 자료유출 의혹' 강제수사",
+      "summary": "무소속 한동훈 의원이 김승원 전 법무부 장관 후보자에 대한 과거 검찰 수사기록을 유출했다는 의혹과... 경찰은 당시 법무부와 검찰 수사팀의 자료 열람 기록과 보고 체계 등을 확보할 전망입니다. [앵커] 한동훈 의원은...",
+      "url": "https://www.ytn.co.kr/_ln/0103_202611271042540109",
+      "publishedAt": "2026-11-27T10:42:00+09:00",
+      "sentences": [
+        {
+          "id": "s1",
+          "text": null,
+          "type": "fact",
+          "sourceType": null,
+          "sourceName": null,
+          "sourceDetail": null,
+          "party": null,
+          "stateBody": false
+        },
+        {
+          "id": "s2",
+          "text": null,
+          "type": "fact",
+          "sourceType": null,
+          "sourceName": null,
+          "sourceDetail": null,
+          "party": null,
+          "stateBody": false
+        },
+        {
+          "id": "s3",
+          "text": "취재기자 연결해 자세한 내용 알아보겠습니다.",
+          "type": "opinion",
+          "sourceType": null,
+          "sourceName": null,
+          "sourceDetail": null,
+          "party": null,
+          "stateBody": false
+        },
+        {
+          "id": "s4",
+          "text": null,
+          "type": "fact",
+          "sourceType": null,
+          "sourceName": null,
+          "sourceDetail": null,
+          "party": null,
+          "stateBody": false
+        },
+        {
+          "id": "s5",
+          "text": "압수수색 상황 전해주시죠.",
+          "type": "opinion",
+          "sourceType": null,
+          "sourceName": null,
+          "sourceDetail": null,
+          "party": null,
+          "stateBody": false
+        },
+        {
+          "id": "s6",
+          "text": null,
+          "type": "fact",
+          "sourceType": null,
+          "sourceName": null,
+          "sourceDetail": null,
+          "party": null,
+          "stateBody": false
+        },
+        {
+          "id": "s7",
+          "text": null,
+          "type": "fact",
+          "sourceType": null,
+          "sourceName": null,
+          "sourceDetail": null,
+          "party": null,
+          "stateBody": false
+        },
+        {
+          "id": "s8",
+          "text": null,
+          "type": "fact",
+          "sourceType": null,
+          "sourceName": null,
+          "sourceDetail": null,
+          "party": null,
+          "stateBody": false
+        },
+        {
+          "id": "s9",
+          "text": "이번 압수수색은 공소청 내부 자료가 외부로 유출된 경위와 이 과정에서 관…",
+          "type": "opinion",
+          "sourceType": null,
+          "sourceName": null,
+          "sourceDetail": null,
+          "party": null,
+          "stateBody": false
+        },
+        {
+          "id": "s10",
+          "text": "경찰은 당시 법무부와 검찰 수사팀의 자료 열람 기록과 보고 체계 등을 확…",
+          "type": "opinion",
+          "sourceType": null,
+          "sourceName": null,
+          "sourceDetail": null,
+          "party": null,
+          "stateBody": false
+        },
+        {
+          "id": "s11",
+          "text": "한동훈 의원은 어떤 의혹으로 경찰 수사를 받고 있나요?",
+          "type": "opinion",
+          "sourceType": null,
+          "sourceName": null,
+          "sourceDetail": null,
+          "party": null,
+          "stateBody": false
+        },
+        {
+          "id": "s12",
+          "text": null,
+          "type": "fact",
+          "sourceType": null,
+          "sourceName": null,
+          "sourceDetail": null,
+          "party": null,
+          "stateBody": false
+        },
+        {
+          "id": "s13",
+          "text": null,
+          "type": "fact",
+          "sourceType": null,
+          "sourceName": null,
+          "sourceDetail": null,
+          "party": null,
+          "stateBody": false
+        },
+        {
+          "id": "s14",
+          "text": null,
+          "type": "fact",
+          "sourceType": null,
+          "sourceName": null,
+          "sourceDetail": null,
+          "party": null,
+          "stateBody": false
+        },
+        {
+          "id": "s15",
+          "text": null,
+          "type": "quote",
+          "sourceType": "gov",
+          "sourceName": "더불어민주당",
+          "sourceDetail": null,
+          "party": "더불어민주당",
+          "stateBody": false
+        },
+        {
+          "id": "s16",
+          "text": null,
+          "type": "quote",
+          "sourceType": "etc",
+          "sourceName": "한동훈 의원",
+          "sourceDetail": "무소속 의원",
+          "party": null,
+          "stateBody": false
+        },
+        {
+          "id": "s17",
+          "text": "※ '당신의 제보가 뉴스가 됩니다'",
+          "type": "opinion",
+          "sourceType": null,
+          "sourceName": null,
+          "sourceDetail": null,
+          "party": null,
+          "stateBody": false
+        }
+      ],
+      "framingTerms": [
+        {
+          "term": "의혹",
+          "sentenceId": "s1"
+        },
+        {
+          "term": "의혹",
+          "sentenceId": "s12"
+        },
+        {
+          "term": "의혹",
+          "sentenceId": "s13"
+        },
+        {
+          "term": "불법적으로",
+          "sentenceId": "s15"
+        },
+        {
+          "term": "반발했습니다",
+          "sentenceId": "s16"
+        }
+      ],
+      "missingViewpoints": [],
+      "metrics": {
+        "camps": {
+          "ruling": 1,
+          "third": 0,
+          "mainOpp": 0,
+          "independent": 1
+        },
+        "slope": 1.0,
+        "slopeSmoothed": 0.333,
+        "slopeBasis": 1,
+        "excludedFromSlope": 1,
+        "institution": 0
+      }
+    },
+    {
+      "id": "a-5b9a2371bc",
+      "issueId": "auto-20261127-1337-1",
+      "outletId": "tvchosun",
+      "title": "경찰, 한동훈 '김승원 자료 유출 의혹' 법무부·공소청 등 압수수색",
+      "summary": "앞서 김동아 더불어민주당 의원 등은 한 의원이 검찰 기소계획서와 통화 녹취, 문자, 계좌 내역 등을 확보해 공개한 경위를 밝혀달라며 경찰청 국가수사본부에 고발했다.",
+      "url": "https://news.tvchosun.com/site/data/html_dir/2026/11/27/2026112790122.html",
+      "publishedAt": "2026-11-27T10:45:00+09:00",
+      "sentences": [
+        {
+          "id": "s1",
+          "text": null,
+          "type": "fact",
+          "sourceType": null,
+          "sourceName": null,
+          "sourceDetail": null,
+          "party": null,
+          "stateBody": false
+        },
+        {
+          "id": "s2",
+          "text": null,
+          "type": "fact",
+          "sourceType": null,
+          "sourceName": null,
+          "sourceDetail": null,
+          "party": null,
+          "stateBody": false
+        },
+        {
+          "id": "s3",
+          "text": null,
+          "type": "fact",
+          "sourceType": null,
+          "sourceName": null,
+          "sourceDetail": null,
+          "party": null,
+          "stateBody": false
+        },
+        {
+          "id": "s4",
+          "text": null,
+          "type": "fact",
+          "sourceType": null,
+          "sourceName": null,
+          "sourceDetail": null,
+          "party": null,
+          "stateBody": false
+        },
+        {
+          "id": "s5",
+          "text": null,
+          "type": "quote",
+          "sourceType": "gov",
+          "sourceName": "김동아 더불어민주당 의원 등",
+          "sourceDetail": null,
+          "party": "더불어민주당",
+          "stateBody": false
+        }
+      ],
+      "framingTerms": [
+        {
+          "term": "강제 수사에 나섰다",
+          "sentenceId": "s1"
+        },
+        {
+          "term": "고발했다",
+          "sentenceId": "s5"
+        }
+      ],
+      "missingViewpoints": [],
+      "metrics": {
+        "camps": {
+          "ruling": 1,
+          "third": 0,
+          "mainOpp": 0,
+          "independent": 0
+        },
+        "slope": 1.0,
+        "slopeSmoothed": 0.333,
+        "slopeBasis": 1,
+        "excludedFromSlope": 0,
+        "institution": 0
+      }
+    },
+    {
+      "id": "a-2e096bf380",
+      "issueId": "auto-20261127-1337-1",
+      "outletId": "chosun",
+      "title": "경찰, 공소청 압수수색에 한동훈 “민중의 지팡이가 아니라 ‘민주당의...",
+      "summary": "마음대로 해봐라” 무소속 한동훈 의원은 27일 경찰이 ‘김승원 전 법무부 장관 후보자 검찰 수사자료 유출 의혹’과 관련해 법무부와 공소청을 압수수색하자 “경찰이 ‘민중의 지팡이’가 아니라 ‘민주당의 지팡이’가...",
+      "url": "https://www.chosun.com/politics/assembly/2026/11/27/AAR2Y4RTW5H25PO7XVADCTB5WY/?utm_source=naver&utm_medium=referral&utm_campaign=naver-news",
+      "publishedAt": "2026-11-27T10:39:00+09:00",
+      "sentences": [
+        {
+          "id": "s1",
+          "text": null,
+          "type": "fact",
+          "sourceType": null,
+          "sourceName": null,
+          "sourceDetail": null,
+          "party": null,
+          "stateBody": false
+        },
+        {
+          "id": "s2",
+          "text": null,
+          "type": "quote",
+          "sourceType": "gov",
+          "sourceName": "서울경찰청 광역수사단 광역수사대",
+          "sourceDetail": null,
+          "party": null,
+          "stateBody": true
+        },
+        {
+          "id": "s3",
+          "text": null,
+          "type": "fact",
+          "sourceType": null,
+          "sourceName": null,
+          "sourceDetail": null,
+          "party": null,
+          "stateBody": false
+        },
+        {
+          "id": "s4",
+          "text": null,
+          "type": "fact",
+          "sourceType": null,
+          "sourceName": null,
+          "sourceDetail": null,
+          "party": null,
+          "stateBody": false
+        },
+        {
+          "id": "s5",
+          "text": null,
+          "type": "fact",
+          "sourceType": null,
+          "sourceName": null,
+          "sourceDetail": null,
+          "party": null,
+          "stateBody": false
+        },
+        {
+          "id": "s6",
+          "text": null,
+          "type": "quote",
+          "sourceType": "etc",
+          "sourceName": "한 의원",
+          "sourceDetail": "무소속 의원",
+          "party": null,
+          "stateBody": false
+        },
+        {
+          "id": "s7",
+          "text": null,
+          "type": "fact",
+          "sourceType": null,
+          "sourceName": null,
+          "sourceDetail": null,
+          "party": null,
+          "stateBody": false
+        }
+      ],
+      "framingTerms": [
+        {
+          "term": "강제 수사",
+          "sentenceId": "s1"
+        }
+      ],
+      "missingViewpoints": [],
+      "metrics": {
+        "camps": {
+          "ruling": 0,
+          "third": 0,
+          "mainOpp": 0,
+          "independent": 1
+        },
+        "slope": null,
+        "slopeSmoothed": null,
+        "slopeBasis": 0,
+        "excludedFromSlope": 1,
+        "institution": 1
+      }
+    },
+    {
+      "id": "a-c6d4f138ea",
+      "issueId": "auto-20261127-1337-1",
+      "outletId": "donga",
+      "title": "경찰, ‘한동훈 자료유출 의혹’ 법무부·공소청 등 압수수색",
+      "summary": "경찰이 김승원 전 법무부 장관 후보자에 대한 검찰 자료 유출 의혹을 수사하기 위해 법무부와 공소청을 압수수색했다. 앞서 한동훈 무소속 의원이 해당 자료를 폭로했고, 더불어민주당에서 검찰이 자료를 한 의원에게...",
+      "url": "https://www.donga.com/news/Politics/article/all/20261127/135101703/2",
+      "publishedAt": "2026-11-27T10:03:00+09:00",
+      "sentences": [
+        {
+          "id": "s1",
+          "text": null,
+          "type": "fact",
+          "sourceType": null,
+          "sourceName": null,
+          "sourceDetail": null,
+          "party": null,
+          "stateBody": false
+        },
+        {
+          "id": "s2",
+          "text": null,
+          "type": "quote",
+          "sourceType": "etc",
+          "sourceName": "더불어민주당",
+          "sourceDetail": "무소속 의원",
+          "party": "더불어민주당",
+          "stateBody": false
+        },
+        {
+          "id": "s3",
+          "text": null,
+          "type": "quote",
+          "sourceType": "etc",
+          "sourceName": "서울경찰청 광역수사단 광역범죄수사대",
+          "sourceDetail": "익명(소속 미상)",
+          "party": null,
+          "stateBody": true
+        },
+        {
+          "id": "s4",
+          "text": null,
+          "type": "fact",
+          "sourceType": null,
+          "sourceName": null,
+          "sourceDetail": null,
+          "party": null,
+          "stateBody": false
+        },
+        {
+          "id": "s5",
+          "text": null,
+          "type": "quote",
+          "sourceType": "gov",
+          "sourceName": "민주당",
+          "sourceDetail": null,
+          "party": "더불어민주당",
+          "stateBody": false
+        }
+      ],
+      "framingTerms": [
+        {
+          "term": "문제 삼았고",
+          "sentenceId": "s5"
+        }
+      ],
+      "missingViewpoints": [],
+      "metrics": {
+        "camps": {
+          "ruling": 1,
+          "third": 0,
+          "mainOpp": 0,
+          "independent": 1
+        },
+        "slope": 1.0,
+        "slopeSmoothed": 0.333,
+        "slopeBasis": 1,
+        "excludedFromSlope": 1,
+        "institution": 1
+      }
+    },
+    {
+      "id": "a-dad1f26c80",
+      "issueId": "auto-20261127-1338-1",
+      "outletId": "yna",
+      "title": "李대통령 지지율 41%로 7주째 횡보…부정평가는 50%[한국갤럽](종합)",
+      "summary": "부정 평가 이유로는 '경제·민생'(22%), '도덕성 문제·본인 재판 회피'(16%), '부동산 정책'(14%) 순이었다. 정당 지지도 조사에서는 더불어민주당은 37%, 국민의힘은 30%를 각각 기록하며 민주당이 오차범위 밖 우세를...",
+      "url": "https://www.yna.co.kr/view/AKR20261127054751001?input=1195m",
+      "publishedAt": "2026-11-27T10:59:00+09:00",
+      "sentences": [
+        {
+          "id": "s1",
+          "text": null,
+          "type": "fact",
+          "sourceType": null,
+          "sourceName": null,
+          "sourceDetail": null,
+          "party": null,
+          "stateBody": false
+        },
+        {
+          "id": "s2",
+          "text": null,
+          "type": "fact",
+          "sourceType": null,
+          "sourceName": null,
+          "sourceDetail": null,
+          "party": null,
+          "stateBody": false
+        },
+        {
+          "id": "s3",
+          "text": null,
+          "type": "fact",
+          "sourceType": null,
+          "sourceName": null,
+          "sourceDetail": null,
+          "party": null,
+          "stateBody": false
+        },
+        {
+          "id": "s4",
+          "text": null,
+          "type": "fact",
+          "sourceType": null,
+          "sourceName": null,
+          "sourceDetail": null,
+          "party": null,
+          "stateBody": false
+        },
+        {
+          "id": "s5",
+          "text": null,
+          "type": "fact",
+          "sourceType": null,
+          "sourceName": null,
+          "sourceDetail": null,
+          "party": null,
+          "stateBody": false
+        },
+        {
+          "id": "s6",
+          "text": null,
+          "type": "fact",
+          "sourceType": null,
+          "sourceName": null,
+          "sourceDetail": null,
+          "party": null,
+          "stateBody": false
+        },
+        {
+          "id": "s7",
+          "text": null,
+          "type": "fact",
+          "sourceType": null,
+          "sourceName": null,
+          "sourceDetail": null,
+          "party": null,
+          "stateBody": false
+        },
+        {
+          "id": "s8",
+          "text": null,
+          "type": "fact",
+          "sourceType": null,
+          "sourceName": null,
+          "sourceDetail": null,
+          "party": null,
+          "stateBody": false
+        },
+        {
+          "id": "s9",
+          "text": null,
+          "type": "fact",
+          "sourceType": null,
+          "sourceName": null,
+          "sourceDetail": null,
+          "party": null,
+          "stateBody": false
+        },
+        {
+          "id": "s10",
+          "text": null,
+          "type": "fact",
+          "sourceType": null,
+          "sourceName": null,
+          "sourceDetail": null,
+          "party": null,
+          "stateBody": false
+        },
+        {
+          "id": "s11",
+          "text": null,
+          "type": "fact",
+          "sourceType": null,
+          "sourceName": null,
+          "sourceDetail": null,
+          "party": null,
+          "stateBody": false
+        },
+        {
+          "id": "s12",
+          "text": null,
+          "type": "fact",
+          "sourceType": null,
+          "sourceName": null,
+          "sourceDetail": null,
+          "party": null,
+          "stateBody": false
+        },
+        {
+          "id": "s13",
+          "text": null,
+          "type": "fact",
+          "sourceType": null,
+          "sourceName": null,
+          "sourceDetail": null,
+          "party": null,
+          "stateBody": false
+        },
+        {
+          "id": "s14",
+          "text": null,
+          "type": "fact",
+          "sourceType": null,
+          "sourceName": null,
+          "sourceDetail": null,
+          "party": null,
+          "stateBody": false
+        },
+        {
+          "id": "s15",
+          "text": null,
+          "type": "fact",
+          "sourceType": null,
+          "sourceName": null,
+          "sourceDetail": null,
+          "party": null,
+          "stateBody": false
+        },
+        {
+          "id": "s16",
+          "text": null,
+          "type": "fact",
+          "sourceType": null,
+          "sourceName": null,
+          "sourceDetail": null,
+          "party": null,
+          "stateBody": false
+        },
+        {
+          "id": "s17",
+          "text": null,
+          "type": "fact",
+          "sourceType": null,
+          "sourceName": null,
+          "sourceDetail": null,
+          "party": null,
+          "stateBody": false
+        },
+        {
+          "id": "s18",
+          "text": null,
+          "type": "fact",
+          "sourceType": null,
+          "sourceName": null,
+          "sourceDetail": null,
+          "party": null,
+          "stateBody": false
+        },
+        {
+          "id": "s19",
+          "text": null,
+          "type": "fact",
+          "sourceType": null,
+          "sourceName": null,
+          "sourceDetail": null,
+          "party": null,
+          "stateBody": false
+        },
+        {
+          "id": "s20",
+          "text": null,
+          "type": "fact",
+          "sourceType": null,
+          "sourceName": null,
+          "sourceDetail": null,
+          "party": null,
+          "stateBody": false
+        },
+        {
+          "id": "s21",
+          "text": null,
+          "type": "fact",
+          "sourceType": null,
+          "sourceName": null,
+          "sourceDetail": null,
+          "party": null,
+          "stateBody": false
+        },
+        {
+          "id": "s22",
+          "text": null,
+          "type": "fact",
+          "sourceType": null,
+          "sourceName": null,
+          "sourceDetail": null,
+          "party": null,
+          "stateBody": false
+        },
+        {
+          "id": "s23",
+          "text": null,
+          "type": "fact",
+          "sourceType": null,
+          "sourceName": null,
+          "sourceDetail": null,
+          "party": null,
+          "stateBody": false
+        },
+        {
+          "id": "s24",
+          "text": null,
+          "type": "fact",
+          "sourceType": null,
+          "sourceName": null,
+          "sourceDetail": null,
+          "party": null,
+          "stateBody": false
+        },
+        {
+          "id": "s25",
+          "text": null,
+          "type": "fact",
+          "sourceType": null,
+          "sourceName": null,
+          "sourceDetail": null,
+          "party": null,
+          "stateBody": false
+        },
+        {
+          "id": "s26",
+          "text": null,
+          "type": "fact",
+          "sourceType": null,
+          "sourceName": null,
+          "sourceDetail": null,
+          "party": null,
+          "stateBody": false
+        },
+        {
+          "id": "s27",
+          "text": null,
+          "type": "fact",
+          "sourceType": null,
+          "sourceName": null,
+          "sourceDetail": null,
+          "party": null,
+          "stateBody": false
+        }
+      ],
+      "framingTerms": [],
+      "missingViewpoints": [
+        {
+          "sourceType": "gov",
+          "description": "정부·여당 인용 없음 (같은 이슈의 다른 기사에는 있습니다)",
+          "foundInArticleIds": [
+            "a-fe404905d1"
+          ]
+        },
+        {
+          "sourceType": "expert",
+          "description": "전문가 인용 없음 (같은 이슈의 다른 기사에는 있습니다)",
+          "foundInArticleIds": [
+            "a-93b111094f"
+          ]
+        }
+      ],
+      "metrics": {
+        "camps": {
+          "ruling": 0,
+          "third": 0,
+          "mainOpp": 0,
+          "independent": 0
+        },
+        "slope": null,
+        "slopeSmoothed": null,
+        "slopeBasis": 0,
+        "excludedFromSlope": 0,
+        "institution": 0
+      }
+    },
+    {
+      "id": "a-93b111094f",
+      "issueId": "auto-20261127-1338-1",
+      "outletId": "news1",
+      "title": "李대통령 지지율 2주 연속 상승 41%…\"사실상 7주째 횡보\"[갤럽]",
+      "summary": "부정 평가 이유로는 경제·민생(22%), 도덕성 문제 및 본인 재판 회피(16%), 부동산 정책(14%) 등이 지목됐다. 정당 지지도는 더불어민주당이 37%로 전주보다 1%p 상승했다. 국민의힘은 2%p 오른 30%를 기록했다. 양당...",
+      "url": "https://www.news1.kr/politics/president/6368121",
+      "publishedAt": "2026-11-27T10:34:00+09:00",
+      "sentences": [
+        {
+          "id": "s1",
+          "text": null,
+          "type": "fact",
+          "sourceType": null,
+          "sourceName": null,
+          "sourceDetail": null,
+          "party": null,
+          "stateBody": false
+        },
+        {
+          "id": "s2",
+          "text": null,
+          "type": "fact",
+          "sourceType": null,
+          "sourceName": null,
+          "sourceDetail": null,
+          "party": null,
+          "stateBody": false
+        },
+        {
+          "id": "s3",
+          "text": null,
+          "type": "fact",
+          "sourceType": null,
+          "sourceName": null,
+          "sourceDetail": null,
+          "party": null,
+          "stateBody": false
+        },
+        {
+          "id": "s4",
+          "text": null,
+          "type": "fact",
+          "sourceType": null,
+          "sourceName": null,
+          "sourceDetail": null,
+          "party": null,
+          "stateBody": false
+        },
+        {
+          "id": "s5",
+          "text": null,
+          "type": "quote",
+          "sourceType": "expert",
+          "sourceName": "갤럽",
+          "sourceDetail": null,
+          "party": null,
+          "stateBody": false
+        },
+        {
+          "id": "s6",
+          "text": null,
+          "type": "fact",
+          "sourceType": null,
+          "sourceName": null,
+          "sourceDetail": null,
+          "party": null,
+          "stateBody": false
+        },
+        {
+          "id": "s7",
+          "text": null,
+          "type": "fact",
+          "sourceType": null,
+          "sourceName": null,
+          "sourceDetail": null,
+          "party": null,
+          "stateBody": false
+        },
+        {
+          "id": "s8",
+          "text": null,
+          "type": "fact",
+          "sourceType": null,
+          "sourceName": null,
+          "sourceDetail": null,
+          "party": null,
+          "stateBody": false
+        },
+        {
+          "id": "s9",
+          "text": null,
+          "type": "fact",
+          "sourceType": null,
+          "sourceName": null,
+          "sourceDetail": null,
+          "party": null,
+          "stateBody": false
+        },
+        {
+          "id": "s10",
+          "text": null,
+          "type": "fact",
+          "sourceType": null,
+          "sourceName": null,
+          "sourceDetail": null,
+          "party": null,
+          "stateBody": false
+        },
+        {
+          "id": "s11",
+          "text": null,
+          "type": "fact",
+          "sourceType": null,
+          "sourceName": null,
+          "sourceDetail": null,
+          "party": null,
+          "stateBody": false
+        },
+        {
+          "id": "s12",
+          "text": null,
+          "type": "fact",
+          "sourceType": null,
+          "sourceName": null,
+          "sourceDetail": null,
+          "party": null,
+          "stateBody": false
+        },
+        {
+          "id": "s13",
+          "text": null,
+          "type": "fact",
+          "sourceType": null,
+          "sourceName": null,
+          "sourceDetail": null,
+          "party": null,
+          "stateBody": false
+        },
+        {
+          "id": "s14",
+          "text": null,
+          "type": "fact",
+          "sourceType": null,
+          "sourceName": null,
+          "sourceDetail": null,
+          "party": null,
+          "stateBody": false
+        },
+        {
+          "id": "s15",
+          "text": null,
+          "type": "fact",
+          "sourceType": null,
+          "sourceName": null,
+          "sourceDetail": null,
+          "party": null,
+          "stateBody": false
+        },
+        {
+          "id": "s16",
+          "text": null,
+          "type": "fact",
+          "sourceType": null,
+          "sourceName": null,
+          "sourceDetail": null,
+          "party": null,
+          "stateBody": false
+        },
+        {
+          "id": "s17",
+          "text": null,
+          "type": "fact",
+          "sourceType": null,
+          "sourceName": null,
+          "sourceDetail": null,
+          "party": null,
+          "stateBody": false
+        },
+        {
+          "id": "s18",
+          "text": null,
+          "type": "fact",
+          "sourceType": null,
+          "sourceName": null,
+          "sourceDetail": null,
+          "party": null,
+          "stateBody": false
+        },
+        {
+          "id": "s19",
+          "text": null,
+          "type": "fact",
+          "sourceType": null,
+          "sourceName": null,
+          "sourceDetail": null,
+          "party": null,
+          "stateBody": false
+        },
+        {
+          "id": "s20",
+          "text": null,
+          "type": "fact",
+          "sourceType": null,
+          "sourceName": null,
+          "sourceDetail": null,
+          "party": null,
+          "stateBody": false
+        }
+      ],
+      "framingTerms": [],
+      "missingViewpoints": [
+        {
+          "sourceType": "gov",
+          "description": "정부·여당 인용 없음 (같은 이슈의 다른 기사에는 있습니다)",
+          "foundInArticleIds": [
+            "a-fe404905d1"
+          ]
+        }
+      ],
+      "metrics": {
+        "camps": {
+          "ruling": 0,
+          "third": 0,
+          "mainOpp": 0,
+          "independent": 0
+        },
+        "slope": null,
+        "slopeSmoothed": null,
+        "slopeBasis": 0,
+        "excludedFromSlope": 0,
+        "institution": 0
+      }
+    },
+    {
+      "id": "a-12bbb3e489",
+      "issueId": "auto-20261127-1338-1",
+      "outletId": "tvchosun",
+      "title": "이 대통령 지지율 41%…조희대 탄핵 반대 42%·찬성 35%",
+      "summary": "부정 평가 이유로는 경제와 민생(22%), 도덕성 문제와 본인 재판 회피(16%), 부동산 정책'(14%) 등 순이었다. 정당 지지율은 더불어민주당 37%, 국민의힘 30%로 나타났다. 지난주보다 민주당은 1%포인트, 국민의힘은 2...",
+      "url": "https://news.tvchosun.com/site/data/html_dir/2026/11/27/2026112790112.html",
+      "publishedAt": "2026-11-27T10:26:00+09:00",
+      "sentences": [
+        {
+          "id": "s1",
+          "text": null,
+          "type": "fact",
+          "sourceType": null,
+          "sourceName": null,
+          "sourceDetail": null,
+          "party": null,
+          "stateBody": false
+        },
+        {
+          "id": "s2",
+          "text": null,
+          "type": "fact",
+          "sourceType": null,
+          "sourceName": null,
+          "sourceDetail": null,
+          "party": null,
+          "stateBody": false
+        },
+        {
+          "id": "s3",
+          "text": null,
+          "type": "fact",
+          "sourceType": null,
+          "sourceName": null,
+          "sourceDetail": null,
+          "party": null,
+          "stateBody": false
+        },
+        {
+          "id": "s4",
+          "text": null,
+          "type": "fact",
+          "sourceType": null,
+          "sourceName": null,
+          "sourceDetail": null,
+          "party": null,
+          "stateBody": false
+        },
+        {
+          "id": "s5",
+          "text": null,
+          "type": "fact",
+          "sourceType": null,
+          "sourceName": null,
+          "sourceDetail": null,
+          "party": null,
+          "stateBody": false
+        },
+        {
+          "id": "s6",
+          "text": null,
+          "type": "fact",
+          "sourceType": null,
+          "sourceName": null,
+          "sourceDetail": null,
+          "party": null,
+          "stateBody": false
+        },
+        {
+          "id": "s7",
+          "text": null,
+          "type": "fact",
+          "sourceType": null,
+          "sourceName": null,
+          "sourceDetail": null,
+          "party": null,
+          "stateBody": false
+        },
+        {
+          "id": "s8",
+          "text": null,
+          "type": "fact",
+          "sourceType": null,
+          "sourceName": null,
+          "sourceDetail": null,
+          "party": null,
+          "stateBody": false
+        },
+        {
+          "id": "s9",
+          "text": null,
+          "type": "fact",
+          "sourceType": null,
+          "sourceName": null,
+          "sourceDetail": null,
+          "party": null,
+          "stateBody": false
+        },
+        {
+          "id": "s10",
+          "text": null,
+          "type": "fact",
+          "sourceType": null,
+          "sourceName": null,
+          "sourceDetail": null,
+          "party": null,
+          "stateBody": false
+        },
+        {
+          "id": "s11",
+          "text": null,
+          "type": "fact",
+          "sourceType": null,
+          "sourceName": null,
+          "sourceDetail": null,
+          "party": null,
+          "stateBody": false
+        },
+        {
+          "id": "s12",
+          "text": null,
+          "type": "fact",
+          "sourceType": null,
+          "sourceName": null,
+          "sourceDetail": null,
+          "party": null,
+          "stateBody": false
+        },
+        {
+          "id": "s13",
+          "text": null,
+          "type": "fact",
+          "sourceType": null,
+          "sourceName": null,
+          "sourceDetail": null,
+          "party": null,
+          "stateBody": false
+        }
+      ],
+      "framingTerms": [],
+      "missingViewpoints": [
+        {
+          "sourceType": "gov",
+          "description": "정부·여당 인용 없음 (같은 이슈의 다른 기사에는 있습니다)",
+          "foundInArticleIds": [
+            "a-fe404905d1"
+          ]
+        },
+        {
+          "sourceType": "expert",
+          "description": "전문가 인용 없음 (같은 이슈의 다른 기사에는 있습니다)",
+          "foundInArticleIds": [
+            "a-93b111094f"
+          ]
+        }
+      ],
+      "metrics": {
+        "camps": {
+          "ruling": 0,
+          "third": 0,
+          "mainOpp": 0,
+          "independent": 0
+        },
+        "slope": null,
+        "slopeSmoothed": null,
+        "slopeBasis": 0,
+        "excludedFromSlope": 0,
+        "institution": 0
+      }
+    },
+    {
+      "id": "a-fe404905d1",
+      "issueId": "auto-20261127-1338-1",
+      "outletId": "chosun",
+      "title": "이 대통령 지지율 41%… 민주 37%·국힘 30% [한국갤럽]",
+      "summary": "이 대통령의 직무 수행을 부정적으로 평가한 이유로는 ‘경제·민생’(22%), ‘도덕성 문제·본인 재판 회피’(16%), ‘부동산 정책’(14%) 등이 꼽혔다. 지난주와 비교해 경제·민생을 꼽은 응답은 4%포인트, 도덕성...",
+      "url": "https://www.chosun.com/politics/assembly/2026/11/27/4RNIMHSNWVADJMTO3O7TSPR4HU/?utm_source=naver&utm_medium=referral&utm_campaign=naver-news",
+      "publishedAt": "2026-11-27T10:17:00+09:00",
+      "sentences": [
+        {
+          "id": "s1",
+          "text": null,
+          "type": "quote",
+          "sourceType": "gov",
+          "sourceName": "이재명 대통령",
+          "sourceDetail": null,
+          "party": "더불어민주당",
+          "stateBody": false
+        },
+        {
+          "id": "s2",
+          "text": null,
+          "type": "quote",
+          "sourceType": "gov",
+          "sourceName": "이 대통령",
+          "sourceDetail": null,
+          "party": "더불어민주당",
+          "stateBody": false
+        },
+        {
+          "id": "s3",
+          "text": null,
+          "type": "fact",
+          "sourceType": null,
+          "sourceName": null,
+          "sourceDetail": null,
+          "party": null,
+          "stateBody": false
+        },
+        {
+          "id": "s4",
+          "text": null,
+          "type": "fact",
+          "sourceType": null,
+          "sourceName": null,
+          "sourceDetail": null,
+          "party": null,
+          "stateBody": false
+        },
+        {
+          "id": "s5",
+          "text": null,
+          "type": "fact",
+          "sourceType": null,
+          "sourceName": null,
+          "sourceDetail": null,
+          "party": null,
+          "stateBody": false
+        }
+      ],
+      "framingTerms": [],
+      "missingViewpoints": [
+        {
+          "sourceType": "expert",
+          "description": "전문가 인용 없음 (같은 이슈의 다른 기사에는 있습니다)",
+          "foundInArticleIds": [
+            "a-93b111094f"
+          ]
+        }
+      ],
+      "metrics": {
+        "camps": {
+          "ruling": 2,
+          "third": 0,
+          "mainOpp": 0,
+          "independent": 0
+        },
+        "slope": 1.0,
+        "slopeSmoothed": 0.5,
+        "slopeBasis": 2,
+        "excludedFromSlope": 0,
+        "institution": 0
+      }
+    },
+    {
+      "id": "a-610740ea31",
+      "issueId": "auto-20261127-1338-1",
+      "outletId": "donga",
+      "title": "李국정 부정평가 50%…‘경제-민생’ 이어 ‘도덕성-본인 재판 회피’ ...",
+      "summary": "원인으로 ‘경제·민생’과 ‘도덕성 문제 및 본인 재판 회피’가 꼽혔다는 여론조사 결과가 27일 나왔다.... 이재명 대통령의 국정 수행을 부정적으로 평가한 요인으로는 ‘경제·민생’(22%)이 가장 많이 꼽혔다. 이어...",
+      "url": "https://www.donga.com/news/Politics/article/all/20261127/135101738/1",
+      "publishedAt": "2026-11-27T10:21:00+09:00",
+      "sentences": [
+        {
+          "id": "s1",
+          "text": null,
+          "type": "fact",
+          "sourceType": null,
+          "sourceName": null,
+          "sourceDetail": null,
+          "party": null,
+          "stateBody": false
+        },
+        {
+          "id": "s2",
+          "text": null,
+          "type": "fact",
+          "sourceType": null,
+          "sourceName": null,
+          "sourceDetail": null,
+          "party": null,
+          "stateBody": false
+        },
+        {
+          "id": "s3",
+          "text": null,
+          "type": "fact",
+          "sourceType": null,
+          "sourceName": null,
+          "sourceDetail": null,
+          "party": null,
+          "stateBody": false
+        },
+        {
+          "id": "s4",
+          "text": null,
+          "type": "fact",
+          "sourceType": null,
+          "sourceName": null,
+          "sourceDetail": null,
+          "party": null,
+          "stateBody": false
+        },
+        {
+          "id": "s5",
+          "text": null,
+          "type": "fact",
+          "sourceType": null,
+          "sourceName": null,
+          "sourceDetail": null,
+          "party": null,
+          "stateBody": false
+        },
+        {
+          "id": "s6",
+          "text": null,
+          "type": "fact",
+          "sourceType": null,
+          "sourceName": null,
+          "sourceDetail": null,
+          "party": null,
+          "stateBody": false
+        },
+        {
+          "id": "s7",
+          "text": null,
+          "type": "fact",
+          "sourceType": null,
+          "sourceName": null,
+          "sourceDetail": null,
+          "party": null,
+          "stateBody": false
+        },
+        {
+          "id": "s8",
+          "text": null,
+          "type": "fact",
+          "sourceType": null,
+          "sourceName": null,
+          "sourceDetail": null,
+          "party": null,
+          "stateBody": false
+        },
+        {
+          "id": "s9",
+          "text": null,
+          "type": "fact",
+          "sourceType": null,
+          "sourceName": null,
+          "sourceDetail": null,
+          "party": null,
+          "stateBody": false
+        },
+        {
+          "id": "s10",
+          "text": null,
+          "type": "fact",
+          "sourceType": null,
+          "sourceName": null,
+          "sourceDetail": null,
+          "party": null,
+          "stateBody": false
+        },
+        {
+          "id": "s11",
+          "text": "특정 정당을 지지하지 않는 부동층에서 국정 운영에 대한 비판적 시각이 우…",
+          "type": "opinion",
+          "sourceType": null,
+          "sourceName": null,
+          "sourceDetail": null,
+          "party": null,
+          "stateBody": false
+        },
+        {
+          "id": "s12",
+          "text": null,
+          "type": "fact",
+          "sourceType": null,
+          "sourceName": null,
+          "sourceDetail": null,
+          "party": null,
+          "stateBody": false
+        },
+        {
+          "id": "s13",
+          "text": null,
+          "type": "fact",
+          "sourceType": null,
+          "sourceName": null,
+          "sourceDetail": null,
+          "party": null,
+          "stateBody": false
+        },
+        {
+          "id": "s14",
+          "text": null,
+          "type": "fact",
+          "sourceType": null,
+          "sourceName": null,
+          "sourceDetail": null,
+          "party": null,
+          "stateBody": false
+        },
+        {
+          "id": "s15",
+          "text": "지지 정당 답변을 유보한 무당층은 26%로 집계됐으며, 특히 중도층 내에…",
+          "type": "opinion",
+          "sourceType": null,
+          "sourceName": null,
+          "sourceDetail": null,
+          "party": null,
+          "stateBody": false
+        },
+        {
+          "id": "s16",
+          "text": null,
+          "type": "fact",
+          "sourceType": null,
+          "sourceName": null,
+          "sourceDetail": null,
+          "party": null,
+          "stateBody": false
+        },
+        {
+          "id": "s17",
+          "text": null,
+          "type": "fact",
+          "sourceType": null,
+          "sourceName": null,
+          "sourceDetail": null,
+          "party": null,
+          "stateBody": false
+        }
+      ],
+      "framingTerms": [],
+      "missingViewpoints": [
+        {
+          "sourceType": "gov",
+          "description": "정부·여당 인용 없음 (같은 이슈의 다른 기사에는 있습니다)",
+          "foundInArticleIds": [
+            "a-fe404905d1"
+          ]
+        },
+        {
+          "sourceType": "expert",
+          "description": "전문가 인용 없음 (같은 이슈의 다른 기사에는 있습니다)",
+          "foundInArticleIds": [
+            "a-93b111094f"
+          ]
+        }
+      ],
+      "metrics": {
+        "camps": {
+          "ruling": 0,
+          "third": 0,
+          "mainOpp": 0,
+          "independent": 0
+        },
+        "slope": null,
+        "slopeSmoothed": null,
+        "slopeBasis": 0,
+        "excludedFromSlope": 0,
+        "institution": 0
+      }
+    },
+    {
+      "id": "a-6b125fbbf0",
+      "issueId": "auto-20261127-1338-1",
+      "outletId": "hani",
+      "title": "이 대통령 지지율 41%…민주 37%, 국힘 30% [갤럽]",
+      "summary": "정당 지지도 조사에서는 더불어민주당은 37%, 국민의힘은 30%로 집계됐다. 전주 대비 민주당은 1%포인트, 국민의힘은 2%포인트 올랐다. 조국혁신당은 4%, 개혁신당은 2%, 진보당은 1%였다. 지지하는 정당이 없는...",
+      "url": "https://www.hani.co.kr/arti/politics/politics_general/1289411.html",
+      "publishedAt": "2026-11-27T11:54:00+09:00",
+      "sentences": [
+        {
+          "id": "s1",
+          "text": null,
+          "type": "fact",
+          "sourceType": null,
+          "sourceName": null,
+          "sourceDetail": null,
+          "party": null,
+          "stateBody": false
+        },
+        {
+          "id": "s2",
+          "text": null,
+          "type": "fact",
+          "sourceType": null,
+          "sourceName": null,
+          "sourceDetail": null,
+          "party": null,
+          "stateBody": false
+        },
+        {
+          "id": "s3",
+          "text": null,
+          "type": "fact",
+          "sourceType": null,
+          "sourceName": null,
+          "sourceDetail": null,
+          "party": null,
+          "stateBody": false
+        },
+        {
+          "id": "s4",
+          "text": null,
+          "type": "fact",
+          "sourceType": null,
+          "sourceName": null,
+          "sourceDetail": null,
+          "party": null,
+          "stateBody": false
+        },
+        {
+          "id": "s5",
+          "text": null,
+          "type": "fact",
+          "sourceType": null,
+          "sourceName": null,
+          "sourceDetail": null,
+          "party": null,
+          "stateBody": false
+        },
+        {
+          "id": "s6",
+          "text": null,
+          "type": "fact",
+          "sourceType": null,
+          "sourceName": null,
+          "sourceDetail": null,
+          "party": null,
+          "stateBody": false
+        },
+        {
+          "id": "s7",
+          "text": null,
+          "type": "fact",
+          "sourceType": null,
+          "sourceName": null,
+          "sourceDetail": null,
+          "party": null,
+          "stateBody": false
+        },
+        {
+          "id": "s8",
+          "text": null,
+          "type": "fact",
+          "sourceType": null,
+          "sourceName": null,
+          "sourceDetail": null,
+          "party": null,
+          "stateBody": false
+        },
+        {
+          "id": "s9",
+          "text": null,
+          "type": "fact",
+          "sourceType": null,
+          "sourceName": null,
+          "sourceDetail": null,
+          "party": null,
+          "stateBody": false
+        },
+        {
+          "id": "s10",
+          "text": null,
+          "type": "fact",
+          "sourceType": null,
+          "sourceName": null,
+          "sourceDetail": null,
+          "party": null,
+          "stateBody": false
+        },
+        {
+          "id": "s11",
+          "text": null,
+          "type": "fact",
+          "sourceType": null,
+          "sourceName": null,
+          "sourceDetail": null,
+          "party": null,
+          "stateBody": false
+        },
+        {
+          "id": "s12",
+          "text": null,
+          "type": "fact",
+          "sourceType": null,
+          "sourceName": null,
+          "sourceDetail": null,
+          "party": null,
+          "stateBody": false
+        }
+      ],
+      "framingTerms": [],
+      "missingViewpoints": [
+        {
+          "sourceType": "gov",
+          "description": "정부·여당 인용 없음 (같은 이슈의 다른 기사에는 있습니다)",
+          "foundInArticleIds": [
+            "a-fe404905d1"
+          ]
+        },
+        {
+          "sourceType": "expert",
+          "description": "전문가 인용 없음 (같은 이슈의 다른 기사에는 있습니다)",
+          "foundInArticleIds": [
+            "a-93b111094f"
+          ]
+        }
+      ],
+      "metrics": {
+        "camps": {
+          "ruling": 0,
+          "third": 0,
+          "mainOpp": 0,
+          "independent": 0
+        },
+        "slope": null,
+        "slopeSmoothed": null,
+        "slopeBasis": 0,
+        "excludedFromSlope": 0,
+        "institution": 0
+      }
+    },
+    {
+      "id": "a-d9a6723b04",
+      "issueId": "auto-20261127-1338-1",
+      "outletId": "segye",
+      "title": "[속보] 李 대통령 지지율 41%…민주 37%·국힘 30% [한국갤럽]",
+      "summary": "부정 평가 이유는 ‘경제·민생(22%)’, ‘도덕성 문제·본인 재판 회피(16%)’, ‘부동산 정책(14%)’ 등이 언급됐다. 정당 지지도는 더불어민주당 37%, 국민의힘 30%로 전주보다 각각 1%p, 2%p 상승했다. 조국혁신당은 4...",
+      "url": "https://www.segye.com/newsView/20261127505541?OutUrl=naver",
+      "publishedAt": "2026-11-27T10:52:00+09:00",
+      "sentences": [
+        {
+          "id": "s1",
+          "text": null,
+          "type": "fact",
+          "sourceType": null,
+          "sourceName": null,
+          "sourceDetail": null,
+          "party": null,
+          "stateBody": false
+        },
+        {
+          "id": "s2",
+          "text": null,
+          "type": "fact",
+          "sourceType": null,
+          "sourceName": null,
+          "sourceDetail": null,
+          "party": null,
+          "stateBody": false
+        },
+        {
+          "id": "s3",
+          "text": null,
+          "type": "fact",
+          "sourceType": null,
+          "sourceName": null,
+          "sourceDetail": null,
+          "party": null,
+          "stateBody": false
+        },
+        {
+          "id": "s4",
+          "text": null,
+          "type": "fact",
+          "sourceType": null,
+          "sourceName": null,
+          "sourceDetail": null,
+          "party": null,
+          "stateBody": false
+        },
+        {
+          "id": "s5",
+          "text": null,
+          "type": "fact",
+          "sourceType": null,
+          "sourceName": null,
+          "sourceDetail": null,
+          "party": null,
+          "stateBody": false
+        },
+        {
+          "id": "s6",
+          "text": null,
+          "type": "fact",
+          "sourceType": null,
+          "sourceName": null,
+          "sourceDetail": null,
+          "party": null,
+          "stateBody": false
+        },
+        {
+          "id": "s7",
+          "text": null,
+          "type": "fact",
+          "sourceType": null,
+          "sourceName": null,
+          "sourceDetail": null,
+          "party": null,
+          "stateBody": false
+        },
+        {
+          "id": "s8",
+          "text": null,
+          "type": "fact",
+          "sourceType": null,
+          "sourceName": null,
+          "sourceDetail": null,
+          "party": null,
+          "stateBody": false
+        },
+        {
+          "id": "s9",
+          "text": null,
+          "type": "fact",
+          "sourceType": null,
+          "sourceName": null,
+          "sourceDetail": null,
+          "party": null,
+          "stateBody": false
+        },
+        {
+          "id": "s10",
+          "text": null,
+          "type": "fact",
+          "sourceType": null,
+          "sourceName": null,
+          "sourceDetail": null,
+          "party": null,
+          "stateBody": false
+        },
+        {
+          "id": "s11",
+          "text": null,
+          "type": "fact",
+          "sourceType": null,
+          "sourceName": null,
+          "sourceDetail": null,
+          "party": null,
+          "stateBody": false
+        }
+      ],
+      "framingTerms": [],
+      "missingViewpoints": [
+        {
+          "sourceType": "gov",
+          "description": "정부·여당 인용 없음 (같은 이슈의 다른 기사에는 있습니다)",
+          "foundInArticleIds": [
+            "a-fe404905d1"
+          ]
+        },
+        {
+          "sourceType": "expert",
+          "description": "전문가 인용 없음 (같은 이슈의 다른 기사에는 있습니다)",
+          "foundInArticleIds": [
+            "a-93b111094f"
+          ]
+        }
+      ],
+      "metrics": {
+        "camps": {
+          "ruling": 0,
+          "third": 0,
+          "mainOpp": 0,
+          "independent": 0
+        },
+        "slope": null,
+        "slopeSmoothed": null,
+        "slopeBasis": 0,
+        "excludedFromSlope": 0,
+        "institution": 0
+      }
+    },
+    {
+      "id": "a-02ff8e04a6",
+      "issueId": "auto-20261127-1338-1",
+      "outletId": "munhwa",
+      "title": "[속보]李대통령지지 41%…민주37%·국힘30%-한국갤럽",
+      "summary": "정당 지지율은 더불어민주당이 37%, 국민의힘이 30%였다. 한국갤럽이 지난 24일부터 26일까지 전국 만 18세 이상 유권자 1000명을 대상으로 이 대통령이 현재 대통령으로서의 직무를 잘 수행하고 있다고 보는지 물은...",
+      "url": "https://www.munhwa.com/article/11634596?ref=naver",
+      "publishedAt": "2026-11-27T11:38:00+09:00",
+      "sentences": [
+        {
+          "id": "s1",
+          "text": null,
+          "type": "fact",
+          "sourceType": null,
+          "sourceName": null,
+          "sourceDetail": null,
+          "party": null,
+          "stateBody": false
+        },
+        {
+          "id": "s2",
+          "text": null,
+          "type": "fact",
+          "sourceType": null,
+          "sourceName": null,
+          "sourceDetail": null,
+          "party": null,
+          "stateBody": false
+        },
+        {
+          "id": "s3",
+          "text": null,
+          "type": "fact",
+          "sourceType": null,
+          "sourceName": null,
+          "sourceDetail": null,
+          "party": null,
+          "stateBody": false
+        },
+        {
+          "id": "s4",
+          "text": null,
+          "type": "fact",
+          "sourceType": null,
+          "sourceName": null,
+          "sourceDetail": null,
+          "party": null,
+          "stateBody": false
+        },
+        {
+          "id": "s5",
+          "text": null,
+          "type": "fact",
+          "sourceType": null,
+          "sourceName": null,
+          "sourceDetail": null,
+          "party": null,
+          "stateBody": false
+        },
+        {
+          "id": "s6",
+          "text": null,
+          "type": "fact",
+          "sourceType": null,
+          "sourceName": null,
+          "sourceDetail": null,
+          "party": null,
+          "stateBody": false
+        },
+        {
+          "id": "s7",
+          "text": null,
+          "type": "fact",
+          "sourceType": null,
+          "sourceName": null,
+          "sourceDetail": null,
+          "party": null,
+          "stateBody": false
+        },
+        {
+          "id": "s8",
+          "text": null,
+          "type": "fact",
+          "sourceType": null,
+          "sourceName": null,
+          "sourceDetail": null,
+          "party": null,
+          "stateBody": false
+        },
+        {
+          "id": "s9",
+          "text": null,
+          "type": "fact",
+          "sourceType": null,
+          "sourceName": null,
+          "sourceDetail": null,
+          "party": null,
+          "stateBody": false
+        },
+        {
+          "id": "s10",
+          "text": null,
+          "type": "fact",
+          "sourceType": null,
+          "sourceName": null,
+          "sourceDetail": null,
+          "party": null,
+          "stateBody": false
+        },
+        {
+          "id": "s11",
+          "text": null,
+          "type": "fact",
+          "sourceType": null,
+          "sourceName": null,
+          "sourceDetail": null,
+          "party": null,
+          "stateBody": false
+        },
+        {
+          "id": "s12",
+          "text": null,
+          "type": "fact",
+          "sourceType": null,
+          "sourceName": null,
+          "sourceDetail": null,
+          "party": null,
+          "stateBody": false
+        },
+        {
+          "id": "s13",
+          "text": null,
+          "type": "fact",
+          "sourceType": null,
+          "sourceName": null,
+          "sourceDetail": null,
+          "party": null,
+          "stateBody": false
+        },
+        {
+          "id": "s14",
+          "text": null,
+          "type": "fact",
+          "sourceType": null,
+          "sourceName": null,
+          "sourceDetail": null,
+          "party": null,
+          "stateBody": false
+        },
+        {
+          "id": "s15",
+          "text": null,
+          "type": "fact",
+          "sourceType": null,
+          "sourceName": null,
+          "sourceDetail": null,
+          "party": null,
+          "stateBody": false
+        },
+        {
+          "id": "s16",
+          "text": null,
+          "type": "fact",
+          "sourceType": null,
+          "sourceName": null,
+          "sourceDetail": null,
+          "party": null,
+          "stateBody": false
+        },
+        {
+          "id": "s17",
+          "text": null,
+          "type": "fact",
+          "sourceType": null,
+          "sourceName": null,
+          "sourceDetail": null,
+          "party": null,
+          "stateBody": false
+        },
+        {
+          "id": "s18",
+          "text": null,
+          "type": "fact",
+          "sourceType": null,
+          "sourceName": null,
+          "sourceDetail": null,
+          "party": null,
+          "stateBody": false
+        },
+        {
+          "id": "s19",
+          "text": null,
+          "type": "fact",
+          "sourceType": null,
+          "sourceName": null,
+          "sourceDetail": null,
+          "party": null,
+          "stateBody": false
+        },
+        {
+          "id": "s20",
+          "text": null,
+          "type": "fact",
+          "sourceType": null,
+          "sourceName": null,
+          "sourceDetail": null,
+          "party": null,
+          "stateBody": false
+        },
+        {
+          "id": "s21",
+          "text": null,
+          "type": "fact",
+          "sourceType": null,
+          "sourceName": null,
+          "sourceDetail": null,
+          "party": null,
+          "stateBody": false
+        }
+      ],
+      "framingTerms": [],
+      "missingViewpoints": [
+        {
+          "sourceType": "gov",
+          "description": "정부·여당 인용 없음 (같은 이슈의 다른 기사에는 있습니다)",
+          "foundInArticleIds": [
+            "a-fe404905d1"
+          ]
+        },
+        {
+          "sourceType": "expert",
+          "description": "전문가 인용 없음 (같은 이슈의 다른 기사에는 있습니다)",
+          "foundInArticleIds": [
+            "a-93b111094f"
+          ]
+        }
+      ],
+      "metrics": {
+        "camps": {
+          "ruling": 0,
+          "third": 0,
+          "mainOpp": 0,
+          "independent": 0
+        },
+        "slope": null,
+        "slopeSmoothed": null,
+        "slopeBasis": 0,
+        "excludedFromSlope": 0,
+        "institution": 0
+      }
+    },
+    {
+      "id": "a-e5cf97d267",
+      "issueId": "auto-20261127-1339-1",
+      "outletId": "yna",
+      "title": "與윤리심판원, '발언 논란' 최민희 징계 안건 심의",
+      "summary": "더불어민주당 윤리심판원은 27일 오후 회의를 열어 최민희 최고위원에 대한 징계 안건을 논의한다. 김민석 대표가 지난 15일 최 최고위원의 발언 논란과 관련한 당 윤리감찰단 결과를 보고받고 윤리심판원에 이첩하도록 한...",
+      "url": "https://www.yna.co.kr/view/AKR20261126184300001?input=1195m",
+      "publishedAt": "2026-11-27T05:00:00+09:00",
+      "sentences": [
+        {
+          "id": "s1",
+          "text": null,
+          "type": "fact",
+          "sourceType": null,
+          "sourceName": null,
+          "sourceDetail": null,
+          "party": null,
+          "stateBody": false
+        },
+        {
+          "id": "s2",
+          "text": null,
+          "type": "fact",
+          "sourceType": null,
+          "sourceName": null,
+          "sourceDetail": null,
+          "party": null,
+          "stateBody": false
+        },
+        {
+          "id": "s3",
+          "text": null,
+          "type": "fact",
+          "sourceType": null,
+          "sourceName": null,
+          "sourceDetail": null,
+          "party": null,
+          "stateBody": false
+        },
+        {
+          "id": "s4",
+          "text": null,
+          "type": "fact",
+          "sourceType": null,
+          "sourceName": null,
+          "sourceDetail": null,
+          "party": null,
+          "stateBody": false
+        },
+        {
+          "id": "s5",
+          "text": null,
+          "type": "fact",
+          "sourceType": null,
+          "sourceName": null,
+          "sourceDetail": null,
+          "party": null,
+          "stateBody": false
+        },
+        {
+          "id": "s6",
+          "text": null,
+          "type": "fact",
+          "sourceType": null,
+          "sourceName": null,
+          "sourceDetail": null,
+          "party": null,
+          "stateBody": false
+        },
+        {
+          "id": "s7",
+          "text": "최 최고위원의 경우 지난해 국정감사 기간에 벌어진 딸 결혼식 축의금 논란…",
+          "type": "opinion",
+          "sourceType": null,
+          "sourceName": null,
+          "sourceDetail": null,
+          "party": null,
+          "stateBody": false
+        },
+        {
+          "id": "s8",
+          "text": null,
+          "type": "fact",
+          "sourceType": null,
+          "sourceName": null,
+          "sourceDetail": null,
+          "party": null,
+          "stateBody": false
+        },
+        {
+          "id": "s9",
+          "text": null,
+          "type": "fact",
+          "sourceType": null,
+          "sourceName": null,
+          "sourceDetail": null,
+          "party": null,
+          "stateBody": false
+        },
+        {
+          "id": "s10",
+          "text": null,
+          "type": "quote",
+          "sourceType": "gov",
+          "sourceName": "친청계 인사들",
+          "sourceDetail": null,
+          "party": "더불어민주당",
+          "stateBody": false
+        }
+      ],
+      "framingTerms": [
+        {
+          "term": "주장해왔다",
+          "sentenceId": "s10"
+        }
+      ],
+      "missingViewpoints": [
+        {
+          "sourceType": "expert",
+          "description": "전문가 인용 없음 (같은 이슈의 다른 기사에는 있습니다)",
+          "foundInArticleIds": [
+            "a-da846d2d28"
+          ]
+        },
+        {
+          "sourceType": "citizen",
+          "description": "시민·단체 인용 없음 (같은 이슈의 다른 기사에는 있습니다)",
+          "foundInArticleIds": [
+            "a-da846d2d28"
+          ]
+        }
+      ],
+      "metrics": {
+        "camps": {
+          "ruling": 1,
+          "third": 0,
+          "mainOpp": 0,
+          "independent": 0
+        },
+        "slope": 1.0,
+        "slopeSmoothed": 0.333,
+        "slopeBasis": 1,
+        "excludedFromSlope": 0,
+        "institution": 0
+      }
+    },
+    {
+      "id": "a-3e5b5ca27e",
+      "issueId": "auto-20261127-1339-1",
+      "outletId": "newsis",
+      "title": "민주당 윤리심판원, 오늘 최민희 징계 심의…결과 따라 與 내분 분수령",
+      "summary": "더불어민주당 윤리심판원이 27일 최민희 수석최고위원에 대한 징계 심의를 한다. 당내 친청(親정청래)계가 이번 징계 심의를 둘러싸고 김민석 민주당 대표의 '반·분·신(반명·분열주의·신천지)' 발언도 같은 잣대로...",
+      "url": "https://www.newsis.com/view/NISX20261126_0003885323",
+      "publishedAt": "2026-11-27T05:00:00+09:00",
+      "sentences": [
+        {
+          "id": "s1",
+          "text": "당내 친청(親정청래)계가 이번 징계 심의를 둘러싸고 김민석 민주당 대표의…",
+          "type": "opinion",
+          "sourceType": null,
+          "sourceName": null,
+          "sourceDetail": null,
+          "party": null,
+          "stateBody": false
+        },
+        {
+          "id": "s2",
+          "text": null,
+          "type": "fact",
+          "sourceType": null,
+          "sourceName": null,
+          "sourceDetail": null,
+          "party": null,
+          "stateBody": false
+        },
+        {
+          "id": "s3",
+          "text": "당내에선 최 최고위원이 중징계를 피하기 어렵다는 전망이 적지 않다.",
+          "type": "opinion",
+          "sourceType": null,
+          "sourceName": null,
+          "sourceDetail": null,
+          "party": null,
+          "stateBody": false
+        },
+        {
+          "id": "s4",
+          "text": null,
+          "type": "fact",
+          "sourceType": null,
+          "sourceName": null,
+          "sourceDetail": null,
+          "party": null,
+          "stateBody": false
+        },
+        {
+          "id": "s5",
+          "text": null,
+          "type": "fact",
+          "sourceType": null,
+          "sourceName": null,
+          "sourceDetail": null,
+          "party": null,
+          "stateBody": false
+        },
+        {
+          "id": "s6",
+          "text": "지난 2월 '자녀 축의금 논란'으로 경고 처분을 한 차례 받은 최 최고위…",
+          "type": "opinion",
+          "sourceType": null,
+          "sourceName": null,
+          "sourceDetail": null,
+          "party": null,
+          "stateBody": false
+        },
+        {
+          "id": "s7",
+          "text": null,
+          "type": "fact",
+          "sourceType": null,
+          "sourceName": null,
+          "sourceDetail": null,
+          "party": null,
+          "stateBody": false
+        },
+        {
+          "id": "s8",
+          "text": null,
+          "type": "fact",
+          "sourceType": null,
+          "sourceName": null,
+          "sourceDetail": null,
+          "party": null,
+          "stateBody": false
+        },
+        {
+          "id": "s9",
+          "text": "다만 이 경우 친청계의 반발로 인한 당내 분열 심화는 피할 수 없다는 분…",
+          "type": "opinion",
+          "sourceType": null,
+          "sourceName": null,
+          "sourceDetail": null,
+          "party": null,
+          "stateBody": false
+        },
+        {
+          "id": "s10",
+          "text": null,
+          "type": "quote",
+          "sourceType": "gov",
+          "sourceName": "친청계 최고위원들",
+          "sourceDetail": null,
+          "party": "더불어민주당",
+          "stateBody": false
+        },
+        {
+          "id": "s11",
+          "text": null,
+          "type": "fact",
+          "sourceType": null,
+          "sourceName": null,
+          "sourceDetail": null,
+          "party": null,
+          "stateBody": false
+        },
+        {
+          "id": "s12",
+          "text": null,
+          "type": "quote",
+          "sourceType": "gov",
+          "sourceName": "정청래 의원",
+          "sourceDetail": null,
+          "party": "더불어민주당",
+          "stateBody": false
+        },
+        {
+          "id": "s13",
+          "text": null,
+          "type": "quote",
+          "sourceType": "gov",
+          "sourceName": "정청래 의원",
+          "sourceDetail": null,
+          "party": "더불어민주당",
+          "stateBody": false
+        }
+      ],
+      "framingTerms": [
+        {
+          "term": "전망이 적지 않다",
+          "sentenceId": "s3"
+        },
+        {
+          "term": "분석이다",
+          "sentenceId": "s9"
+        },
+        {
+          "term": "공세를 펴고 있다",
+          "sentenceId": "s12"
+        }
+      ],
+      "missingViewpoints": [
+        {
+          "sourceType": "expert",
+          "description": "전문가 인용 없음 (같은 이슈의 다른 기사에는 있습니다)",
+          "foundInArticleIds": [
+            "a-da846d2d28"
+          ]
+        },
+        {
+          "sourceType": "citizen",
+          "description": "시민·단체 인용 없음 (같은 이슈의 다른 기사에는 있습니다)",
+          "foundInArticleIds": [
+            "a-da846d2d28"
+          ]
+        }
+      ],
+      "metrics": {
+        "camps": {
+          "ruling": 3,
+          "third": 0,
+          "mainOpp": 0,
+          "independent": 0
+        },
+        "slope": 1.0,
+        "slopeSmoothed": 0.6,
+        "slopeBasis": 3,
+        "excludedFromSlope": 0,
+        "institution": 0
+      }
+    },
+    {
+      "id": "a-da846d2d28",
+      "issueId": "auto-20261127-1339-1",
+      "outletId": "news1",
+      "title": "與 윤심원, 최민희 징계 심의 주목…중징계 기로 속 최민희 출석 예고(...",
+      "summary": "더불어민주당 윤리심판원이 27일 잇단 발언 논란에 휩싸인 최민희 최고위원에 대한 징계 여부와 수위를 논의한다. 당내에서는 당원자격정지 등 중징계 가능성이 거론되지만, 징계 결과에 따라...",
+      "url": "https://www.news1.kr/politics/assembly/6368182",
+      "publishedAt": "2026-11-27T11:32:00+09:00",
+      "sentences": [
+        {
+          "id": "s1",
+          "text": "이번 징계는 김민석 대표의 리더십을 가늠할 시험대가 될 것이라는 관측도…",
+          "type": "opinion",
+          "sourceType": null,
+          "sourceName": null,
+          "sourceDetail": null,
+          "party": null,
+          "stateBody": false
+        },
+        {
+          "id": "s2",
+          "text": null,
+          "type": "fact",
+          "sourceType": null,
+          "sourceName": null,
+          "sourceDetail": null,
+          "party": null,
+          "stateBody": false
+        },
+        {
+          "id": "s3",
+          "text": null,
+          "type": "quote",
+          "sourceType": "citizen",
+          "sourceName": "친청계",
+          "sourceDetail": null,
+          "party": null,
+          "stateBody": false
+        },
+        {
+          "id": "s4",
+          "text": null,
+          "type": "fact",
+          "sourceType": null,
+          "sourceName": null,
+          "sourceDetail": null,
+          "party": null,
+          "stateBody": false
+        },
+        {
+          "id": "s5",
+          "text": null,
+          "type": "fact",
+          "sourceType": null,
+          "sourceName": null,
+          "sourceDetail": null,
+          "party": null,
+          "stateBody": false
+        },
+        {
+          "id": "s6",
+          "text": null,
+          "type": "quote",
+          "sourceType": "gov",
+          "sourceName": "이성윤 최고위원",
+          "sourceDetail": null,
+          "party": "더불어민주당",
+          "stateBody": false
+        },
+        {
+          "id": "s7",
+          "text": null,
+          "type": "quote",
+          "sourceType": "gov",
+          "sourceName": "한민수 최고위원",
+          "sourceDetail": null,
+          "party": "더불어민주당",
+          "stateBody": false
+        },
+        {
+          "id": "s8",
+          "text": "당 중진들을 중심으로 당내 통합을 위해 징계 수위를 조절해야 한다는 목소…",
+          "type": "opinion",
+          "sourceType": null,
+          "sourceName": null,
+          "sourceDetail": null,
+          "party": null,
+          "stateBody": false
+        },
+        {
+          "id": "s9",
+          "text": null,
+          "type": "quote",
+          "sourceType": "expert",
+          "sourceName": "이종훈 정치평론가",
+          "sourceDetail": null,
+          "party": null,
+          "stateBody": false
+        },
+        {
+          "id": "s10",
+          "text": null,
+          "type": "fact",
+          "sourceType": null,
+          "sourceName": null,
+          "sourceDetail": null,
+          "party": null,
+          "stateBody": false
+        },
+        {
+          "id": "s11",
+          "text": null,
+          "type": "fact",
+          "sourceType": null,
+          "sourceName": null,
+          "sourceDetail": null,
+          "party": null,
+          "stateBody": false
+        },
+        {
+          "id": "s12",
+          "text": null,
+          "type": "fact",
+          "sourceType": null,
+          "sourceName": null,
+          "sourceDetail": null,
+          "party": null,
+          "stateBody": false
+        }
+      ],
+      "framingTerms": [
+        {
+          "term": "높이고 있다",
+          "sentenceId": "s3"
+        },
+        {
+          "term": "비판했다",
+          "sentenceId": "s6"
+        },
+        {
+          "term": "비판했다",
+          "sentenceId": "s7"
+        },
+        {
+          "term": "내다봤다",
+          "sentenceId": "s9"
+        }
+      ],
+      "missingViewpoints": [],
+      "metrics": {
+        "camps": {
+          "ruling": 2,
+          "third": 0,
+          "mainOpp": 0,
+          "independent": 0
+        },
+        "slope": 1.0,
+        "slopeSmoothed": 0.5,
+        "slopeBasis": 2,
+        "excludedFromSlope": 0,
+        "institution": 0
+      }
+    },
+    {
+      "id": "a-ae65284cfb",
+      "issueId": "auto-20261127-1339-1",
+      "outletId": "kbs",
+      "title": "최민희 “윤리심판원 출석해 해명”…‘친청계’ “김민석 징계는? 공평...",
+      "summary": "더불어민주당 윤리심판원이 오늘(27일) 최민희 최고위원에 대한 징계 안건을 심의하는 가운데, 최 최고위원이 출석해 소명하겠다는 뜻을 밝혔습니다. 민주당 최민희 최고위원은 오늘 국회에서 열린 최고위원회의에서...",
+      "url": "https://news.kbs.co.kr/news/pc/view/view.do?ncd=8724402&ref=A",
+      "publishedAt": "2026-11-27T11:09:00+09:00",
+      "sentences": [
+        {
+          "id": "s1",
+          "text": null,
+          "type": "fact",
+          "sourceType": null,
+          "sourceName": null,
+          "sourceDetail": null,
+          "party": null,
+          "stateBody": false
+        },
+        {
+          "id": "s2",
+          "text": null,
+          "type": "quote",
+          "sourceType": "gov",
+          "sourceName": "최민희 최고위원",
+          "sourceDetail": null,
+          "party": "더불어민주당",
+          "stateBody": false
+        },
+        {
+          "id": "s3",
+          "text": null,
+          "type": "fact",
+          "sourceType": null,
+          "sourceName": null,
+          "sourceDetail": null,
+          "party": null,
+          "stateBody": false
+        },
+        {
+          "id": "s4",
+          "text": null,
+          "type": "quote",
+          "sourceType": "gov",
+          "sourceName": "최고위원",
+          "sourceDetail": null,
+          "party": "더불어민주당",
+          "stateBody": false
+        },
+        {
+          "id": "s5",
+          "text": null,
+          "type": "quote",
+          "sourceType": "gov",
+          "sourceName": "최고위원",
+          "sourceDetail": null,
+          "party": "더불어민주당",
+          "stateBody": false
+        },
+        {
+          "id": "s6",
+          "text": null,
+          "type": "fact",
+          "sourceType": null,
+          "sourceName": null,
+          "sourceDetail": null,
+          "party": null,
+          "stateBody": false
+        },
+        {
+          "id": "s7",
+          "text": null,
+          "type": "quote",
+          "sourceType": "gov",
+          "sourceName": "이성윤 최고위원",
+          "sourceDetail": null,
+          "party": "더불어민주당",
+          "stateBody": false
+        },
+        {
+          "id": "s8",
+          "text": null,
+          "type": "quote",
+          "sourceType": "gov",
+          "sourceName": "최고위원",
+          "sourceDetail": null,
+          "party": "더불어민주당",
+          "stateBody": false
+        },
+        {
+          "id": "s9",
+          "text": null,
+          "type": "quote",
+          "sourceType": "gov",
+          "sourceName": "한민수 최고위원",
+          "sourceDetail": null,
+          "party": "더불어민주당",
+          "stateBody": false
+        },
+        {
+          "id": "s10",
+          "text": null,
+          "type": "fact",
+          "sourceType": null,
+          "sourceName": null,
+          "sourceDetail": null,
+          "party": null,
+          "stateBody": false
+        }
+      ],
+      "framingTerms": [],
+      "missingViewpoints": [
+        {
+          "sourceType": "expert",
+          "description": "전문가 인용 없음 (같은 이슈의 다른 기사에는 있습니다)",
+          "foundInArticleIds": [
+            "a-da846d2d28"
+          ]
+        },
+        {
+          "sourceType": "citizen",
+          "description": "시민·단체 인용 없음 (같은 이슈의 다른 기사에는 있습니다)",
+          "foundInArticleIds": [
+            "a-da846d2d28"
+          ]
+        }
+      ],
+      "metrics": {
+        "camps": {
+          "ruling": 6,
+          "third": 0,
+          "mainOpp": 0,
+          "independent": 0
+        },
+        "slope": 1.0,
+        "slopeSmoothed": 0.75,
+        "slopeBasis": 6,
+        "excludedFromSlope": 0,
+        "institution": 0
+      }
+    },
+    {
+      "id": "a-09d8f261ad",
+      "issueId": "auto-20261127-1339-1",
+      "outletId": "hani",
+      "title": "최민희 징계 결정 임박…민주당 긴장감 고조",
+      "summary": "최민희 최고위원에 대한 더불어민주당 윤리심판원의 징계 결정이 임박하면서 당내 긴장감이 고조되고 있다. 중징계가 나올 경우 ‘전당대회 국면에서 신천지 문제를 제기한 김민석 대표도 징계하라’고 주장해온 친정청래...",
+      "url": "https://www.hani.co.kr/arti/politics/politics_general/1289342.html",
+      "publishedAt": "2026-11-26T21:48:00+09:00",
+      "sentences": [
+        {
+          "id": "s1",
+          "text": null,
+          "type": "fact",
+          "sourceType": null,
+          "sourceName": null,
+          "sourceDetail": null,
+          "party": null,
+          "stateBody": false
+        },
+        {
+          "id": "s2",
+          "text": "중징계가 나올 경우 ‘전당대회 국면에서 신천지 문제를 제기한 김민석 대표…",
+          "type": "opinion",
+          "sourceType": null,
+          "sourceName": null,
+          "sourceDetail": null,
+          "party": null,
+          "stateBody": false
+        },
+        {
+          "id": "s3",
+          "text": null,
+          "type": "fact",
+          "sourceType": null,
+          "sourceName": null,
+          "sourceDetail": null,
+          "party": null,
+          "stateBody": false
+        },
+        {
+          "id": "s4",
+          "text": null,
+          "type": "fact",
+          "sourceType": null,
+          "sourceName": null,
+          "sourceDetail": null,
+          "party": null,
+          "stateBody": false
+        },
+        {
+          "id": "s5",
+          "text": null,
+          "type": "fact",
+          "sourceType": null,
+          "sourceName": null,
+          "sourceDetail": null,
+          "party": null,
+          "stateBody": false
+        },
+        {
+          "id": "s6",
+          "text": "당내에선 최 최고위원이 국정감사 기간 중 피감기관들로부터 딸 결혼식 축의…",
+          "type": "opinion",
+          "sourceType": null,
+          "sourceName": null,
+          "sourceDetail": null,
+          "party": null,
+          "stateBody": false
+        },
+        {
+          "id": "s7",
+          "text": null,
+          "type": "fact",
+          "sourceType": null,
+          "sourceName": null,
+          "sourceDetail": null,
+          "party": null,
+          "stateBody": false
+        },
+        {
+          "id": "s8",
+          "text": "윤리심판원 판단으로 당내 파열음이 커질 것이란 시각이 지배적이다.",
+          "type": "opinion",
+          "sourceType": null,
+          "sourceName": null,
+          "sourceDetail": null,
+          "party": null,
+          "stateBody": false
+        },
+        {
+          "id": "s9",
+          "text": "중징계인 경우 친청계의 반발이, 경징계인 경우 친이재명(친명)계의 불만이…",
+          "type": "opinion",
+          "sourceType": null,
+          "sourceName": null,
+          "sourceDetail": null,
+          "party": null,
+          "stateBody": false
+        },
+        {
+          "id": "s10",
+          "text": null,
+          "type": "quote",
+          "sourceType": "gov",
+          "sourceName": "한 친명계 재선 의원",
+          "sourceDetail": null,
+          "party": "더불어민주당",
+          "stateBody": false
+        },
+        {
+          "id": "s11",
+          "text": "당내에선 갈등 수습을 위한 김 대표와 정 의원의 ‘정치적 노력’이 필요하…",
+          "type": "opinion",
+          "sourceType": null,
+          "sourceName": null,
+          "sourceDetail": null,
+          "party": null,
+          "stateBody": false
+        },
+        {
+          "id": "s12",
+          "text": null,
+          "type": "fact",
+          "sourceType": null,
+          "sourceName": null,
+          "sourceDetail": null,
+          "party": null,
+          "stateBody": false
+        },
+        {
+          "id": "s13",
+          "text": null,
+          "type": "fact",
+          "sourceType": null,
+          "sourceName": null,
+          "sourceDetail": null,
+          "party": null,
+          "stateBody": false
+        },
+        {
+          "id": "s14",
+          "text": null,
+          "type": "quote",
+          "sourceType": "gov",
+          "sourceName": "정 의원",
+          "sourceDetail": null,
+          "party": "더불어민주당",
+          "stateBody": false
+        }
+      ],
+      "framingTerms": [
+        {
+          "term": "긴장감이 고조되고 있다",
+          "sentenceId": "s1"
+        },
+        {
+          "term": "반발이",
+          "sentenceId": "s9"
+        },
+        {
+          "term": "목소리가 잇따른다",
+          "sentenceId": "s11"
+        }
+      ],
+      "missingViewpoints": [
+        {
+          "sourceType": "expert",
+          "description": "전문가 인용 없음 (같은 이슈의 다른 기사에는 있습니다)",
+          "foundInArticleIds": [
+            "a-da846d2d28"
+          ]
+        },
+        {
+          "sourceType": "citizen",
+          "description": "시민·단체 인용 없음 (같은 이슈의 다른 기사에는 있습니다)",
+          "foundInArticleIds": [
+            "a-da846d2d28"
+          ]
+        }
+      ],
+      "metrics": {
+        "camps": {
+          "ruling": 2,
+          "third": 0,
+          "mainOpp": 0,
+          "independent": 0
+        },
+        "slope": 1.0,
+        "slopeSmoothed": 0.5,
+        "slopeBasis": 2,
+        "excludedFromSlope": 0,
+        "institution": 0
+      }
+    },
+    {
+      "id": "a-f410e974be",
+      "issueId": "auto-20261127-1339-1",
+      "outletId": "khan",
+      "title": "징계 심의 앞둔 최민희 “윤심원 출석해 해명하겠다”…친청계 “김민...",
+      "summary": "더불어민주당 윤리심판원에 회부된 최민희 최고위원이 27일 “윤리심판원에 출석해 해명하겠다”고 밝혔다. 친정청래(친청)계 최고위원들은 이날 김민석 당대표의 반명·분열주의·신천지(반분신) 비밀연합 의혹 제기 관련...",
+      "url": "https://www.khan.co.kr/article/202611271119001",
+      "publishedAt": "2026-11-27T11:19:00+09:00",
+      "sentences": [
+        {
+          "id": "s1",
+          "text": null,
+          "type": "quote",
+          "sourceType": "gov",
+          "sourceName": "최민희 최고위원",
+          "sourceDetail": null,
+          "party": "더불어민주당",
+          "stateBody": false
+        },
+        {
+          "id": "s2",
+          "text": null,
+          "type": "quote",
+          "sourceType": "gov",
+          "sourceName": "친청계 최고위원들",
+          "sourceDetail": null,
+          "party": "더불어민주당",
+          "stateBody": false
+        },
+        {
+          "id": "s3",
+          "text": null,
+          "type": "quote",
+          "sourceType": "gov",
+          "sourceName": "최 최고위원",
+          "sourceDetail": null,
+          "party": "더불어민주당",
+          "stateBody": false
+        },
+        {
+          "id": "s4",
+          "text": null,
+          "type": "quote",
+          "sourceType": "gov",
+          "sourceName": "최 최고위원",
+          "sourceDetail": null,
+          "party": "더불어민주당",
+          "stateBody": false
+        },
+        {
+          "id": "s5",
+          "text": null,
+          "type": "quote",
+          "sourceType": "gov",
+          "sourceName": "최 최고위원",
+          "sourceDetail": null,
+          "party": "더불어민주당",
+          "stateBody": false
+        },
+        {
+          "id": "s6",
+          "text": null,
+          "type": "fact",
+          "sourceType": null,
+          "sourceName": null,
+          "sourceDetail": null,
+          "party": null,
+          "stateBody": false
+        },
+        {
+          "id": "s7",
+          "text": null,
+          "type": "quote",
+          "sourceType": "gov",
+          "sourceName": "이 최고위원",
+          "sourceDetail": null,
+          "party": "더불어민주당",
+          "stateBody": false
+        },
+        {
+          "id": "s8",
+          "text": null,
+          "type": "quote",
+          "sourceType": "gov",
+          "sourceName": "한 최고위원",
+          "sourceDetail": null,
+          "party": "더불어민주당",
+          "stateBody": false
+        },
+        {
+          "id": "s9",
+          "text": null,
+          "type": "quote",
+          "sourceType": "gov",
+          "sourceName": "한 최고위원",
+          "sourceDetail": null,
+          "party": "더불어민주당",
+          "stateBody": false
+        }
+      ],
+      "framingTerms": [
+        {
+          "term": "촉구했다",
+          "sentenceId": "s2"
+        },
+        {
+          "term": "우려된다",
+          "sentenceId": "s5"
+        },
+        {
+          "term": "반발했다",
+          "sentenceId": "s6"
+        }
+      ],
+      "missingViewpoints": [
+        {
+          "sourceType": "expert",
+          "description": "전문가 인용 없음 (같은 이슈의 다른 기사에는 있습니다)",
+          "foundInArticleIds": [
+            "a-da846d2d28"
+          ]
+        },
+        {
+          "sourceType": "citizen",
+          "description": "시민·단체 인용 없음 (같은 이슈의 다른 기사에는 있습니다)",
+          "foundInArticleIds": [
+            "a-da846d2d28"
+          ]
+        }
+      ],
+      "metrics": {
+        "camps": {
+          "ruling": 8,
+          "third": 0,
+          "mainOpp": 0,
+          "independent": 0
+        },
+        "slope": 1.0,
+        "slopeSmoothed": 0.8,
+        "slopeBasis": 8,
+        "excludedFromSlope": 0,
+        "institution": 0
+      }
+    },
+    {
+      "id": "a-514b24cbfb",
+      "issueId": "auto-20261127-1339-1",
+      "outletId": "kmib",
+      "title": "자격정지? 제명?… 최민희 ‘징계 수위’ 촉각, 민주당 폭풍전야",
+      "summary": "잇단 발언 논란을 겪은 최민희 더불어민주당 최고위원에 대한 징계 안건이 27일 오후 윤리심판원에서 논의된다. 이는 김민석 대표가 지난 15일 최 최고위원의 발언 논란과 관련한 당 윤리감찰단 결과를 보고받고...",
+      "url": "https://www.kmib.co.kr/article/20261127500014",
+      "publishedAt": "2026-11-27T05:42:00+09:00",
+      "sentences": [
+        {
+          "id": "s1",
+          "text": null,
+          "type": "fact",
+          "sourceType": null,
+          "sourceName": null,
+          "sourceDetail": null,
+          "party": null,
+          "stateBody": false
+        },
+        {
+          "id": "s2",
+          "text": null,
+          "type": "fact",
+          "sourceType": null,
+          "sourceName": null,
+          "sourceDetail": null,
+          "party": null,
+          "stateBody": false
+        },
+        {
+          "id": "s3",
+          "text": null,
+          "type": "fact",
+          "sourceType": null,
+          "sourceName": null,
+          "sourceDetail": null,
+          "party": null,
+          "stateBody": false
+        },
+        {
+          "id": "s4",
+          "text": null,
+          "type": "fact",
+          "sourceType": null,
+          "sourceName": null,
+          "sourceDetail": null,
+          "party": null,
+          "stateBody": false
+        },
+        {
+          "id": "s5",
+          "text": null,
+          "type": "fact",
+          "sourceType": null,
+          "sourceName": null,
+          "sourceDetail": null,
+          "party": null,
+          "stateBody": false
+        },
+        {
+          "id": "s6",
+          "text": "최 최고위원의 경우 지난해 국정감사 기간에 벌어진 딸 결혼식 축의금 논란…",
+          "type": "opinion",
+          "sourceType": null,
+          "sourceName": null,
+          "sourceDetail": null,
+          "party": null,
+          "stateBody": false
+        },
+        {
+          "id": "s7",
+          "text": null,
+          "type": "fact",
+          "sourceType": null,
+          "sourceName": null,
+          "sourceDetail": null,
+          "party": null,
+          "stateBody": false
+        },
+        {
+          "id": "s8",
+          "text": null,
+          "type": "fact",
+          "sourceType": null,
+          "sourceName": null,
+          "sourceDetail": null,
+          "party": null,
+          "stateBody": false
+        },
+        {
+          "id": "s9",
+          "text": null,
+          "type": "quote",
+          "sourceType": "gov",
+          "sourceName": "친청계 인사들",
+          "sourceDetail": null,
+          "party": "더불어민주당",
+          "stateBody": false
+        }
+      ],
+      "framingTerms": [],
+      "missingViewpoints": [
+        {
+          "sourceType": "expert",
+          "description": "전문가 인용 없음 (같은 이슈의 다른 기사에는 있습니다)",
+          "foundInArticleIds": [
+            "a-da846d2d28"
+          ]
+        },
+        {
+          "sourceType": "citizen",
+          "description": "시민·단체 인용 없음 (같은 이슈의 다른 기사에는 있습니다)",
+          "foundInArticleIds": [
+            "a-da846d2d28"
+          ]
+        }
+      ],
+      "metrics": {
+        "camps": {
+          "ruling": 1,
+          "third": 0,
+          "mainOpp": 0,
+          "independent": 0
+        },
+        "slope": 1.0,
+        "slopeSmoothed": 0.333,
+        "slopeBasis": 1,
+        "excludedFromSlope": 0,
+        "institution": 0
+      }
+    },
+    {
+      "id": "a-ec76f09e7c",
+      "issueId": "auto-20261127-1340-1",
+      "outletId": "kbs",
+      "title": "민주당 정년연장특위, ‘정년연장안’ 노사 합의 결렬…“연내에 법안...",
+      "summary": "민주당 정년연장특위 간사인 김주영 의원은 오늘(27일) 국회에서 열린 특위 노사 소위원회 회의가 끝난 직후 기자들과 만나 “여전히 접점을 찾기가 어려운 문제”라면서 이같이 전했습니다. 김 의원은 “오늘 소위를...",
+      "url": "https://news.kbs.co.kr/news/pc/view/view.do?ncd=8724489&ref=A",
+      "publishedAt": "2026-11-27T12:31:00+09:00",
+      "sentences": [
+        {
+          "id": "s1",
+          "text": null,
+          "type": "fact",
+          "sourceType": null,
+          "sourceName": null,
+          "sourceDetail": null,
+          "party": null,
+          "stateBody": false
+        },
+        {
+          "id": "s2",
+          "text": null,
+          "type": "quote",
+          "sourceType": "gov",
+          "sourceName": "김주영 의원",
+          "sourceDetail": null,
+          "party": "더불어민주당",
+          "stateBody": false
+        },
+        {
+          "id": "s3",
+          "text": null,
+          "type": "quote",
+          "sourceType": "gov",
+          "sourceName": "김 의원",
+          "sourceDetail": null,
+          "party": "더불어민주당",
+          "stateBody": false
+        },
+        {
+          "id": "s4",
+          "text": null,
+          "type": "quote",
+          "sourceType": "gov",
+          "sourceName": "김 의원",
+          "sourceDetail": null,
+          "party": "더불어민주당",
+          "stateBody": false
+        },
+        {
+          "id": "s5",
+          "text": null,
+          "type": "quote",
+          "sourceType": "gov",
+          "sourceName": "김 의원",
+          "sourceDetail": null,
+          "party": "더불어민주당",
+          "stateBody": false
+        },
+        {
+          "id": "s6",
+          "text": null,
+          "type": "fact",
+          "sourceType": null,
+          "sourceName": null,
+          "sourceDetail": null,
+          "party": null,
+          "stateBody": false
+        },
+        {
+          "id": "s7",
+          "text": null,
+          "type": "fact",
+          "sourceType": null,
+          "sourceName": null,
+          "sourceDetail": null,
+          "party": null,
+          "stateBody": false
+        },
+        {
+          "id": "s8",
+          "text": null,
+          "type": "fact",
+          "sourceType": null,
+          "sourceName": null,
+          "sourceDetail": null,
+          "party": null,
+          "stateBody": false
+        }
+      ],
+      "framingTerms": [],
+      "missingViewpoints": [
+        {
+          "sourceType": "citizen",
+          "description": "시민·단체 인용 없음 (같은 이슈의 다른 기사에는 있습니다)",
+          "foundInArticleIds": [
+            "a-a422336226",
+            "a-280e04f453",
+            "a-a522162ac2",
+            "a-b7589b7281",
+            "a-2a5da13da5",
+            "a-c62a96105d"
+          ]
+        },
+        {
+          "sourceType": "industry",
+          "description": "기업·업계 인용 없음 (같은 이슈의 다른 기사에는 있습니다)",
+          "foundInArticleIds": [
+            "a-a422336226",
+            "a-280e04f453",
+            "a-b7589b7281",
+            "a-2a5da13da5",
+            "a-c62a96105d"
+          ]
+        }
+      ],
+      "metrics": {
+        "camps": {
+          "ruling": 4,
+          "third": 0,
+          "mainOpp": 0,
+          "independent": 0
+        },
+        "slope": 1.0,
+        "slopeSmoothed": 0.667,
+        "slopeBasis": 4,
+        "excludedFromSlope": 0,
+        "institution": 0
+      }
+    },
+    {
+      "id": "a-a422336226",
+      "issueId": "auto-20261127-1340-1",
+      "outletId": "sbs",
+      "title": "민주당 정년연장특위, 10개월 만에 노사 협의…\"올해 안에 정리해야\"",
+      "summary": "▲ 더불어민주당 소병훈 정년연장특별위원장이 27일 국회 의원회관에서 열린 정년연장특위 노사... 소병훈 정년특위 위원장은 국회에서 열린 소위원회에서 \"이제 더는 미루기 어렵고 올해 안에 정리해야 한다\"며...",
+      "url": "https://news.sbs.co.kr/news/endPage.do?news_id=N1008866561&plink=ORI&cooper=NAVER",
+      "publishedAt": "2026-11-27T11:38:00+09:00",
+      "sentences": [
+        {
+          "id": "s1",
+          "text": null,
+          "type": "fact",
+          "sourceType": null,
+          "sourceName": null,
+          "sourceDetail": null,
+          "party": null,
+          "stateBody": false
+        },
+        {
+          "id": "s2",
+          "text": null,
+          "type": "quote",
+          "sourceType": "gov",
+          "sourceName": "소병훈",
+          "sourceDetail": null,
+          "party": "더불어민주당",
+          "stateBody": false
+        },
+        {
+          "id": "s3",
+          "text": null,
+          "type": "quote",
+          "sourceType": "gov",
+          "sourceName": "소병훈",
+          "sourceDetail": null,
+          "party": "더불어민주당",
+          "stateBody": false
+        },
+        {
+          "id": "s4",
+          "text": null,
+          "type": "fact",
+          "sourceType": null,
+          "sourceName": null,
+          "sourceDetail": null,
+          "party": null,
+          "stateBody": false
+        },
+        {
+          "id": "s5",
+          "text": null,
+          "type": "fact",
+          "sourceType": null,
+          "sourceName": null,
+          "sourceDetail": null,
+          "party": null,
+          "stateBody": false
+        },
+        {
+          "id": "s6",
+          "text": null,
+          "type": "fact",
+          "sourceType": null,
+          "sourceName": null,
+          "sourceDetail": null,
+          "party": null,
+          "stateBody": false
+        },
+        {
+          "id": "s7",
+          "text": null,
+          "type": "fact",
+          "sourceType": null,
+          "sourceName": null,
+          "sourceDetail": null,
+          "party": null,
+          "stateBody": false
+        },
+        {
+          "id": "s8",
+          "text": null,
+          "type": "fact",
+          "sourceType": null,
+          "sourceName": null,
+          "sourceDetail": null,
+          "party": null,
+          "stateBody": false
+        },
+        {
+          "id": "s9",
+          "text": null,
+          "type": "quote",
+          "sourceType": "citizen",
+          "sourceName": "노동계",
+          "sourceDetail": null,
+          "party": null,
+          "stateBody": false
+        },
+        {
+          "id": "s10",
+          "text": null,
+          "type": "quote",
+          "sourceType": "industry",
+          "sourceName": "경영계",
+          "sourceDetail": null,
+          "party": null,
+          "stateBody": false
+        },
+        {
+          "id": "s11",
+          "text": null,
+          "type": "fact",
+          "sourceType": null,
+          "sourceName": null,
+          "sourceDetail": null,
+          "party": null,
+          "stateBody": false
+        },
+        {
+          "id": "s12",
+          "text": null,
+          "type": "quote",
+          "sourceType": "industry",
+          "sourceName": "이동근",
+          "sourceDetail": null,
+          "party": null,
+          "stateBody": false
+        },
+        {
+          "id": "s13",
+          "text": null,
+          "type": "quote",
+          "sourceType": "citizen",
+          "sourceName": "한성규",
+          "sourceDetail": null,
+          "party": null,
+          "stateBody": false
+        }
+      ],
+      "framingTerms": [],
+      "missingViewpoints": [],
+      "metrics": {
+        "camps": {
+          "ruling": 2,
+          "third": 0,
+          "mainOpp": 0,
+          "independent": 0
+        },
+        "slope": 1.0,
+        "slopeSmoothed": 0.5,
+        "slopeBasis": 2,
+        "excludedFromSlope": 0,
+        "institution": 0
+      }
+    },
+    {
+      "id": "a-280e04f453",
+      "issueId": "auto-20261127-1340-1",
+      "outletId": "ytn",
+      "title": "민주 정년연장특위, 노사 협의 재개...연내 입법 분수령",
+      "summary": "더불어민주당 정년연장특별위원회가 10개월 만에 공개회의를 열고 65세 법정 정년 연장을 둘러싼 노사 협의를 재개했습니다. 소병훈 특위 위원장은 오늘(27일) 회의에서 지난해 4월 특위가 출범한 이후 청년 고용 위축...",
+      "url": "https://www.ytn.co.kr/_ln/0101_202611271128044125",
+      "publishedAt": "2026-11-27T11:28:00+09:00",
+      "sentences": [
+        {
+          "id": "s1",
+          "text": null,
+          "type": "fact",
+          "sourceType": null,
+          "sourceName": null,
+          "sourceDetail": null,
+          "party": null,
+          "stateBody": false
+        },
+        {
+          "id": "s2",
+          "text": null,
+          "type": "quote",
+          "sourceType": "gov",
+          "sourceName": "소병훈 특위 위원장",
+          "sourceDetail": null,
+          "party": "더불어민주당",
+          "stateBody": false
+        },
+        {
+          "id": "s3",
+          "text": null,
+          "type": "quote",
+          "sourceType": "gov",
+          "sourceName": "김주영 특위 간사",
+          "sourceDetail": null,
+          "party": "더불어민주당",
+          "stateBody": false
+        },
+        {
+          "id": "s4",
+          "text": null,
+          "type": "quote",
+          "sourceType": "industry",
+          "sourceName": "경영계",
+          "sourceDetail": null,
+          "party": null,
+          "stateBody": false
+        },
+        {
+          "id": "s5",
+          "text": null,
+          "type": "quote",
+          "sourceType": "citizen",
+          "sourceName": "노동계",
+          "sourceDetail": null,
+          "party": null,
+          "stateBody": false
+        },
+        {
+          "id": "s6",
+          "text": null,
+          "type": "fact",
+          "sourceType": null,
+          "sourceName": null,
+          "sourceDetail": null,
+          "party": null,
+          "stateBody": false
+        }
+      ],
+      "framingTerms": [
+        {
+          "term": "강조했습니다",
+          "sentenceId": "s2"
+        },
+        {
+          "term": "말했습니다",
+          "sentenceId": "s4"
+        }
+      ],
+      "missingViewpoints": [],
+      "metrics": {
+        "camps": {
+          "ruling": 2,
+          "third": 0,
+          "mainOpp": 0,
+          "independent": 0
+        },
+        "slope": 1.0,
+        "slopeSmoothed": 0.5,
+        "slopeBasis": 2,
+        "excludedFromSlope": 0,
+        "institution": 0
+      }
+    },
+    {
+      "id": "a-a522162ac2",
+      "issueId": "auto-20261127-1340-1",
+      "outletId": "hani",
+      "title": "10개월 만에 열리고도…민주당 특위, ‘65살 정년연장’ 노사 접점 못찾...",
+      "summary": "지난해 4월 출범한 민주당 정년연장특위는 이재명 정부의 국정과제이기도 한 ‘65살 정년연장’ 연내 입법을 목표로 사회적 대화를 이어왔으나 노사 간 이견을 좁히지 못하고 1년 반 넘게 공회전하고 있다. 노동계에서는...",
+      "url": "https://www.hani.co.kr/arti/politics/politics_general/1289417.html",
+      "publishedAt": "2026-11-27T12:38:00+09:00",
+      "sentences": [
+        {
+          "id": "s1",
+          "text": null,
+          "type": "fact",
+          "sourceType": null,
+          "sourceName": null,
+          "sourceDetail": null,
+          "party": null,
+          "stateBody": false
+        },
+        {
+          "id": "s2",
+          "text": null,
+          "type": "quote",
+          "sourceType": "gov",
+          "sourceName": "김주영 민주당 의원",
+          "sourceDetail": null,
+          "party": "더불어민주당",
+          "stateBody": false
+        },
+        {
+          "id": "s3",
+          "text": null,
+          "type": "fact",
+          "sourceType": null,
+          "sourceName": null,
+          "sourceDetail": null,
+          "party": null,
+          "stateBody": false
+        },
+        {
+          "id": "s4",
+          "text": null,
+          "type": "quote",
+          "sourceType": "gov",
+          "sourceName": "김 의원",
+          "sourceDetail": null,
+          "party": "더불어민주당",
+          "stateBody": false
+        },
+        {
+          "id": "s5",
+          "text": null,
+          "type": "fact",
+          "sourceType": null,
+          "sourceName": null,
+          "sourceDetail": null,
+          "party": null,
+          "stateBody": false
+        },
+        {
+          "id": "s6",
+          "text": null,
+          "type": "quote",
+          "sourceType": "citizen",
+          "sourceName": "노동계",
+          "sourceDetail": null,
+          "party": null,
+          "stateBody": false
+        }
+      ],
+      "framingTerms": [
+        {
+          "term": "공회전하고 있다",
+          "sentenceId": "s5"
+        }
+      ],
+      "missingViewpoints": [
+        {
+          "sourceType": "industry",
+          "description": "기업·업계 인용 없음 (같은 이슈의 다른 기사에는 있습니다)",
+          "foundInArticleIds": [
+            "a-a422336226",
+            "a-280e04f453",
+            "a-b7589b7281",
+            "a-2a5da13da5",
+            "a-c62a96105d"
+          ]
+        }
+      ],
+      "metrics": {
+        "camps": {
+          "ruling": 2,
+          "third": 0,
+          "mainOpp": 0,
+          "independent": 0
+        },
+        "slope": 1.0,
+        "slopeSmoothed": 0.5,
+        "slopeBasis": 2,
+        "excludedFromSlope": 0,
+        "institution": 0
+      }
+    },
+    {
+      "id": "a-b7589b7281",
+      "issueId": "auto-20261127-1340-1",
+      "outletId": "hankookilbo",
+      "title": "'정년 연장' 노사 협의 10개월 만에 재개... 與 \"올해 안에 정리하자\"",
+      "summary": "더불어민주당 정년연장특별위원회는 27일 10개월 만에 노사 협의를 재개하고 합의안 도출에 나섰다. 소병훈 위원장은 이날 국회에서 열린 소위원회에서 \"이제 더는 미루기 어렵고 올해 안에 정리해야 한다\"며 \"그동안...",
+      "url": "https://www.hankookilbo.com/news/article/A2026112711230002630?did=NA",
+      "publishedAt": "2026-11-27T11:34:00+09:00",
+      "sentences": [
+        {
+          "id": "s1",
+          "text": null,
+          "type": "fact",
+          "sourceType": null,
+          "sourceName": null,
+          "sourceDetail": null,
+          "party": null,
+          "stateBody": false
+        },
+        {
+          "id": "s2",
+          "text": null,
+          "type": "quote",
+          "sourceType": "gov",
+          "sourceName": "소병훈 위원장",
+          "sourceDetail": null,
+          "party": "더불어민주당",
+          "stateBody": false
+        },
+        {
+          "id": "s3",
+          "text": null,
+          "type": "quote",
+          "sourceType": "gov",
+          "sourceName": "소병훈 위원장",
+          "sourceDetail": null,
+          "party": "더불어민주당",
+          "stateBody": false
+        },
+        {
+          "id": "s4",
+          "text": null,
+          "type": "fact",
+          "sourceType": null,
+          "sourceName": null,
+          "sourceDetail": null,
+          "party": null,
+          "stateBody": false
+        },
+        {
+          "id": "s5",
+          "text": null,
+          "type": "fact",
+          "sourceType": null,
+          "sourceName": null,
+          "sourceDetail": null,
+          "party": null,
+          "stateBody": false
+        },
+        {
+          "id": "s6",
+          "text": null,
+          "type": "fact",
+          "sourceType": null,
+          "sourceName": null,
+          "sourceDetail": null,
+          "party": null,
+          "stateBody": false
+        },
+        {
+          "id": "s7",
+          "text": null,
+          "type": "fact",
+          "sourceType": null,
+          "sourceName": null,
+          "sourceDetail": null,
+          "party": null,
+          "stateBody": false
+        },
+        {
+          "id": "s8",
+          "text": null,
+          "type": "quote",
+          "sourceType": "citizen",
+          "sourceName": "노동계",
+          "sourceDetail": null,
+          "party": null,
+          "stateBody": false
+        },
+        {
+          "id": "s9",
+          "text": null,
+          "type": "quote",
+          "sourceType": "industry",
+          "sourceName": "경영계",
+          "sourceDetail": null,
+          "party": null,
+          "stateBody": false
+        },
+        {
+          "id": "s10",
+          "text": null,
+          "type": "fact",
+          "sourceType": null,
+          "sourceName": null,
+          "sourceDetail": null,
+          "party": null,
+          "stateBody": false
+        },
+        {
+          "id": "s11",
+          "text": null,
+          "type": "quote",
+          "sourceType": "industry",
+          "sourceName": "이동근 부회장",
+          "sourceDetail": null,
+          "party": null,
+          "stateBody": false
+        },
+        {
+          "id": "s12",
+          "text": null,
+          "type": "quote",
+          "sourceType": "citizen",
+          "sourceName": "한성규 부위원장",
+          "sourceDetail": null,
+          "party": null,
+          "stateBody": false
+        }
+      ],
+      "framingTerms": [],
+      "missingViewpoints": [],
+      "metrics": {
+        "camps": {
+          "ruling": 2,
+          "third": 0,
+          "mainOpp": 0,
+          "independent": 0
+        },
+        "slope": 1.0,
+        "slopeSmoothed": 0.5,
+        "slopeBasis": 2,
+        "excludedFromSlope": 0,
+        "institution": 0
+      }
+    },
+    {
+      "id": "a-2a5da13da5",
+      "issueId": "auto-20261127-1340-1",
+      "outletId": "segye",
+      "title": "민주당 정년연장특위, 10개월만 노사협의 열고 “올해 안에 정리”",
+      "summary": "하지만 한성규 민노총 부위원장은 “경영계는 정년연장에 대한 비용 부담을 말하면서도 정부로부터 받은 세금 감면에 대해서는 침묵하고 있다”며 “그런 지원을 사회에 환원한 것이 온전히 사회적 책임을 보여주는...",
+      "url": "https://www.segye.com/newsView/20261127507063?OutUrl=naver",
+      "publishedAt": "2026-11-27T12:40:00+09:00",
+      "sentences": [
+        {
+          "id": "s1",
+          "text": null,
+          "type": "fact",
+          "sourceType": null,
+          "sourceName": null,
+          "sourceDetail": null,
+          "party": null,
+          "stateBody": false
+        },
+        {
+          "id": "s2",
+          "text": null,
+          "type": "quote",
+          "sourceType": "gov",
+          "sourceName": "소병훈 정년특위 위원장",
+          "sourceDetail": null,
+          "party": "더불어민주당",
+          "stateBody": false
+        },
+        {
+          "id": "s3",
+          "text": null,
+          "type": "fact",
+          "sourceType": null,
+          "sourceName": null,
+          "sourceDetail": null,
+          "party": null,
+          "stateBody": false
+        },
+        {
+          "id": "s4",
+          "text": null,
+          "type": "fact",
+          "sourceType": null,
+          "sourceName": null,
+          "sourceDetail": null,
+          "party": null,
+          "stateBody": false
+        },
+        {
+          "id": "s5",
+          "text": null,
+          "type": "fact",
+          "sourceType": null,
+          "sourceName": null,
+          "sourceDetail": null,
+          "party": null,
+          "stateBody": false
+        },
+        {
+          "id": "s6",
+          "text": null,
+          "type": "fact",
+          "sourceType": null,
+          "sourceName": null,
+          "sourceDetail": null,
+          "party": null,
+          "stateBody": false
+        },
+        {
+          "id": "s7",
+          "text": null,
+          "type": "fact",
+          "sourceType": null,
+          "sourceName": null,
+          "sourceDetail": null,
+          "party": null,
+          "stateBody": false
+        },
+        {
+          "id": "s8",
+          "text": null,
+          "type": "quote",
+          "sourceType": "citizen",
+          "sourceName": "노동계",
+          "sourceDetail": null,
+          "party": null,
+          "stateBody": false
+        },
+        {
+          "id": "s9",
+          "text": null,
+          "type": "quote",
+          "sourceType": "industry",
+          "sourceName": "경영계",
+          "sourceDetail": null,
+          "party": null,
+          "stateBody": false
+        },
+        {
+          "id": "s10",
+          "text": null,
+          "type": "quote",
+          "sourceType": "industry",
+          "sourceName": "경영계",
+          "sourceDetail": null,
+          "party": null,
+          "stateBody": false
+        },
+        {
+          "id": "s11",
+          "text": "이날 회의에서도 견해 차이가 팽팽했다.",
+          "type": "opinion",
+          "sourceType": null,
+          "sourceName": null,
+          "sourceDetail": null,
+          "party": null,
+          "stateBody": false
+        },
+        {
+          "id": "s12",
+          "text": null,
+          "type": "quote",
+          "sourceType": "industry",
+          "sourceName": "이동근 경총 부회장",
+          "sourceDetail": null,
+          "party": null,
+          "stateBody": false
+        },
+        {
+          "id": "s13",
+          "text": null,
+          "type": "quote",
+          "sourceType": "citizen",
+          "sourceName": "한성규 민노총 부위원장",
+          "sourceDetail": null,
+          "party": null,
+          "stateBody": false
+        }
+      ],
+      "framingTerms": [],
+      "missingViewpoints": [],
+      "metrics": {
+        "camps": {
+          "ruling": 1,
+          "third": 0,
+          "mainOpp": 0,
+          "independent": 0
+        },
+        "slope": 1.0,
+        "slopeSmoothed": 0.333,
+        "slopeBasis": 1,
+        "excludedFromSlope": 0,
+        "institution": 0
+      }
+    },
+    {
+      "id": "a-c62a96105d",
+      "issueId": "auto-20261127-1340-1",
+      "outletId": "seoul",
+      "title": "與 특위, 정년연장안 결론 시도…소병훈 “머잖아 발표”",
+      "summary": "소 의원은 이날 국회 의원회관에서 열린 특위 3차 소위원회에서 “계속 미루기만 할 수 없고 마무리해야... 이런 가운데 정혜경 진보당 의원은 이날 오후 국회 소통관에서 65세 법정 정년연장의 연내 입법을 촉구하는...",
+      "url": "https://www.seoul.co.kr/news/politics/2026/11/27/20261127500125?wlog_tag3=naver",
+      "publishedAt": "2026-11-27T11:37:00+09:00",
+      "sentences": [
+        {
+          "id": "s1",
+          "text": null,
+          "type": "fact",
+          "sourceType": null,
+          "sourceName": null,
+          "sourceDetail": null,
+          "party": null,
+          "stateBody": false
+        },
+        {
+          "id": "s2",
+          "text": null,
+          "type": "fact",
+          "sourceType": null,
+          "sourceName": null,
+          "sourceDetail": null,
+          "party": null,
+          "stateBody": false
+        },
+        {
+          "id": "s3",
+          "text": null,
+          "type": "fact",
+          "sourceType": null,
+          "sourceName": null,
+          "sourceDetail": null,
+          "party": null,
+          "stateBody": false
+        },
+        {
+          "id": "s4",
+          "text": null,
+          "type": "quote",
+          "sourceType": "gov",
+          "sourceName": "소병훈 의원",
+          "sourceDetail": null,
+          "party": "더불어민주당",
+          "stateBody": false
+        },
+        {
+          "id": "s5",
+          "text": null,
+          "type": "fact",
+          "sourceType": null,
+          "sourceName": null,
+          "sourceDetail": null,
+          "party": null,
+          "stateBody": false
+        },
+        {
+          "id": "s6",
+          "text": null,
+          "type": "quote",
+          "sourceType": "gov",
+          "sourceName": "소 의원",
+          "sourceDetail": null,
+          "party": "더불어민주당",
+          "stateBody": false
+        },
+        {
+          "id": "s7",
+          "text": null,
+          "type": "fact",
+          "sourceType": null,
+          "sourceName": null,
+          "sourceDetail": null,
+          "party": null,
+          "stateBody": false
+        },
+        {
+          "id": "s8",
+          "text": null,
+          "type": "quote",
+          "sourceType": "gov",
+          "sourceName": "소 위원장",
+          "sourceDetail": null,
+          "party": "더불어민주당",
+          "stateBody": false
+        },
+        {
+          "id": "s9",
+          "text": null,
+          "type": "quote",
+          "sourceType": "gov",
+          "sourceName": "김주영 의원",
+          "sourceDetail": null,
+          "party": "더불어민주당",
+          "stateBody": false
+        },
+        {
+          "id": "s10",
+          "text": null,
+          "type": "quote",
+          "sourceType": "gov",
+          "sourceName": "김 의원",
+          "sourceDetail": null,
+          "party": "더불어민주당",
+          "stateBody": false
+        },
+        {
+          "id": "s11",
+          "text": null,
+          "type": "fact",
+          "sourceType": null,
+          "sourceName": null,
+          "sourceDetail": null,
+          "party": null,
+          "stateBody": false
+        },
+        {
+          "id": "s12",
+          "text": null,
+          "type": "fact",
+          "sourceType": null,
+          "sourceName": null,
+          "sourceDetail": null,
+          "party": null,
+          "stateBody": false
+        },
+        {
+          "id": "s13",
+          "text": null,
+          "type": "fact",
+          "sourceType": null,
+          "sourceName": null,
+          "sourceDetail": null,
+          "party": null,
+          "stateBody": false
+        },
+        {
+          "id": "s14",
+          "text": null,
+          "type": "quote",
+          "sourceType": "industry",
+          "sourceName": "경영계",
+          "sourceDetail": null,
+          "party": null,
+          "stateBody": false
+        },
+        {
+          "id": "s15",
+          "text": null,
+          "type": "quote",
+          "sourceType": "industry",
+          "sourceName": "이동근 부회장",
+          "sourceDetail": null,
+          "party": null,
+          "stateBody": false
+        },
+        {
+          "id": "s16",
+          "text": null,
+          "type": "quote",
+          "sourceType": "industry",
+          "sourceName": "오기웅 상근부회장",
+          "sourceDetail": null,
+          "party": null,
+          "stateBody": false
+        },
+        {
+          "id": "s17",
+          "text": null,
+          "type": "quote",
+          "sourceType": "citizen",
+          "sourceName": "강석윤 수석부위원장",
+          "sourceDetail": null,
+          "party": null,
+          "stateBody": false
+        },
+        {
+          "id": "s18",
+          "text": null,
+          "type": "quote",
+          "sourceType": "citizen",
+          "sourceName": "한성규 부위원장",
+          "sourceDetail": null,
+          "party": null,
+          "stateBody": false
+        },
+        {
+          "id": "s19",
+          "text": null,
+          "type": "fact",
+          "sourceType": null,
+          "sourceName": null,
+          "sourceDetail": null,
+          "party": null,
+          "stateBody": false
+        }
+      ],
+      "framingTerms": [],
+      "missingViewpoints": [],
+      "metrics": {
+        "camps": {
+          "ruling": 5,
+          "third": 0,
+          "mainOpp": 0,
+          "independent": 0
+        },
+        "slope": 1.0,
+        "slopeSmoothed": 0.714,
+        "slopeBasis": 5,
+        "excludedFromSlope": 0,
+        "institution": 0
+      }
+    },
+    {
+      "id": "a-9e8ad28dea",
+      "issueId": "auto-20261127-1341-1",
+      "outletId": "kbs",
+      "title": "학교 비정규직 총파업…급식·돌봄 차질 예상",
+      "summary": "전국 학교 비정규직 노동자 약 4만 명이 오늘 하루 총파업에 들어갔습니다. 일부 학교 급식과 돌봄 수업에서... [리포트] 학교 비정규직 노동자들로 구성된 전국학교비정규직연대회의가 전국단위 총파업에 들어갔습니다....",
+      "url": "https://news.kbs.co.kr/news/pc/view/view.do?ncd=8724472&ref=A",
+      "publishedAt": "2026-11-27T12:08:00+09:00",
+      "sentences": [
+        {
+          "id": "s1",
+          "text": "브라우저에서만 사용하실 수 있습니다.",
+          "type": "opinion",
+          "sourceType": null,
+          "sourceName": null,
+          "sourceDetail": null,
+          "party": null,
+          "stateBody": false
+        },
+        {
+          "id": "s2",
+          "text": null,
+          "type": "fact",
+          "sourceType": null,
+          "sourceName": null,
+          "sourceDetail": null,
+          "party": null,
+          "stateBody": false
+        },
+        {
+          "id": "s3",
+          "text": "일부 학교 급식과 돌봄 수업에서 차질이 빚어질 것으로 보입니다.",
+          "type": "opinion",
+          "sourceType": null,
+          "sourceName": null,
+          "sourceDetail": null,
+          "party": null,
+          "stateBody": false
+        },
+        {
+          "id": "s4",
+          "text": null,
+          "type": "fact",
+          "sourceType": null,
+          "sourceName": null,
+          "sourceDetail": null,
+          "party": null,
+          "stateBody": false
+        },
+        {
+          "id": "s5",
+          "text": null,
+          "type": "fact",
+          "sourceType": null,
+          "sourceName": null,
+          "sourceDetail": null,
+          "party": null,
+          "stateBody": false
+        },
+        {
+          "id": "s6",
+          "text": null,
+          "type": "fact",
+          "sourceType": null,
+          "sourceName": null,
+          "sourceDetail": null,
+          "party": null,
+          "stateBody": false
+        },
+        {
+          "id": "s7",
+          "text": null,
+          "type": "quote",
+          "sourceType": "citizen",
+          "sourceName": "연대회의 측",
+          "sourceDetail": null,
+          "party": null,
+          "stateBody": false
+        },
+        {
+          "id": "s8",
+          "text": null,
+          "type": "quote",
+          "sourceType": "citizen",
+          "sourceName": "연대회의 측",
+          "sourceDetail": null,
+          "party": null,
+          "stateBody": false
+        },
+        {
+          "id": "s9",
+          "text": null,
+          "type": "fact",
+          "sourceType": null,
+          "sourceName": null,
+          "sourceDetail": null,
+          "party": null,
+          "stateBody": false
+        },
+        {
+          "id": "s10",
+          "text": null,
+          "type": "fact",
+          "sourceType": null,
+          "sourceName": null,
+          "sourceDetail": null,
+          "party": null,
+          "stateBody": false
+        },
+        {
+          "id": "s11",
+          "text": "이에 따라 일부 학교 급식과 초등 돌봄, 유치원 방과후 과정 등에서 차질…",
+          "type": "opinion",
+          "sourceType": null,
+          "sourceName": null,
+          "sourceDetail": null,
+          "party": null,
+          "stateBody": false
+        },
+        {
+          "id": "s12",
+          "text": null,
+          "type": "fact",
+          "sourceType": null,
+          "sourceName": null,
+          "sourceDetail": null,
+          "party": null,
+          "stateBody": false
+        },
+        {
+          "id": "s13",
+          "text": null,
+          "type": "fact",
+          "sourceType": null,
+          "sourceName": null,
+          "sourceDetail": null,
+          "party": null,
+          "stateBody": false
+        },
+        {
+          "id": "s14",
+          "text": null,
+          "type": "fact",
+          "sourceType": null,
+          "sourceName": null,
+          "sourceDetail": null,
+          "party": null,
+          "stateBody": false
+        },
+        {
+          "id": "s15",
+          "text": null,
+          "type": "fact",
+          "sourceType": null,
+          "sourceName": null,
+          "sourceDetail": null,
+          "party": null,
+          "stateBody": false
+        },
+        {
+          "id": "s16",
+          "text": null,
+          "type": "fact",
+          "sourceType": null,
+          "sourceName": null,
+          "sourceDetail": null,
+          "party": null,
+          "stateBody": false
+        },
+        {
+          "id": "s17",
+          "text": "▷ 유튜브, 네이버, 다음에서도 KBS뉴스를 구독해주세요!",
+          "type": "opinion",
+          "sourceType": null,
+          "sourceName": null,
+          "sourceDetail": null,
+          "party": null,
+          "stateBody": false
+        }
+      ],
+      "framingTerms": [],
+      "missingViewpoints": [
+        {
+          "sourceType": "gov",
+          "description": "정부·여당 인용 없음 (같은 이슈의 다른 기사에는 있습니다)",
+          "foundInArticleIds": [
+            "a-9259caf082",
+            "a-42c19aa21e",
+            "a-fcabdf89bc",
+            "a-b46d9bd717",
+            "a-0cfed23ccf"
+          ]
+        }
+      ],
+      "metrics": {
+        "camps": {
+          "ruling": 0,
+          "third": 0,
+          "mainOpp": 0,
+          "independent": 0
+        },
+        "slope": null,
+        "slopeSmoothed": null,
+        "slopeBasis": 0,
+        "excludedFromSlope": 0,
+        "institution": 0
+      }
+    },
+    {
+      "id": "a-9259caf082",
+      "issueId": "auto-20261127-1341-1",
+      "outletId": "sbs",
+      "title": "전국 학교 비정규직 총파업…일부 학교 '급식·돌봄' 차질",
+      "summary": "학교 급식과 돌봄 등을 담당하는 비정규직 노동자들이 교육당국과 임금 교섭에서 끝내 합의를 이루지 못해... <기자> 학교 비정규직 노동자 약 4만 명이 오늘 전국에서 총파업에 돌입했습니다. 유치원과 초·중·고...",
+      "url": "https://news.sbs.co.kr/news/endPage.do?news_id=N1008866588&plink=ORI&cooper=NAVER",
+      "publishedAt": "2026-11-27T12:08:00+09:00",
+      "sentences": [
+        {
+          "id": "s1",
+          "text": null,
+          "type": "fact",
+          "sourceType": null,
+          "sourceName": null,
+          "sourceDetail": null,
+          "party": null,
+          "stateBody": false
+        },
+        {
+          "id": "s2",
+          "text": null,
+          "type": "fact",
+          "sourceType": null,
+          "sourceName": null,
+          "sourceDetail": null,
+          "party": null,
+          "stateBody": false
+        },
+        {
+          "id": "s3",
+          "text": null,
+          "type": "fact",
+          "sourceType": null,
+          "sourceName": null,
+          "sourceDetail": null,
+          "party": null,
+          "stateBody": false
+        },
+        {
+          "id": "s4",
+          "text": null,
+          "type": "fact",
+          "sourceType": null,
+          "sourceName": null,
+          "sourceDetail": null,
+          "party": null,
+          "stateBody": false
+        },
+        {
+          "id": "s5",
+          "text": null,
+          "type": "fact",
+          "sourceType": null,
+          "sourceName": null,
+          "sourceDetail": null,
+          "party": null,
+          "stateBody": false
+        },
+        {
+          "id": "s6",
+          "text": null,
+          "type": "fact",
+          "sourceType": null,
+          "sourceName": null,
+          "sourceDetail": null,
+          "party": null,
+          "stateBody": false
+        },
+        {
+          "id": "s7",
+          "text": null,
+          "type": "fact",
+          "sourceType": null,
+          "sourceName": null,
+          "sourceDetail": null,
+          "party": null,
+          "stateBody": false
+        },
+        {
+          "id": "s8",
+          "text": null,
+          "type": "fact",
+          "sourceType": null,
+          "sourceName": null,
+          "sourceDetail": null,
+          "party": null,
+          "stateBody": false
+        },
+        {
+          "id": "s9",
+          "text": null,
+          "type": "quote",
+          "sourceType": "citizen",
+          "sourceName": "민태호",
+          "sourceDetail": null,
+          "party": null,
+          "stateBody": false
+        },
+        {
+          "id": "s10",
+          "text": null,
+          "type": "quote",
+          "sourceType": "gov",
+          "sourceName": "교육당국",
+          "sourceDetail": null,
+          "party": null,
+          "stateBody": false
+        },
+        {
+          "id": "s11",
+          "text": null,
+          "type": "fact",
+          "sourceType": null,
+          "sourceName": null,
+          "sourceDetail": null,
+          "party": null,
+          "stateBody": false
+        },
+        {
+          "id": "s12",
+          "text": null,
+          "type": "fact",
+          "sourceType": null,
+          "sourceName": null,
+          "sourceDetail": null,
+          "party": null,
+          "stateBody": false
+        }
+      ],
+      "framingTerms": [],
+      "missingViewpoints": [],
+      "metrics": {
+        "camps": {
+          "ruling": 1,
+          "third": 0,
+          "mainOpp": 0,
+          "independent": 0
+        },
+        "slope": 1.0,
+        "slopeSmoothed": 0.333,
+        "slopeBasis": 1,
+        "excludedFromSlope": 0,
+        "institution": 0
+      }
+    },
+    {
+      "id": "a-42c19aa21e",
+      "issueId": "auto-20261127-1341-1",
+      "outletId": "ytn",
+      "title": "정부와 교섭 불발...학교 비정규직, 내일 총파업",
+      "summary": "급식과 돌봄, 특수교육 등을 담당하는 학교 비정규직 노조가 교육 당국과의 임금교섭 불발로 내일(27일) 하루 파업합니다. 교육부는 대체 프로그램을 운영해 돌봄 학교는 정상 운영하겠다고 밝혔지만, 급식과 특수교육...",
+      "url": "https://www.ytn.co.kr/_ln/0103_202611262304593343",
+      "publishedAt": "2026-11-26T23:04:00+09:00",
+      "sentences": [
+        {
+          "id": "s1",
+          "text": null,
+          "type": "fact",
+          "sourceType": null,
+          "sourceName": null,
+          "sourceDetail": null,
+          "party": null,
+          "stateBody": false
+        },
+        {
+          "id": "s2",
+          "text": null,
+          "type": "quote",
+          "sourceType": "gov",
+          "sourceName": "교육부",
+          "sourceDetail": null,
+          "party": null,
+          "stateBody": false
+        },
+        {
+          "id": "s3",
+          "text": null,
+          "type": "fact",
+          "sourceType": null,
+          "sourceName": null,
+          "sourceDetail": null,
+          "party": null,
+          "stateBody": false
+        },
+        {
+          "id": "s4",
+          "text": null,
+          "type": "fact",
+          "sourceType": null,
+          "sourceName": null,
+          "sourceDetail": null,
+          "party": null,
+          "stateBody": false
+        },
+        {
+          "id": "s5",
+          "text": null,
+          "type": "fact",
+          "sourceType": null,
+          "sourceName": null,
+          "sourceDetail": null,
+          "party": null,
+          "stateBody": false
+        },
+        {
+          "id": "s6",
+          "text": null,
+          "type": "fact",
+          "sourceType": null,
+          "sourceName": null,
+          "sourceDetail": null,
+          "party": null,
+          "stateBody": false
+        },
+        {
+          "id": "s7",
+          "text": null,
+          "type": "fact",
+          "sourceType": null,
+          "sourceName": null,
+          "sourceDetail": null,
+          "party": null,
+          "stateBody": false
+        },
+        {
+          "id": "s8",
+          "text": null,
+          "type": "quote",
+          "sourceType": "citizen",
+          "sourceName": "노조",
+          "sourceDetail": null,
+          "party": null,
+          "stateBody": false
+        },
+        {
+          "id": "s9",
+          "text": null,
+          "type": "quote",
+          "sourceType": "citizen",
+          "sourceName": "민태호",
+          "sourceDetail": null,
+          "party": null,
+          "stateBody": false
+        },
+        {
+          "id": "s10",
+          "text": null,
+          "type": "quote",
+          "sourceType": "gov",
+          "sourceName": "교육 당국",
+          "sourceDetail": null,
+          "party": null,
+          "stateBody": false
+        },
+        {
+          "id": "s11",
+          "text": null,
+          "type": "fact",
+          "sourceType": null,
+          "sourceName": null,
+          "sourceDetail": null,
+          "party": null,
+          "stateBody": false
+        },
+        {
+          "id": "s12",
+          "text": null,
+          "type": "fact",
+          "sourceType": null,
+          "sourceName": null,
+          "sourceDetail": null,
+          "party": null,
+          "stateBody": false
+        },
+        {
+          "id": "s13",
+          "text": null,
+          "type": "fact",
+          "sourceType": null,
+          "sourceName": null,
+          "sourceDetail": null,
+          "party": null,
+          "stateBody": false
+        },
+        {
+          "id": "s14",
+          "text": "하지만 학교 비정규직 노조 파업 투표에서 찬성률이 90%를 넘겼다는 점에…",
+          "type": "opinion",
+          "sourceType": null,
+          "sourceName": null,
+          "sourceDetail": null,
+          "party": null,
+          "stateBody": false
+        },
+        {
+          "id": "s15",
+          "text": null,
+          "type": "fact",
+          "sourceType": null,
+          "sourceName": null,
+          "sourceDetail": null,
+          "party": null,
+          "stateBody": false
+        }
+      ],
+      "framingTerms": [],
+      "missingViewpoints": [],
+      "metrics": {
+        "camps": {
+          "ruling": 2,
+          "third": 0,
+          "mainOpp": 0,
+          "independent": 0
+        },
+        "slope": 1.0,
+        "slopeSmoothed": 0.5,
+        "slopeBasis": 2,
+        "excludedFromSlope": 0,
+        "institution": 0
+      }
+    },
+    {
+      "id": "a-fcabdf89bc",
+      "issueId": "auto-20261127-1341-1",
+      "outletId": "tvchosun",
+      "title": "전국 학교 비정규직 노조 내일 총파업…교육 당국, 긴급 상황실 가동",
+      "summary": "교육 당국은 급식·돌봄 차질에 대비해 비상 대응에 나섰다. 교육부와 시도교육청은 26일 파업 대응 상황실을 가동하고 학교별 여건에 따라 대체급식과 돌봄 대체 프로그램 등을 제공한다고 밝혔다. 지역·학교별 여건을...",
+      "url": "https://news.tvchosun.com/site/data/html_dir/2026/11/26/2026112690098.html",
+      "publishedAt": "2026-11-26T10:10:00+09:00",
+      "sentences": [
+        {
+          "id": "s1",
+          "text": null,
+          "type": "fact",
+          "sourceType": null,
+          "sourceName": null,
+          "sourceDetail": null,
+          "party": null,
+          "stateBody": false
+        },
+        {
+          "id": "s2",
+          "text": null,
+          "type": "fact",
+          "sourceType": null,
+          "sourceName": null,
+          "sourceDetail": null,
+          "party": null,
+          "stateBody": false
+        },
+        {
+          "id": "s3",
+          "text": null,
+          "type": "quote",
+          "sourceType": "gov",
+          "sourceName": "교육부와 시도교육청",
+          "sourceDetail": null,
+          "party": null,
+          "stateBody": false
+        },
+        {
+          "id": "s4",
+          "text": null,
+          "type": "fact",
+          "sourceType": null,
+          "sourceName": null,
+          "sourceDetail": null,
+          "party": null,
+          "stateBody": false
+        },
+        {
+          "id": "s5",
+          "text": null,
+          "type": "fact",
+          "sourceType": null,
+          "sourceName": null,
+          "sourceDetail": null,
+          "party": null,
+          "stateBody": false
+        },
+        {
+          "id": "s6",
+          "text": null,
+          "type": "fact",
+          "sourceType": null,
+          "sourceName": null,
+          "sourceDetail": null,
+          "party": null,
+          "stateBody": false
+        },
+        {
+          "id": "s7",
+          "text": null,
+          "type": "fact",
+          "sourceType": null,
+          "sourceName": null,
+          "sourceDetail": null,
+          "party": null,
+          "stateBody": false
+        },
+        {
+          "id": "s8",
+          "text": null,
+          "type": "fact",
+          "sourceType": null,
+          "sourceName": null,
+          "sourceDetail": null,
+          "party": null,
+          "stateBody": false
+        },
+        {
+          "id": "s9",
+          "text": null,
+          "type": "quote",
+          "sourceType": "gov",
+          "sourceName": "최은옥 교육부 장관 직무대행",
+          "sourceDetail": null,
+          "party": null,
+          "stateBody": false
+        }
+      ],
+      "framingTerms": [],
+      "missingViewpoints": [
+        {
+          "sourceType": "citizen",
+          "description": "시민·단체 인용 없음 (같은 이슈의 다른 기사에는 있습니다)",
+          "foundInArticleIds": [
+            "a-9e8ad28dea",
+            "a-9259caf082",
+            "a-42c19aa21e",
+            "a-b46d9bd717"
+          ]
+        }
+      ],
+      "metrics": {
+        "camps": {
+          "ruling": 2,
+          "third": 0,
+          "mainOpp": 0,
+          "independent": 0
+        },
+        "slope": 1.0,
+        "slopeSmoothed": 0.5,
+        "slopeBasis": 2,
+        "excludedFromSlope": 0,
+        "institution": 0
+      }
+    },
+    {
+      "id": "a-b46d9bd717",
+      "issueId": "auto-20261127-1341-1",
+      "outletId": "hani",
+      "title": "학교 비정규직 노동자들 27일 총파업…교육당국 “대체 급식 등 마련”",
+      "summary": "학교에서 급식, 돌봄 등을 담당하는 학교 비정규직 노동자들이 장기근속에도 임금 상승이 제한되는 임금체계 개선과 복리후생 차별 해소 등을 요구하며 27일 총파업에 돌입한다. 전국에서 최소 4만명의 노동자가 파업에...",
+      "url": "https://www.hani.co.kr/arti/society/schooling/1289167.html",
+      "publishedAt": "2026-11-26T09:06:00+09:00",
+      "sentences": [
+        {
+          "id": "s1",
+          "text": null,
+          "type": "fact",
+          "sourceType": null,
+          "sourceName": null,
+          "sourceDetail": null,
+          "party": null,
+          "stateBody": false
+        },
+        {
+          "id": "s2",
+          "text": null,
+          "type": "fact",
+          "sourceType": null,
+          "sourceName": null,
+          "sourceDetail": null,
+          "party": null,
+          "stateBody": false
+        },
+        {
+          "id": "s3",
+          "text": null,
+          "type": "quote",
+          "sourceType": "citizen",
+          "sourceName": "전국학교비정규직연대회의",
+          "sourceDetail": null,
+          "party": null,
+          "stateBody": false
+        },
+        {
+          "id": "s4",
+          "text": null,
+          "type": "fact",
+          "sourceType": null,
+          "sourceName": null,
+          "sourceDetail": null,
+          "party": null,
+          "stateBody": false
+        },
+        {
+          "id": "s5",
+          "text": null,
+          "type": "fact",
+          "sourceType": null,
+          "sourceName": null,
+          "sourceDetail": null,
+          "party": null,
+          "stateBody": false
+        },
+        {
+          "id": "s6",
+          "text": null,
+          "type": "quote",
+          "sourceType": "citizen",
+          "sourceName": "연대회의",
+          "sourceDetail": null,
+          "party": null,
+          "stateBody": false
+        },
+        {
+          "id": "s7",
+          "text": null,
+          "type": "fact",
+          "sourceType": null,
+          "sourceName": null,
+          "sourceDetail": null,
+          "party": null,
+          "stateBody": false
+        },
+        {
+          "id": "s8",
+          "text": null,
+          "type": "fact",
+          "sourceType": null,
+          "sourceName": null,
+          "sourceDetail": null,
+          "party": null,
+          "stateBody": false
+        },
+        {
+          "id": "s9",
+          "text": null,
+          "type": "quote",
+          "sourceType": "citizen",
+          "sourceName": "연대회의",
+          "sourceDetail": null,
+          "party": null,
+          "stateBody": false
+        },
+        {
+          "id": "s10",
+          "text": null,
+          "type": "fact",
+          "sourceType": null,
+          "sourceName": null,
+          "sourceDetail": null,
+          "party": null,
+          "stateBody": false
+        },
+        {
+          "id": "s11",
+          "text": null,
+          "type": "quote",
+          "sourceType": "citizen",
+          "sourceName": "연대회의",
+          "sourceDetail": null,
+          "party": null,
+          "stateBody": false
+        },
+        {
+          "id": "s12",
+          "text": "학교급식 노동자의 건강과 안전을 위해 개정된 학교급식법이 실효성을 갖추도…",
+          "type": "opinion",
+          "sourceType": null,
+          "sourceName": null,
+          "sourceDetail": null,
+          "party": null,
+          "stateBody": false
+        },
+        {
+          "id": "s13",
+          "text": null,
+          "type": "fact",
+          "sourceType": null,
+          "sourceName": null,
+          "sourceDetail": null,
+          "party": null,
+          "stateBody": false
+        },
+        {
+          "id": "s14",
+          "text": null,
+          "type": "quote",
+          "sourceType": "gov",
+          "sourceName": "교육부",
+          "sourceDetail": null,
+          "party": null,
+          "stateBody": false
+        },
+        {
+          "id": "s15",
+          "text": null,
+          "type": "fact",
+          "sourceType": null,
+          "sourceName": null,
+          "sourceDetail": null,
+          "party": null,
+          "stateBody": false
+        },
+        {
+          "id": "s16",
+          "text": null,
+          "type": "fact",
+          "sourceType": null,
+          "sourceName": null,
+          "sourceDetail": null,
+          "party": null,
+          "stateBody": false
+        }
+      ],
+      "framingTerms": [],
+      "missingViewpoints": [],
+      "metrics": {
+        "camps": {
+          "ruling": 1,
+          "third": 0,
+          "mainOpp": 0,
+          "independent": 0
+        },
+        "slope": 1.0,
+        "slopeSmoothed": 0.333,
+        "slopeBasis": 1,
+        "excludedFromSlope": 0,
+        "institution": 0
+      }
+    },
+    {
+      "id": "a-0cfed23ccf",
+      "issueId": "auto-20261127-1341-1",
+      "outletId": "khan",
+      "title": "학교 비정규직 27일 총파업…급식·돌봄 차질 우려에 교육당국 비상 대...",
+      "summary": "학교 급식과 돌봄 등을 담당하는 교육공무직 노동자들이 임금 인상과 처우 개선을 요구하며 오는 27일 총파업에 나선다. 교육당국은 대체급식 제공 등 학교 운영 차질을 최소화하기 위한 비상 대응에 나섰다. 교육부와...",
+      "url": "https://www.khan.co.kr/article/202611261004001",
+      "publishedAt": "2026-11-26T10:04:00+09:00",
+      "sentences": [
+        {
+          "id": "s1",
+          "text": null,
+          "type": "fact",
+          "sourceType": null,
+          "sourceName": null,
+          "sourceDetail": null,
+          "party": null,
+          "stateBody": false
+        },
+        {
+          "id": "s2",
+          "text": null,
+          "type": "fact",
+          "sourceType": null,
+          "sourceName": null,
+          "sourceDetail": null,
+          "party": null,
+          "stateBody": false
+        },
+        {
+          "id": "s3",
+          "text": null,
+          "type": "quote",
+          "sourceType": "gov",
+          "sourceName": "교육부와 시도교육청",
+          "sourceDetail": null,
+          "party": null,
+          "stateBody": false
+        },
+        {
+          "id": "s4",
+          "text": null,
+          "type": "fact",
+          "sourceType": null,
+          "sourceName": null,
+          "sourceDetail": null,
+          "party": null,
+          "stateBody": false
+        },
+        {
+          "id": "s5",
+          "text": "전국교육공무직본부는 전국에서 약 4만명의 노동자가 참여할 것으로 예상하고…",
+          "type": "opinion",
+          "sourceType": null,
+          "sourceName": null,
+          "sourceDetail": null,
+          "party": null,
+          "stateBody": false
+        },
+        {
+          "id": "s6",
+          "text": null,
+          "type": "fact",
+          "sourceType": null,
+          "sourceName": null,
+          "sourceDetail": null,
+          "party": null,
+          "stateBody": false
+        },
+        {
+          "id": "s7",
+          "text": null,
+          "type": "fact",
+          "sourceType": null,
+          "sourceName": null,
+          "sourceDetail": null,
+          "party": null,
+          "stateBody": false
+        },
+        {
+          "id": "s8",
+          "text": null,
+          "type": "fact",
+          "sourceType": null,
+          "sourceName": null,
+          "sourceDetail": null,
+          "party": null,
+          "stateBody": false
+        },
+        {
+          "id": "s9",
+          "text": null,
+          "type": "fact",
+          "sourceType": null,
+          "sourceName": null,
+          "sourceDetail": null,
+          "party": null,
+          "stateBody": false
+        },
+        {
+          "id": "s10",
+          "text": null,
+          "type": "fact",
+          "sourceType": null,
+          "sourceName": null,
+          "sourceDetail": null,
+          "party": null,
+          "stateBody": false
+        },
+        {
+          "id": "s11",
+          "text": null,
+          "type": "fact",
+          "sourceType": null,
+          "sourceName": null,
+          "sourceDetail": null,
+          "party": null,
+          "stateBody": false
+        },
+        {
+          "id": "s12",
+          "text": null,
+          "type": "quote",
+          "sourceType": "gov",
+          "sourceName": "서울시교육청",
+          "sourceDetail": null,
+          "party": null,
+          "stateBody": false
+        },
+        {
+          "id": "s13",
+          "text": null,
+          "type": "fact",
+          "sourceType": null,
+          "sourceName": null,
+          "sourceDetail": null,
+          "party": null,
+          "stateBody": false
+        },
+        {
+          "id": "s14",
+          "text": null,
+          "type": "fact",
+          "sourceType": null,
+          "sourceName": null,
+          "sourceDetail": null,
+          "party": null,
+          "stateBody": false
+        },
+        {
+          "id": "s15",
+          "text": null,
+          "type": "fact",
+          "sourceType": null,
+          "sourceName": null,
+          "sourceDetail": null,
+          "party": null,
+          "stateBody": false
+        },
+        {
+          "id": "s16",
+          "text": null,
+          "type": "quote",
+          "sourceType": "etc",
+          "sourceName": "최은옥 교육부 장관 직무대행 차관",
+          "sourceDetail": "전 교육부 차관",
+          "party": null,
+          "stateBody": false
+        }
+      ],
+      "framingTerms": [],
+      "missingViewpoints": [
+        {
+          "sourceType": "citizen",
+          "description": "시민·단체 인용 없음 (같은 이슈의 다른 기사에는 있습니다)",
+          "foundInArticleIds": [
+            "a-9e8ad28dea",
+            "a-9259caf082",
+            "a-42c19aa21e",
+            "a-b46d9bd717"
+          ]
+        }
+      ],
+      "metrics": {
+        "camps": {
+          "ruling": 2,
+          "third": 0,
+          "mainOpp": 0,
+          "independent": 0
+        },
+        "slope": 1.0,
+        "slopeSmoothed": 0.5,
+        "slopeBasis": 2,
+        "excludedFromSlope": 0,
+        "institution": 0
+      }
+    },
+    {
+      "id": "a-83bb18ae29",
+      "issueId": "auto-20261127-1342-1",
+      "outletId": "yna",
+      "title": "정점식 \"공소취소 전방위 움직임…탈옥열차 종착역은 교도소\"",
+      "summary": "27일 \"검찰총장 추가 추천, 이용철 공소 취소 특임장관 임명 강행, 탈옥 특검 임명까지 공소 취소를 향한... 특검, 검찰총장, 민주당·조국혁신당 국회의원 일동은 100% 교도소로 갈 것\"이라며 이같이 언급했다. 이어 민주당의...",
+      "url": "https://www.yna.co.kr/view/AKR20261127038500001?input=1195m",
+      "publishedAt": "2026-11-27T10:07:00+09:00",
+      "sentences": [
+        {
+          "id": "s1",
+          "text": null,
+          "type": "fact",
+          "sourceType": null,
+          "sourceName": null,
+          "sourceDetail": null,
+          "party": null,
+          "stateBody": false
+        },
+        {
+          "id": "s2",
+          "text": null,
+          "type": "quote",
+          "sourceType": "opp",
+          "sourceName": "국민의힘 정점식 원내대표",
+          "sourceDetail": null,
+          "party": "국민의힘",
+          "stateBody": false
+        },
+        {
+          "id": "s3",
+          "text": null,
+          "type": "quote",
+          "sourceType": "opp",
+          "sourceName": "정 원내대표",
+          "sourceDetail": null,
+          "party": "국민의힘",
+          "stateBody": false
+        },
+        {
+          "id": "s4",
+          "text": null,
+          "type": "quote",
+          "sourceType": "opp",
+          "sourceName": "정 원내대표",
+          "sourceDetail": null,
+          "party": "국민의힘",
+          "stateBody": false
+        },
+        {
+          "id": "s5",
+          "text": null,
+          "type": "quote",
+          "sourceType": "opp",
+          "sourceName": "그",
+          "sourceDetail": null,
+          "party": "국민의힘",
+          "stateBody": false
+        },
+        {
+          "id": "s6",
+          "text": null,
+          "type": "quote",
+          "sourceType": "opp",
+          "sourceName": "그",
+          "sourceDetail": null,
+          "party": "국민의힘",
+          "stateBody": false
+        },
+        {
+          "id": "s7",
+          "text": null,
+          "type": "quote",
+          "sourceType": "opp",
+          "sourceName": "그",
+          "sourceDetail": null,
+          "party": "국민의힘",
+          "stateBody": false
+        },
+        {
+          "id": "s8",
+          "text": null,
+          "type": "quote",
+          "sourceType": "opp",
+          "sourceName": "그",
+          "sourceDetail": null,
+          "party": "국민의힘",
+          "stateBody": false
+        }
+      ],
+      "framingTerms": [
+        {
+          "term": "비판했다",
+          "sentenceId": "s4"
+        },
+        {
+          "term": "경고했다",
+          "sentenceId": "s7"
+        }
+      ],
+      "missingViewpoints": [],
+      "metrics": {
+        "camps": {
+          "ruling": 0,
+          "third": 0,
+          "mainOpp": 7,
+          "independent": 0
+        },
+        "slope": -1.0,
+        "slopeSmoothed": -0.778,
+        "slopeBasis": 7,
+        "excludedFromSlope": 0,
+        "institution": 0
+      }
+    },
+    {
+      "id": "a-82d5002bd2",
+      "issueId": "auto-20261127-1342-1",
+      "outletId": "newsis",
+      "title": "정점식 \"공소취소 탈옥 열차 종착역은 교도소…李 재판 재개해야\"",
+      "summary": "더불어민주당이 이날 법제사법위원회에서 이용철 법무부 장관 후보자 인사청문 경과보고서 채택을 예고한 것에는 \"이 후보자는 민·형사 경험이 턱없이 부족한 공증 전문 변호사\"라며 \"이 후보자 임명 강행은 대한민국...",
+      "url": "https://www.newsis.com/view/NISX20261127_0003885833",
+      "publishedAt": "2026-11-27T10:26:00+09:00",
+      "sentences": [
+        {
+          "id": "s1",
+          "text": null,
+          "type": "quote",
+          "sourceType": "opp",
+          "sourceName": "정점식 원내대표",
+          "sourceDetail": null,
+          "party": "국민의힘",
+          "stateBody": false
+        },
+        {
+          "id": "s2",
+          "text": null,
+          "type": "quote",
+          "sourceType": "opp",
+          "sourceName": "정 원내대표",
+          "sourceDetail": null,
+          "party": "국민의힘",
+          "stateBody": false
+        },
+        {
+          "id": "s3",
+          "text": null,
+          "type": "quote",
+          "sourceType": "opp",
+          "sourceName": "그",
+          "sourceDetail": null,
+          "party": "국민의힘",
+          "stateBody": false
+        },
+        {
+          "id": "s4",
+          "text": null,
+          "type": "quote",
+          "sourceType": "opp",
+          "sourceName": "정 원내대표",
+          "sourceDetail": null,
+          "party": "국민의힘",
+          "stateBody": false
+        },
+        {
+          "id": "s5",
+          "text": null,
+          "type": "quote",
+          "sourceType": "opp",
+          "sourceName": "정 원내대표",
+          "sourceDetail": null,
+          "party": "국민의힘",
+          "stateBody": false
+        },
+        {
+          "id": "s6",
+          "text": null,
+          "type": "quote",
+          "sourceType": "opp",
+          "sourceName": "정 원내대표",
+          "sourceDetail": null,
+          "party": "국민의힘",
+          "stateBody": false
+        },
+        {
+          "id": "s7",
+          "text": null,
+          "type": "quote",
+          "sourceType": "opp",
+          "sourceName": "정 원내대표",
+          "sourceDetail": null,
+          "party": "국민의힘",
+          "stateBody": false
+        },
+        {
+          "id": "s8",
+          "text": null,
+          "type": "quote",
+          "sourceType": "opp",
+          "sourceName": "정 원내대표",
+          "sourceDetail": null,
+          "party": "국민의힘",
+          "stateBody": false
+        },
+        {
+          "id": "s9",
+          "text": null,
+          "type": "quote",
+          "sourceType": "opp",
+          "sourceName": "정 원내대표",
+          "sourceDetail": null,
+          "party": "국민의힘",
+          "stateBody": false
+        },
+        {
+          "id": "s10",
+          "text": null,
+          "type": "quote",
+          "sourceType": "opp",
+          "sourceName": "그",
+          "sourceDetail": null,
+          "party": "국민의힘",
+          "stateBody": false
+        },
+        {
+          "id": "s11",
+          "text": null,
+          "type": "quote",
+          "sourceType": "opp",
+          "sourceName": "정희용 사무총장",
+          "sourceDetail": null,
+          "party": "국민의힘",
+          "stateBody": false
+        },
+        {
+          "id": "s12",
+          "text": null,
+          "type": "fact",
+          "sourceType": null,
+          "sourceName": null,
+          "sourceDetail": null,
+          "party": null,
+          "stateBody": false
+        },
+        {
+          "id": "s13",
+          "text": null,
+          "type": "fact",
+          "sourceType": null,
+          "sourceName": null,
+          "sourceDetail": null,
+          "party": null,
+          "stateBody": false
+        }
+      ],
+      "framingTerms": [
+        {
+          "term": "강행",
+          "sentenceId": "s5"
+        }
+      ],
+      "missingViewpoints": [],
+      "metrics": {
+        "camps": {
+          "ruling": 0,
+          "third": 0,
+          "mainOpp": 11,
+          "independent": 0
+        },
+        "slope": -1.0,
+        "slopeSmoothed": -0.846,
+        "slopeBasis": 11,
+        "excludedFromSlope": 0,
+        "institution": 0
+      }
+    },
+    {
+      "id": "a-4fbe96a3f6",
+      "issueId": "auto-20261127-1342-1",
+      "outletId": "news1",
+      "title": "국힘 \"이용철 임명 강행, 형사사법 시스템 파국적 종말 될 것\"",
+      "summary": "이어 \"법무부가 검찰총장 후보 추천위원회로부터 검찰총장 후보자 제청 대상자를 추가로 천거받기로 했다\"며 \"장관을 통해 내리게 될 공소 취소 지시를 군말 없이 이행할 공소취소청장을 찾고 있느냐\"고 따졌다. 정...",
+      "url": "https://www.news1.kr/politics/assembly/6368087",
+      "publishedAt": "2026-11-27T10:49:00+09:00",
+      "sentences": [
+        {
+          "id": "s1",
+          "text": null,
+          "type": "quote",
+          "sourceType": "opp",
+          "sourceName": "국민의힘",
+          "sourceDetail": null,
+          "party": "국민의힘",
+          "stateBody": false
+        },
+        {
+          "id": "s2",
+          "text": null,
+          "type": "quote",
+          "sourceType": "opp",
+          "sourceName": "정점식 원내대표",
+          "sourceDetail": null,
+          "party": "국민의힘",
+          "stateBody": false
+        },
+        {
+          "id": "s3",
+          "text": null,
+          "type": "quote",
+          "sourceType": "opp",
+          "sourceName": "정 원내대표",
+          "sourceDetail": null,
+          "party": "국민의힘",
+          "stateBody": false
+        },
+        {
+          "id": "s4",
+          "text": null,
+          "type": "quote",
+          "sourceType": "opp",
+          "sourceName": "정 원내대표",
+          "sourceDetail": null,
+          "party": "국민의힘",
+          "stateBody": false
+        },
+        {
+          "id": "s5",
+          "text": null,
+          "type": "quote",
+          "sourceType": "opp",
+          "sourceName": "정 원내대표",
+          "sourceDetail": null,
+          "party": "국민의힘",
+          "stateBody": false
+        },
+        {
+          "id": "s6",
+          "text": null,
+          "type": "quote",
+          "sourceType": "opp",
+          "sourceName": "정 원내대표",
+          "sourceDetail": null,
+          "party": "국민의힘",
+          "stateBody": false
+        },
+        {
+          "id": "s7",
+          "text": null,
+          "type": "quote",
+          "sourceType": "opp",
+          "sourceName": "정 원내대표",
+          "sourceDetail": null,
+          "party": "국민의힘",
+          "stateBody": false
+        },
+        {
+          "id": "s8",
+          "text": null,
+          "type": "quote",
+          "sourceType": "opp",
+          "sourceName": "정 원내대표",
+          "sourceDetail": null,
+          "party": "국민의힘",
+          "stateBody": false
+        },
+        {
+          "id": "s9",
+          "text": null,
+          "type": "fact",
+          "sourceType": null,
+          "sourceName": null,
+          "sourceDetail": null,
+          "party": null,
+          "stateBody": false
+        },
+        {
+          "id": "s10",
+          "text": null,
+          "type": "quote",
+          "sourceType": "opp",
+          "sourceName": "박형수 의원",
+          "sourceDetail": null,
+          "party": "국민의힘",
+          "stateBody": false
+        },
+        {
+          "id": "s11",
+          "text": null,
+          "type": "quote",
+          "sourceType": "opp",
+          "sourceName": "박 의원",
+          "sourceDetail": null,
+          "party": "국민의힘",
+          "stateBody": false
+        },
+        {
+          "id": "s12",
+          "text": null,
+          "type": "quote",
+          "sourceType": "opp",
+          "sourceName": "박 의원",
+          "sourceDetail": null,
+          "party": "국민의힘",
+          "stateBody": false
+        },
+        {
+          "id": "s13",
+          "text": "이 후보자를 포함한 이번 개각 전반을 겨냥한 비판도 나왔다.",
+          "type": "opinion",
+          "sourceType": null,
+          "sourceName": null,
+          "sourceDetail": null,
+          "party": null,
+          "stateBody": false
+        },
+        {
+          "id": "s14",
+          "text": null,
+          "type": "quote",
+          "sourceType": "opp",
+          "sourceName": "김승수 원내운영수석부대표",
+          "sourceDetail": null,
+          "party": "국민의힘",
+          "stateBody": false
+        },
+        {
+          "id": "s15",
+          "text": null,
+          "type": "quote",
+          "sourceType": "opp",
+          "sourceName": "김 원내운영수석",
+          "sourceDetail": null,
+          "party": "국민의힘",
+          "stateBody": false
+        }
+      ],
+      "framingTerms": [
+        {
+          "term": "경고했다",
+          "sentenceId": "s1"
+        },
+        {
+          "term": "밝혔다",
+          "sentenceId": "s2"
+        },
+        {
+          "term": "비판했다",
+          "sentenceId": "s3"
+        },
+        {
+          "term": "따졌다",
+          "sentenceId": "s5"
+        },
+        {
+          "term": "말했다",
+          "sentenceId": "s8"
+        },
+        {
+          "term": "지적했다",
+          "sentenceId": "s10"
+        },
+        {
+          "term": "말했다",
+          "sentenceId": "s11"
+        },
+        {
+          "term": "촉구했다",
+          "sentenceId": "s12"
+        },
+        {
+          "term": "주장했다",
+          "sentenceId": "s14"
+        }
+      ],
+      "missingViewpoints": [],
+      "metrics": {
+        "camps": {
+          "ruling": 0,
+          "third": 0,
+          "mainOpp": 13,
+          "independent": 0
+        },
+        "slope": -1.0,
+        "slopeSmoothed": -0.867,
+        "slopeBasis": 13,
+        "excludedFromSlope": 0,
+        "institution": 0
+      }
+    },
+    {
+      "id": "a-70bc76051e",
+      "issueId": "auto-20261127-1342-1",
+      "outletId": "sbs",
+      "title": "정점식 \"검찰총장 후보 추가 추천, 공소취소청장 찾고 있는 것 \"",
+      "summary": "국민의힘 정점식 원내대표가 \"검찰총장 추가 추천, 이용철 공소취소 특임장관 임명 강행, 탈옥 특검 임명까지... 특검, 검찰총장, 민주당·조국혁신당 국회의원 일동은 100% 교도소로 갈 것\"이라며 이같이 언급했습니다. 이어...",
+      "url": "https://news.sbs.co.kr/news/endPage.do?news_id=N1008866434&plink=ORI&cooper=NAVER",
+      "publishedAt": "2026-11-27T10:46:00+09:00",
+      "sentences": [
+        {
+          "id": "s1",
+          "text": null,
+          "type": "quote",
+          "sourceType": "opp",
+          "sourceName": "정점식 원내대표",
+          "sourceDetail": null,
+          "party": "국민의힘",
+          "stateBody": false
+        },
+        {
+          "id": "s2",
+          "text": null,
+          "type": "quote",
+          "sourceType": "opp",
+          "sourceName": "정 원내대표",
+          "sourceDetail": null,
+          "party": "국민의힘",
+          "stateBody": false
+        },
+        {
+          "id": "s3",
+          "text": null,
+          "type": "quote",
+          "sourceType": "opp",
+          "sourceName": "정 원내대표",
+          "sourceDetail": null,
+          "party": "국민의힘",
+          "stateBody": false
+        },
+        {
+          "id": "s4",
+          "text": null,
+          "type": "quote",
+          "sourceType": "opp",
+          "sourceName": "정 원내대표",
+          "sourceDetail": null,
+          "party": "국민의힘",
+          "stateBody": false
+        },
+        {
+          "id": "s5",
+          "text": null,
+          "type": "quote",
+          "sourceType": "opp",
+          "sourceName": "정 원내대표",
+          "sourceDetail": null,
+          "party": "국민의힘",
+          "stateBody": false
+        },
+        {
+          "id": "s6",
+          "text": null,
+          "type": "quote",
+          "sourceType": "opp",
+          "sourceName": "정 원내대표",
+          "sourceDetail": null,
+          "party": "국민의힘",
+          "stateBody": false
+        },
+        {
+          "id": "s7",
+          "text": null,
+          "type": "quote",
+          "sourceType": "opp",
+          "sourceName": "정 원내대표",
+          "sourceDetail": null,
+          "party": "국민의힘",
+          "stateBody": false
+        }
+      ],
+      "framingTerms": [
+        {
+          "term": "관측이 나온다",
+          "sentenceId": "s4"
+        }
+      ],
+      "missingViewpoints": [],
+      "metrics": {
+        "camps": {
+          "ruling": 0,
+          "third": 0,
+          "mainOpp": 7,
+          "independent": 0
+        },
+        "slope": -1.0,
+        "slopeSmoothed": -0.778,
+        "slopeBasis": 7,
+        "excludedFromSlope": 0,
+        "institution": 0
+      }
+    },
+    {
+      "id": "a-4989c15325",
+      "issueId": "auto-20261127-1342-1",
+      "outletId": "ytn",
+      "title": "정점식 \"탈옥열차 출발 임박...종착역은 교도소\"",
+      "summary": "이어 '탈옥 열차'에 탑승한 이 대통령과 민주당, 조국혁신당 국회의원 일동은 100% 교도소로 갈 것이라고 강조했습니다. 또 조희대 대법원장 탄핵을 둔 5당이나 시민사회 연대는 일단 세 과시를 하고 헌법재판소를...",
+      "url": "https://www.ytn.co.kr/_ln/0101_202611271137078849",
+      "publishedAt": "2026-11-27T11:37:00+09:00",
+      "sentences": [
+        {
+          "id": "s1",
+          "text": null,
+          "type": "quote",
+          "sourceType": "opp",
+          "sourceName": "정점식 원내대표",
+          "sourceDetail": null,
+          "party": "국민의힘",
+          "stateBody": false
+        },
+        {
+          "id": "s2",
+          "text": null,
+          "type": "quote",
+          "sourceType": "opp",
+          "sourceName": "정 원내대표",
+          "sourceDetail": null,
+          "party": "국민의힘",
+          "stateBody": false
+        },
+        {
+          "id": "s3",
+          "text": null,
+          "type": "quote",
+          "sourceType": "opp",
+          "sourceName": "정 원내대표",
+          "sourceDetail": null,
+          "party": "국민의힘",
+          "stateBody": false
+        },
+        {
+          "id": "s4",
+          "text": null,
+          "type": "quote",
+          "sourceType": "opp",
+          "sourceName": "정 원내대표",
+          "sourceDetail": null,
+          "party": "국민의힘",
+          "stateBody": false
+        },
+        {
+          "id": "s5",
+          "text": null,
+          "type": "quote",
+          "sourceType": "opp",
+          "sourceName": "정점식 원내대표",
+          "sourceDetail": null,
+          "party": "국민의힘",
+          "stateBody": false
+        },
+        {
+          "id": "s6",
+          "text": null,
+          "type": "fact",
+          "sourceType": null,
+          "sourceName": null,
+          "sourceDetail": null,
+          "party": null,
+          "stateBody": false
+        }
+      ],
+      "framingTerms": [],
+      "missingViewpoints": [],
+      "metrics": {
+        "camps": {
+          "ruling": 0,
+          "third": 0,
+          "mainOpp": 5,
+          "independent": 0
+        },
+        "slope": -1.0,
+        "slopeSmoothed": -0.714,
+        "slopeBasis": 5,
+        "excludedFromSlope": 0,
+        "institution": 0
+      }
+    },
+    {
+      "id": "a-6bcb4cdbb3",
+      "issueId": "auto-20261127-1342-1",
+      "outletId": "tvchosun",
+      "title": "정점식 \"공소취소 전방위적 움직임 가속화…종착역은 교도소\"",
+      "summary": "정 원내대표는 이날 오전 국회 원내대책회의에서 \"이 열차에 탑승한 이재명 대통령, 한성숙 국무총리, 이용철 후보자, 탈옥특검, 검찰총장, 더불어민주당, 조국혁신당 국회의원 일동과 그 외 모든 승객 여러분이 100...",
+      "url": "https://news.tvchosun.com/site/data/html_dir/2026/11/27/2026112790137.html",
+      "publishedAt": "2026-11-27T11:37:00+09:00",
+      "sentences": [
+        {
+          "id": "s1",
+          "text": null,
+          "type": "quote",
+          "sourceType": "opp",
+          "sourceName": "정점식 원내대표",
+          "sourceDetail": null,
+          "party": "국민의힘",
+          "stateBody": false
+        },
+        {
+          "id": "s2",
+          "text": null,
+          "type": "quote",
+          "sourceType": "opp",
+          "sourceName": "정 원내대표",
+          "sourceDetail": null,
+          "party": "국민의힘",
+          "stateBody": false
+        },
+        {
+          "id": "s3",
+          "text": null,
+          "type": "quote",
+          "sourceType": "opp",
+          "sourceName": "정 원내대표",
+          "sourceDetail": null,
+          "party": "국민의힘",
+          "stateBody": false
+        },
+        {
+          "id": "s4",
+          "text": null,
+          "type": "quote",
+          "sourceType": "opp",
+          "sourceName": "그",
+          "sourceDetail": null,
+          "party": "국민의힘",
+          "stateBody": false
+        },
+        {
+          "id": "s5",
+          "text": null,
+          "type": "quote",
+          "sourceType": "opp",
+          "sourceName": "그",
+          "sourceDetail": null,
+          "party": "국민의힘",
+          "stateBody": false
+        },
+        {
+          "id": "s6",
+          "text": null,
+          "type": "quote",
+          "sourceType": "opp",
+          "sourceName": "정 원내대표",
+          "sourceDetail": null,
+          "party": "국민의힘",
+          "stateBody": false
+        }
+      ],
+      "framingTerms": [],
+      "missingViewpoints": [],
+      "metrics": {
+        "camps": {
+          "ruling": 0,
+          "third": 0,
+          "mainOpp": 6,
+          "independent": 0
+        },
+        "slope": -1.0,
+        "slopeSmoothed": -0.75,
+        "slopeBasis": 6,
+        "excludedFromSlope": 0,
+        "institution": 0
+      }
+    },
+    {
+      "id": "a-3dcdf87e88",
+      "issueId": "auto-20261127-1342-1",
+      "outletId": "donga",
+      "title": "野 “이용철, 공소취소 원포인트 인사…임명땐 형사사법 시스템 파국적...",
+      "summary": "초대 공소청 수장(검찰총장) 인선을 진행 중인 법무부가 후보자 천거를 마친 지 약 한 달 만에 돌연 후보를 더... 그는 “검찰총장 추가 추천, 이용철 공소 취소 특임 장관 임명 강행, 탈옥 특검 임명까지 공소 취소를 향한...",
+      "url": "https://www.donga.com/news/Politics/article/all/20261127/135101655/2",
+      "publishedAt": "2026-11-27T09:54:00+09:00",
+      "sentences": [
+        {
+          "id": "s1",
+          "text": null,
+          "type": "quote",
+          "sourceType": "opp",
+          "sourceName": "정점식 원내대표",
+          "sourceDetail": null,
+          "party": "국민의힘",
+          "stateBody": false
+        },
+        {
+          "id": "s2",
+          "text": null,
+          "type": "quote",
+          "sourceType": "opp",
+          "sourceName": "정 원내대표",
+          "sourceDetail": null,
+          "party": "국민의힘",
+          "stateBody": false
+        },
+        {
+          "id": "s3",
+          "text": null,
+          "type": "quote",
+          "sourceType": "opp",
+          "sourceName": "그",
+          "sourceDetail": null,
+          "party": "국민의힘",
+          "stateBody": false
+        },
+        {
+          "id": "s4",
+          "text": null,
+          "type": "quote",
+          "sourceType": "opp",
+          "sourceName": "정",
+          "sourceDetail": null,
+          "party": "국민의힘",
+          "stateBody": false
+        },
+        {
+          "id": "s5",
+          "text": null,
+          "type": "quote",
+          "sourceType": "opp",
+          "sourceName": "정",
+          "sourceDetail": null,
+          "party": "국민의힘",
+          "stateBody": false
+        },
+        {
+          "id": "s6",
+          "text": null,
+          "type": "quote",
+          "sourceType": "opp",
+          "sourceName": "그",
+          "sourceDetail": null,
+          "party": "국민의힘",
+          "stateBody": false
+        },
+        {
+          "id": "s7",
+          "text": null,
+          "type": "quote",
+          "sourceType": "opp",
+          "sourceName": "그",
+          "sourceDetail": null,
+          "party": "국민의힘",
+          "stateBody": false
+        },
+        {
+          "id": "s8",
+          "text": null,
+          "type": "quote",
+          "sourceType": "opp",
+          "sourceName": "정",
+          "sourceDetail": null,
+          "party": "국민의힘",
+          "stateBody": false
+        },
+        {
+          "id": "s9",
+          "text": null,
+          "type": "quote",
+          "sourceType": "opp",
+          "sourceName": "정",
+          "sourceDetail": null,
+          "party": "국민의힘",
+          "stateBody": false
+        },
+        {
+          "id": "s10",
+          "text": null,
+          "type": "quote",
+          "sourceType": "opp",
+          "sourceName": "정",
+          "sourceDetail": null,
+          "party": "국민의힘",
+          "stateBody": false
+        },
+        {
+          "id": "s11",
+          "text": null,
+          "type": "quote",
+          "sourceType": "opp",
+          "sourceName": "정 원내대표",
+          "sourceDetail": null,
+          "party": "국민의힘",
+          "stateBody": false
+        },
+        {
+          "id": "s12",
+          "text": null,
+          "type": "quote",
+          "sourceType": "opp",
+          "sourceName": "정",
+          "sourceDetail": null,
+          "party": "국민의힘",
+          "stateBody": false
+        },
+        {
+          "id": "s13",
+          "text": null,
+          "type": "quote",
+          "sourceType": "opp",
+          "sourceName": "정",
+          "sourceDetail": null,
+          "party": "국민의힘",
+          "stateBody": false
+        },
+        {
+          "id": "s14",
+          "text": null,
+          "type": "quote",
+          "sourceType": "opp",
+          "sourceName": "정",
+          "sourceDetail": null,
+          "party": "국민의힘",
+          "stateBody": false
+        },
+        {
+          "id": "s15",
+          "text": null,
+          "type": "quote",
+          "sourceType": "opp",
+          "sourceName": "정",
+          "sourceDetail": null,
+          "party": "국민의힘",
+          "stateBody": false
+        },
+        {
+          "id": "s16",
+          "text": null,
+          "type": "quote",
+          "sourceType": "opp",
+          "sourceName": "정",
+          "sourceDetail": null,
+          "party": "국민의힘",
+          "stateBody": false
+        },
+        {
+          "id": "s17",
+          "text": null,
+          "type": "quote",
+          "sourceType": "opp",
+          "sourceName": "정",
+          "sourceDetail": null,
+          "party": "국민의힘",
+          "stateBody": false
+        },
+        {
+          "id": "s18",
+          "text": null,
+          "type": "quote",
+          "sourceType": "opp",
+          "sourceName": "정",
+          "sourceDetail": null,
+          "party": "국민의힘",
+          "stateBody": false
+        },
+        {
+          "id": "s19",
+          "text": null,
+          "type": "quote",
+          "sourceType": "opp",
+          "sourceName": "정",
+          "sourceDetail": null,
+          "party": "국민의힘",
+          "stateBody": false
+        },
+        {
+          "id": "s20",
+          "text": null,
+          "type": "quote",
+          "sourceType": "opp",
+          "sourceName": "그",
+          "sourceDetail": null,
+          "party": "국민의힘",
+          "stateBody": false
+        },
+        {
+          "id": "s21",
+          "text": null,
+          "type": "quote",
+          "sourceType": "opp",
+          "sourceName": "정 원내대표",
+          "sourceDetail": null,
+          "party": "국민의힘",
+          "stateBody": false
+        }
+      ],
+      "framingTerms": [
+        {
+          "term": "강행",
+          "sentenceId": "s1"
+        },
+        {
+          "term": "엉터리",
+          "sentenceId": "s4"
+        },
+        {
+          "term": "엉망진창",
+          "sentenceId": "s11"
+        }
+      ],
+      "missingViewpoints": [],
+      "metrics": {
+        "camps": {
+          "ruling": 0,
+          "third": 0,
+          "mainOpp": 21,
+          "independent": 0
+        },
+        "slope": -1.0,
+        "slopeSmoothed": -0.913,
+        "slopeBasis": 21,
+        "excludedFromSlope": 0,
+        "institution": 0
+      }
+    },
+    {
+      "id": "a-47ff8a0e40",
+      "issueId": "auto-20261127-1342-1",
+      "outletId": "seoul",
+      "title": "정점식 “검찰총장 추가 천거, 공소취소 이행할 사람 찾나”",
+      "summary": "정점식 국민의힘 원내대표는 27일 법무부가 검찰총장 후보자를 추가 천거하기로 한 데 대해 “기존... 그러면서 “검찰총장 추가 추천과 이용철 공소취소 특임 장관 임명 강행, 탈옥 특검 임명까지 공소취소를 향한...",
+      "url": "https://www.seoul.co.kr/news/politics/2026/11/27/20261127500050?wlog_tag3=naver",
+      "publishedAt": "2026-11-27T10:01:00+09:00",
+      "sentences": [
+        {
+          "id": "s1",
+          "text": null,
+          "type": "quote",
+          "sourceType": "opp",
+          "sourceName": "정점식 원내대표",
+          "sourceDetail": null,
+          "party": "국민의힘",
+          "stateBody": false
+        },
+        {
+          "id": "s2",
+          "text": null,
+          "type": "quote",
+          "sourceType": "opp",
+          "sourceName": "정 원내대표",
+          "sourceDetail": null,
+          "party": "국민의힘",
+          "stateBody": false
+        },
+        {
+          "id": "s3",
+          "text": null,
+          "type": "quote",
+          "sourceType": "opp",
+          "sourceName": "정 원내대표",
+          "sourceDetail": null,
+          "party": "국민의힘",
+          "stateBody": false
+        },
+        {
+          "id": "s4",
+          "text": null,
+          "type": "quote",
+          "sourceType": "opp",
+          "sourceName": "정 원내대표",
+          "sourceDetail": null,
+          "party": "국민의힘",
+          "stateBody": false
+        },
+        {
+          "id": "s5",
+          "text": null,
+          "type": "quote",
+          "sourceType": "opp",
+          "sourceName": "정 원내대표",
+          "sourceDetail": null,
+          "party": "국민의힘",
+          "stateBody": false
+        },
+        {
+          "id": "s6",
+          "text": null,
+          "type": "quote",
+          "sourceType": "opp",
+          "sourceName": "정 원내대표",
+          "sourceDetail": null,
+          "party": "국민의힘",
+          "stateBody": false
+        },
+        {
+          "id": "s7",
+          "text": null,
+          "type": "quote",
+          "sourceType": "opp",
+          "sourceName": "정 원내대표",
+          "sourceDetail": null,
+          "party": "국민의힘",
+          "stateBody": false
+        },
+        {
+          "id": "s8",
+          "text": null,
+          "type": "quote",
+          "sourceType": "opp",
+          "sourceName": "정 원내대표",
+          "sourceDetail": null,
+          "party": "국민의힘",
+          "stateBody": false
+        },
+        {
+          "id": "s9",
+          "text": null,
+          "type": "quote",
+          "sourceType": "opp",
+          "sourceName": "정 원내대표",
+          "sourceDetail": null,
+          "party": "국민의힘",
+          "stateBody": false
+        },
+        {
+          "id": "s10",
+          "text": null,
+          "type": "quote",
+          "sourceType": "opp",
+          "sourceName": "정 원내대표",
+          "sourceDetail": null,
+          "party": "국민의힘",
+          "stateBody": false
+        }
+      ],
+      "framingTerms": [
+        {
+          "term": "임명 강행",
+          "sentenceId": "s2"
+        }
+      ],
+      "missingViewpoints": [],
+      "metrics": {
+        "camps": {
+          "ruling": 0,
+          "third": 0,
+          "mainOpp": 10,
+          "independent": 0
+        },
+        "slope": -1.0,
+        "slopeSmoothed": -0.833,
+        "slopeBasis": 10,
         "excludedFromSlope": 0,
         "institution": 0
       }
